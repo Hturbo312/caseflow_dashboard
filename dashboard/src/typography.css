@@ -1,0 +1,15 @@
+/* Unified UI type scale — single source of truth for every font size. */
+:root {
+  --text-2xs: 10px;  /* ids, counters, dense metadata */
+  --text-xs: 11px;   /* secondary metadata, tags, legend */
+  --text-sm: 12px;   /* dense body copy, list descriptions */
+  --text-base: 13px; /* controls, buttons, navigation */
+  --text-md: 14px;   /* card titles, emphasized labels, reading copy */
+  --text-lg: 15px;   /* primary body copy, panel titles */
+  --text-xl: 17px;   /* panel headings */
+  --text-2xl: 20px;  /* page section headings */
+  --text-3xl: 26px;  /* major headings, error states */
+  --text-display: 30px; /* drawer hero title */
+  --text-4xl: 34px;  /* hero numerals, cover initials */
+  --text-hero: 46px; /* oversized cover glyph */
+}
