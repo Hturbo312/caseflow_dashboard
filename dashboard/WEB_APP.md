@@ -35,7 +35,7 @@
 
 ## 数据刷新
 
-当前正式数据是 CaseFlow C01–C11，不再通过 `server/seed.ts` 的旧 Damp Busters 数据刷新。
+当前正式数据是 CaseFlow C01–C20，不再通过 `server/seed.ts` 的旧 Damp Busters 数据刷新。
 
 ```powershell
 # 1. 从 Excel 重新生成结构化 JSON
@@ -44,11 +44,22 @@ npm run parse:caseflow -- "C:\path\to\CaseFlow_C01-C11_完整知识与溯源合�
 # 2. 查看消歧报告（不写数据库）
 npx tsx server/import-caseflow.ts --dry-run
 
-# 3. 正式导入（会先备份数据库）
+# 3. 正式导入 C01–C11（会先备份数据库并重建案例知识表）
 npm run import:caseflow
+
+# 4. 追加 C12–C20（逐案导入，只替换本案例数据）
+npx tsx scripts/import-c12.ts
+npx tsx scripts/import-c13.ts
+npx tsx scripts/import-c14.ts
+npx tsx scripts/import-c15.ts
+npx tsx scripts/import-c16.ts
+npx tsx scripts/import-c17.ts
+npx tsx scripts/import-c18.ts
+npx tsx scripts/import-c19.ts
+npx tsx scripts/import-c20.ts
 ```
 
-导入后写入 `meta.dataset = caseflow-c01-c11`。服务启动时如果发现该标记，不会再执行旧 seed 覆盖；已有案例库也不会因 `SEED_VERSION` 变化被自动清空。若数据库结构不存在，请先启动一次 `npm start` 完成建表，再执行导入。
+导入后写入 `meta.dataset = caseflow-c01-c20`。服务启动时如果发现该标记，不会再执行旧 seed 覆盖；已有案例库也不会因 `SEED_VERSION` 变化被自动清空。若数据库结构不存在，请先启动一次 `npm start` 完成建表，再执行导入。
 
 正式导入不清空审核包和审核决定。当前源文件已有共享概念候选与映射；比较页会优先使用已审核口径，只有候选时明确显示“候选口径”，不能当作正式研究结论。
 

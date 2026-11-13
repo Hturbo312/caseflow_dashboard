@@ -2,5 +2,6 @@ node_modules/
 dist/
 dashboard/data/
 .codegraph/
+/_*
 .DS_Store
 *.log

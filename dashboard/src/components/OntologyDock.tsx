@@ -138,7 +138,7 @@ export function OntologyDock({
               <i className="scope-glyph is-shared" />
               共享概念 <em>{meta.sharedConceptCount}</em>
             </span>
-            <span className="framework-scope-note">研究者已接受 v0.2</span>
+            <span className="framework-scope-note">研究者已接受 v1.0</span>
           </div>
           <div className="framework-legend-foot">
             <div className="legend-lines">

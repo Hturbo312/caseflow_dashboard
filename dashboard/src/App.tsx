@@ -553,7 +553,7 @@ export default function App() {
             </div>
             <div className="graph-version-stamp">
               <SparkIcon size={11} />
-              {bootstrap.meta.relationCount} 条关系 · C01–C11
+              {bootstrap.meta.relationCount} 条关系 · {bootstrap.cases[0]?.code}–{bootstrap.cases[bootstrap.cases.length - 1]?.code}
             </div>
           </div>
 
