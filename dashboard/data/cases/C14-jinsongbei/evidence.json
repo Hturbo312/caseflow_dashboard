@@ -1,0 +1,1012 @@
+{
+  "case_id": "C14",
+  "gate": "G2",
+  "generated_at": "2026-11-13",
+  "status": "confirmed",
+  "count": 56,
+  "materials_covered": [
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M10",
+    "M11"
+  ],
+  "uncovered_materials": [
+    "M12",
+    "M13",
+    "M14",
+    "M15",
+    "M16",
+    "M17"
+  ],
+  "core_smart_evidence": [
+    "M04-E01",
+    "M05-E01",
+    "M07-E01",
+    "M07-E04",
+    "M09-E01",
+    "M09-E02",
+    "M10-E02",
+    "M11-E03"
+  ],
+  "age_friendly_evidence": [
+    "M02-E12",
+    "M04-E07",
+    "M07-E01",
+    "M07-E02",
+    "M07-E03",
+    "M07-E04",
+    "M08-E01"
+  ],
+  "quote_validation": {
+    "checked": 56,
+    "failed": []
+  },
+  "evidence": [
+    {
+      "evidence_id": "M01-E01",
+      "material_id": "M01",
+      "statement": "劲松北社区老旧小区综合整治项目主要覆盖劲松一区、二区；社区始建于1978年，有居民楼43栋，总建筑面积19.4万平方米。",
+      "locator": "M01 正文第1段",
+      "quote_or_span": "劲松北社区老旧小区综合整治项目位于朝阳区劲松街道，主要包括劲松一区、二区，该社区始建于1978年，共有居民楼43栋，总建筑面积19.4万㎡。",
+      "context": "项目概况",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "scope",
+        "physical_renewal"
+      ],
+      "notes": "空间边界与规模的基础证据；户数不在本段。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M01-E02",
+      "material_id": "M01",
+      "statement": "项目采用“区级统筹、街乡主导、社区协调、居民议事、企业运作”的五方联动推进模式。",
+      "locator": "M01 正文第3段",
+      "quote_or_span": "推进模式——以人民为中心，党建引领，创新“区级统筹，街乡主导，社区协调，居民议事，企业运作”的“五方联动”推进模式。",
+      "context": "治理机制",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "governance",
+        "five_party"
+      ],
+      "notes": "官方概括；具体分工需 G3 展开。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M01-E03",
+      "material_id": "M01",
+      "statement": "官方将“智能化”列为示范区改造的四个内容类别之一，但未列出具体技术、设备或平台。",
+      "locator": "M01 正文第4段",
+      "quote_or_span": "改造内容——打造了以“一街”，“两园”，“两核心”，“多节点”为改造重点的示范区，围绕公共空间、智能化、服务业态、社区文化等实施改造。",
+      "context": "改造内容",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "smart_label",
+        "physical_renewal"
+      ],
+      "notes": "类别级表述，不能据此认定智慧治理体系已建成。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M01-E04",
+      "material_id": "M01",
+      "statement": "物业引入采用“双过半”和“先尝后买”方式。",
+      "locator": "M01 正文第5段",
+      "quote_or_span": "引入物业——运用“双过半”和“先尝后买”方式提升老旧小区物业服务专业化水平上率先突破，让居民在感受到生活品质提升基础上逐步接受物业服务付费理念。",
+      "context": "物业引入",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "property",
+        "participation"
+      ],
+      "notes": "未给双过半的具体票数与面积口径。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M02-E01",
+      "material_id": "M02",
+      "statement": "劲松北社区总占地面积0.26平方公里，居民楼43栋，总户数4199户，常住人口9494人，老年住户比率39.6%，老年住户中独居老人比率52%。",
+      "locator": "M02 正文第3段",
+      "quote_or_span": "劲松北社区始建于1978年，总占地面积 0.26 平方公里，总建筑面积 19.4万㎡，1976年由北京市建筑设计院（现北京市建筑设计研究院有限公司）主持设计。共有居民楼 43栋，总户数4199户，常住人口9494人，老年住户比率39.6%，老年住户中独居老人比率52%。",
+      "context": "社区概况",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "scope",
+        "demography"
+      ],
+      "notes": "4199户与 M03/M05 的3605户口径不同，G4 需按“社区总户数/项目户数”拆分。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M02-E02",
+      "material_id": "M02",
+      "statement": "2018年7月，劲松街道与愿景集团接洽，规划设计团队开展项目研究、详细规划、施工配合、跟踪运营四个阶段，形成劲松1—8区定位规划、劲松北社区分区详细规划与示范区实施规划。",
+      "locator": "M02 正文第20段",
+      "quote_or_span": "2018年7月，劲松街道办事处与社会资本方愿景集团接洽，探讨劲松地区的合作模式及实施区域， 规划设计团队关注老旧小区的突出特点，遵循上位规划要求，从片区规划、分区规划到示范区规划，从整体到局部，分层分阶段落实。有序展开包含项目研究、详细规划、施工配合、跟踪运营在内的 “沉浸式设计” ，四个阶段持续深化研究，逐渐形成令居民满意的 “有深度、有精度、有温度” 的劲松1—8片区定位规划、劲松北社区分区详细规划及劲松北社区示范区实施规划三个分层规划方案。",
+      "context": "合作启动与规划",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "partnership",
+        "planning"
+      ],
+      "notes": "与 M03 的“签订战略合作协议”可互补：M02 记接洽，M03 记签约。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M02-E03",
+      "material_id": "M02",
+      "statement": "项目初期通过线上线下共计2300多份调研问卷识别居民最急迫的需求。",
+      "locator": "M02 正文第22段",
+      "quote_or_span": "调研问卷形式效率高，信息含量大，方便统计共性数据。劲松项目初期，通过线上线下 共计2300多份调研问卷 ，梳理出居民最急迫的需求：增加车位、加装电梯、生鲜蔬菜店、社区食堂、早餐店、理发店、生活超市、社区健身等 。",
+      "context": "居民需求识别",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "participation",
+        "needs_assessment"
+      ],
+      "notes": "与 M05 的“2380人访谈”是不同方法/口径，不能合并。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M02-E04",
+      "material_id": "M02",
+      "statement": "2018—2020年持续研究期间，项目邀请居民深度参与，坚持“方案居民做主”，形成“一带、两园、三街、四区、多点”的详细规划方案。",
+      "locator": "M02 正文第29段",
+      "quote_or_span": "经过2018年—2020年的持续深入研究，按照植物文化的片区定位，围绕“七有”目标、“五性” 需要，突出解决无障碍、便民服务、公共环境提升等问题，邀请居民深度参与，坚持 “方案居民做主“ ，对劲松北社区逐步形成 ”一带、两园、三街、四区、多点“ 结构的详细规划方案。",
+      "context": "规划方案",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "participation",
+        "planning"
+      ],
+      "notes": "“方案居民做主”为项目方叙述，具体参与强度需 G3 以议事会记录核验。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M02-E05",
+      "material_id": "M02",
+      "statement": "示范区于2019年5月6日开工、2019年8月2日完工，历时3个月，完成劲松西街强电架空线入地、两个公园提升、沿街配套用房改造、无障碍系统完善，并引入理发店、匠心工坊、社区食堂、百年义利等便民业态。",
+      "locator": "M02 正文第30段",
+      "quote_or_span": "示范区作为先行启动区，在劲松北社区范围内选取劲松西街、劲松大公园、209楼前小花园、劲松北社区居委会、物业服务中心及劲松西街沿街配套用房，于2019年5月6日开工建设，8月2日完工亮相，历时3个月，完成劲松西街强电架空线入地、两个公园提升、沿街配套服务用房改造、无障碍系统完善等建设内容，并引入理发店、匠心工坊、社区食堂、百年义利等便民服务业态，方便居民生活，提升社区品质。",
+      "context": "示范区建设",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "physical_renewal",
+        "timeline"
+      ],
+      "notes": "官方日期；有媒体称2019年9月完工，G3 需并列。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M02-E06",
+      "material_id": "M02",
+      "statement": "项目由区级领导统筹，形成区委办局、街道办事处、居委会、社会单位和居民代表共商共建共治的“五方联动”工作平台；社区党委牵头组建居民党支部、物业党支部、企业党支部参与的“党建共同体”。",
+      "locator": "M02 正文第57段",
+      "quote_or_span": "围绕“七有”“五性”“以人民为中心”的要求，由区级领导统筹形成区委办局、街道办事处、居委会、社会单位和居民代表共商共建共治的“五方联动”工作平台。 社区党委牵头，带动居民党支部、物业党支部、企业党支部共同组建 “党建共同体” ，充分发挥和强化党建的引领和主导作用。",
+      "context": "治理机制",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "governance",
+        "five_party",
+        "party_building"
+      ],
+      "notes": "五方主体与 M01 的表述一致，但具体职责仍需 G3 对照其他材料。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M02-E07",
+      "material_id": "M02",
+      "statement": "劲松街道使用市区两级财政资金进行基础类改造，社会资本以自有资金投入提升类项目，并通过低效空间经营收益、物业费、停车管理费和社区养老等有偿服务实现投资平衡，预计10年左右收回投资。",
+      "locator": "M02 正文第58段",
+      "quote_or_span": "劲松街道使用市区两级财政资金进行社区基础类改造，引入社会资本使用自有资金投入提升类项目改造，通过对社区低效空间经营收益、物业服务收费、停车管理收费以及社区养老等有偿服务实现投资平衡，预计10年左右收回投资。",
+      "context": "投融资机制",
+      "verification_status": "quoted_from_source",
+      "status_hint": "planned",
+      "themes": [
+        "funding",
+        "micro_profit"
+      ],
+      "notes": "“预计10年左右收回”是测算/预期，不是已实现结果。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M02-E08",
+      "material_id": "M02",
+      "statement": "官方将改造目标概括为“软硬兼顾”，其中硬件环境包括“平安、有序、宜居、智慧”四个形容词。",
+      "locator": "M02 正文第59段",
+      "quote_or_span": "以社区善治为本促进老旧小区改造 “软硬兼顾” 。既注重硬件设施提升，创造平安、有序、宜居、智慧的优质社区环境；又注重美好社区运营，营造敬老爱幼、邻里和睦、守望相助的和谐社区氛围。",
+      "context": "改造理念",
+      "verification_status": "quoted_from_source",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "smart_label",
+        "governance"
+      ],
+      "notes": "“智慧”在此为形容词，未对应具体技术或平台。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M02-E09",
+      "material_id": "M02",
+      "statement": "劲松北社区是北京市第一个以“居民户数过半、建筑面积过半”的“双过半”形式引入专业物业服务的老旧小区，采用“先尝后买”。",
+      "locator": "M02 正文第60段",
+      "quote_or_span": "劲松北社区是北京市以 “居民户数过半、建筑面积过半”“双过半” 形式引入专业物业服务的第一个老旧小区，通过“先尝后买”的方式，让居民感受到生活品质提升后，接受物业服务付费，期待持续优质的物业服务。",
+      "context": "物业引入",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "property",
+        "participation"
+      ],
+      "notes": "“第一个”为官方评价，G4 可作为报道性表述保留。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M02-E10",
+      "material_id": "M02",
+      "statement": "劲松1—8区分为劲松北社区（1—2区）、劲松东社区（3—4区）、劲松中社区（5—6区）、劲松西社区（7—8区）四个社区，项目首先启动劲松北社区。",
+      "locator": "M02 正文第53段",
+      "quote_or_span": "劲松1—8区分为劲松北社区（1—2区）、劲松东社区（3—4区）、劲松中社区（5—6区）、劲松西社区（7—8区）四个社区， 分阶段对各个社区进行综合整治规划设计 。首先启动劲松北社区，街区的共性需求结合北社区的个性需求，进行综合考虑，详细规划。",
+      "context": "空间范围",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "scope"
+      ],
+      "notes": "明确北社区=1—2区，支持研究者确认的空间边界。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M02-E11",
+      "material_id": "M02",
+      "statement": "示范区由社会资本投资先行实施，居民全程深度参与规划设计，方案经多次居民议事会意见调整后形成。",
+      "locator": "M02 正文第54段",
+      "quote_or_span": "在劲松北社区中，选取小片示范区，由社会资本投资，先行实施。居民全程深度参与规划设计，设计方案 以居民需求为出发点 ，经多次居民议事会意见调整，最终形成令居民满意的规划实施方案。",
+      "context": "示范区与居民参与",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "participation",
+        "physical_renewal"
+      ],
+      "notes": "“多次”未给次数；M05 称不下20次，需并列。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M02-E12",
+      "material_id": "M02",
+      "statement": "项目方称无障碍体系完善后提高了居民出行频率，并促进室外活动与社交。",
+      "locator": "M02 正文第41段",
+      "quote_or_span": "在示范区的运营过程中，完善的无障碍体系，提高了居民出行的频率，在条件便捷的环境里，居民们希望可以经常走进社区公园，进行室外活动。这些室外活动不仅有助于居民的身体健康，通过室外活动产生的社交，更有助于居民的心理健康。",
+      "context": "无障碍改造效果",
+      "verification_status": "quoted_from_source",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "age_friendly",
+        "outcome"
+      ],
+      "notes": "因果性表述为项目方判断，缺少使用数据；G4 只记“项目方称”。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M03-E01",
+      "material_id": "M03",
+      "statement": "劲松北社区总占地面积26公顷，居民楼43栋，项目涉及总户数3605户，老年居民比率39.6%，其中独居老人占比52%。",
+      "locator": "M03 正文第2段",
+      "quote_or_span": "北京市朝阳区劲松街道劲松北社区为改革开放后第一批成建制住宅，总占地面积26公顷，有居民楼43栋，项目涉及总户数3605户，老年居民比率39.6%、其中独居老人占比52%，配套设施不足，生活服务便利性差，居民对加装电梯、完善无障碍设施、丰富便民服务、提升社区环境等呼声很高。",
+      "context": "项目概况",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "scope",
+        "demography"
+      ],
+      "notes": "3605为“项目涉及总户数”，与 M02 的4199“社区总户数”不同。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M03-E02",
+      "material_id": "M03",
+      "statement": "2018年7月，朝阳区劲松街道与愿景集团签订战略合作协议；社会资本投入自有资金3000万元，占总投入的45%；项目采用“五方联动”劲松模式。",
+      "locator": "M03 正文第2段",
+      "quote_or_span": "为了改变这种情况，朝阳区开始尝试引入社会资本，在通过征求民意、社会招标、洽谈协商等环节之后，2018年7月朝阳区劲松街道与社会资本愿景集团签订战略合作协议，社会资本投入自有资金3000万元（占总投入的45%）参与改造，共同推进劲松北社区有机更新，打造出“区级统筹，街乡主导，社区协调，居民议事，企业运作”的“五方联动”劲松模式。",
+      "context": "合作与投资",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "partnership",
+        "funding",
+        "five_party"
+      ],
+      "notes": "3000万/45%与 M10 的2.9亿总投资口径不同，G4 需拆分“一期/全项目”。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M03-E03",
+      "material_id": "M03",
+      "statement": "示范区和一、二区公共区域改造覆盖公共空间、智能化、服务业态、社区文化四大类16小类30余项专项作业，并搭建多方共建共商共治平台、引进长效物业管理。",
+      "locator": "M03 正文第3段",
+      "quote_or_span": "通过以“一街”（劲松西街），“两园”（劲松园、209 小花园），“两核心”（社区居委会、物业中心），“多节点”（社区食堂、卫生服务站、美好会客厅、自行车棚、匠心工坊等）为改造重点的示范区和一二区公共区域进行改造，围绕公共空间、智能化、服务业态、社区文化四大类16小类30余项专项作业实施改造。搭建多方共建共商共治平台，引进长效物业管理，开展丰富的社区活动，补齐社区短板，建设成为环境优美、服务便民、治理有序、居民和谐的完整社区，切实提升居民的居住环境和生活质量。",
+      "context": "改造范围",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "physical_renewal",
+        "smart_label",
+        "property"
+      ],
+      "notes": "“智能化”仍为类别，未列具体项目；16小类/30余项可用于 G3 规模描述。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M03-E04",
+      "material_id": "M03",
+      "statement": "官方将劲松模式概括为党建引领、以人民为中心、引入社会资本、创新“微利可持续”的模式。",
+      "locator": "M03 正文第4段",
+      "quote_or_span": "“劲松模式”是北京市坚持党建引领、以人民为中心，引入社会资本参与老旧小区改造的率先实践，创新了微利可持续的模式，实现了政府和市场力量高效联动，从硬件环境、服务水平、社区共治等多方面系统提升老旧小区改造成效。",
+      "context": "模式定位",
+      "verification_status": "quoted_from_source",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "model",
+        "micro_profit"
+      ],
+      "notes": "官方评价性概括；“微利可持续”是否实现需 G4/G6 以运营数据检验。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M03-E05",
+      "material_id": "M03",
+      "statement": "区、街道授权企业对社区存量低效空间进行改造提升并享有长期运营权；企业通过便民业态经营与街道政府购买服务补贴逐步收回改造投入。",
+      "locator": "M03 正文第7段",
+      "quote_or_span": "将处于沉睡中的社区存量低效空间“唤醒”，作为社会资本投资回报的重要资源，区、街道授权企业对其进行改造提升并享有长期运营权。目前已在经营的业态都是基于居民调研及需求来确定的，包括美好邻里食堂、美好理发、匠心工坊、便民菜站和百年义利副食店。企业通过引入与民生相关的社区服务业态，以及街道的政府购买服务补贴等方式，逐步收回前期改造投入成本，实现“微利可持续”。",
+      "context": "空间运营与回报",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "funding",
+        "space_operation",
+        "micro_profit"
+      ],
+      "notes": "“长期运营权”未给年限、租金、面积与合同条件。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M03-E06",
+      "material_id": "M03",
+      "statement": "项目打破设计、施工、运营割裂，以运营和服务为目标形成“软硬兼顾”的系统方案，招标方式从以工程为主转向包含运营服务内容。",
+      "locator": "M03 正文第8段",
+      "quote_or_span": "打破设计、施工、运营等各环节的割裂状态，以运营和服务为目标建立质效考量标准，形成老旧小区硬件改造、软件提升的系统方案。通过“软硬兼顾”的改造理念和方式，实现了以老旧小区改造为契机、系统解决社区长效运营服务的问题。同时，也促进了老旧小区改造项目组织运行模式的创新优化，招标方式也从工程为主转向为包含更多“软硬兼顾”要求和运营服务的内容。",
+      "context": "实施机制",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "model",
+        "procurement"
+      ],
+      "notes": "可用于解释“运营前置”的组织逻辑。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M03-E07",
+      "material_id": "M03",
+      "statement": "居民全程参与改造和治理；以“双过半”引入专业物业；通过政府扶持、企业多种经营、居民付费建立“自造血”机制，并推进“物业+为老”服务。",
+      "locator": "M03 正文第9段",
+      "quote_or_span": "居民全程参与老旧小区改造和治理过程，诉求更多得到满足，共商共建共治社区氛围更加浓厚。采取“先尝后买”的方式，以“居民户数过半、建筑面积过半”的“双过半”形成实现专业物业服务的入驻。通过政府适度扶持、企业多种经营、居民收益付费等综合方式，逐步建立起老旧小区长效服务“自造血”机制。在满足基本物业服务的基础上，持续推进“物业＋为老”项目服务机制建立及落地运行，将物业全天候响应、维修、保洁、商户管理和社区居家养老服务有机结合起来，形成集约高效的社区为老服务机制。",
+      "context": "物业与为老服务",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "property",
+        "age_friendly",
+        "micro_profit"
+      ],
+      "notes": "“物业+为老”与 M08 的“物业+养老”可对应，但是否同一机制需 G3 核对。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M03-E08",
+      "material_id": "M03",
+      "statement": "区级建立“区级统筹、条块协同”领导机制；街道依托“街乡吹哨、部门报到”；社区建立社区党委牵头、居民党支部和企业党支部参与的“党建共同体”。",
+      "locator": "M03 正文第6段",
+      "quote_or_span": "突破老旧小区改造的工程思维和工作范式，坚持党建引领，在区级层面建立“区级统筹、条块协同”领导机制；街道层面依托“街乡吹哨，部门报到”制度，协调推动政府、企业、居民各方目标和诉求在改造中达成一致；社区层面建立社区党委牵头，居民党支部、企业党支部等参与的社区“党建共同体”，让基层党建的优势在老旧小区改造和治理中得以充分展现。",
+      "context": "党建引领",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "governance",
+        "party_building"
+      ],
+      "notes": "三层组织机制可与 M02-E06 合并为 G3 的治理结构段。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M04-E01",
+      "material_id": "M04",
+      "statement": "209号楼附近原本杂乱的停车棚改造为“匠心工坊”，车棚另一边升级为智能车棚，为电动自行车等提供充电服务。",
+      "locator": "M04 正文第5段",
+      "quote_or_span": "车棚的另一边升级成智能车棚，为电动自行车等提供充电服务。",
+      "context": "智能车棚",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "smart_device",
+        "physical_renewal"
+      ],
+      "notes": "“智能车棚”仅给充电功能，未说明联网、计费、消防或平台接入。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M04-E02",
+      "material_id": "M04",
+      "statement": "劲松北社区有千余平方米低效空间被激活，用于便民业态，既开拓企业盈利空间，也提供服务。",
+      "locator": "M04 正文第7段",
+      "quote_or_span": "在这里，有千余平方米低效空间像“匠心工坊”、“美好理发”一样被激活，焕然一新的百年义利便利店、美好会客厅、社区老年食堂，不仅开拓了企业的盈利空间，更为社区居民提供了舒适便利的服务。",
+      "context": "空间盘活",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "space_operation",
+        "funding"
+      ],
+      "notes": "“千余平方米”为约数，未给具体面积与租金。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M04-E03",
+      "material_id": "M04",
+      "statement": "美好会客厅内由愿景物业组建“社区共建者”团队，开设手机班、健康班和兴趣班，向老人传授智能手机使用技巧。",
+      "locator": "M04 正文第8段",
+      "quote_or_span": "结合社区老年人的建议和需求，愿景物业组建了“社区共建者”团队，在美好会客厅内开设手机班、健康班和兴趣班，由“社区共建者”团队定期向老人传授智能手机使用技巧以及简单实用的健康知识。",
+      "context": "数字素养服务",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "digital_literacy",
+        "age_friendly",
+        "service"
+      ],
+      "notes": "这是“数字素养”而非“智慧治理平台”，G4 应分列。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M04-E04",
+      "material_id": "M04",
+      "statement": "社区党委带领居民党支部包楼包院开展需求征集，一楼一院开展群众问需会10余场，并将居民细分为青年、中年、老年三类调研。",
+      "locator": "M04 正文第10段",
+      "quote_or_span": "在小区改造过程中，社区党委带领居民党支部以包楼包院的方式，主动开展需求征集，一楼一院开展群众问需会10余场，集中征求群众意见，形成思想共识。项目改造提升过程中，将小区居民细分为青年、中年、老年三类人群，对他们各自的需求进行了深入调研。",
+      "context": "居民参与",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "participation",
+        "party_building"
+      ],
+      "notes": "可用于 G3 的“需求识别”段；未给问需会日期与参与人数。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M04-E05",
+      "material_id": "M04",
+      "statement": "公园方案根据居民建议把喷泉池改为儿童滑梯、让塑胶跑道向南偏移、反复调整乒乓球区域，并在开工后继续修改。",
+      "locator": "M04 正文第11段",
+      "quote_or_span": "根据居民的建议，原本设计稿中的喷泉池改成了儿童滑梯，塑胶跑道也向南甩了一个弯，以免跑步者打扰邻里休息。乒乓球区域的设计更是改了一稿又一稿，甚至在开工后还数次调整。",
+      "context": "方案调整",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "participation",
+        "physical_renewal"
+      ],
+      "notes": "具体调整内容可作为“居民参与影响设计”的证据。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M04-E06",
+      "material_id": "M04",
+      "statement": "愿景集团负责人称，居民自主缴纳物业费已达到75%，在老旧小区中属于较高比例。",
+      "locator": "M04 正文第13段",
+      "quote_or_span": "“目前，居民自主缴纳物业费已经达到了75%，这在老旧小区中已经是相当高的比例”",
+      "context": "物业费收缴",
+      "verification_status": "quoted_from_source",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "property",
+        "outcome"
+      ],
+      "notes": "企业方引述，未给统计时点、分母、欠缴户与计算口径；与 M06 的60%（2020-06）构成时间序列。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M04-E07",
+      "material_id": "M04",
+      "statement": "社区在老年食堂、晾衣杆、座前扶手、桌椅防撞条、树坑渗水砖等细节上进行了适老化与安全改造。",
+      "locator": "M04 正文第12段",
+      "quote_or_span": "物美价廉的老年食堂、楼前的晾衣杆、座前的扶手、桌椅尖锐处包裹着的防撞条、树坑处填平的渗水砖，在劲松北社区，这些小细节、细微处彰显了民意、温暖了民心。",
+      "context": "适老化细节",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "age_friendly",
+        "physical_renewal"
+      ],
+      "notes": "扶手、防撞条等按研究者裁决归入适老化，不自动归入智慧治理。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M05-E01",
+      "material_id": "M05",
+      "statement": "2019年10月的媒体报道称，劲松北社区入口由人脸识别系统把守。",
+      "locator": "M05 正文第2段",
+      "quote_or_span": "40岁的老小区却丝毫不见垂暮之气——人脸识别系统把守着小区入口，院落干净整洁，绿地翠意盎然。",
+      "context": "智能门禁/人脸识别",
+      "verification_status": "quoted_from_source",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "smart_device",
+        "access_control"
+      ],
+      "notes": "研究者已裁决 M05 降为背景。该句为记者现场叙述，未给设备型号、覆盖入口、启用时间、数据去向；与 M07 的“智能门禁”可能同一或不同批次。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M05-E02",
+      "material_id": "M05",
+      "statement": "项目团队称走访2380位居民，居民召开不下20次议事会，形成停车管理、治安、景观、灯光、电梯加装等21大类51项，每项由居民拍板；一、二区党员和143位楼门长参与推进。",
+      "locator": "M05 正文第5段",
+      "quote_or_span": "“早在项目启动之初，我们就走访了2380位居民，梳理出不同年龄段人群最迫切的改造需求。”刘楚说，为了实现更加精准的需求管控，真正做到“民有所呼，我有所应”，劲松街道和企业项目团队以入户访谈、现场调研、居民议事会、评审会等方式收集居民需求。而对于社区的整体改造方案，居民更是足足开了不下20次议事会，反复推敲，最终才达成一致。停车管理、治安、景观、灯光、电梯加装等21大类、51项，每一项都由社区居民拍板定夺。",
+      "context": "居民参与",
+      "verification_status": "quoted_from_source",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "participation"
+      ],
+      "notes": "M05 为背景材料；2380人与 M02 的2300+问卷是不同口径，不能合并。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M05-E03",
+      "material_id": "M05",
+      "statement": "2019年6月，经劲松一、二区业主投票，愿景集团物业正式入驻。",
+      "locator": "M05 正文第7段",
+      "quote_or_span": "今年6月，经劲松一、二区的业主投票，愿景集团物业正式入驻。",
+      "context": "物业入驻",
+      "verification_status": "quoted_from_source",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "property",
+        "participation"
+      ],
+      "notes": "M05 为2019-10-24报道，“今年6月”指2019-06；与 M02 的“双过半”可互证，但缺少投票记录。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M05-E04",
+      "material_id": "M05",
+      "statement": "项目负责人称，一、二区共有居民3605户，40%是60岁以上老年人，37%是租房的年轻人。",
+      "locator": "M05 正文第4段",
+      "quote_or_span": "“一、二区共有居民3605户，40%是60岁以上的老年人，37%是在此租房的年轻人。",
+      "context": "人口结构",
+      "verification_status": "quoted_from_source",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "demography"
+      ],
+      "notes": "M05 为背景材料；40%与 M02/M03 的39.6%接近但不完全一致，G4 保留原口径。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M05-E05",
+      "material_id": "M05",
+      "statement": "项目负责人称，企业投入的改造资金约在14年后全部收回，并实现微利、可持续经营。",
+      "locator": "M05 正文第4段",
+      "quote_or_span": "据测算，企业投入的改造资金约在14年后全部收回，并实现微利、可持续经营。",
+      "context": "投资回收",
+      "verification_status": "quoted_from_source",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "funding",
+        "micro_profit"
+      ],
+      "notes": "M05 为背景材料；14年与 M02 的10年、M13 摘要的10年+8%-10%现金流不一致，G4 标为口径争议。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M05-E06",
+      "material_id": "M05",
+      "statement": "2019年报道称，劲松社区二区示范区经过半年施工，投入四千余万元，基本完成改造。",
+      "locator": "M05 正文第34段",
+      "quote_or_span": "经过半年的施工，投入四千余万元的劲松社区二区示范区基本完成了改造工作。",
+      "context": "投资口径",
+      "verification_status": "quoted_from_source",
+      "status_hint": "disputed",
+      "themes": [
+        "funding"
+      ],
+      "notes": "M05 为背景材料；4000余万元与 M03 的3000万/45%、M10 的2.9亿均不同，可能分指示范区/一期/全项目，G4 不得合并。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M05-E07",
+      "material_id": "M05",
+      "statement": "车棚一角设有自动面条机，用户扫码付款即可获得汤面，报道称其“既智能又便捷”。",
+      "locator": "M05 正文第29段",
+      "quote_or_span": "在车棚的一角有立着一个“奇怪”的机器，上前去研究了一番才发现原来是个“自动面条机”。用户仅需拿出手机扫码付款，就可以得到一碗热乎乎的汤面，既智能又便捷",
+      "context": "“智能”标签",
+      "verification_status": "quoted_from_source",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "smart_label",
+        "service"
+      ],
+      "notes": "M05 为背景材料；扫码售卖机被称“智能”，说明“智能”一词在报道中使用宽泛，G4 不应据此认定智慧治理。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M06-E01",
+      "material_id": "M06",
+      "statement": "劲松北社区的成本分担思路是“政府让利、盘活资源；企业微利、长期可持续；居民获利、先体验后购买”。",
+      "locator": "M06 正文第2段",
+      "quote_or_span": "于是，劲松北社区想到的办法是：政府让利，盘活老旧小区资源；企业微利，确保长期可持续；居民获利，先体验后购买。",
+      "context": "成本分担",
+      "verification_status": "quoted_from_excerpt",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "model",
+        "funding",
+        "micro_profit"
+      ],
+      "notes": "M06 为节选；该句是模式概括，不是三方协议原文。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M06-E02",
+      "material_id": "M06",
+      "statement": "街道给予企业3年物业扶持期，将原来“政府兜底”的资金拨付给企业，同时引导居民形成物业缴费习惯。",
+      "locator": "M06 正文第4段",
+      "quote_or_span": "街道给了3年的物业扶持期，将原来“政府兜底”的资金拨付给企业，同时让企业通过提供专业的服务，引导培养居民物业缴费习惯。",
+      "context": "物业扶持",
+      "verification_status": "quoted_from_excerpt",
+      "status_hint": "implemented",
+      "themes": [
+        "property",
+        "funding"
+      ],
+      "notes": "M06 为节选；3年扶持期的起止日期、金额与拨付方式未给。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M06-E03",
+      "material_id": "M06",
+      "statement": "物业服务承诺居民需求3分钟内受理、10分钟内上门，并实行24小时值守、每日清扫与每周垃圾桶清洗。",
+      "locator": "M06 正文第5段",
+      "quote_or_span": "小区出入口，24小时专人值守，一天安保巡逻3次；垃圾桶每周清洗1次，楼外道路每日清扫1次，巡视保洁两次；居民的服务需求，3分钟内受理，10分钟内上门",
+      "context": "物业服务标准",
+      "verification_status": "quoted_from_excerpt",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "property",
+        "service"
+      ],
+      "notes": "M06 为节选；这是服务承诺/报道，缺少工单系统与响应时长记录。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M06-E04",
+      "material_id": "M06",
+      "statement": "物业费按直管公房价格统一，多层0.43元/平方米、高层1.42元/平方米；从2020年初开始收费，截至2020年6月底收缴率达到60%。",
+      "locator": "M06 正文第6段",
+      "quote_or_span": "“我们以直管公房价格统一了物业收费标准，多层0.43元/平方米，高层1.42元/平方米。”韦民乐表示，这个价格在北京来说，是非常便宜的。“根据先尝后买原则，从2020年初开始收费，截至6月底，劲松北社区的物业费收缴率达到了60%。”",
+      "context": "物业费与收缴率",
+      "verification_status": "quoted_from_excerpt",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "property",
+        "outcome"
+      ],
+      "notes": "M06 为节选；60%为2020-06数据，与 M04 的75%（2020-11）构成时间序列。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M06-E05",
+      "material_id": "M06",
+      "statement": "愿景集团项目总经理称，房子怎么改、哪些行业能入驻，都由居民投票决定。",
+      "locator": "M06 正文第3段",
+      "quote_or_span": "“这些房子怎么改，哪些行业能入驻，都是居民投票决定。”愿景集团城区更新事业部项目总经理韦民乐说",
+      "context": "居民参与",
+      "verification_status": "quoted_from_excerpt",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "participation"
+      ],
+      "notes": "M06 为节选；企业方陈述，未给投票范围、票数与结果。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M07-E01",
+      "material_id": "M07",
+      "statement": "报道称劲松北社区利用智慧科技改善老年人的宜居体验。",
+      "locator": "M07 正文第3段",
+      "quote_or_span": "劲松北社区则是利用智慧科技，为老年人的宜居体验添砖加瓦。",
+      "context": "智慧科技与适老化",
+      "verification_status": "quoted_from_source",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "smart_label",
+        "age_friendly"
+      ],
+      "notes": "“智慧科技”为报道用语，后文具体物件是爬楼机、电动轮椅、智能门禁、坡道；G4 需分列。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M07-E02",
+      "material_id": "M07",
+      "statement": "爬楼机外形似轮椅，靠背后方有两条履带，需在志愿者协助下开启履带开关，帮助老人上下楼。",
+      "locator": "M07 正文第4段",
+      "quote_or_span": "“爬楼机”，外形酷似轮椅，是老年人上楼的代步工具。与轮椅不同的是，爬楼机的靠背后方装有两条履带，老人在使用爬楼机的过程中，在志愿者的协助作用下，开启爬楼机履带开关按钮，在志愿者与履带的协同作用下，助力老人上下楼梯。",
+      "context": "爬楼机",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "age_friendly",
+        "assistive_device"
+      ],
+      "notes": "需志愿者协助；不是联网/数据设备，按规则不归入智慧治理。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M07-E03",
+      "material_id": "M07",
+      "statement": "社区负责人称，劲松社区在适老化改造中共引入9台爬楼机、12台电动轮椅，放置在不同区域社区居委会，供居民租借，并在社区间协调调度。",
+      "locator": "M07 正文第6段",
+      "quote_or_span": "据社区负责人介绍，劲松社区在此次适老化改造规程中，共引入9台爬楼机、12台电动轮椅，分别放置在不同区域社区居委会，方便居民租借使用，如果遇到同一社区多位老人同时使用的情况，各个社区通过互相协调的方式，调度设备保证老人出行。",
+      "context": "适老化设备规模",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "age_friendly",
+        "assistive_device",
+        "quantity"
+      ],
+      "notes": "原文称“劲松社区”，可能覆盖多个社区；不等于劲松北独有，G4 需保留原范围。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M07-E04",
+      "material_id": "M07",
+      "statement": "劲松北社区进行全坡道建设，开设美好食堂、美好会客厅、美好理发店，并安装智能门禁。",
+      "locator": "M07 正文第7段",
+      "quote_or_span": "劲松北社区引进软性无障碍服务的同时，还将劲松社区进行全坡道建设，为老年人出行提供了周到便利保障，不仅如此，社区还专门为老年人开设美好食堂、美好会客厅、美好理发店以及安装智能门禁等设施，满足社区老年居民多样化、多层次的需求。",
+      "context": "无障碍与智能门禁",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "age_friendly",
+        "smart_device",
+        "access_control"
+      ],
+      "notes": "“智能门禁”与 M05 的“人脸识别系统”可能同一或不同批次；本句未说明识别方式、覆盖入口与数据。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M08-E01",
+      "material_id": "M08",
+      "statement": "报道称劲松北社区从2020年开始试点“物业+养老”，为有需要的老人安装紧急呼叫器、安全扶手等适老化设备，建立为老服务清单，并接第三方机构响应。",
+      "locator": "M08 正文第14段",
+      "quote_or_span": "北京市朝阳区劲松北社区从2020年开始，借助老旧小区改造，从社会上引入了物业公司，开始试点“物业+养老”的新模式，并给有需要的老年朋友家里安装各种紧急呼叫器、安全扶手等适老化设备，还为小区所有老年朋友梳理了一张为老服务清单，对接第三方机构第一时间及时响应服务。",
+      "context": "物业+养老",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "age_friendly",
+        "service",
+        "property"
+      ],
+      "notes": "紧急呼叫器可能联网，但本句未说明是否接入平台；按规则默认归入适老化，待证据升级。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M09-E01",
+      "material_id": "M09",
+      "statement": "愿景和家智慧社区高级总监张萌立称，以HEDATA平台为支撑，劲松北社区等项目已完成智慧社区改造，覆盖居民、物业、街道等多领域服务需求。",
+      "locator": "M09 正文第16段",
+      "quote_or_span": "据愿景和家智慧社区高级总监张萌立介绍，在社区基层治理方面，以愿景和家智慧社区综合管理平台HEDATA为支撑，目前已在朝阳劲松北社区等项目完成了智慧社区改造，覆盖居民、物业、街道等多领域的服务需求。",
+      "context": "HEDATA平台",
+      "verification_status": "quoted_from_source",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "smart_platform",
+        "hedata"
+      ],
+      "notes": "企业方陈述；未给平台功能、上线时间、覆盖户数、使用率、数据归属与验收材料。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M09-E02",
+      "material_id": "M09",
+      "statement": "行业受访者认为，智慧社区建设仍停留在软硬件、互联系统和云平台投入使用的初期阶段，尚未真正实现大规模应用。",
+      "locator": "M09 正文第18段",
+      "quote_or_span": "目前，智慧社区的建设，还停留在对小区软硬件、互联系统、云平台投入使用的初期阶段，主要为社区安全、街道政务联网、基础出行等作出一些改变，从行业应用上来看，还未真正实现大规模应用，但融入社会基层服务治理的大趋势已经显现。",
+      "context": "行业判断",
+      "verification_status": "quoted_from_source",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "smart_platform",
+        "caveat"
+      ],
+      "notes": "行业判断，不是劲松北的具体评估；可用于 G6 讨论“智慧治理”证据强度。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M10-E01",
+      "material_id": "M10",
+      "statement": "项目方材料称，劲松一区、二区更新规模20万平方米，总投资额约2.9亿元。",
+      "locator": "M10 正文第1段",
+      "quote_or_span": "该项目更新规模20万平方米，总投资额约2.9亿元。",
+      "context": "投资规模",
+      "verification_status": "quoted_from_source",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "funding",
+        "scope"
+      ],
+      "notes": "研究者已裁决 M10 降为背景；2.9亿与 M03 的3000万/45%、M05 的4000余万口径不同，G4 不得合并。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M10-E02",
+      "material_id": "M10",
+      "statement": "项目方将“智慧社区”列为平安、有序、敬老、宜居、智慧、熟人六个更新维度之一，并称形成系统化、可推广的改造标准。",
+      "locator": "M10 正文第8段",
+      "quote_or_span": "“劲松项目”从平安社区、有序社区、敬老社区、宜居社区、智慧社区、熟人社区等不同维度进行全面升级改造，并探索形成系统化、可推广的改造标准，进一步提高了老旧小区改造的科技含量和标准化水平。",
+      "context": "智慧社区定位",
+      "verification_status": "quoted_from_source",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "smart_label",
+        "model"
+      ],
+      "notes": "M10 为背景材料；“智慧社区”仅为维度名，未给技术清单、平台功能或使用数据。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M10-E03",
+      "material_id": "M10",
+      "statement": "项目方称，政府基础类项目由市区财政资金改造，自选类及其他提升经费由愿景集团自有资金投入，并通过居民双过半投票引入愿景物业。",
+      "locator": "M10 正文第7段",
+      "quote_or_span": "对于政府老旧小区综合整治菜单中基础类项目，由街道按程序申请市、区两级财政资金进行改造，自选类项目以及其他提升经费由愿景集团自有资金投入。通过“居民双过半投票”的形式实现愿景物业服务的引入",
+      "context": "资金与物业",
+      "verification_status": "quoted_from_source",
+      "status_hint": "implemented",
+      "themes": [
+        "funding",
+        "property"
+      ],
+      "notes": "M10 为背景材料；可与 M02/M03 互证资金分工，但金额不互证。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M11-E01",
+      "material_id": "M11",
+      "statement": "报道称劲松北社区改造是北京市首例社会资本参与的老旧小区改造项目，涉及居民楼43栋、总户数3605户，并入选北京城市更新“最佳实践”。",
+      "locator": "M11 正文第9段",
+      "quote_or_span": "其中，愿景集团参与投资、设计、施工、运营的朝阳区劲松北社区改造项目是北京市首例社会资本参与的老旧小区改造项目，也在日前入选北京城市更新“最佳实践”项目，共涉及居民楼43栋、总户数3605户。",
+      "context": "项目定位",
+      "verification_status": "quoted_from_source",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "model",
+        "scope",
+        "recognition"
+      ],
+      "notes": "“首例”为媒体表述，G4 可保留为报道性评价。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M11-E02",
+      "material_id": "M11",
+      "statement": "报道称愿景集团在劲松北采用“区级统筹、街乡主导、社区协调、居民议事、企业运作”的五方联动机制，形成“微利可持续”和投资、改造、管理、运营一体的城市更新模式。",
+      "locator": "M11 正文第11段",
+      "quote_or_span": "在对劲松北社区的改造中，愿景集团采取“区级统筹、街乡主导、社区协调、居民议事、企业运作”的“五方联动”推进机制，打造了“微利可持续”和投资、改造、管理、运营为一体的城市更新模式，取得了良好经济拉动效应和社会效益。",
+      "context": "治理与模式",
+      "verification_status": "quoted_from_source",
+      "status_hint": "reported_or_opinion",
+      "themes": [
+        "governance",
+        "five_party",
+        "micro_profit"
+      ],
+      "notes": "“良好经济拉动效应和社会效益”为评价性表述，无数据。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    },
+    {
+      "evidence_id": "M11-E03",
+      "material_id": "M11",
+      "statement": "报道开篇以人脸识别、无接触式回家、机器人无接触配送、社区“大脑”等概括物业管理行业的智能化场景，但未明确这些技术应用于劲松北。",
+      "locator": "M11 正文第1段",
+      "quote_or_span": "人脸识别、无接触式回家、机器人无接触配送、社区“大脑”……由于“黑科技”的加入，物业管理行业的智能化场景正在改变人们的生活，企业也因此迎来发展的第二曲线。",
+      "context": "行业技术叙述",
+      "verification_status": "quoted_from_source",
+      "status_hint": "unconfirmed",
+      "themes": [
+        "smart_discourse",
+        "caveat"
+      ],
+      "notes": "这是行业泛述，不能归入劲松北技术清单；G4 需与劲松段落分开。",
+      "linked_process_ids": [],
+      "linked_fact_ids": []
+    }
+  ]
+}

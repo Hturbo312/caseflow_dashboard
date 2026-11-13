@@ -1,0 +1,56 @@
+{
+  "packetId": "RP-C16-G4-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G4",
+  "caseId": "C16",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher_confirmation",
+  "scope": "Red Hook WiFi 原子事实、实体类别与语义角色",
+  "factCount": 53,
+  "entityCount": 89,
+  "roleLinks": 223,
+  "factStatusCounts": {
+    "implemented": 42,
+    "planned": 3,
+    "reported_or_opinion": 7,
+    "disputed": 1,
+    "unconfirmed": 0
+  },
+  "entityTypeCounts": {
+    "actor": 23,
+    "task": 6,
+    "technology": 14,
+    "capability": 5,
+    "action": 16,
+    "target": 7,
+    "outcome": 11,
+    "context": 7
+  },
+  "decisionPoints": [
+    "F013/F006 是否拆分",
+    "F017 争议值保留或拆分",
+    "89 个实体是否合并/拆分",
+    "F002 角色标注",
+    "F035/F042 单一来源状态"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false,
+    "scope": "新增 C16 事实与实体；不修改 C01–C15"
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": false,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "openIssues": [
+    "F035 RISE 金额单一来源",
+    "F042 2019 移交单一来源",
+    "2013–2015 节点与维护记录缺失",
+    "2020–2022 市府/NYCHA 文件缺失"
+  ]
+}

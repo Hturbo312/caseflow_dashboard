@@ -1,0 +1,500 @@
+         R
+         U
+         O
+
+         F
+
+         E
+         U
+         S
+         S
+
+         I4   east
+
+
+                  Wireless Web
+                 Community Champions
+                Shaping Up
+                    Pipe Dreams Come True
+
+
+
+
+
+                          ISSN 1745-8277 SUMMER 2006
+
+
+             the magazine about regeneration in east manchester                     three poundsWireless Web
+
+
+Only in east Manchester can you get a second-hand
+computer for fifty quid. Edwin Colyer discovers it
+comes with a printer, broadband internet and
+training too.                                         The setting sun bathes the streets in a           mobile instead), and BT had no plans for
+                                               glorious orangey-gold, then dips behind the      enabling the local exchange for broadband
+                                         dark silhouettes of the city centre               connections.
+                                             skyscrapers. Day dwindles to dusk.               “We quickly realised that the only answer
+                                             But the streets are quieter tonight. Across    to the lack of infrastructure was to set up our
+                                           east Manchester people are settling down for    own wireless network for the area. We would
+                                    a night in – not watching TV, but surfing the      then have full control over the technology,
+                                           world wide web. Children search out answers     wouldn't have to dig up streets and could
+                                           to their homework, parents look for cheap      make our service affordable for local
+                                              holidays.                                          residents,” says Peter.
+                                               Jed Shaw even missed the sunset. Since          The resulting Eastserve network is based
+                                       he got in from his taxi-driving shift he's been    on Wi-Fi technology. Today “Wi-Fi hotspots”
+                                            sat in front of his newly acquired computer,      are usually found in cafés, railway stations
+                                            putting the finishing touches to a calendar he   and airports; they allow people to access the
+                                        has designed for his Under 9s football team,      internet from their laptops without having to
+                                           Eastlands FC. He has already been on the        plug in any cables. east Manchester is
+                                              internet and arranged a few pre-season           effectively the biggest Wi-Fi hotspot in Europe.
+                                                 friendly games with other local teams.              Through two main distribution points
+                                                    This is east Manchester in the digital age     Eastserve links users to the rest of the online
+                                  – homes with computers, broadband internet     world. These distribution points send and
+                                          access and IT-savvy residents. This is east        receive data to and from more than 60
+                                         Manchester in the age of Eastserve.              smaller aerials called access points. Access
+                                        What began as a pilot project in 2001 to      points communicate over a much smaller
+                                      hook up 450 homes to the internet has now      area and distribute the internet traffic to
+         But east               expanded into an award-winning initiative,      each individual aerial on customers’ homes.
+         Manchester was     making available subsidised computers,         These are then wired up to their home
+                                                training, affordable broadband access and      computer.
+        one of the more                                             technical support to the 60,000 households of        Despite so much data flying through the
+          deprived areas in    east Manchester.                                    air between all these aerials the signals don’t
+         the UK and              “We are targeting the age-old class           interfere with each other, lose their strength
+                                              divide issue,” says Peter Molduano-              or slow down. Reassuringly George Dale, an
+          hardly anyone
+                                             Przychodzki, Principal Resident Support          Eastserve engineer and installer, says the
+        had web access –    Officer at Eastserve. “We are using computers    speed you buy is the speed you get. “It's
+          only 19% of          and the internet to help bridge social divides    much better than broadband through your
+                                     and give everyone access to all the              telephone line which can really slow down
+         people even had
+                                             opportunities in this digital world.            when lots of people are online,” he says.
+         computers at           “When we launched there was a big push     “Here, if you pay for a two megabyte service,
+        home.                    to give people better access to council and       that's the speed you'll get.”
+                                            other public services via the internet,” Peter         Eastserve offers a range of options. The
+                                            continues. “But east Manchester was one of     150kbps speed is about three times that of a
+                                          the more deprived areas in the UK and hardly     dial-up connection and costs just £6 per
+                                       anyone had web access – only 19% of people     month. The 1Mbps connection costs £20 per
+                                        even had computers at home. No matter how    month, competitive with most available
+                                      good a job the council made in developing       commercial broadband packages. Customers
+                                             online services, people round here would not     paying by direct debit have their speed
+                                       have computers or the skills to use them, and    doubled for free.
+                                       be further disadvantaged.”                      Speed is the essence of installation too.
+                                             But even in its earliest days it quickly         “In about half an hour or so you can be
+                                    became apparent that providing broadband      browsing the web,” says George. “We arrive at              8.20am: Eastserve
+                 installers collect the day’s    access in the area would not be easy. Around     the house and work out where the computer is
+              hardware from their        a quarter of homes did not have a BT landline    going to be put and the best location – that's
+              warehouse.                 (people couldn't afford one, or just used a        technically and cosmetically – for your aerial.
+
+
+
+
+4 east6 east      Installers George Dale and Anthony Lomas install wireless broadband for nine-year-old Gerard Shaw and family.Eastserve’s technical team on hand for telephone support.         The                    When we've agreed everything, my assistant      local residents. There's Carol who got so
+                                                       will go indoors and get the computer up and      excited that she got qualifications in IT and
+         Eastserve.com
+                                           running while I fix the aerial to the wall or      now teaches at MANCAT. There's the pensioner
+          portal is trying                                        chimney and run the wire down into the        who used the web to find a cheap holiday
+         to provide              house. We'll then spend a bit of time            abroad.
+                                             explaining to you how everything works, show       And there's Jed. “Since I got the computer         something like
+                                        you some websites you might be interested in,     I've registered the team with the FA and
+        a virtual town                                     and how to do it safely, especially if there are    found an online database of local teams that
+        hall… It even          children in the house.”                       you can contact for friendly matches. I've
+          provides online          But as George's mini-tutorials perfectly      found out there are hundreds of competitions
+                                                   illustrate, wireless connectivity is only part of     in the area – and I've even entered some of
+         forms for                                              Eastserve's remit. After all, web browsing is     them online too. We're in four competitions
+        anonymously          impossible without a computer or the            before the start of our first season.”
+          reporting low-        necessary skills to get online. Eastserve has         The calendar is finished, and Jed is
+                                             also received substantial government and       pleased with the result. The kids will love it,
+           level crime.
+                                        European grants to subsidise PC sales to east    he thinks, as he makes his way to the kitchen.
+                                         Manchester residents. Reconditioned             His nine-year-old son, Gerard, immediately
+                                        computers come for just £50, or new systems      sits down in front of the screen and starts to
+                                                for £200, both including a printer. “You get a     type.
+                                                   flat screen and three months free Eastserve
+                                              internet access,” Jed enthuses. “If you look in
+                                          the paper the cheapest deals you'll find are
+                                       about £499.” Customers also get free
+                                             technical support at the cost of a local call.
+                                                Every new customer is also entitled to
+                                            three hours free training that covers the
+                                            basics on how to use a PC, connect to the
+                                                internet, send emails and browse the web.
+                                          Over 3500 residents have attended these
+                                           courses and many have gone on to obtain
+                                               further training or qualifications.
+                                                Athol Few, Project Manager for Eastserve,
+                                                   likes the way that Eastserve contributes to
+                                          the community in so many different ways.
+                                     “When we launched our wireless network it
+                                     was certainly innovative at the time,
+                                          although technology has caught up with us
+                                               since. But what makes us really innovative
+                                    now is that we provide a whole package: we're
+                                         not just providing broadband, but also
+                                                training, cheap PCs and repairs, and a
+                                      community portal.”
+                                             The Eastserve.com portal is trying to
+                                            provide something like a virtual town hall. It
+                                                  links to the City Council and e-government
+                                                   sites, and the NHS. It even provides online
+                                         forms for anonymously reporting low-level
+                                          crime to help relieve pressure on emergency
+                                               callouts. In the past nine months over 650
+                                              reports have been filed by local residents.
+                                                  Eastserve's impact on the area is best
+                                          appreciated by listening to all the stories of
+
+
+
+
+8 eastMiles Platting resident Emma Russell at the New Technology Institute which provides training for Eastserve customers.        Community
+        Champions
+
+
+                 East Manchester is full of individuals
+                  working hard for their own communities.
+                 Len Grant meets a few.
+
+          “They might           They join committees, organise residents’        buying the houses and letting them to, shall
+                                              associations and generally get ‘stuck in’ when   we just say, not very nice families.”
+          not be able to
+                                              others sit back and do nothing. In east               Hartwell Close, off Bell Crescent, was
+         change the world                                          Manchester there are dozens of these unpaid      built as a private development of 56 houses in
+          but they know        ‘community champions’ quietly doing what       1989. Around its perimeter were three
+                                            they do for the benefit of others. But why?       alleyways between the houses, a design flaw          they can get a
+                                      What motivates them?                          that local criminals made use of.
+             litter bin put at                                                 Tracey Annette is New Deal’s Resident           “They’d sit on the alley walls,” recalls
+          the end of their       Liaison Officer and, after working with local      Steve, “and signal to each other when the
+          road!”                  people for twelve years, she has her own         coast was clear. Then it’d be a brick through a
+                                                 theories. “There are lots of reasons why         window, grab a video or a telly and then off!
+                                           people get involved,” says Tracey, “but I think    They’d have three ways out. Every day
+                                              there are two reasons that stand out.          someone was getting robbed and it was
+                                                          “First, there’s those people, and I’m one      driving good people away.”
+                                              of them, who just can’t turn a blind eye to            Within two years of the couple moving
+                                                    injustice. If they see something that’s not fair    into the Close, half the properties were
+                                            they want to put it right. It’s just how they       empty. Gwen had had enough.
+                                                are, maybe it’s got something to do with how        “Something had to be done,” she recalls.
+                                            they were brought up.                              “I’d heard about New Deal and knew money
+                                             “Then there are those who have lived in      was coming into the area so we decided to
+                                                   their area all their lives, seen it decline and       find out what was going on.”
+                                            are saddened by the change. They don’t sit on        With a few neighbours Gwen and Steve
+                                                   their backsides blaming the politicians, they     started going to meetings to see what was
+                                      do something about it. They might not be able    available. “Every time we voiced our opinions,
+                                             to change the world but they know they can     we were listened to. I thought, ‘Wow!’, I
+                                            get a litter bin put at the end of their road!”     wasn’t used to that! We were encouraged to
+                                        Gwen Woollon falls into both of these         set up a residents’ association and then apply
+                                               categories. Born and brought up in Beswick,       for funds. I’ve got to say this about them,
+                                     Gwen moved to London with her second          they gave us 100% support, they really did.”
+                                          husband, Steve in 1992.                                   Initially the residents’ group received
+                                                    “After three years down south I wanted to    funding to get the alleyways blocked off.
+                                    come back home,” she says. We bought a        They needed everyone’s agreement. Then
+                                         house here on Hartwell Close very cheaply,      came closed circuit TV and new lighting.
+                                           not realising at the time that the place was        “It’s all about working together,” explains
+                                            going down, people were leaving and           Gwen. “It hasn’t been just Steve and I, we’ve
+                                           everyone was in negative equity.                     all worked hard on this. We’ve gone from a
+                                                “As more people left landlords were        96% crime level to less than 1%.”
+
+
+
+
+10 east      Jenny Hesford: “You’ve got to speak up…”12 east     Gwen Woollon with friends and neighbours on Hartwell Close: “Something had to be done…”Community Champions                                                 There are no empty properties on the         Jenny. “They can have their say if they want
+                                              Close now and all but three are owner-            to, they’ve just got to attend the meetings.
+                                            occupied. House prices have soared. The         You’ve got to speak up at the proper time and
+                                               residents now have street parties, street         at the proper place.”
+                                          clean-up days, and there’s even a gardening         Elsewhere in east Manchester,
+                                             club for the kids.                              motivations differ for championing your own
+                                               Over in Clayton too it was crime that        community. Serafino de Felice is a champion
+                                         encouraged local resident Jenny Hesford to       for the people of Ancoats, the network of
+                                    make things better for her neighbourhood.       narrow streets and impressive mills that was
+                                        “We had a grass verge out the back here,”    the world’s first industrial suburb and home
+                                           she recalls, “that was just wide enough for       to hundreds of Italian and Irish families until
+                                              cars to race through from Clayton Street down    the 1960s.
+                                             to Ash Street. We used to have stolen             A short walk around the historic streets
+                                                 vehicles, week in and week out, racing down      with Serafino and the place comes back to
+                                            the back at ninety miles an hour! It didn’t          life. “That was the ice plant,” he says,
+                                          matter who was around, they’ve missed kids      pointing out a four-storey brick building on
+                                          by that much, honestly they have.              Blossom Street.
+                                                 “At night they’d park up their cars in the         “Everyone would bring their trolleys here,
+                                                           little slip road and you’d hear whistles going,    and load them up with great chunks of ice to
+                                      and push bikes would come from all over to      keep the ice cream from melting during their
+                                            get the drugs off the dealers. They knew if        rounds.
+                                      someone called the police they had several          “Ancoats,” he says emphatically, “is my
+                                                 different ways of getting away. It was awful.      inheritance”, and as a third generation
+                                            “And then, I think it was 1999, one of the     immigrant his inheritance has been to
+                                               kiddies on this road was playing with his         continue a deep-rooted community spirit.
+                                                 football, fell over and put his hand on a             Born on Jersey Street, ‘in the shadow of
+                                                 syringe. It went straight in. He was only about    McConnels Mill’ Serafino’s family already had
+                                               four and it took ages before the tests came     a tradition of helping others. His grandfather,
+                                        back to see if he was HIV positive. It was       who had arrived from the village of Picinisco,
+                                            horrendous. He was OK but it was then that      southeast of Rome in the 1876, was
+                                    we decided something had to be done.”          instrumental in the formation of the Italian
+                                                Jenny first spoke to her local councillor      Mutual Aid Society when he came to Manchester.
+                                     who suggested setting up a residents’           Those who had fallen on hard times or needed
+                                              association which she did with another           special help after a bereavement could turn
+                                               resident on her street.                          to the society for assistance.
+                                        “New Deal helped us apply for a grant. I        “My grandfather was the capo di tutti
+                                                didn’t have a computer then so had reams        capi, ‘boss of bosses’ for Ancoats,” recalls
+                                      and reams of handwritten paper, but we got      Serafino with pride, “a real head of the
+                                                               it. It was a £15,000 cash grant which the        community.”
+                                              Council matched, so we had £30,000!                Serafino has inherited the family
+                                               “With the help of Groundwork, we             tradition of helping others. Although he has
+                                          extended the back gardens along here, and      not lived in Ancoats for many years, he
+                                           put in five large concrete pyramids so the         regularly returns to support others of his
+         “We used to have    cars and motorbikes couldn’t race down the      generation, Italian or otherwise. The
+                                                backs... and it worked.”                       septuagenarian organises outings and events
+           stolen vehicles,
+                                                Jenny continues to run the association,       for the elderly as well as an annual ‘bash’ at
+         week in week          helping others with their problems. She’ll         Christmas.
+           out, racing down    make a call or write a letter and, on the             As a child Serafino and his family moved
+                                             Eastserve forum, even gives advice to others     from Jersey Street into a bigger house on
+          the back at
+                                     who are in the same situation as she was.        George Leigh Street, next to St Michael’s
+           ninety miles an          “People can have as much control over       Church. Their home is no longer there but the
+          hour!”                      their own situations as they want,” says          church, which was built in 1858 and became
+
+
+
+
+14 east“Ancoats is my inheritance,” says Serafino de Felice                                            the main parish church for Italians in               “They all know me - I’ve been in the paper
+                                            Ancoats, has been closed since January 2004     that often - they all know what I do. But I
+                                         because of falling congregation numbers.       stand my ground, it doesn’t frighten me.”
+                                                         “I used to be an altar boy there,” recalls          Like all her neighbours on this seemingly
+                                                Serafino, “but now St Michael’s is under          quiet terraced street in West Gorton, Irene
+                                                 threat.” With hundreds of others, he is          has suffered first hand. Twelve months ago
+                                         campaigning for the church to be reopened,     new tenants moved next door and it was soon
+                                           although its use as a community centre has      obvious that the house was being used for
+                                              also been proposed.                                  illegal activities.
+                                                 Last year Serafino’s commitment to the            “It was atrocious, it went on all through
+                                           people of Ancoats was recognised when New      the night, every night: banging about, people
+                                            east Manchester commissioned resident        coming and going, loud music. I was
+                                                      artist, Dan Dubowitz to create a seat using a     constantly in touch with the police, telling
+                                           stone salvaged for the demolitions nearby.      them what was going on. It was an awful
+                                                  ‘Serafino’s Stone’, on George Leigh Street,        time.”
+                                       was unveiled last October.                            After some months the police eventually
+                                              “The following Sunday,” says Serafino, “I    had a warrant to act, but it was the landlord
+                                          took flowers to Moston cemetery and put       who finally had enough and evicted the
+                                      them on my family’s graves. I stood in front of    troublemakers before the police could move
+                                 my mother’s grave and said, ‘I’ve done it           in.
+                                      Mam!’ That was how proud I felt.”                  “ ‘They’ve ruined my house,’ the landlord
+                                                   Irene Thorpe is 76, just four feet six         complained to me after they’d gone”, says
+                                             inches tall and calls herself the ‘human           Irene, “but he got no sympathy from me…
+                                                    rottweiler’. For the past 25 years she’s been      they shouldn’t have been there in the first
+                                                 fighting anti-social behaviour in Gorton          place.”
+                                         where she’s lived all her life. “It’s the decent,         Irene’s community spirit has not gone
+                                             respectable people of Gorton that get my        unnoticed. She has been mentioned in the
+                                               support,” she says. “Anti-social people can      Houses of Parliament by her local MP Sir
+                                             stay away as far as I’m concerned!              Gerald Kaufman and received an MBE from
+                                                       “I’ve always been community conscious,”     the Queen last December. In true-to-her-
+                                            continues Irene. “Even during the war I used      principles style, Irene threw a ‘thank you’
+             “It’s the decent,     to keep an eye out for German spies! It’s         party and invited the decent, respectable
+                                           always been part of me.”                       people of Gorton to celebrate. “It’s not just           respectable
+                                        When her parents died and her two            for me this award,” she says, “it’s for
+          people of Gorton                                              brothers married, Irene took over the family      everyone around here who’s done their bit.”
+          that get my           house and had her first experience of
+         support…              nuisance neighbours. “They’d come into our
+                                          garden and smash things up,” she says, “and I
+           Anti-social
+                                         used to tell them I’d phone the police and I
+          people can stay      did. They’d call me ‘grass’, but they knew I
+         away as far as       meant what I said and that I wasn’t
+                                              frightened of them.”
+           I’m concerned.”
+                                              Twenty years later and Irene, with a small
+                                          group of like-minded neighbours are standing
+                                       up to the anti-social minority. They are the
+                                            eyes and ears for the local police, keeping
+                                           tabs on the hooligans and petty criminals.
+                                               “People will phone me up or stop me at
+                                            the shops - I’m always getting stopped - and
+                                                         tell me what’s been happening in their street.
+                                     A lot of people don’t like reporting things to
+                                            the police themselves so they tell me instead.
+
+
+
+
+16 eastIrene Thorpe: “People don’t like reporting things to the police themselves so they tell me instead.”The Shape of Things
+to Come
+
+
+Acclaimed by many, New Islington’s first new
+homes are now occupied. Phil Griffin reflects on
+the historic significance of Islington Square.20 east     Under construction: the new canal linking the Rochdale and Ashton Canals.                          Most architects find it hard to like Islington       vision of the future. I’m sorry to say this to
+                             Square. This is a very good sign. Most          more modest residents of Islington Square,
+                               architects don’t really like most of what the     but people are about to tip up and gawp at
+                                rest of us feel comfortable with. Fat, the         you. You are pioneers. Not only did you help
+                        team that designed the first 23 houses in New    to shape your homes, but in most cases, you
+                                 Islington, are not like most architects. They     demanded it.
+                                  try to find out what people want, and then         New Islington is unique. Nowhere in the
+                             they try to provide it. Just to make this clear;     country invests so much care, time, money
+                                          if most architects were doctors they would      and imagination into public spaces. From the
+                            perform the operation before examining the      willow tree on Old Mill Street to the Scotch
+                               patient. Charles Holland and Sean Griffiths,      pine and the water park, nobody has treated
+                              partners in the firm of architects called Fat       this city in this way since Peel, Queens and
+                            (which stands for Fashion Architecture Taste)     Philips Parks opened to the public, on the
+                               prefer to spend time in the consulting room.     same day, in 1846. There is momentum in New
+                             Fat tries to satisfy the client (Manchester         Islington now. Islington Square is a
+                            Methodist Housing Association) and the end     benchmark. Manchester Methodist Housing
+                              users (the people who will live in the houses).    Association and their partners have delivered
+                        Why do architects find it hard to like Islington   on their promise. Residents chose the
+                           Square? Because these houses put the horse      architects, the architects listened to the
+                             before the cart, resemble no other houses        residents. This is not the way buildings
+                         and all other houses, and because they are      commonly get made, and these houses are
+                           both playful and serious.                      not at all common. The plain fact is Islington
+                           When Rita, Liam and Sandra were first to     Square is an original concept in house
+                            put keys into the front doors of their new         building. Shake hands with the future.
+                        homes on Monday 13th March, they moved          Walk over Rochdale Canal, towards
+                       New Islington forward. People are moving in     Oldham Road and stop when you get to
+                           where previously there had only been             Victoria Square, “The Dwellings” as my great
+                                builders, plans and aspirations. At the other     aunt Mary taught me to call them. These are
+                          end of the site is a copse of scrawny looking      the oldest council homes in the country. Built
+                               trees that appear to be tied to the ground.        in 1894, this robust building has been through
+                            They are specially imported 50-year-old            all sorts of changes; from coal fires to central
+                            Scotch pine, and they shelter a newly planted    heating, from courtyard to car park. Not
+                            apple orchard. A small corner of Ancoats       much has fazed this building. It is a
+                           appears to be reverting to woodland and        benchmark in the history of homes in Britain.
+                               lakeside. This is part of the environment for     When architects, designers and politicians
+                             the health centre and school, and continues      turn up to look at Islington Square, and be
+                             the surprising development of this special        sure they will, my guess is that they will leave
+                              place.                                        envious of what they have seen. Manchester
+“I’m sorry to say         We’re used to cities changing and           Methodist Housing Association has just made
+this to more             evolving. Even so, most of us will be able to        its mark in the history of housing. The
+                              point to our primary school or to the local        architects’ achievement is that they listened
+modest residents
+                            park where we learnt to ride a bike. Cities like    to the residents. Islington Square’s
+of Islington            Manchester move quickly, whilst staying         achievement is that the residents trusted the
+Square, but              surprisingly still. As the new canal goes in,        architects. Make no mistake, Islington Square
+people are about    and fingers of land begin to take the shape of     is the most important housing to be built in
+                       New Islington to come, the historic mills of        this country for years.
+to tip up and
+                                Redhill Street come out from under wraps,
+gawp at you.”          reinvented as apartments and offices. When
+                             these mills were built, in the middle of the
+                             nineteenth century, people travelled to
+                           Manchester to gawp at them; a discomforting22 east     The Chips building gets underway alongside the new canal arm and Old Mill Street sets the standard.‘The Rock’, above, will be clad in stone and be a sanctuary for wildlife. Below, 90ft Scotch pines already in place.Pipe Dreams Come True
+
+
+East Manchester’s latest musical phenomena are
+banging the drum for local talent.                 Previous spread:
+                Quartermaster and tenor
+               drummer, Pat Allwood.
+
+                 Right:
+                the band practice at the
+               stadium twice a week.
+
+
+
+
+
+                                     When lifelong drummer Bob Doyle was asked      Billington. “We knew the stadium would be
+                                                                 if he’d set up a new drum and pipe band in        ideal for them. It’s great for the Club to be able
+                                            Manchester, he couldn’t refuse. “I’ve always     to help a local community project like this.”
+                                                  liked a challenge,” says Bob “but I didn’t           Two years on and Pat and Bob are still on
+                                               quite realise what a challenge this would be!     the look out for new members. “People don’t
+                                              “Manchester was at one time vibrant with     realise what’s involved until they give it a
+                                             pipe bands,” he explains. “Schools and             try,” encourages Pat. “I remember when I first
+                                            churches had their own, there were bands       went to see Bob play, I really liked what I saw
+                                             everywhere. But in the last ten years or so,      and said I’d like to join. That was six years
+                                             pipe bands have really taken a hiding.”         ago and it was the best thing I’ve ever done.”
+                                                 Together with his partner and fellow           “Now we’re looking for the younger ones
+                                         drummer, Pat Allwood, Bob set out to recruit     to come through,” says Bob. “It’s difficult
+                                      members and raise money for instruments       because nowadays it’s hard to get them away
+                                       and uniforms.                               from the video games. They often think you’ve
+          “We’ve had              “We used to get up at four in the morning    got to be musically-minded but that’s not
+          people come to      and go off to car boot sales, raising money       true at all. We’ve had people come to us who
+                                                   for the band,” says Pat. “All the neighbours       can’t even tap their feet in time to music but
+          us who can’t
+                                         would give us things to sell... it was great fun    once we’ve shown them, they’re up and
+          even tap their                                           but hard work.”                               away.”
+           feet in time to            With support from the Lottery, Voluntary         Pat, who plays tenor drum and is now the
+          music but once       Action for Manchester and other sponsors,       band’s Quartermaster, hasn’t been able to
+                                            the Greater Manchester Celtic Pipe Band was     keep her enthusiasm for her hobby to herself.
+          we’ve shown
+                                         formed at the beginning of 2004. Since then      Her sister, daughter and niece all play and
+         them, they’re up                                             they have appeared at charity events,            she’s hoping her granddaughter will soon
+         and away.”              competitions, parades and have even             start. “It would be great to find someone who
+                                              entertained the half-time crowd at            can teach Scottish dancing and then we’d
+                                           Manchester City first team games.             have the band and a dance troupe... that’d
+                                               The band practice twice a week at the City   be brilliant.”             L.G.
+                                               of Manchester Stadium, using the boxes for
+                                               rehearsals and the concourse for marching
+                                                 practice.                                  Anyone interested in joining the band should
+                                          “When we first heard the Pipe Band were     contact Simon McCalla on 07710 833553,
+                                               looking for somewhere to rehearse we didn't      or email simon.mccalla@ntlworld.com.
+                                                   hesitate,” says MCFC’s head of operations, Sara    The band’s web site is www.gmcpb.co.uk.
+
+
+
+
+26 eastEast is the magazine about
+regeneration in east Manchester  About East
+and is published three times a
+                            The start of 2006 has seen further progress in the regeneration of east Manchester. In January weyear by Len Grant Photography
+on behalf of                  announced the preferred partner for the redevelopment of Miles Platting, heralding the start of
+New East Manchester Ltd and        the first stage in the transformation of this neighbourhood.
+New Deal for Communities
+                           Neighbourhood renewal schemes in Openshaw (Toxteth Street) and Clayton (Eccleshall Street)
+Issue 4 Summer 2006
+                              also moved closer to fruition with the Council approval of the plans for these areas drawn up in
+Editorial address:                conjunction with local people.
+East Magazine
+c/o Gill Shields                    In this issue Len Grant again drops in on life in east Manchester, capturing on camera and in word
+New East Manchester Ltd           the passion, personalities and projects that are helping breathe new life into the area.
+187 Grey Mare Lane
+Beswick                      Edwin Colyer investigates the Eastserve phenomenon where, for as little as £50, east Manchester
+Manchester                      residents can buy a home computer and get hooked up to broadband internet. It’s what’s made
+M11 3ND
+                             east Manchester one of the most intelligent communities in the world according to the Intelligenttel: + (0) 44 161 223 1155
+                         Community Forum based in New York.
+
+Photographs © Len Grant           Also in this issue, Len Grant meets some of the unsung heroes of our communities who refuse to
+Text © Edwin Colyer, Phil Griffin        sit by and watch their neighbourhoods decline. It’s only with the commitment of people like these,
+and Len Grant                and hundreds more across the area, that real change has happened in east Manchester.
+
+                       New Islington continues to progress apace and Phil Griffin reviews the recent changes at
+ISSN 1745-8277                 Manchester’s Millennium Community. The first residents have now moved into their contemporary
+Designed by Alan Ward @         new houses at Islington Square. As you can see, the design of the houses are quite striking and
+www.axisgraphicdesign.co.uk       the architects, Fat, have enjoyed positive acclaim in the press. Meanwhile, a new water park is
+Monochrome prints by Marshall      nearing completion, complementing Old Mill Street which opened last September.
+Walker. Printed by Andrew Kilburn
+Print Services Ltd.                   Finally, Manchester’s newest pipe and drum band come under the East spotlight. The band,
+All rights are reserved. No part      which practices twice a week at the City of Manchester Stadium, are keeping the marching band
+of this publication may be           tradition alive.
+reproduced or transmitted in any
+form or by any means, electronic     As summer approaches, we hope you enjoy reading this issue. We can only scratch the surface of
+or otherwise, including              this colourful, forward thinking and rapidly changing part of the city but, we’re sure you’ll agree,
+photocopying, recording or any         it makes for an interesting and thought provoking read.
+information storage and retrieval
+system, without written consent
+                        Tom Russell                                                         Sean McGonigle
+from the publisher.
+                       New East Manchester Ltd                                  New Deal for Communities
+The rights of the photographers
+and writers to be identified as
+authors        of            this             work
+                  has been   Contributors in this issueasserted        by         them                   in accordance
+with the Copyright, Design and
+                           Len Grant is a freelance photographer based in Manchester. For the past decade or so he has
+Patents Act 1988.
+                       made regeneration the subject of his personal and commissioned work. This year he has produced
+The opinions expressed in East      the book The Reluctant Engineer and other Manchester stories for engineer, Martin Stockley. He is
+are not necessarily those of either
+                              also working on a second book about New Islington and  is curating an exhibition aboutNew East Manchester Ltd or New
+Deal for Communities.             regeneration for The Lowry in September 2006. See also www.lengrant.co.uk.
+
+Cover: Eastserve installing an       Edwin Colyer has contributed to local and national publications ranging from the Financial Times
+aerial for broadband wireless        to the Mersey Basin Campaign's Source Northwest. His particular areas of interest include
+internet.                        science, technology, and the environment. Edwin also writes regularly on topical business issues,
+                               especially marketing and branding. He lives in Victoria Park in Manchester.
+
+                                 Phil Griffin is a writer and broadcaster with a special interest in architecture and urban issues.
+                        He worked for Piccadilly Radio from 1974 to 1978 and Granada Television throughout the 1980s.
+                        He wrote the column Archisnap for City Life for eight years. He was born in Ancoats.
+
+This issue of East is kindly   Acknowledgements
+sponsored by                  Len Grant would like to thank Athol Few and Peter Molduano-Przychodzki at Eastserve, Simon
+                            McCalla at the Greater Manchester Celtic Pipe Band, Louise Tickle and all those who appear in this
+                               issue of East.In this issue of East:
+Phil Griffin files a progress report from New Islington; the local band
+looking for new members; Edwin Colyer on east Manchester’s internet
+revolution and community heros.        4

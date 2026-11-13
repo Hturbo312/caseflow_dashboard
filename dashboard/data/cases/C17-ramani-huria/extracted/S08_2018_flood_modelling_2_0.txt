@@ -1,0 +1,59 @@
+Community mapping for flood modelling 2.0 – Ramani Huria
+Skip to the content
+Close Menu
+Dar es Salaam’s Ramani Huria 2.0 project is one of the most comprehensive community mapping projects currently ongoing. A large use case for the collected map data is improving knowledge on flood hazard, vulnerability and exposure, all three components of the risk framework. Mapping of the type, dimensions and state of the drainage network is an important component and has the potential to establish detailed flood inundation models that can be used to simulate floods at unprecedented scales. Earlier, we
+reported
+on the state of the drainage mapping after Ramani Huria 1.0. Now, all drains are being remapped with a detailed drainage model and with attention to connectivity. The first 20 wards have been mapped and in this blog we report how well underway we are.
+By: Hessel Winsemius, Hawa Adinani, Amelia Hunt, Ivan Gayton, Iddy Chazua, Amedeus Kimaro, Paul Uithol
+Flooding near Jangwani bridge on 15 April 2018
+A specialized Ramani Huria drainage mapping team has been active in surveying drainage data, cleaning and quality checking with the result that there is now accurate drainage data for
+Mikocheni, Msasani, Kinondoni, Mwananyamala, Sinza, Kijitonyama, Hanansifu, Ndugumbi, Makumbusho, Mzimuni, Tandale, Manzese, Buguruni, Vingunguti, Magomeni, Kigogo, Mchikichini, Ilala, Mkurumula
+and
+Mburahati
+. Let’s show you the results with interactive maps, and refer back to how we did it.
+QGIS layout of all drainage data available in June 2018
+How well are we following the data model?
+Interactive map for data model accuracy. Click on the top-left draw down menu to check the completeness of different tags. You can zoom in and out to inspect details.
+In the interactive map shown above, the progress in mapping can be found. The maps shows all linear features mapped so far, that in any way are related to drainage. These include channels, culverts, ditches and underground drainage. For each drain, a number of attributes should be collected, following a pre-defined data model. This ensures that for a specific drain with a specific shape, the right information is collected. A
+drainage data model
+was setup that is followed as accurately as possible in this way. We explain a bit more about this below.
+The initial view of the interactive map shows the quality assurance of the ‘drainage type’ attribute, which has to be filled out for any drain being mapped. The colors in the map show ‘green’ where a correct value has been filled out, yellow, where a value was filled out but it does not follow a pre-defined set of possible inputs, orange, where an invalid data type was used (for instance a string instead of an integer) and red, where no value was entered. Summarising, you are looking at quality flags for tags to be collected. You can click on the drop down menu to select quality flags for different tags. And you’ll see that the mapped tags are mostly complete. To ensure the completeness, we have developed and applied software to quality assess how well the data model has been followed. The code for this is continuously developed and available as open-source tool including examples and documentation on
+https://github.com/openearth/hydro-osm
+. The Ramani Huria drainage mapping team now uses this software on a daily basis to assess the quality of drainage features in recently mapped areas.
+But what do the black lines mean?
+Since our last data quality check, a lot of changes have been made to our data quality routines. We are now able to handle “conditional data models”. This means that for instance certain attributes must be collected only when other attributes already apply. For instance if a drainage type is culvert, then also identify what culvert shape it should have (boxed rectangular or round). And if a round drain is found (such as shown in the picture below), then also measure the diameter, while if a rectangular drain is found, also map the width, and box height. The drainage mapping team prepared a very extensive
+data model
+, for drains as well as other features in the city, which follows this conditional model.
+Example for a culvert, a typical closed circular drain, requiring collection of the height above the neighbouring street, diameter, material, state and blockage.
+Dar es Salaam/Ramani Huria – OpenStreetMap Wiki
+Data collected as part of Ramani Huria conforms to a model. The Data Model specifies what types of attributes are…
+wiki.openstreetmap.org
+The importance of mapping the right attributes for each feature are large. Dimensions are necessary to understand how much water can be transported through a channel or other drainage feature. The maintenance state is important to understand how much obstruction can be expected within the channel network and can possibly be used to simulate the effect of the poor drainage state compared to if the state of the drains was very good.
+How do we collect these attributes?
+To enable community mapping teams to collect these data in such a complicated conditional data model, we use the
+OpenDataKit
+tool (ODK). ODK basically guides a surveyor through a number of questions in a very intelligent way through a smart phone application. ODK can run offline with temporary storage on the phone. When connected, the surveys can be uploaded to a central server. ODK will ask conditional questions. For instance, it may first as “what feature are you mapping”, where you can answer building, street, drain, and so on. After that, if the surveyor enters drain, it may ask “what type of drain”, and then based on the type of drain ask for additional details such as shape and dimensions. In this way, the conditional data model is followed accurately. For more information on drainage observations and tools, we refer to our
+blog
+on Building Open Tools to Map Drains.
+An ODK survey page
+How well is the drainage network connected
+The first interactive map showed how well the required attributes were collected. This is one important aspect of drainage data. Another aspect is connectivity. In a sound urban drainage network, you would expect that one drain is connected to the other, and that eventually the network would reach a downstream outlet in a larger stream, river or the ocean. In our first blog on this subject, we have noticed that many connections seemed to be missing, but we also flagged that this may be due to issues in mapping these, as well as real conditions where drains are simply not properly designed or not fully connected. Therefore, the drainage mapping team has extensively mapped observed begin points of drainage networks, outlets, and open ends of drains. Our data quality assurance tools are used to check whether drains are connected to at least one begin point and at least one endpoint. End points can be either a dead end, an outlet to a larger water body, or flow towards a neighboring ward, if this ward has not been mapped yet. Below you can find the result so far over the 20 wards currently mapped. Through a radio button you can see both connections to begin and end points. Nearly all drains appear green, meaning that mapping of the appearance of upstream and downstream ends is very complete (red means there is no mapped connection, and a revisit is still necessary). The map also shows the mapped begin and end points with colored dots. All the purple dots are places where the drainage network simply ends in nothing. We argue that these places may be risky places, especially when a large upstream drainage network flows towards them.
+In conclusion: Ramani Huria is underway to produce the most complete and accurate drainage map of Dar es Salaam. Our prospect is that we can start building the most accurate and detailed drainage model to understand flooding, its impacts, and attribution of limited infrastructure, maintenance, and solid waste on flood risks. The one missing link is elevation data. Essential steps to generate this within Ramani Huria are underway. Please check out this
+blog
+for more information.
+Interactive map showing connectivity of drainage features to begin points and end points. You can zoom in and out to inspect details.
+Share this:
+Share on X (Opens in new window)
+X
+Share on Facebook (Opens in new window)
+Facebook
+Like
+Loading…
+Leave a Reply
+Cancel reply
+Name
+Email
+Website
+Δ
+Our Partners
+%d

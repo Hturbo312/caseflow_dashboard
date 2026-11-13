@@ -1,0 +1,45 @@
+{
+  "packet_id": "RP-C19-G3-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G3",
+  "case_id": "C19",
+  "scope": "Connect East Cleveland 的事件顺序、过程段落与证据关联",
+  "generated_at": "2026-11-13",
+  "status": "pending",
+  "processes": [
+    {"id": "C19-P01", "time": "2015—2022", "title": "前置规划与 Circle East 目标区设定", "evidence_count": 9, "layer": "context"},
+    {"id": "C19-P02", "time": "2023-01—04", "title": "项目设置、团队组建与本地知识嵌入", "evidence_count": 10, "layer": "core"},
+    {"id": "C19-P03", "time": "2023-04-20", "title": "第一轮公共参与：Community Event 1.0", "evidence_count": 4, "layer": "core"},
+    {"id": "C19-P04", "time": "2023-05-24—06-17", "title": "步行踏勘、AR 壁画预览与 Juneteenth 外展", "evidence_count": 3, "layer": "core"},
+    {"id": "C19-P05", "time": "2023-07-14", "title": "设计选项共创：Open House 2.0 与 AI 图像生成", "evidence_count": 8, "layer": "core"},
+    {"id": "C19-P06", "time": "2023-08-23—25", "title": "青少年工作坊与社区活动", "evidence_count": 3, "layer": "core"},
+    {"id": "C19-P07", "time": "2023-08-30—12-11", "title": "行动清单定稿、优先级投票与报告发布", "evidence_count": 13, "layer": "core"},
+    {"id": "C19-P08", "time": "2024", "title": "2024 年早期实施、Mickey’s 剪彩与 Loiter 争议", "evidence_count": 12, "layer": "implementation"},
+    {"id": "C19-P09", "time": "2025", "title": "2025 年 Phase 1 建设推进与治理争议", "evidence_count": 8, "layer": "implementation"},
+    {"id": "C19-P10", "time": "2026-07", "title": "2026 年 Phase 1 剪彩与绿道建成的回溯核验", "evidence_count": 2, "layer": "retrospective"}
+  ],
+  "conflicts": [
+    "Event 3.0：采用 2023-08-30；报告 p.17 的 7-14 作为版式错误",
+    "起点：2023-01 / 2023-04 / 1–7 月 / 1–8 月四种口径并列",
+    "绿道：2024 待招标 → 2025 once complete → 2026 报道建成",
+    "住房：2025-01 计划 4+12 → 2025-03 破土 12+21/22 → 2026 剪彩"
+  ],
+  "gaps": [
+    "除 Open House 外，各活动参与人数不完整",
+    "Event 3.0 的 10 项短期行动排序结果未复原",
+    "绿道设施、30 棵树、马赛克石艺完工时间未取得",
+    "市议会 2025-10 决议与 2016 年协议原件未取得"
+  ],
+  "decisions_requested": [
+    "10 个过程段落与分期是否接受",
+    "P01 是否保留为情境",
+    "P08 是否拆分",
+    "P09 是否拆分",
+    "P10 是否保留为回溯"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_case_review": false
+  }
+}

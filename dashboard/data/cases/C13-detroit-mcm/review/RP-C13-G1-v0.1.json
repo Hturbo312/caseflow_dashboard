@@ -1,0 +1,43 @@
+{
+  "packetId": "RP-C13-G1-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G1",
+  "caseId": "C13",
+  "scope": "Motor City Mapping 材料登记、质量核验与覆盖评估",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher",
+  "registeredMaterials": 17,
+  "fullTextReadable": 15,
+  "partialReadable": ["M13", "M15"],
+  "rejectedCount": 9,
+  "conflicts": [
+    {"topic": "地块总数", "positions": ["报告 380,233", "NYT 380,217", "通称 380,000"]},
+    {"topic": "调查员规模", "positions": ["150 名调查员", "200 人总团队", "最多 75 个三人小组"]},
+    {"topic": "数据集", "positions": ["报告 24 个（16 用于定义破败、8 留待下一阶段）", "D3 30+ 个"]},
+    {"topic": "破败规模", "positions": ["84,641 个地块", "约 80,000 栋", "78,000 栋 + 91,000 空地"]}
+  ],
+  "gaps": [
+    "报告第 12 章附录图像页",
+    "JPMorgan Chase 2014-05-21 新闻稿",
+    "Detroit Free Press 2014-02 原文",
+    "DLBA/MSHDA/市政府数据使用文件",
+    "2016-2017 年平台连续证据",
+    "同行评议学术研究"
+  ],
+  "decisionsRequired": [
+    "是否确认 M01-M17 共 17 份材料纳入",
+    "NYT 预览是否可作为报道/观点证据",
+    "2016-2017 观察期是否接受现有覆盖",
+    "是否现在补充学术文献",
+    "报告附录是否需 OCR 或另寻可读版本"
+  ],
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": null,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "version": "v0.1"
+}

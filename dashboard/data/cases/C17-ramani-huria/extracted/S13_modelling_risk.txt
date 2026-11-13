@@ -1,0 +1,48 @@
+Modelling Risk – Ramani Huria
+Skip to the content
+Close Menu
+Methods
+Mapping
+Digitizing
+Modelling Risk
+Sharing
+Ramani Huria’s guiding goal has been to improve the flood resilience of the regions mapped. To work towards accomplishing this, community mappers identify areas on a basemap that are most detrimentally affected by floods. Thereafter, they use pencil to map flood prone areas upon tracing paper over a basemap. The output of this is then scanned and the contained data is digitized into shapefiles and uploaded onto OpenStreetMap.
+When the maps are finished, they are combined with other data in InaSAFE to run realistic flooding scenarios. The findings are collected and lead to the development of tailored training in disaster preparation for ward officials and community members.
+What is InaSAFE?
+InaSAFE is free software that produces realistic natural hazard impact scenarios for better planning, preparedness, and response activities. It provides a simple but rigorous way to combine data from scientists, local governments and communities to provide insights into the likely impacts of future disaster events.
+InaSAFE is a Free and Open Source Software (FOSS) project, published under the
+GPL V3 license
+. You may freely download, share and (if you like) modify the software.
+How to Install and Use InaSAFE
+InaSAFE is a plugin for QGIS. QGIS (and InaSAFE) works on OS X, Windows and Linux. You can download QGIS for free at
+download.qgis.org
+Once you have QGIS installed, you can install and get used to InaSAFE in 8 easy steps! Open a recent version of
+QGIS
+(1.7 or better) and do:
+Plugins -> Fetch Python Plugins
+Type InaSAFE in the Filter box.
+Tick the box next to the InaSAFE plugin.
+Click the Install/upgrade plugin button.
+Close the plugin manager and InaSAFE should be installed and ready to use.
+Watch the introduction movie to learn your first steps into InaSAFE
+here.
+Follow the training courses provided in the Socialisation section.
+Download any testdata you need from
+http://data.inasafe.org
+Ready to use InaSAFE?
+You may download QGIS here:
+download.qgis.org
+and explore more about InaSAFE here:
+http://inasafe.org
+.
+You can also follow regular updates about InaSAFE by liking the following facebook page:
+https://www.facebook.com/inasafe
+Share this:
+Share on X (Opens in new window)
+X
+Share on Facebook (Opens in new window)
+Facebook
+Like
+Loading…
+Our Partners
+%d

@@ -1,0 +1,114 @@
+Red Hook, Brooklyn: Community Mesh After Hurricane Sandy | Resilient Comms
+Skip to content
+Resilient Comms
+Introduction
+Why Comms Fail
+Resilience Stack
+Technologies
+AI & Agents
+Playbooks
+Case Studies
+Resources
+About this project
+⌘K
+Case Studies
+Red Hook, Brooklyn: Community Mesh After Hurricane Sandy
+Red Hook, Brooklyn, New York
+2012-10-29
+Neighborhood (~11,000 residents)
+WiFi mesh
+Commotion Wireless
+LibreRouter
+OpenWRT
+4 min read
+On this page
+›
+On this page
+What Was Deployed
+Performance During Sandy
+Lessons
+Red Hook is a waterfront neighborhood in Brooklyn that was severely flooded by Hurricane Sandy in October 2012. The neighborhood's geography (surrounded by water on three sides, with a single road connection) made it particularly vulnerable to isolation. When Sandy hit, Red Hook lost power, cellular service, and internet for weeks.
+The Red Hook Initiative (RHI), a community organization, had been working with the Open Technology Institute on a neighborhood WiFi
+ 
+mesh network
+ called the Red Hook WiFi project. The network was partially deployed when Sandy struck.
+What Was Deployed
+The Red Hook WiFi network used Commotion Wireless firmware (based on OpenWRT and OLSR mesh routing) running on TP-Link and Ubiquiti hardware.
+ 
+Nodes
+ were mounted on rooftops and utility poles throughout the neighborhood, with the RHI community center as a hub. See
+ 
+mesh networking technology →
+~40 nodes at peak deployment
+Coverage across most of Red Hook
+Local services: community bulletin board, resource information, chat
+Internet uplink: shared connection at RHI (when available)
+Performance During Sandy
+When Sandy hit, the mesh network continued operating on battery backup and generator power at key nodes. The RHI community center became a communication hub where residents could access local network services, charge devices, and communicate with each other via the local mesh.
+What worked
+Local mesh communication continued when cellular and internet were down
+The community center hub provided a physical gathering point
+Local information (shelter locations, resource distribution) was accessible without internet
+The network helped coordinate volunteer efforts and resource distribution
+What didn't work
+Many nodes lost power and went offline
+The network was not fully deployed before the storm
+Internet connectivity was intermittent, limiting access to external resources
+Most residents didn't know the network existed or how to use it
+Lessons
+1
+Pre-deployment matters more than post-disaster deployment.
+Networks built before disasters are more useful than networks deployed after. Red Hook's partial deployment was better than nothing, but a fully deployed network with trained users would have been dramatically more effective.
+2
+Local services are as important as internet access.
+The most valuable capability was local information sharing: resource lists, shelter locations, volunteer coordination. Not internet access. Design for local-first.
+3
+Physical hubs amplify network value.
+The RHI community center as a physical gathering point multiplied the network's value. People came to charge devices, share information, and coordinate. The network was a tool for community organizing, not just communication.
+4
+Community ownership sustains networks.
+The Red Hook WiFi network continued operating years after Sandy because it is owned and maintained by the community, not an outside organization. External deployments that leave when the emergency ends don't build lasting resilience.
+Sources & Evidence
+Red Hook WiFi — redhookwifi.org
+New America OTI — Case Study: Red Hook Initiative WiFi & Tidepools
+The Verge — Red Hook's mesh WiFi network, a decade later (2023)
+The Atlantic — Red Hook's Mesh Network (Nov 2012)
+FCC — Impact of Hurricane Sandy on Communications Networks (2013)
+Was this page helpful?
+Yes
+No
+Related case studies
+Cairo Ramses Exchange Fire: When a Single Building Knocked Out a Nation's Internet
+ →
+Cuba: Grid Collapse and the Diaspora Communication Blackout (2024)
+ →
+← All case studies
+ · 
+See playbooks
+On this page
+What Was Deployed
+Performance During Sandy
+Lessons
+Resilient Comms
+Practical guides for building communication systems that survive infrastructure failure.
+Learn
+Introduction
+Why Comms Fail
+Resilience Stack
+Technologies
+Apply
+Playbooks
+Case Studies
+Resources
+Project
+About this project
+Glossary
+Brand & Design
+GitHub
+© 
+2026
+ Resilient Comms. Content under
+ 
+CC BY-SA 4.0
+. For informational purposes only — verify radio regulations for your jurisdiction.
+Built for resilience. Use it when it matters.

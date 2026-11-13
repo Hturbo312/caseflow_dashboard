@@ -1,0 +1,40 @@
+{
+  "packetId": "RP-C18-L2-G4-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G4",
+  "caseId": "C18",
+  "generatedAt": "2026-11-13",
+  "status": "release_candidate_pending_researcher",
+  "version": "L2-C18-v1.0",
+  "ontologyVersion": "V4",
+  "counts": {
+    "mappings": 16,
+    "activeCandidates": 7,
+    "heldCandidates": 1,
+    "supportAdditions": 6,
+    "afterActiveSharedConcepts": 64,
+    "definitionChanges": 0,
+    "negativeExampleChanges": 0,
+    "historicalReclassifications": 0
+  },
+  "releaseScopeCandidate": "file-level only; SQLite import not included",
+  "decisionsRequired": [
+    "是否确认L2-C18-v1.0和V4不变",
+    "是否接受7候选、1保留、6支持增量、64活跃概念",
+    "发布范围文件级或同时写SQLite",
+    "是否最终发布并交接"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": "support_additions_only",
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowRelease": null,
+    "decidedAt": null
+  },
+  "version": "v0.1"
+}

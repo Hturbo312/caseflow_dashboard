@@ -1,0 +1,91 @@
+{
+  "caseId": "C16",
+  "version": "v1.0",
+  "status": "native_concepts_frozen_no_shared_confirmation",
+  "generatedAt": "2026-11-13",
+  "concepts": [
+    {
+      "nativeConceptId": "NC-C16-01",
+      "label": "社区组织锚点",
+      "entityType": "actor",
+      "definition": "以一个长期在地、具有社区信任与组织能力的非营利机构，作为网络发起、日常协调、灾时动员与对外合作的锚点。",
+      "examples": ["RHI 发起 Red Hook WiFi", "Sandy 期间维持 RHI 据点", "2019 年前运营网络"],
+      "sourceRelationIds": ["R001", "R008", "R027", "R106"],
+      "status": "native_retained_pending_L2"
+    },
+    {
+      "nativeConceptId": "NC-C16-02",
+      "label": "本地数字管家",
+      "entityType": "actor",
+      "definition": "从本地青年中招募并培训，承担网络安装、维护、推广与社区技术支持的角色群体。",
+      "examples": ["Red Hook Digital Stewards", "Robert Smith 从学员到系统管理员", "2017 年 8 个月带薪培训"],
+      "sourceRelationIds": ["R040", "R042", "R043", "R050", "R051", "R068"],
+      "status": "native_retained_pending_L2"
+    },
+    {
+      "nativeConceptId": "NC-C16-03",
+      "label": "断网本地通信",
+      "entityType": "capability",
+      "definition": "网络在没有互联网上行时，仍能提供社区内部网页、留言、地图与本地服务的能力。",
+      "examples": ["Coffey Park 的 GuruPlug 本地服务器", "Tidepools 本地运行", "Commotion 去中心化 mesh"],
+      "sourceRelationIds": ["R016", "R019", "R049"],
+      "status": "native_retained_pending_L2"
+    },
+    {
+      "nativeConceptId": "NC-C16-04",
+      "label": "社区 mesh 网络",
+      "entityType": "technology",
+      "definition": "由社区组织发起、在屋顶与建筑间逐跳连接、可逐步扩展的无线 mesh 网络。",
+      "examples": ["RHI 屋顶首节点", "Coffey Park 第二节点", "约 20 站点扩张"],
+      "sourceRelationIds": ["R009", "R014", "R017", "R044", "R056"],
+      "status": "native_retained_pending_L2"
+    },
+    {
+      "nativeConceptId": "NC-C16-05",
+      "label": "灾时通信据点",
+      "entityType": "outcome",
+      "definition": "在灾害导致停电与通信中断时，由社区组织场地与本地网络形成的集中联网、充电与信息交换据点。",
+      "examples": ["Sandy 期间 RHI 成为居民充电、取暖、报平安的据点"],
+      "sourceRelationIds": ["R027", "R028", "R029"],
+      "status": "native_retained_pending_L2"
+    },
+    {
+      "nativeConceptId": "NC-C16-06",
+      "label": "商户宿主网络",
+      "entityType": "action",
+      "definition": "以本地商户与机构的屋顶/店内空间承载网关与接入点，把网络扩展到商业街廊的组织方式。",
+      "examples": ["灾后汽修店设点", "2017 年 38 家商户宿主", "2020 年商户撤点"],
+      "sourceRelationIds": ["R039", "R059", "R061", "R070", "R092"],
+      "status": "native_retained_pending_L2"
+    },
+    {
+      "nativeConceptId": "NC-C16-07",
+      "label": "一次性资助后的维护断层",
+      "entityType": "outcome",
+      "definition": "一次性项目资助支持了网络扩张与人员培训，但未形成长期维护资金与责任结构，导致资助结束后维护能力与覆盖收缩。",
+      "examples": ["RISE:NYC 资助结束", "2019 年移交 Sky Packets", "2023 年约 10 个活跃站点"],
+      "sourceRelationIds": ["R055", "R065", "R067", "R110"],
+      "status": "native_retained_pending_L2"
+    },
+    {
+      "nativeConceptId": "NC-C16-08",
+      "label": "户外覆盖替代室内接入",
+      "entityType": "outcome",
+      "definition": "网络在公共户外空间提供可用覆盖，但未能进入公共住宅室内；户外覆盖反而使该住宅区在市政宽带项目排序中靠后。",
+      "examples": ["Red Hook Houses 长期未接入", "2022 年未进入 Big Apple Connect 首期"],
+      "sourceRelationIds": ["R071", "R073", "R077", "R108"],
+      "status": "native_retained_pending_L2"
+    },
+    {
+      "nativeConceptId": "NC-C16-09",
+      "label": "环境传感复用",
+      "entityType": "action",
+      "definition": "把社区网络复用于温室温度、停电告警与空气质量监测，使通信基础设施承担环境感知功能。",
+      "examples": ["Red Hook Farms 温度传感器", "空气质量监测接入全国地图"],
+      "sourceRelationIds": ["R078", "R079", "R080", "R081", "R093"],
+      "status": "native_retained_pending_L2"
+    }
+  ],
+  "sharedConcepts": [],
+  "note": "本 skill 只产出原生概念与交接候选；未确认任何跨案例共享概念。"
+}

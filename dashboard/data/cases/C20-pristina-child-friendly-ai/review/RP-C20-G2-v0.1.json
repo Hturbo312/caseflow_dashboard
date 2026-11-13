@@ -1,0 +1,68 @@
+{
+  "packet_id": "RP-C20-G2-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G2",
+  "case_id": "C20",
+  "scope": "普里什蒂纳儿童友好公共空间 AI 共创的证据定位、转述与核验",
+  "generated_at": "2026-11-13",
+  "status": "accepted",
+  "summary": {
+    "evidence_count": 43,
+    "materials_covered": 13,
+    "groups": {
+      "problem_context": 5,
+      "actors": 9,
+      "process": 10,
+      "technology": 7,
+      "outputs": 6,
+      "implementation": 8,
+      "effects_and_claims": 5,
+      "method_limitations": 1,
+      "duplicate_crosscheck": 1
+    }
+  },
+  "conflicts": [
+    "年龄：M01-E03 10–17；M03-E01 11–17；M10-E02/M11-E02 10+（设计对象）",
+    "人数：M01未给；M03-E01超过50名儿童",
+    "工作坊结构：M01-E03一系列；M03-E01 5场利益相关方+4场儿童；M11-E02称AI session是addendum",
+    "地点：M01-E10未命名；M03-E02主邮局附近/City Park/Park of Taukbahce",
+    "方案与实施数量：3份方案/2份启动/2个空间 vs 2个批准设计/3个地点/1个公园更新",
+    "实施状态：initiated vs permits secured vs 1 park revitalised vs RFQ vs UTI实施原型",
+    "工具名称：AI platform / Urbanist AI tool / UrbanistAI",
+    "机构名称：Children Councils / Assembly of Children；SpaceSyntaks / Space Sinteks"
+  ],
+  "gaps": [
+    "9场工作坊的日期、地点、议程、签到表与参与者构成",
+    "三份方案的完整图纸、设计说明、儿童选择/淘汰记录",
+    "UrbanistAI提示词、生成图像、模型版本与儿童修改记录",
+    "市政许可、两份设计的中标/合同、施工与验收/开放文件",
+    "“1个公园完成更新”具体指哪一处，以及是否属于两份批准设计",
+    "儿童对过程、AI工具与成品的直接反馈（M03-E05说明未按计划开展焦点小组）",
+    "地方媒体/市政府独立报道"
+  ],
+  "decisions_requested": [
+    "43条证据的中文转述是否准确反映原文；是否有需要修订、合并或删除的条目",
+    "是否同意将M01/M02的10–17岁、3份方案、2份启动与M03的11–17岁、2个批准设计/3个地点/1个公园更新并列保留",
+    "是否同意把M10-E03、M11-E03标为计划性表述，不当作已完成",
+    "是否追加研究者提供的内部材料证据；若没有，G3以现有43条证据重建并标注空白"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_case_review": false,
+    "note": "C20与C19都使用UrbanistAI，G6后交L2判断共享概念候选"
+  },
+  "decision": {
+    "action": "accept",
+    "rationale": "研究者确认G2证据索引，按建议方案通过",
+    "modified_content": null,
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13",
+    "adopted_options": {
+      "evidence_statements": "accepted_43",
+      "age_and_count_framings": "retain_parallel_no_forced_unification",
+      "planned_statements": "M10-E03_M11-E03_marked_planned",
+      "internal_materials": "not_provided_reconstruct_with_gaps"
+    }
+  }
+}

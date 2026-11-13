@@ -1,0 +1,45 @@
+{
+  "packet_id": "RP-C15-L2-G2-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G2",
+  "case_id": "C15",
+  "scope": "Concept disambiguation, existing shared concept search, mapping proposals and new candidates",
+  "generated_at": "2026-11-13",
+  "status": "awaiting_researcher_decision",
+  "mapping_count": 15,
+  "mapping_type_counts": {
+    "semantic_equivalent": 0,
+    "native_hyponym": 4,
+    "partial_or_approximate": 5,
+    "no_map": 6
+  },
+  "new_candidate_count": 5,
+  "existing_shared_concepts_touched": ["SC-C01-132", "SC-C01-131", "SC-C01-156", "SC-C01-114", "SC-C01-161", "SC-C01-152", "SC-C01-133"],
+  "conflicts": [
+    "No exact semantic equivalent among 15 native concepts",
+    "Partial mappings must not expand existing shared concept scope",
+    "All 5 new candidates are single-case and require a second case",
+    "2021 system and 2023 mini-program remain separate",
+    "Micro-grid, Gelixiang, self-management team and autonomous team remain separate"
+  ],
+  "decisions_required": [
+    "Accept 15 mappings (0 equivalent, 4 hyponym, 5 partial, 6 no_map)",
+    "Accept 5 new shared concept candidates",
+    "Confirm partial mappings do not expand existing shared concept scope",
+    "Confirm 6 no_map concepts retain native knowledge",
+    "Allow L2-G3 historical mapping review for the seven touched shared concepts"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_historical_case_review": true,
+    "note": "L2-G3 will check C01/C04/C05/C07/C09/C10/C11 mappings for the seven touched shared concepts."
+  },
+  "researcher_decision": {
+    "action": null,
+    "rationale": null,
+    "modified_content": null,
+    "allow_next_gate": null,
+    "decided_at": null
+  }
+}

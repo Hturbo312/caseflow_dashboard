@@ -1,0 +1,79 @@
+{
+  "packetId": "RP-C17-G2-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G2",
+  "caseId": "C17",
+  "scope": "从 M01-M17 提取可定位证据，核对原文与表述",
+  "generatedAt": "2026-11-13",
+  "status": "accepted_by_researcher",
+  "evidenceCutoff": "2026-11-13",
+  "processed": [
+    "116 条证据",
+    "原文摘录与定位",
+    "暂定事实状态与置信度"
+  ],
+  "notProcessed": [
+    "G3 过程重建",
+    "G4 事实拆解",
+    "G5 关系编码",
+    "G6 关系审校"
+  ],
+  "candidateCount": 116,
+  "byMaterial": {
+    "M01": 43, "M02": 3, "M03": 4, "M04": 5, "M05": 4, "M06": 5,
+    "M07": 5, "M08": 3, "M09": 8, "M10": 7, "M11": 4, "M12": 4,
+    "M13": 2, "M14": 3, "M15": 5, "M16": 9, "M17": 2
+  },
+  "themeSummary": [
+    {"theme": "情境", "count": 8, "status": "implemented"},
+    {"theme": "组织与资金", "count": 12, "status": "implemented"},
+    {"theme": "1.0 过程", "count": 27, "status": "implemented"},
+    {"theme": "2.0 过程", "count": 16, "status": "implemented"},
+    {"theme": "移交与延续", "count": 17, "status": "implemented"},
+    {"theme": "技术工具", "count": 14, "status": "implemented"},
+    {"theme": "参与与社区知识", "count": 11, "status": "implemented/reported"},
+    {"theme": "结果与验证", "count": 11, "status": "implemented/reported"}
+  ],
+  "conflicts": [
+    {"topic": "ward 数", "positions": ["65/29（M01）", "29（M03）", "26（M09）", "49/90（M15）", "44（M16）"], "handling": "G3 分别记录"},
+    {"topic": "参与人数", "positions": ["150（M04）", "450（M03）", "450+（M09）", "800+/6000+ 与 1000+/300（M10）", "1000+（M11）", "470/300+（M15）"], "handling": "按阶段与角色拆分"},
+    {"topic": "项目周期", "positions": ["2016-12-31（M14）", "2015-2018（M15）", "2.0 至 2019（M10）", "2020-2021（M11/M12）"], "handling": "区分 1.0 / 2.0 / RA"},
+    {"topic": "洪泛范围性质", "positions": ["社区勾绘（M01-E38）", "2019 年洪水调查（M16-E07）"], "handling": "行动事实与数据性质分开标注"}
+  ],
+  "gaps": [
+    "2016 closing workshop 原文",
+    "2019 What we Learnt 原文",
+    "市政使用地图的决策记录",
+    "OSM 编辑量、更新频率、下载量、GeoNode 访问",
+    "Zuia Mafuriko 协作记录"
+  ],
+  "decisionsRequired": [
+    "116 条是否全部接受",
+    "感知数据状态：双重标注 / 统一 reported_or_opinion",
+    "自报规模数字的状态",
+    "是否先补 2016 closing 与 2019 learnt 材料",
+    "模型结论是否作为结果证据"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false,
+    "note": "新增 C17 证据索引，不修改 C01-C16"
+  },
+  "researcherDecision": {
+    "action": "accept",
+    "rationale": "全部接受，按推荐，先推进",
+    "modifiedContent": "116 条全部接受；感知数据维持双重标注；自报规模一律 reported_or_opinion；不等待补证；M16/M17 模型结论作结果证据",
+    "allowNextGate": true,
+    "decidedAt": "2026-11-13"
+  },
+  "frozenArtifacts": [],
+  "version": "v0.1",
+  "openIssues": [
+    "证据总体接受",
+    "感知数据状态",
+    "自报规模状态",
+    "补证时点",
+    "模型结论层级"
+  ]
+}

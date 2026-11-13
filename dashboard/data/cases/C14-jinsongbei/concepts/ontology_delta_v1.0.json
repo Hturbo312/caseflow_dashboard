@@ -1,0 +1,36 @@
+{
+  "version": "L2-C14-shared-v1.0",
+  "caseId": "C14",
+  "date": "2026-11-13",
+  "baseLayer": "L2-C01-C11-shared-v0.2 + L2-C12-shared-v1.0 + L2-C13-shared-v1.0",
+  "baseConceptCount": 54,
+  "baseConfirmedConcepts": 46,
+  "baseCandidateConcepts": 8,
+  "addedCandidates": 10,
+  "addedMappings": 20,
+  "modifiedConcepts": 0,
+  "deletedConcepts": 0,
+  "historicalReclassifications": 0,
+  "supportingCaseChanges": 0,
+  "resultingConceptNodes": 64,
+  "confirmedSharedConcepts": 46,
+  "candidateConcepts": 18,
+  "candidates": [
+    "SC-C14-101",
+    "SC-C14-102",
+    "SC-C14-103",
+    "SC-C14-104",
+    "SC-C14-105",
+    "SC-C14-106",
+    "SC-C14-107",
+    "SC-C14-108",
+    "SC-C14-109",
+    "SC-C14-110"
+  ],
+  "deferredConcepts": [
+    "HEDATA平台功能/覆盖/使用未验证",
+    "智慧社区六维度作为项目框架暂不立共享概念",
+    "扫码自动面条机仅作标签例证"
+  ],
+  "historicalReview": "7个既有概念、88条历史映射回查；0改判、0回退、0案例重分类"
+}

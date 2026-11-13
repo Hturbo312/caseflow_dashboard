@@ -1,0 +1,123 @@
+{
+  "caseId": "C13",
+  "version": "v1.0",
+  "status": "confirmed",
+  "generatedAt": "2026-11-13",
+  "processes": [
+    {
+      "processId": "C13-P01",
+      "title": "联邦召集、任务组成立与数据缺口识别",
+      "timeRange": "2013-09/2013-11",
+      "narrative": "2013年9月，奥巴马政府宣布3亿美元联邦行动，DBRTF同期成立；任务组确定处理全部破败结构与空地的使命，三位主席就任，并于2013年9月启动。任务组早期发现底特律不存在单一、完整的破败数据库。",
+      "actors": ["奥巴马政府/联邦政府", "DBRTF", "Linda Smith", "Glenda Price", "Dan Gilbert", "Kevyn Orr", "Mike Duggan"],
+      "events": ["E01 联邦宣布与任务组成立", "E02 确定使命", "E03 任务组启动", "E04 三位主席就任", "E05 识别数据缺口"],
+      "evidenceIds": ["M01-E01", "M01-E02", "M01-E03", "M01-E04", "M01-E05", "M02-E01", "M13-E03", "M13-E04", "M14-E01"],
+      "status": "implemented",
+      "revision": 1
+    },
+    {
+      "processId": "C13-P02",
+      "title": "MCM 普查筹备、技术设计与人员组织",
+      "timeRange": "2013-11/2013-12",
+      "narrative": "2013年11月，任务组与MNA、D3、Loveland合作启动全市约380,000个地块的实地普查；采用Blexting移动应用，继承2009年DRPS方法并扩展至约135,000个非住宅地块。制定拍照规范与问卷字段，招募并培训150名居民调查员与志愿司机，形成含质检的约200人团队。普查成本约150万美元。",
+      "actors": ["DBRTF", "MNA", "D3", "Loveland Technologies", "150名居民调查员与志愿司机", "质检人员"],
+      "events": ["E06 合作启动普查", "E07 采用Blexting", "E08 扩展非住宅地块", "E09 制定规范与字段", "E10 招募培训150人", "E11 组建200人团队", "E12 成本150万美元"],
+      "evidenceIds": ["M01-E05", "M01-E06", "M01-E07", "M01-E08", "M02-E03", "M02-E04", "M10-E01", "M10-E02", "M10-E03", "M11-E01", "M13-E02"],
+      "status": "implemented",
+      "revision": 1,
+      "conflicts": ["报告称2013-11开始，FAQ称外业自12月中旬"]
+    },
+    {
+      "processId": "C13-P03",
+      "title": "全市地块外业采集与实时质检",
+      "timeRange": "2013-12/2014-01",
+      "narrative": "2013年12月中旬至2014年1月，75个调查组采集全市380,000个地块数据；报告称两人小组，NYT记录最多75个三人小组。数据实时上传至mission control，由质检人员核查。最终调查378,136/380,233个地块，2,097个因无法从街道看到而未调查；NYT使用380,217口径。",
+      "actors": ["75个调查组", "居民调查员", "志愿司机", "mission control助理", "质检人员", "D3"],
+      "events": ["E13 75组外业", "E14 两人小组采集", "E15 实时上传", "E16 质检", "E17 完成378,136", "E18 2,097未调查"],
+      "evidenceIds": ["M01-E08", "M01-E09", "M01-E10", "M01-E11", "M01-E17", "M01-E18", "M02-E02", "M13-E01"],
+      "status": "implemented",
+      "revision": 1,
+      "conflicts": ["两人小组 vs 三人小组", "380,233 vs 380,217", "2013-11 vs 2013-12中旬"]
+    },
+    {
+      "processId": "C13-P04",
+      "title": "数据融合、第三方比对与破败判定",
+      "timeRange": "2014-01/2014-03",
+      "narrative": "任务组汇编24个数据集，16个用于定义破败，8个留待下一阶段；377,602份记录与第三方数据匹配。按十项条件定义破败，并将街区破败限定为住宅、小商业与空地。形成84,641个需干预地块口径：78,506结构+6,135空地；40,077建议立即清除，38,429待评估。",
+      "actors": ["DBRTF", "MCM团队", "D3", "数据提供方"],
+      "events": ["E19 汇编24个数据集", "E20 377,602匹配", "E21 十项定义", "E22 街区破败范围", "E23 84,641口径", "E24 40,077/38,429"],
+      "evidenceIds": ["M01-E10", "M01-E11", "M01-E12", "M01-E13", "M01-E14", "M01-E15", "M01-E16", "M02-E04", "M02-E05", "M02-E06", "M02-E07", "M02-E10", "M11-E02"],
+      "status": "implemented",
+      "revision": 1,
+      "conflicts": ["24个汇编 vs 30+获取"]
+    },
+    {
+      "processId": "C13-P05",
+      "title": "MCI/SATT 工具开发与历史保护叠加",
+      "timeRange": "2014-02/2014-04",
+      "narrative": "任务组开发MCI工具，以Neighborhood Dynamics Index与Neighborhood Threat Index两层指数识别临界点区域，合计覆盖193,384人。建议DLBA建立12问的SATT。MHPN与Preservation Detroit完成六个HHF街区的历史保护叠加调查，55名以上志愿者两周调查17,500处房产。DLBA启用5,200万美元HHF。",
+      "actors": ["DBRTF", "D3", "DLBA", "MHPN", "Preservation Detroit", "55名以上志愿者"],
+      "events": ["E25 开发MCI", "E26 两层指数", "E27 识别临界点", "E28 建议SATT", "E29 历史保护叠加", "E30 HHF 5,200万美元"],
+      "evidenceIds": ["M01-E19", "M01-E20", "M01-E21", "M01-E22", "M01-E23", "M01-E24", "M01-E25", "M02-E11", "M02-E12"],
+      "status": "implemented",
+      "revision": 1,
+      "conflicts": ["SATT为建议，非已实施"]
+    },
+    {
+      "processId": "C13-P06",
+      "title": "报告综合、成本测算与正式交付",
+      "timeRange": "2014-04/2014-05-27",
+      "narrative": "任务组将普查、数据融合与优先级分析综合为实施计划：84,641个需干预地块，40,077建议立即清除，38,429待评估，6,135空地待清理。提出五年清除、总成本近20亿美元、街区破败8.5亿美元；已确定4.56亿美元，缺口3.94亿美元。2014-05-27向Duggan、Orr与联邦代表提交。",
+      "actors": ["DBRTF", "Mike Duggan", "Kevyn Orr", "奥巴马政府代表"],
+      "events": ["E31 分级干预清单", "E32 五年/20亿美元", "E33 资金盘点", "E34 11年测算", "E35 2014-05-27交付"],
+      "evidenceIds": ["M01-E13", "M01-E14", "M01-E15", "M01-E26", "M01-E27", "M02-E01", "M02-E08", "M02-E09"],
+      "status": "implemented",
+      "revision": 1,
+      "conflicts": ["4亿 vs 3.94亿缺口", "M01-E26标签待核"]
+    },
+    {
+      "processId": "C13-P07",
+      "title": "数据公开、平台上线与 Phase II 启动",
+      "timeRange": "2014-05-21/2014-07",
+      "narrative": "2014-05-21 JPMorgan Chase投入100万美元支持DLBA启动Phase II，工具名People's Property Dashboard。2014-07 MCM网站上线，展示地块级使用、状况与占用数据，提供地理聚合；以开放数据许可发布CSV。",
+      "actors": ["JPMorgan Chase", "DLBA", "D3", "Loveland Technologies", "公众/居民"],
+      "events": ["E36 JPMorgan 100万美元", "E37 Phase II工具", "E38 2014-07上线", "E39 平台筛选与聚合", "E40 开放CSV"],
+      "evidenceIds": ["M02-E13", "M02-E14", "M07-E01", "M07-E02", "M11-E03"],
+      "status": "implemented",
+      "revision": 1,
+      "conflicts": ["People's Property Dashboard为计划"]
+    },
+    {
+      "processId": "C13-P08",
+      "title": "社区复核、Mini-Grant 与培训",
+      "timeRange": "2014-07/2014-12",
+      "narrative": "D3与MNA启动Mini-Grant，70多个组织申请，15个入围，获1,000-15,000美元；八周内260多名居民复核76,000多个地块。Phase 2允许公众用Blexting提交更新，经质检入库。2014-08以来40多场培训覆盖约1,000名居民；DLBA使用MCM数据并接收居民反馈。",
+      "actors": ["D3", "MNA", "15个社区组织", "260多名居民", "质检团队", "DLBA"],
+      "events": ["E41 Mini-Grant启动", "E42 260人/76,000地块", "E43 公众更新经质检", "E44 40场培训", "E45 DLBA使用数据", "E45a 平板捐赠计划"],
+      "evidenceIds": ["M01-E28", "M06-E02", "M11-E04", "M11-E05", "M12-E01", "M12-E02"],
+      "status": "implemented",
+      "revision": 1
+    },
+    {
+      "processId": "C13-P09",
+      "title": "平台演化、止赎场景复用与外部扩展",
+      "timeRange": "2015",
+      "narrative": "2015年平台由Site Control支撑，新增拆除、承包商、DLBA销售与历史资源图层。MCM能力复用到止赎调查：62,082处房产进入止赎，至少25,500处有人居住；24场活动7,725人、5,404份问卷。方法扩展至Highland Park与Hamtramck，D3称两地获近600万美元联邦资金。",
+      "actors": ["Loveland Technologies", "Site Control", "DLBA", "Wayne County Treasurer", "D3", "Highland Park", "Hamtramck"],
+      "events": ["E46 Site Control", "E47 新增图层", "E48 62,082止赎", "E49 7,725人/5,404问卷", "E50 外部扩展"],
+      "evidenceIds": ["M06-E01", "M06-E03", "M08-E01", "M08-E02", "M09-E01", "M09-E02", "M11-E04"],
+      "status": "implemented",
+      "revision": 1,
+      "conflicts": ["近600万美元为D3归因表述"]
+    }
+  ],
+  "unreconstructed": {
+    "range": "2016-01/2017-12",
+    "reason": "无连续证据，仅有2015-09平台快照",
+    "gaps": [
+      "2016-2017年MCM/Site Control快照或迁移公告",
+      "DLBA/市政府/MSHDA在2016-2017年使用MCM数据的文件",
+      "平台访问、更新频率、数据维护责任记录"
+    ]
+  }
+}

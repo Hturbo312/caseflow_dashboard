@@ -1,0 +1,55 @@
+{
+  "packet_id": "RP-C15-G5-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G5",
+  "case_id": "C15",
+  "scope": "Entity relations, predicates, direction, status and qualifiers for Chunjiang digital renewal",
+  "generated_at": "2026-11-13",
+  "status": "awaiting_researcher_decision",
+  "relation_count": 101,
+  "predicate_count": 47,
+  "status_counts": {"implemented": 86, "reported_or_opinion": 15},
+  "direction_rules": [
+    "action-to-target uses 作用于",
+    "capability-to-target uses 面向",
+    "technology-to-capability uses 提供",
+    "action-to-outcome uses 产生",
+    "context-to-action uses 构成背景 only"
+  ],
+  "key_chains": [
+    "policy -> pilot -> platform",
+    "Beautiful Homeland phase I -> charging piles -> acceptance",
+    "residents -> autonomous team -> Chunjiang alley",
+    "resident proposal -> pavilion -> self-management team",
+    "party branch -> four-order system -> Smart Chunjiang -> event closure",
+    "street -> micro-grid -> Gelixiang -> four lists -> digital governance network"
+  ],
+  "conflicts": [
+    "47 predicates include near-synonyms to review in G6",
+    "No relation between 2021 smart application system and 2023 Smart Chunjiang",
+    "No formal relation among autonomous team, self-management team and micro-grid",
+    "Platform developer/vendor/operator absent",
+    "15 reported relations correspond to F013-F015, F046, F052 and F056",
+    "P07 relations are 2024-02 retrospective"
+  ],
+  "decisions_required": [
+    "Accept 101 relations and 47 predicates as the G5 baseline",
+    "Confirm context relations use 构成背景 only, not causation; 支撑/配套 not upgraded to causation",
+    "Confirm direction rules for action/capability/technology/outcome",
+    "Confirm 15 reported relations map only to F013-F015, F046, F052 and F056",
+    "Confirm no relation between 2021 and 2023 platforms, and no formal link among autonomous team/self-management team/micro-grid"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_historical_case_review": false,
+    "note": "Check micro-grid, platform and event-handling concept boundaries with C04, C05 and C09 after G6."
+  },
+  "researcher_decision": {
+    "action": null,
+    "rationale": null,
+    "modified_content": null,
+    "allow_next_gate": null,
+    "decided_at": null
+  }
+}

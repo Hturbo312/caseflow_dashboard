@@ -1,0 +1,139 @@
+{
+  "packetId": "RP-C17-G0-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G0",
+  "caseId": "C17",
+  "scope": "Ramani Huria（达累斯萨拉姆）案例边界、纳入/排除标准与研究问题",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher",
+  "evidenceCutoff": "2026-11-13",
+  "processed": [
+    "事件名称",
+    "起止时间草案",
+    "空间范围与计数口径",
+    "纳入/排除标准",
+    "证据截止时间",
+    "研究问题草案",
+    "已知来源冲突"
+  ],
+  "notProcessed": [
+    "G1 材料正式登记",
+    "G2 证据逐条定位",
+    "G3 过程重建",
+    "G4 事实拆解",
+    "G5 关系编码",
+    "G6 关系审校"
+  ],
+  "candidates": [
+    {
+      "id": "C17-SCOPE-01",
+      "content": "案例名称：达累斯萨拉姆参与式洪涝韧性制图（Ramani Huria）",
+      "evidence": ["S1"],
+      "factStatus": "unconfirmed",
+      "confidence": "high",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "C17-SCOPE-02",
+      "content": "核心时段 2015-03-26 – 2016-03；2016–2019 设数据使用观察期",
+      "evidence": ["S1"],
+      "factStatus": "unconfirmed",
+      "confidence": "medium-high",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "C17-SCOPE-03",
+      "content": "空间核心为达市三市辖区；21 个社区流程 ward 为核心单元，65 wards 为规模结果",
+      "evidence": ["S1"],
+      "factStatus": "unconfirmed",
+      "confidence": "medium-high",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "C17-SCOPE-04",
+      "content": "纳入启动、试点、扩展、收缩、排水制图与图集发布六个过程",
+      "evidence": ["S1"],
+      "factStatus": "unconfirmed",
+      "confidence": "high",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "C17-SCOPE-05",
+      "content": "数据再利用（2016–2019）作结果观察，不并入核心行动链",
+      "evidence": ["S4", "S5"],
+      "factStatus": "unconfirmed",
+      "confidence": "medium",
+      "suggestedAction": "discuss"
+    },
+    {
+      "id": "C17-SCOPE-06",
+      "content": "排除 Kibera 等其他城市参与式建模案例",
+      "evidence": ["S4"],
+      "factStatus": "unconfirmed",
+      "confidence": "high",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "C17-SCOPE-07",
+      "content": "研究问题 5 问（情境、技术—能力—行动、参与组织、知识转化、结果与使用）",
+      "evidence": [],
+      "factStatus": "unconfirmed",
+      "confidence": "medium",
+      "suggestedAction": "discuss"
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "项目终点",
+      "positions": ["图集覆盖至 2016-02", "项目网站更新至 2018", "后续研究延续到 2019–2020"],
+      "handling": "分阶段记录，不合并为单一结束时间"
+    },
+    {
+      "topic": "ward 计数",
+      "positions": ["21 社区流程", "8 市中心", "36 排水", "29 全面测绘", "65 总数"],
+      "handling": "G2 按口径逐条核对"
+    },
+    {
+      "topic": "社区参与强度",
+      "positions": ["项目方称社区参与问题识别与洪泛范围确认", "缺少独立参与人数与决策权记录"],
+      "handling": "区分社区参与与学生/技术人员执行，标注证据强度"
+    }
+  ],
+  "gaps": [
+    "ramanihuria.org 与 HOT 项目页存档",
+    "2018 年洪水制图 2.0 博文",
+    "Delft 硕士论文 PDF 全文",
+    "世界银行/GFDRR 项目文件",
+    "Zuia Mafuriko 相关资料",
+    "市政实际使用地图的决策记录"
+  ],
+  "decisionsRequired": [
+    "案例编号与名称：C17 / 其他",
+    "时间边界：A 2015-03–2016-03（推荐）/ B 延伸至 2019-12 / C 延伸至 2020 年后",
+    "空间与计数：21 个社区流程 ward 为核心（推荐）/ 65 wards 整体",
+    "研究问题：采用草案 5 问 / 修改 / 增加维护与衰减问题",
+    "数据再利用归属：本案例结果（推荐）/ 另立后续案例"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false,
+    "note": "新增 C17，不修改 C01–C16"
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": null,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "version": "v0.1",
+  "openIssues": [
+    "案例编号",
+    "时间边界",
+    "空间与计数口径",
+    "研究问题",
+    "数据再利用归属"
+  ]
+}

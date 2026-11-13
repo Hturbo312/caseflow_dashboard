@@ -1,0 +1,62 @@
+{
+  "packetId": "RP-C18-G6-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G6",
+  "caseId": "C18",
+  "scope": "关系审校",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher",
+  "input": {
+    "relations": 101,
+    "version": "v1.0"
+  },
+  "candidate": {
+    "file": "relations_v0.2-candidate.json",
+    "relations": 101,
+    "status": {
+      "implemented": 23,
+      "reported_or_opinion": 71,
+      "planned": 3,
+      "disputed": 4
+    },
+    "unreferencedFacts": 0,
+    "duplicateTriples": 0,
+    "orphanEntities": 0
+  },
+  "modifications": [
+    {"id": "R036", "change": "研究团队—开发→APP改为研究团队—执行→开发APP行动", "type": "direction_hierarchy"},
+    {"id": "R050", "change": "增加F031与南头街流/密度限定", "type": "fact_coverage"},
+    {"id": "R060", "change": "23项痛点—报告推动→导视更新改为南头试点—报告推动→导视更新", "type": "direction"},
+    {"id": "R069", "change": "组织→支持", "type": "predicate_semantics"},
+    {"id": "R093", "change": "使用/介绍→介绍", "type": "compound_predicate"},
+    {"id": "R048", "change": "报告关联→报告显示", "type": "synonym"},
+    {"id": "R058", "change": "报告提升→报告显示", "type": "synonym"},
+    {"id": "R059", "change": "报告识别→报告显示", "type": "synonym"},
+    {"id": "R062", "change": "报告完成→报告显示", "type": "synonym"},
+    {"id": "R064", "change": "报告产生→报告显示", "type": "synonym"},
+    {"id": "R065", "change": "报告产生→报告显示", "type": "synonym"},
+    {"id": "R066", "change": "报告空间邻近→报告显示", "type": "synonym"},
+    {"id": "R068", "change": "报告形成→报告显示", "type": "synonym"}
+  ],
+  "decisionsRequired": [
+    "是否接受13处修改并冻结101条关系",
+    "是否统一报告类谓词",
+    "是否通过R050覆盖F031",
+    "是否允许生成case_pack"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false,
+    "note": "仅修订C18关系"
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": null,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "version": "v0.1"
+}

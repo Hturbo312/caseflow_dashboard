@@ -1,0 +1,2064 @@
+{
+  "case_id": "C14",
+  "gate": "G5",
+  "generated_at": "2026-11-13",
+  "status": "confirmed",
+  "relation_count": 69,
+  "status_counts": {
+    "implemented": 24,
+    "reported_or_opinion": 41,
+    "planned": 1,
+    "disputed": 3
+  },
+  "predicate_counts": {
+    "包含": 1,
+    "呈现": 1,
+    "与…签订战略合作协议": 1,
+    "实施": 8,
+    "形成": 1,
+    "组织": 1,
+    "参与": 3,
+    "完成": 1,
+    "改造": 3,
+    "引入": 4,
+    "入驻": 2,
+    "投票": 1,
+    "给予": 1,
+    "收取": 1,
+    "产生": 2,
+    "承诺": 1,
+    "服务": 2,
+    "建立": 1,
+    "响应": 1,
+    "部署": 4,
+    "提供": 6,
+    "提供紧急呼叫": 1,
+    "部署于": 1,
+    "声称覆盖": 1,
+    "声称提供": 1,
+    "将智慧社区列为更新维度": 1,
+    "获得": 1,
+    "被概括为": 1,
+    "授权长期运营": 1,
+    "采用多元收入结构": 1,
+    "测算": 1,
+    "投入自有资金": 1,
+    "投入项目总投资": 1,
+    "投入二区示范区": 1,
+    "资助基础类改造": 1,
+    "牵头建立": 1,
+    "牵头组建": 1,
+    "提出": 1,
+    "投票决定": 1,
+    "将智能化列为改造类别": 1,
+    "声称改善": 1,
+    "被报道为利用": 1,
+    "投资实施": 1,
+    "以双过半引入": 1
+  },
+  "validation": {
+    "problems": [],
+    "unused_facts": [
+      "F001",
+      "F003"
+    ],
+    "unused_evidence": [
+      "M01-E01",
+      "M03-E01",
+      "M05-E04",
+      "M09-E02",
+      "M11-E03"
+    ]
+  },
+  "relations": [
+    {
+      "relation_id": "R001",
+      "head_entity_id": "C01",
+      "head_entity": "劲松北社区",
+      "head_type": "context",
+      "predicate": "包含",
+      "tail_entity_id": "C04",
+      "tail_entity": "项目空间范围（一区、二区）",
+      "tail_type": "context",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2021",
+        "space": "劲松1—8区",
+        "scope": "北社区=1—2区"
+      },
+      "fact_ids": [
+        "F053"
+      ],
+      "evidence_ids": [
+        "M02-E10"
+      ],
+      "process_ids": [
+        "C14-P01",
+        "C14-P06"
+      ],
+      "notes": "空间边界关系。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R002",
+      "head_entity_id": "C01",
+      "head_entity": "劲松北社区",
+      "head_type": "context",
+      "predicate": "呈现",
+      "tail_entity_id": "C02",
+      "tail_entity": "社区人口与老龄化结构",
+      "tail_type": "context",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2021年前后",
+        "space": "劲松北社区",
+        "quantity": "4199户；9494人；39.6%；52%"
+      },
+      "fact_ids": [
+        "F002"
+      ],
+      "evidence_ids": [
+        "M02-E01"
+      ],
+      "process_ids": [
+        "C14-P01"
+      ],
+      "notes": "人口结构关系。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R003",
+      "head_entity_id": "A01",
+      "head_entity": "劲松街道",
+      "head_type": "actor",
+      "predicate": "与…签订战略合作协议",
+      "tail_entity_id": "A03",
+      "tail_entity": "愿景集团",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2018-07",
+        "space": "劲松北社区"
+      },
+      "fact_ids": [
+        "F004"
+      ],
+      "evidence_ids": [
+        "M02-E02",
+        "M03-E02"
+      ],
+      "process_ids": [
+        "C14-P01",
+        "C14-P06"
+      ],
+      "notes": "M02记接洽，M03记签约。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R004",
+      "head_entity_id": "A09",
+      "head_entity": "责任规划师/规划设计团队",
+      "head_type": "actor",
+      "predicate": "实施",
+      "tail_entity_id": "ACT02",
+      "tail_entity": "规划诊断与三层规划",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2018—2019",
+        "space": "劲松1—8区；劲松北社区",
+        "scope": "三个分层规划"
+      },
+      "fact_ids": [
+        "F005"
+      ],
+      "evidence_ids": [
+        "M02-E02"
+      ],
+      "process_ids": [
+        "C14-P01"
+      ],
+      "notes": "责任规划师完成规划。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R005",
+      "head_entity_id": "ACT02",
+      "head_entity": "规划诊断与三层规划",
+      "head_type": "action",
+      "predicate": "形成",
+      "tail_entity_id": "T01",
+      "tail_entity": "老旧小区综合整治与有机更新",
+      "tail_type": "task",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2018—2020",
+        "space": "劲松北社区",
+        "scope": "一带两园三街四区多点"
+      },
+      "fact_ids": [
+        "F005",
+        "F054"
+      ],
+      "evidence_ids": [
+        "M02-E02",
+        "M02-E04"
+      ],
+      "process_ids": [
+        "C14-P01"
+      ],
+      "notes": "规划行动产出综合整治任务框架。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R006",
+      "head_entity_id": "A09",
+      "head_entity": "责任规划师/规划设计团队",
+      "head_type": "actor",
+      "predicate": "实施",
+      "tail_entity_id": "ACT03",
+      "tail_entity": "需求调研",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2018—2019",
+        "space": "劲松北社区",
+        "quantity": "2300多份问卷"
+      },
+      "fact_ids": [
+        "F006"
+      ],
+      "evidence_ids": [
+        "M02-E03"
+      ],
+      "process_ids": [
+        "C14-P01",
+        "C14-P06"
+      ],
+      "notes": "需求调研行动。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R007",
+      "head_entity_id": "A06",
+      "head_entity": "社区党委/居委会",
+      "head_type": "actor",
+      "predicate": "组织",
+      "tail_entity_id": "ACT03",
+      "tail_entity": "需求调研",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2018—2019",
+        "space": "劲松北社区",
+        "quantity": "10余场问需会"
+      },
+      "fact_ids": [
+        "F008"
+      ],
+      "evidence_ids": [
+        "M04-E04"
+      ],
+      "process_ids": [
+        "C14-P01",
+        "C14-P06"
+      ],
+      "notes": "社区党委组织问需会。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R008",
+      "head_entity_id": "A07",
+      "head_entity": "居民/业主",
+      "head_type": "actor",
+      "predicate": "参与",
+      "tail_entity_id": "ACT03",
+      "tail_entity": "需求调研",
+      "tail_type": "action",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2018—2019",
+        "space": "劲松北社区",
+        "quantity": "2300+问卷；2380人访谈；10+问需会"
+      },
+      "fact_ids": [
+        "F006",
+        "F007",
+        "F008"
+      ],
+      "evidence_ids": [
+        "M02-E03",
+        "M04-E04",
+        "M05-E02"
+      ],
+      "process_ids": [
+        "C14-P01",
+        "C14-P06"
+      ],
+      "notes": "居民参与需求识别；含M05背景数据，故降为报道/观点。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R009",
+      "head_entity_id": "A07",
+      "head_entity": "居民/业主",
+      "head_type": "actor",
+      "predicate": "参与",
+      "tail_entity_id": "ACT12",
+      "tail_entity": "居民议事/方案调整",
+      "tail_type": "action",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2018—2020",
+        "space": "劲松北社区；劲松大公园",
+        "quantity": "20+次议事会；21类51项"
+      },
+      "fact_ids": [
+        "F009",
+        "F050",
+        "F051"
+      ],
+      "evidence_ids": [
+        "M04-E05",
+        "M05-E02",
+        "M06-E05"
+      ],
+      "process_ids": [
+        "C14-P01",
+        "C14-P06"
+      ],
+      "notes": "居民议事与方案调整；部分为企业方陈述。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R010",
+      "head_entity_id": "A08",
+      "head_entity": "楼门长/党员",
+      "head_type": "actor",
+      "predicate": "参与",
+      "tail_entity_id": "ACT12",
+      "tail_entity": "居民议事/方案调整",
+      "tail_type": "action",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2018—2019",
+        "space": "劲松一区、二区",
+        "quantity": "143位楼门长"
+      },
+      "fact_ids": [
+        "F009"
+      ],
+      "evidence_ids": [
+        "M05-E02"
+      ],
+      "process_ids": [
+        "C14-P06"
+      ],
+      "notes": "M05背景材料。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R011",
+      "head_entity_id": "A03",
+      "head_entity": "愿景集团",
+      "head_type": "actor",
+      "predicate": "实施",
+      "tail_entity_id": "ACT04",
+      "tail_entity": "示范区建设",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2019-05-06—2019-08-02",
+        "space": "示范区",
+        "scope": "社会资本先行实施"
+      },
+      "fact_ids": [
+        "F010",
+        "F011",
+        "F055"
+      ],
+      "evidence_ids": [
+        "M02-E05",
+        "M02-E11"
+      ],
+      "process_ids": [
+        "C14-P01"
+      ],
+      "notes": "示范区建设行动。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R012",
+      "head_entity_id": "ACT04",
+      "head_entity": "示范区建设",
+      "head_type": "action",
+      "predicate": "完成",
+      "tail_entity_id": "OUT01",
+      "tail_entity": "示范区完工",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2019-08-02",
+        "space": "示范区"
+      },
+      "fact_ids": [
+        "F010"
+      ],
+      "evidence_ids": [
+        "M02-E05"
+      ],
+      "process_ids": [
+        "C14-P01"
+      ],
+      "notes": "示范区完工结果。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R013",
+      "head_entity_id": "ACT04",
+      "head_entity": "示范区建设",
+      "head_type": "action",
+      "predicate": "改造",
+      "tail_entity_id": "C01",
+      "tail_entity": "劲松北社区",
+      "tail_type": "context",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2019",
+        "space": "示范区",
+        "scope": "架空线/公园/配套用房/无障碍"
+      },
+      "fact_ids": [
+        "F011"
+      ],
+      "evidence_ids": [
+        "M02-E05"
+      ],
+      "process_ids": [
+        "C14-P01"
+      ],
+      "notes": "物理更新作用于社区空间。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R014",
+      "head_entity_id": "ACT04",
+      "head_entity": "示范区建设",
+      "head_type": "action",
+      "predicate": "引入",
+      "tail_entity_id": "A12",
+      "tail_entity": "商户/便民业态",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2019",
+        "space": "示范区",
+        "scope": "理发/匠心工坊/食堂/百年义利"
+      },
+      "fact_ids": [
+        "F012"
+      ],
+      "evidence_ids": [
+        "M02-E05"
+      ],
+      "process_ids": [
+        "C14-P01"
+      ],
+      "notes": "示范区引入便民业态。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R015",
+      "head_entity_id": "A12",
+      "head_entity": "商户/便民业态",
+      "head_type": "actor",
+      "predicate": "入驻",
+      "tail_entity_id": "TGT05",
+      "tail_entity": "低效空间/配套用房",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2019—2021",
+        "space": "示范区；美好会客厅等"
+      },
+      "fact_ids": [
+        "F012",
+        "F028"
+      ],
+      "evidence_ids": [
+        "M02-E05",
+        "M07-E04"
+      ],
+      "process_ids": [
+        "C14-P01",
+        "C14-P03"
+      ],
+      "notes": "商户入驻低效空间/配套用房。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R016",
+      "head_entity_id": "A07",
+      "head_entity": "居民/业主",
+      "head_type": "actor",
+      "predicate": "投票",
+      "tail_entity_id": "ACT05",
+      "tail_entity": "物业引入/双过半投票",
+      "tail_type": "action",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2019-06",
+        "space": "劲松一区、二区",
+        "scope": "双过半；先尝后买"
+      },
+      "fact_ids": [
+        "F014",
+        "F015"
+      ],
+      "evidence_ids": [
+        "M01-E04",
+        "M02-E09",
+        "M03-E07",
+        "M05-E03"
+      ],
+      "process_ids": [
+        "C14-P02"
+      ],
+      "notes": "业主投票引入物业；缺投票记录。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R017",
+      "head_entity_id": "ACT05",
+      "head_entity": "物业引入/双过半投票",
+      "head_type": "action",
+      "predicate": "引入",
+      "tail_entity_id": "A05",
+      "tail_entity": "愿景物业",
+      "tail_type": "actor",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2019-06",
+        "space": "劲松一区、二区"
+      },
+      "fact_ids": [
+        "F014",
+        "F015"
+      ],
+      "evidence_ids": [
+        "M01-E04",
+        "M02-E09",
+        "M03-E07",
+        "M05-E03"
+      ],
+      "process_ids": [
+        "C14-P02"
+      ],
+      "notes": "物业引入行动。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R018",
+      "head_entity_id": "A05",
+      "head_entity": "愿景物业",
+      "head_type": "actor",
+      "predicate": "入驻",
+      "tail_entity_id": "C01",
+      "tail_entity": "劲松北社区",
+      "tail_type": "context",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2019-06",
+        "space": "劲松北社区"
+      },
+      "fact_ids": [
+        "F014"
+      ],
+      "evidence_ids": [
+        "M05-E03"
+      ],
+      "process_ids": [
+        "C14-P02"
+      ],
+      "notes": "物业入驻。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R019",
+      "head_entity_id": "A01",
+      "head_entity": "劲松街道",
+      "head_type": "actor",
+      "predicate": "给予",
+      "tail_entity_id": "A05",
+      "tail_entity": "愿景物业",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2019—2022",
+        "space": "劲松北社区",
+        "quantity": "3年"
+      },
+      "fact_ids": [
+        "F017"
+      ],
+      "evidence_ids": [
+        "M06-E02"
+      ],
+      "process_ids": [
+        "C14-P02"
+      ],
+      "notes": "物业扶持期；起止与金额未给。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R020",
+      "head_entity_id": "A05",
+      "head_entity": "愿景物业",
+      "head_type": "actor",
+      "predicate": "实施",
+      "tail_entity_id": "ACT06",
+      "tail_entity": "物业费收取",
+      "tail_type": "action",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020",
+        "space": "劲松北社区",
+        "quantity": "0.43/1.42元"
+      },
+      "fact_ids": [
+        "F018",
+        "F019"
+      ],
+      "evidence_ids": [
+        "M06-E04"
+      ],
+      "process_ids": [
+        "C14-P02"
+      ],
+      "notes": "物业费收取行动；收缴率为报道。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R021",
+      "head_entity_id": "ACT06",
+      "head_entity": "物业费收取",
+      "head_type": "action",
+      "predicate": "收取",
+      "tail_entity_id": "TGT06",
+      "tail_entity": "物业费",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2020",
+        "space": "劲松北社区",
+        "quantity": "多层0.43；高层1.42元/㎡/月"
+      },
+      "fact_ids": [
+        "F018"
+      ],
+      "evidence_ids": [
+        "M06-E04"
+      ],
+      "process_ids": [
+        "C14-P02"
+      ],
+      "notes": "收费对象与标准。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R022",
+      "head_entity_id": "ACT06",
+      "head_entity": "物业费收取",
+      "head_type": "action",
+      "predicate": "产生",
+      "tail_entity_id": "OUT03",
+      "tail_entity": "物业费收缴率",
+      "tail_type": "outcome",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020-06；2020-11",
+        "space": "劲松北社区",
+        "quantity": "60%；75%"
+      },
+      "fact_ids": [
+        "F019",
+        "F020"
+      ],
+      "evidence_ids": [
+        "M04-E06",
+        "M06-E04"
+      ],
+      "process_ids": [
+        "C14-P02"
+      ],
+      "notes": "收缴率为报道/企业方引述。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R023",
+      "head_entity_id": "A05",
+      "head_entity": "愿景物业",
+      "head_type": "actor",
+      "predicate": "承诺",
+      "tail_entity_id": "CAP06",
+      "tail_entity": "物业快速响应",
+      "tail_type": "capability",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020",
+        "space": "劲松北社区",
+        "quantity": "3分钟受理；10分钟上门"
+      },
+      "fact_ids": [
+        "F021"
+      ],
+      "evidence_ids": [
+        "M06-E03"
+      ],
+      "process_ids": [
+        "C14-P02"
+      ],
+      "notes": "服务承诺，缺工单记录。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R024",
+      "head_entity_id": "A05",
+      "head_entity": "愿景物业",
+      "head_type": "actor",
+      "predicate": "实施",
+      "tail_entity_id": "ACT07",
+      "tail_entity": "物业+养老试点",
+      "tail_type": "action",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020",
+        "space": "劲松北社区"
+      },
+      "fact_ids": [
+        "F022"
+      ],
+      "evidence_ids": [
+        "M08-E01"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "物业+养老试点。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R025",
+      "head_entity_id": "ACT07",
+      "head_entity": "物业+养老试点",
+      "head_type": "action",
+      "predicate": "服务",
+      "tail_entity_id": "TGT03",
+      "tail_entity": "老年人",
+      "tail_type": "target",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020",
+        "space": "劲松北社区",
+        "scope": "为老服务；手机班"
+      },
+      "fact_ids": [
+        "F022",
+        "F024",
+        "F033"
+      ],
+      "evidence_ids": [
+        "M04-E03",
+        "M08-E01"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "服务对象为老年人。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R026",
+      "head_entity_id": "ACT07",
+      "head_entity": "物业+养老试点",
+      "head_type": "action",
+      "predicate": "建立",
+      "tail_entity_id": "OUT05",
+      "tail_entity": "为老服务清单",
+      "tail_type": "outcome",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020",
+        "space": "劲松北社区"
+      },
+      "fact_ids": [
+        "F024"
+      ],
+      "evidence_ids": [
+        "M08-E01"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "为老服务清单；内容未取得。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R027",
+      "head_entity_id": "A10",
+      "head_entity": "第三方养老机构",
+      "head_type": "actor",
+      "predicate": "响应",
+      "tail_entity_id": "TGT03",
+      "tail_entity": "老年人",
+      "tail_type": "target",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020",
+        "space": "劲松北社区",
+        "scope": "第一时间响应"
+      },
+      "fact_ids": [
+        "F024"
+      ],
+      "evidence_ids": [
+        "M08-E01"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "第三方机构响应；无响应记录。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R028",
+      "head_entity_id": "A05",
+      "head_entity": "愿景物业",
+      "head_type": "actor",
+      "predicate": "实施",
+      "tail_entity_id": "ACT08",
+      "tail_entity": "适老化设备部署",
+      "tail_type": "action",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020—2021",
+        "space": "劲松北社区；劲松社区"
+      },
+      "fact_ids": [
+        "F023",
+        "F025",
+        "F027",
+        "F032",
+        "F057"
+      ],
+      "evidence_ids": [
+        "M04-E07",
+        "M07-E02",
+        "M07-E03",
+        "M07-E04",
+        "M08-E01"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "适老化设备部署行动。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R029",
+      "head_entity_id": "ACT08",
+      "head_entity": "适老化设备部署",
+      "head_type": "action",
+      "predicate": "部署",
+      "tail_entity_id": "TECH07",
+      "tail_entity": "紧急呼叫器",
+      "tail_type": "technology",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020—2021",
+        "space": "劲松北社区",
+        "scope": "有需要的老人家庭"
+      },
+      "fact_ids": [
+        "F023"
+      ],
+      "evidence_ids": [
+        "M04-E07",
+        "M08-E01"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "紧急呼叫器；是否联网未确认。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R030",
+      "head_entity_id": "ACT08",
+      "head_entity": "适老化设备部署",
+      "head_type": "action",
+      "predicate": "部署",
+      "tail_entity_id": "TECH08",
+      "tail_entity": "安全扶手/无障碍坡道",
+      "tail_type": "technology",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020—2021",
+        "space": "劲松北社区",
+        "scope": "扶手/坡道/防撞条"
+      },
+      "fact_ids": [
+        "F023",
+        "F027",
+        "F032"
+      ],
+      "evidence_ids": [
+        "M04-E07",
+        "M07-E04",
+        "M08-E01"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "无障碍设施。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R031",
+      "head_entity_id": "ACT08",
+      "head_entity": "适老化设备部署",
+      "head_type": "action",
+      "predicate": "引入",
+      "tail_entity_id": "TECH05",
+      "tail_entity": "爬楼机",
+      "tail_type": "technology",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020",
+        "space": "劲松社区",
+        "quantity": "9台"
+      },
+      "fact_ids": [
+        "F025",
+        "F057"
+      ],
+      "evidence_ids": [
+        "M07-E02",
+        "M07-E03"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "爬楼机；可能覆盖多个社区。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R032",
+      "head_entity_id": "ACT08",
+      "head_entity": "适老化设备部署",
+      "head_type": "action",
+      "predicate": "引入",
+      "tail_entity_id": "TECH06",
+      "tail_entity": "电动轮椅",
+      "tail_type": "technology",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020",
+        "space": "劲松社区",
+        "quantity": "12台"
+      },
+      "fact_ids": [
+        "F025",
+        "F026"
+      ],
+      "evidence_ids": [
+        "M07-E03"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "电动轮椅；可能覆盖多个社区。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R033",
+      "head_entity_id": "TECH05",
+      "head_entity": "爬楼机",
+      "head_type": "technology",
+      "predicate": "提供",
+      "tail_entity_id": "CAP03",
+      "tail_entity": "辅助上下楼/出行",
+      "tail_type": "capability",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2020",
+        "space": "劲松社区",
+        "scope": "需志愿者协助"
+      },
+      "fact_ids": [
+        "F057"
+      ],
+      "evidence_ids": [
+        "M07-E02"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "设备能力；未证明使用频次。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R034",
+      "head_entity_id": "TECH06",
+      "head_entity": "电动轮椅",
+      "head_type": "technology",
+      "predicate": "提供",
+      "tail_entity_id": "CAP03",
+      "tail_entity": "辅助上下楼/出行",
+      "tail_type": "capability",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020",
+        "space": "劲松社区",
+        "scope": "租借使用"
+      },
+      "fact_ids": [
+        "F026"
+      ],
+      "evidence_ids": [
+        "M07-E03"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "设备能力存在，但部署与使用为报道；未证明使用率。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R035",
+      "head_entity_id": "TECH07",
+      "head_entity": "紧急呼叫器",
+      "head_type": "technology",
+      "predicate": "提供紧急呼叫",
+      "tail_entity_id": "CAP04",
+      "tail_entity": "紧急呼叫能力",
+      "tail_type": "capability",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020—2021",
+        "space": "劲松北社区",
+        "scope": "紧急呼叫；第三方响应"
+      },
+      "fact_ids": [
+        "F023",
+        "F024"
+      ],
+      "evidence_ids": [
+        "M04-E07",
+        "M08-E01"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "设备提供紧急呼叫能力；第三方响应另见 R027；是否联网未确认。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R036",
+      "head_entity_id": "A05",
+      "head_entity": "愿景物业",
+      "head_type": "actor",
+      "predicate": "实施",
+      "tail_entity_id": "ACT09",
+      "tail_entity": "智能设备部署",
+      "tail_type": "action",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2019—2021",
+        "space": "劲松北社区"
+      },
+      "fact_ids": [
+        "F029",
+        "F030",
+        "F031"
+      ],
+      "evidence_ids": [
+        "M04-E01",
+        "M05-E01",
+        "M07-E04"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "智能设备部署行动。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R037",
+      "head_entity_id": "ACT09",
+      "head_entity": "智能设备部署",
+      "head_type": "action",
+      "predicate": "部署",
+      "tail_entity_id": "TECH01",
+      "tail_entity": "智能门禁",
+      "tail_type": "technology",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020—2021",
+        "space": "劲松北社区",
+        "scope": "社区入口"
+      },
+      "fact_ids": [
+        "F029"
+      ],
+      "evidence_ids": [
+        "M07-E04"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "智能门禁；识别方式/数据未给。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R038",
+      "head_entity_id": "ACT09",
+      "head_entity": "智能设备部署",
+      "head_type": "action",
+      "predicate": "部署",
+      "tail_entity_id": "TECH02",
+      "tail_entity": "人脸识别系统",
+      "tail_type": "technology",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2019-10",
+        "space": "社区入口"
+      },
+      "fact_ids": [
+        "F031"
+      ],
+      "evidence_ids": [
+        "M05-E01"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "人脸识别；与智能门禁可能同一或不同批次。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R039",
+      "head_entity_id": "ACT09",
+      "head_entity": "智能设备部署",
+      "head_type": "action",
+      "predicate": "改造",
+      "tail_entity_id": "TECH03",
+      "tail_entity": "智能车棚",
+      "tail_type": "technology",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020",
+        "space": "209号楼车棚"
+      },
+      "fact_ids": [
+        "F030"
+      ],
+      "evidence_ids": [
+        "M04-E01"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "智能车棚；联网/计费未确认。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R040",
+      "head_entity_id": "TECH01",
+      "head_entity": "智能门禁",
+      "head_type": "technology",
+      "predicate": "提供",
+      "tail_entity_id": "CAP01",
+      "tail_entity": "身份识别与门禁控制",
+      "tail_type": "capability",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020—2021",
+        "space": "劲松北社区",
+        "scope": "门禁控制"
+      },
+      "fact_ids": [
+        "F029"
+      ],
+      "evidence_ids": [
+        "M07-E04"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "设备能力存在，但部署与使用为报道；未证明使用率。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R041",
+      "head_entity_id": "TECH02",
+      "head_entity": "人脸识别系统",
+      "head_type": "technology",
+      "predicate": "提供",
+      "tail_entity_id": "CAP01",
+      "tail_entity": "身份识别与门禁控制",
+      "tail_type": "capability",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2019-10",
+        "space": "社区入口",
+        "scope": "人脸识别"
+      },
+      "fact_ids": [
+        "F031"
+      ],
+      "evidence_ids": [
+        "M05-E01"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "设备能力存在，但部署与使用为报道；未证明使用率。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R042",
+      "head_entity_id": "TECH03",
+      "head_entity": "智能车棚",
+      "head_type": "technology",
+      "predicate": "提供",
+      "tail_entity_id": "CAP02",
+      "tail_entity": "电动自行车充电",
+      "tail_type": "capability",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020",
+        "space": "209号楼车棚",
+        "scope": "充电"
+      },
+      "fact_ids": [
+        "F030"
+      ],
+      "evidence_ids": [
+        "M04-E01"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "设备能力存在，但部署与使用为报道；未证明使用率。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R043",
+      "head_entity_id": "TECH03",
+      "head_entity": "智能车棚",
+      "head_type": "technology",
+      "predicate": "服务",
+      "tail_entity_id": "TGT04",
+      "tail_entity": "电动自行车",
+      "tail_type": "target",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020",
+        "space": "209号楼车棚"
+      },
+      "fact_ids": [
+        "F030"
+      ],
+      "evidence_ids": [
+        "M04-E01"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "设备能力存在，但部署与使用为报道；未证明使用率。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R044",
+      "head_entity_id": "TECH09",
+      "head_entity": "自动面条机",
+      "head_type": "technology",
+      "predicate": "部署于",
+      "tail_entity_id": "TGT02",
+      "tail_entity": "209号楼车棚",
+      "tail_type": "target",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2019",
+        "space": "车棚"
+      },
+      "fact_ids": [
+        "F035"
+      ],
+      "evidence_ids": [
+        "M05-E07"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "自动面条机；不纳入智慧治理技术清单。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R045",
+      "head_entity_id": "A04",
+      "head_entity": "愿景和家",
+      "head_type": "actor",
+      "predicate": "提供",
+      "tail_entity_id": "TECH04",
+      "tail_entity": "HEDATA平台",
+      "tail_type": "technology",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2022-05",
+        "space": "劲松北社区等项目"
+      },
+      "fact_ids": [
+        "F036"
+      ],
+      "evidence_ids": [
+        "M09-E01"
+      ],
+      "process_ids": [
+        "C14-P04"
+      ],
+      "notes": "企业方陈述；平台功能未给。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R046",
+      "head_entity_id": "TECH04",
+      "head_entity": "HEDATA平台",
+      "head_type": "technology",
+      "predicate": "声称覆盖",
+      "tail_entity_id": "C01",
+      "tail_entity": "劲松北社区",
+      "tail_type": "context",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2022-05",
+        "space": "劲松北社区",
+        "scope": "居民/物业/街道多领域"
+      },
+      "fact_ids": [
+        "F036"
+      ],
+      "evidence_ids": [
+        "M09-E01"
+      ],
+      "process_ids": [
+        "C14-P04"
+      ],
+      "notes": "企业方声称；无覆盖户数/使用率。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R047",
+      "head_entity_id": "TECH04",
+      "head_entity": "HEDATA平台",
+      "head_type": "technology",
+      "predicate": "声称提供",
+      "tail_entity_id": "CAP05",
+      "tail_entity": "平台数据整合/多领域服务（声称）",
+      "tail_type": "capability",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2022-05",
+        "space": "劲松北社区",
+        "scope": "多领域服务需求"
+      },
+      "fact_ids": [
+        "F036"
+      ],
+      "evidence_ids": [
+        "M09-E01"
+      ],
+      "process_ids": [
+        "C14-P04"
+      ],
+      "notes": "能力范围未核实。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R048",
+      "head_entity_id": "A03",
+      "head_entity": "愿景集团",
+      "head_type": "actor",
+      "predicate": "将智慧社区列为更新维度",
+      "tail_entity_id": "T03",
+      "tail_entity": "智慧社区/智慧治理",
+      "tail_type": "task",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020",
+        "space": "劲松北社区",
+        "scope": "六维度之一"
+      },
+      "fact_ids": [
+        "F037"
+      ],
+      "evidence_ids": [
+        "M10-E02"
+      ],
+      "process_ids": [
+        "C14-P04"
+      ],
+      "notes": "项目方宣传材料。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R049",
+      "head_entity_id": "A03",
+      "head_entity": "愿景集团",
+      "head_type": "actor",
+      "predicate": "获得",
+      "tail_entity_id": "OUT06",
+      "tail_entity": "最佳实践入选",
+      "tail_type": "outcome",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2022-07",
+        "space": "北京市"
+      },
+      "fact_ids": [
+        "F038"
+      ],
+      "evidence_ids": [
+        "M11-E01"
+      ],
+      "process_ids": [
+        "C14-P05"
+      ],
+      "notes": "入选最佳实践。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R050",
+      "head_entity_id": "A03",
+      "head_entity": "愿景集团",
+      "head_type": "actor",
+      "predicate": "被概括为",
+      "tail_entity_id": "T02",
+      "tail_entity": "引入社会资本与长效物业",
+      "tail_type": "task",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020—2022",
+        "space": "劲松北社区",
+        "scope": "党建引领/社会资本/微利可持续/一体化"
+      },
+      "fact_ids": [
+        "F039"
+      ],
+      "evidence_ids": [
+        "M03-E04",
+        "M06-E01",
+        "M11-E02"
+      ],
+      "process_ids": [
+        "C14-P05"
+      ],
+      "notes": "劲松模式的操作化落点为社会资本与长效物业；评价性概括。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R051",
+      "head_entity_id": "A01",
+      "head_entity": "劲松街道",
+      "head_type": "actor",
+      "predicate": "授权长期运营",
+      "tail_entity_id": "A03",
+      "tail_entity": "愿景集团",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2019—2022",
+        "space": "劲松北社区",
+        "scope": "存量低效空间"
+      },
+      "fact_ids": [
+        "F040"
+      ],
+      "evidence_ids": [
+        "M03-E05"
+      ],
+      "process_ids": [
+        "C14-P07"
+      ],
+      "notes": "年限/租金/面积/合同未给。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R052",
+      "head_entity_id": "A03",
+      "head_entity": "愿景集团",
+      "head_type": "actor",
+      "predicate": "实施",
+      "tail_entity_id": "ACT10",
+      "tail_entity": "低效空间盘活/业态引入",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2019—2021",
+        "space": "劲松北社区"
+      },
+      "fact_ids": [
+        "F040",
+        "F041"
+      ],
+      "evidence_ids": [
+        "M03-E05",
+        "M04-E02"
+      ],
+      "process_ids": [
+        "C14-P07"
+      ],
+      "notes": "低效空间盘活行动。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R053",
+      "head_entity_id": "ACT10",
+      "head_entity": "低效空间盘活/业态引入",
+      "head_type": "action",
+      "predicate": "改造",
+      "tail_entity_id": "TGT05",
+      "tail_entity": "低效空间/配套用房",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2019—2021",
+        "space": "劲松北社区",
+        "quantity": "千余平方米"
+      },
+      "fact_ids": [
+        "F041"
+      ],
+      "evidence_ids": [
+        "M03-E05",
+        "M04-E02"
+      ],
+      "process_ids": [
+        "C14-P07"
+      ],
+      "notes": "空间改造对象。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R054",
+      "head_entity_id": "ACT10",
+      "head_entity": "低效空间盘活/业态引入",
+      "head_type": "action",
+      "predicate": "产生",
+      "tail_entity_id": "OUT04",
+      "tail_entity": "千余平方米空间激活",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2019—2021",
+        "space": "劲松北社区",
+        "quantity": "千余平方米"
+      },
+      "fact_ids": [
+        "F041"
+      ],
+      "evidence_ids": [
+        "M03-E05",
+        "M04-E02"
+      ],
+      "process_ids": [
+        "C14-P07"
+      ],
+      "notes": "空间激活结果。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R055",
+      "head_entity_id": "A03",
+      "head_entity": "愿景集团",
+      "head_type": "actor",
+      "predicate": "采用多元收入结构",
+      "tail_entity_id": "T02",
+      "tail_entity": "引入社会资本与长效物业",
+      "tail_type": "task",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2019—2022",
+        "space": "劲松北社区",
+        "scope": "空间经营/物业费/停车/养老/政府购买"
+      },
+      "fact_ids": [
+        "F042"
+      ],
+      "evidence_ids": [
+        "M02-E07",
+        "M03-E05"
+      ],
+      "process_ids": [
+        "C14-P07"
+      ],
+      "notes": "收入结构设计；回收投入留在限定/备注，不写成已实现。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R056",
+      "head_entity_id": "A03",
+      "head_entity": "愿景集团",
+      "head_type": "actor",
+      "predicate": "测算",
+      "tail_entity_id": "OUT08",
+      "tail_entity": "投资回收（测算）",
+      "tail_type": "outcome",
+      "fact_status": "planned",
+      "qualifiers": {
+        "time": "2019—2033（测算）",
+        "space": "劲松北社区",
+        "quantity": "10年左右；14年"
+      },
+      "fact_ids": [
+        "F043",
+        "F044"
+      ],
+      "evidence_ids": [
+        "M02-E07",
+        "M05-E05"
+      ],
+      "process_ids": [
+        "C14-P07"
+      ],
+      "notes": "两种测算不一致。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R057",
+      "head_entity_id": "A03",
+      "head_entity": "愿景集团",
+      "head_type": "actor",
+      "predicate": "投入自有资金",
+      "tail_entity_id": "T02",
+      "tail_entity": "引入社会资本与长效物业",
+      "tail_type": "task",
+      "fact_status": "disputed",
+      "qualifiers": {
+        "time": "2018—2022",
+        "space": "劲松北社区",
+        "quantity": "3000万元；45%"
+      },
+      "fact_ids": [
+        "F045"
+      ],
+      "evidence_ids": [
+        "M03-E02"
+      ],
+      "process_ids": [
+        "C14-P07"
+      ],
+      "notes": "与R058/R059口径冲突。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R058",
+      "head_entity_id": "A03",
+      "head_entity": "愿景集团",
+      "head_type": "actor",
+      "predicate": "投入项目总投资",
+      "tail_entity_id": "T02",
+      "tail_entity": "引入社会资本与长效物业",
+      "tail_type": "task",
+      "fact_status": "disputed",
+      "qualifiers": {
+        "time": "2020",
+        "space": "劲松一区、二区",
+        "quantity": "2.9亿元；20万㎡"
+      },
+      "fact_ids": [
+        "F046"
+      ],
+      "evidence_ids": [
+        "M10-E01"
+      ],
+      "process_ids": [
+        "C14-P07"
+      ],
+      "notes": "项目方材料；与R057/R059冲突。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R059",
+      "head_entity_id": "A03",
+      "head_entity": "愿景集团",
+      "head_type": "actor",
+      "predicate": "投入二区示范区",
+      "tail_entity_id": "T02",
+      "tail_entity": "引入社会资本与长效物业",
+      "tail_type": "task",
+      "fact_status": "disputed",
+      "qualifiers": {
+        "time": "2019",
+        "space": "二区示范区",
+        "quantity": "4000余万元"
+      },
+      "fact_ids": [
+        "F047"
+      ],
+      "evidence_ids": [
+        "M05-E06"
+      ],
+      "process_ids": [
+        "C14-P07"
+      ],
+      "notes": "M05背景材料；与R057/R058冲突。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R060",
+      "head_entity_id": "A11",
+      "head_entity": "市区财政部门",
+      "head_type": "actor",
+      "predicate": "资助基础类改造",
+      "tail_entity_id": "T02",
+      "tail_entity": "引入社会资本与长效物业",
+      "tail_type": "task",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2018—2020",
+        "space": "劲松北社区",
+        "scope": "市区两级财政"
+      },
+      "fact_ids": [
+        "F058"
+      ],
+      "evidence_ids": [
+        "M10-E03"
+      ],
+      "process_ids": [
+        "C14-P07"
+      ],
+      "notes": "资金分工；金额未给。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R061",
+      "head_entity_id": "A01",
+      "head_entity": "劲松街道",
+      "head_type": "actor",
+      "predicate": "牵头建立",
+      "tail_entity_id": "ACT11",
+      "tail_entity": "五方联动/党建共同体",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2018—2023",
+        "space": "劲松北社区",
+        "scope": "五方联动"
+      },
+      "fact_ids": [
+        "F048"
+      ],
+      "evidence_ids": [
+        "M01-E02",
+        "M02-E06",
+        "M11-E02"
+      ],
+      "process_ids": [
+        "C14-P06"
+      ],
+      "notes": "治理机制。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R062",
+      "head_entity_id": "A06",
+      "head_entity": "社区党委/居委会",
+      "head_type": "actor",
+      "predicate": "牵头组建",
+      "tail_entity_id": "ACT11",
+      "tail_entity": "五方联动/党建共同体",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2018—2023",
+        "space": "劲松北社区",
+        "scope": "党建共同体"
+      },
+      "fact_ids": [
+        "F049"
+      ],
+      "evidence_ids": [
+        "M02-E06",
+        "M03-E08"
+      ],
+      "process_ids": [
+        "C14-P06"
+      ],
+      "notes": "社区党建共同体。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R063",
+      "head_entity_id": "A03",
+      "head_entity": "愿景集团",
+      "head_type": "actor",
+      "predicate": "提出",
+      "tail_entity_id": "T01",
+      "tail_entity": "老旧小区综合整治与有机更新",
+      "tail_type": "task",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2019—2022",
+        "space": "劲松北社区",
+        "scope": "软硬兼顾；设计-施工-运营一体化"
+      },
+      "fact_ids": [
+        "F052"
+      ],
+      "evidence_ids": [
+        "M02-E08",
+        "M03-E06"
+      ],
+      "process_ids": [
+        "C14-P05"
+      ],
+      "notes": "言语行为，非实施行动；内容为“软硬兼顾、设计—施工—运营一体化”。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R064",
+      "head_entity_id": "A07",
+      "head_entity": "居民/业主",
+      "head_type": "actor",
+      "predicate": "投票决定",
+      "tail_entity_id": "ACT12",
+      "tail_entity": "居民议事/方案调整",
+      "tail_type": "action",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2019—2020",
+        "space": "劲松北社区",
+        "scope": "改造内容；入驻行业"
+      },
+      "fact_ids": [
+        "F051"
+      ],
+      "evidence_ids": [
+        "M06-E05"
+      ],
+      "process_ids": [
+        "C14-P06"
+      ],
+      "notes": "企业方陈述；无投票记录。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R065",
+      "head_entity_id": "A03",
+      "head_entity": "愿景集团",
+      "head_type": "actor",
+      "predicate": "将智能化列为改造类别",
+      "tail_entity_id": "ACT04",
+      "tail_entity": "示范区建设",
+      "tail_type": "action",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020—2022",
+        "space": "示范区；一、二区",
+        "scope": "四大类之一"
+      },
+      "fact_ids": [
+        "F013"
+      ],
+      "evidence_ids": [
+        "M01-E03",
+        "M03-E03"
+      ],
+      "process_ids": [
+        "C14-P01"
+      ],
+      "notes": "类别级表述。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R066",
+      "head_entity_id": "ACT08",
+      "head_entity": "适老化设备部署",
+      "head_type": "action",
+      "predicate": "声称改善",
+      "tail_entity_id": "OUT07",
+      "tail_entity": "居民出行频率提高（声称）",
+      "tail_type": "outcome",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2019—2021",
+        "space": "劲松北社区",
+        "scope": "出行频率；室外活动与社交"
+      },
+      "fact_ids": [
+        "F034"
+      ],
+      "evidence_ids": [
+        "M02-E12"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "项目方因果性表述，缺使用数据。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R067",
+      "head_entity_id": "A05",
+      "head_entity": "愿景物业",
+      "head_type": "actor",
+      "predicate": "被报道为利用",
+      "tail_entity_id": "T03",
+      "tail_entity": "智慧社区/智慧治理",
+      "tail_type": "task",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2020-11",
+        "space": "劲松北社区",
+        "scope": "智慧科技改善老人宜居体验"
+      },
+      "fact_ids": [
+        "F056"
+      ],
+      "evidence_ids": [
+        "M07-E01"
+      ],
+      "process_ids": [
+        "C14-P03"
+      ],
+      "notes": "报道标签级表述，非企业方已实施事实。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R068",
+      "head_entity_id": "A03",
+      "head_entity": "愿景集团",
+      "head_type": "actor",
+      "predicate": "投资实施",
+      "tail_entity_id": "C04",
+      "tail_entity": "项目空间范围（一区、二区）",
+      "tail_type": "context",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2019",
+        "space": "示范区"
+      },
+      "fact_ids": [
+        "F055"
+      ],
+      "evidence_ids": [
+        "M02-E11"
+      ],
+      "process_ids": [
+        "C14-P01"
+      ],
+      "notes": "社会资本先行实施。",
+      "review": "pending",
+      "version": "v1.1"
+    },
+    {
+      "relation_id": "R069",
+      "head_entity_id": "C01",
+      "head_entity": "劲松北社区",
+      "head_type": "context",
+      "predicate": "以双过半引入",
+      "tail_entity_id": "A05",
+      "tail_entity": "愿景物业",
+      "tail_type": "actor",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2019",
+        "space": "北京市",
+        "scope": "北京市首个"
+      },
+      "fact_ids": [
+        "F016"
+      ],
+      "evidence_ids": [
+        "M02-E09"
+      ],
+      "process_ids": [
+        "C14-P02"
+      ],
+      "notes": "官方评价性表述；“北京市首个”为限定，不写成普遍事实。",
+      "review": "pending",
+      "version": "v1.1"
+    }
+  ],
+  "version": "v1.1"
+}

@@ -1,0 +1,51 @@
+{
+  "packet_id": "RP-C15-G1-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G1",
+  "case_id": "C15",
+  "scope": "Material registration, source quality, coverage and inclusion decisions for Chunjiang digital renewal",
+  "generated_at": "2026-11-13",
+  "status": "awaiting_researcher_decision",
+  "materials_count": 9,
+  "duplicates_count": 3,
+  "candidates": [
+    {"id": "M01", "content": "Chunjiang community scale, Chunjiang alley, autonomous team,早期探头/公约", "evidence": "上海黄浦/五里桥街道 2021-02-11", "suggested_action": "include_as_prehistory"},
+    {"id": "M02", "content": "Shanghai Minimum Management Unit phase II policy and Qixi Road shop pilot", "evidence": "中国新闻网 2021-07-07", "suggested_action": "include_as_context"},
+    {"id": "M03", "content": "Chunjiang high-altitude object, elevator, smart access, household water scenarios", "evidence": "周到 2021-07-11", "suggested_action": "include_core"},
+    {"id": "M04", "content": "Beautiful Homeland phase I completion, charging piles, six projects, three meetings, smart system pilot", "evidence": "上观/五里桥街道 2021-08-14", "suggested_action": "include_core"},
+    {"id": "M05", "content": "Three meetings, storage-room renovation, smart fitness equipment, rubber track", "evidence": "上观转《光明日报》 2021-12-07", "suggested_action": "include_core_chunjiang_only"},
+    {"id": "M06", "content": "Beautiful Homeland phase II, 20 temporary parking spaces, party-building linkage", "evidence": "新民晚报 2023-03-07", "suggested_action": "include_as_process_background"},
+    {"id": "M07", "content": "Chunjiang pavilion, resident Zhou Hu, hearing, self-management team", "evidence": "上海黄浦/上观 2023-08-31", "suggested_action": "include_core"},
+    {"id": "M08", "content": "Smart Chunjiang mini-program, four-order system, 122 services, event closure", "evidence": "上海黄浦/上观 2023-09-23", "suggested_action": "include_core"},
+    {"id": "M09", "content": "Micro-grid, Gelixiang station, four lists 118 items, 96% resolution, digital governance network, AI cameras, elderly database", "evidence": "上海黄浦/上观 2024-02-26", "suggested_action": "include_as_followup"}
+  ],
+  "conflicts": [
+    "M08 headline says four lists while body says four orders; M09 defines four lists as problem/resource/topic/project, confirming two different mechanisms",
+    "G0 event end is 2023-12 but M09 was published 2024-02-26 and contains early-2024 information",
+    "M03 describes active scenarios while M04 says the smart system is under pilot",
+    "M04's 409 charging spaces cover five communities, not Chunjiang alone",
+    "M09's 96% resolution rate has no stated denominator or period",
+    "M08's 122 services are a content list, not usage",
+    "M01/M04/M07/M08/M09 belong to the same street publicity chain and are not independent"
+  ],
+  "decisions_required": [
+    "Include M01-M09, with M02 as policy context, M06 as process background and M01 as prehistory?",
+    "Accept verified syndicated copies with original pages pending, and proceed to G2?",
+    "Treat M09 as follow-up observation without changing the confirmed 2023-12 event end, or revise G0 to cover 2024?",
+    "Confirm four lists (problem/resource/topic/project) and four orders (order/dispatch/accept/evaluate) as two separate mechanisms?",
+    "Treat M01's Chunjiang alley, autonomous team and early cameras as prehistory rather than 2021 digital action?"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_historical_case_review": false,
+    "note": "Check micro-grid, platform and event-handling concept boundaries with C04, C05 and C09 after G5/G6."
+  },
+  "researcher_decision": {
+    "action": null,
+    "rationale": null,
+    "modified_content": null,
+    "allow_next_gate": null,
+    "decided_at": null
+  }
+}

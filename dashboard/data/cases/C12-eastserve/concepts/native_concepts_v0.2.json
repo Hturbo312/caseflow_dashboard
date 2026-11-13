@@ -1,0 +1,236 @@
+{
+  "case_id": "C12",
+  "version": "v0.2",
+  "status": "candidate_awaiting_G1_confirmation",
+  "active_concepts": [
+    {
+      "native_concept_id": "NC-C12-02",
+      "case_id": "C12",
+      "label": "社区无线宽带作为替代性最后一英里",
+      "entity_type": "technology",
+      "definition": "在缺乏 cable/固定电话覆盖的既有住宅区，以社区无线网络提供家庭宽带接入的基础设施方案。",
+      "examples": [
+        "2002 年夏引入无线",
+        "塔楼天线/接入点/光纤骨干",
+        "2005 年覆盖 9,000 户",
+        "2014 年升级 36Mbps"
+      ],
+      "source_relation_ids": [
+        "R023",
+        "R026",
+        "R027",
+        "R057"
+      ],
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C12-03",
+      "case_id": "C12",
+      "label": "居民小组与社区冠军的双层参与",
+      "entity_type": "action",
+      "definition": "由 15 人居民小组提供内容/服务建议，由社区冠军提供一线支持并反馈指导小组的参与结构。",
+      "examples": [
+        "Residents' Panel",
+        "community champions 月度会议",
+        "内容与安装支持"
+      ],
+      "source_relation_ids": [
+        "R040",
+        "R041"
+      ],
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C12-04",
+      "case_id": "C12",
+      "label": "安装链条中的本地就业",
+      "entity_type": "action",
+      "definition": "通过 ITEM 等 intermediate labour market 组织，让本地居民参与设备安装并获得就业/培训的机制。",
+      "examples": [
+        "ITEM 安装团队",
+        "本地居民就业",
+        "上门安装与支持"
+      ],
+      "source_relation_ids": [
+        "R039"
+      ],
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C12-05",
+      "case_id": "C12",
+      "label": "补贴设备与信用合作社贷款",
+      "entity_type": "capability",
+      "definition": "以补贴价设备叠加本地信用合作社低息贷款，降低一次性支付门槛的 affordability 组合。",
+      "examples": [
+        "新 PC 200 英镑",
+        "翻新 PC 50 英镑",
+        "信用合作社贷款",
+        "90% 选择新电脑"
+      ],
+      "source_relation_ids": [
+        "R016",
+        "R021"
+      ],
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C12-06",
+      "case_id": "C12",
+      "label": "公共项目向私营/社会企业运营转换",
+      "entity_type": "action",
+      "definition": "从 NDC/公共资助项目转向 Symera、CityServe、ITS 等私营/社会企业运营的体制转换过程。",
+      "examples": [
+        "2009 Symera 合作",
+        "2010 清算",
+        "2014 ITS 收购",
+        "2016 Cityserve 品牌"
+      ],
+      "source_relation_ids": [
+        "R045",
+        "R054",
+        "R061"
+      ],
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C12-07",
+      "case_id": "C12",
+      "label": "组织退出与基础设施转移分离",
+      "entity_type": "outcome",
+      "definition": "项目公司/载体退出或清算，并不必然导致网络基础设施消失；网络可被收购、升级并继续服务。",
+      "examples": [
+        "Symera 2010 清算",
+        "CityServe (999) 2013 解散",
+        "ITS 2014 收购/升级",
+        "2017 壳公司解散"
+      ],
+      "source_relation_ids": [
+        "R048",
+        "R053",
+        "R054",
+        "R055",
+        "R060",
+        "R061"
+      ],
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C12-08",
+      "case_id": "C12",
+      "label": "门户作为本地公共服务入口",
+      "entity_type": "technology",
+      "definition": "eastserve.com 作为住房、就业、环境、警务、报修等本地公共服务的统一入口。",
+      "examples": [
+        "住房报修",
+        "路灯故障报告",
+        "就业信息/CV",
+        "匿名犯罪报告"
+      ],
+      "source_relation_ids": [
+        "R009",
+        "R030",
+        "R038",
+        "R064"
+      ],
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C12-09",
+      "case_id": "C12",
+      "label": "家庭设备补贴与分发",
+      "entity_type": "action",
+      "definition": "以补贴价向居民分发新 PC、翻新 PC、机顶盒等家庭终端，并安排配送与安装。",
+      "examples": [
+        "新 PC 200 英镑",
+        "翻新 PC 50 英镑",
+        "免费机顶盒",
+        "2002-09 约 2,200 户安装",
+        "2006 年约 3,500 台 PC"
+      ],
+      "source_relation_ids": [
+        "R013",
+        "R014",
+        "R015",
+        "R016",
+        "R019",
+        "R020"
+      ],
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C12-10",
+      "case_id": "C12",
+      "label": "三小时入门培训",
+      "entity_type": "action",
+      "definition": "每户至少一人参加 3 小时入门课程，作为领取设备前的条件；并延伸到后续培训与冠军培训。",
+      "examples": [
+        "3 小时课程",
+        "约 2,500 人参加（正文）/1,500 人（摘要）",
+        "2006 年累计 3,500 人",
+        "MANCAT 培训 20 名冠军"
+      ],
+      "source_relation_ids": [
+        "R024",
+        "R025",
+        "R031"
+      ],
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C12-11",
+      "case_id": "C12",
+      "label": "本地内容供给",
+      "entity_type": "capability",
+      "definition": "通过门户提供住房、就业、环境、警务、报修等本地信息与服务内容。",
+      "examples": [
+        "住房报修",
+        "路灯故障报告",
+        "就业信息/CV",
+        "匿名犯罪报告"
+      ],
+      "source_relation_ids": [
+        "R009",
+        "R030",
+        "R038",
+        "R064"
+      ],
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C12-12",
+      "case_id": "C12",
+      "label": "组合干预的项目整合与交付管理",
+      "entity_type": "action",
+      "definition": "将设备、培训、本地内容与社区支持整合为统一项目，并协调治理、交付与支持。",
+      "examples": [
+        "统一设备/培训/内容/支持包",
+        "MCC 问责与 steering group",
+        "分阶段 rollout"
+      ],
+      "source_relation_ids": [
+        "R013",
+        "R014",
+        "R015",
+        "R016",
+        "R024",
+        "R041"
+      ],
+      "status": "candidate"
+    }
+  ],
+  "split_parent": {
+    "native_concept_id": "NC-C12-01",
+    "case_id": "C12",
+    "label": "家庭设备—培训—本地内容—社区支持组合",
+    "entity_type": "action",
+    "status": "split",
+    "split_into": [
+      "NC-C12-09",
+      "NC-C12-10",
+      "NC-C12-11",
+      "NC-C12-12"
+    ],
+    "note": "原始复合概念保留为历史记录，不再作为活动概念参与映射。"
+  }
+}

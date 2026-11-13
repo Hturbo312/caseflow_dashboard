@@ -1,0 +1,151 @@
+{
+ "caseId": "C17",
+ "name": "达累斯萨拉姆参与式洪涝韧性制图（Ramani Huria）",
+ "nameEn": "Ramani Huria - Community-Based Flood Resilience Mapping in Dar es Salaam",
+ "country": "Tanzania",
+ "city": "Dar es Salaam",
+ "eventStart": "2015-03-26",
+ "eventEnd": "2021-01-22",
+ "prehistory": "2011 Ramani Tandale pilot",
+ "scope": "达累斯萨拉姆 21 个社区流程 ward 为核心；65 个地图改善 ward 为规模结果；Mwanza 为扩散观察",
+ "evidenceCutoff": "2026-11-13",
+ "status": "frozen",
+ "counts": {
+  "materials": 17,
+  "evidence": 116,
+  "processes": 12,
+  "facts": 78,
+  "entities": 105,
+  "relations": 106,
+  "nativeConcepts": 0,
+  "sharedConceptCandidates": 0
+ },
+ "factStatus": {
+  "facts": {
+   "implemented": 63,
+   "planned": 3,
+   "reported_or_opinion": 12,
+   "disputed": 0,
+   "unconfirmed": 0
+  },
+  "relations": {
+   "implemented": 100,
+   "planned": 2,
+   "reported_or_opinion": 4,
+   "disputed": 0,
+   "unconfirmed": 0
+  }
+ },
+ "entityTypes": {
+  "actor": 27,
+  "target": 16,
+  "action": 15,
+  "technology": 14,
+  "capability": 11,
+  "outcome": 9,
+  "task": 7,
+  "context": 6
+ },
+ "artifacts": {
+  "scope": "case_scope.md",
+  "materials": [
+   "materials.md",
+   "materials.json"
+  ],
+  "evidence": [
+   "evidence.md",
+   "evidence.json"
+  ],
+  "process": [
+   "process.md",
+   "process.json"
+  ],
+  "facts": [
+   "facts.md",
+   "facts.json"
+  ],
+  "entities": [
+   "entities.md",
+   "entities.json"
+  ],
+  "relations": [
+   "relations_v1.0.md",
+   "relations_v1.0.json"
+  ],
+  "reviewDir": "review/"
+ },
+ "reviewDecisions": [
+  {
+   "gate": "G0",
+   "action": "modify+accept",
+   "allowNextGate": true,
+   "date": "2026-11-13"
+  },
+  {
+   "gate": "G1",
+   "action": "accept",
+   "allowNextGate": true,
+   "date": "2026-11-13"
+  },
+  {
+   "gate": "G2",
+   "action": "accept",
+   "allowNextGate": true,
+   "date": "2026-11-13"
+  },
+  {
+   "gate": "G3",
+   "action": "accept",
+   "allowNextGate": true,
+   "date": "2026-11-13"
+  },
+  {
+   "gate": "G4",
+   "action": "accept",
+   "allowNextGate": true,
+   "date": "2026-11-13"
+  },
+  {
+   "gate": "G5",
+   "action": "accept",
+   "allowNextGate": true,
+   "date": "2026-11-13"
+  },
+  {
+   "gate": "G6",
+   "action": "accept_all_proposals",
+   "allowNextGate": true,
+   "date": "2026-11-13"
+  }
+ ],
+ "openQuestions": [
+  "数据维护与更新频率缺失",
+  "市政实际采用地图的决策记录缺失",
+  "参与规模多套口径未独立核验",
+  "项目结束存在 2016/2019/2021 三层",
+  "Zuia Mafuriko 协作仅有序言级证据",
+  "制图是否减少洪水损失属 L3 因果问题",
+  "2021 年后延续未纳入"
+ ],
+ "conceptLeads": [
+  "社区洪泛记忆的空间转译（E-C08/E-G09/R049）",
+  "大学生作为可培训的制图中介层（E-A23/E-P04/E-O05）",
+  "开放数据基础设施（E-H01/E-G13/R050）",
+  "组织承接与能力延续（E-A13/E-A16/E-P13/E-O06）",
+  "低成本技术组合（E-H06/E-H08/E-H12/E-C11）"
+ ],
+ "integrity": {
+  "danglingReferences": 0,
+  "checkedAt": "2026-11-13"
+ },
+ "handoff": "scalable-concept-framework",
+ "conceptLayer": {
+  "version": "L2-C17-shared-v1.0",
+  "nativeConcepts": 11,
+  "candidates": 7,
+  "mappings": 19,
+  "formalSharedConcepts": 0,
+  "status": "released",
+  "releasedAt": "2026-11-13"
+ }
+}

@@ -1,0 +1,55 @@
+{
+  "packetId": "RP-C16-G1-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G1",
+  "caseId": "C16",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher_confirmation",
+  "scope": "Red Hook WiFi 材料登记、来源核验、相关性与覆盖范围",
+  "registeredMaterials": 18,
+  "rejectedSources": 7,
+  "candidates": [
+    {"id": "C16-MAT-01", "content": "登记 M01–M09 项目方/合作机构一手材料", "factStatus": "unconfirmed", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "C16-MAT-02", "content": "登记 M10–M15 独立/地方媒体", "factStatus": "unconfirmed", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "C16-MAT-03", "content": "登记 M16 政府项目页", "factStatus": "unconfirmed", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "C16-MAT-04", "content": "M17/M18 低可靠性参考，仅作线索与冲突对照", "factStatus": "unconfirmed", "confidence": "medium", "suggestedAction": "discuss"},
+    {"id": "C16-MAT-05", "content": "拒绝 7 项抓取失败/重复/空壳来源", "factStatus": "unconfirmed", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "C16-MAT-06", "content": "M10 NYT 仅付费墙预览，标为部分可读", "factStatus": "unconfirmed", "confidence": "high", "suggestedAction": "discuss"},
+    {"id": "C16-MAT-07", "content": "关键口径按站点/路由器/规划目标/宿主数与连接/到访/求助拆分", "factStatus": "unconfirmed", "confidence": "medium-high", "suggestedAction": "accept"}
+  ],
+  "conflicts": [
+    "起点：2011-11 / 2011 秋 / 2011-12",
+    "Sandy 每日用户：300 / 1,000 / 1,200",
+    "节点规模：近 20 站点 / 40+ 规划 / 约 40 峰值 / 近两打路由器 / 38 家宿主",
+    "人口：11,000 居民、近 70% 住公共住宅 / 约 5,000 人",
+    "运营主体：RHI 社区主导 / Sky Packets 运营",
+    "Digital Stewards：一年期 fellowship / 8 个月培训"
+  ],
+  "decisionPoints": [
+    "确认 M01–M18 与 7 项拒绝",
+    "M17/M18 低可靠性材料去留",
+    "M10 NYT 部分可读是否接受",
+    "RISE:NYC 金额是否按报道性记录",
+    "现有材料是否足以进入 G2"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false,
+    "scope": "新增 C16，不修改 C01–C15"
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": false,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "openIssues": [
+    "RISE:NYC 金额仅单一来源",
+    "NYT 2014 全文缺失",
+    "2011–2012 项目原始文件缺失",
+    "2018–2023 节点与访问数据缺失"
+  ]
+}

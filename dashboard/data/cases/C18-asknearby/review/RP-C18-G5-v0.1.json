@@ -1,0 +1,75 @@
+{
+  "packetId": "RP-C18-G5-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G5",
+  "caseId": "C18",
+  "scope": "实体关系抽取",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher",
+  "counts": {
+    "relations": 101,
+    "byProcess": {
+      "C18-P01": 16,
+      "C18-P02": 21,
+      "C18-P03": 12,
+      "C18-P04": 21,
+      "C18-P05": 11,
+      "C18-P06": 8,
+      "C18-P07": 12
+    },
+    "status": {
+      "implemented": 23,
+      "reported_or_opinion": 71,
+      "planned": 3,
+      "disputed": 4
+    }
+  },
+  "qualityChecks": {
+    "uniqueIds": 101,
+    "missingEndpoints": 0,
+    "invalidRoles": 0,
+    "missingEvidence": 0,
+    "missingProcesses": 0,
+    "duplicateTriples": 0,
+    "orphanEntities": 0
+  },
+  "conflicts": [
+    "R075-R078资助对象与奖项层级冲突",
+    "APP与小程序未证明同一载体",
+    "研究团队与方元问问团队未证明同一主体",
+    "南头时间窗未载"
+  ],
+  "gaps": [
+    "平台页面、版本与后台日志",
+    "试点评估报告与原始数据",
+    "南头管理方材料",
+    "2025-11之后的持续运行证据"
+  ],
+  "decisionsRequired": [
+    "是否接受101条关系与开放谓词",
+    "是否确认状态分布",
+    "是否保留四条资助冲突关系",
+    "是否暂不建立APP/小程序、研究团队/项目团队关系"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false,
+    "note": "新增C18关系候选，不修改C01-C17"
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": null,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "version": "v0.1",
+  "openIssues": [
+    "关系全量",
+    "状态分布",
+    "资助冲突",
+    "身份关系缺口"
+  ]
+}

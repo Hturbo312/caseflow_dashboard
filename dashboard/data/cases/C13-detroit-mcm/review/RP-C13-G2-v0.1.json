@@ -1,0 +1,43 @@
+{
+  "packetId": "RP-C13-G2-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G2",
+  "caseId": "C13",
+  "scope": "Motor City Mapping 证据陈述、原文定位与跨来源冲突",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher",
+  "evidenceCount": 66,
+  "compositeOrReconstructed": ["M01-E08", "M01-E23", "M01-E25", "M02-E05", "M07-E01", "M10-E03"],
+  "conflicts": [
+    {"topic": "普查起点", "evidenceIds": ["M01-E05", "M02-E02", "M13-E01"]},
+    {"topic": "普查时长", "evidenceIds": ["M01-E08", "M02-E02"]},
+    {"topic": "小组规模", "evidenceIds": ["M01-E17", "M13-E01", "M02-E02"]},
+    {"topic": "人数", "evidenceIds": ["M01-E08", "M02-E03", "M11-E01"]},
+    {"topic": "地块总数", "evidenceIds": ["M01-E10", "M13-E01"]},
+    {"topic": "数据集", "evidenceIds": ["M01-E12", "M11-E02"]},
+    {"topic": "破败规模", "evidenceIds": ["M01-E13", "M14-E01", "M13-E04"]},
+    {"topic": "资金缺口", "evidenceIds": ["M01-E27", "M02-E09"]}
+  ],
+  "gaps": [
+    "2016-2017 平台与数据使用连续证据",
+    "DLBA/MSHDA/市政府数据使用文件",
+    "实际拆除量与 MCM 评分的对应数据",
+    "M01-E26 状况标签对应关系"
+  ],
+  "decisionsRequired": [
+    "是否接受 66 条证据（含 6 条复合/改写摘录）",
+    "普查起点是否分层重建",
+    "人员口径是否三分",
+    "M01-E26 标签是否先标待核",
+    "M01-E28 平板捐赠是否维持计划状态"
+  ],
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": null,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "version": "v0.1"
+}

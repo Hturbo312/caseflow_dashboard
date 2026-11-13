@@ -1,0 +1,2382 @@
+{
+ "caseId": "C17",
+ "version": "v0.1",
+ "status": "candidate_pending_researcher",
+ "generatedAt": "2026-11-13",
+ "total": 106,
+ "relations": [
+  {
+   "id": "R001",
+   "caseId": "C17",
+   "head": "E-X01",
+   "headLabel": "达累斯萨拉姆年度洪涝风险",
+   "headType": "context",
+   "predicate": "影响",
+   "tail": "E-G06",
+   "tailLabel": "建筑物",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "每年雨季；Dar es Salaam",
+   "evidenceIds": [
+    "M01-E02"
+   ],
+   "processIds": [
+    "C17-P01"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "洪水冲毁房屋"
+  },
+  {
+   "id": "R002",
+   "caseId": "C17",
+   "head": "E-X01",
+   "headLabel": "达累斯萨拉姆年度洪涝风险",
+   "headType": "context",
+   "predicate": "影响",
+   "tail": "E-G07",
+   "tailLabel": "道路",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "每年雨季；Dar es Salaam",
+   "evidenceIds": [
+    "M01-E02"
+   ],
+   "processIds": [
+    "C17-P01"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "洪水冲毁道路"
+  },
+  {
+   "id": "R003",
+   "caseId": "C17",
+   "head": "E-A02",
+   "headLabel": "世界银行",
+   "headType": "actor",
+   "predicate": "共建",
+   "tail": "E-X04",
+   "tailLabel": "坦桑尼亚城市韧性计划（TURP）",
+   "tailType": "context",
+   "factStatus": "implemented",
+   "qualifiers": "2015-2021",
+   "evidenceIds": [
+    "M02-E02"
+   ],
+   "processIds": [
+    "C17-P02"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "与世界银行共同建立 TURP"
+  },
+  {
+   "id": "R004",
+   "caseId": "C17",
+   "head": "E-A03",
+   "headLabel": "英国国际发展部（DFID）",
+   "headType": "actor",
+   "predicate": "共建",
+   "tail": "E-X04",
+   "tailLabel": "坦桑尼亚城市韧性计划（TURP）",
+   "tailType": "context",
+   "factStatus": "implemented",
+   "qualifiers": "2015-2021",
+   "evidenceIds": [
+    "M02-E02"
+   ],
+   "processIds": [
+    "C17-P02"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R005",
+   "caseId": "C17",
+   "head": "E-A02",
+   "headLabel": "世界银行",
+   "headType": "actor",
+   "predicate": "支持",
+   "tail": "E-A01",
+   "tailLabel": "HOT（人道主义 OpenStreetMap 团队）",
+   "tailType": "actor",
+   "factStatus": "implemented",
+   "qualifiers": "2015-2016",
+   "evidenceIds": [
+    "M01-E05",
+    "M15-E04"
+   ],
+   "processIds": [
+    "C17-P02"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "世界银行为主要资助方"
+  },
+  {
+   "id": "R006",
+   "caseId": "C17",
+   "head": "E-A04",
+   "headLabel": "全球减灾与恢复基金（GFDRR）",
+   "headType": "actor",
+   "predicate": "支持",
+   "tail": "E-A01",
+   "tailLabel": "HOT（人道主义 OpenStreetMap 团队）",
+   "tailType": "actor",
+   "factStatus": "implemented",
+   "qualifiers": "2015-2016",
+   "evidenceIds": [
+    "M01-E05"
+   ],
+   "processIds": [
+    "C17-P02"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R007",
+   "caseId": "C17",
+   "head": "E-A05",
+   "headLabel": "红十字会（坦桑尼亚/美国/丹麦）",
+   "headType": "actor",
+   "predicate": "支持",
+   "tail": "E-A01",
+   "tailLabel": "HOT（人道主义 OpenStreetMap 团队）",
+   "tailType": "actor",
+   "factStatus": "implemented",
+   "qualifiers": "2015-2016",
+   "evidenceIds": [
+    "M01-E05",
+    "M01-E12"
+   ],
+   "processIds": [
+    "C17-P02"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "含 Zuia Mafuriko 合作"
+  },
+  {
+   "id": "R008",
+   "caseId": "C17",
+   "head": "E-A01",
+   "headLabel": "HOT（人道主义 OpenStreetMap 团队）",
+   "headType": "actor",
+   "predicate": "指导实施",
+   "tail": "E-T02",
+   "tailLabel": "为洪泛 ward 建立高精度地图",
+   "tailType": "task",
+   "factStatus": "implemented",
+   "qualifiers": "2015-2021",
+   "evidenceIds": [
+    "M02-E03"
+   ],
+   "processIds": [
+    "C17-P02"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R009",
+   "caseId": "C17",
+   "head": "E-A08",
+   "headLabel": "坦桑尼亚科学技术委员会（COSTECH）",
+   "headType": "actor",
+   "predicate": "承办",
+   "tail": "E-P02",
+   "tailLabel": "COSTECH 启动工作坊",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2015-03-26/27",
+   "evidenceIds": [
+    "M01-E13"
+   ],
+   "processIds": [
+    "C17-P02"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R010",
+   "caseId": "C17",
+   "head": "E-A01",
+   "headLabel": "HOT（人道主义 OpenStreetMap 团队）",
+   "headType": "actor",
+   "predicate": "召集",
+   "tail": "E-P02",
+   "tailLabel": "COSTECH 启动工作坊",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2015-03-26/27",
+   "evidenceIds": [
+    "M01-E13"
+   ],
+   "processIds": [
+    "C17-P02"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R011",
+   "caseId": "C17",
+   "head": "E-A10",
+   "headLabel": "市辖区议会（Ilala/Kinondoni/Temeke）",
+   "headType": "actor",
+   "predicate": "签发许可",
+   "tail": "E-T02",
+   "tailLabel": "为洪泛 ward 建立高精度地图",
+   "tailType": "task",
+   "factStatus": "implemented",
+   "qualifiers": "2015-2016",
+   "evidenceIds": [
+    "M01-E29"
+   ],
+   "processIds": [
+    "C17-P06"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R012",
+   "caseId": "C17",
+   "head": "E-A10",
+   "headLabel": "市辖区议会（Ilala/Kinondoni/Temeke）",
+   "headType": "actor",
+   "predicate": "共同确定",
+   "tail": "E-G01",
+   "tailLabel": "21 个社区流程 ward",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2015",
+   "evidenceIds": [
+    "M01-E27"
+   ],
+   "processIds": [
+    "C17-P06"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R013",
+   "caseId": "C17",
+   "head": "E-A05",
+   "headLabel": "红十字会（坦桑尼亚/美国/丹麦）",
+   "headType": "actor",
+   "predicate": "共同确定",
+   "tail": "E-G01",
+   "tailLabel": "21 个社区流程 ward",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2015",
+   "evidenceIds": [
+    "M01-E27"
+   ],
+   "processIds": [
+    "C17-P06"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R014",
+   "caseId": "C17",
+   "head": "E-A01",
+   "headLabel": "HOT（人道主义 OpenStreetMap 团队）",
+   "headType": "actor",
+   "predicate": "开展",
+   "tail": "E-P01",
+   "tailLabel": "2011 年 Ramani Tandale 试点",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2011",
+   "evidenceIds": [
+    "M01-E06",
+    "M14-E02"
+   ],
+   "processIds": [
+    "C17-P01",
+    "C17-P02"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "前史"
+  },
+  {
+   "id": "R015",
+   "caseId": "C17",
+   "head": "E-A24",
+   "headLabel": "社区成员",
+   "headType": "actor",
+   "predicate": "参与",
+   "tail": "E-P01",
+   "tailLabel": "2011 年 Ramani Tandale 试点",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2011",
+   "evidenceIds": [
+    "M01-E06"
+   ],
+   "processIds": [
+    "C17-P01"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "Tandale 社区"
+  },
+  {
+   "id": "R016",
+   "caseId": "C17",
+   "head": "E-A23",
+   "headLabel": "大学生制图员",
+   "headType": "actor",
+   "predicate": "参与",
+   "tail": "E-P01",
+   "tailLabel": "2011 年 Ramani Tandale 试点",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2011",
+   "evidenceIds": [
+    "M01-E06"
+   ],
+   "processIds": [
+    "C17-P01"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R017",
+   "caseId": "C17",
+   "head": "E-P01",
+   "headLabel": "2011 年 Ramani Tandale 试点",
+   "headType": "action",
+   "predicate": "先于",
+   "tail": "E-P02",
+   "tailLabel": "COSTECH 启动工作坊",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2011 → 2015",
+   "evidenceIds": [
+    "M01-E06"
+   ],
+   "processIds": [
+    "C17-P01"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "方法前史"
+  },
+  {
+   "id": "R018",
+   "caseId": "C17",
+   "head": "E-A06",
+   "headLabel": "Ardhi 大学",
+   "headType": "actor",
+   "predicate": "招募",
+   "tail": "E-A23",
+   "tailLabel": "大学生制图员",
+   "tailType": "actor",
+   "factStatus": "implemented",
+   "qualifiers": "2015-03/06；约 15 人",
+   "evidenceIds": [
+    "M01-E15"
+   ],
+   "processIds": [
+    "C17-P03"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R019",
+   "caseId": "C17",
+   "head": "E-A23",
+   "headLabel": "大学生制图员",
+   "headType": "actor",
+   "predicate": "实施",
+   "tail": "E-P03",
+   "tailLabel": "三 ward 试点",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2015-03/06",
+   "evidenceIds": [
+    "M01-E14"
+   ],
+   "processIds": [
+    "C17-P03"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R020",
+   "caseId": "C17",
+   "head": "E-P03",
+   "headLabel": "三 ward 试点",
+   "headType": "action",
+   "predicate": "覆盖",
+   "tail": "E-G01",
+   "tailLabel": "21 个社区流程 ward",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2015-03/06；3 wards",
+   "evidenceIds": [
+    "M01-E14"
+   ],
+   "processIds": [
+    "C17-P03"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "Ndugumbi/Tandale/Mchikichini"
+  },
+  {
+   "id": "R021",
+   "caseId": "C17",
+   "head": "E-A06",
+   "headLabel": "Ardhi 大学",
+   "headType": "actor",
+   "predicate": "培训",
+   "tail": "E-A23",
+   "tailLabel": "大学生制图员",
+   "tailType": "actor",
+   "factStatus": "implemented",
+   "qualifiers": "2015；15 名督导；3 个月",
+   "evidenceIds": [
+    "M04-E02"
+   ],
+   "processIds": [
+    "C17-P03",
+    "C17-P04"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R022",
+   "caseId": "C17",
+   "head": "E-A01",
+   "headLabel": "HOT（人道主义 OpenStreetMap 团队）",
+   "headType": "actor",
+   "predicate": "组织",
+   "tail": "E-P04",
+   "tailLabel": "扩展期学生培训",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2015-07",
+   "evidenceIds": [
+    "M04-E01"
+   ],
+   "processIds": [
+    "C17-P04"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R023",
+   "caseId": "C17",
+   "head": "E-A07",
+   "headLabel": "达累斯萨拉姆大学（UDSM）",
+   "headType": "actor",
+   "predicate": "提供场地",
+   "tail": "E-P04",
+   "tailLabel": "扩展期学生培训",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2015-07",
+   "evidenceIds": [
+    "M04-E01",
+    "M04-E03"
+   ],
+   "processIds": [
+    "C17-P04"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R024",
+   "caseId": "C17",
+   "head": "E-P04",
+   "headLabel": "扩展期学生培训",
+   "headType": "action",
+   "predicate": "培训",
+   "tail": "E-A23",
+   "tailLabel": "大学生制图员",
+   "tailType": "actor",
+   "factStatus": "implemented",
+   "qualifiers": "2015-07；150 人；3 天",
+   "evidenceIds": [
+    "M04-E01",
+    "M04-E02",
+    "M04-E03"
+   ],
+   "processIds": [
+    "C17-P04",
+    "C17-P03"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R025",
+   "caseId": "C17",
+   "head": "E-P04",
+   "headLabel": "扩展期学生培训",
+   "headType": "action",
+   "predicate": "使用",
+   "tail": "E-H01",
+   "tailLabel": "OpenStreetMap",
+   "tailType": "technology",
+   "factStatus": "implemented",
+   "qualifiers": "2015-07",
+   "evidenceIds": [
+    "M04-E04"
+   ],
+   "processIds": [
+    "C17-P04"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R026",
+   "caseId": "C17",
+   "head": "E-P04",
+   "headLabel": "扩展期学生培训",
+   "headType": "action",
+   "predicate": "使用",
+   "tail": "E-H05",
+   "tailLabel": "Field Papers",
+   "tailType": "technology",
+   "factStatus": "implemented",
+   "qualifiers": "2015-07",
+   "evidenceIds": [
+    "M04-E04"
+   ],
+   "processIds": [
+    "C17-P04"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R027",
+   "caseId": "C17",
+   "head": "E-P04",
+   "headLabel": "扩展期学生培训",
+   "headType": "action",
+   "predicate": "使用",
+   "tail": "E-H06",
+   "tailLabel": "GPS 设备（eTrex 30）",
+   "tailType": "technology",
+   "factStatus": "implemented",
+   "qualifiers": "2015-07",
+   "evidenceIds": [
+    "M04-E04"
+   ],
+   "processIds": [
+    "C17-P04"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "eTrex 30"
+  },
+  {
+   "id": "R028",
+   "caseId": "C17",
+   "head": "E-P04",
+   "headLabel": "扩展期学生培训",
+   "headType": "action",
+   "predicate": "使用",
+   "tail": "E-H07",
+   "tailLabel": "OSM Tracker",
+   "tailType": "technology",
+   "factStatus": "implemented",
+   "qualifiers": "2015-07",
+   "evidenceIds": [
+    "M04-E04"
+   ],
+   "processIds": [
+    "C17-P04"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R029",
+   "caseId": "C17",
+   "head": "E-P04",
+   "headLabel": "扩展期学生培训",
+   "headType": "action",
+   "predicate": "使用",
+   "tail": "E-H02",
+   "tailLabel": "JOSM",
+   "tailType": "technology",
+   "factStatus": "implemented",
+   "qualifiers": "2015-07",
+   "evidenceIds": [
+    "M04-E04"
+   ],
+   "processIds": [
+    "C17-P04"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R030",
+   "caseId": "C17",
+   "head": "E-P06",
+   "headLabel": "外业制图",
+   "headType": "action",
+   "predicate": "制图",
+   "tail": "E-G01",
+   "tailLabel": "21 个社区流程 ward",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2015-07/2016-02",
+   "evidenceIds": [
+    "M01-E17",
+    "M01-E21"
+   ],
+   "processIds": [
+    "C17-P04",
+    "C17-P06"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R031",
+   "caseId": "C17",
+   "head": "E-P06",
+   "headLabel": "外业制图",
+   "headType": "action",
+   "predicate": "产出",
+   "tail": "E-G09",
+   "tailLabel": "洪泛区与淹没范围",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2015-2016",
+   "evidenceIds": [
+    "M01-E38"
+   ],
+   "processIds": [
+    "C17-P06"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "社区勾绘"
+  },
+  {
+   "id": "R032",
+   "caseId": "C17",
+   "head": "E-A24",
+   "headLabel": "社区成员",
+   "headType": "actor",
+   "predicate": "参与",
+   "tail": "E-P06",
+   "tailLabel": "外业制图",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2015-2016",
+   "evidenceIds": [
+    "M01-E28",
+    "M06-E02"
+   ],
+   "processIds": [
+    "C17-P05"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R033",
+   "caseId": "C17",
+   "head": "E-A25",
+   "headLabel": "红十字志愿者",
+   "headType": "actor",
+   "predicate": "参与",
+   "tail": "E-P06",
+   "tailLabel": "外业制图",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2015-09",
+   "evidenceIds": [
+    "M06-E03"
+   ],
+   "processIds": [
+    "C17-P05"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R034",
+   "caseId": "C17",
+   "head": "E-P05",
+   "headLabel": "社区论坛",
+   "headType": "action",
+   "predicate": "召集",
+   "tail": "E-A24",
+   "tailLabel": "社区成员",
+   "tailType": "actor",
+   "factStatus": "implemented",
+   "qualifiers": "2015-09-11",
+   "evidenceIds": [
+    "M06-E02"
+   ],
+   "processIds": [
+    "C17-P05"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R035",
+   "caseId": "C17",
+   "head": "E-P05",
+   "headLabel": "社区论坛",
+   "headType": "action",
+   "predicate": "交付",
+   "tail": "E-G12",
+   "tailLabel": "图集与印刷地图",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2015-10-09",
+   "evidenceIds": [
+    "M06-E05"
+   ],
+   "processIds": [
+    "C17-P05"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R036",
+   "caseId": "C17",
+   "head": "E-A26",
+   "headLabel": "ward 官员与地方政府人员",
+   "headType": "actor",
+   "predicate": "组织",
+   "tail": "E-P05",
+   "tailLabel": "社区论坛",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2015-09-11",
+   "evidenceIds": [
+    "M06-E02"
+   ],
+   "processIds": [
+    "C17-P05"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R037",
+   "caseId": "C17",
+   "head": "E-A10",
+   "headLabel": "市辖区议会（Ilala/Kinondoni/Temeke）",
+   "headType": "actor",
+   "predicate": "授权",
+   "tail": "E-P06",
+   "tailLabel": "外业制图",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2015-2016",
+   "evidenceIds": [
+    "M01-E29"
+   ],
+   "processIds": [
+    "C17-P06"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R038",
+   "caseId": "C17",
+   "head": "E-A27",
+   "headLabel": "核心制图队（20 名制图员 + 2 名督导）",
+   "headType": "actor",
+   "predicate": "执行",
+   "tail": "E-P06",
+   "tailLabel": "外业制图",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2015-10/2016-02",
+   "evidenceIds": [
+    "M01-E20"
+   ],
+   "processIds": [
+    "C17-P06"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R039",
+   "caseId": "C17",
+   "head": "E-A27",
+   "headLabel": "核心制图队（20 名制图员 + 2 名督导）",
+   "headType": "actor",
+   "predicate": "执行",
+   "tail": "E-P08",
+   "tailLabel": "排水制图",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2015-10/2016-02",
+   "evidenceIds": [
+    "M01-E20",
+    "M01-E41"
+   ],
+   "processIds": [
+    "C17-P06"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R040",
+   "caseId": "C17",
+   "head": "E-P08",
+   "headLabel": "排水制图",
+   "headType": "action",
+   "predicate": "制图",
+   "tail": "E-G08",
+   "tailLabel": "排水沟与水系",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2015-10/2016-02；1254 km 水道（自报）",
+   "evidenceIds": [
+    "M01-E23",
+    "M03-E02"
+   ],
+   "processIds": [
+    "C17-P06",
+    "C17-P07"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R041",
+   "caseId": "C17",
+   "head": "E-P08",
+   "headLabel": "排水制图",
+   "headType": "action",
+   "predicate": "覆盖",
+   "tail": "E-G04",
+   "tailLabel": "36 个排水制图 ward",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2015-10/2016-02；36 wards",
+   "evidenceIds": [
+    "M01-E23"
+   ],
+   "processIds": [
+    "C17-P06"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R042",
+   "caseId": "C17",
+   "head": "E-P06",
+   "headLabel": "外业制图",
+   "headType": "action",
+   "predicate": "覆盖",
+   "tail": "E-G02",
+   "tailLabel": "65 个地图改善 ward",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2015-03/2016-02；65 wards",
+   "evidenceIds": [
+    "M01-E24"
+   ],
+   "processIds": [
+    "C17-P06",
+    "C17-P07"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R043",
+   "caseId": "C17",
+   "head": "E-A08",
+   "headLabel": "坦桑尼亚科学技术委员会（COSTECH）",
+   "headType": "actor",
+   "predicate": "提供",
+   "tail": "E-H09",
+   "tailLabel": "SenseFly eBee 无人机",
+   "tailType": "technology",
+   "factStatus": "implemented",
+   "qualifiers": "2015-2016",
+   "evidenceIds": [
+    "M01-E33"
+   ],
+   "processIds": [
+    "C17-P06"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R044",
+   "caseId": "C17",
+   "head": "E-H09",
+   "headLabel": "SenseFly eBee 无人机",
+   "headType": "technology",
+   "predicate": "具备",
+   "tail": "E-C01",
+   "tailLabel": "高分辨率影像获取能力",
+   "tailType": "capability",
+   "factStatus": "implemented",
+   "qualifiers": "3—5 cm/px",
+   "evidenceIds": [
+    "M01-E31",
+    "M01-E32"
+   ],
+   "processIds": [
+    "C17-P06"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R045",
+   "caseId": "C17",
+   "head": "E-C01",
+   "headLabel": "高分辨率影像获取能力",
+   "headType": "capability",
+   "predicate": "支持",
+   "tail": "E-P08",
+   "tailLabel": "排水制图",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2015-2016",
+   "evidenceIds": [
+    "M01-E31",
+    "M01-E32"
+   ],
+   "processIds": [
+    "C17-P06"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R046",
+   "caseId": "C17",
+   "head": "E-H10",
+   "headLabel": "MapGive 卫星影像",
+   "headType": "technology",
+   "predicate": "支持",
+   "tail": "E-P06",
+   "tailLabel": "外业制图",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2015-2016",
+   "evidenceIds": [
+    "M01-E34"
+   ],
+   "processIds": [
+    "C17-P06"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "影像补足"
+  },
+  {
+   "id": "R047",
+   "caseId": "C17",
+   "head": "E-H14",
+   "headLabel": "描图纸与铅笔",
+   "headType": "technology",
+   "predicate": "支持",
+   "tail": "E-P05",
+   "tailLabel": "社区论坛",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2015-2016",
+   "evidenceIds": [
+    "M01-E37",
+    "M13-E01"
+   ],
+   "processIds": [
+    "C17-P05"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "描图纸勾绘"
+  },
+  {
+   "id": "R048",
+   "caseId": "C17",
+   "head": "E-A24",
+   "headLabel": "社区成员",
+   "headType": "actor",
+   "predicate": "运用",
+   "tail": "E-C08",
+   "tailLabel": "地方知识转译为空间数据的能力",
+   "tailType": "capability",
+   "factStatus": "implemented",
+   "qualifiers": "2015-2016",
+   "evidenceIds": [
+    "M01-E28",
+    "M01-E38"
+   ],
+   "processIds": [
+    "C17-P06"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R049",
+   "caseId": "C17",
+   "head": "E-C08",
+   "headLabel": "地方知识转译为空间数据的能力",
+   "headType": "capability",
+   "predicate": "生成",
+   "tail": "E-G09",
+   "tailLabel": "洪泛区与淹没范围",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2015-2016",
+   "evidenceIds": [
+    "M01-E38"
+   ],
+   "processIds": [
+    "C17-P06"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R050",
+   "caseId": "C17",
+   "head": "E-P07",
+   "headLabel": "数字化与 OSM 上传",
+   "headType": "action",
+   "predicate": "产出",
+   "tail": "E-G13",
+   "tailLabel": "OSM 数据集",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2015-2016",
+   "evidenceIds": [
+    "M01-E30",
+    "M02-E01"
+   ],
+   "processIds": [
+    "C17-P06"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R051",
+   "caseId": "C17",
+   "head": "E-P06",
+   "headLabel": "外业制图",
+   "headType": "action",
+   "predicate": "上传",
+   "tail": "E-G13",
+   "tailLabel": "OSM 数据集",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2015-2016",
+   "evidenceIds": [
+    "M01-E30"
+   ],
+   "processIds": [
+    "C17-P06"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R052",
+   "caseId": "C17",
+   "head": "E-P09",
+   "headLabel": "图集编制",
+   "headType": "action",
+   "predicate": "编制",
+   "tail": "E-G12",
+   "tailLabel": "图集与印刷地图",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2016-03；126 页",
+   "evidenceIds": [
+    "M01-E24",
+    "M01-E03"
+   ],
+   "processIds": [
+    "C17-P06",
+    "C17-P07"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R053",
+   "caseId": "C17",
+   "head": "E-P09",
+   "headLabel": "图集编制",
+   "headType": "action",
+   "predicate": "产出",
+   "tail": "E-O01",
+   "tailLabel": "洪水韧性图集发布",
+   "tailType": "outcome",
+   "factStatus": "implemented",
+   "qualifiers": "2016-03",
+   "evidenceIds": [
+    "M01-E24",
+    "M01-E03"
+   ],
+   "processIds": [
+    "C17-P06",
+    "C17-P07"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R054",
+   "caseId": "C17",
+   "head": "E-A02",
+   "headLabel": "世界银行",
+   "headType": "actor",
+   "predicate": "发布",
+   "tail": "E-O01",
+   "tailLabel": "洪水韧性图集发布",
+   "tailType": "outcome",
+   "factStatus": "implemented",
+   "qualifiers": "2016-03",
+   "evidenceIds": [
+    "M01-E24"
+   ],
+   "processIds": [
+    "C17-P06",
+    "C17-P07"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "世界银行公开图集"
+  },
+  {
+   "id": "R055",
+   "caseId": "C17",
+   "head": "E-A01",
+   "headLabel": "HOT（人道主义 OpenStreetMap 团队）",
+   "headType": "actor",
+   "predicate": "管理",
+   "tail": "E-P09",
+   "tailLabel": "图集编制",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2016",
+   "evidenceIds": [
+    "M01-E03"
+   ],
+   "processIds": [
+    "C17-P07"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R056",
+   "caseId": "C17",
+   "head": "E-H04",
+   "headLabel": "InaSAFE",
+   "headType": "technology",
+   "predicate": "具备",
+   "tail": "E-C05",
+   "tailLabel": "灾害情景分析能力",
+   "tailType": "capability",
+   "factStatus": "implemented",
+   "qualifiers": "2016",
+   "evidenceIds": [
+    "M01-E03",
+    "M13-E02"
+   ],
+   "processIds": [
+    "C17-P07"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R057",
+   "caseId": "C17",
+   "head": "E-P09",
+   "headLabel": "图集编制",
+   "headType": "action",
+   "predicate": "使用",
+   "tail": "E-H04",
+   "tailLabel": "InaSAFE",
+   "tailType": "technology",
+   "factStatus": "implemented",
+   "qualifiers": "2016",
+   "evidenceIds": [
+    "M01-E03"
+   ],
+   "processIds": [
+    "C17-P07"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R058",
+   "caseId": "C17",
+   "head": "E-A24",
+   "headLabel": "社区成员",
+   "headType": "actor",
+   "predicate": "收到",
+   "tail": "E-G12",
+   "tailLabel": "图集与印刷地图",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2016；印刷地图",
+   "evidenceIds": [
+    "M01-E04",
+    "M06-E05"
+   ],
+   "processIds": [
+    "C17-P07",
+    "C17-P05"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "交付计划/现场"
+  },
+  {
+   "id": "R059",
+   "caseId": "C17",
+   "head": "E-A01",
+   "headLabel": "HOT（人道主义 OpenStreetMap 团队）",
+   "headType": "actor",
+   "predicate": "建立",
+   "tail": "E-O04",
+   "tailLabel": "10 支社区防灾队",
+   "tailType": "outcome",
+   "factStatus": "reported_or_opinion",
+   "qualifiers": "2016-2020；10 支",
+   "evidenceIds": [
+    "M03-E04"
+   ],
+   "processIds": [
+    "C17-P07"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "自报"
+  },
+  {
+   "id": "R060",
+   "caseId": "C17",
+   "head": "E-A06",
+   "headLabel": "Ardhi 大学",
+   "headType": "actor",
+   "predicate": "承办",
+   "tail": "E-P10",
+   "tailLabel": "2.0 启动",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2017-09-26",
+   "evidenceIds": [
+    "M07-E01"
+   ],
+   "processIds": [
+    "C17-P08"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R061",
+   "caseId": "C17",
+   "head": "E-A06",
+   "headLabel": "Ardhi 大学",
+   "headType": "actor",
+   "predicate": "与…签署 MoU",
+   "tail": "E-A02",
+   "tailLabel": "世界银行",
+   "tailType": "actor",
+   "factStatus": "implemented",
+   "qualifiers": "2017-09-26",
+   "evidenceIds": [
+    "M07-E05"
+   ],
+   "processIds": [
+    "C17-P08"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R062",
+   "caseId": "C17",
+   "head": "E-A06",
+   "headLabel": "Ardhi 大学",
+   "headType": "actor",
+   "predicate": "与…签署 MoU",
+   "tail": "E-A03",
+   "tailLabel": "英国国际发展部（DFID）",
+   "tailType": "actor",
+   "factStatus": "implemented",
+   "qualifiers": "2017-09-26",
+   "evidenceIds": [
+    "M07-E05"
+   ],
+   "processIds": [
+    "C17-P08"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R063",
+   "caseId": "C17",
+   "head": "E-P10",
+   "headLabel": "2.0 启动",
+   "headType": "action",
+   "predicate": "启动",
+   "tail": "E-T04",
+   "tailLabel": "开展洪水风险分析与建模",
+   "tailType": "task",
+   "factStatus": "implemented",
+   "qualifiers": "2017-09-26",
+   "evidenceIds": [
+    "M07-E01",
+    "M14-E03"
+   ],
+   "processIds": [
+    "C17-P08"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R064",
+   "caseId": "C17",
+   "head": "E-T04",
+   "headLabel": "开展洪水风险分析与建模",
+   "headType": "task",
+   "predicate": "需要",
+   "tail": "E-C05",
+   "tailLabel": "灾害情景分析能力",
+   "tailType": "capability",
+   "factStatus": "implemented",
+   "qualifiers": "2017-2019",
+   "evidenceIds": [
+    "M14-E03"
+   ],
+   "processIds": [
+    "C17-P08"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R065",
+   "caseId": "C17",
+   "head": "E-A01",
+   "headLabel": "HOT（人道主义 OpenStreetMap 团队）",
+   "headType": "actor",
+   "predicate": "组织",
+   "tail": "E-P11",
+   "tailLabel": "排水重测",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2017-2019",
+   "evidenceIds": [
+    "M08-E01"
+   ],
+   "processIds": [
+    "C17-P09"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R066",
+   "caseId": "C17",
+   "head": "E-P11",
+   "headLabel": "排水重测",
+   "headType": "action",
+   "predicate": "使用",
+   "tail": "E-H13",
+   "tailLabel": "排水数据模型",
+   "tailType": "technology",
+   "factStatus": "implemented",
+   "qualifiers": "2017-2019",
+   "evidenceIds": [
+    "M08-E01",
+    "M08-E03"
+   ],
+   "processIds": [
+    "C17-P09"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R067",
+   "caseId": "C17",
+   "head": "E-H13",
+   "headLabel": "排水数据模型",
+   "headType": "technology",
+   "predicate": "具备",
+   "tail": "E-C06",
+   "tailLabel": "排水网络拓扑建模能力",
+   "tailType": "capability",
+   "factStatus": "implemented",
+   "qualifiers": "2017-2019",
+   "evidenceIds": [
+    "M08-E01",
+    "M08-E03"
+   ],
+   "processIds": [
+    "C17-P09"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R068",
+   "caseId": "C17",
+   "head": "E-P11",
+   "headLabel": "排水重测",
+   "headType": "action",
+   "predicate": "覆盖",
+   "tail": "E-G08",
+   "tailLabel": "排水沟与水系",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2017-2019；44 wards",
+   "evidenceIds": [
+    "M16-E02",
+    "M08-E02"
+   ],
+   "processIds": [
+    "C17-P09"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R069",
+   "caseId": "C17",
+   "head": "E-P11",
+   "headLabel": "排水重测",
+   "headType": "action",
+   "predicate": "覆盖",
+   "tail": "E-G02",
+   "tailLabel": "65 个地图改善 ward",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2017-2019；44 wards",
+   "evidenceIds": [
+    "M16-E02"
+   ],
+   "processIds": [
+    "C17-P09"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R070",
+   "caseId": "C17",
+   "head": "E-P12",
+   "headLabel": "228 subward 资产—威胁制图",
+   "headType": "action",
+   "predicate": "培训",
+   "tail": "E-A23",
+   "tailLabel": "大学生制图员",
+   "tailType": "actor",
+   "factStatus": "implemented",
+   "qualifiers": "2018；450+ 人；7 周",
+   "evidenceIds": [
+    "M09-E02"
+   ],
+   "processIds": [
+    "C17-P09"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R071",
+   "caseId": "C17",
+   "head": "E-P12",
+   "headLabel": "228 subward 资产—威胁制图",
+   "headType": "action",
+   "predicate": "制图",
+   "tail": "E-G05",
+   "tailLabel": "228 个 subward",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2018；228 subwards",
+   "evidenceIds": [
+    "M09-E01"
+   ],
+   "processIds": [
+    "C17-P09"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R072",
+   "caseId": "C17",
+   "head": "E-H08",
+   "headLabel": "ODK Collect",
+   "headType": "technology",
+   "predicate": "具备",
+   "tail": "E-C03",
+   "tailLabel": "移动端结构化数据采集能力",
+   "tailType": "capability",
+   "factStatus": "implemented",
+   "qualifiers": "2018",
+   "evidenceIds": [
+    "M09-E04",
+    "M11-E02"
+   ],
+   "processIds": [
+    "C17-P09",
+    "C17-P11"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R073",
+   "caseId": "C17",
+   "head": "E-P12",
+   "headLabel": "228 subward 资产—威胁制图",
+   "headType": "action",
+   "predicate": "使用",
+   "tail": "E-H08",
+   "tailLabel": "ODK Collect",
+   "tailType": "technology",
+   "factStatus": "implemented",
+   "qualifiers": "2018",
+   "evidenceIds": [
+    "M09-E04"
+   ],
+   "processIds": [
+    "C17-P09"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R074",
+   "caseId": "C17",
+   "head": "E-P12",
+   "headLabel": "228 subward 资产—威胁制图",
+   "headType": "action",
+   "predicate": "采集",
+   "tail": "E-G16",
+   "tailLabel": "垃圾点",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2018；44 wards；20,392 点",
+   "evidenceIds": [
+    "M09-E04",
+    "M09-E05"
+   ],
+   "processIds": [
+    "C17-P09"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R075",
+   "caseId": "C17",
+   "head": "E-P05",
+   "headLabel": "社区论坛",
+   "headType": "action",
+   "predicate": "识别",
+   "tail": "E-G09",
+   "tailLabel": "洪泛区与淹没范围",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2018；资产与威胁",
+   "evidenceIds": [
+    "M09-E06"
+   ],
+   "processIds": [
+    "C17-P09"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R076",
+   "caseId": "C17",
+   "head": "E-P12",
+   "headLabel": "228 subward 资产—威胁制图",
+   "headType": "action",
+   "predicate": "产出",
+   "tail": "E-G15",
+   "tailLabel": "行动地图与报告",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2018；228 subwards",
+   "evidenceIds": [
+    "M09-E07"
+   ],
+   "processIds": [
+    "C17-P09"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R077",
+   "caseId": "C17",
+   "head": "E-A18",
+   "headLabel": "Deltares",
+   "headType": "actor",
+   "predicate": "使用",
+   "tail": "E-G15",
+   "tailLabel": "行动地图与报告",
+   "tailType": "target",
+   "factStatus": "planned",
+   "qualifiers": "2018-2019",
+   "evidenceIds": [
+    "M09-E08"
+   ],
+   "processIds": [
+    "C17-P09"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "用于灾害管理计划"
+  },
+  {
+   "id": "R078",
+   "caseId": "C17",
+   "head": "E-A19",
+   "headLabel": "Nipe Fagio",
+   "headType": "actor",
+   "predicate": "合作",
+   "tail": "E-P12",
+   "tailLabel": "228 subward 资产—威胁制图",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2018",
+   "evidenceIds": [
+    "M09-E04"
+   ],
+   "processIds": [
+    "C17-P09"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "垃圾制图"
+  },
+  {
+   "id": "R079",
+   "caseId": "C17",
+   "head": "E-A01",
+   "headLabel": "HOT（人道主义 OpenStreetMap 团队）",
+   "headType": "actor",
+   "predicate": "移交管理权",
+   "tail": "E-A13",
+   "tailLabel": "坦桑尼亚韧性学院（RA）",
+   "tailType": "actor",
+   "factStatus": "implemented",
+   "qualifiers": "2019-07-29",
+   "evidenceIds": [
+    "M10-E01"
+   ],
+   "processIds": [
+    "C17-P10"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R080",
+   "caseId": "C17",
+   "head": "E-A13",
+   "headLabel": "坦桑尼亚韧性学院（RA）",
+   "headType": "actor",
+   "predicate": "由…组成",
+   "tail": "E-A07",
+   "tailLabel": "达累斯萨拉姆大学（UDSM）",
+   "tailType": "actor",
+   "factStatus": "implemented",
+   "qualifiers": "2019",
+   "evidenceIds": [
+    "M10-E02"
+   ],
+   "processIds": [
+    "C17-P10"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R081",
+   "caseId": "C17",
+   "head": "E-A13",
+   "headLabel": "坦桑尼亚韧性学院（RA）",
+   "headType": "actor",
+   "predicate": "由…组成",
+   "tail": "E-A06",
+   "tailLabel": "Ardhi 大学",
+   "tailType": "actor",
+   "factStatus": "implemented",
+   "qualifiers": "2019",
+   "evidenceIds": [
+    "M10-E02"
+   ],
+   "processIds": [
+    "C17-P10"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R082",
+   "caseId": "C17",
+   "head": "E-A13",
+   "headLabel": "坦桑尼亚韧性学院（RA）",
+   "headType": "actor",
+   "predicate": "由…组成",
+   "tail": "E-A14",
+   "tailLabel": "桑给巴尔国立大学（SUZA）",
+   "tailType": "actor",
+   "factStatus": "implemented",
+   "qualifiers": "2019",
+   "evidenceIds": [
+    "M10-E02"
+   ],
+   "processIds": [
+    "C17-P10"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R083",
+   "caseId": "C17",
+   "head": "E-A15",
+   "headLabel": "芬兰图尔库大学",
+   "headType": "actor",
+   "predicate": "合作",
+   "tail": "E-A13",
+   "tailLabel": "坦桑尼亚韧性学院（RA）",
+   "tailType": "actor",
+   "factStatus": "implemented",
+   "qualifiers": "2019",
+   "evidenceIds": [
+    "M10-E02"
+   ],
+   "processIds": [
+    "C17-P10"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R084",
+   "caseId": "C17",
+   "head": "E-A16",
+   "headLabel": "OpenMap Development Tanzania（OMDTZ）",
+   "headType": "actor",
+   "predicate": "承接自",
+   "tail": "E-A01",
+   "tailLabel": "HOT（人道主义 OpenStreetMap 团队）",
+   "tailType": "actor",
+   "factStatus": "reported_or_opinion",
+   "qualifiers": "2019",
+   "evidenceIds": [
+    "M10-E07"
+   ],
+   "processIds": [
+    "C17-P10"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "项目方自述"
+  },
+  {
+   "id": "R085",
+   "caseId": "C17",
+   "head": "E-A05",
+   "headLabel": "红十字会（坦桑尼亚/美国/丹麦）",
+   "headType": "actor",
+   "predicate": "使用",
+   "tail": "E-G13",
+   "tailLabel": "OSM 数据集",
+   "tailType": "target",
+   "factStatus": "reported_or_opinion",
+   "qualifiers": "2019",
+   "evidenceIds": [
+    "M10-E06"
+   ],
+   "processIds": [
+    "C17-P10"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R086",
+   "caseId": "C17",
+   "head": "E-A20",
+   "headLabel": "达累斯萨拉姆多机构应急响应队（DarMAERT）",
+   "headType": "actor",
+   "predicate": "使用",
+   "tail": "E-G13",
+   "tailLabel": "OSM 数据集",
+   "tailType": "target",
+   "factStatus": "reported_or_opinion",
+   "qualifiers": "2019",
+   "evidenceIds": [
+    "M10-E06"
+   ],
+   "processIds": [
+    "C17-P10"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R087",
+   "caseId": "C17",
+   "head": "E-A13",
+   "headLabel": "坦桑尼亚韧性学院（RA）",
+   "headType": "actor",
+   "predicate": "继承",
+   "tail": "E-G13",
+   "tailLabel": "OSM 数据集",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2019",
+   "evidenceIds": [
+    "M10-E05"
+   ],
+   "processIds": [
+    "C17-P10"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "数据/工具/教材移交"
+  },
+  {
+   "id": "R088",
+   "caseId": "C17",
+   "head": "E-A13",
+   "headLabel": "坦桑尼亚韧性学院（RA）",
+   "headType": "actor",
+   "predicate": "组织",
+   "tail": "E-P14",
+   "tailLabel": "2020 年洪水数据采集",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2020-09/11",
+   "evidenceIds": [
+    "M11-E01"
+   ],
+   "processIds": [
+    "C17-P11"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R089",
+   "caseId": "C17",
+   "head": "E-P14",
+   "headLabel": "2020 年洪水数据采集",
+   "headType": "action",
+   "predicate": "培训",
+   "tail": "E-A23",
+   "tailLabel": "大学生制图员",
+   "tailType": "actor",
+   "factStatus": "implemented",
+   "qualifiers": "2020；200 人",
+   "evidenceIds": [
+    "M11-E01"
+   ],
+   "processIds": [
+    "C17-P11"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R090",
+   "caseId": "C17",
+   "head": "E-P14",
+   "headLabel": "2020 年洪水数据采集",
+   "headType": "action",
+   "predicate": "采集",
+   "tail": "E-G14",
+   "tailLabel": "洪水数据点",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2020；20 wards；10,000+",
+   "evidenceIds": [
+    "M11-E02",
+    "M11-E03"
+   ],
+   "processIds": [
+    "C17-P11"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R091",
+   "caseId": "C17",
+   "head": "E-H12",
+   "headLabel": "u-blox 双频接收机",
+   "headType": "technology",
+   "predicate": "具备",
+   "tail": "E-C11",
+   "tailLabel": "低成本控制点采集能力",
+   "tailType": "capability",
+   "factStatus": "implemented",
+   "qualifiers": "2020",
+   "evidenceIds": [
+    "M11-E04"
+   ],
+   "processIds": [
+    "C17-P11"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R092",
+   "caseId": "C17",
+   "head": "E-P14",
+   "headLabel": "2020 年洪水数据采集",
+   "headType": "action",
+   "predicate": "使用",
+   "tail": "E-H12",
+   "tailLabel": "u-blox 双频接收机",
+   "tailType": "technology",
+   "factStatus": "implemented",
+   "qualifiers": "2020",
+   "evidenceIds": [
+    "M11-E04"
+   ],
+   "processIds": [
+    "C17-P11"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R093",
+   "caseId": "C17",
+   "head": "E-A17",
+   "headLabel": "Spatial Collective",
+   "headType": "actor",
+   "predicate": "牵头",
+   "tail": "E-P15",
+   "tailLabel": "Mwanza 扩展",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2020-10/2021-01",
+   "evidenceIds": [
+    "M12-E01"
+   ],
+   "processIds": [
+    "C17-P12"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R094",
+   "caseId": "C17",
+   "head": "E-A01",
+   "headLabel": "HOT（人道主义 OpenStreetMap 团队）",
+   "headType": "actor",
+   "predicate": "支持",
+   "tail": "E-P15",
+   "tailLabel": "Mwanza 扩展",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2020-2021",
+   "evidenceIds": [
+    "M12-E01"
+   ],
+   "processIds": [
+    "C17-P12"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R095",
+   "caseId": "C17",
+   "head": "E-A16",
+   "headLabel": "OpenMap Development Tanzania（OMDTZ）",
+   "headType": "actor",
+   "predicate": "支持",
+   "tail": "E-P15",
+   "tailLabel": "Mwanza 扩展",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2020-2021",
+   "evidenceIds": [
+    "M12-E01"
+   ],
+   "processIds": [
+    "C17-P12"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R096",
+   "caseId": "C17",
+   "head": "E-P15",
+   "headLabel": "Mwanza 扩展",
+   "headType": "action",
+   "predicate": "培训",
+   "tail": "E-A23",
+   "tailLabel": "大学生制图员",
+   "tailType": "actor",
+   "factStatus": "implemented",
+   "qualifiers": "2020-2021；79 人",
+   "evidenceIds": [
+    "M12-E02"
+   ],
+   "processIds": [
+    "C17-P12"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R097",
+   "caseId": "C17",
+   "head": "E-P15",
+   "headLabel": "Mwanza 扩展",
+   "headType": "action",
+   "predicate": "复制",
+   "tail": "E-T02",
+   "tailLabel": "为洪泛 ward 建立高精度地图",
+   "tailType": "task",
+   "factStatus": "implemented",
+   "qualifiers": "2020-2021；Mwanza",
+   "evidenceIds": [
+    "M12-E01"
+   ],
+   "processIds": [
+    "C17-P12"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "方法扩散"
+  },
+  {
+   "id": "R098",
+   "caseId": "C17",
+   "head": "E-P15",
+   "headLabel": "Mwanza 扩展",
+   "headType": "action",
+   "predicate": "采集",
+   "tail": "E-G08",
+   "tailLabel": "排水沟与水系",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2020-2021；1700 段；145 km",
+   "evidenceIds": [
+    "M12-E03"
+   ],
+   "processIds": [
+    "C17-P12"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R099",
+   "caseId": "C17",
+   "head": "E-P15",
+   "headLabel": "Mwanza 扩展",
+   "headType": "action",
+   "predicate": "采集",
+   "tail": "E-G09",
+   "tailLabel": "洪泛区与淹没范围",
+   "tailType": "target",
+   "factStatus": "implemented",
+   "qualifiers": "2020-2021；15,000+ 点",
+   "evidenceIds": [
+    "M12-E03"
+   ],
+   "processIds": [
+    "C17-P12"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R100",
+   "caseId": "C17",
+   "head": "E-P11",
+   "headLabel": "排水重测",
+   "headType": "action",
+   "predicate": "产出",
+   "tail": "E-O03",
+   "tailLabel": "532 段排水数据与模型改进",
+   "tailType": "outcome",
+   "factStatus": "implemented",
+   "qualifiers": "2017-2019；532 段",
+   "evidenceIds": [
+    "M16-E05",
+    "M16-E06"
+   ],
+   "processIds": [
+    "C17-P09"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R101",
+   "caseId": "C17",
+   "head": "E-C07",
+   "headLabel": "1D—2D 水动力模拟能力",
+   "headType": "capability",
+   "predicate": "具备",
+   "tail": "E-O03",
+   "tailLabel": "532 段排水数据与模型改进",
+   "tailType": "outcome",
+   "factStatus": "implemented",
+   "qualifiers": "2019-2020",
+   "evidenceIds": [
+    "M16-E08",
+    "M17-E01"
+   ],
+   "processIds": [
+    "C17-P09"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "能力—结果"
+  },
+  {
+   "id": "R102",
+   "caseId": "C17",
+   "head": "E-C10",
+   "headLabel": "数据质量核验能力",
+   "headType": "capability",
+   "predicate": "支持",
+   "tail": "E-O03",
+   "tailLabel": "532 段排水数据与模型改进",
+   "tailType": "outcome",
+   "factStatus": "implemented",
+   "qualifiers": "2019",
+   "evidenceIds": [
+    "M16-E05",
+    "M16-E06"
+   ],
+   "processIds": [
+    "C17-P09"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "质检"
+  },
+  {
+   "id": "R103",
+   "caseId": "C17",
+   "head": "E-G14",
+   "headLabel": "洪水数据点",
+   "headType": "target",
+   "predicate": "验证",
+   "tail": "E-O03",
+   "tailLabel": "532 段排水数据与模型改进",
+   "tailType": "outcome",
+   "factStatus": "implemented",
+   "qualifiers": "2019；44 点",
+   "evidenceIds": [
+    "M16-E07"
+   ],
+   "processIds": [
+    "C17-P09"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R104",
+   "caseId": "C17",
+   "head": "E-O03",
+   "headLabel": "532 段排水数据与模型改进",
+   "headType": "outcome",
+   "predicate": "支持",
+   "tail": "E-T04",
+   "tailLabel": "开展洪水风险分析与建模",
+   "tailType": "task",
+   "factStatus": "implemented",
+   "qualifiers": "2019-2020",
+   "evidenceIds": [
+    "M16-E08",
+    "M17-E02"
+   ],
+   "processIds": [
+    "C17-P09"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": ""
+  },
+  {
+   "id": "R105",
+   "caseId": "C17",
+   "head": "E-A23",
+   "headLabel": "大学生制图员",
+   "headType": "actor",
+   "predicate": "受训于",
+   "tail": "E-P04",
+   "tailLabel": "扩展期学生培训",
+   "tailType": "action",
+   "factStatus": "implemented",
+   "qualifiers": "2015",
+   "evidenceIds": [
+    "M04-E01"
+   ],
+   "processIds": [
+    "C17-P04"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "角色方向补充"
+  },
+  {
+   "id": "R106",
+   "caseId": "C17",
+   "head": "E-P06",
+   "headLabel": "外业制图",
+   "headType": "action",
+   "predicate": "使用",
+   "tail": "E-H09",
+   "tailLabel": "SenseFly eBee 无人机",
+   "tailType": "technology",
+   "factStatus": "implemented",
+   "qualifiers": "2015-2016",
+   "evidenceIds": [
+    "M01-E31"
+   ],
+   "processIds": [
+    "C17-P06"
+   ],
+   "review": "pending",
+   "version": 1,
+   "note": "无人机用于高分辨率影像"
+  }
+ ]
+}

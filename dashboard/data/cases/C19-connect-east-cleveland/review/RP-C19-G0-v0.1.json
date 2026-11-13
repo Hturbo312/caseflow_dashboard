@@ -1,0 +1,100 @@
+{
+  "packet_id": "RP-C19-G0-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G0",
+  "case_id": "C19",
+  "scope": "Connect East Cleveland 案例边界、纳入/排除标准与研究问题",
+  "generated_at": "2026-11-13",
+  "status": "pending",
+  "candidates": [
+    {
+      "id": "C19-SCOPE-01",
+      "content": "案例名称：东克利夫兰 Connect East Cleveland 社区场所营造",
+      "evidence": ["最终报告封面与摘要", "ConnectEC 网站首页"],
+      "fact_status": "unconfirmed",
+      "confidence": "high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C19-SCOPE-02",
+      "content": "核心时段 2023-01 至 2023-12；2024–2025 仅作结果观察",
+      "evidence": ["最终报告 PDF p.5", "最终报告 PDF p.15-16", "ConnectEC 网站 About", "ConnectEC 网站 FAQ", "报告 PDF 元数据 2023-12-11"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium_high",
+      "suggested_action": "discuss"
+    },
+    {
+      "id": "C19-SCOPE-03",
+      "content": "核心空间：约 30 英亩 Circle East District，沿 Euclid Avenue，含 Woodlawn/Penrose/Forest Hill/Wadena",
+      "evidence": ["最终报告 PDF p.10-11", "最终报告 PDF p.37"],
+      "fact_status": "unconfirmed",
+      "confidence": "high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C19-SCOPE-04",
+      "content": "主导机构 Cuyahoga Land Bank；顾问团队 Seventh Hill、Agnes Studio、Layer Cake Design；本地 Street Team Leader Najae Jackson",
+      "evidence": ["最终报告 PDF p.62", "ConnectEC 网站 About"],
+      "fact_status": "unconfirmed",
+      "confidence": "high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C19-SCOPE-05",
+      "content": "核心产出为场所营造报告与 30 项行动（五类），不等于已实施",
+      "evidence": ["最终报告 PDF p.34-36"],
+      "fact_status": "unconfirmed",
+      "confidence": "high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C19-SCOPE-06",
+      "content": "参与技术包括 3D 打印模型、AR 壁画预览、UrbanistAI 文本生成图像、在线地图/问卷、视频/音频记录",
+      "evidence": ["ConnectEC 网站 Events", "UrbanistAI 案例页"],
+      "fact_status": "unconfirmed",
+      "confidence": "high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C19-SCOPE-07",
+      "content": "排除住宅建设、市政基础设施、Mickey's 改造、太阳能与更广开发项目；前置规划仅作情境",
+      "evidence": ["边界判断"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium_high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C19-SCOPE-08",
+      "content": "4 个研究问题：参与技术组合、地方知识制度化、偏好到行动的转译、实施延续",
+      "evidence": ["研究设计"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium",
+      "suggested_action": "discuss"
+    }
+  ],
+  "conflicts": [
+    "项目起点：报告 2023-01—08 约七个月；网站 About 称 2023-01—07；FAQ 称 2023-04 开始",
+    "Public Event 3.0 日期：报告第 30 页版式出现 7 月 14 日，活动页与正文为 8 月 30 日",
+    "参与规模：近 150 人总口径；Open House 约 50；Walking Tour 15+；问卷 68 份",
+    "地块规模：403 个住宅地块/约 150 户；180+ 已取得并拆除 103 栋；200+ 已取得与 18 个商业地块"
+  ],
+  "gaps": [
+    "缺少合同、采购文件、顾问工作大纲与预算",
+    "缺少活动签到、问卷原始数据与人口构成原始表",
+    "缺少 30 项行动的资金申请、设计合同、施工许可与验收记录",
+    "缺少 UrbanistAI 生成图像的选择/淘汰过程记录"
+  ],
+  "decisions_requested": [
+    "时间边界：A 2023 核心过程 + 结果观察 / B 2023–2025 全流程 / C 仅 2023-04—08",
+    "实施纳入：仅对应行动 / 整个 Circle East Phase 1 / 排除",
+    "空间边界：30 英亩核心区 / 仅东克利夫兰行政边界 / 整个东克利夫兰",
+    "研究问题：草案 4 问 / 仅 AI-AR 技术问题 / 社区参与与开发议程单题",
+    "前置规划定位：仅情境 / 2022 Action Plan 纳入行动来源"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_case_review": false,
+    "note": "C19 的 AI/AR 辅助参与与 C12、C16 存在潜在比较关系，G6 后交 L2 判断"
+  }
+}

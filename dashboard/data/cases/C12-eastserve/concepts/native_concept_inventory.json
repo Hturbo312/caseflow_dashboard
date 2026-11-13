@@ -1,0 +1,284 @@
+{
+  "case_id": "C12",
+  "framework": "scalable-concept-framework",
+  "gate": "G1",
+  "generated_at": "2026-11-13",
+  "existing_layer": {
+    "shared_concepts": 43,
+    "mappings": 724,
+    "native_concepts": 724,
+    "version": "L2-C01-C11-shared-v0.2"
+  },
+  "concepts": [
+    {
+      "native_concept_id": "NC-C12-01",
+      "case_id": "C12",
+      "label": "家庭设备—培训—本地内容—社区支持组合",
+      "entity_type": "action",
+      "definition": "以补贴设备、3 小时入门培训、本地门户与社区冠军支持组合，降低居民家庭接入门槛的干预包。",
+      "examples": [
+        "补贴新 PC/翻新 PC/机顶盒",
+        "每户一人 3 小时培训",
+        "eastserve.com 本地内容",
+        "社区冠军一线支持"
+      ],
+      "source_relation_ids": [
+        "R013",
+        "R014",
+        "R015",
+        "R016",
+        "R024",
+        "R041"
+      ],
+      "frequency": 6,
+      "boundary_issue": "复合概念：设备、培训、本地内容、社区支持四组件；与 NC-C12-03/05/08 有重叠。建议保留为“组合干预”整体，但映射时只映射整合/组合成分，组件分别由 NC-03/05/08 承担。",
+      "preliminary_matches": [
+        {
+          "shared_concept_id": "SC-C01-158",
+          "shared_concept_label": "技术试验与能力建设",
+          "mapping_hint": "partial_or_approximate",
+          "basis": "只覆盖培训/能力建设成分"
+        },
+        {
+          "shared_concept_id": "SC-C01-153",
+          "shared_concept_label": "数字平台开发与内容生产",
+          "mapping_hint": "partial_or_approximate",
+          "basis": "只覆盖本地内容/门户成分"
+        },
+        {
+          "shared_concept_id": "SC-C01-154",
+          "shared_concept_label": "数字服务运营与迭代",
+          "mapping_hint": "partial_or_approximate",
+          "basis": "只覆盖服务运营成分"
+        }
+      ],
+      "status": "candidate_awaiting_G1"
+    },
+    {
+      "native_concept_id": "NC-C12-02",
+      "case_id": "C12",
+      "label": "社区无线宽带作为替代性最后一英里",
+      "entity_type": "technology",
+      "definition": "在缺乏 cable/固定电话覆盖的既有住宅区，以社区无线网络提供家庭宽带接入的基础设施方案。",
+      "examples": [
+        "2002 年夏引入无线",
+        "塔楼天线/接入点/光纤骨干",
+        "2005 年覆盖 9,000 户",
+        "2014 年升级 36Mbps"
+      ],
+      "source_relation_ids": [
+        "R023",
+        "R026",
+        "R027",
+        "R057"
+      ],
+      "frequency": 4,
+      "boundary_issue": "边界清晰：社区无线宽带作为最后一英里基础设施；需与“通信与公共数字基础设施”区分层级。",
+      "preliminary_matches": [
+        {
+          "shared_concept_id": "SC-C01-134",
+          "shared_concept_label": "通信与公共数字基础设施",
+          "mapping_hint": "native_hyponym",
+          "basis": "社区无线是通信基础设施的下位类型"
+        }
+      ],
+      "status": "candidate_awaiting_G1"
+    },
+    {
+      "native_concept_id": "NC-C12-03",
+      "case_id": "C12",
+      "label": "居民小组与社区冠军的双层参与",
+      "entity_type": "action",
+      "definition": "由 15 人居民小组提供内容/服务建议，由社区冠军提供一线支持并反馈指导小组的参与结构。",
+      "examples": [
+        "Residents' Panel",
+        "community champions 月度会议",
+        "内容与安装支持"
+      ],
+      "source_relation_ids": [
+        "R040",
+        "R041"
+      ],
+      "frequency": 2,
+      "boundary_issue": "包含居民小组与社区冠军两个组件；可视为一个“参与中介”机制，也可拆为两个。建议保留一个机制，限定两组件。",
+      "preliminary_matches": [
+        {
+          "shared_concept_id": "SC-C01-151",
+          "shared_concept_label": "社区参与与意见收集",
+          "mapping_hint": "partial_or_approximate",
+          "basis": "只覆盖居民小组/意见收集，不覆盖冠军技术支持"
+        },
+        {
+          "shared_concept_id": "SC-C01-141",
+          "shared_concept_label": "参与表达与意见采集能力",
+          "mapping_hint": "partial_or_approximate",
+          "basis": "能力层面只覆盖表达/采集"
+        }
+      ],
+      "status": "candidate_awaiting_G1"
+    },
+    {
+      "native_concept_id": "NC-C12-04",
+      "case_id": "C12",
+      "label": "安装链条中的本地就业",
+      "entity_type": "action",
+      "definition": "通过 ITEM 等 intermediate labour market 组织，让本地居民参与设备安装并获得就业/培训的机制。",
+      "examples": [
+        "ITEM 安装团队",
+        "本地居民就业",
+        "上门安装与支持"
+      ],
+      "source_relation_ids": [
+        "R039"
+      ],
+      "frequency": 1,
+      "boundary_issue": "仅 1 条来源关系，证据基础较薄；是“安装链条中的本地就业”，与一般能力建设不同。建议暂不映射或保留单案例候选。",
+      "preliminary_matches": [
+        {
+          "shared_concept_id": "SC-C01-158",
+          "shared_concept_label": "技术试验与能力建设",
+          "mapping_hint": "partial_or_approximate",
+          "basis": "仅就业/培训成分弱对应"
+        },
+        {
+          "shared_concept_id": "SC-C01-176",
+          "shared_concept_label": "组织能力与可复制成果",
+          "mapping_hint": "partial_or_approximate",
+          "basis": "仅组织能力成分弱对应"
+        }
+      ],
+      "status": "candidate_awaiting_G1"
+    },
+    {
+      "native_concept_id": "NC-C12-05",
+      "case_id": "C12",
+      "label": "补贴设备与信用合作社贷款",
+      "entity_type": "capability",
+      "definition": "以补贴价设备叠加本地信用合作社低息贷款，降低一次性支付门槛的 affordability 组合。",
+      "examples": [
+        "新 PC 200 英镑",
+        "翻新 PC 50 英镑",
+        "信用合作社贷款",
+        "90% 选择新电脑"
+      ],
+      "source_relation_ids": [
+        "R016",
+        "R021"
+      ],
+      "frequency": 2,
+      "boundary_issue": "能力/affordability 机制：补贴设备+信用合作社贷款；与 NC-01 有重叠，但保留独立可比较“可负担性”成分。",
+      "preliminary_matches": [
+        {
+          "shared_concept_id": "SC-C01-104",
+          "shared_concept_label": "资源成本与运维条件约束",
+          "mapping_hint": "partial_or_approximate",
+          "basis": "仅成本约束语境，非能力机制"
+        }
+      ],
+      "status": "candidate_awaiting_G1"
+    },
+    {
+      "native_concept_id": "NC-C12-06",
+      "case_id": "C12",
+      "label": "公共项目向私营/社会企业运营转换",
+      "entity_type": "action",
+      "definition": "从 NDC/公共资助项目转向 Symera、CityServe、ITS 等私营/社会企业运营的体制转换过程。",
+      "examples": [
+        "2009 Symera 合作",
+        "2010 清算",
+        "2014 ITS 收购",
+        "2016 Cityserve 品牌"
+      ],
+      "source_relation_ids": [
+        "R045",
+        "R054",
+        "R061"
+      ],
+      "frequency": 3,
+      "boundary_issue": "过程/行动：公共项目→Symera/CityServe/ITS 运营转换；与 C01 的 Sonera 网络运营合作有部分可比性。建议提出新候选或部分映射 SC-C01-114。",
+      "preliminary_matches": [
+        {
+          "shared_concept_id": "SC-C01-114",
+          "shared_concept_label": "地方组织与运营主体",
+          "mapping_hint": "partial_or_approximate",
+          "basis": "只覆盖运营主体，不覆盖转换过程"
+        },
+        {
+          "shared_concept_id": "SC-C01-175",
+          "shared_concept_label": "实施风险与负面结果",
+          "mapping_hint": "partial_or_approximate",
+          "basis": "只覆盖清算/退出成分"
+        }
+      ],
+      "status": "candidate_awaiting_G1"
+    },
+    {
+      "native_concept_id": "NC-C12-07",
+      "case_id": "C12",
+      "label": "组织退出与基础设施转移分离",
+      "entity_type": "outcome",
+      "definition": "项目公司/载体退出或清算，并不必然导致网络基础设施消失；网络可被收购、升级并继续服务。",
+      "examples": [
+        "Symera 2010 清算",
+        "CityServe (999) 2013 解散",
+        "ITS 2014 收购/升级",
+        "2017 壳公司解散"
+      ],
+      "source_relation_ids": [
+        "R048",
+        "R053",
+        "R054",
+        "R055",
+        "R060",
+        "R061"
+      ],
+      "frequency": 6,
+      "boundary_issue": "分析性结果模式（组织退出≠基础设施消失），更像机制假设 H-C12-01 而非普通原生概念。建议 G1 决定：保留为 outcome 概念，或移入因果/假设层。",
+      "preliminary_matches": [
+        {
+          "shared_concept_id": "SC-C01-175",
+          "shared_concept_label": "实施风险与负面结果",
+          "mapping_hint": "partial_or_approximate",
+          "basis": "只覆盖退出/负面结果，不覆盖基础设施延续"
+        }
+      ],
+      "status": "candidate_awaiting_G1"
+    },
+    {
+      "native_concept_id": "NC-C12-08",
+      "case_id": "C12",
+      "label": "门户作为本地公共服务入口",
+      "entity_type": "technology",
+      "definition": "eastserve.com 作为住房、就业、环境、警务、报修等本地公共服务的统一入口。",
+      "examples": [
+        "住房报修",
+        "路灯故障报告",
+        "就业信息/CV",
+        "匿名犯罪报告"
+      ],
+      "source_relation_ids": [
+        "R009",
+        "R030",
+        "R038",
+        "R064"
+      ],
+      "frequency": 4,
+      "boundary_issue": "技术/门户：本地公共服务入口；与 C07 Carpenters Connect、C01 虚拟社区门户有跨案例可比性。可提出新候选“社区门户与本地公共服务入口”。",
+      "preliminary_matches": [
+        {
+          "shared_concept_id": "SC-C01-132",
+          "shared_concept_label": "社区治理与行政平台",
+          "mapping_hint": "partial_or_approximate",
+          "basis": "只覆盖平台/行政入口成分"
+        },
+        {
+          "shared_concept_id": "SC-C01-143",
+          "shared_concept_label": "信息服务与空间分析能力",
+          "mapping_hint": "partial_or_approximate",
+          "basis": "只覆盖信息服务成分"
+        }
+      ],
+      "status": "candidate_awaiting_G1"
+    }
+  ]
+}

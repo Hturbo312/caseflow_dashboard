@@ -1,0 +1,139 @@
+{
+  "case_id": "C16",
+  "name": "Red Hook WiFi, Brooklyn",
+  "version": "v1.0",
+  "status": "frozen_for_current_scope",
+  "frozen_at": "2026-11-13",
+  "scope": {
+    "core_implementation": "2011-11–2019-12",
+    "observation": "2020-01–2023-05",
+    "core_space": [
+      "Red Hook, Brooklyn"
+    ],
+    "target_not_covered": [
+      "Red Hook Houses"
+    ],
+    "evidence_cutoff": "2026-11-13",
+    "exclusions": [
+      "NYC Mesh 全市网络",
+      "RISE:NYC 其他社区项目",
+      "Sky Packets 商业业务",
+      "NYCHA/Big Apple Connect 完整政策过程"
+    ]
+  },
+  "counts": {
+    "materials": 18,
+    "evidence": 100,
+    "processes": 10,
+    "entities": 89,
+    "facts": 53,
+    "relations": 110,
+    "native_concepts": 9,
+    "shared_concepts": 0,
+    "entity_types": {
+      "context": 7,
+      "actor": 23,
+      "task": 6,
+      "technology": 14,
+      "capability": 5,
+      "action": 16,
+      "target": 7,
+      "outcome": 11
+    },
+    "fact_status": {
+      "implemented": 42,
+      "planned": 3,
+      "reported_or_opinion": 7,
+      "disputed": 1,
+      "unconfirmed": 0
+    },
+    "relation_status": {
+      "implemented": 93,
+      "planned": 4,
+      "reported_or_opinion": 12,
+      "disputed": 1,
+      "unconfirmed": 0
+    }
+  },
+  "files": {
+    "scope": "case_scope.md",
+    "materials": "materials.md",
+    "materials_json": "materials.json",
+    "evidence": "evidence.md",
+    "evidence_json": "evidence.json",
+    "process": "process.md",
+    "process_json": "process.json",
+    "entities": "entities.md",
+    "entities_json": "entities.json",
+    "facts": "facts.md",
+    "facts_json": "facts.json",
+    "relations": "relations_v2.0.md",
+    "relations_json": "relations_v2.0.json",
+    "native_concepts": "native_concepts.md",
+    "native_concepts_json": "native_concepts.json",
+    "g6_audit": "G6-audit.md",
+    "decision_log": "review/decision-log.md"
+  },
+  "native_concept_ids": [
+    "NC-C16-01",
+    "NC-C16-02",
+    "NC-C16-03",
+    "NC-C16-04",
+    "NC-C16-05",
+    "NC-C16-06",
+    "NC-C16-07",
+    "NC-C16-08",
+    "NC-C16-09"
+  ],
+  "review_packets": [
+    "RP-C16-G0-v1.0",
+    "RP-C16-G1-v1.0",
+    "RP-C16-G2-v1.0",
+    "RP-C16-G3-v1.0",
+    "RP-C16-G4-v1.0",
+    "RP-C16-G5-v1.0",
+    "RP-C16-G6-v1.0"
+  ],
+  "completeness_audit": {
+    "evidence_total": 100,
+    "facts_total": 53,
+    "facts_linked_to_relations": 53,
+    "entities_total": 89,
+    "entities_used": 89,
+    "relations_total": 110,
+    "exact_duplicate_relations": 0,
+    "near_duplicate_groups_retained": 7,
+    "unused_entities": [],
+    "standalone_facts": []
+  },
+  "open_questions": [
+    "Sky Packets 在 2019 年前的参与未进入事实层",
+    "RHI 与 Digital Stewards 的治理/决策关系缺一手文件",
+    "住宅区施工方未作为实体登记",
+    "Red Hook Houses 居民内部差异尚未区分",
+    "2021–2022 市府/NYCHA 政策过程缺一手文件",
+    "RISE:NYC 单项拨款合同、2019 年移交协议、2018–2023 节点与访问数据缺失",
+    "NYT 2014 全文、TechPresident 2012 原文、redhookwifi.org 历史快照未取得"
+  ],
+  "handoff": {
+    "target_skill": "scalable-concept-framework",
+    "native_nodes": "entities.json",
+    "relations": "relations_v2.0.json",
+    "native_concepts": "native_concepts.json",
+    "evidence_pointers": "evidence.json",
+    "review_records": [
+      "review/decision-log.md",
+      "G6-audit.md",
+      "review/RP-C16-G0-v1.0.json",
+      "review/RP-C16-G1-v1.0.json",
+      "review/RP-C16-G2-v1.0.json",
+      "review/RP-C16-G3-v1.0.json",
+      "review/RP-C16-G4-v1.0.json",
+      "review/RP-C16-G5-v1.0.json",
+      "review/RP-C16-G6-v1.0.json"
+    ],
+    "open_questions": "case_pack.md 第 8 节",
+    "shared_concepts_confirmed": 0
+  },
+  "media": null
+}

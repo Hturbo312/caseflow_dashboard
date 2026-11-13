@@ -1,0 +1,138 @@
+{
+  "packetId": "RP-C13-G0-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G0",
+  "caseId": "C13",
+  "scope": "Motor City Mapping（底特律）案例边界、纳入/排除标准与研究问题",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_superseded_by_v1.0",
+  "evidenceCutoff": "2026-11-13",
+  "processed": [
+    "事件名称",
+    "起止时间草案",
+    "空间范围",
+    "排除项",
+    "证据截止时间",
+    "研究问题草案",
+    "已知来源冲突"
+  ],
+  "notProcessed": [
+    "G1 材料正式登记",
+    "G2 证据逐条定位",
+    "G3 过程重建",
+    "G4 事实拆解",
+    "G5 关系编码",
+    "G6 关系审校"
+  ],
+  "candidates": [
+    {
+      "id": "C13-SCOPE-01",
+      "content": "案例名称：底特律 Motor City Mapping 全市地块普查与空置建筑数据平台",
+      "evidence": ["S1", "S2", "S3"],
+      "factStatus": "unconfirmed",
+      "confidence": "high",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "C13-SCOPE-02",
+      "content": "核心时段 2013-09 – 2014-12；2015 作平台整合与外部扩展",
+      "evidence": ["S1", "S2", "S3", "S4", "S8"],
+      "factStatus": "unconfirmed",
+      "confidence": "medium-high",
+      "suggestedAction": "discuss"
+    },
+    {
+      "id": "C13-SCOPE-03",
+      "content": "空间核心为底特律市域约 139 平方英里、380,000 个地块",
+      "evidence": ["S1", "S3", "S7"],
+      "factStatus": "unconfirmed",
+      "confidence": "high",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "C13-SCOPE-04",
+      "content": "纳入 DBRTF 召集、MCM 普查、数据融合、MCI/SATT、报告、公开平台与社区复核",
+      "evidence": ["S1", "S2", "S3", "S4"],
+      "factStatus": "unconfirmed",
+      "confidence": "high",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "C13-SCOPE-05",
+      "content": "拆除工程本身降为结果观察，不纳入核心行动链",
+      "evidence": [],
+      "factStatus": "unconfirmed",
+      "confidence": "medium-high",
+      "suggestedAction": "discuss"
+    },
+    {
+      "id": "C13-SCOPE-06",
+      "content": "排除 Detroit Future City、2009 普查、Loveland 其他业务、破产程序",
+      "evidence": [],
+      "factStatus": "unconfirmed",
+      "confidence": "medium-high",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "C13-SCOPE-07",
+      "content": "4 个研究问题（数据生产、技术—能力—行动、分类装置、开放数据与参与）",
+      "evidence": [],
+      "factStatus": "unconfirmed",
+      "confidence": "medium",
+      "suggestedAction": "discuss"
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "调查员人数",
+      "positions": ["MCM 官网：150 Detroiters surveyed", "D3：200 resident surveyors, drivers, and QC associates"],
+      "handling": "G2 按角色拆分，不合并"
+    },
+    {
+      "topic": "数据集数量",
+      "positions": ["DBRTF FAQ：24 data sets", "D3：more than 30 datasets"],
+      "handling": "核定统计口径"
+    },
+    {
+      "topic": "破败规模",
+      "positions": ["早期估计 78,000 / 80,000 / 90,000", "最终口径 84,641 个破败地块"],
+      "handling": "按定义与时点分别记录"
+    }
+  ],
+  "gaps": [
+    "DBRTF 报告 PDF 原件",
+    "2013–2014 年 NYT/NPR/Detroit Free Press 原文",
+    "Loveland 的方法与产品说明",
+    "DLBA/MSHDA 关于 MCM 数据使用的文件",
+    "2015 年平台页面与 MCM 2015 图层说明"
+  ],
+  "decisionsRequired": [
+    "时间边界：A 2013-09–2014-12（核心，推荐）/ B 2013-09–2015-12 / C 延伸至 2016 年以后",
+    "拆除工程定位：结果观察（推荐）/ 纳入核心 / 排除",
+    "空间边界：仅底特律市域（推荐，外部城市作结果观察）/ 纳入 Highland Park 与 Hamtramck",
+    "2009 普查定位：情境与输入材料（推荐）/ 排除",
+    "研究问题：采用草案 4 问 / 修改 / 增加维护与衰减问题"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false,
+    "note": "新增 C13，不修改 C01–C12"
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": null,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "version": "v0.1",
+  "openIssues": [
+    "时间边界",
+    "拆除工程定位",
+    "空间边界",
+    "2009 普查定位",
+    "研究问题"
+  ]
+}

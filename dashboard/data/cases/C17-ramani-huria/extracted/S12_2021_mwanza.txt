@@ -1,0 +1,78 @@
+Community Data for Improved Disaster Management and Urban Planning – Mwanza, Tanzania – Ramani Huria
+Skip to the content
+Close Menu
+Photo: Primoz Kovacic, Spatial Collective
+Community generated data has proven to be the most reliable information that reflects the community’s situation and the challenges they face. Working with community members to collect data in their own neighborhood increases data reliability, validity and its ultimate use as the community believes in the data and has a sense of ownership.
+Spatial Collective
+,
+Humanitarian OpenStreetMap Team
+, and
+OpenMap Development Tanzania
+spent the last five months expanding its community mapping initiatives to Mwanza City. Working with 79 students from the
+Institute of Rural Development Planning
+(IRDP) and
+St. Augustine University of Tanzania
+we were able to collect a series of disaster-related data touching on flood-prone areas, rockfall incidents, urban exposure, and drainage infrastructure. The work focused on two municipalities: Nyamagana and Ilemela.
+As we explained in one of our
+earlier posts
+Mwanza City is rapidly urbanizing with a lot of its growth concentrated in unplanned areas with approximately 81 percent of households situated in hazard-prone areas. Community knowledge was key to understanding the extent of these problems. For this reason, the consortium trained the students and communities on how to use cheap and widely available tools, such as mobile phones, GPS units, and satellite imagery to collect data on urban risks stemming from flooding and rockfalls.
+Data Collected
+Using a mixed-method approach consisting of digitizing the satellite imagery, mobile and GPS field data collection, community consultations, and stakeholder meetings, we were able to collect:
+More than 300,000 buildings using satellite imagery
+More than 15,000 points on flood-prone areas using mobile phones
+More than 800 point on rockfall-prone areas using mobile phones
+More than  80,000 points on urban exposure using mobile phones, and
+At the moment of this writing 1700 drain segments with 145.013km
+of drainage lines and 4300 drainage related points of interest have been mapped using a combination of mobile phones and DIY RTK units.
+Areas at risk for rockfall
+Insights from community members and leaders
+Below are some of the quotes taken directly from community members and leaders who were directly involved in the process of data collection
+“The data helps me as a community leader to represent the challenges with evidence to the higher authorities, I will especially like drainage data to be collected as it will show the real situation of the narrow drains in our subward.” Juma Kasudi, Mjumbe – Mwinuko subward
+“The collected data will help in the warning system, enabling the communities to at least evacuate before flooding. We can also present the flooding issue to the district council as we have datasets that explain the whole situation. It’s now our duty as community leaders to educate our community that the data does not lead to house demolition or relocation but rather finding solutions”. Joseph Chui, Mjumbe – Kitangiri
+“Kitangiri is one of the severely affected wards by floods and rockfalls. Schools are also affected, making me worried as a leader that one day students may get hurt or even die. I hope the data can reach the right actors and lead to the construction of permanent structures especially drainage systems”. Robert Charles, Chairman – Kitangiri A subward.
+Outcomes of our engagement
+Capacity building to 79 university students – final year students will use the same software in their research and dissertations as it has proved to be a more cost-effective way of gathering data
+Requests from the university lecturers to teach more about open-source tools used in data collection
+Raising awareness to community members and local leaders on the importance of data use in making decisions
+Field data collection, Photo: Primoz Kovacic, Spatial Collective
+Challenges during data collection
+Nature of the terrain and accessibility; Mwanza is characterized by highly dissected steep slopes and rocky hills making it more difficult for mappers to collect data especially in the slums
+Misinterpretation of the project; communities believed that the mapping will lead to the demolition of their houses and possible relocation. The mappers had to carefully and mindfully explain the goals of the project and that the project is not in any way connected to relocation
+Political issues; the general election posed some challenges to obtaining permissions on time
+What is next?
+After the mapping and curation of all datasets, we expect to hold a workshop with the potential data users to ensure they have the ability to access and use these data for informed decision making. The workshop will involve key stakeholders like community leaders, road agency authorities, regional disaster departments, etc.
+Share this:
+Share on X (Opens in new window)
+X
+Share on Facebook (Opens in new window)
+Facebook
+Like
+Loading…
+Tags
+floods
+,
+Mwanza
+,
+Open Data
+,
+rockfalls
+5 replies on “Community Data for Improved Disaster Management and Urban Planning – Mwanza, Tanzania”
+where can I find this data?
+Loading...
+Datasets are uploaded to the Resilience Academy climate risk database:
+https://geonode.resilienceacademy.ac.tz/
+https://geonode.resilienceacademy.ac.tz/search/?title__icontains=mwanza&limit=10&offset=0
+Loading...
+Leave a Reply
+Cancel reply
+Name
+Email
+Website
+Δ
+Our Partners
+Loading Comments...
+Write a Comment...
+Email (Required)
+Name (Required)
+Website
+%d

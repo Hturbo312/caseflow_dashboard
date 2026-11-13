@@ -1,0 +1,80 @@
+{
+  "caseId": "C13",
+  "name": "Motor City Mapping, Detroit",
+  "nameZh": "底特律 Motor City Mapping 全市地块普查与空置建筑数据平台",
+  "version": "v1.0",
+  "status": "frozen",
+  "frozenAt": "2026-11-13",
+  "period": {"start": "2013-09", "end": "2015-12", "coreEnd": "2014-12", "observation": "2016-01/2017-12"},
+  "space": "Detroit, 139 sq mi, 380,233 parcels",
+  "counts": {
+    "materials": 17,
+    "evidence": 66,
+    "processes": 9,
+    "facts": 58,
+    "entities": 75,
+    "relations": 86,
+    "nativeConcepts": 10,
+    "sharedConceptCandidates": 5
+  },
+  "relationStatus": {"implemented": 77, "planned": 7, "reported_or_opinion": 2},
+  "entityTypes": {"actor": 24, "task": 6, "technology": 9, "capability": 8, "action": 9, "target": 10, "outcome": 5, "context": 4},
+  "nativeConcepts": [
+    {"id": "NC-C13-01", "label": "全市地块外业普查", "type": "action", "sourceRelationIds": ["R008", "R022", "R023", "R024", "R085"]},
+    {"id": "NC-C13-02", "label": "移动端地块编码", "type": "technology", "sourceRelationIds": ["R012", "R015", "R016"]},
+    {"id": "NC-C13-03", "label": "地块状况字段体系", "type": "capability", "sourceRelationIds": ["R016", "R058"]},
+    {"id": "NC-C13-04", "label": "破败十项判定", "type": "task", "sourceRelationIds": ["R002"]},
+    {"id": "NC-C13-05", "label": "需干预地块口径", "type": "outcome", "sourceRelationIds": ["R030", "R031", "R032"]},
+    {"id": "NC-C13-06", "label": "临界点优先级分析", "type": "capability", "sourceRelationIds": ["R036", "R037", "R038", "R039"]},
+    {"id": "NC-C13-07", "label": "单栋分级评估", "type": "technology", "sourceRelationIds": ["R041", "R042"]},
+    {"id": "NC-C13-08", "label": "公开地块数据平台", "type": "technology", "sourceRelationIds": ["R057", "R058", "R087"]},
+    {"id": "NC-C13-09", "label": "社区复核小额资助", "type": "action", "sourceRelationIds": ["R061", "R062", "R063", "R064", "R065", "R066"]},
+    {"id": "NC-C13-10", "label": "数据基础设施跨场景复用", "type": "action", "sourceRelationIds": ["R074", "R075", "R079", "R080"]}
+  ],
+  "sharedConceptCandidates": [
+    {"id": "SC-C13-01", "label": "全市地块级状况普查", "type": "action", "supportingNativeIds": ["NC-C13-01"], "status": "candidate_single_case"},
+    {"id": "SC-C13-02", "label": "移动采集与字段标准化", "type": "technology", "supportingNativeIds": ["NC-C13-02", "NC-C13-03"], "status": "candidate_single_case"},
+    {"id": "SC-C13-03", "label": "破败分级与优先干预规则", "type": "task", "supportingNativeIds": ["NC-C13-04", "NC-C13-05", "NC-C13-06", "NC-C13-07"], "status": "candidate_single_case"},
+    {"id": "SC-C13-04", "label": "开放数据与社区复核", "type": "action", "supportingNativeIds": ["NC-C13-08", "NC-C13-09"], "status": "candidate_single_case"},
+    {"id": "SC-C13-05", "label": "数据基础设施的维护与衰减", "type": "process", "supportingNativeIds": ["NC-C13-10"], "status": "candidate_insufficient_evidence"}
+  ],
+  "artifacts": [
+    "case_scope.md",
+    "materials.md",
+    "materials.json",
+    "evidence.md",
+    "evidence.json",
+    "process.md",
+    "process.json",
+    "facts.md",
+    "facts.json",
+    "entities.json",
+    "relations.md",
+    "relations.json",
+    "relations_v1.0.md",
+    "relations_v1.0.json",
+    "review/decision-log.md"
+  ],
+  "qualityChecks": {
+    "verbatimQuotesVerified": "61/61",
+    "duplicateTriples": 0,
+    "orphanEntities": 0,
+    "processesCovered": "9/9",
+    "factsDirectlyInRelations": 45,
+    "factsAsQualifiers": 13
+  },
+  "coverageBoundary": [
+    "报告第5-7、9、11章仅在支撑数据-优先级-平台链条时编码",
+    "第12章附录为图像页，未逐条编码",
+    "2016-2017年未重建"
+  ],
+  "openIssues": [
+    "2016-2017年连续证据缺失",
+    "People's Property Dashboard是否上线及形态",
+    "平板捐赠是否执行",
+    "近600万美元联邦资金的因果归因",
+    "F042公有结构状况标签对应",
+    "DLBA拆除队列与MCM评分的对应数据"
+  ],
+  "handoff": "scalable-concept-framework"
+}

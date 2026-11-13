@@ -1,0 +1,1265 @@
+{
+  "caseId": "C16",
+  "version": "v1.0",
+  "status": "confirmed_by_researcher",
+  "generatedAt": "2026-11-13",
+  "total": 53,
+  "facts": [
+    {
+      "factId": "F001",
+      "caseId": "C16",
+      "processId": "C16-P01",
+      "statement": "2011 年秋，RHI 就社区无线网络合作接触 OTI，目标是联系社区中心周边居民。",
+      "entityRoles": {
+        "A01": "actor",
+        "A02": "actor",
+        "K02": "task",
+        "X01": "context"
+      },
+      "evidenceIds": [
+        "M01-E01"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2011 秋",
+      "spaceScope": "Red Hook, Brooklyn",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F002",
+      "caseId": "C16",
+      "processId": "C16-P01",
+      "statement": "OTI 最初无法直接支持，将 RHI 的 Schloss 引荐给在 Parsons 研究无线 mesh 的 Baldwin。",
+      "entityRoles": {
+        "A02": "actor",
+        "A03": "target",
+        "A04": "target",
+        "AC01": "action"
+      },
+      "evidenceIds": [
+        "M01-E02"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2011 秋",
+      "spaceScope": "New York City",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F003",
+      "caseId": "C16",
+      "processId": "C16-P01",
+      "statement": "红钩被高速与水域隔开、缺少本地信息中心，构成本地网络项目的空间与信息背景。",
+      "entityRoles": {
+        "X01": "context",
+        "G01": "target",
+        "G03": "target"
+      },
+      "evidenceIds": [
+        "M01-E03",
+        "M02-E02"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2011–2012",
+      "spaceScope": "Red Hook, Brooklyn",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F004",
+      "caseId": "C16",
+      "processId": "C16-P01",
+      "statement": "调查显示红钩居民上网以手机为主、家庭路由器与电脑不足；Red Hook Houses 居民当时只有一家服务商可选。",
+      "entityRoles": {
+        "G03": "target",
+        "X02": "context",
+        "X07": "context"
+      },
+      "evidenceIds": [
+        "M02-E03",
+        "M02-E04"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2011 前后",
+      "spaceScope": "Red Hook, Brooklyn",
+      "quantityScope": "",
+      "confidence": "medium",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F005",
+      "caseId": "C16",
+      "processId": "C16-P01",
+      "statement": "RHI 的初始计划仅是为 RHI 建筑及其周边提供无线上网，并非立即覆盖全社区。",
+      "entityRoles": {
+        "A01": "actor",
+        "T01": "technology",
+        "G05": "target",
+        "K01": "task"
+      },
+      "evidenceIds": [
+        "M01-E04"
+      ],
+      "factStatus": "planned",
+      "timeScope": "2011",
+      "spaceScope": "RHI 建筑周边",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F006",
+      "caseId": "C16",
+      "processId": "C16-P02",
+      "statement": "2011 年末，RHI 屋顶安装首个 Ubiquiti Nanostation 与室内 Linksys 路由器，并接入中心既有网络。",
+      "entityRoles": {
+        "A01": "actor",
+        "A04": "actor",
+        "T02": "technology",
+        "T03": "technology",
+        "G05": "target",
+        "AC02": "action"
+      },
+      "evidenceIds": [
+        "M01-E05",
+        "M11-E03",
+        "M15-E03"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2011 末",
+      "spaceScope": "RHI 屋顶",
+      "quantityScope": "设备投入低于 US$300",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F007",
+      "caseId": "C16",
+      "processId": "C16-P02",
+      "statement": "首节点通过 splash page 与 Shout Box 提供本地信息发布与留言功能。",
+      "entityRoles": {
+        "T01": "technology",
+        "C03": "capability",
+        "G03": "target",
+        "AC02": "action"
+      },
+      "evidenceIds": [
+        "M01-E06",
+        "M02-E05"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2011–2012",
+      "spaceScope": "RHI 建筑",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F008",
+      "caseId": "C16",
+      "processId": "C16-P02",
+      "statement": "2012 年 3 月，第二个 Nanostation 安装在俯瞰 Coffey Park 的公寓楼顶；住户捐赠电力与屋顶准入。",
+      "entityRoles": {
+        "A04": "actor",
+        "T02": "technology",
+        "G05": "target",
+        "G03": "target",
+        "AC02": "action"
+      },
+      "evidenceIds": [
+        "M01-E07"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2012-03",
+      "spaceScope": "Coffey Park 周边公寓楼",
+      "quantityScope": "1 个节点",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F009",
+      "caseId": "C16",
+      "processId": "C16-P02",
+      "statement": "Coffey Park 节点最初不接互联网，只以 GuruPlug 本地服务器提供本地网页与留言板。",
+      "entityRoles": {
+        "T05": "technology",
+        "C01": "capability",
+        "G05": "target"
+      },
+      "evidenceIds": [
+        "M01-E08"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2012-03 起",
+      "spaceScope": "Coffey Park",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F010",
+      "caseId": "C16",
+      "processId": "C16-P02",
+      "statement": "Red Hook WiFi 在 Ubiquiti 路由器上运行 Commotion 固件，支持去中心化 mesh 与断网本地运行。",
+      "entityRoles": {
+        "T04": "technology",
+        "T01": "technology",
+        "C01": "capability",
+        "C02": "capability"
+      },
+      "evidenceIds": [
+        "M01-E09",
+        "M10-E02"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2012 起",
+      "spaceScope": "Red Hook",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F011",
+      "caseId": "C16",
+      "processId": "C16-P03",
+      "statement": "2011–2012 年，Baldwin 与 Schloss 通过系列工作坊识别六类社区需求。",
+      "entityRoles": {
+        "A01": "actor",
+        "A04": "actor",
+        "G03": "target",
+        "K02": "task",
+        "AC03": "action"
+      },
+      "evidenceIds": [
+        "M01-E11",
+        "M01-E12",
+        "M02-E06"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2011–2012",
+      "spaceScope": "RHI",
+      "quantityScope": "6 类需求",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F012",
+      "caseId": "C16",
+      "processId": "C16-P03",
+      "statement": "Tidepools 被开发为开源本地地图平台，用于本地通信、地方营造与社区资产组织。",
+      "entityRoles": {
+        "T06": "technology",
+        "C03": "capability",
+        "K02": "task",
+        "AC04": "action"
+      },
+      "evidenceIds": [
+        "M01-E11"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2012",
+      "spaceScope": "Red Hook",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F013",
+      "caseId": "C16",
+      "processId": "C16-P03",
+      "statement": "B61 巴士与 Stop & Frisk 应用分别于 2012-10-09 与 2012-10-17 上线。",
+      "entityRoles": {
+        "T09": "technology",
+        "T10": "technology",
+        "A01": "actor",
+        "A02": "actor",
+        "G03": "target",
+        "AC05": "action"
+      },
+      "evidenceIds": [
+        "M01-E14"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2012-10-09 / 2012-10-17",
+      "spaceScope": "Red Hook",
+      "quantityScope": "2 个应用",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F014",
+      "caseId": "C16",
+      "processId": "C16-P03",
+      "statement": "RHI Radio 在 2013 年初仍处于开发中。",
+      "entityRoles": {
+        "T11": "technology",
+        "A01": "actor",
+        "AC05": "action"
+      },
+      "evidenceIds": [
+        "M01-E15"
+      ],
+      "factStatus": "planned",
+      "timeScope": "2013-02",
+      "spaceScope": "RHI",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F015",
+      "caseId": "C16",
+      "processId": "C16-P04",
+      "statement": "2012-10-29 Sandy 登陆；RHI 保有电力，核心网络在风暴期间继续运行。",
+      "entityRoles": {
+        "X03": "context",
+        "A01": "actor",
+        "T01": "technology",
+        "O01": "outcome",
+        "K03": "task",
+        "AC06": "action"
+      },
+      "evidenceIds": [
+        "M01-E16",
+        "M02-E09"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2012-10-29 起",
+      "spaceScope": "RHI",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F016",
+      "caseId": "C16",
+      "processId": "C16-P04",
+      "statement": "RHI 在灾后成为社区恢复据点，居民来充电、取暖、报平安与获取信息。",
+      "entityRoles": {
+        "A01": "actor",
+        "G03": "target",
+        "O01": "outcome",
+        "AC06": "action"
+      },
+      "evidenceIds": [
+        "M02-E09",
+        "M15-E04"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2012-10–11",
+      "spaceScope": "RHI / Coffey Park",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F017",
+      "caseId": "C16",
+      "processId": "C16-P04",
+      "statement": "灾后网络使用量激增；现有材料给出 300、1,000、1,200 人/日三种口径，分别对应网络连接、网络用户与到访/求助。",
+      "entityRoles": {
+        "O02": "outcome",
+        "X03": "context",
+        "G03": "target",
+        "T01": "technology"
+      },
+      "evidenceIds": [
+        "M01-E16",
+        "M15-E04",
+        "M11-E06"
+      ],
+      "factStatus": "disputed",
+      "timeScope": "2012-10–11",
+      "spaceScope": "Red Hook",
+      "quantityScope": "300 / 1,000 / 1,200 人/日",
+      "confidence": "medium",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F018",
+      "caseId": "C16",
+      "processId": "C16-P04",
+      "statement": "OTI 在数日内开发 RHI Status，把居民短信中的位置与需求映射到 Tidepools。",
+      "entityRoles": {
+        "A02": "actor",
+        "T08": "technology",
+        "C04": "capability",
+        "G03": "target",
+        "AC07": "action"
+      },
+      "evidenceIds": [
+        "M01-E18"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2012-11",
+      "spaceScope": "Red Hook",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F019",
+      "caseId": "C16",
+      "processId": "C16-P04",
+      "statement": "FEMA、技术志愿者与汽修店店主参与扩展网络；卫星链路仅提供 30 天有限带宽。",
+      "entityRoles": {
+        "A08": "actor",
+        "A18": "actor",
+        "A22": "actor",
+        "T13": "technology",
+        "G04": "target",
+        "AC08": "action"
+      },
+      "evidenceIds": [
+        "M01-E19",
+        "M01-E20",
+        "M02-E10"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2012-11",
+      "spaceScope": "RHI 与汽修店屋顶",
+      "quantityScope": "30 天；带宽有限",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F020",
+      "caseId": "C16",
+      "processId": "C16-P04",
+      "statement": "Brooklyn Fiber 在 Visitation Church Rectory 增设网关，并以 UPS 提供 12 小时供电。",
+      "entityRoles": {
+        "A07": "actor",
+        "T02": "technology",
+        "T12": "technology",
+        "G05": "target",
+        "AC09": "action"
+      },
+      "evidenceIds": [
+        "M01-E21"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2012-11–12",
+      "spaceScope": "Visitation Church Rectory",
+      "quantityScope": "12 小时备电",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F021",
+      "caseId": "C16",
+      "processId": "C16-P04",
+      "statement": "Sandy 时许多节点断电离线，网络在风暴前并未完整部署。",
+      "entityRoles": {
+        "T01": "technology",
+        "X03": "context",
+        "O01": "outcome"
+      },
+      "evidenceIds": [
+        "M18-E02"
+      ],
+      "factStatus": "reported_or_opinion",
+      "timeScope": "2012-10",
+      "spaceScope": "Red Hook",
+      "quantityScope": "",
+      "confidence": "low",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F022",
+      "caseId": "C16",
+      "processId": "C16-P05",
+      "statement": "Sandy 后屋顶准入障碍消解，汽修店等本地商户同意设点。",
+      "entityRoles": {
+        "A17": "actor",
+        "A22": "actor",
+        "G04": "target",
+        "AC08": "action",
+        "X03": "context"
+      },
+      "evidenceIds": [
+        "M02-E11",
+        "M11-E07"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2012-11 起",
+      "spaceScope": "Red Hook",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F023",
+      "caseId": "C16",
+      "processId": "C16-P05",
+      "statement": "2013-01，RHI 与 OTI 在市劳动力发展资金支持下启动 Digital Stewards 培训。",
+      "entityRoles": {
+        "A01": "actor",
+        "A02": "actor",
+        "A23": "actor",
+        "K04": "task",
+        "AC10": "action"
+      },
+      "evidenceIds": [
+        "M01-E23"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2013-01",
+      "spaceScope": "RHI",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F024",
+      "caseId": "C16",
+      "processId": "C16-P05",
+      "statement": "2013-09 时有 8 名 19–24 岁红钩青年以 RHI 员工身份参加一年期 Digital Stewards fellowship。",
+      "entityRoles": {
+        "A05": "actor",
+        "K04": "task",
+        "AC10": "action",
+        "G03": "target"
+      },
+      "evidenceIds": [
+        "M02-E14",
+        "M11-E01"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2013-09",
+      "spaceScope": "Red Hook",
+      "quantityScope": "8 人；19–24 岁；一年",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F025",
+      "caseId": "C16",
+      "processId": "C16-P05",
+      "statement": "到 2015 年初，Stewards 已架设近两打路由器，覆盖从公共住宅到日托中心与图书馆。",
+      "entityRoles": {
+        "T01": "technology",
+        "G01": "target",
+        "O03": "outcome",
+        "AC11": "action",
+        "A05": "actor"
+      },
+      "evidenceIds": [
+        "M11-E02"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2015-01",
+      "spaceScope": "Red Hook",
+      "quantityScope": "近 24 台路由器",
+      "confidence": "medium",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F026",
+      "caseId": "C16",
+      "processId": "C16-P05",
+      "statement": "Red Hook Houses 未接入，RHI 采取包围策略并把一栋楼内试点作为后续设想。",
+      "entityRoles": {
+        "G02": "target",
+        "A10": "actor",
+        "X04": "context",
+        "K05": "task",
+        "AC11": "action"
+      },
+      "evidenceIds": [
+        "M02-E15"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2013",
+      "spaceScope": "Red Hook Houses 周边",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F027",
+      "caseId": "C16",
+      "processId": "C16-P05",
+      "statement": "网络硬件成本约每台 50–85 美元，每站点安装需两人 3–5 小时，带宽由 RHI、Brooklyn Fiber 与 FEMA 捐赠。",
+      "entityRoles": {
+        "T02": "technology",
+        "A01": "actor",
+        "A07": "actor",
+        "A08": "actor",
+        "K06": "task"
+      },
+      "evidenceIds": [
+        "M01-E24"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2013",
+      "spaceScope": "Red Hook",
+      "quantityScope": "US$50–85/台；3–5 小时/2 人",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F028",
+      "caseId": "C16",
+      "processId": "C16-P06",
+      "statement": "2013 年初，风暴后网络每周约支撑 100 名用户，居民主要使用 Android 设备与 iPod Touch。",
+      "entityRoles": {
+        "O05": "outcome",
+        "G03": "target",
+        "T01": "technology"
+      },
+      "evidenceIds": [
+        "M01-E22"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2013 初",
+      "spaceScope": "Red Hook",
+      "quantityScope": "约 100 用户/周",
+      "confidence": "medium-high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F029",
+      "caseId": "C16",
+      "processId": "C16-P06",
+      "statement": "Tidepools 在本地服务器运行，断网时社区内部仍可通过网络通信。",
+      "entityRoles": {
+        "T06": "technology",
+        "C01": "capability",
+        "G03": "target"
+      },
+      "evidenceIds": [
+        "M02-E08"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2013",
+      "spaceScope": "Red Hook",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F030",
+      "caseId": "C16",
+      "processId": "C16-P06",
+      "statement": "维护依赖本地支持结构与知识传递；技术人员离开而未教会他人时，网络会崩溃。",
+      "entityRoles": {
+        "A05": "actor",
+        "K06": "task",
+        "G01": "target"
+      },
+      "evidenceIds": [
+        "M02-E12"
+      ],
+      "factStatus": "reported_or_opinion",
+      "timeScope": "2013",
+      "spaceScope": "Red Hook",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F031",
+      "caseId": "C16",
+      "processId": "C16-P06",
+      "statement": "RHI 曾设想 300 人每月付 5 美元以实现网络财务自持，但未见实施证据。",
+      "entityRoles": {
+        "K06": "task",
+        "T01": "technology",
+        "A01": "actor"
+      },
+      "evidenceIds": [
+        "M02-E13"
+      ],
+      "factStatus": "planned",
+      "timeScope": "2013",
+      "spaceScope": "Red Hook",
+      "quantityScope": "300 人 × US$5/月",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F032",
+      "caseId": "C16",
+      "processId": "C16-P06",
+      "statement": "2014 年 NYT 记录了 Smith 在 Miccio 社区中心屋顶维护节点；mesh 即使不接互联网仍构成网络。",
+      "entityRoles": {
+        "A06": "actor",
+        "T01": "technology",
+        "C02": "capability",
+        "G05": "target"
+      },
+      "evidenceIds": [
+        "M10-E01",
+        "M10-E02"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2014-08",
+      "spaceScope": "Miccio Community Center",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F033",
+      "caseId": "C16",
+      "processId": "C16-P07",
+      "statement": "2015-05，New America 的 Resilient Mesh Wireless 与 RHI 的 Red Hook 网络获 RISE:NYC 奖。",
+      "entityRoles": {
+        "A02": "actor",
+        "A01": "actor",
+        "X05": "context",
+        "AC12": "action"
+      },
+      "evidenceIds": [
+        "M03-E01",
+        "M03-E04",
+        "M12-E02"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2015-05",
+      "spaceScope": "New York City",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F034",
+      "caseId": "C16",
+      "processId": "C16-P07",
+      "statement": "RISE:NYC 共有 11 项技术获奖，最高合计 3,000 万美元，27 个入围者参选。",
+      "entityRoles": {
+        "X05": "context",
+        "A11": "actor",
+        "A12": "actor"
+      },
+      "evidenceIds": [
+        "M12-E01",
+        "M03-E05"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2015-04/05",
+      "spaceScope": "New York City",
+      "quantityScope": "11 项；最高 US$30M；27 个入围",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F035",
+      "caseId": "C16",
+      "processId": "C16-P07",
+      "statement": "The Verge 报道 New America 获 400 万美元、RHI 获约 100 万美元用于扩展网络与青年项目；该单项金额为单一来源。",
+      "entityRoles": {
+        "A02": "actor",
+        "A01": "actor",
+        "A11": "actor",
+        "A12": "actor"
+      },
+      "evidenceIds": [
+        "M15-E06"
+      ],
+      "factStatus": "reported_or_opinion",
+      "timeScope": "2015",
+      "spaceScope": "New York City",
+      "quantityScope": "US$4M / 约 US$1M",
+      "confidence": "medium",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F036",
+      "caseId": "C16",
+      "processId": "C16-P07",
+      "statement": "新资金使网络扩展到约 20 个站点，部分站点配太阳能备电。",
+      "entityRoles": {
+        "T01": "technology",
+        "T12": "technology",
+        "O03": "outcome",
+        "G01": "target",
+        "AC12": "action"
+      },
+      "evidenceIds": [
+        "M15-E07"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2015–2017",
+      "spaceScope": "Red Hook",
+      "quantityScope": "约 20 站点",
+      "confidence": "medium",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F037",
+      "caseId": "C16",
+      "processId": "C16-P07",
+      "statement": "2016 年上半年网络被访问 15,624 次以上、独立用户超过 3,000 人；2017 年访问 17,901 次。",
+      "entityRoles": {
+        "O05": "outcome",
+        "G03": "target",
+        "T01": "technology"
+      },
+      "evidenceIds": [
+        "M13-E01",
+        "M04-E04"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2016 H1；2017",
+      "spaceScope": "Red Hook",
+      "quantityScope": "15,624 次/3,000+ 用户；17,901 次",
+      "confidence": "medium-high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F038",
+      "caseId": "C16",
+      "processId": "C16-P07",
+      "statement": "2017 年 Red Hook WIFI 招募 38 家本地商户作为热点宿主。",
+      "entityRoles": {
+        "A17": "actor",
+        "G04": "target",
+        "O06": "outcome",
+        "AC11": "action"
+      },
+      "evidenceIds": [
+        "M04-E03",
+        "M08-E01"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2017",
+      "spaceScope": "Red Hook 商业街",
+      "quantityScope": "38 家",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F039",
+      "caseId": "C16",
+      "processId": "C16-P07",
+      "statement": "2016 年夏，Digital Stewards 与 MIT 研究者开展参与式行动研究，并在 MIT 与 Allied Media Conference 展示。",
+      "entityRoles": {
+        "A21": "actor",
+        "A05": "actor",
+        "T01": "technology",
+        "G01": "target"
+      },
+      "evidenceIds": [
+        "M04-E05"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2016 夏",
+      "spaceScope": "Red Hook / MIT / Detroit",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F040",
+      "caseId": "C16",
+      "processId": "C16-P08",
+      "statement": "NYCHA 对 Red Hook Houses 设点持开放态度，但要求 RHI 自行承担项目费用。",
+      "entityRoles": {
+        "A10": "actor",
+        "G02": "target",
+        "X04": "context",
+        "K05": "task"
+      },
+      "evidenceIds": [
+        "M15-E08"
+      ],
+      "factStatus": "reported_or_opinion",
+      "timeScope": "2015–2019",
+      "spaceScope": "Red Hook Houses",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F041",
+      "caseId": "C16",
+      "processId": "C16-P08",
+      "statement": "Robert Smith 于 2016 年、Tony Schloss 于 2017 年离开 RHI，网络维护人员随之减少。",
+      "entityRoles": {
+        "A06": "actor",
+        "A03": "actor",
+        "K06": "task",
+        "A01": "actor"
+      },
+      "evidenceIds": [
+        "M15-E09"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2016 / 2017",
+      "spaceScope": "RHI",
+      "quantityScope": "2 名关键人员",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F042",
+      "caseId": "C16",
+      "processId": "C16-P08",
+      "statement": "2019 年 RHI 将网络移交给 Sky Packets；后者承担约 3,000 美元/月的数据与电力成本及日常维护。",
+      "entityRoles": {
+        "A01": "actor",
+        "A09": "actor",
+        "T01": "technology",
+        "O09": "outcome",
+        "AC13": "action"
+      },
+      "evidenceIds": [
+        "M15-E10"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2019",
+      "spaceScope": "Red Hook",
+      "quantityScope": "约 US$3,000/月",
+      "confidence": "medium",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F043",
+      "caseId": "C16",
+      "processId": "C16-P08",
+      "statement": "Digital Stewards 采用 8 个月带薪培训；2017 年报告中 77% 的学员在六个月内就业或继续求学。",
+      "entityRoles": {
+        "A05": "actor",
+        "K04": "task",
+        "O07": "outcome",
+        "AC10": "action"
+      },
+      "evidenceIds": [
+        "M04-E01",
+        "M04-E02",
+        "M08-E02"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2017",
+      "spaceScope": "Red Hook",
+      "quantityScope": "8 个月；77%",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F044",
+      "caseId": "C16",
+      "processId": "C16-P09",
+      "statement": "2020 年疫情期间，商户关闭并撤下节点，Red Hook Houses 居民处于网络覆盖之外。",
+      "entityRoles": {
+        "X06": "context",
+        "A17": "actor",
+        "G03": "target",
+        "AC14": "action"
+      },
+      "evidenceIds": [
+        "M15-E11"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2020",
+      "spaceScope": "Red Hook",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F045",
+      "caseId": "C16",
+      "processId": "C16-P09",
+      "statement": "住宅区施工破坏旗杆节点，其他路由器因长期暴露而离线。",
+      "entityRoles": {
+        "G02": "target",
+        "T01": "technology",
+        "O04": "outcome",
+        "AC14": "action"
+      },
+      "evidenceIds": [
+        "M15-E12"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2020–2023",
+      "spaceScope": "Red Hook Houses",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F046",
+      "caseId": "C16",
+      "processId": "C16-P09",
+      "statement": "2023 年报道时约剩 10 个活跃 Wi-Fi 站点，Coffey Park 已不在其中。",
+      "entityRoles": {
+        "O04": "outcome",
+        "T01": "technology",
+        "G01": "target"
+      },
+      "evidenceIds": [
+        "M15-E12"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2023-05",
+      "spaceScope": "Red Hook",
+      "quantityScope": "约 10 个站点",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F047",
+      "caseId": "C16",
+      "processId": "C16-P09",
+      "statement": "2021 年市府有条件同意网络进入 Red Hook Houses；2022 年 Adams 政府以 Big Apple Connect 取代原计划。",
+      "entityRoles": {
+        "A14": "actor",
+        "A15": "actor",
+        "G02": "target",
+        "AC16": "action"
+      },
+      "evidenceIds": [
+        "M15-E13"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2021–2022",
+      "spaceScope": "New York City / Red Hook Houses",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F048",
+      "caseId": "C16",
+      "processId": "C16-P09",
+      "statement": "NYC OTI 称 Red Hook Houses 未进入 Big Apple Connect 首期，部分原因是 Sky Packets 已提供户外公共区域覆盖。",
+      "entityRoles": {
+        "A13": "actor",
+        "G02": "target",
+        "O08": "outcome",
+        "AC16": "action"
+      },
+      "evidenceIds": [
+        "M15-E14"
+      ],
+      "factStatus": "reported_or_opinion",
+      "timeScope": "2022–2023",
+      "spaceScope": "Red Hook Houses",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F049",
+      "caseId": "C16",
+      "processId": "C16-P10",
+      "statement": "2018 年后，Red Hook Farms 使用 mesh 网络监测温室温度并在停电时提醒员工。",
+      "entityRoles": {
+        "A16": "actor",
+        "T14": "technology",
+        "G06": "target",
+        "O11": "outcome",
+        "C05": "capability",
+        "AC15": "action"
+      },
+      "evidenceIds": [
+        "M15-E15"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2018 后",
+      "spaceScope": "Red Hook Farms",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F050",
+      "caseId": "C16",
+      "processId": "C16-P10",
+      "statement": "RHI 在包括 Columbia Street Farm 在内的地点安装空气质量监测器，并通过 mesh 把数据接入全国空气质量地图。",
+      "entityRoles": {
+        "A16": "actor",
+        "T14": "technology",
+        "G07": "target",
+        "O11": "outcome",
+        "C05": "capability",
+        "AC15": "action"
+      },
+      "evidenceIds": [
+        "M15-E15"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2018 后",
+      "spaceScope": "Red Hook / Columbia Street Farm",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F051",
+      "caseId": "C16",
+      "processId": "C16-P10",
+      "statement": "2023 年网络 splash page 仍提供可负担住房、食品券与社区活动信息。",
+      "entityRoles": {
+        "T01": "technology",
+        "T07": "technology",
+        "C03": "capability",
+        "G03": "target"
+      },
+      "evidenceIds": [
+        "M15-E15",
+        "M05-E02"
+      ],
+      "factStatus": "implemented",
+      "timeScope": "2023",
+      "spaceScope": "Red Hook",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F052",
+      "caseId": "C16",
+      "processId": "C16-P10",
+      "statement": "2022 年 NYC 主计长与 Urban Ocean Lab 报告把该网络列为城市应支持的社区基础设施案例。",
+      "entityRoles": {
+        "A20": "actor",
+        "O10": "outcome",
+        "T01": "technology",
+        "G01": "target"
+      },
+      "evidenceIds": [
+        "M15-E17"
+      ],
+      "factStatus": "reported_or_opinion",
+      "timeScope": "2022",
+      "spaceScope": "New York City",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    },
+    {
+      "factId": "F053",
+      "caseId": "C16",
+      "processId": "C16-P10",
+      "statement": "Greta Byrum 认为 mesh 不适合作为服务大量人口的规模化方案，网络价值不只在设备，还在于受过训练的人。",
+      "entityRoles": {
+        "A19": "actor",
+        "K06": "task",
+        "T01": "technology",
+        "O01": "outcome"
+      },
+      "evidenceIds": [
+        "M15-E16",
+        "M15-E18"
+      ],
+      "factStatus": "reported_or_opinion",
+      "timeScope": "2023",
+      "spaceScope": "Red Hook",
+      "quantityScope": "",
+      "confidence": "high",
+      "review": {
+        "status": "candidate"
+      }
+    }
+  ]
+}

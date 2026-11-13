@@ -1,0 +1,32 @@
+{
+  "packetId": "RP-C17-G5-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G5",
+  "caseId": "C17",
+  "scope": "实体关系候选、方向、谓词、状态与限定",
+  "generatedAt": "2026-11-13",
+  "status": "accepted_by_researcher",
+  "evidenceCutoff": "2026-11-13",
+  "processed": ["106 条关系候选", "过程与证据关联", "谓词与方向"],
+  "notProcessed": ["G6 关系审校"],
+  "counts": {"relations": 106, "implemented": 101, "planned": 1, "reported_or_opinion": 4, "unlinked": 0},
+  "byProcess": {"C17-P01":6,"C17-P02":8,"C17-P03":4,"C17-P04":10,"C17-P05":6,"C17-P06":22,"C17-P07":5,"C17-P08":5,"C17-P09":19,"C17-P10":9,"C17-P11":5,"C17-P12":7},
+  "topPredicates": {"使用":13,"支持":10,"具备":6,"产出":5,"培训":5,"覆盖":5,"组织":4,"采集":4,"参与":4},
+  "conflicts": [
+    {"topic": "参与规模", "positions": ["单条关系只取一个数字", "冲突数字保留在事实层"], "handling": "不在关系中合并冲突值"},
+    {"topic": "谓词语义", "positions": ["支持用于资助/技术/数据三类", "承接自与继承区分"], "handling": "G6 检查是否拆分"}
+  ],
+  "gaps": ["数据维护/更新关系", "市政实际采用地图的关系"],
+  "decisionsRequired": [
+    "106 条是否接受",
+    "工具关系是否保持五条",
+    "技术—能力—使用是否保持两条",
+    "承接自/继承是否区分",
+    "自报使用状态"
+  ],
+  "historyImpact": {"affectsSharedConcepts": false, "affectsHistoricalMappings": false, "triggersHistoricalReview": false, "note": "新增 C17 关系，不修改 C01-C16"},
+  "researcherDecision": {"action": "accept", "rationale": "接受，按推荐", "modifiedContent": "106 条关系接受；工具五条保留；技术—能力—使用两条保留；承接自/继承区分；自报状态确认", "allowNextGate": true, "decidedAt": "2026-11-13"},
+  "frozenArtifacts": [],
+  "version": "v0.1",
+  "openIssues": ["关系总量", "工具粒度", "技术—能力—使用", "组织谓词", "自报状态"]
+}

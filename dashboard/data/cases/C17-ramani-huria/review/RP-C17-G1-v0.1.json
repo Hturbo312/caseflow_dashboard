@@ -1,0 +1,85 @@
+{
+  "packetId": "RP-C17-G1-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G1",
+  "caseId": "C17",
+  "scope": "Ramani Huria 材料检索、来源核验与纳入范围",
+  "generatedAt": "2026-11-13",
+  "status": "accepted_by_researcher",
+  "evidenceCutoff": "2026-11-13",
+  "processed": [
+    "17 份材料的标题、来源、作者、日期、链接",
+    "覆盖范围与可靠性判断",
+    "核验状态与获取方式",
+    "口径冲突清单"
+  ],
+  "notProcessed": [
+    "G2 证据逐条定位",
+    "G3 过程重建",
+    "G4 事实拆解",
+    "G5 关系编码",
+    "G6 关系审校"
+  ],
+  "candidates": [
+    {"id": "M01", "content": "项目图集（126 页），1.0 主干材料", "evidence": ["World Bank PDF"], "factStatus": "implemented", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "M02", "content": "About 页：定义、TURP/DFID/世界银行/GFDRR/HOT 关系", "evidence": ["ramanihuria.org"], "factStatus": "implemented", "confidence": "medium-high", "suggestedAction": "accept"},
+    {"id": "M03", "content": "Our Impact：29 wards、1254 km 水道、3396 km 道路、450 mappers、10 支防灾队", "evidence": ["ramanihuria.org"], "factStatus": "reported_or_opinion", "confidence": "medium", "suggestedAction": "accept"},
+    {"id": "M04", "content": "2015-07 培训 150 名学生、15 名督导、6 个 ward", "evidence": ["项目博客"], "factStatus": "implemented", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "M05", "content": "2015-09/10 排水制图日记", "evidence": ["项目博客"], "factStatus": "implemented", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "M06", "content": "Vingunguti 社区论坛与红十字外业", "evidence": ["项目博客"], "factStatus": "implemented", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "M07", "content": "2017-09-26 2.0 启动与 MoU", "evidence": ["项目博客"], "factStatus": "implemented", "confidence": "medium-high", "suggestedAction": "accept"},
+    {"id": "M08", "content": "2018 排水数据模型与前 20 ward 重测", "evidence": ["项目博客"], "factStatus": "implemented", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "M09", "content": "450+ 学生、228 subwards、20,392 垃圾点、行动地图", "evidence": ["项目博客"], "factStatus": "implemented", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "M10", "content": "2019-07-29 移交 RA；2.0 结束；两套参与人数口径", "evidence": ["项目博客"], "factStatus": "implemented", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "M11", "content": "2020 年 200 学生、20 wards、10,000+ 洪水点", "evidence": ["项目博客"], "factStatus": "implemented", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "M12", "content": "Mwanza 扩散：79 学生、30 万建筑、1.5 万洪泛点", "evidence": ["项目博客"], "factStatus": "implemented", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "M13", "content": "方法页：描图纸勾绘到 InaSAFE 情景", "evidence": ["项目官网"], "factStatus": "implemented", "confidence": "medium-high", "suggestedAction": "accept"},
+    {"id": "M14", "content": "HOT 项目页：周期 2015-04-01–2016-12-31、Complete", "evidence": ["HOT"], "factStatus": "implemented", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "M15", "content": "Metropolis：49/90 wards、45 万建筑、470 学生、300+ 红十字", "evidence": ["第三方案例库"], "factStatus": "reported_or_opinion", "confidence": "medium", "suggestedAction": "accept"},
+    {"id": "M16", "content": "Frontiers 2020：532 段排水、12 段定位错误、36 段断连", "evidence": ["同行评议论文"], "factStatus": "implemented", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "M17", "content": "TU Delft 2019 学位论文（摘要级）", "evidence": ["OpenAlex 摘要"], "factStatus": "implemented", "confidence": "medium-high", "suggestedAction": "accept"}
+  ],
+  "conflicts": [
+    {"topic": "ward 数", "positions": ["65（M01）", "29（M03）", "26（M09）", "49/90（M15）", "44（M16）"], "handling": "按阶段与定义分别记录"},
+    {"topic": "参与人数", "positions": ["150（M04）", "450（M03）", "450+（M09）", "800+/6000+ 与 1000+/300（M10）", "1000+（M11）", "470/300+（M15）"], "handling": "按阶段、角色与统计口径拆分"},
+    {"topic": "项目周期", "positions": ["2015-04–2016-12（M14）", "2015–2018（M15）", "2.0 至 2019（M10）", "2020–2021 仍有活动（M11/M12）"], "handling": "区分 1.0、2.0、RA 三个阶段"},
+    {"topic": "城市人口", "positions": ["2012 年 436–440 万", "2022 年约 670 万"], "handling": "标注时点"}
+  ],
+  "gaps": [
+    "社区侧独立材料",
+    "市政使用地图的决策记录",
+    "OSM 编辑量、更新频率、下载量、GeoNode 访问",
+    "Zuia Mafuriko 协作细节",
+    "世界银行/GFDRR 独立评估",
+    "2016 closing workshop 原文"
+  ],
+  "decisionsRequired": [
+    "纳入范围：M01–M17 全部纳入 / 剔除 M15 或 M17",
+    "M15 定位：交叉核对材料 / 背景",
+    "M17 定位：摘要级纳入 / 待全文",
+    "Mwanza 定位：扩散观察 / 核心过程",
+    "自报统计：进入事实层（reported_or_opinion）/ 仅背景"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false,
+    "note": "新增 C17 材料登记，不修改 C01–C16"
+  },
+  "researcherDecision": {
+    "action": "accept",
+    "rationale": "全部纳入，按推荐",
+    "modifiedContent": "M01–M17 全部纳入；M15 作交叉核对；M17 摘要级；Mwanza 作扩散观察；自报统计进事实层时标 reported_or_opinion",
+    "allowNextGate": true,
+    "decidedAt": "2026-11-13"
+  },
+  "frozenArtifacts": [],
+  "version": "v0.1",
+  "openIssues": [
+    "纳入范围",
+    "M15 定位",
+    "M17 定位",
+    "Mwanza 定位",
+    "自报统计处理"
+  ]
+}

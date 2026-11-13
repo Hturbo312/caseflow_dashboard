@@ -1,0 +1,454 @@
+{
+  "case_id": "C15",
+  "name": "上海市黄浦区五里桥街道春江小区数字化更新",
+  "name_en": "Digital Renewal of Chunjiang Community, Wuliqiao Subdistrict, Huangpu District, Shanghai",
+  "city": "中国/上海市黄浦区",
+  "period": "2021-02—2023-12（核心 2021-07—2023-09；2024-02 后续观察）",
+  "status": "frozen",
+  "version": "v1.0",
+  "generated_at": "2026-11-13",
+  "evidence_cutoff": "2026-11-13",
+  "scope": {
+    "core_space": "春江小区及其专属最小管理单元",
+    "excluded": [
+      "五里桥街道其他小区充电桩",
+      "瞿溪路商铺最小管理单元",
+      "南京大楼/田子坊等其他最小管理单元",
+      "2024-03 之后未检得运营材料"
+    ],
+    "research_questions": [
+      "数字系统如何进入老旧小区更新：政策试点、实体更新、物业与居民区治理三条线如何交汇",
+      "技术—能力—行动清单：部署了什么、提供什么能力、哪些进入日常使用",
+      "四单制如何运转：点单、派单、接单、评单与微网格角色",
+      "数字平台与传统自治：三会、自管队、业委会、物业、党总支的关系",
+      "更新效果与可持续性：响应、闭环、覆盖、老年人、数据治理、费用",
+      "案例定位：数字化是独立目标还是实体更新/物业/治理的工具"
+    ]
+  },
+  "counts": {
+    "materials": 9,
+    "evidence": 72,
+    "processes": 7,
+    "events": 29,
+    "entities": 109,
+    "facts": 58,
+    "relations": 122,
+    "native_concepts": 15,
+    "shared_concept_candidates": 5
+  },
+  "entities_by_type": {
+    "context": 5,
+    "actor": 30,
+    "task": 7,
+    "technology": 12,
+    "capability": 12,
+    "action": 20,
+    "target": 9,
+    "outcome": 14
+  },
+  "facts_by_status": {
+    "implemented": 52,
+    "reported_or_opinion": 6
+  },
+  "relations_by_status": {
+    "implemented": 107,
+    "reported_or_opinion": 15
+  },
+  "materials": [
+    {
+      "material_id": "M01",
+      "name": "爱申活暖心春｜新春“送大礼”！春江小区大变样",
+      "date": "2021-02-11",
+      "source_type": "official_media_street_material",
+      "link": "https://www.toutiao.com/article/6927843817118761485/"
+    },
+    {
+      "material_id": "M02",
+      "name": "上海数字治理“最小管理单元”二期创新成果发布",
+      "date": "2021-07-07",
+      "source_type": "central_media",
+      "link": "https://www.toutiao.com/article/6982179218981388813/"
+    },
+    {
+      "material_id": "M03",
+      "name": "上海数字治理“最小管理单元”二期创新成果发布：科技赋能超大城市精细治理",
+      "date": "2021-07-11",
+      "source_type": "city_media",
+      "link": "https://www.toutiao.com/article/6983584668968976932/"
+    },
+    {
+      "material_id": "M04",
+      "name": "五里桥街道：春江小区美丽家园及非机动车充电桩建设项目竣工",
+      "date": "2021-08-14",
+      "source_type": "official_media_street_material",
+      "link": "https://www.toutiao.com/article/6996224622689518116/"
+    },
+    {
+      "material_id": "M05",
+      "name": "光明日报聚焦春江小区：人民既是民主的参与者也是受益者",
+      "date": "2021-12-07",
+      "source_type": "official_media",
+      "link": "https://www.toutiao.com/article/7038854114771468813/"
+    },
+    {
+      "material_id": "M06",
+      "name": "遇见“停车难”，五里桥春江小区这样解决",
+      "date": "2023-03-07",
+      "source_type": "independent_media",
+      "link": "https://www.toutiao.com/article/7207742871892394548/"
+    },
+    {
+      "material_id": "M07",
+      "name": "从“一棵树”到小凉亭，春江小区有了“会客厅”！",
+      "date": "2023-08-31",
+      "source_type": "official_media_street_material",
+      "link": "https://www.toutiao.com/article/7273323597988004409/"
+    },
+    {
+      "material_id": "M08",
+      "name": "春江小区有了“四张清单”，“急难愁”上线“聊”！",
+      "date": "2023-09-23",
+      "source_type": "official_media_street_material",
+      "link": "https://www.toutiao.com/article/7281881851416150569/"
+    },
+    {
+      "material_id": "M09",
+      "name": "春江小区“格里厢”，悠享便利“屋里厢”",
+      "date": "2024-02-26",
+      "source_type": "official_media_street_material",
+      "link": "https://www.toutiao.com/article/7339755653772132918/"
+    }
+  ],
+  "processes": [
+    {
+      "process_id": "C15-P01",
+      "title": "老旧小区与自治更新前史",
+      "time_range": "2020—2021-02",
+      "events": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "process_id": "C15-P02",
+      "title": "政策窗口：最小管理单元二期扩展至居民小区",
+      "time_range": "2021-02—2021-07",
+      "events": [
+        "EV03",
+        "EV04",
+        "EV05",
+        "EV06"
+      ]
+    },
+    {
+      "process_id": "C15-P03",
+      "title": "春江智能场景试点与美丽家园一期并行",
+      "time_range": "2021-07—2021-12",
+      "events": [
+        "EV07",
+        "EV08",
+        "EV09",
+        "EV10",
+        "EV11",
+        "EV12"
+      ]
+    },
+    {
+      "process_id": "C15-P04",
+      "title": "美丽家园二期与施工期停车纾解",
+      "time_range": "2023-02—2023-03",
+      "events": [
+        "EV13",
+        "EV14",
+        "EV15"
+      ]
+    },
+    {
+      "process_id": "C15-P05",
+      "title": "春江小亭、自管队与公共空间更新",
+      "time_range": "2023年（报道时点前）—2023-09",
+      "events": [
+        "EV16",
+        "EV17",
+        "EV18"
+      ]
+    },
+    {
+      "process_id": "C15-P06",
+      "title": "智慧春江上线与四单制",
+      "time_range": "2023-05—2023-09",
+      "events": [
+        "EV19",
+        "EV20",
+        "EV21",
+        "EV22",
+        "EV23",
+        "EV24"
+      ]
+    },
+    {
+      "process_id": "C15-P07",
+      "title": "微网格、格里厢与春江数治网扩展",
+      "time_range": "2023-09—2024-02",
+      "events": [
+        "EV25",
+        "EV26",
+        "EV27",
+        "EV28",
+        "EV29"
+      ]
+    }
+  ],
+  "native_concepts": [
+    {
+      "native_concept_id": "NC-C15-01",
+      "label": "社区级最小管理单元",
+      "entity_type": "context",
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C15-02",
+      "label": "春江专属最小管理单元智慧应用系统",
+      "entity_type": "technology",
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C15-03",
+      "label": "智慧春江微信小程序",
+      "entity_type": "technology",
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C15-04",
+      "label": "四单制",
+      "entity_type": "action",
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C15-05",
+      "label": "四张清单",
+      "entity_type": "target",
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C15-06",
+      "label": "春江数治网",
+      "entity_type": "technology",
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C15-07",
+      "label": "春江微网格",
+      "entity_type": "actor",
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C15-08",
+      "label": "格里厢家门口党群服务站",
+      "entity_type": "actor",
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C15-09",
+      "label": "春江自管队",
+      "entity_type": "actor",
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C15-10",
+      "label": "春江小亭",
+      "entity_type": "target",
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C15-11",
+      "label": "美丽家园一期",
+      "entity_type": "task",
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C15-12",
+      "label": "三会征询",
+      "entity_type": "action",
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C15-13",
+      "label": "高空抛物监测告警",
+      "entity_type": "technology",
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C15-14",
+      "label": "养老数据精准匹配",
+      "entity_type": "capability",
+      "status": "candidate"
+    },
+    {
+      "native_concept_id": "NC-C15-15",
+      "label": "美丽家园二期",
+      "entity_type": "task",
+      "status": "candidate"
+    }
+  ],
+  "shared_concept_candidates": [
+    {
+      "candidate_id": "SC-C15-01",
+      "label": "社区级最小治理单元",
+      "definition": "以单个居民小区为对象、连接城运体系、街道、物业与居民的数字治理单元。",
+      "entity_type": "context",
+      "supporting_native_ids": [
+        "NC-C15-01",
+        "NC-C15-02"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case",
+      "note": "与 SC-C01-132 社区治理与行政平台部分相关，但不等同；需第二个案例支持。"
+    },
+    {
+      "candidate_id": "SC-C15-02",
+      "label": "居民端社区服务小程序",
+      "definition": "面向社区居民、承载诉求提交、服务入口和线上议事的轻量应用。",
+      "entity_type": "technology",
+      "supporting_native_ids": [
+        "NC-C15-03"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case",
+      "note": "与 SC-C01-131 数字参与与可视化工具部分相关，但春江更偏服务工单。"
+    },
+    {
+      "candidate_id": "SC-C15-03",
+      "label": "社区微网格治理单元",
+      "definition": "把单个小区或街区划分为微网格，并配置网格长、网格员、下沉力量和议事阵地的治理单元。",
+      "entity_type": "actor",
+      "supporting_native_ids": [
+        "NC-C15-07",
+        "NC-C15-08"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case",
+      "note": "现有共享概念无精确对应，需第二案例。"
+    },
+    {
+      "candidate_id": "SC-C15-04",
+      "label": "社区数字治理网络",
+      "definition": "把社区人、房、事、物、情数据与物业、安防、告警设备连接起来的社区级数字治理网络。",
+      "entity_type": "technology",
+      "supporting_native_ids": [
+        "NC-C15-06"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case",
+      "note": "与 SC-C01-132 社区治理与行政平台部分相关，但春江强调物业与传统治理结合。"
+    },
+    {
+      "candidate_id": "SC-C15-05",
+      "label": "社区诉求工单闭环",
+      "definition": "将居民诉求转化为点单、派单、接单、评单的工单流程，并形成核查、处置、反馈闭环。",
+      "entity_type": "action",
+      "supporting_native_ids": [
+        "NC-C15-04"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case",
+      "note": "与 SC-C01-156 问题核查与闭环处置、SC-C01-144 协同处置与任务流转能力高度相关，待 L2 映射。"
+    }
+  ],
+  "review_records": [
+    {
+      "gate": "G0",
+      "packet": "RP-C15-G0-v1.0",
+      "action": "accept",
+      "date": "2026-11-13"
+    },
+    {
+      "gate": "G1",
+      "packet": "RP-C15-G1-v1.0",
+      "action": "accept",
+      "date": "2026-11-13"
+    },
+    {
+      "gate": "G2",
+      "packet": "RP-C15-G2-v1.0",
+      "action": "accept",
+      "date": "2026-11-13"
+    },
+    {
+      "gate": "G3",
+      "packet": "RP-C15-G3-v1.0",
+      "action": "accept",
+      "date": "2026-11-13"
+    },
+    {
+      "gate": "G4",
+      "packet": "RP-C15-G4-v1.0",
+      "action": "accept",
+      "date": "2026-11-13"
+    },
+    {
+      "gate": "G5",
+      "packet": "RP-C15-G5-v1.0",
+      "action": "accept",
+      "date": "2026-11-13"
+    },
+    {
+      "gate": "G6",
+      "packet": "RP-C15-G6-v1.1",
+      "action": "accept",
+      "date": "2026-11-13"
+    }
+  ],
+  "open_questions": [
+    "2021 年“春江专属最小管理单元智慧应用系统”与 2023 年“智慧春江”小程序是否同一平台、升级关系或两套系统，材料未说明。",
+    "春江自治团队、春江自管队、春江微网格、格里厢、三会之间的正式组织关系未说明。",
+    "G06 同时指春江小巷和春江小亭；R009 实际只指小巷，目标粒度待拆分。",
+    "平台开发方、技术供应商、采购合同、运维费用与责任主体缺失。",
+    "工单总量、响应时长、闭环率、活跃用户、居民结构、使用频次缺失。",
+    "数据归属、隐私告知、留存期限、访问权限等数据治理材料缺失。",
+    "96% 解决率、122 项服务、118 项四张清单的统计口径与分母未说明。",
+    "2024-03 之后的运营、维护、平台迭代材料缺失。",
+    "2022 年过程完全缺失。",
+    "9 份材料的原发页尚未回溯，当前为转载副本。"
+  ],
+  "coding_notes": [
+    "F010（12 个城市智能体场景、58 家生态伙伴）保留为政策尺度的事实陈述，没有单独建立关系；作为 N05 政策事件的背景限定。",
+    "G06 同时指春江小巷和春江小亭；R009 实际只指小巷，目标粒度拆分留待后续版本。",
+    "9 份材料为转载副本，引文已在副本内逐字校验，原发页仍待回溯。"
+  ],
+  "handoff": {
+    "next_skill": "scalable-concept-framework",
+    "provide": [
+      "native entities",
+      "frozen relations",
+      "native concepts",
+      "shared concept candidates",
+      "evidence pointers",
+      "review records",
+      "open questions"
+    ],
+    "do_not_confirm": "本案例不确认正式共享概念；候选默认需第二个案例支持。"
+  },
+  "files": {
+    "scope": "case_scope.md",
+    "materials": "materials.md",
+    "evidence": "evidence.md",
+    "process": "process.md",
+    "entities": "entities.md",
+    "facts": "facts.md",
+    "relations": "relations.md",
+    "native_concepts": "native_concepts.md",
+    "review_log": "review/decision-log.md",
+    "g6_audit": "G6-audit.md"
+  }
+}

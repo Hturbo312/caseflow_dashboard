@@ -1,0 +1,962 @@
+{
+  "case_id": "C12",
+  "generated_at": "2026-11-13",
+  "status": "confirmed",
+  "facts": [
+    {
+      "fact_id": "F001",
+      "case_id": "C12",
+      "statement": "Eastserve 项目于 2000 年在 NDC/Beacons 与 WuC 资助框架下设立。",
+      "entity_roles": [
+        "A01:actor",
+        "A09:actor",
+        "A10:actor",
+        "A11:actor",
+        "X03:context",
+        "X04:context"
+      ],
+      "evidence_ids": [
+        "M10-E01"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2000",
+      "space_scope": "East Manchester",
+      "quantity_scope": "—",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F002",
+      "case_id": "C12",
+      "statement": "NDC 于 2000 年 11 月完成 Wired Up Communities 投标。",
+      "entity_roles": [
+        "A09:actor",
+        "A11:actor",
+        "X04:context"
+      ],
+      "evidence_ids": [
+        "M03-E02"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2000-11",
+      "space_scope": "East Manchester",
+      "quantity_scope": "—",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F003",
+      "case_id": "C12",
+      "statement": "Eastserve1 试点以 10 个社区接入点和约 450 户家庭联网为目标。",
+      "entity_roles": [
+        "A02:actor",
+        "T07:technology",
+        "G02:target"
+      ],
+      "evidence_ids": [
+        "M03-E02"
+      ],
+      "fact_status": "planned",
+      "time_scope": "2000–2001",
+      "space_scope": "Beswick/Clayton/Openshaw",
+      "quantity_scope": "10 access points; 450 homes",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F004",
+      "case_id": "C12",
+      "statement": "eastserve.com 于 2001-03-13 由电子政务部长 Ian McCartney 正式发布。",
+      "entity_roles": [
+        "A01:actor",
+        "A27:actor",
+        "T01:technology",
+        "N01:action"
+      ],
+      "evidence_ids": [
+        "M01-E01"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2001-03-13",
+      "space_scope": "East Manchester",
+      "quantity_scope": "—",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F005",
+      "case_id": "C12",
+      "statement": "eastserve.com 提供住房、就业、环境与警务服务，并可通过 PC 与电视访问。",
+      "entity_roles": [
+        "T01:technology",
+        "C03:capability",
+        "G01:target"
+      ],
+      "evidence_ids": [
+        "M01-E04"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2001",
+      "space_scope": "East Manchester",
+      "quantity_scope": "4 service areas; 2 device types",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F006",
+      "case_id": "C12",
+      "statement": "试点向居民提供低价电脑或免费机顶盒，并配减免价格的互联网接入。",
+      "entity_roles": [
+        "A02:actor",
+        "T03:technology",
+        "T05:technology",
+        "T06:technology",
+        "C01:capability",
+        "G02:target"
+      ],
+      "evidence_ids": [
+        "M01-E03"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2001",
+      "space_scope": "Beswick/Clayton/Openshaw",
+      "quantity_scope": "450 participants",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F007",
+      "case_id": "C12",
+      "statement": "到 2001 年 5 月初，试点已连接约 400 户。",
+      "entity_roles": [
+        "A02:actor",
+        "O01:outcome",
+        "G02:target"
+      ],
+      "evidence_ids": [
+        "M02-E08"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2001-05",
+      "space_scope": "Beswick/Clayton/Openshaw",
+      "quantity_scope": "~400 households",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F008",
+      "case_id": "C12",
+      "statement": "Phase 2 计划在 Beswick、Clayton、Openshaw 覆盖超过 4,500 户。",
+      "entity_roles": [
+        "A03:actor",
+        "G03:target"
+      ],
+      "evidence_ids": [
+        "M02-E01"
+      ],
+      "fact_status": "planned",
+      "time_scope": "2001–2003",
+      "space_scope": "Beswick/Clayton/Openshaw",
+      "quantity_scope": "4,500+ homes",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F009",
+      "case_id": "C12",
+      "statement": "Phase 2 计划让 2,500 名居民家中拥有 PC、4,500 名居民接受 ICT 培训。",
+      "entity_roles": [
+        "A03:actor",
+        "T06:technology",
+        "C04:capability",
+        "G03:target"
+      ],
+      "evidence_ids": [
+        "M02-E02"
+      ],
+      "fact_status": "planned",
+      "time_scope": "2001–2003",
+      "space_scope": "Beswick/Clayton/Openshaw",
+      "quantity_scope": "2,500 PCs; 4,500 trained",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F010",
+      "case_id": "C12",
+      "statement": "Phase 2 设备方案包括机顶盒、网络电脑、翻新 PC、新 PC 与少量移动设备，居民自付 0–200 英镑。",
+      "entity_roles": [
+        "A03:actor",
+        "T03:technology",
+        "T04:technology",
+        "T05:technology",
+        "T06:technology",
+        "C05:capability"
+      ],
+      "evidence_ids": [
+        "M02-E03"
+      ],
+      "fact_status": "planned",
+      "time_scope": "2001–2003",
+      "space_scope": "Beswick/Clayton/Openshaw",
+      "quantity_scope": "0–200 GBP contribution",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F011",
+      "case_id": "C12",
+      "statement": "Phase 2 计划建立四个社区学习中心，分别配置 15、15、15、10 台 PC。",
+      "entity_roles": [
+        "A03:actor",
+        "A25:actor",
+        "T06:technology",
+        "N12:action"
+      ],
+      "evidence_ids": [
+        "M02-E04"
+      ],
+      "fact_status": "planned",
+      "time_scope": "2001",
+      "space_scope": "Beswick/Clayton/Openshaw",
+      "quantity_scope": "4 centres; 55 PCs",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F012",
+      "case_id": "C12",
+      "statement": "每户至少一人需在领取设备前完成 3 小时培训，社区冠军提供一线支持。",
+      "entity_roles": [
+        "A03:actor",
+        "C04:capability",
+        "N03:action",
+        "A15:actor"
+      ],
+      "evidence_ids": [
+        "M02-E05"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2001–2002",
+      "space_scope": "East Manchester",
+      "quantity_scope": "3 hours; 1 person per household",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F013",
+      "case_id": "C12",
+      "statement": "Manchester City Council 通过 NDC 伙伴关系担任问责机构，指导小组包括居民、NEM、EAZ、MCC、Manchester 2002、DfES 与 GONW。",
+      "entity_roles": [
+        "A08:actor",
+        "A09:actor",
+        "A01:actor"
+      ],
+      "evidence_ids": [
+        "M02-E06"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2001",
+      "space_scope": "East Manchester",
+      "quantity_scope": "7 partner groups",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F014",
+      "case_id": "C12",
+      "statement": "入户按 Clayton、Openshaw、Beswick 三阶段推进。",
+      "entity_roles": [
+        "A03:actor",
+        "G01:target",
+        "N02:action"
+      ],
+      "evidence_ids": [
+        "M02-E07",
+        "M03-E05"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2001–2002",
+      "space_scope": "Beswick/Clayton/Openshaw",
+      "quantity_scope": "3 phases",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F015",
+      "case_id": "C12",
+      "statement": "设备组合因社区兴趣不足而收缩为新 PC/翻新 PC 两种选择。",
+      "entity_roles": [
+        "A03:actor",
+        "T05:technology",
+        "T06:technology"
+      ],
+      "evidence_ids": [
+        "M03-E08"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2002",
+      "space_scope": "East Manchester",
+      "quantity_scope": "2 device options",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F016",
+      "case_id": "C12",
+      "statement": "初始 ISP 倒闭后由 BT 替代。",
+      "entity_roles": [
+        "A19:actor",
+        "X02:context"
+      ],
+      "evidence_ids": [
+        "M03-E09"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2002",
+      "space_scope": "East Manchester",
+      "quantity_scope": "—",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F017",
+      "case_id": "C12",
+      "statement": "到 2002-09 约 2,200 户安装设备，低于原目标。",
+      "entity_roles": [
+        "A03:actor",
+        "O02:outcome",
+        "G01:target"
+      ],
+      "evidence_ids": [
+        "M03-E09",
+        "M03-E15"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2002-09",
+      "space_scope": "WUC area",
+      "quantity_scope": "~2,200 households",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F018",
+      "case_id": "C12",
+      "statement": "项目于 2002 年夏引入无线宽带，原因是缺乏 cable 覆盖且约四分之一家庭无固定电话。",
+      "entity_roles": [
+        "A03:actor",
+        "T02:technology",
+        "N04:action",
+        "X02:context"
+      ],
+      "evidence_ids": [
+        "M03-E10",
+        "M14-E04"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2002 summer",
+      "space_scope": "East Manchester",
+      "quantity_scope": "25% without landline",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F019",
+      "case_id": "C12",
+      "statement": "宽带定价为 15 英镑/月；低收入者 16 英镑/月（24/7）或 6 英镑/月（工作日 12:00–18:00）。",
+      "entity_roles": [
+        "A03:actor",
+        "T02:technology",
+        "C01:capability"
+      ],
+      "evidence_ids": [
+        "M03-E11"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2002–2003",
+      "space_scope": "East Manchester",
+      "quantity_scope": "15/16/6 GBP per month",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F020",
+      "case_id": "C12",
+      "statement": "到 2002-09 约 500 名居民接入宽带。",
+      "entity_roles": [
+        "A03:actor",
+        "O03:outcome",
+        "T02:technology"
+      ],
+      "evidence_ids": [
+        "M03-E11"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2002-09",
+      "space_scope": "East Manchester",
+      "quantity_scope": "~500 residents",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F021",
+      "case_id": "C12",
+      "statement": "约 2,500 名居民参加 3 小时课程；MANCAT 培训了 20 名社区冠军。",
+      "entity_roles": [
+        "A03:actor",
+        "C04:capability",
+        "A15:actor",
+        "A17:actor"
+      ],
+      "evidence_ids": [
+        "M03-E12"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2002–2003",
+      "space_scope": "East Manchester",
+      "quantity_scope": "~2,500 attendees; 20 champions",
+      "confidence": "medium",
+      "review": "candidate",
+      "note": "正文与摘要的 1,500 存在冲突"
+    },
+    {
+      "fact_id": "F022",
+      "case_id": "C12",
+      "statement": "门户第二版于 2002-02 上线，并引入住房报修与路灯故障报告。",
+      "entity_roles": [
+        "T01:technology",
+        "T10:technology",
+        "C03:capability"
+      ],
+      "evidence_ids": [
+        "M03-E13"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2002-02",
+      "space_scope": "East Manchester",
+      "quantity_scope": "2 reporting services",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F023",
+      "case_id": "C12",
+      "statement": "六个月随访调查显示：77.5% 使用者上网、78.4% 接受培训、50.6% 用互联网找劳动力市场信息、19.3% 联系社区组织。",
+      "entity_roles": [
+        "A03:actor",
+        "C01:capability",
+        "C04:capability"
+      ],
+      "evidence_ids": [
+        "M03-E14"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2003-01",
+      "space_scope": "East Manchester",
+      "quantity_scope": "n=111 follow-up",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F024",
+      "case_id": "C12",
+      "statement": "Wired Up Communities 计划于 2003 年 3 月结束。",
+      "entity_roles": [
+        "A11:actor",
+        "X04:context"
+      ],
+      "evidence_ids": [
+        "M06-E01"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2003-03",
+      "space_scope": "UK",
+      "quantity_scope": "—",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F025",
+      "case_id": "C12",
+      "statement": "2004 年报道称超过 3,500 户获得互联网接入，另有 17 所学校与 8 个在线中心。",
+      "entity_roles": [
+        "A01:actor",
+        "A24:target",
+        "A25:target",
+        "G01:target"
+      ],
+      "evidence_ids": [
+        "M07-E01"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2004-08",
+      "space_scope": "East Manchester",
+      "quantity_scope": "3,500+ homes; 17 schools; 8 centres",
+      "confidence": "medium-high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F026",
+      "case_id": "C12",
+      "statement": "2004 年报道称超过 55% 的社区居民已联网。",
+      "entity_roles": [
+        "A01:actor",
+        "C01:capability"
+      ],
+      "evidence_ids": [
+        "M07-E07"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2004-08",
+      "space_scope": "East Manchester",
+      "quantity_scope": "55%+",
+      "confidence": "medium",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F027",
+      "case_id": "C12",
+      "statement": "2005 年论文称无线网络覆盖 9,000 户，约 3,500 台 PC 由居民以补贴价购买，当时约 1,250 名用户。",
+      "entity_roles": [
+        "A01:actor",
+        "T02:technology",
+        "T06:technology",
+        "C02:capability"
+      ],
+      "evidence_ids": [
+        "M09-E01"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2005-06",
+      "space_scope": "East Manchester",
+      "quantity_scope": "9,000 households; 3,500 PCs; 1,250 users",
+      "confidence": "medium-high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F028",
+      "case_id": "C12",
+      "statement": "2006 年项目称已提供约 3,500 台 PC、连接 1,500 户宽带。",
+      "entity_roles": [
+        "A01:actor",
+        "T06:technology",
+        "T02:technology",
+        "O04:outcome"
+      ],
+      "evidence_ids": [
+        "M10-E04"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2006-02",
+      "space_scope": "East Manchester",
+      "quantity_scope": "3,500 PCs; 1,500 broadband households",
+      "confidence": "medium-high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F029",
+      "case_id": "C12",
+      "statement": "2006-12 学术章节称累计超过 5,500 个 PC 套餐、超过 2,000 名常规宽带用户。",
+      "entity_roles": [
+        "A01:actor",
+        "T06:technology",
+        "O05:outcome"
+      ],
+      "evidence_ids": [
+        "M14-E05"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2006-12",
+      "space_scope": "East Manchester",
+      "quantity_scope": "5,500 packages; 2,000 regular users",
+      "confidence": "medium",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F030",
+      "case_id": "C12",
+      "statement": "项目建立了 9 个 ICT Learning Centres。",
+      "entity_roles": [
+        "A01:actor",
+        "A25:target",
+        "C04:capability",
+        "N12:action"
+      ],
+      "evidence_ids": [
+        "M14-E03"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2004–2006",
+      "space_scope": "East Manchester",
+      "quantity_scope": "9 centres",
+      "confidence": "medium-high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F031",
+      "case_id": "C12",
+      "statement": "2006 年杂志称超过 3,500 名居民参加过 Eastserve 课程。",
+      "entity_roles": [
+        "A01:actor",
+        "C04:capability",
+        "O06:outcome"
+      ],
+      "evidence_ids": [
+        "M18-E05"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2006",
+      "space_scope": "East Manchester",
+      "quantity_scope": "3,500+ attendees",
+      "confidence": "medium",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F032",
+      "case_id": "C12",
+      "statement": "门户在 9 个月内收到 650 多份匿名低层级犯罪报告。",
+      "entity_roles": [
+        "T01:technology",
+        "T10:technology",
+        "O07:outcome"
+      ],
+      "evidence_ids": [
+        "M18-E07"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2006",
+      "space_scope": "East Manchester",
+      "quantity_scope": "650+ reports / 9 months",
+      "confidence": "medium",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F033",
+      "case_id": "C12",
+      "statement": "项目经理 Athol Few 表示无线网络启动时很创新，但“技术此后已经追上我们”，现在真正的创新是整套服务包。",
+      "entity_roles": [
+        "A01:actor",
+        "T02:technology",
+        "X05:context"
+      ],
+      "evidence_ids": [
+        "M18-E06"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2006",
+      "space_scope": "East Manchester",
+      "quantity_scope": "—",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F034",
+      "case_id": "C12",
+      "statement": "第三期获 NWDA 资助，目标是到 2007 年成为自我维持的企业。",
+      "entity_roles": [
+        "A21:actor",
+        "A01:actor",
+        "K04:task"
+      ],
+      "evidence_ids": [
+        "M10-E08"
+      ],
+      "fact_status": "planned",
+      "time_scope": "2006–2007",
+      "space_scope": "East Manchester",
+      "quantity_scope": "—",
+      "confidence": "medium",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F035",
+      "case_id": "C12",
+      "statement": "2008 年 10 月，MCIN 已接管 eastserve.com 的网站管理。",
+      "entity_roles": [
+        "A13:actor",
+        "T01:technology",
+        "N11:action"
+      ],
+      "evidence_ids": [
+        "M17-E01"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2008-10",
+      "space_scope": "East Manchester",
+      "quantity_scope": "—",
+      "confidence": "medium",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F036",
+      "case_id": "C12",
+      "statement": "2009 年，New East Manchester 与 Manchester City Council 签约 Symera Technologies 作为私营伙伴运营 Eastserve。",
+      "entity_roles": [
+        "A04:actor",
+        "A08:actor",
+        "A09:actor",
+        "N07:action"
+      ],
+      "evidence_ids": [
+        "M11-E01"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2009",
+      "space_scope": "East Manchester",
+      "quantity_scope": "—",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F037",
+      "case_id": "C12",
+      "statement": "约 2009 年报道称超过 5,500 名居民获得补贴电脑并参加培训，Eastserve 有超过 1,500 名付费宽带用户。",
+      "entity_roles": [
+        "A04:actor",
+        "C01:capability",
+        "C05:capability",
+        "O11:outcome"
+      ],
+      "evidence_ids": [
+        "M11-E02"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "c.2009",
+      "space_scope": "East Manchester",
+      "quantity_scope": "5,500 residents; 1,500 paying users",
+      "confidence": "medium",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F038",
+      "case_id": "C12",
+      "statement": "2010 年 7 月，Symera Eastserve 推出预付费 Wi-Fi，价格为 1 英镑/天、5 英镑/周，并计划年底覆盖整个 East Manchester。",
+      "entity_roles": [
+        "A04:actor",
+        "T09:technology",
+        "N08:action"
+      ],
+      "evidence_ids": [
+        "M13-E01",
+        "M13-E02"
+      ],
+      "fact_status": "planned",
+      "time_scope": "2010-07",
+      "space_scope": "East Manchester",
+      "quantity_scope": "1 GBP/day; 5 GBP/week; coverage by end-2010",
+      "confidence": "medium",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F039",
+      "case_id": "C12",
+      "statement": "NDC 计划于 2010 年 3 月底结束。",
+      "entity_roles": [
+        "A09:actor",
+        "X03:context"
+      ],
+      "evidence_ids": [
+        "M16-E01"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2010-03",
+      "space_scope": "East Manchester",
+      "quantity_scope": "GBP 77m programme",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F040",
+      "case_id": "C12",
+      "statement": "Symera Eastserve Ltd 于 2010-11-19 进入债权人自愿清算。",
+      "entity_roles": [
+        "A04:actor",
+        "A22:actor",
+        "O08:outcome",
+        "N09:action"
+      ],
+      "evidence_ids": [
+        "M19-E01"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2010-11-19",
+      "space_scope": "UK",
+      "quantity_scope": "—",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F041",
+      "case_id": "C12",
+      "statement": "CityServe (999) Ltd 于 2010-10-12 注册，2011-07-28 进入债权人自愿清算，2013-08-30 解散。",
+      "entity_roles": [
+        "A05:actor",
+        "A22:actor",
+        "O08:outcome",
+        "N09:action"
+      ],
+      "evidence_ids": [
+        "M22-E01",
+        "M23-E01"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2010-10-12 to 2013-08-30",
+      "space_scope": "UK",
+      "quantity_scope": "—",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F042",
+      "case_id": "C12",
+      "statement": "2014 年 7 月，ITS Technology 收购 CityServe Limited 70% 以上股权。",
+      "entity_roles": [
+        "A07:actor",
+        "A06:actor",
+        "N10:action"
+      ],
+      "evidence_ids": [
+        "M21-E01"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2014-07",
+      "space_scope": "East Manchester",
+      "quantity_scope": "70%+ shareholding",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F043",
+      "case_id": "C12",
+      "statement": "2014 年 8 月，ITS 将网络升级至 36Mbps，覆盖 25km²、48,000 户、3,000 个邮编。",
+      "entity_roles": [
+        "A07:actor",
+        "T08:technology",
+        "C08:capability",
+        "C02:capability",
+        "G04:target",
+        "O09:outcome"
+      ],
+      "evidence_ids": [
+        "M20-E01"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2014-08",
+      "space_scope": "25km² East Manchester",
+      "quantity_scope": "36Mbps; 48,000 homes; 3,000 postcodes",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F044",
+      "case_id": "C12",
+      "statement": "2016-04 的 eastserve.com 页面已转为 Cityserve 品牌，并提供 hotspot 与 PC 维修服务。",
+      "entity_roles": [
+        "A06:actor",
+        "T01:technology",
+        "T09:technology",
+        "O10:outcome"
+      ],
+      "evidence_ids": [
+        "M15-E01",
+        "M15-E02"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2016-04",
+      "space_scope": "East Manchester",
+      "quantity_scope": "3 hotspot tariffs",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F045",
+      "case_id": "C12",
+      "statement": "Symera Eastserve Ltd 于 2017-02-28 正式解散。",
+      "entity_roles": [
+        "A04:actor",
+        "O08:outcome"
+      ],
+      "evidence_ids": [
+        "M12-E01"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2017-02-28",
+      "space_scope": "UK",
+      "quantity_scope": "—",
+      "confidence": "high",
+      "review": "candidate",
+      "note": ""
+    },
+    {
+      "fact_id": "F046",
+      "case_id": "C12",
+      "statement": "Eastserve 品牌/服务的正式终止日期未确认；2016 年品牌转 Cityserve、2017 年壳公司解散不等于服务终止。",
+      "entity_roles": [
+        "A01:actor",
+        "A06:actor"
+      ],
+      "evidence_ids": [
+        "M12-E01",
+        "M15-E01",
+        "M20-E01"
+      ],
+      "fact_status": "unconfirmed",
+      "time_scope": "2016–2017",
+      "space_scope": "East Manchester",
+      "quantity_scope": "—",
+      "confidence": "low",
+      "review": "candidate",
+      "note": ""
+    }
+  ],
+  "version": "v1.0",
+  "researcher_decision": {
+    "action": "accept_all",
+    "rationale": "Accept entity registry and atomic fact granularity/statuses; confirm A01-A06 separation and F046 unconfirmed.",
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "case_id": "C16",
+  "framework": "scalable-concept-framework",
+  "gate": "G1",
+  "version": "v0.1",
+  "status": "candidate_pending_researcher",
+  "generated_at": "2026-11-13",
+  "existing_layer": {
+    "shared_concepts": 45,
+    "shared_concepts_c01_c11_candidates": 43,
+    "shared_concepts_c12_published": 2,
+    "mappings": 743,
+    "native_concepts": 736,
+    "versions": ["L2-C01-C11-shared-v0.2", "L2-C12-shared-v1.0"]
+  },
+  "concepts": [
+    {
+      "native_concept_id": "NC-C16-01",
+      "case_id": "C16",
+      "label": "社区组织锚点",
+      "entity_type": "actor",
+      "definition": "以一个长期在地、具有社区信任与组织能力的非营利机构，作为网络发起、协调、灾时动员与对外合作的锚点。",
+      "examples": ["RHI 发起 Red Hook WiFi", "Sandy 期间维持 RHI 据点", "2019 年前运营网络"],
+      "source_relation_ids": ["R001", "R008", "R027", "R106"],
+      "frequency": 4,
+      "boundary_issue": "RHI 是具体组织，不是社区或居民集体；锚点不等同于一般运营主体。",
+      "preliminary_matches": [
+        {"shared_concept_id": "SC-C01-114", "shared_concept_label": "地方组织与运营主体", "mapping_hint": "native_hyponym", "basis": "社区组织是地方组织/运营主体的下位"}
+      ]
+    },
+    {
+      "native_concept_id": "NC-C16-02",
+      "case_id": "C16",
+      "label": "本地数字管家",
+      "entity_type": "actor",
+      "definition": "从本地青年中招募并培训，承担网络安装、维护、推广与社区技术支持的角色群体。",
+      "examples": ["Red Hook Digital Stewards", "Robert Smith 从学员到系统管理员", "2017 年 8 个月带薪培训"],
+      "source_relation_ids": ["R040", "R042", "R043", "R050", "R051", "R068"],
+      "frequency": 6,
+      "boundary_issue": "是受训本地青年群体/角色，不是培训课程或外部工程团队。",
+      "preliminary_matches": []
+    },
+    {
+      "native_concept_id": "NC-C16-03",
+      "case_id": "C16",
+      "label": "断网本地通信",
+      "entity_type": "capability",
+      "definition": "网络在没有互联网上行时，仍能提供社区内部网页、留言、地图与本地服务的能力。",
+      "examples": ["GuruPlug 本地服务器", "Tidepools 本地运行", "Commotion 去中心化 mesh"],
+      "source_relation_ids": ["R016", "R019", "R049"],
+      "frequency": 3,
+      "boundary_issue": "是技术能力，不等于居民实际使用；与通信基础设施层级不同。",
+      "preliminary_matches": [
+        {"shared_concept_id": "SC-C01-143", "shared_concept_label": "信息服务与空间分析能力", "mapping_hint": "partial_or_approximate", "basis": "仅覆盖信息服务成分，不覆盖断网运行"}
+      ]
+    },
+    {
+      "native_concept_id": "NC-C16-04",
+      "case_id": "C16",
+      "label": "社区 mesh 网络",
+      "entity_type": "technology",
+      "definition": "由社区组织发起、在屋顶与建筑间逐跳连接、可逐步扩展的无线 mesh 网络。",
+      "examples": ["RHI 屋顶首节点", "Coffey Park 第二节点", "约 20 站点扩张"],
+      "source_relation_ids": ["R009", "R014", "R017", "R044", "R056"],
+      "frequency": 5,
+      "boundary_issue": "是社区组织发起的无线 mesh，不等同于商业 ISP 网络或全市 mesh。",
+      "preliminary_matches": [
+        {"shared_concept_id": "SC-C01-134", "shared_concept_label": "通信与公共数字基础设施", "mapping_hint": "native_hyponym", "basis": "社区 mesh 是通信基础设施的下位"}
+      ]
+    },
+    {
+      "native_concept_id": "NC-C16-05",
+      "case_id": "C16",
+      "label": "灾时通信据点",
+      "entity_type": "outcome",
+      "definition": "灾害导致停电与通信中断时，由社区组织场地与本地网络形成的集中联网、充电与信息交换据点。",
+      "examples": ["Sandy 期间 RHI 成为居民充电、取暖、报平安的据点"],
+      "source_relation_ids": ["R027", "R028", "R029"],
+      "frequency": 3,
+      "boundary_issue": "是灾害情境下的临时集中状态，不是日常服务；不表示整个网络完整幸存。",
+      "preliminary_matches": []
+    },
+    {
+      "native_concept_id": "NC-C16-06",
+      "case_id": "C16",
+      "label": "商户宿主网络",
+      "entity_type": "action",
+      "definition": "以本地商户与机构的屋顶/店内空间承载网关与接入点，把网络扩展到商业街廊的组织方式。",
+      "examples": ["灾后汽修店设点", "2017 年 38 家商户宿主", "2020 年商户撤点"],
+      "source_relation_ids": ["R039", "R059", "R061", "R070", "R092"],
+      "frequency": 5,
+      "boundary_issue": "是商户/机构作为宿主的组织安排，不是商户组织本身，也不是单纯设备安装。",
+      "preliminary_matches": [
+        {"shared_concept_id": "SC-C01-155", "shared_concept_label": "跨组织协作与信息协调", "mapping_hint": "partial_or_approximate", "basis": "仅覆盖跨组织合作成分"},
+        {"shared_concept_id": "SC-C01-157", "shared_concept_label": "空间设施施工与实体更新", "mapping_hint": "partial_or_approximate", "basis": "仅覆盖屋顶安装成分"}
+      ]
+    },
+    {
+      "native_concept_id": "NC-C16-07",
+      "case_id": "C16",
+      "label": "一次性资助后的维护断层",
+      "entity_type": "outcome",
+      "definition": "一次性项目资助支持网络扩张与人员培训，但未形成长期维护资金与责任结构，导致资助结束后维护能力与覆盖收缩。",
+      "examples": ["RISE:NYC 资助结束", "2019 年移交 Sky Packets", "2023 年约 10 个活跃站点"],
+      "source_relation_ids": ["R055", "R065", "R067", "R110"],
+      "frequency": 4,
+      "boundary_issue": "是结果模式，含资助结束—维护不足—覆盖收缩链条；不写单一因果。",
+      "preliminary_matches": [
+        {"shared_concept_id": "SC-C01-175", "shared_concept_label": "实施风险与负面结果", "mapping_hint": "native_hyponym", "basis": "维护断层是负面结果的下位类型"}
+      ]
+    },
+    {
+      "native_concept_id": "NC-C16-08",
+      "case_id": "C16",
+      "label": "户外覆盖替代室内接入",
+      "entity_type": "outcome",
+      "definition": "网络在公共户外空间提供可用覆盖，但未能进入公共住宅室内；户外覆盖反而使该住宅区在市政宽带项目排序中靠后。",
+      "examples": ["Red Hook Houses 长期未接入", "2022 年未进入 Big Apple Connect 首期"],
+      "source_relation_ids": ["R071", "R073", "R077", "R108"],
+      "frequency": 4,
+      "boundary_issue": "是覆盖与政策排序共同形成的状态，不是网络服务了 Houses 的正向结果。",
+      "preliminary_matches": [
+        {"shared_concept_id": "SC-C01-175", "shared_concept_label": "实施风险与负面结果", "mapping_hint": "partial_or_approximate", "basis": "仅覆盖未实现室内接入的负向结果"}
+      ]
+    },
+    {
+      "native_concept_id": "NC-C16-09",
+      "case_id": "C16",
+      "label": "环境传感复用",
+      "entity_type": "action",
+      "definition": "把社区网络复用于温室温度、停电告警与空气质量监测，使通信基础设施承担环境感知功能。",
+      "examples": ["Red Hook Farms 温度传感器", "空气质量监测接入全国地图"],
+      "source_relation_ids": ["R078", "R079", "R080", "R081", "R093"],
+      "frequency": 5,
+      "boundary_issue": "是核心期后的新用途，不是网络原有目标；是复用而非新建传感系统。",
+      "preliminary_matches": [
+        {"shared_concept_id": "SC-C01-142", "shared_concept_label": "数据监测与环境诊断能力", "mapping_hint": "partial_or_approximate", "basis": "仅覆盖环境监测能力成分"},
+        {"shared_concept_id": "SC-C01-133", "shared_concept_label": "传感监测与异常识别设备", "mapping_hint": "partial_or_approximate", "basis": "仅覆盖传感设备成分"}
+      ]
+    }
+  ],
+  "proposed_supplements": [
+    {
+      "proposed_id": "PC-C16-01",
+      "label": "公共住宅准入壁垒",
+      "entity_type": "context",
+      "definition": "公共住宅管理机构对屋顶/室内设点拥有决定权，并要求社区组织自付成本，构成网络进入住宅区的制度门槛。",
+      "source_relation_ids": ["R045", "R062", "R100"],
+      "preliminary_match": "SC-C01-102",
+      "mapping_hint": "native_hyponym",
+      "status": "proposed_not_in_case_pack"
+    },
+    {
+      "proposed_id": "PC-C16-02",
+      "label": "市政宽带项目替代",
+      "entity_type": "action",
+      "definition": "市级政府以新的公共宽带计划替代原有社区网络扩展安排，改变社区网络的覆盖优先级。",
+      "source_relation_ids": ["R074", "R075", "R108"],
+      "preliminary_match": "SC-C01-174",
+      "mapping_hint": "partial_or_approximate",
+      "status": "proposed_not_in_case_pack"
+    }
+  ],
+  "shared_concepts_confirmed": 0,
+  "note": "本轮不修改既有共享概念与历史映射；所有映射仅为初步提示。"
+}

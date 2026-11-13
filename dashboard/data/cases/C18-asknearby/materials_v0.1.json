@@ -1,0 +1,157 @@
+{
+  "caseId": "C18",
+  "version": "v0.1",
+  "status": "candidate_pending_researcher",
+  "registeredAt": "2026-11-13",
+  "evidenceCutoff": "2026-11-13",
+  "summary": {
+    "materials": 7,
+    "fullTextReadable": 7,
+    "metadataOnly": 0,
+    "sourceClusters": 3
+  },
+  "materials": [
+    {
+      "materialId": "M01",
+      "name": "大语言模型助力社区生活圈规划与治理研究",
+      "sourceType": "academic_article",
+      "authorOrOrg": "张文佳、李博洋、黄诺贤、王雨润、武钰林、牛璐瑶；《上海城市规划》",
+      "date": "2025年第3期",
+      "link": "https://www.shplanning.com.cn/archive/download/id/1467.html",
+      "scope": "AskNearby 技术框架、两处深圳试点、作者报告的使用与效果、研究局限",
+      "reliability": "medium-high",
+      "verificationStatus": "verified_text_pdf",
+      "localFile": "materials/M01_zhangwenjia_2025_llm-community-life-circle.pdf",
+      "extractedText": "materials/M01_extracted.txt",
+      "notes": "同行评议期刊论文；8页；试点效果为作者自报。DOI: 10.11982/j.supr.20250302"
+    },
+    {
+      "materialId": "M02",
+      "name": "汇高校“后浪”，焕党群“新颜”，桃源街道校社联动共筑活力“WE社区”",
+      "sourceType": "mainstream_media_event_report",
+      "authorOrOrg": "南方+；刘倩希、吴可",
+      "date": "2025-10-30",
+      "link": "https://static.nfnews.com/content/202510/29/c11862721.html",
+      "scope": "2025-10-27 大学城社区党群服务中心启用与开放日；AskNearby 小程序用于线上打卡、分享体验",
+      "reliability": "medium-high",
+      "verificationStatus": "verified_text",
+      "localFile": "materials/M02_nfnews_20251030.html",
+      "extractedText": "materials/M02_extracted.txt",
+      "notes": "主流媒体报道；可能基于活动通稿。与 M03 同事件。"
+    },
+    {
+      "materialId": "M03",
+      "name": "高校“后浪”涌入！桃源街道解锁党群新貌，焕活“WE社区”",
+      "sourceType": "local_media_event_report",
+      "authorOrOrg": "蛇口消息报；吴可",
+      "date": "2025-10-28",
+      "link": "https://m.toutiao.com/article/7566227558790873609/",
+      "scope": "同一校社活动；北京大学方元问问团队参与“社区主理人”；小程序用于线上打卡、分享",
+      "reliability": "medium",
+      "verificationStatus": "verified_text",
+      "localFile": "materials/M03_shekou_20251028.html",
+      "extractedText": "materials/M03_extracted.txt",
+      "notes": "与 M02 文本高度相近，不能当作独立观察次数。"
+    },
+    {
+      "materialId": "M04",
+      "name": "深圳：“无界桃源”催生“创新雨林”",
+      "sourceType": "feature_repost",
+      "authorOrOrg": "中国新闻周刊（创新南山转载）；未署个人作者",
+      "date": "2025-11-13（转载）",
+      "link": "https://m.toutiao.com/article/7572015519453299235/",
+      "scope": "桃源街道校社融合与治理；引用邓稚澄介绍 AskNearby 已用于社区开放日",
+      "reliability": "medium-high",
+      "verificationStatus": "verified_text",
+      "localFile": "materials/M04_chuangxin_nanshan_20251113.html",
+      "extractedText": "materials/M04_extracted.txt",
+      "notes": "文末标注“来源｜中国新闻周刊”；原始发表日期待核。"
+    },
+    {
+      "materialId": "M05",
+      "name": "南山区第七届大学生社会创新项目大赛决赛举行，18个项目获奖",
+      "sourceType": "local_media_award_report",
+      "authorOrOrg": "深圳商报·读创；张国锋，通讯员谭逸丹、岑雨彤、方俊鹏",
+      "date": "2024-11-12",
+      "link": "https://appdetail.netwin.cn/web/2024/11/e6dddee573a6070c42e4ea9420fb82ad.html",
+      "scope": "AskNearby“大模型连接小社区”获赛道金奖；项目团队负责人表态；大赛与资助背景",
+      "reliability": "medium-high",
+      "verificationStatus": "verified_text",
+      "localFile": "materials/M05_szsb_20241112.html",
+      "extractedText": "materials/M05_extracted.txt",
+      "notes": "确认项目在 2024-11 以该名称参赛并获奖；不证明技术效果。"
+    },
+    {
+      "materialId": "M06",
+      "name": "“益创星”南山区大学生社会创新大赛在深举行",
+      "sourceType": "news_agency_award_report",
+      "authorOrOrg": "中新网广东；陈文、谭逸丹",
+      "date": "2024-11-13",
+      "link": "https://www.gd.chinanews.com/2024/2024-11-13/438141.shtml",
+      "scope": "AskNearby“大模型连接小社区”获赛道金奖；获奖项目获慈善信托落地扶持金",
+      "reliability": "medium-high",
+      "verificationStatus": "verified_text",
+      "localFile": "materials/M06_chinanews_gd_20241113.html",
+      "extractedText": "materials/M06_extracted.txt",
+      "notes": "与 M05 同一赛事，文本可能同源。"
+    },
+    {
+      "materialId": "M07",
+      "name": "架构设计到“支持青年创新创业”慈善心愿落地，汉正提供全程陪伴",
+      "sourceType": "institutional_promotion",
+      "authorOrOrg": "汉正家族办公室（搜狐号）；未署个人作者",
+      "date": "2024-11-13",
+      "link": "https://m.sohu.com/a/826492677_100244361/",
+      "scope": "舒琦青创领航特别奖；AskNearby 与另一项目合计获 20 万元落地资助金",
+      "reliability": "low-medium",
+      "verificationStatus": "verified_text",
+      "localFile": "materials/M07_sohu_hanzheng_20241113.html",
+      "extractedText": "materials/M07_extracted.txt",
+      "notes": "机构宣传材料；20万元为两个项目合计，不可写成 AskNearby 独得；受资助项目组合与M05/M06不完全一致。"
+    }
+  ],
+  "sourceClusters": [
+    {
+      "clusterId": "CL-01",
+      "label": "学术论文",
+      "materials": ["M01"],
+      "note": "平台设计、试点与效果报告的主材料"
+    },
+    {
+      "clusterId": "CL-02",
+      "label": "2025校社活动报道",
+      "materials": ["M02", "M03", "M04"],
+      "note": "同一开放日事件；M02/M03 文本近似，M04 为后续转载"
+    },
+    {
+      "clusterId": "CL-03",
+      "label": "2024获奖与资助",
+      "materials": ["M05", "M06", "M07"],
+      "note": "同一赛事及资助背景；奖项与金额分记"
+    }
+  ],
+  "rejected": [
+    {
+      "source": "深圳政府在线“重点聚焦养老服务”搜索卡",
+      "reason": "未取得正文；与M05/M06同一赛事",
+      "handling": "不单列"
+    },
+    {
+      "source": "中国新闻周刊2025-11-01检索卡",
+      "reason": "仅有摘要；M04已提供转载全文",
+      "handling": "不单列"
+    },
+    {
+      "source": "2026年桃源街道其他“无界桃源”报道",
+      "reason": "未出现AskNearby",
+      "handling": "排除"
+    }
+  ],
+  "openIssues": [
+    "APP与小程序是否为同一客户端/技术版本",
+    "项目名与平台名的关系",
+    "20万元资助的项目分配口径与受资助项目组合",
+    "南头古城试点的独立材料",
+    "2025-11之后的持续运行证据"
+  ]
+}

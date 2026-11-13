@@ -1,0 +1,30 @@
+{
+  "packet_id": "RP-C15-G0-v1.0",
+  "skill": "case-knowledge-construction",
+  "gate": "G0",
+  "case_id": "C15",
+  "status": "confirmed",
+  "generated_at": "2026-11-13",
+  "researcher_decision": {
+    "action": "accept",
+    "rationale": "Confirm the G0 boundary and recommended options: time, space, thematic structure, treatment of adjacent items, and research questions.",
+    "modified_content": {
+      "time_boundary": "2021-02-2023-12",
+      "core_implementation": "2021-07-2023-09",
+      "prehistory": "2020 and earlier",
+      "core_space": "Chunjiang Community and its dedicated Minimum Management Unit",
+      "digital_renewal_role": "primary case; Beautiful Homeland phases I-II embedded",
+      "adjacent_items": "Hengfeng Bank parking and Building 8 elevator as background only",
+      "research_questions": 6,
+      "sub_questions": ["data governance and privacy", "older adults and digital divide"]
+    },
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  },
+  "frozen_outputs": ["case_scope.md@v1.0", "case_scope_v0.1.md", "decision-log.md#1"],
+  "open_items": [
+    "Operations and platform iteration materials from 2023-10 to 2026-11",
+    "Organizational and technical boundary of the dedicated Minimum Management Unit",
+    "Whether 'four lists' and 'four orders' refer to the same mechanism"
+  ]
+}

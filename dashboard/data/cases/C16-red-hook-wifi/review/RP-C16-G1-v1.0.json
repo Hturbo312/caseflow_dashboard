@@ -1,0 +1,22 @@
+{
+  "packetId": "RP-C16-G1-v1.0",
+  "supersedes": "RP-C16-G1-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G1",
+  "caseId": "C16",
+  "decidedAt": "2026-11-13",
+  "researcherDecision": {
+    "action": "accept",
+    "rationale": "G1 按推荐通过",
+    "modifiedContent": null,
+    "allowNextGate": true
+  },
+  "frozenArtifacts": ["materials.md v1.0", "materials.json v1.0", "RP-C16-G1-v1.0"],
+  "changes": [],
+  "openIssues": [
+    "RISE:NYC 单项金额仅单一来源",
+    "NYT 2014 全文缺失",
+    "2011–2012 项目原始文件缺失",
+    "2018–2023 节点与访问数据缺失"
+  ]
+}

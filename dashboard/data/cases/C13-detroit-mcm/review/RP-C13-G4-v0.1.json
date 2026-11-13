@@ -1,0 +1,40 @@
+{
+  "packetId": "RP-C13-G4-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G4",
+  "caseId": "C13",
+  "scope": "Motor City Mapping 原子事实、实体与语义角色",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher",
+  "factCount": 58,
+  "entityCount": 75,
+  "statusBreakdown": {
+    "implemented": 49,
+    "planned": 5,
+    "reported_or_opinion": 4,
+    "disputed": 0,
+    "unconfirmed": 0
+  },
+  "conflicts": [
+    {"topic": "地块总数", "facts": ["F019", "F020"], "handling": "并列380,233与380,217"},
+    {"topic": "小组规模", "facts": ["F017", "F020"], "handling": "两人/三人并列"},
+    {"topic": "人数", "facts": ["F011", "F014"], "handling": "150人/200人分角色"}
+  ],
+  "gaps": ["2016-2017年事实", "平板捐赠执行", "People's Property Dashboard上线形态"],
+  "decisionsRequired": [
+    "58条事实与75个实体",
+    "F025合并粒度",
+    "数值对象是否实体化",
+    "150名居民与75个调查组是否分开",
+    "计划/观点状态的判定"
+  ],
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": null,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "version": "v0.1"
+}

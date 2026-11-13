@@ -1,0 +1,1478 @@
+{
+ "caseId": "C17",
+  "version": "v1.0",
+  "status": "confirmed",
+ "generatedAt": "2026-11-13",
+ "total": 78,
+ "facts": [
+  {
+   "id": "F001",
+   "statement": "2011 年，HOT 与 Tandale 社区成员、学生在 Tandale ward 开展 Ramani Tandale 社区制图试点。",
+   "entityRoles": [
+    "E-A01:actor",
+    "E-A24:actor",
+    "E-A23:actor",
+    "E-P01:action"
+   ],
+   "evidenceIds": [
+    "M01-E06",
+    "M14-E02"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2011",
+   "spaceScope": "Tandale ward",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": "项目前史"
+  },
+  {
+   "id": "F002",
+   "statement": "达累斯萨拉姆每年雨季洪水冲毁道路、房屋并危及生命与基础设施。",
+   "entityRoles": [
+    "E-X01:context",
+    "E-G07:target",
+    "E-G06:target"
+   ],
+   "evidenceIds": [
+    "M01-E02"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "annual",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F003",
+   "statement": "Ramani Huria 以提升达累斯萨拉姆社区洪涝韧性为总体任务。",
+   "entityRoles": [
+    "E-A01:actor",
+    "E-T01:task"
+   ],
+   "evidenceIds": [
+    "M01-E01",
+    "M02-E01"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-2021",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F004",
+   "statement": "项目属于 DFID 与世界银行共建的坦桑尼亚城市韧性计划（TURP）。",
+   "entityRoles": [
+    "E-X04:context",
+    "E-A03:actor",
+    "E-A02:actor"
+   ],
+   "evidenceIds": [
+    "M02-E02"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-2021",
+   "spaceScope": "Tanzania",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F005",
+   "statement": "世界银行、GFDRR 与红十字会为项目提供支持。",
+   "entityRoles": [
+    "E-A02:actor",
+    "E-A04:actor",
+    "E-A05:actor"
+   ],
+   "evidenceIds": [
+    "M01-E05"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-2016",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F006",
+   "statement": "HOT 负责项目实施指导，并以 OpenStreetMap 培训本地大学生与社区成员。",
+   "entityRoles": [
+    "E-A01:actor",
+    "E-T02:task",
+    "E-H01:technology"
+   ],
+   "evidenceIds": [
+    "M02-E03",
+    "M02-E01"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-2021",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F007",
+   "statement": "2015-03-26/27，项目在 COSTECH 举办启动工作坊。",
+   "entityRoles": [
+    "E-P02:action",
+    "E-A08:actor",
+    "E-A01:actor"
+   ],
+   "evidenceIds": [
+    "M01-E13"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-03-26/27",
+   "spaceScope": "COSTECH, Dar es Salaam",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F008",
+   "statement": "试点期招募约 15 名 Ardhi 大学城市规划专业学生为实习生。",
+   "entityRoles": [
+    "E-A06:actor",
+    "E-A23:target",
+    "E-T05:task"
+   ],
+   "evidenceIds": [
+    "M01-E15"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-03/06",
+   "spaceScope": "Ardhi University",
+   "quantityScope": "约 15 人",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F009",
+   "statement": "试点在 Ndugumbi、Tandale、Mchikichini 三个 ward 展开。",
+   "entityRoles": [
+    "E-P03:action",
+    "E-G01:target",
+    "E-X06:context"
+   ],
+   "evidenceIds": [
+    "M01-E14"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-03/06",
+   "spaceScope": "3 wards",
+   "quantityScope": "3 wards",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F010",
+   "statement": "15 名 Ardhi 学生督导在带训前接受了约三个月指导。",
+   "entityRoles": [
+    "E-A06:actor",
+    "E-A23:actor",
+    "E-T05:task"
+   ],
+   "evidenceIds": [
+    "M04-E02"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-04/07",
+   "spaceScope": "Ardhi University",
+   "quantityScope": "15 名督导；3 个月",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F011",
+   "statement": "2015-07-06，项目在 UDSM 举办扩展工作坊，随后签约 150 名学生。",
+   "entityRoles": [
+    "E-P04:action",
+    "E-A07:actor",
+    "E-A23:target"
+   ],
+   "evidenceIds": [
+    "M04-E01"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-07-06",
+   "spaceScope": "UDSM",
+   "quantityScope": "150 名学生",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F012",
+   "statement": "新学生接受三天培训：前两天理论、第三天在 UDSM 校园实地操作。",
+   "entityRoles": [
+    "E-P04:action",
+    "E-A23:target",
+    "E-A06:actor"
+   ],
+   "evidenceIds": [
+    "M04-E02",
+    "M04-E03"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-07",
+   "spaceScope": "UDSM",
+   "quantityScope": "3 天",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F013",
+   "statement": "培训覆盖 OSM、Field Papers、GPS eTrex 30、OSM Tracker 与 JOSM。",
+   "entityRoles": [
+    "E-P04:action",
+    "E-H01:technology",
+    "E-H05:technology",
+    "E-H06:technology",
+    "E-H07:technology",
+    "E-H02:technology"
+   ],
+   "evidenceIds": [
+    "M04-E04"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-07",
+   "spaceScope": "UDSM",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F014",
+   "statement": "2015 年 7—8 月，项目以完整社区流程完成 14 个 ward 制图，最多 6 个并行。",
+   "entityRoles": [
+    "E-P06:action",
+    "E-G01:target"
+   ],
+   "evidenceIds": [
+    "M01-E17"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-07/08",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "14 wards；最多 6 并行",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F015",
+   "statement": "2015 年 9 月初，项目配合非洲开放数据会议完成市中心 8 个 ward 制图。",
+   "entityRoles": [
+    "E-P06:action",
+    "E-G03:target"
+   ],
+   "evidenceIds": [
+    "M01-E18"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-09",
+   "spaceScope": "Downtown Dar es Salaam",
+   "quantityScope": "8 wards",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F016",
+   "statement": "2015-10-09，扩展期在 Manzese、Mzimuni、Kigogo、Vingunguti 的结项社区论坛结束。",
+   "entityRoles": [
+    "E-P05:action",
+    "E-A24:actor",
+    "E-A26:actor"
+   ],
+   "evidenceIds": [
+    "M01-E19"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-10-09",
+   "spaceScope": "4 wards",
+   "quantityScope": "4 forums",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F017",
+   "statement": "2015-07-28 的博客列出首批 6 个 ward：Mabibo、Mburahati、Makurumla、Makumbusho、Msasani、Keko。",
+   "entityRoles": [
+    "E-G01:target",
+    "E-X01:context"
+   ],
+   "evidenceIds": [
+    "M04-E05"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-07",
+   "spaceScope": "6 wards",
+   "quantityScope": "6 wards（17 个洪泛 ward 中选出）",
+   "confidence": "medium-high",
+   "review": "pending",
+   "note": "与 14 ward 为不同时点口径"
+  },
+  {
+   "id": "F018",
+   "statement": "2015-09-11，项目在 Vingunguti 举办社区论坛启动制图，ward 官员与 8 个 subward 的社区成员参加。",
+   "entityRoles": [
+    "E-P05:action",
+    "E-A26:actor",
+    "E-A24:actor",
+    "E-G01:target"
+   ],
+   "evidenceIds": [
+    "M06-E02"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-09-11",
+   "spaceScope": "Vingunguti ward",
+   "quantityScope": "8 subwards",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F019",
+   "statement": "红十字会志愿者分两组、每组 10 人，于 9/14—9/18 与 9/21—9/25 参与 Vingunguti 外业。",
+   "entityRoles": [
+    "E-A25:actor",
+    "E-P06:action"
+   ],
+   "evidenceIds": [
+    "M06-E03"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-09",
+   "spaceScope": "Vingunguti ward",
+   "quantityScope": "2 组 × 10 人",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F020",
+   "statement": "Vingunguti 外业遭遇断电与 ward 办公室场地变动，部分活动转移到 Kombo 小学。",
+   "entityRoles": [
+    "E-P06:action",
+    "E-A25:actor"
+   ],
+   "evidenceIds": [
+    "M06-E04"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-09",
+   "spaceScope": "Vingunguti ward",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F021",
+   "statement": "团队在两周内完成 Vingunguti 全 ward 制图，并于 2015-10-09 举行结项论坛、交付地图与证书。",
+   "entityRoles": [
+    "E-P06:action",
+    "E-P05:action",
+    "E-G01:target",
+    "E-G12:target"
+   ],
+   "evidenceIds": [
+    "M06-E05"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-09/10",
+   "spaceScope": "Vingunguti ward",
+   "quantityScope": "2 周",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F022",
+   "statement": "Vingunguti 位于 Ilala 区，2012 年人口 106,946，属洪泛区。",
+   "entityRoles": [
+    "E-G01:target",
+    "E-X02:context",
+    "E-X01:context"
+   ],
+   "evidenceIds": [
+    "M06-E01"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2012",
+   "spaceScope": "Vingunguti ward",
+   "quantityScope": "106,946 人",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F023",
+   "statement": "扩展期结束后，制图队缩减为 20 名制图员加 2 名督导。",
+   "entityRoles": [
+    "E-A27:actor"
+   ],
+   "evidenceIds": [
+    "M01-E20"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-10",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "20+2",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F024",
+   "statement": "收缩期新增 Ubungo、Tabata、Ilala、Temeke 四个社区流程 ward，使社区制图 ward 达 21 个。",
+   "entityRoles": [
+    "E-P06:action",
+    "E-G01:target"
+   ],
+   "evidenceIds": [
+    "M01-E21"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-10/2016-02",
+   "spaceScope": "4 wards",
+   "quantityScope": "累计 21 wards",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F025",
+   "statement": "市中心 8 个 ward 完成全面实地测绘，使全面测绘 ward 累计 29 个。",
+   "entityRoles": [
+    "E-G03:target",
+    "E-G02:target",
+    "E-P06:action"
+   ],
+   "evidenceIds": [
+    "M01-E22"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-10/2016-02",
+   "spaceScope": "Downtown",
+   "quantityScope": "8 wards；累计 29",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F026",
+   "statement": "另有 36 个外围 ward 完成排水与水系制图，使地图改善 ward 总数达 65 个。",
+   "entityRoles": [
+    "E-P08:action",
+    "E-G04:target",
+    "E-G02:target"
+   ],
+   "evidenceIds": [
+    "M01-E23"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-10/2016-02",
+   "spaceScope": "36 wards",
+   "quantityScope": "36；累计 65",
+   "confidence": "high",
+   "review": "pending",
+   "note": "21+8+36=65"
+  },
+  {
+   "id": "F027",
+   "statement": "2015-03 至 2016-02，达累斯萨拉姆 65 个 ward 完成制图。",
+   "entityRoles": [
+    "E-P06:action",
+    "E-G02:target"
+   ],
+   "evidenceIds": [
+    "M01-E24"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-03/2016-02",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "65 wards",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F028",
+   "statement": "21 个社区制图 ward 由市议会与红十字会共同确定。",
+   "entityRoles": [
+    "E-A10:actor",
+    "E-A05:actor",
+    "E-G01:target"
+   ],
+   "evidenceIds": [
+    "M01-E27"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "21 wards",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F029",
+   "statement": "社区制图的第一步是取得市议会书面许可。",
+   "entityRoles": [
+    "E-A10:actor",
+    "E-T02:task",
+    "E-P05:action"
+   ],
+   "evidenceIds": [
+    "M01-E29"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-2016",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F030",
+   "statement": "单个 ward 排水与水系完整制图平均约需三天（两天采集、一天核验与数字化），可四个 ward 并行。",
+   "entityRoles": [
+    "E-P08:action",
+    "E-C06:capability",
+    "E-A27:actor"
+   ],
+   "evidenceIds": [
+    "M01-E41",
+    "M01-E43"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-2016",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "3 天/ward；4 并行",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F031",
+   "statement": "项目使用 COSTECH 提供的 SenseFly eBee 无人机，影像分辨率约 3—5 厘米/像素。",
+   "entityRoles": [
+    "E-H09:technology",
+    "E-A08:actor",
+    "E-C01:capability"
+   ],
+   "evidenceIds": [
+    "M01-E31",
+    "M01-E32",
+    "M01-E33"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-2016",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "3—5 cm/px",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F032",
+   "statement": "在无人机未覆盖区域，HOT 通过 MapGive 获取近期卫星影像。",
+   "entityRoles": [
+    "E-H10:technology",
+    "E-A01:actor"
+   ],
+   "evidenceIds": [
+    "M01-E34"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-2016",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F033",
+   "statement": "社区成员既提供建筑、街名、边界与洪泛区的地方知识，也承担社区内的意识提升。",
+   "entityRoles": [
+    "E-A24:actor",
+    "E-C08:capability"
+   ],
+   "evidenceIds": [
+    "M01-E28"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-2016",
+   "spaceScope": "21 wards",
+   "quantityScope": "",
+   "confidence": "medium-high",
+   "review": "pending",
+   "note": "项目自述"
+  },
+  {
+   "id": "F034",
+   "statement": "图集洪泛范围来自社区对常年洪水与 2011 年大水的记忆与勾绘。",
+   "entityRoles": [
+    "E-G09:target",
+    "E-X05:context",
+    "E-C08:capability"
+   ],
+   "evidenceIds": [
+    "M01-E38"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-2016",
+   "spaceScope": "21 wards",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": "数据性质为社区感知"
+  },
+  {
+   "id": "F035",
+   "statement": "社区报告洪泛区淹水深度为 0.5—5 米。",
+   "entityRoles": [
+    "E-G09:target",
+    "E-A24:actor"
+   ],
+   "evidenceIds": [
+    "M01-E39"
+   ],
+   "factStatus": "reported_or_opinion",
+   "timeScope": "2015-2016",
+   "spaceScope": "21 wards",
+   "quantityScope": "0.5—5 m",
+   "confidence": "medium",
+   "review": "pending",
+   "note": "非水文观测"
+  },
+  {
+   "id": "F036",
+   "statement": "社区知晓洪泛风险，但因经济约束、通勤与亲属关系选择留在原地。",
+   "entityRoles": [
+    "E-A24:actor",
+    "E-X02:context"
+   ],
+   "evidenceIds": [
+    "M01-E40"
+   ],
+   "factStatus": "reported_or_opinion",
+   "timeScope": "2015-2016",
+   "spaceScope": "21 wards",
+   "quantityScope": "",
+   "confidence": "medium",
+   "review": "pending",
+   "note": "社区访谈归纳"
+  },
+  {
+   "id": "F037",
+   "statement": "2016-03，项目发布《The Atlas of Flood Resilience in Dar es Salaam》。",
+   "entityRoles": [
+    "E-P09:action",
+    "E-O01:outcome",
+    "E-G12:target"
+   ],
+   "evidenceIds": [
+    "M01-E24",
+    "M01-E03"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2016-03",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "126 页",
+   "confidence": "high",
+   "review": "pending",
+   "note": "出版时间见材料元数据"
+  },
+  {
+   "id": "F038",
+   "statement": "图集地图与 InaSAFE 结合，用于运行自然灾害情景以支持规划与响应。",
+   "entityRoles": [
+    "E-P09:action",
+    "E-H04:technology",
+    "E-C05:capability"
+   ],
+   "evidenceIds": [
+    "M01-E03"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2016",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F039",
+   "statement": "项目计划将地图在线公开、提供下载，并以印刷形式交付各 ward 基层政府。",
+   "entityRoles": [
+    "E-G12:target",
+    "E-T03:task",
+    "E-A10:actor"
+   ],
+   "evidenceIds": [
+    "M01-E04"
+   ],
+   "factStatus": "planned",
+   "timeScope": "2016",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": "撰写时为计划"
+  },
+  {
+   "id": "F040",
+   "statement": "HOT 项目记录将本项目周期记为 2015-04-01 至 2016-12-31，状态为完成。",
+   "entityRoles": [
+    "E-A01:actor",
+    "E-O01:outcome"
+   ],
+   "evidenceIds": [
+    "M14-E01"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2015-04-01/2016-12-31",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": "1.0 层级"
+  },
+  {
+   "id": "F041",
+   "statement": "项目官网自报 29 个 ward、1254 公里水道与 3396 公里道路。",
+   "entityRoles": [
+    "E-G02:target",
+    "E-O01:outcome"
+   ],
+   "evidenceIds": [
+    "M03-E01",
+    "M03-E02"
+   ],
+   "factStatus": "reported_or_opinion",
+   "timeScope": "2016-2020",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "29 wards；1254 km；3396 km",
+   "confidence": "medium",
+   "review": "pending",
+   "note": "自报绩效"
+  },
+  {
+   "id": "F042",
+   "statement": "项目官网自报培训 450 名制图员。",
+   "entityRoles": [
+    "E-O05:outcome",
+    "E-A23:target"
+   ],
+   "evidenceIds": [
+    "M03-E03"
+   ],
+   "factStatus": "reported_or_opinion",
+   "timeScope": "2016-2020",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "450",
+   "confidence": "medium",
+   "review": "pending",
+   "note": "与 800+/1000+ 口径冲突"
+  },
+  {
+   "id": "F043",
+   "statement": "项目官网自报在 10 个洪泛社区建立了社区防灾队。",
+   "entityRoles": [
+    "E-O04:outcome",
+    "E-A24:target"
+   ],
+   "evidenceIds": [
+    "M03-E04"
+   ],
+   "factStatus": "reported_or_opinion",
+   "timeScope": "2016-2020",
+   "spaceScope": "10 communities",
+   "quantityScope": "10",
+   "confidence": "medium",
+   "review": "pending",
+   "note": "自报"
+  },
+  {
+   "id": "F044",
+   "statement": "2017-09-26，Ramani Huria 2.0 在 Julius Nyerere 国际会议中心启动。",
+   "entityRoles": [
+    "E-P10:action",
+    "E-A06:actor",
+    "E-A02:actor"
+   ],
+   "evidenceIds": [
+    "M07-E01"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2017-09-26",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F045",
+   "statement": "1.0 已为 21 个 ward、约 130 万居民制作地图。",
+   "entityRoles": [
+    "E-O01:outcome",
+    "E-G01:target"
+   ],
+   "evidenceIds": [
+    "M07-E02"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2017-09",
+   "spaceScope": "21 wards",
+   "quantityScope": "1.3 million",
+   "confidence": "medium-high",
+   "review": "pending",
+   "note": "官员回顾"
+  },
+  {
+   "id": "F046",
+   "statement": "2.0 预计覆盖 300 万以上居民。",
+   "entityRoles": [
+    "E-T01:task",
+    "E-G10:target"
+   ],
+   "evidenceIds": [
+    "M07-E03"
+   ],
+   "factStatus": "planned",
+   "timeScope": "2017",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "3 million+",
+   "confidence": "medium",
+   "review": "pending",
+   "note": "预期值"
+  },
+  {
+   "id": "F047",
+   "statement": "项目方称至 2017 年已向 400 余名学生转移灾害风险管理知识。",
+   "entityRoles": [
+    "E-O05:outcome",
+    "E-A23:target"
+   ],
+   "evidenceIds": [
+    "M07-E04"
+   ],
+   "factStatus": "reported_or_opinion",
+   "timeScope": "2017",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "400+",
+   "confidence": "medium",
+   "review": "pending",
+   "note": "官员发言"
+  },
+  {
+   "id": "F048",
+   "statement": "Ardhi 大学、世界银行与 DFID 于 2017-09-26 签署合作 MoU。",
+   "entityRoles": [
+    "E-A06:actor",
+    "E-A02:actor",
+    "E-A03:actor"
+   ],
+   "evidenceIds": [
+    "M07-E05"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2017-09-26",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F049",
+   "statement": "2.0 自 2017 年开始，把暴露数据与洪水危险数据结合进行风险分析。",
+   "entityRoles": [
+    "E-T04:task",
+    "E-C05:capability"
+   ],
+   "evidenceIds": [
+    "M14-E03"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2017",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F050",
+   "statement": "2.0 对所有排水进行重测，采用详细排水数据模型并关注连通性。",
+   "entityRoles": [
+    "E-P11:action",
+    "E-H13:technology",
+    "E-C06:capability"
+   ],
+   "evidenceIds": [
+    "M08-E01"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2017-2019",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F051",
+   "statement": "2018-06 前，前 20 个 ward 已完成排水重测。",
+   "entityRoles": [
+    "E-P11:action",
+    "E-G08:target"
+   ],
+   "evidenceIds": [
+    "M08-E02"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2018-06",
+   "spaceScope": "20 wards",
+   "quantityScope": "20 wards",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F052",
+   "statement": "2017—2019 年，Ramani Huria 把制图扩展到 44 个 ward。",
+   "entityRoles": [
+    "E-P11:action",
+    "E-G02:target"
+   ],
+   "evidenceIds": [
+    "M16-E02"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2017-2019",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "44 wards",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F053",
+   "statement": "2018 年暑期，450 余名学生在 7 周内完成 228 个 subward 制图。",
+   "entityRoles": [
+    "E-P12:action",
+    "E-A23:actor",
+    "E-G05:target"
+   ],
+   "evidenceIds": [
+    "M09-E01",
+    "M09-E02"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2018-07/09",
+   "spaceScope": "228 subwards",
+   "quantityScope": "450+；7 周",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F054",
+   "statement": "学生用 ODK 在 44 个 ward 采集 20,392 个垃圾点。",
+   "entityRoles": [
+    "E-P12:action",
+    "E-H08:technology",
+    "E-G16:target"
+   ],
+   "evidenceIds": [
+    "M09-E04",
+    "M09-E05"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2018",
+   "spaceScope": "44 wards",
+   "quantityScope": "20,392",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F055",
+   "statement": "每个 subward 的社区会议约 11 人参加，学生分三组用印刷地图与描图纸识别资产与威胁。",
+   "entityRoles": [
+    "E-P05:action",
+    "E-A24:actor",
+    "E-H14:technology"
+   ],
+   "evidenceIds": [
+    "M09-E06"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2018",
+   "spaceScope": "228 subwards",
+   "quantityScope": "约 11 人/场；3 组",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F056",
+   "statement": "每个 subward 产出报告与行动地图两类成果。",
+   "entityRoles": [
+    "E-G15:target",
+    "E-P12:action"
+   ],
+   "evidenceIds": [
+    "M09-E07"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2018",
+   "spaceScope": "228 subwards",
+   "quantityScope": "2 类/ subward",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F057",
+   "statement": "报告与地图计划交由 Deltares 与 ward 领导共同制定灾害管理计划。",
+   "entityRoles": [
+    "E-A18:actor",
+    "E-T06:task",
+    "E-G15:target"
+   ],
+   "evidenceIds": [
+    "M09-E08"
+   ],
+   "factStatus": "planned",
+   "timeScope": "2018-2019",
+   "spaceScope": "228 subwards",
+   "quantityScope": "",
+   "confidence": "medium-high",
+   "review": "pending",
+   "note": "撰写时为计划"
+  },
+  {
+   "id": "F058",
+   "statement": "Kijitonyama 研究使用 532 段排水数据；12 段有定位错误（2.25%），36 段断连（6.8%）。",
+   "entityRoles": [
+    "E-G08:target",
+    "E-C10:capability",
+    "E-P11:action"
+   ],
+   "evidenceIds": [
+    "M16-E05",
+    "M16-E06"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2019",
+   "spaceScope": "Kijitonyama ward",
+   "quantityScope": "532 段",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F059",
+   "statement": "2019-07-29，Ramani Huria 暑期产业培训项目从 HOT 移交大学联盟管理。",
+   "entityRoles": [
+    "E-P13:action",
+    "E-A01:actor",
+    "E-A13:actor"
+   ],
+   "evidenceIds": [
+    "M10-E01"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2019-07-29",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F060",
+   "statement": "RA 由 UDSM、Ardhi、SUZA 共同管理，并与芬兰 Turku 大学合作。",
+   "entityRoles": [
+    "E-A13:actor",
+    "E-A07:actor",
+    "E-A06:actor",
+    "E-A14:actor",
+    "E-A15:actor"
+   ],
+   "evidenceIds": [
+    "M10-E02"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2019",
+   "spaceScope": "Tanzania",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F061",
+   "statement": "Ramani Huria 第二阶段于 2019 年结束。",
+   "entityRoles": [
+    "E-T07:task",
+    "E-X04:context"
+   ],
+   "evidenceIds": [
+    "M10-E05"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2019",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F062",
+   "statement": "OMDTZ 在 Ramani Huria 影响下成立并承接项目能力。",
+   "entityRoles": [
+    "E-A16:actor",
+    "E-O07:outcome"
+   ],
+   "evidenceIds": [
+    "M10-E07"
+   ],
+   "factStatus": "reported_or_opinion",
+   "timeScope": "2019",
+   "spaceScope": "Tanzania",
+   "quantityScope": "",
+   "confidence": "medium",
+   "review": "pending",
+   "note": "项目自述"
+  },
+  {
+   "id": "F063",
+   "statement": "项目方称数据已被红十字会与 DarMAERT 等应急响应机构使用。",
+   "entityRoles": [
+    "E-A05:actor",
+    "E-A20:actor",
+    "E-O09:outcome"
+   ],
+   "evidenceIds": [
+    "M10-E06"
+   ],
+   "factStatus": "reported_or_opinion",
+   "timeScope": "2019",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "",
+   "confidence": "medium",
+   "review": "pending",
+   "note": "自述"
+  },
+  {
+   "id": "F064",
+   "statement": "项目方称 2015 年以来培训 800 余名学生、与 6000 余名社区成员合作。",
+   "entityRoles": [
+    "E-O05:outcome",
+    "E-A24:target"
+   ],
+   "evidenceIds": [
+    "M10-E03"
+   ],
+   "factStatus": "reported_or_opinion",
+   "timeScope": "2015-2019",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "800+；6000+",
+   "confidence": "medium",
+   "review": "pending",
+   "note": "与下一事实冲突"
+  },
+  {
+   "id": "F065",
+   "statement": "同一篇文字又称参与项目的学生超过 1000 名、社区成员约 300 名。",
+   "entityRoles": [
+    "E-O05:outcome",
+    "E-A24:target"
+   ],
+   "evidenceIds": [
+    "M10-E04"
+   ],
+   "factStatus": "reported_or_opinion",
+   "timeScope": "2015-2019",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "1000+；300",
+   "confidence": "medium",
+   "review": "pending",
+   "note": "同文内部冲突"
+  },
+  {
+   "id": "F066",
+   "statement": "2020-09 至 11 月，项目与 RA 合作培训三所大学 200 名学生。",
+   "entityRoles": [
+    "E-P14:action",
+    "E-A23:target",
+    "E-A13:actor"
+   ],
+   "evidenceIds": [
+    "M11-E01"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2020-09/11",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "200 名学生",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F067",
+   "statement": "学生在 20 个 ward 与社区成员采集洪水范围与水深数据。",
+   "entityRoles": [
+    "E-P14:action",
+    "E-G14:target",
+    "E-A24:actor"
+   ],
+   "evidenceIds": [
+    "M11-E02"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2020",
+   "spaceScope": "20 wards",
+   "quantityScope": "20 wards",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F068",
+   "statement": "两个月内采集超过 10,000 个洪水数据点。",
+   "entityRoles": [
+    "E-G14:target",
+    "E-P14:action"
+   ],
+   "evidenceIds": [
+    "M11-E03"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2020",
+   "spaceScope": "20 wards",
+   "quantityScope": "10,000+",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F069",
+   "statement": "团队使用低成本 u-blox 双频接收机，以 PPP 技术采集控制点。",
+   "entityRoles": [
+    "E-H12:technology",
+    "E-C11:capability"
+   ],
+   "evidenceIds": [
+    "M11-E04"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2020",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F070",
+   "statement": "Spatial Collective、HOT 与 OMDTZ 用五个月把社区制图扩展到 Mwanza。",
+   "entityRoles": [
+    "E-P15:action",
+    "E-A17:actor",
+    "E-A01:actor",
+    "E-A16:actor"
+   ],
+   "evidenceIds": [
+    "M12-E01"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2020-10/2021-01",
+   "spaceScope": "Mwanza",
+   "quantityScope": "5 个月",
+   "confidence": "high",
+   "review": "pending",
+   "note": "扩散观察"
+  },
+  {
+   "id": "F071",
+   "statement": "项目与 IRDP、St. Augustine 大学 79 名学生合作。",
+   "entityRoles": [
+    "E-P15:action",
+    "E-A23:target",
+    "E-A21:actor",
+    "E-A22:actor"
+   ],
+   "evidenceIds": [
+    "M12-E02"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2020-2021",
+   "spaceScope": "Mwanza",
+   "quantityScope": "79 名学生",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F072",
+   "statement": "Mwanza 采集 1.5 万个以上洪泛点与 1700 段排水（145 公里）。",
+   "entityRoles": [
+    "E-G09:target",
+    "E-G08:target",
+    "E-P15:action"
+   ],
+   "evidenceIds": [
+    "M12-E03"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2020-2021",
+   "spaceScope": "Mwanza",
+   "quantityScope": "15,000+；1700 段；145 km",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F073",
+   "statement": "Mwanza 社区误以为制图会导致拆迁，团队需反复解释项目目标。",
+   "entityRoles": [
+    "E-A24:actor",
+    "E-P15:action"
+   ],
+   "evidenceIds": [
+    "M12-E04"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2020-2021",
+   "spaceScope": "Mwanza",
+   "quantityScope": "",
+   "confidence": "medium-high",
+   "review": "pending",
+   "note": "项目方转述"
+  },
+  {
+   "id": "F074",
+   "statement": "Kijitonyama 模型验证使用 44 个观测点，对照社区记录的洪水水深。",
+   "entityRoles": [
+    "E-C07:capability",
+    "E-G14:target",
+    "E-C10:capability"
+   ],
+   "evidenceIds": [
+    "M16-E07"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2019",
+   "spaceScope": "Kijitonyama ward",
+   "quantityScope": "44 点",
+   "confidence": "high",
+   "review": "pending",
+   "note": ""
+  },
+  {
+   "id": "F075",
+   "statement": "耦合社区排水数据的 1D—2D 模型比仅地形数据的 2D 模型更接近居民报告的淹水深度。",
+   "entityRoles": [
+    "E-C07:capability",
+    "E-O03:outcome"
+   ],
+   "evidenceIds": [
+    "M16-E08"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2019-2020",
+   "spaceScope": "Kijitonyama ward",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": "论文验证结果"
+  },
+  {
+   "id": "F076",
+   "statement": "排水系统尺寸等技术性属性仍需要受训制图员才能达到足够质量。",
+   "entityRoles": [
+    "E-C10:capability",
+    "E-A23:actor"
+   ],
+   "evidenceIds": [
+    "M16-E09"
+   ],
+   "factStatus": "reported_or_opinion",
+   "timeScope": "2020",
+   "spaceScope": "Dar es Salaam",
+   "quantityScope": "",
+   "confidence": "high",
+   "review": "pending",
+   "note": "论文判断"
+  },
+  {
+   "id": "F077",
+   "statement": "TU Delft 硕士论文使用 Ramani Huria 采集的排水数据构建 Kijitonyama 洪水模型。",
+   "entityRoles": [
+    "E-C07:capability",
+    "E-O03:outcome",
+    "E-P11:action"
+   ],
+   "evidenceIds": [
+    "M17-E01"
+   ],
+   "factStatus": "implemented",
+   "timeScope": "2019",
+   "spaceScope": "Kijitonyama ward",
+   "quantityScope": "",
+   "confidence": "medium-high",
+   "review": "pending",
+   "note": "摘要级"
+  },
+  {
+   "id": "F078",
+   "statement": "该论文结论称社区制图排水数据能够提升水动力模型表现。",
+   "entityRoles": [
+    "E-O03:outcome",
+    "E-C07:capability"
+   ],
+   "evidenceIds": [
+    "M17-E02"
+   ],
+   "factStatus": "reported_or_opinion",
+   "timeScope": "2019",
+   "spaceScope": "Kijitonyama ward",
+   "quantityScope": "",
+   "confidence": "medium",
+   "review": "pending",
+   "note": "摘要级"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+  "packet_id": "RP-C15-G2-v1.0",
+  "skill": "case-knowledge-construction",
+  "gate": "G2",
+  "case_id": "C15",
+  "status": "confirmed",
+  "generated_at": "2026-11-13",
+  "researcher_decision": {
+    "action": "accept",
+    "rationale": "Accept 72 evidence items; preserve planned/pilot/reported modality; retain near-duplicate technical evidence as corroboration; keep M01 and M06 as prehistory/process background; proceed with syndicated copies pending originals.",
+    "modified_content": {
+      "evidence_baseline": 72,
+      "modality_preserved": ["M04-E09", "M04-E10", "M08-E12", "M09-E08", "M09-E12"],
+      "near_duplicate_policy": "M02-E03 and M03-E06 retained as corroboration",
+      "m01_m06_role": "prehistory/process background"
+    },
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  },
+  "frozen_outputs": ["evidence.md@v1.0", "evidence.json@v1.0", "evidence_v0.1.md", "evidence_v0.1.json", "decision-log.md#3"],
+  "open_items": [
+    "Original pages pending",
+    "M09-E08 96% resolution rate denominator",
+    "M08-E09 122 services usage",
+    "Operations after 2024-03"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "packetId": "RP-C17-L2-G4-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G4",
+  "caseId": "C17",
+  "scope": "本体增量、版本记录、发布范围",
+  "generatedAt": "2026-11-13",
+  "status": "accepted_by_researcher",
+  "version": "L2-C17-shared-v1.0",
+  "counts": {
+    "nativeConcepts": 11,
+    "candidates": 7,
+    "mappings": 19,
+    "formalSharedConcepts": 0,
+    "sharedConceptsTotal": 63,
+    "released": 12,
+    "pendingCandidates": 51
+  },
+  "decisionsRequired": [
+    "版本号",
+    "发布范围",
+    "全局计数",
+    "回查触发",
+    "交接 L3"
+  ],
+  "historyImpact": {"affectsSharedConcepts": false, "affectsHistoricalMappings": false, "triggersHistoricalReview": true, "note": "C13/C15/C16 触发点"},
+  "researcherDecision": {"action": "accept", "rationale": "接受，按推荐", "modifiedContent": "发布 L2-C17-shared-v1.0；范围含原生概念+候选+映射；63 个共享概念计数；保留回查触发；交接 L3", "allowNextGate": true, "decidedAt": "2026-11-13"},
+  "frozenArtifacts": [],
+  "openIssues": ["单案例候选", "C01–C11 未确认", "C13/C15/C16 回查"]
+}

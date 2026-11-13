@@ -1,0 +1,52 @@
+{
+  "packetId": "RP-C16-G0-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G0",
+  "caseId": "C16",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher_confirmation",
+  "scope": "Red Hook WiFi 案例边界、纳入/排除标准与研究问题",
+  "candidates": [
+    {"id": "C16-SCOPE-01", "content": "案例名称与事件类型", "evidence": ["S01", "S02", "S03"], "factStatus": "unconfirmed", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "C16-SCOPE-02", "content": "核心时段 2011-11–2019-12，观察期 2020-01–2023-05", "evidence": ["S03", "S05", "S20"], "factStatus": "unconfirmed", "confidence": "medium-high", "suggestedAction": "discuss"},
+    {"id": "C16-SCOPE-03", "content": "空间核心为红钩半岛；Red Hook Houses 为目标但未覆盖", "evidence": ["S03", "S05", "S07"], "factStatus": "unconfirmed", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "C16-SCOPE-04", "content": "纳入试验网络、Sandy 应急、Digital Stewards、RISE:NYC、运营移交", "evidence": ["S03", "S04", "S05", "S12", "S20"], "factStatus": "unconfirmed", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "C16-SCOPE-05", "content": "NYC Mesh、其他 RISE 社区、Sky Packets 商业业务降为背景或排除", "evidence": ["S05", "S12"], "factStatus": "unconfirmed", "confidence": "medium-high", "suggestedAction": "discuss"},
+    {"id": "C16-SCOPE-06", "content": "5 个研究问题", "evidence": ["S03", "S04", "S05", "S20"], "factStatus": "unconfirmed", "confidence": "medium", "suggestedAction": "discuss"},
+    {"id": "C16-SCOPE-07", "content": "设 2020–2023 观察期但不预设衰减结论", "evidence": ["S05"], "factStatus": "unconfirmed", "confidence": "medium-high", "suggestedAction": "discuss"}
+  ],
+  "conflicts": [
+    "起点：2011-11 / 2011 秋 / 2011-12",
+    "Sandy 每日用户：300 / 1,000 / 1,200",
+    "节点规模：近 20 站点 / 40+ 接入点规划 / 峰值约 40 节点 / 近两打路由器",
+    "人口：约 11,000 居民、近 70% 住公共住宅 / Red Hook Houses 及周边约 5,000 人",
+    "运营主体：RHI 社区主导 / Sky Packets 运营"
+  ],
+  "decisionPoints": [
+    "时间边界 A/B/C",
+    "2023 年衰减材料的定位",
+    "Red Hook Houses 的空间与角色定位",
+    "NYC Mesh、其他 RISE 社区、Sky Packets 的排除",
+    "研究问题 5 问"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false,
+    "scope": "新增 C16，不修改 C01–C15"
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": false,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "openIssues": [
+    "RISE:NYC 拨款金额与合同缺一手文件",
+    "2019 年移交仅有单一来源",
+    "2018 年后访问量与节点清单缺失",
+    "NYCHA 准入与市府扩展条件缺文件"
+  ]
+}

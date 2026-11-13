@@ -1,0 +1,34 @@
+{
+  "packetId": "RP-C13-L2-G2-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G2",
+  "caseId": "C13",
+  "scope": "10个原生概念对C01-C12共享概念层的映射与新增候选",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher",
+  "baseLayer": "L2-C01-C11-shared-v0.2 + L2-C12-shared-v1.0",
+  "checkedSharedConcepts": 45,
+  "mappingCount": 14,
+  "existingMappings": 6,
+  "newCandidates": 8,
+  "candidateSummary": {
+    "native_hyponym_existing": 1,
+    "partial_existing": 5,
+    "native_hyponym_new": 8
+  },
+  "gaps": [
+    "8个新候选均缺第二案例支持",
+    "维护与衰减概念缺2016-2017证据",
+    "第二案例的同类地块普查/公开平台/社区复核证据"
+  ],
+  "decisionsRequired": [
+    "6条已有映射是否接受",
+    "8个新候选是否接受且不确认",
+    "NC-03是否只保留部分映射",
+    "是否暂不修改supporting_case_ids",
+    "版本号L2-C13-shared-v0.1"
+  ],
+  "researcherDecision": {"action": null, "rationale": null, "modifiedContent": null, "allowNextGate": null, "decidedAt": null},
+  "frozenArtifacts": [],
+  "version": "v0.1"
+}

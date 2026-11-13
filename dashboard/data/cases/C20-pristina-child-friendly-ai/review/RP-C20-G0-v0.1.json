@@ -1,0 +1,116 @@
+{
+  "packet_id": "RP-C20-G0-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G0",
+  "case_id": "C20",
+  "scope": "普里什蒂纳儿童友好公共空间 AI 共创案例边界、纳入/排除标准与研究问题",
+  "generated_at": "2026-11-13",
+  "status": "accepted",
+  "candidates": [
+    {
+      "id": "C20-SCOPE-01",
+      "content": "案例名称：普里什蒂纳儿童友好公共空间人工智能共创",
+      "evidence": ["S01 UNDP Exposure 2023-09-14", "S02 UNDP Eurasia 2023-09-14", "S09 CoPlanAI 案例页"],
+      "fact_status": "unconfirmed",
+      "confidence": "high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C20-SCOPE-02",
+      "content": "核心时段为 2023 年共创过程；2023-09 以后仅作实施观察",
+      "evidence": ["S01/S02 2023-09-14", "S03/S04 LinkedIn 2023-06-19", "S09 称 six-month process", "S05 UNGM RFQ 2023-09-27"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium_high",
+      "suggested_action": "discuss"
+    },
+    {
+      "id": "C20-SCOPE-03",
+      "content": "参与主体为 10–17 岁儿童，经市政府任命的 Children Councils 从各学校选出",
+      "evidence": ["S01/S02"],
+      "fact_status": "unconfirmed",
+      "confidence": "high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C20-SCOPE-04",
+      "content": "组织安排：UNDP Kosovo（CEF + Healthier Kosovo 2）、市政府公共空间与公园局、Space SyntaKs、Save the Children",
+      "evidence": ["S01/S02", "S03/S04"],
+      "fact_status": "unconfirmed",
+      "confidence": "high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C20-SCOPE-05",
+      "content": "核心产出为 3 份方案；其中 2 份由 UNDP 启动实施，不等于建成",
+      "evidence": ["S01/S02", "S05", "S09"],
+      "fact_status": "unconfirmed",
+      "confidence": "high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C20-SCOPE-06",
+      "content": "空间为普里什蒂纳市域内 3 个未公开命名地点；Design 1 为亲密尺度游戏/社交场地，Design 2 为中心开放绿地/文化场地",
+      "evidence": ["S01/S02", "S09"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium_high",
+      "suggested_action": "discuss"
+    },
+    {
+      "id": "C20-SCOPE-07",
+      "content": "排除 Blloku 1、Kosovo Architecture Festival、CEF 其他城市、UTI 公交与其他 UrbanistAI 项目",
+      "evidence": ["边界判断", "S09 的三 registers 说明"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium_high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C20-SCOPE-08",
+      "content": "4 个研究问题：AI 进入共创的位置、儿童地方知识转译、组织安排与合法性、从启动实施到落地",
+      "evidence": ["研究设计"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium",
+      "suggested_action": "discuss"
+    }
+  ],
+  "conflicts": [
+    "时长：CoPlanAI 明确写 six-month；UNDP 故事页说 6-month process 但未给起止日期，二者可能同源",
+    "技术名称：UNDP 故事页未点名 UrbanistAI；LinkedIn 帖文点名 UrbanistAI",
+    "年龄：参与者 10–17 岁；设计服务对象 10+，两个范围",
+    "实施：UNDP 称已启动两份方案实施；UNGM 只证明采购启动；无建成/开放证据"
+  ],
+  "gaps": [
+    "缺少工作坊场次、日期、地点、参与人数、学校数量与性别构成",
+    "缺少三个干预地点的名称、地址、地块边界与现状照片",
+    "缺少三份方案的完整设计说明、图像来源、儿童选择/淘汰记录",
+    "缺少最终评估工作坊记录、评价标准与儿童反馈原始材料",
+    "缺少两份方案的中标公告、合同、施工许可、完工或开放证据",
+    "缺少 UrbanistAI 使用日志、提示词、生成图像与最终方案的对应关系"
+  ],
+  "decisions_requested": [
+    "时间边界：A 2023 共创核心 + 实施观察 / B 仅 2023-06 AI 工作坊 / C 2023–2025 全流程",
+    "实施纳入：仅可对应两份方案 / 整个 UTI / 排除",
+    "空间与案例单位：市域 3 个未命名地点、仅儿童+AI 试点 / 仅两类空间 / 整个 CEF 普里什蒂纳 portfolio",
+    "研究问题：草案 4 问、AI 中介为主 / 仅 AI 工具效果 / 仅儿童参与权利",
+    "材料补充：研究者能否提供 UNDP、市政府或供应商内部材料"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_case_review": false,
+    "note": "C20 与 C19 都使用 UrbanistAI 辅助参与，G6 后交 L2 判断是否形成共享概念候选；不得在 G0 预设"
+  },
+  "decision": {
+    "action": "accept",
+    "rationale": "研究者确认 G0 候选 v0.1，按建议方案通过",
+    "modified_content": null,
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13",
+    "adopted_options": {
+      "time_boundary": "A",
+      "implementation_scope": "only_evidence_corresponding_to_two_designs",
+      "spatial_and_case_unit": "three_unnamed_sites_citywide_ai_codesign_pilot",
+      "research_questions": "four_questions_ai_mediation_primary",
+      "material_supplement": "pending_researcher_internal_materials"
+    }
+  }
+}

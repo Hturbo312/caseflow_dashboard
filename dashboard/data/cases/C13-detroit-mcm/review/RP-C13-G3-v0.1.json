@@ -1,0 +1,40 @@
+{
+  "packetId": "RP-C13-G3-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G3",
+  "caseId": "C13",
+  "scope": "Motor City Mapping 事件顺序、主体关系、状态变化与来源冲突",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher",
+  "processCount": 9,
+  "processRange": "C13-P01–C13-P09",
+  "unreconstructedRange": "2016-01–2017-12",
+  "conflicts": [
+    {"topic": "普查起点", "handling": "P02筹备/P03外业分层"},
+    {"topic": "小组规模", "handling": "两人/三人并列"},
+    {"topic": "人员", "handling": "150居民/200团队分角色"},
+    {"topic": "地块总数", "handling": "380,233与380,217并列"}
+  ],
+  "gaps": [
+    "2016-2017年连续证据",
+    "平板捐赠执行情况",
+    "People's Property Dashboard上线形态",
+    "DLBA反馈机制细节"
+  ],
+  "decisionsRequired": [
+    "9个过程段落与边界",
+    "P03小组规模处理",
+    "P05/P06边界",
+    "P09定位",
+    "2016-2017是否本轮重建"
+  ],
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": null,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "version": "v0.1"
+}

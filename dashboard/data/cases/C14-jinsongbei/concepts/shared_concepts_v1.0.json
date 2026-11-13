@@ -1,0 +1,208 @@
+{
+  "case_id": "C14",
+  "version": "L2-C14-shared-v1.0",
+  "status": "released",
+  "shared_concepts": [
+    {
+      "id": "SC-C14-101",
+      "label": "多主体协同更新机制",
+      "definition": "由政府、街道、社区、居民与企业等多类主体共同推进社区更新与治理的机制安排。",
+      "scope": "只含多主体协同机制；不含单一主体的项目管理或一般跨组织会议。",
+      "supporting_case_ids": [
+        "C14"
+      ],
+      "supporting_native_ids": [
+        "NC-C14-01"
+      ],
+      "negative_examples": [
+        "单一政府主导",
+        "一次性协调会议",
+        "一般物业合同"
+      ],
+      "version": "L2-C14-shared-v1.0",
+      "review": "candidate_single_case",
+      "entity_type": "action"
+    },
+    {
+      "id": "SC-C14-102",
+      "label": "物业引入的居民表决与先尝后买",
+      "definition": "以居民户数与建筑面积双过半表决引入物业，并通过先服务后收费培养缴费习惯的安排。",
+      "scope": "只含物业引入的表决与付费安排；不含一般方案协商或物业日常服务。",
+      "supporting_case_ids": [
+        "C14"
+      ],
+      "supporting_native_ids": [
+        "NC-C14-02"
+      ],
+      "negative_examples": [
+        "一般居民意见征集",
+        "政府直接指定物业",
+        "物业费标准调整"
+      ],
+      "version": "L2-C14-shared-v1.0",
+      "review": "candidate_single_case",
+      "entity_type": "action"
+    },
+    {
+      "id": "SC-C14-103",
+      "label": "社会资本微利可持续条件",
+      "definition": "社会资本通过多元收入、长期运营与政府扶持，在较长周期内回收更新投入并维持微利运营的条件。",
+      "scope": "只含成本—收益平衡条件；不含具体投资额、合同条款或已实现财务结果。",
+      "supporting_case_ids": [
+        "C14"
+      ],
+      "supporting_native_ids": [
+        "NC-C14-03"
+      ],
+      "negative_examples": [
+        "一次性财政投入",
+        "纯公益捐赠",
+        "已实现盈利结果"
+      ],
+      "version": "L2-C14-shared-v1.0",
+      "review": "candidate_single_case",
+      "entity_type": "context"
+    },
+    {
+      "id": "SC-C14-104",
+      "label": "低效空间运营权置换更新投入",
+      "definition": "以社区低效空间的改造权与长期运营权，置换社会资本的前期更新投入。",
+      "scope": "只含空间运营权与更新投入的置换安排；不含一般空间施工或商业租赁。",
+      "supporting_case_ids": [
+        "C14"
+      ],
+      "supporting_native_ids": [
+        "NC-C14-04"
+      ],
+      "negative_examples": [
+        "一般空间改造工程",
+        "纯商业租赁",
+        "政府全额投资"
+      ],
+      "version": "L2-C14-shared-v1.0",
+      "review": "candidate_single_case",
+      "entity_type": "action"
+    },
+    {
+      "id": "SC-C14-105",
+      "label": "物业服务嵌入居家养老",
+      "definition": "物业企业把为老服务清单、紧急呼叫、适老化设备与第三方响应整合进日常物业服务。",
+      "scope": "只含物业主导的居家养老整合；不含机构养老、纯政府养老服务或一般物业维修。",
+      "supporting_case_ids": [
+        "C14"
+      ],
+      "supporting_native_ids": [
+        "NC-C14-05"
+      ],
+      "negative_examples": [
+        "机构养老",
+        "政府购买的独立养老服务",
+        "一般物业保洁"
+      ],
+      "version": "L2-C14-shared-v1.0",
+      "review": "candidate_single_case",
+      "entity_type": "action"
+    },
+    {
+      "id": "SC-C14-106",
+      "label": "电动自行车充电车棚",
+      "definition": "在社区车棚空间内为电动自行车提供集中充电服务的设施。",
+      "scope": "只含社区车棚内充电设施；不含公共充电桩网络、换电柜或消防系统。",
+      "supporting_case_ids": [
+        "C14"
+      ],
+      "supporting_native_ids": [
+        "NC-C14-07"
+      ],
+      "negative_examples": [
+        "公共道路充电桩",
+        "换电柜",
+        "单纯停车棚"
+      ],
+      "version": "L2-C14-shared-v1.0",
+      "review": "candidate_single_case",
+      "entity_type": "technology"
+    },
+    {
+      "id": "SC-C14-107",
+      "label": "适老化辅助器具租借服务",
+      "definition": "社区引入爬楼机、电动轮椅等辅助器具，放置于社区居委会供居民租借并协调调度。",
+      "scope": "只含辅助器具租借与调度服务；不含设备采购、家庭适老化改造或机构康复服务。",
+      "supporting_case_ids": [
+        "C14"
+      ],
+      "supporting_native_ids": [
+        "NC-C14-08"
+      ],
+      "negative_examples": [
+        "家庭无障碍改造",
+        "机构康复服务",
+        "一次性设备发放"
+      ],
+      "version": "L2-C14-shared-v1.0",
+      "review": "candidate_single_case",
+      "entity_type": "action"
+    },
+    {
+      "id": "SC-C14-108",
+      "label": "责任规划师陪伴式设计",
+      "definition": "责任规划师从街区诊断、分层规划、居民调研到施工配合与运营跟踪，持续参与并调整设计。",
+      "scope": "只含责任规划师的陪伴式设计过程；不含一般规划设计招标或施工总包。",
+      "supporting_case_ids": [
+        "C14"
+      ],
+      "supporting_native_ids": [
+        "NC-C14-10"
+      ],
+      "negative_examples": [
+        "一次性规划方案",
+        "纯施工图设计",
+        "一般公众参与活动"
+      ],
+      "version": "L2-C14-shared-v1.0",
+      "review": "candidate_single_case",
+      "entity_type": "action"
+    },
+    {
+      "id": "SC-C14-109",
+      "label": "社区出入口身份识别设备",
+      "definition": "安装在社区出入口、用于身份识别与通行控制的智能门禁或人脸识别设备。",
+      "scope": "只含出入口身份识别与门禁控制；不含视频监控、传感监测或公安联网系统。",
+      "supporting_case_ids": [
+        "C14"
+      ],
+      "supporting_native_ids": [
+        "NC-C14-13"
+      ],
+      "negative_examples": [
+        "视频监控摄像头",
+        "单元门对讲",
+        "公安卡口"
+      ],
+      "version": "L2-C14-shared-v1.0",
+      "review": "candidate_single_case",
+      "entity_type": "technology"
+    },
+    {
+      "id": "SC-C14-110",
+      "label": "企业运营的社区智慧治理平台",
+      "definition": "由企业建设并运营、面向社区居民/物业/街道提供综合服务的智慧社区平台。",
+      "scope": "只含企业运营的社区治理平台；不含政府内部行政平台、纯门户网站或单一设备。",
+      "supporting_case_ids": [
+        "C14"
+      ],
+      "supporting_native_ids": [
+        "NC-C14-06"
+      ],
+      "negative_examples": [
+        "政府内部OA",
+        "单一社区门户",
+        "纯设备管理App"
+      ],
+      "version": "L2-C14-shared-v1.0",
+      "review": "candidate_single_case_evidence_weak",
+      "entity_type": "technology"
+    }
+  ],
+  "released_at": "2026-11-13"
+}

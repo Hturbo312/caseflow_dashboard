@@ -1,0 +1,360 @@
+{
+  "case_id": "C19",
+  "generated_at": "2026-11-13",
+  "version": "v1.0",
+  "processes": [
+    {
+      "process_id": "C19-P01",
+      "case_id": "C19",
+      "title": "前置规划与 Circle East 目标区设定",
+      "time_range": "2015—2022",
+      "narrative": "2015 年发布 Development Framework and Target Area Plan；2020 年发布 City of East Cleveland Visioning Project；2022 年 Fabric[K] 等编制的 Action Plan 旨在落实前两份规划，把本地/区域连通与门户社区列为两大目标，并把 Euclid Avenue 与填充式住房称为双重场所营造优先项（M05-E01、M31-E01）。这些规划把城市西侧门户确定为再开发起点。在这一框架下，Cuyahoga Land Bank 作为 Circle East District 的 master developer，报告称其已取得 200+ 住宅空地与 18 个商业地块，并提出新基础设施、约 200 套住房、房屋修缮、连通与 Mickey’s 改造等要素（M01-E05）。项目方另称这是 1.22 亿美元、五年、约 30 英亩的计划（M10-E01）。本段为情境，不把前置规划的行动记作 Connect EC 行动。",
+      "actor_ids": [
+        "City of East Cleveland",
+        "Cuyahoga Land Bank",
+        "Fabric[K] Design"
+      ],
+      "event_ids": [
+        "2015 Development Framework and Target Area Plan",
+        "2020 City of East Cleveland Visioning Project",
+        "2022 Action Plan for East Cleveland Target Area"
+      ],
+      "evidence_ids": [
+        "M05-E01",
+        "M31-E01",
+        "M01-E01",
+        "M01-E02",
+        "M01-E03",
+        "M01-E04",
+        "M01-E05",
+        "M03-E02",
+        "M10-E01"
+      ],
+      "status_summary": "情境：既有规划与开发框架；计划：200 套住房、1.22 亿美元五年计划",
+      "confidence": "medium_high",
+      "conflicts": [
+        "报告称 200+ 住宅地块已取得，网站 M03 另称 180+ 并拆除 103 栋；保留时点差异",
+        "1.22 亿美元与 30 英亩为项目方计划口径，不是已完成投资"
+      ],
+      "revision": "v0.1"
+    },
+    {
+      "process_id": "C19-P02",
+      "case_id": "C19",
+      "title": "项目设置、团队组建与本地知识嵌入",
+      "time_range": "2023-01—2023-04（公共活动前）",
+      "narrative": "2023 年初，土地银行选定顾问团队。网站称团队在 2023 年 1–7 月与社区合作（M03-E01），报告称参与过程为 1–8 月、约七个月（M01-E06），FAQ 称参与过程 4 月开始、延续到初夏（M06-E01）。三种口径并列，分别可能指团队工作期、完整参与期与公共活动期，不能合并为一个开始日期。团队先做背景研究、现状记录与既有规划梳理，把过程分为 Groundwork、Design Options、Review、Implementation 四阶段（M01-E11）。项目在开始时确立四项优先级：环境（社区凝聚、信任与安全）、安全通行、标识与公共艺术、绿地设施（M01-E12）。土地银行聘请本地居民 Najae Jackson 为带薪 Street Team Leader，承担分享地方知识、邀请居民与主持公共活动（M01-E07）。网站把 Connect EC 定义为通过社区协作重新想象并重建东克利夫兰公共空间的互动过程（M02-E01）。",
+      "actor_ids": [
+        "Cuyahoga Land Bank",
+        "Seventh Hill",
+        "Agnes Studio",
+        "Layer Cake Design",
+        "Najae Jackson / Street Team Leader"
+      ],
+      "event_ids": [
+        "2023 年初顾问团队组建",
+        "2023 年 1 月起团队工作",
+        "2023 年初聘请 Street Team Leader"
+      ],
+      "evidence_ids": [
+        "M03-E01",
+        "M01-E06",
+        "M01-E29",
+        "M06-E01",
+        "M01-E11",
+        "M01-E12",
+        "M01-E07",
+        "M01-E08",
+        "M01-E09",
+        "M02-E01"
+      ],
+      "status_summary": "已实施：团队组建、本地 Street Team Leader 聘任、四阶段设计与四项优先级",
+      "confidence": "medium_high",
+      "conflicts": [
+        "参与起点：2023-01（M01/M03）vs 2023-04（M06）",
+        "团队工作终点：2023-07（M03）vs 2023-08（M01）",
+        "报告内部时长：seven months（p.5）vs six month（p.15）"
+      ],
+      "revision": "v0.1"
+    },
+    {
+      "process_id": "C19-P03",
+      "case_id": "C19",
+      "title": "第一轮公共参与：Community Event 1.0",
+      "time_range": "2023-04-20",
+      "narrative": "2023-04-20，Community Event 1.0 在 Salvation Army East Cleveland（1507 Doan Avenue）举行。活动以分组讨论、地图与活动页等互动形式，让居民表达对公共空间外观与感受的优先级，并据此形成指导后续设计选项的四项优先级（M01-E12、M01-E14、M04-E01）。项目方称居民自 4 月起与 Seventh Hill 团队合作（M10-E02）。报告记活动时间为 5:30–7:30，活动页记为 5:30–7:00，结束时间保留差异（M01-E14）。",
+      "actor_ids": [
+        "Cuyahoga Land Bank",
+        "Seventh Hill",
+        "East Cleveland residents",
+        "Salvation Army East Cleveland"
+      ],
+      "event_ids": [
+        "2023-04-20 Community Event 1.0"
+      ],
+      "evidence_ids": [
+        "M01-E12",
+        "M01-E14",
+        "M04-E01",
+        "M10-E02"
+      ],
+      "status_summary": "已实施：第一场公共活动与四项优先级",
+      "confidence": "high",
+      "conflicts": [
+        "结束时间 7:30（M01）vs 7:00（M04）"
+      ],
+      "revision": "v0.1"
+    },
+    {
+      "process_id": "C19-P04",
+      "case_id": "C19",
+      "title": "步行踏勘、AR 壁画预览与 Juneteenth 外展",
+      "time_range": "2023-05-24—2023-06-17",
+      "narrative": "2023-05-24，Neighborhood Walking Tour 从 Mickey’s building 出发，15 人以上参加，分 Penrose 与 Woodlawn 两条路线步行至 Forest Hill 后返回。参与者沿路讨论壁画、人行横道、绿道与公园；组织者提供纸质/在线问卷与视频记录，并在 Mickey’s 东墙用增强现实（AR）展示三种壁画方案（M01-E15、M04-E02）。2023-06-17，项目参与 Juneteenth 活动（M01-E13）。报告时间线还列出图书馆站点等其他外展，但本轮未取得其独立记录，暂不展开。",
+      "actor_ids": [
+        "Cuyahoga Land Bank",
+        "Seventh Hill",
+        "East Cleveland residents"
+      ],
+      "event_ids": [
+        "2023-05-24 Neighborhood Walking Tour",
+        "2023-06-17 Juneteenth event"
+      ],
+      "evidence_ids": [
+        "M01-E15",
+        "M04-E02",
+        "M01-E13"
+      ],
+      "status_summary": "已实施：步行踏勘、AR 壁画预览、Juneteenth 参与",
+      "confidence": "high",
+      "conflicts": [
+        "Juneteenth 仅有时间线记录，缺活动细节",
+        "AR 使用仅在活动页描述，报告正文未提"
+      ],
+      "revision": "v0.1"
+    },
+    {
+      "process_id": "C19-P05",
+      "case_id": "C19",
+      "title": "设计选项共创：Public Open House 2.0 与 AI 图像生成",
+      "time_range": "2023-07-14",
+      "narrative": "2023-07-14，Public Open House 2.0 在 Mickey’s building 举行，约 50 人参加。设计团队基于 4 月 20 日第一场活动的反馈，提出公共艺术、人行横道、绿地与其他场所营造选项（M04-E05）。现场设七个站点：3D 打印社区地图、设计方案图像板、视频故事站、问卷，以及由主持人引导、参与者口述提示词并用 UrbanistAI 实时生成图像的站点（M01-E16、M04-E03、M04-E04）。故事站录制参与者对未来社区的记忆与愿景（M01-E17）。Cleveland Solar Cooperative 作为参与方记录了活动，并称居民可就公共艺术、人行横道与绿地提供意见（M09-E01）。UrbanistAI 供应商称该工具“显著提升”参与效果、使过程更具包容性（M07-E01、M07-E02），该效果判断保留为供应商观点。",
+      "actor_ids": [
+        "Cuyahoga Land Bank",
+        "Seventh Hill",
+        "Agnes Studio",
+        "Layer Cake Design",
+        "Najae Jackson / Street Team Leader",
+        "UrbanistAI",
+        "Cleveland Solar Cooperative",
+        "East Cleveland residents"
+      ],
+      "event_ids": [
+        "2023-07-14 Public Open House 2.0",
+        "UrbanistAI 站点生成图像",
+        "AR/3D 模型展示"
+      ],
+      "evidence_ids": [
+        "M04-E05",
+        "M01-E16",
+        "M04-E03",
+        "M04-E04",
+        "M01-E17",
+        "M09-E01",
+        "M07-E01",
+        "M07-E02"
+      ],
+      "status_summary": "已实施：Open House、七站点、3D 模型、故事录制、AI 图像生成；观点：AI 提升参与效果",
+      "confidence": "high",
+      "conflicts": [
+        "参加人数：约 50（M01/M04）vs 50+（M07）",
+        "AI 效果为供应商评价，无独立测量",
+        "缺提示词、生成图像清单与选择记录"
+      ],
+      "revision": "v0.1"
+    },
+    {
+      "process_id": "C19-P06",
+      "case_id": "C19",
+      "title": "青少年工作坊与社区活动",
+      "time_range": "2023-08-23—2023-08-25",
+      "narrative": "2023-08-23，设计团队与 3MB Mentoring Program 在 1918 Wadena Street 举办青少年工作坊（M01-E10、M01-E18）。报告展示由青少年用 AI 生成的图像，表达其对彩色公共艺术、游乐空间与自然环境的偏好；青少年还选择绿道“带桌椅的人行道”方案与口袋公园“草坪与路径分区”方案（M01-E18）。2023-08-25，项目参与 Mix It Up 活动（M01-E13）；本轮只有时间线记录，未取得活动细节。",
+      "actor_ids": [
+        "Cuyahoga Land Bank",
+        "Seventh Hill",
+        "3MB Mentoring Program",
+        "East Cleveland youth"
+      ],
+      "event_ids": [
+        "2023-08-23 Youth Workshop",
+        "2023-08-25 Mix It Up event"
+      ],
+      "evidence_ids": [
+        "M01-E10",
+        "M01-E18",
+        "M01-E13"
+      ],
+      "status_summary": "已实施：青少年工作坊与 AI 图像；记录不足：Mix It Up",
+      "confidence": "medium_high",
+      "conflicts": [
+        "Mix It Up 仅有时间线记录",
+        "青少年工作坊的 AI 工具名称未单独记录"
+      ],
+      "revision": "v0.1"
+    },
+    {
+      "process_id": "C19-P07",
+      "case_id": "C19",
+      "title": "行动清单定稿、优先级投票与报告发布",
+      "time_range": "2023-08-30—2023-12-11",
+      "narrative": "2023-08-30，Community Event 3.0 在 Mickey’s building 举行，作为最终社区活动，回顾前序会议、展示设计建议并继续收集反馈（M04-E06）。在展示全部场所营造行动后，参与者用记分卡对 10 项短期行动按重要性排序（M01-E19）；报告未给出完整排序表，故不推断具体名次。随后，项目把居民反馈归纳为四类主题（自然启发、艺术文化、明亮色彩、欢迎精神），并把 30 项行动分为 Greenway 4、Pocket Park 4、Public Art 6、Landscape 5、Streetscape 11（M01-E20、M01-E21）。行动表逐项列出位置、牵头/协作方与短/中/长期限；土地银行是多数行动的主要牵头方，部分属 GCRTA 或市府（M01-E22、M01-E23）。报告于 2023-12-11 发布，附录含问卷人口与偏好统计（M01-E25、M01-E26、M01-E27、M01-E28）。报告强调下一步仍需寻求资金与支持（M01-E24）。",
+      "actor_ids": [
+        "Cuyahoga Land Bank",
+        "Seventh Hill",
+        "Agnes Studio",
+        "Layer Cake Design",
+        "East Cleveland residents",
+        "GCRTA",
+        "City of East Cleveland"
+      ],
+      "event_ids": [
+        "2023-08-30 Community Event 3.0",
+        "2023-12-11 最终报告发布",
+        "30 项行动与五类分组"
+      ],
+      "evidence_ids": [
+        "M04-E06",
+        "M01-E19",
+        "M01-E20",
+        "M01-E21",
+        "M01-E22",
+        "M01-E23",
+        "M01-E25",
+        "M01-E26",
+        "M01-E27",
+        "M01-E28",
+        "M01-E24",
+        "M11-E01",
+        "M11-E02"
+      ],
+      "status_summary": "已实施：第三场活动、报告与行动清单；计划：30 项行动本身",
+      "confidence": "high",
+      "conflicts": [
+        "报告第 17 页把 Event 3.0 标为 7-14，与 p.30/M04 的 8-30 冲突",
+        "“more than 30 recommendations”（M11）vs 30 项行动（M01）",
+        "记分卡排序的完整名次未在报告中复原"
+      ],
+      "revision": "v0.1"
+    },
+    {
+      "process_id": "C19-P08",
+      "case_id": "C19",
+      "title": "2024 年早期实施、Mickey’s 剪彩与 Loiter 争议",
+      "time_range": "2024-01—2024-12",
+      "narrative": "2024 年，场所营造行动进入早期实施。项目方 2024-07 回顾称，Mickey’s building 外已安装花箱（M11-E03）；绿道已清表、移除死树并种植新树，但游乐区、步行/骑行道与野餐桌仍在等待招标，计划夏季施工、9 月完成（M11-E04）。绿道资金包括县社区发展补充赠款 5 万美元、市 ARPA 100 万美元与县树冠赠款 5 万美元（M12-E01）；县补充赠款另用于户外长椅（M14-E01）。项目方称将沿绿道种植 30 棵树并已编制树木清单与管理计划（M15-E01），绿道还将加入 Ingenuity 参与者与艺术家 Angelica Pozo 的马赛克石艺（M12-E02）。Mickey’s 的 350 万美元改造于 2024-07-10 剪彩；Loiter 创始人称在出售过程中被换锁、移招牌，县法官在 7 月听证前阻止向 Verdynt 出售；双方于 2024-11-22 宣布和解（M25-E01、M25-E02、M25-E03、M24-E01）。Loiter 已开业，是区内第一家开业企业（M23-E02）。",
+      "actor_ids": [
+        "Cuyahoga Land Bank",
+        "City of East Cleveland",
+        "Cuyahoga County",
+        "Cuyahoga Land Bank Charities",
+        "Loiter Cafe and Marketplace",
+        "Ismail Samad",
+        "Verdynt Bio Labs",
+        "Angelica Pozo",
+        "Ingenuity Cleveland"
+      ],
+      "event_ids": [
+        "2024-05 县补充赠款 5 万美元",
+        "2024-07-10 Mickey’s 剪彩",
+        "2024 绿道清表与种树",
+        "2024-11-22 Loiter 诉讼和解"
+      ],
+      "evidence_ids": [
+        "M11-E03",
+        "M11-E04",
+        "M12-E01",
+        "M14-E01",
+        "M14-E02",
+        "M15-E01",
+        "M12-E02",
+        "M25-E01",
+        "M25-E02",
+        "M25-E03",
+        "M24-E01",
+        "M23-E02"
+      ],
+      "status_summary": "已实施：花箱、绿道清表与种树、长椅赠款、Mickey’s 改造、Loiter 开业、诉讼和解；计划：游乐区/步道/野餐桌、30 棵树、马赛克石艺",
+      "confidence": "high",
+      "conflicts": [
+        "M11 称设施“计划 9 月完成”，但未取得完工证据",
+        "换锁/移招牌为诉状主张，不是法院认定",
+        "M25 称 30 英亩可承载 1.2 亿美元开发，属宣示性表述"
+      ],
+      "revision": "v0.1"
+    },
+    {
+      "process_id": "C19-P09",
+      "case_id": "C19",
+      "title": "2025 年 Phase 1 建设推进与治理争议",
+      "time_range": "2025-01—2025-12",
+      "narrative": "2025 年，Phase 1 建设推进。2025-01，市府官员称计划 2 月前为 4 套住宅破土、4 月建 12 套联排，并在积雪清除后开始污水管与人行道施工（M23-E01）。2025-03-13，The Land 报道 Phase 1 在 Woodlawn Avenue 破土，土地银行拥有约 30 英亩，计划 12 套联排与 21 套独栋，四家建设方参与（M32-E01、M32-E02）。NGBS 案例页称住宅于 2025 年 3 月破土，社区将包含宽人行道、行道树、新地下基础设施，以及一条沿自行车道布置太阳能亭的一英亩线性公园（M27-E01）。项目方 2025-07 的营销文仍称 Phase 1 为 12 套联排与 22 套独栋，并称绿道“建成后”将具备步道、传粉植物、雨洪管理、LED 照明与太阳能长椅（M17-E01、M16-E01）；这些为计划/报道，不是建成证据。与此同时，EJBNEWS 称 2025-10 市议会决议认定 2016 年协议已于 2021-05-24 到期、项目未完成，要求土地银行停止运营（M28-E01、M28-E02）；该主张仅见单一低可靠性来源，未取得决议与协议原件，保留为争议。",
+      "actor_ids": [
+        "Cuyahoga Land Bank",
+        "City of East Cleveland",
+        "East Cleveland City Council",
+        "four private builders"
+      ],
+      "event_ids": [
+        "2025-01 开工计划",
+        "2025-03 Phase 1 破土",
+        "2025-07 项目方发布绿道与 Phase 1 说明",
+        "2025-10 市议会决议（待核）"
+      ],
+      "evidence_ids": [
+        "M23-E01",
+        "M32-E01",
+        "M32-E02",
+        "M27-E01",
+        "M17-E01",
+        "M16-E01",
+        "M28-E01",
+        "M28-E02"
+      ],
+      "status_summary": "已实施：2025-03 破土；计划：12+21/22 套住房、绿道设施；争议：市议会决议与合同到期",
+      "confidence": "medium",
+      "conflicts": [
+        "Phase 1 套数：12+21（M32）vs 12+22（M17）vs 4+12 计划（M23）",
+        "市议会决议仅见 M28，未取得原件",
+        "绿道“once complete”不能证明 2025 年内建成"
+      ],
+      "revision": "v0.1"
+    },
+    {
+      "process_id": "C19-P10",
+      "case_id": "C19",
+      "title": "2026 年 Phase 1 剪彩与绿道建成的回溯核验",
+      "time_range": "2026-07",
+      "narrative": "2026-07-25，NEOtrans 报道 Circle East Phase 1 剪彩：首期投资 460 万美元，土地银行建成或翻新 7 套住宅，18 户现有居民平均获得 1.8 万美元修缮资助；120 万美元的绿道已建成，形成 Woodlawn–Penrose、Brightwood–Wadena 的中段连接，Penrose 一侧沿线设有座椅与自行车架（M26-E01、M26-E02）。该报道用于回溯核验 2025 年底前已发生的建设，不能据此确定具体完工日期，也不把 2026 年新行动纳入案例。",
+      "actor_ids": [
+        "Cuyahoga Land Bank",
+        "City of East Cleveland",
+        "Cuyahoga County"
+      ],
+      "event_ids": [
+        "2026-07-25 Phase 1 剪彩",
+        "绿道建成报道"
+      ],
+      "evidence_ids": [
+        "M26-E01",
+        "M26-E02"
+      ],
+      "status_summary": "已实施（截至 2026-07 报道）：7 套住宅、18 户修缮、绿道建成；完工日期未取得",
+      "confidence": "medium_high",
+      "conflicts": [
+        "2026 年报道超出案例终点，仅作回溯",
+        "绿道实际完工日期未取得"
+      ],
+      "revision": "v0.1"
+    }
+  ]
+}

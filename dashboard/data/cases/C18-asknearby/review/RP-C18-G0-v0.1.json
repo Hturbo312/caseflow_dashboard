@@ -1,0 +1,145 @@
+{
+  "packetId": "RP-C18-G0-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G0",
+  "caseId": "C18",
+  "scope": "方元问问（AskNearby）案例边界、纳入/排除标准与研究问题",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher",
+  "evidenceCutoff": "2026-11-13",
+  "processed": [
+    "事件名称",
+    "可核验时段",
+    "空间范围",
+    "排除项",
+    "证据截止时间",
+    "研究问题草案",
+    "已知来源冲突"
+  ],
+  "notProcessed": [
+    "G1 材料正式登记",
+    "G2 证据逐条定位",
+    "G3 过程重建",
+    "G4 事实拆解",
+    "G5 关系编码",
+    "G6 关系审校"
+  ],
+  "candidates": [
+    {
+      "id": "C18-SCOPE-01",
+      "content": "案例名称：方元问问（AskNearby）大语言模型社区信息服务平台研发与深圳双社区试运行",
+      "evidence": ["S1 摘要与 3.4 节", "S2 C18 图源行"],
+      "factStatus": "unconfirmed",
+      "confidence": "high",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "C18-SCOPE-02",
+      "content": "可核验核心期：2024 年秋季—2025 年 3 月；研发起点与试运行终点不推定",
+      "evidence": ["S1 第 13—14 页", "S1 参考文献检索日"],
+      "factStatus": "unconfirmed",
+      "confidence": "medium-high",
+      "suggestedAction": "discuss"
+    },
+    {
+      "id": "C18-SCOPE-03",
+      "content": "空间核心：北京大学深圳研究生院学术型社区 + 南头古城超高密度混合社区",
+      "evidence": ["S1 3.4 节"],
+      "factStatus": "unconfirmed",
+      "confidence": "high",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "C18-SCOPE-04",
+      "content": "纳入平台技术框架、两处试点、居民/管理者行动、UGC 与治理反馈、作者报告的效果",
+      "evidence": ["S1 第 8—15 页"],
+      "factStatus": "unconfirmed",
+      "confidence": "high",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "C18-SCOPE-05",
+      "content": "规划/展望功能与未证实推广不纳入已实施行动；只能记 planned/unconfirmed",
+      "evidence": ["S1 3.3 节、4 节"],
+      "factStatus": "unconfirmed",
+      "confidence": "high",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "C18-SCOPE-06",
+      "content": "不将“方元”单独实体化；APP 名称与英文名 AskNearby 指向同一平台标识",
+      "evidence": ["S1 3.4 节", "S2"],
+      "factStatus": "unconfirmed",
+      "confidence": "high",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "C18-SCOPE-07",
+      "content": "研究问题草案：技术—能力—行动、进入社区、效果证据边界、治理角色、试点制度化",
+      "evidence": ["研究设计"],
+      "factStatus": "unconfirmed",
+      "confidence": "medium",
+      "suggestedAction": "discuss"
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "来源独立性",
+      "positions": [
+        "当前核心材料仅为张文佳等（2025）论文",
+        "尚无独立评估或平台后台材料"
+      ],
+      "handling": "将效果数字记为作者报告，不写成独立验证的因果结果"
+    },
+    {
+      "topic": "试点时间窗",
+      "positions": [
+        "北京大学深圳研究生院：2024 年秋季、30 天",
+        "南头古城：未载明对应起止时间"
+      ],
+      "handling": "分场所记录，不把 30 天外推至南头古城"
+    },
+    {
+      "topic": "效果指标",
+      "positions": [
+        "论文报告渗透率、活跃峰值、信息获取耗时、人工咨询减少、工单响应提升、线下互动等",
+        "部分指标缺少基线、分母和统计期"
+      ],
+      "handling": "G2 逐条保留原文口径，不合并不同指标"
+    }
+  ],
+  "gaps": [
+    "平台研发启动、上线时间与版本演进",
+    "南头古城试运行时间窗与参与者规模",
+    "平台页面、应用说明或项目方补充材料",
+    "两处试点的机构材料与管理方确认",
+    "独立评估、后台日志或原始问卷/访谈数据"
+  ],
+  "decisionsRequired": [
+    "时间边界：A 2024 年秋季—2025 年 3 月（推荐）/ B 延伸至 2025 年以后 / C 追溯研发全过程",
+    "空间边界：仅两处试点（推荐）/ 纳入其他社区或深圳全市",
+    "效果定位：作者报告（推荐）/ 直接视为已验证效果 / 暂不编码",
+    "研究问题：采用草案 5 问 / 增删或合并"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false,
+    "note": "新增 C18，不修改 C01—C17；C18 编号沿用既有图源台账"
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": null,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "version": "v0.1",
+  "openIssues": [
+    "时间边界",
+    "空间边界",
+    "效果定位",
+    "研究问题"
+  ]
+}

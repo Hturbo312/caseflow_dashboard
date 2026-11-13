@@ -1,0 +1,37 @@
+{
+  "packet_id": "RP-C19-L2-G3-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G3",
+  "case_id": "C19",
+  "scope": "共享概念追加 C19 原生 ID、单案例候选登记、历史映射回查",
+  "generated_at": "2026-11-13",
+  "status": "pending",
+  "counts": {
+    "existing_concepts_updated": 14,
+    "native_ids_appended": 25,
+    "new_candidates": 13,
+    "mappings": 40,
+    "definition_changes": 0,
+    "scope_changes": 0,
+    "historical_mappings_changed": 0
+  },
+  "updated_concepts": ["SC-C01-131","SC-C01-151","SC-C01-161","SC-C01-173","SC-C01-141","SC-C01-152","SC-C01-102","SC-C01-111","SC-C01-114","SC-C01-112","SC-C01-155","SC-C01-171","SC-C01-122","SC-C16-201"],
+  "history_recheck": {
+    "scope": "C01-C16",
+    "result": "no historical mapping changes; append-only",
+    "uncovered": ["C17","C18"]
+  },
+  "decisions_requested": [
+    "Accept 14 append-only updates",
+    "Register 13 single-case candidates",
+    "Confirm no definition/scope changes",
+    "Accept history recheck C01-C16",
+    "Defer DB import",
+    "Use version L2-C19-v1.0"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": true,
+    "affects_historical_mappings": false,
+    "triggers_case_review": true
+  }
+}

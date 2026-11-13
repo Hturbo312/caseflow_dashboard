@@ -1,0 +1,2891 @@
+
+
+===== PAGE 1 =====
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+26 December 2023 
+ 
+REPORT 
+ 
+For the Final Project Evaluation of the Joint 
+Project Healthier Kosovo 2 
+ 
+Ilir Hoxha 
+ 
+ 
+ 
+ 
+ 
+ 
+Project name:  Healthier Kosovo 2 
+Project timeframe:  August 2021 – December 2023 
+Country:  Kosovo 
+Commissioned by:  United Nations Development Program, Kosovo 
+Implementing agencies:  United Nations Development Program, Kosovo 
+  World Health Organization, Kosovo 
+  United Nations Volunteers, Kosovo 
+Funded by:  The Government of the Grand Duchy of  
+ Luxembourg 
+ 
+ 
+ 
+ 
+ 
+
+===== PAGE 2 =====
+ 
+  
+
+===== PAGE 3 =====
+ 
+ACKNOWLEDGEMENTS 
+We want to acknowledge and thank the representatives of implementing partners for their inval-
+uable contributions and support during evaluation preparation and execution as well as insights 
+into the project implementation, including Valbona Bogujevci (UNDP), Enisa Serhati (UNDP), An-
+ton Selitaj (UNDP), Zana Shabani Isenaj (UNDP), Rina Spahiu (UNDP/UNV), Blerim Azizi (UNV), 
+Oleksandr Martynenko (WHO), and Bujar Rexhepi (WHO). We want to thank the representative 
+of the Office of the President, Dora Musa, as well as representatives of the Kosovo government, 
+Izedin Bytzqi (MESPI), Dr. Arsim Qavderbasha  (MoH), for their project support and reflections 
+related to the implementation process. We also thank national institutions representatives Dr Na-
+saer Ramadani (NIPHK), Dr Antigona Ukëhaxhaj (NIPHK), and Agron Shala (KHMI), represent-
+atives of municipal institutions Pranvera Kameri (Prishtina), Adnan Bullatovci (Fushe Kosova), 
+Lulzim Mjekiqi (Obiliq), Dejan Mitic (Gracanica), Official for Environmental Protection, UNDP hired 
+advisors, Agim Mazreku (Advisor to MESPI) and Nezakete Hakaj, (Consultant for LAPAQs), and 
+civil society representatives, Rinor Kurshumliu (7 Arte), Gresa Neziri (SpaceSyntaKS). Finally, 
+H.E. Eric Dietz, Embassy of Luxembourg, Charge d'affairs,  for all project support and valuable 
+comments on the project's inception, design and implementation. 
+Sincerely, 
+Ilir Hoxha, On behalf of the Evaluation Team 
+  
+
+===== PAGE 4 =====
+ 
+  
+
+===== PAGE 5 =====
+ 
+TABLE OF CONTENTS 
+PROJECT AND EVALUATION INFORMATION DETAILS ..................................................... VII 
+LIST OF ACRONYMS AND ABBREVIATIONS ....................................................................... IX 
+EXECUTIVE SUMMARY ............................................................................................................ 1 
+1. INTRODUCTION ........................................................................................................ 3 
+2. INTERVENTION DESCRIPTION ................................................................................ 5 
+3. EVALUATION SCOPE AND OBJECTIVES ............................................................... 7 
+3.1. Evaluation purpose and scope .................................................................................... 7 
+3.2. Evaluation objective .................................................................................................... 7 
+3.3. Evaluation criteria and questions ................................................................................ 8 
+4. EVALUATION APPROACH AND METHODS .......................................................... 11 
+ Evaluation approach .................................................................................................  11 
+ Data collection methods............................................................................................  11 
+ Design of data collection tools .................................................................................. 12 
+ Data analysis ............................................................................................................ 12 
+ Ethical considerations ............................................................................................... 12 
+5. FINDINGS ................................................................................................................ 13 
+ Project design & contextual relevance ...................................................................... 13 
+ Project's effectiveness .............................................................................................. 15 
+ Project efficiency....................................................................................................... 21 
+ Project sustainability .................................................................................................  22 
+ Stakeholders and partnership strategy ...................................................................... 24 
+ Theory of Change or results/outcome map ............................................................... 25 
+ Human rights ............................................................................................................ 26 
+ Criteria: Gender ........................................................................................................ 27 
+6. CONCLUSIONS ....................................................................................................... 28 
+ Project design & contextual relevance ...................................................................... 28 
+ Project's effectiveness .............................................................................................. 28 
+ Project efficiency....................................................................................................... 28 
+ Project sustainability .................................................................................................  28 
+ Stakeholders and partnership strategy ...................................................................... 29 
+ Theory of Change or results/outcome map ............................................................... 29 
+ Human rights ............................................................................................................ 29 
+ Criteria: Gender ........................................................................................................ 29 
+7. LESSONS LEARNED .............................................................................................. 30 
+8. RECOMMENDATIONS ............................................................................................  33 
+ Planning and implementation .................................................................................... 33 
+ Programmatic improvements .................................................................................... 33 
+ Ideas for new interventions/actions ........................................................................... 33 
+
+===== PAGE 6 =====
+ 
+APPENDIX 1. TERMS OF REFERENCE FOR EVALUATION ................................................. 35 
+APPENDIX 2. EVALUATION MATRIX ....................................................................................... 1 
+APPENDIX 3. INTERVIEW GUIDE ............................................................................................  1 
+APPENDIX 4. LIST OF INDIVIDUALS INTERVIEWED .............................................................. 1 
+APPENDIX 5. LIST OF SUPPORTING DOCUMENTS REVIEWED ........................................... 1 
+APPENDIX 6. CODE OF CONDUCT ......................................................................................... 2 
+ 
+ 
+  
+
+===== PAGE 7 =====
+ 
+PROJECT AND EVALUATION INFORMATION DETAILS  
+Project/outcome Information 
+Project/outcome title Healthier Kosovo 2 
+Atlas ID 00124572 
+Corporate outcome and output   Joint Project Outcome(s): By 2025, women and men in Kosovo, particu-
+larly youth and vulnerable groups, will have increased access to decent 
+work and benefit from sustainable and inclusive economic development 
+that is more resilient to impacts of climate change, disasters and emer-
+gencies.  
+Country Kosovo 
+Region Europe 
+Date project document signed  
+Project dates 
+Start Planned end 
+August  01, 2021 December 3115, 2023 
+Project budget 970,000 EUR 
+Project expenditure at the time 
+of evaluation 
+970,000 EUR 
+Funding source The Government of the Grand Duchy of  
+ Luxembourg 
+Implementing party United Nations Development Program, Kosovo 
+ World Health Organization, Kosovo 
+ United Nations Volunteers, Kosovo 
+ 
+Evaluation information 
+Evaluation type (project/ out-
+come/thematic/country pro-
+gramme, etc.) 
+Project evaluation 
+Final/midterm review/ other Final evaluation 
+Period under evaluation Start End 
+August  01, 2021 December  31, 2023 
+Evaluators Ilir Hoxha 
+Evaluator email address ilir.s.hoxha@gmail.com 
+Evaluation dates Start Completion 
+ October 20, 2023 December 15, 2023 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== PAGE 8 =====
+ 
+ 
+ 
+  
+
+===== PAGE 9 =====
+ 
+LIST OF ACRONYMS AND ABBREVIATIONS 
+CSOs Civil Society Organizations 
+DCO Development Coordinator's Office  
+DIM Direct Implementation Modality 
+E&H Environment and Health 
+EBRD European Bank for Reconstruction and Development  
+ECEH European Center for Environment and Health  
+EU European Union 
+HK Healthier Kosovo 
+HCWs Health Care Workers 
+JP Joint Project 
+GIZ Deutsche Gesellschaft für Internationale Zusammenarbeit  
+JICA Japan International Cooperation Agency  
+KCCCS Kosovo's Climate Change Council Secretariat  
+KEN Kosovo Environmental Network  
+KEPA Kosovo Environmental Protection Agency  
+KHI Kosovo Hydrometeorological Institute  
+MCC Millenium Challenge Corporation  
+MEE Ministry of Economy and Environment  
+MESPI Ministry of Environment, Spatial Planning and Infrastructure  
+MFK Millennium Foundation Kosovo  
+MoH Ministry of Health 
+MoU Memorandum of Understanding  
+MPTF Multi-Partner Trust Fund 
+NIPHK National Institute of Public Health of Kosovo of Kosovo  
+OECD-DAC Organisation for Economic Co-operation and Development - Development Assistance Com-
+mittee 
+PM Particulate Matter 
+PSC Project Steering Committee 
+UNDC UN Development Coordinator 
+UNDG  UN Development Group 
+SDC Swiss Agency for Development Cooperation  
+SDGs Sustainable Development Goals  
+SOPs Standard Operating Procedures  
+TOR Terms of Reference 
+TOT Training of Trainers 
+UHCSK University Hospital and Clinical Service of Kosovo  
+UNSDCF United Nations Sustainable Development Cooperation Framework  
+UNDG United Nations Development Group  
+UNDP United Nations Development Programme  
+UNEG United Nations Evaluation Group 
+UNEO United Nations Ethics Office 
+UNKT United Nations Kosovo Team 
+UNV United Nations Volunteers 
+WB World Bank 
+WHO World Health Organization 
+
+===== PAGE 10 =====
+ 
+ 
+
+===== PAGE 11 =====
+ 
+ 
+EXECUTIVE SUMMARY 
+The Healthier Kosovo (HK) project, initiated in 2017 as a joint effort by the United Nations Devel-
+opment Programme (UNDP), United Nations Volunteers (UNV), and World Health Organization 
+(WHO), focused on addressing the impact of air pollution on human health in Kosovo. The project 
+has successfully catalysed institutional coordination, built community engagement, and raised 
+public awareness through various campaigns. The Healthier Kosovo 2 (HK2) aimed to reduce the 
+burden of environment -related diseases further , aligning with Sustainable Development Goals 
+(SDGs) and WHO principles for a Healthy Recovery from COVID -19. HK2 outlined specific out-
+comes and outputs, emphasising reducing exposure to air pollution and managing health threats 
+from medical waste. The project's implementation follow ed a joint approach with pass -through 
+funding and interconnected activities guided by a Project Steering Committee (PSC). Strategic 
+assumptions, including continuity amid central elections and flexibility in response to COVID-19, 
+underpinned the project's strategy. Kosovo's progress in climate change, legislative advance-
+ments, and international engagement reflect its commitment to global climate action. The project 
+addressed cross-cutting issues, such as gender equality and human rights, ensuring inclusivity.  
+The evaluation of the H K2 project aims to provide a comprehensive assessment, offering evi-
+dence and insights to inform decision- making for various stakeholders, including policymakers, 
+funders, and implementing partners. It encompasses an analysis of achievements, challenges, 
+and lessons learned, contributing to the program unit's evaluation plan and enhancing overall 
+strategy and effectiveness. Through a nuanced examination that covers specific regions and tar-
+get groups, the evaluation involves collaboration with the program team, incorporating a thorough 
+desk review, field visits, and interviews with key stakeholders. The final, gender-responsive eval-
+uation of HK2 is intended to review relevance, efficiency, effectiveness, sustainability, results, and 
+overall impact, adhering to UN norms. It seeks to gather perceptions and data from partners, 
+stakeholders, and beneficiaries, analysing factors influencing progress and identifying unintended 
+outcomes. Criteria for evaluation include project design, effectiven ess, efficiency, sustainability, 
+stakeholders and partnership strategy, Theory of Change, human rights, and gender considera-
+tions. The insights derived from this evaluation will provide a valuable understanding of the pro-
+ject's strengths, weaknesses, and impact, guiding future strategies for environmental and health 
+initiatives in Kosovo. 
+The evaluation of the HK2 project employed a comprehensive and ethical approach aligned with 
+UNDP standards. The methodology followed recognised frameworks, including UNEG Evaluation 
+Guidelines and OECD-DAC Criteria, ensuring credibility and integrity. Emphasising human rights, 
+gender equality, and protection, the evaluation demonstrated a commitment to socially responsi-
+ble research. Data collection methods involved document reviews  and interviews, adopting a 
+pragmatic mixed-method approach to triangulate f indings. The extensive desk review provided 
+essential context, and in- depth interviews with key stakeholders and existing quantitative data 
+contributed to a nuanced understanding. While the planned focus group discussions were recon-
+sidered, a gender-balanced set of 23 interviews was conducted. Thematic analysis guided data 
+processing, and a triangulation approach enhanced reliability. Each respondent provided consent, 
+ensuring ethical conduct and the credibility of the evaluation. The findings not only identified les-
+sons learned but also proposed well-informed recommendations. 
+The HK2 project emerges from a comprehensive evaluation as a well-designed, contextually rel-
+evant initiative. Aligned with Kosovo's urgent health and environmental needs, particularly accen-
+tuated during the COVID-19 pandemic, the project's interconnected focus on environmental and 
+public health underscores its ongoing importance. Its objectives harmonise with Kosovo's climate 
+initiatives, legislative progress, and international commitments, positioning it as a relevant con-
+tributor to the nation's sustainable development amid climate challenges. The project has proven 
+effective in addressing the needs of diverse target groups through collaborative efforts with gov-
+
+===== PAGE 12 =====
+ 
+ernment entities, donors, and municipalities. Its commitment to gender equality, proactive envi-
+ronmental engagement, and rigorous procedures ensured its effectiveness and adaptability, fo-
+cusing on innovative waste management and establishing a solid foundation for future endeav-
+ours. 
+The evaluation further highlights the project's efficiency in implementation, demonstrating an 
+adept approach to resource utilisation  and a commitment to avoiding duplication of efforts. The 
+project's sustainability efforts have laid the foundations for lasting benefits beyond immediate ac-
+tivities, fostering collaboration in capacity building and policy development. While concerns about 
+the project's duration exist, it has showcased resilience within supportive legal frameworks and 
+governance structures. Stakeholder engagement and partnership strategies have been robust, 
+with the project effectively aligning with governmental policies, fostering valuable collaborations, 
+and ensuring efficient cooperation arrangements. The evaluation validates the Theory of Change, 
+emphasising its feasibility and realism, providing essential insights for future strategies. The pro-
+ject has proactively integrated gender considerations and human rights principles, showcasing a 
+commitment to inclusivity, empowerment, and social justice. Overall, the HK 2 project is  a suc-
+cessful and impactful initiative, contributing significantly to environmental health and sustainability 
+in Kosovo. 
+From a thorough evaluation, the recommendations offer practical guidance for the HK 2 project 
+and potential future initiatives, emphasising sustainability and project exit strategies. These rec-
+ommendations address various aspects, systematically categorised into planning and implemen-
+tation, programmatic improvements, and ideas for new interventions. In the planning and imple-
+mentation, suggestions include enhancing early planning and engagement, adaptability through 
+contingency planning, fostering multi-stakeholder engagement, and establishing robust commu-
+nication channels. Programmatic improvements are proposed through capacity building, health 
+impact assessments, innovative community engagement, sustainability via institutionalisation, 
+and strategic resource allocation. This category also highlights the importance of continuous gen-
+der mainstreaming, periodic evaluation, and long- term advocacy. Ideas for new interventions 
+span institutional capacity building, Heat Action Plans, broadening project scope, involving even 
+more students and volunteers, promoting public space prototypes, adapting to changing circum-
+stances, and fostering cultural change.  
+ 
+  
+
+===== PAGE 13 =====
+ 
+1. INTRODUCTION 
+This evaluation seeks to comprehensively assess all project aspects, covering its planning and 
+implementation phases. The primary objective is to review and evaluate the project's relevance, 
+efficiency, effectiveness, sustainability, results, and overall impact. Based on these assessments, 
+strategic recommendations will be formulated to guide future decision-making in environment and 
+health for participating UN agencies and project stakeholders, aligning with the United Nations' 
+Norms and Standards for Eval uation to ensure a rigorous and comprehensive approach. The 
+evaluation process will thoroughly examine the project area, collecting perceptions, aspirations, 
+feedback, and relevant data from partners, stakeholders, and beneficiaries. An objective analysis 
+of this data will provide valuable insights into the project's implementation, aiming to identify key 
+factors that either facilitated or hindered its progress. Furthermore, the evaluation will scrutinise  
+the program's overall performance and impact, sheddi ng light on both intended and unintended 
+outcomes. The final evaluation's objectives include assessing the project results against the 
+planned goals and objectives and evaluating their relevance, effectiveness, efficiency, sustaina-
+bility, and impact, with special attention to identifying any unintended program results. The eval-
+uation aims to extract valuable lessons from the project's implementation and formulate strategic, 
+forward-looking recommendations to guide further support in Kosovo's environmental and health 
+activities. 
+Several criteria are crucial for understanding the project's significance and impact. Firstly, the 
+assessment of project design & contextual relevance addresses why the project is tailored to the 
+specific needs and challenges of the Kosovo community, evaluating its appropriateness in ad-
+dressing local environmental and health issues. Effectiveness becomes pivotal as it  delves into 
+whether the project achieved its objectives and delivered the intended outcomes. It offers insights 
+into tangible results like air pollution reduction, public awareness enhancement, and improved 
+institutional capacities. Project efficiency is essential for determining how efficiently resources, 
+including time, budget, and team, were utilised  to ensure cost-effective interventions and maxi-
+mum impact. Sustainability is essential for evaluating the project's long- term positive outcomes 
+and exploring whether initiatives can persist beyond project completion through community in-
+volvement or institutionalisation. Stakeholders and partnership strategy are vital for assessing the 
+inclusivity of the project's approach, ensuring diverse perspectives are c onsidered, and partner-
+ships are leveraged effectively. Scrutinising  the Theory of Change or r esults/outcome map pro-
+vides a logical framework for understanding how interventions bring about positive environmental 
+and health practice changes. Integrating Human rights and Gender considerations ensures the 
+project respects human rights principles and promotes gender equality, addressing disparities 
+and ensuring equal access to benefits. By comprehensively evaluating these criteria, the assess-
+ment provides valuable insights into the project's strengths, weaknesses, and overall impact, in-
+forming future strategies and decision-making processes in the realm of environment and health 
+in Kosovo. 
+The evaluation caters to a diverse audience, including the Embassy of Luxembourg in Kosovo, 
+implementing partners, institutional partners at national and local levels, and other project collab-
+orators. The key objectives involve extracting lessons learned, understanding project effective-
+ness, sustainability, and efficiency, and identifying best practices and project relevance. The Em-
+bassy of Luxembourg seeks to align its investment with project goals and inform future funding 
+decisions. Implementing partners aim to enhance their strategies for future project implementa-
+tion. In contrast, institutional partners at national and local levels aim to assess the project's im-
+pact on the community and improve collaboration efficiency. Other partners seek insights into 
+project effectiveness, sustainability, and relevance for future engagements. Th e anticipated use 
+of the evaluation results is primarily to design new interventions. The lessons learned, effective 
+strategies, sustainability assessments, efficiency insights , best practices, and project relevance 
+collectively serve as a foundation for stakeholders to refine and tailor future interventions, ensur-
+ing informed decision-making, improved strategies, and more impactful, sustainable projects in 
+
+===== PAGE 14 =====
+ 
+Kosovo. 
+The Healthier Kosovo 1 project, initiated in 2017 as a joint effort between the UNDP, UNV, and 
+the WHO, represents a pioneering initiative in the intersection of environment and health in Ko-
+sovo. Focused on addressing air pollution and its impact on human health, the project has 
+achieved notable success in catalysing  institutional coordination, building an active community 
+through initiatives like the Kosovo Environmental Network (KEN), and raising public awareness 
+through campaigns like #ecokosovo2 and #ec okosovo3. Key institutional stakeholders  have 
+played crucial roles, including the Ministry of Health (MoH) and the Ministry of Economy and 
+Environment (MEE). Responding to the COVID-19 crisis in 2020, the project redirected funds to 
+procure essential medical equipment. As the first phase concluded, the Healthier Kosovo 2 aimed 
+to further reduce the burden of environment -related diseases, focusing on addressing air pollu-
+tion, COVID-19 waste management, and the impacts of climate change. Aligned with Sustainable 
+Development Goals and the WHO Manifesto, HK2 s ought to ensure healthy lives, promote sus-
+tainable cities, and combat climate change. The project also support ed Kosovo's environmental 
+protection laws by enhancing public access to information and fostering participation. HK2 pro-
+vided technical assistance to institutions, accelerated legal and institutional frameworks, and col-
+laborated with the public and Civil Society Organizations to raise awareness and develop capac-
+ities. Notably, the project recognises the disproportionate impact of environmental issues on 
+women and underserved communities, emphasising the social and gender benefits of investing 
+in environmental mitigation. 
+The report is structured to inform readers, beginning with a detailed intervention description. This 
+is followed by an extensive elaboration of the evaluation scope, clarifying the parameters and 
+objectives. The methods and data analysis are thoroughly outlined, ensuring transparency and 
+replicability. Key findings are presented, offering a concise overview of the evaluation outcomes. 
+The report then delves into conclusions drawn from the evaluation, highlight ing the significance 
+of the findings. Lessons learned from the intervention are articulated, providing valuable insights 
+for future initiative s. Recommendations are presented to guide future decision- making and ac-
+tions. Overall, this structured presentation addresses the diverse needs of the report's intended 
+users, offering a comprehensive knowledge of the intervention, its evaluation scope, methodolo-
+gies employed, key findings, conclusions, lessons learned, and actionable recommendations. The 
+added appendixes serve as a valuable resource for those requiring more nuanced details, ensur-
+ing that the report meets the specific information needs of its audience. 
+  
+
+===== PAGE 15 =====
+ 
+2. INTERVENTION DESCRIPTION 
+The Healthier Kosovo 1 (HK1) project, initiated in 2017 as a joint effort by the UNDP, UNV, and 
+WHO, focused on addressing the impact of air pollution on human health in Kosovo. The project 
+has successfully catalysed institutional coordination, built community engagement, and raised 
+public awareness through various campaigns. The key stakeholders include the Ministry of Health 
+(MoH) and the Ministry of Economy and Environment (MEE). 
+HK2 aimed to reduce further the burden of environment-related diseases, including those stem-
+ming from air pollution, COVID- 19-related waste, and the impacts of climate change on health. 
+The project aligns with the United Nations Sustainable Development Goals (SDGs), specifically 
+targeting SDG 3, SDG 11, and SDG 13. It also adheres to the principles of the WHO Manifesto 
+for a Healthy Recovery from COVID-19. 
+The proposed intervention sought to benefit from the support of the Embassy of Luxembourg and 
+involved implementing partners UNDP, UNV, and WHO, along with institutional and other project 
+partners. The overarching objective was to enhance the resilience of Kosovo's population to en-
+vironmental health threats. 
+The objective of Healthier Kosovo 2 aligns with the Kosovo United Nations Sustainable Develop-
+ment Cooperation Framework 2021- 2025, focusing on priority area 3. This priority aims to en-
+hance access to decent work, especially for youth and vulnerable groups,  fostering sustainable 
+and inclusive economic development resilient to climate change, disasters, and emergencies. 
+The project also contributed directly to outcome 3 of the "Results and Resources Framework for 
+Kosovo* 2021-2025," which focuses on building resilience to shocks and crises. Specific activities 
+outlined in the Results Framework aim ed to ensure the achievement of the project's outcomes 
+and outputs. 
+The project aimed to achieve these through two main outputs: (1) reducing exposure to air pollu-
+tion and climate-related health threats and (2) mitigating health threats from medical waste. The 
+former involved building on the achievements of the first phase, addressing gaps in policy en-
+forcement, local governance, and public awareness. Special attention was given to household air 
+pollution, with interventions targeting institutional capacity building and community awareness. 
+The second output focuses on managing medical waste, particularly infectious waste generated 
+during health emergencies like the COVID-19 pandemic. The project aimed to establish effective 
+waste management protocols, train healthcare workers, and improve overall waste management 
+systems in health facilities. Through these activities, HK2 aimed to contribute to the overall well-
+being of the Kosovo population, aligning with national and international sustainable development 
+priorities. 
+The project implementation followed a joint approach with pass -through funding and intercon-
+nected activities, emphasising the importance of a functional governance structure. At the strate-
+gic level, the PSC play ed a crucial role in providing overall guidance and strategic direction. 
+Chaired by the Development Coordinator and high-level representatives from relevant ministries, 
+UNDP, UNV, WHO, and the donor, the PSC ensured consensus-based decision-making. Regular 
+meetings monitored progress, decided on strategic directions,  and assessed project relevance 
+and effectiveness. At the implementation level, UNDP, UNV, and WHO managed individual and 
+joint activities within their frameworks, with UNDP serving as the convening agent. The PSC, as 
+part of the Quality Assurance process, reviewed project progress, addressed vital questions, and 
+performed three functions: Executive (UNDP with UNV and WHO), Senior Supplier (Government 
+of Luxembourg/The Embassy of Luxembourg), and Beneficiary (national stakeholders). Ongoing 
+communication among key representatives ensured the high-quality delivery of project outputs. 
+The project's strategy is underpinned by critical assumptions to mitigate potential risks. In the face 
+of changes due to central elections, where priorities of environment and health institutions tend 
+to shift, the project assumed  continuity by collaborating with permanent staff, maintaining the 
+focus on advancing the environmental and health agenda. The project took  a flexible approach 
+
+===== PAGE 16 =====
+ 
+to address the impact of the COVID-19 outbreak, potential hindrances to physical gatherings, and 
+disruptions to programmatic planning and implementation. It anticipate d that central institutions 
+would be open to adapting to alternative implementation methods, such as online teleconferenc-
+ing tools, and that the COVID -19 epidemiological situation would remain stable based on past 
+project experiences. 
+Kosovo's Climate Change Council Secretariat (KCCCS) has made significant strides since its 
+establishment in 2022, as evidenced by the outcomes of the 6th meeting held in September 2023. 
+Kosovo's progress in climate change aligns with national priorities, UNSDCF 2021-2025 priorities, 
+corporate multi-year funding frameworks, and Strategic Plan goals. In its commitment to combat 
+climate change, Kosovo has implemented legislative improvements, including the approval of 
+crucial laws such as the Law on Climate Change and the Law on Building Energy Performance. 
+The National Climate and Energy Plan, supported by GIZ and the German Economics Team, 
+further underscores Kosovo's dedication. The engagement in international forums such as 
+COP27 and participation in projec ts like the GEF regional initiative on the Drin Basin phase 2 
+demonstrate Kosovo's commitment to global climate action. Legislative advancements, adapta-
+tion measures, and international engagement collectively position Kosovo's climate agenda within 
+broader frameworks, contributing to a sustainable and resilient future. 
+The HK2 project addressed several cross-cutting issues to ensure its inclusivity and effective-
+ness. It strongly emphasises gender equality, human rights, and the inclusion of marginalised 
+groups, aligning with broader goals of leaving no one behind. The project sought to create a more 
+equitable and sustainable impact by incorporating these considerations into its intervention strat-
+egies. The total resources allocated, amounting to 970,000 EUR, encompass financial and human 
+resources, reflecting the commitment to robust implementation. 
+The project operated in a complex social, political, economic, and institutional landscape in Ko-
+sovo. The region faces environmental challenges intertwined with these factors, necessitating a 
+nuanced approach to intervention. Kosovo's social and political context and economic factors 
+present challenges and opportunities for the project's implementation. The geographic landscape 
+further adds intricacies to the intervention, demanding a tailored response to local conditions. 
+Despite its noble goals, the project encounters design weaknesses, particularly the challenge of 
+being a small project addressing substantial environmental objectives. This imbalance in scale 
+poses implementation constraints, requiring strategic planning t o maximise impact within re-
+source limitations. Identifying and addressing these design weaknesses will be crucial for opti-
+mising the intervention's logic and overcoming challenges, ultimately ensuring the project's suc-
+cess in contributing to Kosovo's environmental goals.  
+
+===== PAGE 17 =====
+ 
+3. EVALUATION SCOPE AND OBJECTIVES 
+3.1. Evaluation purpose and scope 
+The evaluation aims to assess the program's effectiveness and impact, providing valuable evi-
+dence and insights to inform decision- making processes. Its scope encompasses a thorough 
+analysis of the program's achievements, challenges, and lessons learned, with the results serving 
+a diverse range of stakeholders, including program managers, policymakers, funders, and imple-
+menting partners. Policymakers will utilise the evaluation outcomes to shape policy decisions and 
+allocate resources, while funders will gauge the program's impact to decide on continued funding. 
+Additionally, the evaluation will significantly contribute to the program unit's evaluation plan, of-
+fering essential data and insights for ongoing monitoring and evaluation efforts. By aligning with 
+the program unit's evaluation plan, this assessment will bolster the overall evaluation strategy, 
+enhancing the program's effectiveness in achieving its objectives. 
+The evaluation comprehensively covers various aspects of the intervention, providing a nuanced 
+assessment of its effectiveness and impact. This analysis spans the entire project duration, delv-
+ing into different stages of implementation to understand progress, challenges, and outcomes at 
+each phase. It focuses on specific regions or communities where the intervention operates and 
+identifies the primary and secondary target groups, including particular demographics, beneficiar-
+ies, or stakeholders directly or indirectly influenced by the intervention. The assessment encom-
+passes a wide array of activities to ensure a comprehensive understanding of the impact of indi-
+vidual components within the broader intervention. 
+The evaluation w as performed in close collaboration with the Program team. This process in-
+volved a thorough desk review of project-related documents and UNDP evaluation policies, con-
+tributing to the inception report. The report outlines the chosen methodology, work plan, technical 
+instruments, and evaluation questions. On-site field visits, meetings, discussions, and interviews 
+with key stakeholders, including government ministries, educational institutions, CSOs, and ben-
+eficiaries, were conducted. The Evaluation Team also conduct ed interviews and meetings with 
+UNDP senior management and the HK2 team. 
+The evaluation report was finalised based on feedback received from implementing partners. This 
+comprehensive report includes sections detailing the evaluation's methodology, findings, conclu-
+sions, and strategic recommendations. The recommendations are  addressed to specific project 
+partners, ensuring targeted and actionable insights. 
+3.2. Evaluation objective 
+This evaluation is intended to comprehensively assess all aspects of the Project, including its 
+planning and implementation phases. The primary objective of this final evaluation is to review 
+and evaluate the relevance, efficiency, effectiveness, sustainability, results, and overall impact of 
+the Project. Strategic recommendations would be formulated based on these assessments, guid-
+ing future decision-making in environment and health for participating UN agencies and project 
+stakeholders. The evaluation process would adhere to the United Nations' Norms and Standards 
+for Evaluation, ensuring a rigorous and comprehensive approach. 
+The evaluation comprehensively views the project area, gathering perceptions, aspirations, feed-
+back, and relevant data from partners, stakeholders, and beneficiaries. This data was supposed 
+to undergo objective analysis, providing valuable insights into the project's implementation. The 
+evaluation aims to identify key factors that have either facilitated or hindered the project's pro-
+gress. Furthermore, it scrutinises the overall performance and impact of the program, shedding 
+light on both intended and unintended outcomes. 
+The objectives of this final evaluation encompass assessing the project results against the 
+planned goals and objectives and evaluating their relevance, effectiveness, efficiency, sustaina-
+bility, and impact. Additionally, the evaluation aims to extract valuable lessons from the project's 
+
+===== PAGE 18 =====
+ 
+implementation and draw strategic, forward-looking recommendations. These recommendations 
+will guide further support in Kosovo's environmental and health activities. 
+3.3. Evaluation criteria and questions 
+The evaluation of the project focuses on several key criteria to provide a comprehensive analysis 
+of its impact and effectiveness. Firstly, Project design & contextual relevance to determine how 
+well the project was tailored to the specific needs and challenges of the Kosovo community. This 
+criterion evaluates the appropriateness of the project's design in addressing local environmental 
+and health issues. Secondly, effectiveness examines how the project achieved its objectives and 
+delivered the intended out comes. This assessment delves into the project's tangible results, 
+measuring its success in reducing air pollution, enhancing public awareness, and improving insti-
+tutional capacities. Project efficiency is also a key criterion, evaluating how efficiently the project 
+utilised its resources, including time, budget, and team. The assessment also focuses on the cost-
+effectiveness of the interventions, ensuring that resources are optimised to achieve maximum 
+impact. Sustainability was another vital aspect, examining the project's ability to maintain its pos-
+itive outcomes over the long term. This criterion assess es whether the project's initiatives and 
+improvements can continue after completion through community involvement, institutionalisation, 
+or other means, ensuring lasting benefits for the Kosovo community. Stakeholders and Partner-
+ship Strategy were evaluated to determine the effectiveness of the project's collaboration with 
+various stakeholders, including government entities, civil society organisations, and local commu-
+nities. The assessment focuses on the inclusivity of the project's approach, ensuring that diverse 
+perspectives are considered and partnerships are leveraged effectively. Additionally, the evalua-
+tion scrutinises the Theory of Change or Results/Outcome Map to understand the logical frame-
+work guiding the project. It assesses the causal linkages between project activities, outputs, out-
+comes, and impacts. It provides  insights into how the project's interventions were expected to 
+bring about positive environmental and health practice changes. Human rights and Gender con-
+siderations were also integrated into the evaluation, examining whether the project respected 
+human rights principles and promoted gender equality. This assessment ensures that the project 
+addresses gender disparities, empowers women, and ensures equal access to benefits for all 
+community members, irrespective of gender or background. By thoroughly evaluating these cri-
+teria, the assessment provides  valuable insights into the project's strengths, weaknesses, and 
+overall impact, informing future strategies and decision- making processes in the realm of envi-
+ronment and health in Kosovo. 
+Criteria: Project design & contextual relevance 
+The evaluation scrutinised the project's design and contextual relevance by considering various 
+factors. It assessed the validity of the project's objectives, examining whether they were still rele-
+vant and aligned with the community's current needs. Cross-cutting issues such as environment, 
+gender equality, women's empowerment, a human rights-based approach, and social standards 
+were evaluated to determine their integration within the project's framework. The assessment 
+explored whether the project effectiv ely addressed the unique needs of job seekers and how 
+gender equality was incorporated, including overcoming any obstacles encountered during im-
+plementation. Additionally, the evaluation examined if procedures and beneficiaries were re-
+spected and integrated into the program. The appropriateness of the project's design in achieving 
+its intended results and outcomes was analysed, considering any modifications made during im-
+plementation and their impact on design improvements. Furthermore, the evaluation asses sed 
+the clarity and effectiveness of coordination, management, and financing arrangements, evaluat-
+ing their contribution to institutional strengthening and local ownership within the program. 
+Criteria: Project's effectiveness 
+The evaluation assessed the project's effectiveness by evaluating the extent to which the project 
+outputs were achieved and if they progressed as planned within the program timeline. It analysed 
+the factors influencing the progress or delays in attaining products and results, identifying good 
+practices, successful experiences, or transferable examples. The evaluation also examined the 
+
+===== PAGE 19 =====
+ 
+quality of interventions and results obtained in collaboration with key project stakeholders. Addi-
+tionally, it investigated whether any changes in the overall context in Kosovo impacted project 
+implementation and overall results, providing insights into the project's adaptability and resilience 
+in response to changing circumstances. 
+Criteria: Project efficiency 
+The evaluation assessed project efficiency by examining the effectiveness of support provided to 
+project beneficiaries by implementing partners and evaluating the active involvement of the target 
+population in program implementation, exploring the various modes of participation. It analysed 
+the factors influencing progress or delays in achieving products and results, identifying good prac-
+tices, successful experiences, or transferable examples. The evaluation also scrutinised the qual-
+ity of interventions and results obtained with main project stakeholders, evaluating the timely im-
+plementation of activities within planned financial resources. Moreover, it investigated the pres-
+ence of any duplication of efforts among stakeholders and implementing partners, assessing how 
+coordination was managed between these bodies and partners to avoid redundancy.  
+Criteria: Project sustainability 
+The evaluation scrutinised the project's sustainability by assessing whether it had established 
+conditions to ensure the benefits continued beyond the project activities. It analysed the institu-
+tionalisation of overall capacity development efforts, examining whether an approach or model 
+had been developed that could be disseminated throughout Kosovo. The evaluation questioned 
+the adequacy of the project's duration to ensure the sustainability of interventions  and explored 
+contemporary and innovative approac hes introduced by the project to address unemployment 
+issues. It investigated how the project provided the sustainability of its results and impacts, in-
+cluding strengthened capacities and improved practices. Additionally, the evaluation assessed 
+potential risks posed by legal frameworks, policies, and governance structures that could jeop-
+ardise the sustainability of project benefits. It also evaluated the level of stakeholders' ownership, 
+determining whether it was sufficient to sustain the project benefits  in the long term, providing 
+crucial insights into the project's sustainability efforts and potential recommendations for future 
+strategies and programs. 
+Criteria: Stakeholders and partnership strategy 
+The evaluation assessed aligning the project's objectives and outcomes with governmental and 
+sectoral policies, ensuring consistency and support. It examined the extent to which partnerships 
+were actively sought and established, evaluating the synergies created in delivering assistance. 
+Stakeholder support for the project's long-term objectives was gauged, considering the efficiency 
+and satisfaction of cooperation arrangements between the Project Team, public institutions, and 
+the private sector. The evaluation analysed the quality and timeliness of partners' inputs, deter-
+mining whether partners had fulfilled their responsibilities effectively. It also explored the project's 
+contribution to the UN Country Strategy and identified new partners that had emerged unexpect-
+edly. Additionally, the evaluation scrutinised the project's adherence to commitments promoting 
+local ownership, alignment, harmonisation, management for development results, and mutual ac-
+countability, providing valuable insights into the effectiveness of the project's partnership strategy. 
+Criteria: Theory of Change or results/outcome map 
+The evaluation thoroughly examined the project's Theory of Change or logic model in the past. It 
+scrutinised its feasibility and realism by evaluating the underlying assumptions, factors, and risks 
+considered during its formulation. This analysis aimed to uncover the strengths and potential 
+weaknesses of the project's conceptual framework, providing critical ins ights into its design and 
+approach. The evaluation assessed the assumptions' adequacy and how effectively risks and 
+factors were integrated into the model. 
+Criteria: Human rights  
+
+===== PAGE 20 =====
+ 
+The evaluation meticulously examined the extent to which the project upheld human rights prin-
+ciples, particularly focusing on vulnerable and marginalised populations such as poor communi-
+ties, minority groups, individuals with physical disabilities, and women. This scrutiny aimed to 
+assess the inclusivity and equity of the project's interventions, determining whether these disad-
+vantaged groups genuinely benefited from the initiatives. By analysing the outcomes and impacts 
+on these vulnerable communities, the evaluation shed light on the project's success in promoting 
+social justice, equality, and the fulfilment of human rights. Furthermore, this assessment gauged 
+the tangible benefits these groups received and  delved into the project's approach to ensuring 
+their active participation, inclusion, and representation throughout the implementation process. 
+The evaluation explored the measures taken to address the unique challenges faced by these 
+communities, examining whether the project's strategies had effectivel y empowered them and 
+improved their overall well-being.  
+Criteria: Gender 
+The evaluation critically assessed the integration of gender equality and women's empowerment 
+throughout the project's design, implementation, and monitoring phases. It examined the extent 
+to which the project effectively addressed gender disparities and promoted women's empower-
+ment, evaluating the accuracy and representativeness of the gender marker data assigned to the 
+project. Additionally, the evaluation scrutinised the project's impact on positive changes in gender 
+equality, considering both intended outcomes and unintended effects. By exploring these dimen-
+sions, the assessment provided a comprehensive analysis of the project's efforts in fostering gen-
+der equality and women's empowerment, highlighting successful strategies and identifying areas 
+for improvement. 
+  
+
+===== PAGE 21 =====
+ 
+4. EVALUATION APPROACH AND METHODS 
+ Evaluation approach 
+The proposed methodology was aligned closely with the UNDP approach to evaluations outlined 
+in the UNDP Evaluation Guidelines 2021. This ensured that the evaluation adhered to well-estab-
+lished standards and guidelines, including the UNEG Evaluation Guidelines, OECD-DAC Criteria 
+for Evaluating Development Assistance, UNEG Guidelines for Integrating Human Rights and 
+Gender Equality in Evaluations, and other pertinent United Nations Ethics Office (UNEO) guide-
+lines. By following these recognised  frameworks, the evaluation process guarantees a compre-
+hensive and ethical assessment. This alignment with international standards ensured the credi-
+bility and integrity of the evaluation, providing valuable insights grounded in ethical practices and 
+rigorous methodologies. 
+ Data collection methods 
+The project has been effectively evaluated in alignment with the Terms of Reference (TOR). The 
+consultant utilised suitable quantitative or qualitative methods, encompassing activities such as 
+comprehensive document reviews and engaging with stakeholders, partners, and beneficiaries 
+through interviews during field visits. Both primary and secondary data sources were integrated 
+to enhance the depth of analysis. Given the time constraints of the evaluation, a pragmatic mixed-
+method approach was recommended an d implemented. This approach involved a meticulous 
+desk review, analysis of quantitative data, and conducting interviews. By adopting this mixed-
+method approach, using quantitative and qualitative data from primary and secondary sources, 
+the evaluation findings were triangulated effectively, aligning with the research questions outlined 
+in the TOR. The consultant remained flexible, revising the methodological approach in consulta-
+tion with key stakeholders, especially the intended users and those directly impacted by the eval-
+uation results. This ensured that the methods employed provided comprehensive and valuable 
+insights. 
+Desk review 
+Secondary, qualitative and qualitative 
+The consultant conducted an exhaustive review of a wide array of pertinent documents associ-
+ated with project implementation. This comprehensive document analysis encompassed policies, 
+strategic frameworks, project proposals, detailed project reports, evaluations from previous pro-
+ject phases, and reports generated by various governmental, non- governmental, and inter-gov-
+ernmental stakeholders. By delving into this extensive pool of information, the consultant aimed 
+to gather a nuanced understanding of the project's historical context, its alignment with overarch-
+ing policies and strategies, and the diverse perspectives and insights shared by different agencies 
+and stakeholders. This meticulous document review served as the foundational groundwork, 
+providing essential context and knowledge necessary for the subsequent phases of the evaluation 
+process. 
+In-depth Interviews 
+Primary, qualitative 
+The consultant conducted key informant interviews with all relevant project stakeholders, as sug-
+gested in the TOR. These stakeholders included the Embassy of Luxembourg in Kosovo, the 
+Ministry of Health (MoH), the Ministry of Environment, Spatial Planning and Infrastructure 
+(MESPI), the National Institute of Public Health of Kosovo (NIPHK), the Kosovo Hydrometeoro-
+logical Institute (KHMI), municipalities of Prishtina/Pristina, Fushe- Kosova/Kosovo Polje, 
+Obiliq/Obilic, Gjilan/Gnjilane, Hani i Elezit/Elez Han,  Graqanica/Gracanica educational institu-
+tions, Civil Society Organizations, UNDP senior management, WHO, UNV, HK2 team, and other 
+beneficiaries. Attention was given to the gender balance of respondents. The final list of targeted 
+stakeholders interviewed was composed and agreed upon with UNDP and the project team. The 
+interviews were performed onsite in person. In cases where it was not possible, online tools were 
+
+===== PAGE 22 =====
+ 
+used. In-depth interviews that examined all themes of interest were used, and 23 interviews were 
+conducted. 
+Focus Groups Discussions 
+Primary, qualitative 
+Initially, it was planned that conducting focused and inclusive focus group discussions would be 
+helpful in the evaluation methodology. However, it was deemed unnecessary to proceed with this 
+approach upon further consideration and in close consultation with UNDP staff. 
+Existing quantitative data 
+Secondary, quantitative 
+The evaluation team considered various data sources, including the World Health Organization 
+and the World Bank  (WB) data repositories, that collect information on health indicators at the 
+global level. Upon closer examination, it was determined that these data sources were not as 
+helpful as initially anticipated for assessing project indicators. Instead, project partners and other 
+sources provided more relevant and applicable data for evaluating the specific effect of the inter-
+vention. Therefore, the focus shifted towards utilising the data provided by project partners and 
+other sources for a more accurate assessment of the project's impact.  
+ Design of data collection tools 
+The design of data collection instruments, such as data extraction sheets for desk review, inter-
+view guides, and focus group guides, considered all relevant themes of the project evaluation. All 
+relevant evaluation criteria highlighted in TOR (i.e., projec t design and contextual relevance, ef-
+fectiveness, efficiency, sustainability, stakeholders and partnership strategy, theory of change or 
+results/outcome map, human rights, and gender) were used as themes for organising research 
+instruments. The in-depth interview guide is listed in the appendixes section.  
+ Data analysis 
+The qualitative data from primary and secondary sources were meticulously coded and analysed. 
+This qualitative analysis aligned with all the relevant themes specified in the evaluation criteria 
+outlined in the TOR and above. The evaluation delved deep into the rich qualitative data, extract-
+ing nuanced insights and patterns related to the project's intervention areas. 
+Thematic analysis was used for analytical purposes.  Themes were the main evaluation criteria, 
+while subthemes were formed based on evaluation questions. Thematic analysis systematically 
+coded qualitative data, such as interview transcripts or textual sources, to uncover recurring con-
+cepts and ideas. These themes were carefully reviewed, defined, and named, capturing the es-
+sential concepts present in the data.  
+A triangulation approach was adopted to enhance the reliability and credibility of the evaluation. 
+Triangulation involved comparing and contrasting the findings from both qualitative and quantita-
+tive primary and secondary data sources. Cross-verifying the results obtained through different 
+methods made the analysis more robust and trustworthy. Through this comprehensive analysis, 
+the evaluation not only identified valuable lessons learned but also proposed well -informed rec-
+ommendations to improve the future efforts of HK2. 
+ Ethical considerations 
+The evaluation process rigorously adhered to the ethical principles delineated in UNEG's Ethical 
+Guidelines for Evaluation. The consultant undertaking the evaluation addressed critical issues 
+during the design and implementation phases. Special attention was dedicated to upholding eval-
+uation ethics, ensuring all ethical considerations were meticulously integrated into the evaluation 
+procedures. Safeguarding the rights and confidentiality of information providers was paramount, 
+with stringent measures in place to protect sensitive information and maintain the privacy of all 
+involved stakeholders.    
+
+===== PAGE 23 =====
+ 
+5. FINDINGS 
+The findings are structured around the evaluation questions, allowing report users to connect 
+what was asked and what was found readily. Variances between planned and actual results and 
+factors affecting the achievement of intended results have been explained. 
+ Project design & contextual relevance 
+The evaluation scrutinised the project's design and contextual relevance by considering various 
+factors. It assessed the validity of the project's objectives, examining whether they were still rele-
+vant and aligned with the community's current needs. The assessment explored whether the pro-
+ject effectively addressed beneficiaries' unique needs and how gender equality was incorporated, 
+including overcoming obstacles encountered during implementation. Additionally, the evaluation 
+examined if procedures and beneficiaries were respected and integrated into the program. The 
+appropriateness of the project's design in achieving its intended results and outcomes was ana-
+lysed, considering any modifications made during implementation and their impact on design im-
+provements.  
+The project objectives align well with the context and Kosovo's needs. Building on past achieve-
+ments, the project is positioned to significantly contribute to enhanced waste management, envi-
+ronmental conservation, and public health resilience. The persisting environmental burden of dis-
+ease, exacerbated by pollution and insufficient waste management systems, underscores the 
+continued relevance of the project's objectives in safeguarding public health and the environment 
+in Kosovo. Additionally, the broader environmental challenges in the region, such as air pollution 
+and the impacts of climate change, further highlight the significance of the project's goals. The 
+rapid assessment of medical waste during the COVID-19 pandemic in Kosovo has unveiled criti-
+cal issues, including the absence of waste management protocols, inadequate training, and a 
+lack of essential equipment. The pandemic underscores the urgency of addressing environmental 
+health issues, particularly medical waste management. Healthcare facilities' substantial increase 
+in infectious waste generation, especially since the COVID-19 outbreak, underscores the neces-
+sity for a robust and effective approach to medical waste management. 
+The project aims, and interventions are relevant primarily to Kosovo's overall direction in environ-
+mental issues. The Annual Progress Report of the Climate Change Agenda of Kosovo for 2022-
+2023 offers a comprehensive account of Kosovo's proactive measures to combat climate change. 
+The report delves into various facets of Kosovo's climate initiatives, detailing legislative advance-
+ments, international engagements, and targeted adaptation measures. Notable legislative im-
+provements, including the approval of pivotal laws such as the Law on Climate Change and the 
+Law on Building Energy Performance, underscore Kosovo's commitment to integrating energy 
+and climate goals. On the international stage, Kosovo's participation in COP27 and preparations 
+for COP28 signifies its dedication to global climate action and its contribution to the international 
+dialogue on climate change. Emphasising adaptation measures, such as mapping flood risks, the 
+To what extent are the Project's objectives still valid? 
+To what extent are the cross-cutting issues (such as environment, gender equality, women empowerment, human 
+rights-based approach, and social standards), principles and quality criteria? 
+Does the Project respond to the needs of the identified target groups and beneficiaries? 
+Were the unique needs of beneficiaries taken into consideration / to what extent was gender equality addressed? 
+Were there obstacles in responding to the programme? 
+Were all procedures and beneficiaries respected and mainstreamed within the programme implementation? 
+Was the design of the Project appropriate for reaching its results and outcomes? 
+Have any changes been made to the Project’s design during the implementation? If yes, did they lead to significant 
+design improvements?  
+Were coordination, management and financing arrangements clearly defined, and did they support institutional 
+s
+trengthening and local ownership? 
+
+===== PAGE 24 =====
+ 
+FLOWS initiative, and developing  a Flood Management Plan, illustrates Kosovo's efforts to en-
+hance resilience and address climate- related challenges. In conclusion, the report vividly illus-
+trates Kosovo's multifaceted journey toward sustainable development amidst climate change 
+challenges, portraying its commitment to building a resilient and environmentally conscious future. 
+Table 5.1. Assessment of the relevance of the project objectives 
+Project objective Relevance for country needs 
+Output 1.: Exposure to air pollution and climate -related health 
+threats is reduced through improved institutional capacities and 
+public awareness. 
+Rating: Very high 
+Analysis: Reducing exposure to air pollution and climate-related 
+health threats is crucial for Kosovo's well -being. Improved insti-
+tutional capacities ensure effective monitoring and mitigation, 
+protecting public health from respiratory and cardiovascular 
+risks. Climate change adaptation measures become more effi-
+cient, addressing rising temperatures and extreme weather 
+events. Public awareness is equally vital, empowering individu-
+als to adopt sustainable practices and fostering a collective 
+commitment to environmental health.  
+Output 2.: Health threats from medical waste are reduced 
+through updated waste management protocols, safe waste col-
+lection and segregation and improved capacities of relevant in-
+stitutions and Health Care Workers (HCW).  
+Rating: Very high 
+In Kosovo, mitigating health threats from medical waste is par-
+amount. Updated waste management protocols  and safe col-
+lection and segregation practices  are essential for minimising 
+infectious risks. Strengthening the capacities of relevant institu-
+tions and Health Care Workers (HCWs) ensures a systematic 
+and secure disposal process. This proactive approach not only 
+safeguards public health by reducing the spread of infections 
+but also enhances the overall resilience of the healthcare sys-
+tem. 
+The project has consistently demonstrated alignment with the cross-cutting issues, principles, and 
+quality criteria outlined in the evaluation framework. From an environmental perspective, the pro-
+ject has adhered to sustainable practices, acknowledging the interconnectedness of environmen-
+tal health with its interventions. It has actively promoted gender equality promoting women's em-
+powerment through inclusive strategies. The project's commitment to a human rights -based ap-
+proach is evident in its thorough consideration of the rights and well -being of all stakeholders. 
+Additionally, social standards have been prioritised , ensuring that the project aligns with ethical 
+practices and international quality criteria, thereby upholding integrity and credibility. 
+The Project consistently addresses the identified needs of the target groups and beneficiaries, 
+ensuring relevance across various domains in Kosovo. It remains attentive to the pressing issue 
+of air pollution, recognising the health risks associated with pollution and implementing specific 
+interventions. The focus on households as key contributors to air pollution aligns with the project's 
+strategy, evidenced by initiatives such as discouraging coal use through subsidies f or more effi-
+cient heating methods. The collaboration with government entities, other donors (i.e. MCC, JICA) 
+and Prishtina Municipality reflects a comprehensive and collaborative approach. Similarly , while 
+the project has made commendable strides in waste management, there is recognition of the 
+need for broader implementation across institutions to achieve lasting impact. 
+The project has demonstrated a commitment to addressing the needs of beneficiaries, with a 
+particular focus on gender equality to the extent possible. One notable achievement is its proac-
+tive engagement in issues previously unaddressed by governmental actors and other donors. For 
+instance, the National Institute of Public Health of Kosovo (NIPHK) lacked comprehensive 
+knowledge of climate change, and the project played a crucial role in broadening their perspective 
+beyond the impact of higher temperatures on health. The project's strategic placement within the 
+environmental sector, alongside significant actors such as MCC, JICA, GIZ, and SDC, further 
+reflects its effectiveness in responding to beneficiaries' unique needs  and overcoming potential 
+obstacles. 
+The program demonstrated a commitment to respecting all procedures and beneficiaries, ensur-
+ing their mainstreaming within the implementation process. Feedback from multiple key inform-
+ants affirmed that despite occasional time delays. A notable example of procedural adherence 
+was the competitive call for NGO proposals focused on the environment, aligning with UNDP 
+
+===== PAGE 25 =====
+ 
+procedures. Fourteen NGOs participated, and the selection process resulted in the inclusion of 
+three. Competitive procedures were also maintained in various instances, such as selecting UNV 
+volunteers in collaboration with the University of Prishtina. The program upheld rigorous internal 
+procedures, including those for grant awards and procurement, to ensure that the most vulnerable 
+and in-need beneficiaries derive maximum benefit from the initiative. 
+The project's design was deemed appropriate for achieving its intended results and outcomes. 
+Described as well-placed with various elements spread across different aspects, the design ef-
+fectively translated the program's vision into achievable goals. The pilot initiatives, conducted with 
+a few tools, served as successful tests, allowing for the assessment of ambitions and paving the 
+way for further investment. Respondents expressed satisfaction with the design's functionality in 
+attaining specific results. In the emerging field of work, especially concerning waste management, 
+the project's approach was considered adequate and well-supported, with substantial collabora-
+tion with the Ministry of Health to ensure continuous updates and alignment within the working 
+group to develop standard operating procedures. The project's methodology was perceived as 
+the optimal way to initiate work in a novel domain, allowing for risk mitigation, experiential learning 
+for all stakeholders involved, and a solid foundation for future endeavours. 
+The project implementation did not witness any significant revisions, underscoring the validity of 
+the initial design. However, there were some minor adjustments, particularly regarding the strat-
+egy for CSO Grant Recipients. These changes aimed to enhance the project's impact. An inno-
+vative initiative was introduced, allowing environmental CSOs, data science, and technology stu-
+dents to delve into noise pollution and urban sensing. Additionally, the time extension of the pro-
+ject was necessitated by delays pr imarily attributable to the challenging COVID -19 situation. 
+While the project did not proceed with the digitalisation of the inspectorate for the environment 
+due to cost considerations, these adaptations did not compromise the overall integrity of the de-
+sign. 
+The project's coordination, management, and financing arrangements were deemed highly effec-
+tive and well- defined, according to feedback from key agencies involved in its implementation. 
+The project's design supported institutional strengthening and local ownership, as demonstrated 
+by the collaborative efforts of UNDP, UNV, and WHO, each overseeing specific outcomes a nd 
+activities. Their competence and efficient communication contributed significantly to achieving 
+deliverables. The joint project also cooperated closely with the donor, the Government of the 
+Grand Duchy of Luxembourg, and engaged with international organisations  such as GIZ, JICA, 
+and the WB. Implementing agencies expressed satisfaction with the collaborative nature of the 
+joint project, emphasising successful outcomes despite potential complexities. 
+ Project's effectiveness 
+The evaluation scrutinised the project's effectiveness by assessing the realisation and alignment 
+of project outputs with the planned program timeline. An analysis has been conducted on the 
+factors influencing progress or delays in achieving products and results, identifying noteworthy 
+practices, successful experiences, and transferable examples. Furthermore, the evaluat ion 
+delved into the quality of interventions and results obtained through collaboration with key project 
+stakeholders. 
+To what extent have the Project outputs been achieved? Are they on track to be completed as planned during the 
+Programme? 
+What factors contributed to progress or delay in achieving p roducts and results? 
+What good practices, successful experiences, or transferable examples have been identified? 
+What is the quality of interventions and results achieved with main Project stakeholders? 
+Have any changes in the overall context in Kosovo affected Project implementation and overall results? 
+
+===== PAGE 26 =====
+ 
+The Project has successfully attained a significant portion of its outputs, and the remaining objec-
+tives are on course to be completed as planned initially within the timeline. A comprehensive 
+breakdown of achievements, categorised by each project output and corresponding indicators, is 
+presented in Table 5.2 below. This table furnishes a detailed account of each indicator's targets 
+and includes a rating system alongside concise descriptions summarising the analytical findings. 
+This meticulous assessment ensures a comprehensive understanding of the Project's progress, 
+highlighting its achievements and providing insights into effectively realising planned outcomes. 
+Table 5.2. Assessment of project effectiveness 
+Indicator Baseline Target Rating and Evaluators’ Analysis 
+1.1.a. # of digital-
+ised systems that 
+enable the Envi-
+ronmental Inspec-
+torate to carry out 
+inspection and 
+control of cases in 
+alignment with en-
+vironmental laws 
+and regulations in 
+place 
+No digital system 
+in place enables  
+the Environmental 
+Inspectorate to 
+carry out inspec-
+tion and control of 
+cases in align-
+ment with envi-
+ronmental laws 
+and regulations in 
+place 
+1 digitalised sys-
+tem established to 
+enable the Envi-
+ronmental Inspec-
+torate to carry out 
+inspection and 
+control of cases in 
+alignment with en-
+vironmental laws 
+and regulations in 
+place 
+Rating: Fully achieved 
+Analysis: Opting against a digitalised system for the Environmental 
+Inspectorate due to high costs, the project strategically diverted its 
+efforts to support the Kosovo Hydrometeorological Institute 
+(KHMI). The initiative aims to streamline KHMI's data and infor-
+mation management processes, encompassing content, records, 
+and document retrieval, by developing a digital system. In addition, 
+as part of alignment with climate adaptation goals, the project effi-
+ciently utilises vertical funds, facilitating the installation of new au-
+tomatic monitoring stations for real-time data reporting. This initia-
+tive is vital for climate modelling and early flood warnings. To foster 
+knowledge exchange, a study visit to Tirana benefited environ-
+mental inspectors from pilot municipalities.  
+1.1.b. # of local air 
+pollution reduc-
+tion plans 
+There are no local 
+air pollution re-
+duction plans 
+At least 2 local air 
+pollution reduc-
+tion plans were 
+drafted 
+Rating: Surpassed 
+Analysis: The project has notably exceeded its initial goal, foster-
+ing the development of air quality action plans in five municipali-
+ties: Fushë Kosovë/Kosovo Polje, Obiliq/Obilić, Gjilan/Gnjilane, 
+Graçanica/Gračanica, and Hani i Elezit/Elez Han. It has also ac-
+tively supported the air quality agenda in Prishtina/Priština. These 
+plans, crafted with guidance from international and national con-
+sultants, focus on reducing household and transport emissions 
+while enhancing environmental awareness. Notably, Fushë Ko-
+sovë/Kosovo Polje and Obiliq/Obilić's plans have received official 
+approval from municipal assemblies. Additionally, environmental 
+inspectors in pilot municipalities have enhanced their skills. 
+Gjilan/Gnjilane, Graçanica/Gračanica, and Hani i Elezit/Elez  Han 
+are on track to finalise  their LAPAQs in 2023, aligning with legal 
+requirements. 
+1.1.c. # of gener-
+ated solutions to 
+policy problems 
+resulting from the 
+behavioural in-
+sight study 
+No behavioural 
+study has ever  
+been used to gen-
+erate solutions to 
+policy problems. 
+At least 2 policy 
+solutions to be 
+generated from 
+the behavioural 
+insight study 
+Rating: Mostly achieved 
+Analysis: The project supported a high-quality behavioural insights 
+study with US -based NGO Ideas 42, aiming to generate at least 
+two policy solutions. The creative policy solution enacted was 
+"Shifting Transportation Behaviour in Prishtinë/Priština, Kosovo," 
+utilising behavioural science to reduce car usage and curb air pol-
+lution. The intervention, a pilot policy solution, successfully shifted 
+commuting behaviour, promoting alternatives like public transpor-
+tation. The project collaborated with Ideas42 and the Munici pality 
+of Prishtina/Priština, implementing an online system encouraging 
+sustainable commuting. While the intervention successfully altered 
+behaviours, it's acknowledged as a pilot policy, necessitating on-
+going evaluation and collaboration for potential scalability and 
+long-term impact on sustainable transportation in Prisht-
+inë/Priština. 
+1.1.d. # of reports 
+and Environmen-
+tal Health Impact 
+Assessments 
+(EHIA) published 
+by health institu-
+tions   
+There is no Envi-
+ronmental Health 
+Impact Assess-
+ment (EHIA) pub-
+lished by health 
+institutions. 
+At least 1 report 
+on environmental 
+impact on health 
+and 1 Environ-
+mental Health Im-
+pact Assessment 
+published by 
+health institutions 
+Rating: Partly achieved 
+Analysis: The activity was not implemented  fully due to the una-
+vailability of experts. Delays in securing experts to support the ac-
+tivity, specifically in training personnel at NIPHK and assisting 
+them in the study's execution, were cited as the primary cause. 
+However, preparatory work has been carried out,  and experts are 
+expected to visit in 2024, where the study is expected to be imple-
+mented. This study was supposed to be executed similarly  to a 
+study on air pollution (indicator 1.2.a), where experts played a cru-
+cial role. 
+1.2.a. # of indoor 
+air pollution and 
+related health im-
+pact assessments 
+No indoor air pol-
+lution health im-
+pact assessments 
+At least 1 assess-
+ment will be de-
+veloped and pub-
+lished about in-
+door air pollution's 
+impact on health 
+pollution 
+Rating: Fully achieved 
+Analysis: The project has made significant strides in tackling in-
+door air pollution from wood and coal for heating and cooking in 
+Kosovo, a primary urban pollution source. Collaborating with WHO 
+and the National Institute of Public Health of Kosovo (NIPHK), a 
+pioneering household survey on indoor air pollution was con-
+ducted, assessing its health impacts. The study employed a WHO 
+
+===== PAGE 27 =====
+ 
+methodology, surveyed 2,000 randomly chosen households, and 
+trained NIPHK staff for air quality measurements. Subsequently, a 
+comprehensive report containing key findings and recommenda-
+tions will be disseminated to stakeholders in 2023, marking a 
+groundbreaking initiative addressing this pervasive issue.  
+1.2.b. % of the 
+population in Ko-
+sovo that are 
+aware of potential 
+health threats 
+from indoor air 
+pollution 
+TBD once the pro-
+ject starts (data 
+will be gathered 
+through Public 
+Pulse) 
+TBD once the 
+baseline is set 
+Rating: No data, most likely achieved  
+Analysis: The HK2 project effectively disseminated information to 
+the Kosovo population by publishing air pollution reports and nu-
+merous events. However, specific data attributing the percentage 
+of the population aware of potential health threats from indoor air 
+pollution is unavailable. While social media reports and quantita-
+tive analysis suggest the indicator's likely achievement, the ab-
+sence of data from Public Pulse, as intended by the project, or 
+other substantive sources hinders the validation of this claim. Prox-
+imal data from social reports remains the primary basis for the con-
+clusion that this indicator has been attained.  
+1.3.a. # of solu-
+tions imple-
+mented by Civil 
+Society Organiza-
+tions (grant recipi-
+ents) in the area 
+of environmental 
+pollution 
+6 projects carried 
+out by CSO in the 
+first phase of the 
+project 
+6 solutions Imple-
+mented by Envi-
+ronmental CSOs 
+Rating: Partly achieved 
+Analysis: The project aimed to achieve a target of six solutions im-
+plemented by Environmental Civil Society Organizations (ECSOs) 
+but only partially met this indicator, implementing three solutions. 
+Nevertheless, the project's impact  on Kosovo's environmental 
+landscape and sustainable development is notable. Financial as-
+sistance was provided to three CSOs, facilitating projects address-
+ing pollution reduction, scientific research, and environmental ad-
+vocacy. The CSOs actively engaged in a consultation process 
+emerged as influential players supporting the green transition. 
+Noteworthy achievements include Eco Z's air quality workshops, 
+EcoKos Women's empowerment of women farmers, and 7 Arte's 
+commitment to sustainable river management in Mitrovica. The 
+modified strategy for CSO Grant Recipients introduced a cutting-
+edge initiative involving environmental CSOs, students, and local 
+experts addressing noise pollution through urban sensing.  
+1.3.b. # of policy 
+analysis reports in 
+the air quality 
+management do-
+main 
+No policy analysis 
+reports on the 
+area of environ-
+mental health 
+have been pub-
+lished by institu-
+tions 
+1 policy analysis 
+report drafted in 
+the air quality 
+Rating: Mostly achieved 
+Analysis: The project successfully met its target of publishing a 
+substantial number of policy analysis reports on environmental 
+health by various institutions. A thorough analysis of the air quality 
+domain was conducted during the formulation of air quality plans 
+for municipalities. Notably, these comprehensive analyses, initially 
+absent from the plans, were seamlessly integrated. The integrated 
+analyses are now published as part of action plans that include 
+thorough situation analyses, providing a more comprehensiv e ap-
+proach to addressing environmental health concerns.  
+1.3.c. # of innova-
+tive prototypes 
+generated from 
+the human-cen-
+tred design cycle 
+in selected munic-
+ipalities 
+Human-centred 
+design has never 
+been used in the 
+selected munici-
+palities; no inno-
+vative prototypes 
+have been gener-
+ated 
+2 prototypes were 
+generated from 
+the human-cen-
+tred design cycle 
+in 2 municipality 
+Rating: Fully achieved 
+Analysis: A co-design project involving 10 UNV volunteers, i.e. UP-
+recommended students , aimed to address air pollution through a 
+nine-month engagement. The initiative included training for field 
+research, encompassing desk research, qualitative interviews, 
+and site visits to identify polluted neighbourhoods. Collaboration 
+with NGO Space Sinteks led to greening prototypes aligned with 
+the Urban Transformation Initiative—the methodology employed 
+time sampling for pollution analysis, identifying hotspots like Vel-
+lusha, Arberia, and Pejton. Field visit interviews informed solu-
+tions, emphasising central heating network extension and banning 
+coal burning. Prototypes received full support from the Municipality 
+of Prishtina, with translations of research into design and the 
+launch of three user-friendly prototypes, including a vertical green 
+prototype and green oasis, on December 6 th 2023. 
+1.3.d. # of revital-
+ised parks as a re-
+sult of the Parks 
+Foundation plat-
+form 
+Parks Foundation 
+is a pioneering in-
+tervention; no 
+parks have been 
+revitalised in the 
+past using this 
+methodology 
+1 park was revital-
+ised as a result of 
+the Parks Foun-
+dation platform 
+Rating: Fully achieved 
+Analysis: The project, focused on co- designing parks through the 
+Park Foundation, organised five workshops involving key stake-
+holders, including representatives from the Municipality of Prisht-
+inë/Priština and local NGOs. The workshops aimed to identify crit-
+ical needs for parks in the region. Through collaboration with the 
+Assembly of Children, S ave the Children, and the Directorate of 
+Public Spaces and Parks, four additional workshops engaged over 
+50 children to address the urgent need for child-friendly spaces for 
+ages 11 to 17. These workshops utilised an Urbanist AI tool, facil-
+itating collaborative design processes. Municipal permits were se-
+cured to implement two approved designs in three locations, incor-
+porating recycled materials and greenery to enhance child-friendly 
+spaces near the main postal office, City Park, and the Park of 
+Taukbahce. 
+
+===== PAGE 28 =====
+ 
+1.3.e. # of UN 
+Community Vol-
+unteers deployed 
+to deliver aware-
+ness-raising activ-
+ities on in-
+door/outdoor air 
+pollution 
+No community 
+volunteers have 
+been deployed to 
+carry out outreach 
+activities regard-
+ing air pollution 
+10 UN Commu-
+nity volunteers 
+were deployed to 
+deliver aware-
+ness-raising activ-
+ities on in-
+door/outdoor air 
+pollution 
+Rating: Fully achieved 
+Analysis: To enhance awareness of indoor/outdoor air pollution, a 
+collaborative co-design initiative involved critical stakeholders like 
+the Municipality of Prishtinë/Priština, Faculty of Architecture, Fac-
+ulty of Agriculture and Veterinary, Xhemajl Mustafa School, and 
+local NGO Fondacioni Jeshil. The initiative implemented a Green 
+Wall Prototype at Xhemajl Mustafa Elementary School, encourag-
+ing student engagement with greenery, imparting permaculture 
+skills, and promoting understanding of green spaces as an air pol-
+lution mitigation measure. The Healthier Kosovo Project success-
+fully executed comprehensive awareness campaigns via social 
+media, TV, radio, and billboards, reaching thousands online and 
+engaging over 400 individuals in person. Specific campaigns in-
+cluded Kosovo Earth Days, The Crowdfunding Tree Initiative, and 
+Eco Kosovo, contributing to public education on environmental 
+threats. 
+1.4.a. Total # of 
+people reached 
+on social media 
+through online 
+campaigning on 
+environment and 
+health, measured 
+via social media 
+analytics (Face-
+book, Instagram 
+and Twitter) 
+Facebook: 2.6 
+million people 
+reached; Insta-
+gram: 1.6 million 
+people reached; 
+Twitter: 97,000 
+people reached 
+(data gathered 
+from social media 
+analytics of 
+#ecokosovo3) 
+No of people 
+reached by the 
+campaign on en-
+vironment and 
+health: Facebook: 
+3 million people 
+reached; Insta-
+gram: 2 million 
+people reached; 
+Twitter: 140,000 
+people reached 
+Rating: Fully achieved 
+Analysis: UNDP's initiative, "Engage the public for a sustainable 
+lifestyle in Kosovo," employed innovative campaigns to address 
+environmental concerns. The three-year Kosovo Earth Days cam-
+paign united prominent stakeholders, including the Ministry of En-
+vironment, MESPI, the Office of the President, and local CS Os, 
+fostering collective environmental action. Key projects involved re-
+cycled plastic playgrounds, greenery planting, public tree planting, 
+an awareness-raising hike at Mirusha Waterfalls, and an impactful 
+online communication campaign. World Environment Day under-
+scored Kosovo's circularity potential, while EcoKosovo#4 and Au-
+tostrada Biennale workshops empowered youth in environmental 
+protection. This holistic approach aimed at instigating sustainable 
+practices for a cleaner, greener future is corroborated by data from 
+social media reports confirming the initiative's success.  
+1.5. # of train-
+ings/workshops 
+organised on cli-
+mate change im-
+pact on health. 
+No specific train-
+ings or workshops 
+have been organ-
+ised on this topic 
+At least 2 work-
+shops on climate 
+change and 
+health were or-
+ganised. 
+Rating: Surpassed 
+Analysis: Three impactful events were successfully conducted. On 
+March 29, 2023, a high- level kick -off meeting led by WHO Euro 
+technical lead Dr  Vladimir Kendrovski engaged key participants 
+from MoH, KEPA, NIPHK , and international experts. This pre-
+ceded a two-day climate change and health workshop, enhancing 
+institutional capacities. Subsequently, a training session targeted 
+over 30 environmental health professionals on the same day , em-
+phasising effective monitoring approaches for climate change im-
+pacts. Further, a t wo-day training in April 2023, led by Mr James 
+Creswick, concentrated on communicating health risks from cli-
+mate change, contributing to increased knowledge and communi-
+cation capacities among relevant stakeholders in Kosovo.  
+1.6. # of people 
+reached on social 
+media through 
+online campaign-
+ing on climate 
+change and 
+health 
+No campaigns on 
+climate change 
+and health 
+No of people 
+reached by the 
+campaign on cli-
+mate change: Fa-
+cebook: 1.5 mil-
+lion people 
+reached; Insta-
+gram: 1 million 
+people reached; 
+Twitter: 70,000 
+people reached 
+Rating: Mostly achieved 
+Analysis: The UNDP Kosovo successfully launched an impactful 
+Heat Wave Campaign to educate the public on the escalating risks 
+of dangerously high temperatures due to climate change. The ini-
+tiative reintroduced from the previous year, provided valuable 
+awareness resources offering advice on identifying heat waves 
+and appropriate responses. Amidst rising temperatures in Kosovo, 
+a focused mini -campaign addressed health risks associated with 
+intense heat waves , emphasising behavioural guidelines for the 
+public. Additiona lly, the campaign leveraged International Self -
+care Day on July 24 to share health risk mitigation tips, particularly 
+targeting vulnerable groups. The EcoKosovo4 photo contest, 
+launched in November, furthered the cause by engaging influenc-
+ers and creative content to raise awareness of  environmental is-
+sues and inspire sustainable practices.  
+2.1. # of effective 
+waste manage-
+ment protocols 
+developed ac-
+cording to WHO 
+recommendations 
+and approved by 
+the central institu-
+tions 
+No waste man-
+agement proto-
+cols in place 
+At least 1 protocol 
+will be developed 
+and approved by 
+central institutions 
+on waste man-
+agement protocol, 
+according to 
+WHO recommen-
+dation. 
+Rating: Surpassed 
+Analysis: Within Output 2, the project played a crucial role in sup-
+porting health institutions, specifically the MoH and the University 
+Hospital and Clinical Service of Kosovo (UHCSK), by aiding in the 
+development and revision of waste management protocols. The 
+initiative involved the creation of a comprehensive set of standard 
+operating procedures (SOPs) for medical waste, with focused as-
+sistance to the working group responsible f or finalising the SOP 
+related to infectious waste management. Six SOPs were devel-
+oped. Collaborating closely with the group and WHO consultants, 
+the project incorporated international best practices and WHO 
+guidance into the SOPs. Consequently, the Ministry of Health ap-
+proved the SOP s, marking a proactive step in averting disease 
+outbreaks within and beyond healthcare facilities.  
+
+===== PAGE 29 =====
+ 
+2.2.. # of HCWs 
+that have re-
+ceived the educa-
+tional material on 
+waste manage-
+ment 
+No previous edu-
+cational materials 
+were provided to 
+HCWs 
+At least 100 
+HCWs and pa-
+tients received 
+educational mate-
+rial on how to re-
+duce health 
+threats from med-
+ical waste 
+Rating: Surpassed 
+Analysis: The project aimed to enhance awareness and 
+knowledge regarding medical waste management, targeting 
+healthcare professionals and patients. Approximately 180 profes-
+sionals, including staff from secondary and tertiary hospitals, re-
+gional hospitals, and clinics within UCCK, received training on 
+waste management practices. The initiative extended to private 
+hospitals when relevant. Site visits were conducted to inform ex-
+ecutive staff about waste management, emphasising their role as 
+potential trainers. While the number of healthcare workers trained 
+is surpassed, no information regarding patients receiving educa-
+tional materials on medical waste is available. The project's focus 
+on healthcare professionals signifies a significant step toward re-
+ducing health threats from medical waste, although patient edu-
+cation remains an area for potential expansion.  
+2.3. # of waste 
+collection sys-
+tems in place 
+based on interna-
+tional standards 
+No effective 
+waste manage-
+ment system in 
+place based on in-
+ternational stand-
+ards 
+1 waste manage-
+ment system in 
+place based on in-
+ternational Stand-
+ards 
+Rating: Mostly achieved 
+Analysis: The project successfully aligned Standard Operating 
+Procedures (SOPs) with international standards for medical waste 
+management. This involved an integrated assessment of the ex-
+isting system and reallocating funds, initially designated for redun-
+dant efforts, to conduct training sessions and produce related ma-
+terials. The procurement of waste collection equipment and sup-
+plies is underway, with expected completion by December, cover-
+ing a significant portion of regional hospitals' and UCCK's  needs. 
+Delays were encountered due to SOP approval. The government 
+has committed to covering the remaining needs, aligning with the 
+health sector strategy. The project collaborated effectively with 
+GIZ, complementing their focus on waste disposal and emphasis-
+ing waste management within institutions.  
+Several factors contributed to delays in achieving products and results within the Healthier Ko-
+sovo 2 Project. The approval delay of Law No.08/L-025 on Air Protection impacted the finalisation 
+and presentation of two draft LAPAQs to municipal assemblies in 2023. Delays in setting up the 
+project under the pass-through funding modality and UNDP's international contractual reform af-
+fected hiring procedures globally. Despite a delayed start, rapid implementation occurred in 2022, 
+with adequate planning during t he less intensive April –June period. Procurement for hospital 
+waste management equipment faced delays due to SOP s approval, with delivery expected by 
+December. COVID-19-related challenges necessitated a no-cost extension. Changes in govern-
+ment posed challenges, emphasising the importance of partner feedback, while limitations in in-
+stitutional staff and implementation issues also influenced project progress. The development of 
+prototypes received positive ratings, though time constraints and external pressures affected the 
+process. 
+Box 5.1. Factors influencing project implementation 
+Factors responsible for project delay  Factors responsible for project progress  
+Delay in approval of the Law No.08/L-025 on Air Protection  
+Delays in setting up the project under the pass -through 
+funding modality 
+Delays in procurement activities  
+COVID-19-related challenges 
+Time constraints and external pressures  
+Effective coordination among implementing partners  
+Well-thought activities that matched the needs of national and 
+local partners 
+Strategical collaboration with national and local institutions , 
+which is embedded in contextual policy and strategic develop-
+ments 
+Empowerment of communities and young people  
+Multifaced realistic approach in project design and implemen-
+tation 
+Effective coordination among implementation partners has been pivotal in achieving the desired 
+results and products within the Healthier Kosovo 2 Project. Well -thought and designed activities 
+tailored to beneficiaries' needs have contributed significantly to successful outcomes. The project 
+strategically collaborates with central and local institutions, focusing on policy formulation, law 
+enforcement, and governance related to environmental issues. This involves supporting health 
+impact assessments, developing medical waste protocols, and digitalising the Kosovo Hydrome-
+teorological Institute data system at the central level. Locally, the project enhance d institutional 
+
+===== PAGE 30 =====
+ 
+capabilities for environmental inspection and control, fostering effective monitoring and enforce-
+ment of air pollution regulations. Additionally, the project empower ed communities and youth 
+through grants and support, promoting a vibrant civil society dedicated to addressing environ-
+mental threats. Innovative environmental campaigns raise public awareness about climate 
+change, heat waves, and associated health risks, encouraging individuals to reduce their carbon 
+footprint and adopt protective measures during hot weather. The multifaceted approach of the 
+Healthier Kosovo 2 Project engages various stakeholders, ensuring comprehensive progress to-
+ward environmental sustainability. 
+Table 5.2. Good practices, successful experiences, or transferable examples 
+Good practices, successful experiences, or transferable examples  
+Comprehensive Stakeholder Engagement: The Healthier Kosovo 2 Project demonstrates the importance of engaging all stake-
+holders during project planning, involving central and local institutions, and fostering multi-stakeholder collaboration. The co-design 
+process, involving various partners, proved beneficial in developing solutions and strategies to address environmental challenges 
+effectively. 
+Capacity Building and Policy Development: The project emphasises the significance of capacity building and policy develop-
+ment, particularly at both central and local levels. This involves strengthening institutions through training, policy formul ation, law 
+enforcement, and governance initiatives, creating a foundation for informed decision-making. 
+Successful Transition from Phase 1: Based on lessons learned from Healthier Kosovo 1, the project successfully transitioned 
+into Healthier Kosovo 2, addressing identified gaps and incorporating external evaluation  recommendations. This underscores the 
+adaptability and continuous improvement approach adopted by the project.  
+Innovative Approaches in Co -Design and Community Engagement: The co-design approach, involving youth and communi-
+ties in finding solutions, has been pivotal. The project focuses on small-scale projects, grants, and community dialogues, including 
+innovative interventions and participatory methods for addressing environmental issues.  
+Effective Collaboration with Partners: The project demonstrates successful collaboration with partners, such as UNV, universi-
+ties, and civil society organisations . Partner roles are clearly defined based on competencies and strategic orientations, fostering 
+a synergistic approach to addressing diverse environmental challenges.  
+ 
+Data-Driven Decision -Making: The project emphasises data quality improvement and diversified topics, shifting from local to 
+central levels. This reflects a commitment to evidence-based decision- making, ensuring interventions align with Kosovo's real 
+needs and challenges. 
+Adaptation to Changing Contexts: The project shows resilience and adaptability, addressing delays caused by external factors 
+such as changes in government, contractual reforms, and the COVID-19 pandemic. Despite challenges, the implementation picked 
+up speed, showcasing effective project management. 
+Focus on Community Sustainability: The project promotes sustainable community development by empowering communities 
+and youth. Initiatives include grants, support for civil society organisations, and innovative interventions, fostering a vibrant civil 
+society dedicated to addressing environmental threats.  
+Innovative Environmental Campaigns: The project employs innovative environmental campaigns, utilising various channels like 
+social media, television, radio, and billboards. The #ecokosovo campaign effectively educates the public about risks associat ed 
+with environmental threats, encouraging individual action and lifestyle changes for a cleaner environment . 
+Addressing Medical Waste Challenges: The project recognises the increased challenges in medical waste management during 
+health emergencies, notably the COVID-19 pandemic. It focuses on clear protocols, training, and educational materials to guide 
+proper waste management and protect healthcare workers and the public.  
+Alignment with Sustainable Development Goals: Healthier Kosovo 2 aligns with the United Nations Sustainable Development 
+Cooperation Framework and Luxembourg’s Development Cooperation, explicitly contributing to outcomes related to decent work, 
+economic development, climate change resilience, and health priorities.  
+Holistic Approach to Air Pollution: The project adopts a comprehensive approach to address air pollution, encompassing out-
+door and household sources. Initiatives include supporting policy implementation, developing local reduction plans, and engaging 
+in behavioural insights-based interventions to combat air pollution effectively.  
+In conclusion, the Healthier Kosovo 2 Project has consistently demonstrated a commitment to 
+excellence in its interventions, yielding high-quality results in collaboration with key stakeholders. 
+The emphasis on meticulous planning, as seen in activities wi thin municipalities and co -design 
+initiatives, showcases the project's dedication to understanding real needs and utilising diverse 
+data sources. Notably, the project's success in maintaining the quality of waste protocols, even 
+amid challenges such as changes in government and the impact of COVID, underscores its resil-
+ience and adaptability. The ability to navigate these external factors without compromising imple-
+mentation or overall outcomes speaks to the project's robust management and strategic foresight. 
+Despite a dynamic environment, Healthier Kosovo 2 has proven that its impact remains steadfast, 
+contributing to the sustainability and resilience of environmental initiatives in Kosovo. 
+
+===== PAGE 31 =====
+ 
+ Project efficiency 
+The evaluation has been completed, thoroughly assessing the project's efficiency. It examined 
+the effectiveness of support provided to project beneficiaries by implementing partners and eval-
+uated the active involvement of the target population in program implementation, exploring vari-
+ous modes of participation. It scrutinised the quality of interventions and results obtained with 
+main project stakeholders, evaluating the timely implementation of activities within planned finan-
+cial resources. Additionally, the evaluation investigated the presence of any duplication of efforts 
+among stakeholders and implementing partners, assessing how coordination was managed to 
+avoid redundancy. Table 5.3 presents the rating of the efficiency of each project activity.  
+Table 5.3. Assessment of project efficiency 
+Project activity a b c d e 
+1.1a.  Support the Environmental inspectorate from MEE with tools and capac-
+ity-building 
+Mostly Yes Mostly Yes Yes 
+ 1.1.b. Support the municipality's  local air pollution reduction plans, strategies 
+and tools 
+Yes Yes Yes Yes Yes 
+ 1.1.c. Conduct a behavioural insight study Yes Yes Yes Yes Yes 
+ 1.1.d. Support institutional capacities to assess environmental health impacts  N/I N/I N/I N/I N/I 
+ 1.2.a. Support institutions to assess indoor air pollution and related health im-
+pacts through tools, methodologies, workshops, training 
+Yes Yes Yes Yes Yes 
+ 1.2.b.  Increase awareness among the general public on exposure to threats 
+from indoor air pollution 
+Yes Yes Yes Yes Yes 
+ 1.3.a. Support financially Environmental Civil Society Organizations to develop 
+and pilot their projects on addressing environmental pollution, research, and 
+advocacy 
+Yes Yes Mostly Mostly Yes 
+ 1.3.b. Catalyse policy dialogue events/workshops to engage stakeholders in 
+research-based discussions  
+Yes Yes Yes Yes Yes 
+ 1.3.d.  Co-design parks through the Park Foundation and bring together stake-
+holders in a shared platform to create green public spaces 
+Yes Yes Yes Yes Yes 
+ 1.3.e. Increase awareness and knowledge about indoor/outdoor air pollution in 
+local communities through the deployment of UN Community Volunteers  
+Yes Yes Yes Yes Yes 
+ 1.4.a. Engage the public to lead a sustainable lifestyle for a cleaner environ-
+ment and air through innovative public outreach campaigning - #ecokosovo4    
+Yes Yes Yes Yes Yes 
+ 1.5.a.  Support central and local institutions to address health threats from cli-
+mate change through tools and strategies  
+Yes Yes Yes Mostly Yes 
+ 1.6.a. Raise awareness among the general public to reduce exposure to health 
+threats from climate change  
+Yes Yes Mostly Mostly Yes 
+ 2.1.a.  Support to the University Hospital and Clinical Service of Kosovo 
+(HUCSK) in developing/updating waste management protocols  
+Yes Yes Yes Yes Yes 
+ 2.1.b.  Raise the capacities of HCWs and other relevant parties on best prac-
+tices in managing medical waste  
+Yes Yes Yes Yes Yes 
+ 2.2.a.  Design and distribute educational materials in health facilities to inform 
+HCWs and patients on steps they can take to reduce health threats from med-
+ical waste  
+Yes Yes Mostly Mostly Yes 
+ 2.3.a.  Establish a safe waste collection and segregation in the UCCK  Yes Yes Mostly Mostly Yes 
+a=The implementing partners' support to the project beneficiaries has been an efficient implementation modality 
+b=The target population and participants  actively implemented the activity  
+c=The quality of intervention and results achieved were satisfactory  
+d=Activity was implemented as scheduled with the planned financial resources  
+e=There was no duplication of efforts, including stakeholders and implementing partner  
+To what extent has the implementing partners' support to the project beneficiaries been an efficient implementation 
+modality? 
+To what extent have the target population and participants' actively implemented the Programme? What modes of 
+par
+ticipation have taken place? 
+What factors contributed to progress or delay in achieving products and results? 
+What good practices, successful experiences, or transferable examples have been identified? 
+What is the quality of interventions and results achieved with main Project stakeholders? 
+To what extent were activities implemented as scheduled and with the planned financial resources? 
+Is there any duplication of efforts, including stakeholders and implementing partners? If not, was the programme 
+so unique in content? If yes, how was this coordinated between coordination bodies/stakeholders or implementing 
+partners as a tested product or ownership? What was the effectiveness or difference of each approach/case? 
+What factors contributed to effectiveness or ineffectiveness? 
+
+===== PAGE 32 =====
+ 
+N/I=Not implemented 
+The project implementation has witnessed an efficient modality through the support provided to 
+project beneficiaries by implementing partners. Numerous examples highlight the effectiveness 
+of this approach. Despite limited tools, significant achievements have been realised, showcasing 
+the project's ability to maximise impact with the available resources. The efficient utilisation of 
+human resources and project staff is evident, with only one and a half individuals overseeing this 
+program. This streamlined approach reflects the dedication and effectiveness of the team, 
+demonstrating how well they have navigated challenges and successfully advanced the project's 
+objectives. 
+The project demonstrated a commendable commitment to avoiding duplication of efforts and fos-
+tering collaboration among stakeholders and implementing partners. All necessary project actions 
+were meticulously developed in close collaboration with critical stakeholders, emphasising an ef-
+fective strategy that promoted cooperation  and yielded positive outcomes. The JP project ex-
+tended its coordination efforts beyond its immediate scope by engaging with other donors and 
+stakeholders active in the environmental do main. Several meetings were conducted with GIZ, 
+WB, and key project partners to combine forces for a more impactful approach to environmental 
+threats and their repercussions on human health, thus avoiding duplicative actions. Donor coor-
+dination meetings further facilitated the presentation of all donors' work and exploration of coop-
+eration opportunities while minimising duplication of efforts.  
+ Project sustainability 
+The evaluation has thoroughly assessed the project's sustainability, examining whether it has 
+effectively established conditions to ensure lasting benefits beyond the concluded project activi-
+ties. It has analysed the institutionalisation of capacity development efforts, evaluating the devel-
+opment of an approach or model for dissemination throughout Kosovo. The evaluation has al-
+ready addressed the adequacy of the project's duration to secure the sustainability of interven-
+tions and explored contemporary, innovative approaches to address unemployment issues. The 
+investigation has delved into how the project ensures the sustainability of its results and impacts, 
+encompassing strengthened capacities and improved practices. Furthermore, the evaluation has 
+assessed potential risks from legal frameworks, policies, and governance structures that could 
+compromise the sustainability of project benefits. It has also evaluated the level of stakeholders' 
+ownership, providing crucial insights into the project's sustainability efforts and offering potential 
+recommendations for future strategies and programs. Table 5.4. summarises the sustainability 
+assessment of each project activity.  
+Table 5.4. Assessment of project sustainability 
+Project activity a b c d e f G 
+1.1a.  Support the Environmental inspectorate from MEE with 
+tools and capacity-building 
+Yes Yes Yes Likely Yes Likely Likely 
+ 1.1.b. Support the municipality's  local air pollution reduction 
+plans, strategies and tools 
+Yes Yes Yes Likely Yes Yes Yes 
+Has the Project created conditions to ensure that benefits continue beyond the Project activities? 
+How has the Project institutionalised overall capacity development efforts so far? 
+Has an approach/model been developed that can be further disseminated throughout Kosovo? 
+Is the duration of the current Project sufficient to ensure the sustainability of the interventions? 
+Which recommendations can be made to inform future strategies and programs? 
+Has the project introduced contemporary/innovative approaches to solving environmental issues? 
+How is the project ensuring the sustainability of its results and impacts (i.e., strengthened capacities, continuity of 
+use of knowledge, improved practices, etc.)? 
+Do the legal frameworks, policies, governance structures and processes within which the project operates pose 
+risks that may jeopardise the sustainability of project benefits? 
+What is the risk that the level of stakeholders’ ownership will be sufficient to allow for the project benefits to be 
+s
+ustained? 
+
+===== PAGE 33 =====
+ 
+ 1.1.c. Conduct a behavioural insight study Likely Yes Yes Some-
+what 
+Yes Likely Some-
+what 
+ 1.1.d. Support institutional capacities to assess environmental 
+health impacts  
+N/I N/I N/I N/I N/I N/I N/I 
+ 1.2.a. Support institutions to assess indoor air pollution and 
+related health impacts through tools, methodologies, work-
+shops, training 
+Yes Yes Yes Some-
+what 
+Yes Likely Yes 
+ 1.2.b.  Increase awareness among the general public on ex-
+posure to threats from indoor air pollution 
+Some-
+what 
+Yes Yes No Yes Likely Likely 
+ 1.3.a. Support financially Environmental Civil Society Organi-
+zations to develop and pilot their projects on addressing envi-
+ronmental pollution, research, and advocacy  
+Some-
+what 
+Some-
+what 
+Yes Some-
+what 
+Yes Likely Likely 
+ 1.3.b. Catalyse policy dialogue events/workshops to engage 
+stakeholders in research-based discussions  
+Some-
+what 
+Yes Yes Some-
+what 
+Some-
+what 
+Likely Some-
+what 
+ 1.3.d.  Co -design parks through the Park Foundation and 
+bring together stakeholders in a shared platform to create 
+green public spaces 
+Some-
+what 
+Some-
+what 
+Yes Likely Yes Likely Likely 
+ 1.3.e. Increase awareness and knowledge about indoor/out-
+door air pollution in local communities through the deployment 
+of UN Community Volunteers  
+Some-
+what 
+Yes Yes Some-
+what 
+Yes Likely Likely 
+ 1.4.a. Engage the public to lead a sustainable lifestyle for a 
+cleaner environment and air through innovative public out-
+reach campaigning - #ecokosovo4    
+Some-
+what 
+Yes Yes Some-
+what 
+Yes Likely Likely 
+ 1.5.a.  Support central and local institutions to address health 
+threats from climate change through tools and strategies  
+Some-
+what 
+Yes Yes Some-
+what 
+Yes Likely Likely 
+ 1.6.a. Raise awareness among the general public to reduce 
+exposure to health threats from climate change  
+Some-
+what 
+Yes Yes Some-
+what 
+Yes Likely Some-
+what 
+ 2.1.a.  Support to the University Hospital and Clinical Service 
+of Kosovo (HUCSK) in developing/updating waste manage-
+ment protocols 
+Yes Yes Yes Yes Yes Yes Yes 
+ 2.1.b.  Raise the capacities of HCWs and other relevant par-
+ties on best practices in managing medical waste  
+Likely Yes Yes Yes Yes Yes Likely 
+ 2.2.a.  Design and distribute educational materials in health 
+facilities to inform HCWs  and patients on steps they can take 
+to reduce health threats from medical waste  
+Some-
+what 
+Yes Yes Some-
+what 
+Yes Yes Some-
+what 
+ 2.3.a.  Establish a safe waste collection and segregation in 
+the UCCK  
+Likely Yes Yes Some-
+what 
+Yes Yes Likely 
+ a=The Project created conditions to ensure that benefits continue beyond the Project activity  
+b=The Project has institutionalised capacity development efforts  
+c=The approach/model has been developed and can be further disseminated throughout Kosovo  
+d=The duration of the current Project is sufficient to ensure the sustainability of the intervention  
+e=The project has introduced contemporary/innovative approaches to solving environmental issues  
+f=The legal frameworks, policies, governance structures and processes within which the activity operates do not pose risks th at 
+may jeopardise the sustainability of activity benefits  
+ g=The level of the stakeholders’ ownership is sufficient to allow for the activity benefits to be sustained  
+ N/I=Not implemented 
+The Healthier Kosovo 2 (HK2) project has diligently laid the foundations for sustained benefits 
+beyond its immediate activities. Adopting a participatory planning approach, HK2 engaged stake-
+holders at both the central and local levels, fostering collaboration in capacity building and policy 
+development. The project's commitment to multi -stakeholder engagement facilitated effective 
+communication and yielded positive outcomes throughout its implementation. 
+HK2's impact is evident in its multifaceted strategies. From community engagement initiatives 
+targeting environmental health threats to collaborations with the government and organisations 
+like GIZ, the project has efficiently addressed waste management commitments. Notably, the 
+focus on central-level institutions, such as the Hydrometeorological Institute, showcased success-
+ful initiatives like digitalisation, underscoring the project's capacity to mobilise external funds for 
+impactful endeavours. The emphasis on institutionalising capacity development efforts has further 
+strengthened HK2's legacy, with initiatives like action plans, SOPs, and TOT programs proving 
+effective and sustainable. 
+Despite these accomplishments, concerns about the project's duration are considered insufficient 
+for ensuring long-term sustainability. The need for advocacy efforts to improve regulatory envi-
+ronments at both central and local levels, guided by field data and practices, has been identified. 
+Nevertheless, HK2 has demonstrated its resilience by operating within supportive legal frame-
+
+===== PAGE 34 =====
+ 
+works and governance structures, minimising risks to sustainability. The pivotal role of stake-
+holder ownership in sustaining project benefits underscores the lasting impact of HK2's endeav-
+ours on environmental health in Kosovo. In contrast, it remains unclear how full sustainability will 
+be achieved for environmental campaigns, work in prototypes and with CSOs.  
+ Stakeholders and partnership strategy 
+ 
+The evaluation has completed an assessment of the project's alignment with governmental and 
+sectoral policies, ensuring coherence and support for its objectives and outcomes. Active efforts 
+were scrutinised regarding establishing partnerships and evaluating the synergies created to de-
+liver practical assistance. Stakeholder support for the project's long- term goals has been thor-
+oughly gauged, emphasising the efficiency and satisfaction of cooperation arrangements among 
+the Project Team and public institutions. The evaluation has delved into the quality and timeliness 
+of partners' contributions, determining the effectiveness of their fulfilment of responsibilities. It has 
+also explored the project's contribution to the UN Country Strategy, identifying any unex pected 
+emergence of new partners. The evaluation has meticulously examined the project's adherence 
+to commitments promoting local ownership, alignment, harmonisation, management for develop-
+ment results, and mutual accountability. This comprehensive analysis provides valuable insights 
+into the efficacy of the project's partnership strategy. 
+The Project has effectively aligned its objectives and outcomes with governmental and sectoral 
+policies. For instance, the development of municipal action plans for air pollution is entirely con-
+sistent with the new Law No.08/L-025 on Air Protection from Pollution, which mandates all local 
+authorities to assess air quality and prepare Local Air Pollution Action Plans (LAPAQs). Further-
+more, most other activities the Project undertake are directly aligned with sectoral strategies fo-
+cusing on environmental conservation and air pollution reduction. Specifically, the waste man-
+agement initiatives within the hospital sector demonstrate adherence to the strategic goals out-
+lined in the health sectorial strategy. This meticulous alignment ensures that the Project complies 
+with legal frameworks and contributes effectively to broader sectoral objectives, reinforcing its 
+impact on environmental and health-related issues. 
+The project has successfully pursued and established valuable partnerships, fostering synergies 
+that enhance the delivery of assistance. Notably, UNDP leveraged its vertical funds to bolster 
+support for the Kosovo Hydrometeorological Institute (KHMI) in climate adaptation and anticipa-
+tory governance. This collaboration resulted in the implementing  of new automatic monitoring 
+stations for precipitation and air temperature measurements. Reporting real-time data, these sta-
+tions contribute significantly to floo d modelling and an early warning system. The participatory 
+planning approach of HK2 further underscores the commitment to project sustainability, engaging 
+stakeholders at both central and local levels. Through a multi -stakeholder strategy, the project 
+prioritised capacity building, policy development, and close collaboration with key stakeholders, 
+ensuring effective communication and coordination. The continuous strengthening of partnerships 
+Are the Project's objectives and outcomes consistent and supportive of governmental and sectoral policies (where 
+relevant)? 
+To what extent have partnerships been sought and established and synergies created in the delivery of assistance? 
+T
+o what extent do stakeholders support the project’s long-term objectives? 
+Were efficient and mutually satisfactory cooperation arrangements established between the Project Team and 
+public institutions? Private sector? 
+Were partners’ inputs of quality provided promptly? 
+Have partners fully and effectively discharged their responsibilities? Does the Project contribute to the overall UN 
+Country Strategy? Have any new partners emerged that were not initially identified? 
+How has the project implemented the commitments to promote local ownership, alignment, harmonisation, man-
+agem
+ent for development results and mutual accountability? 
+
+===== PAGE 35 =====
+ 
+with Kosovo institutions, including the Ministry of Health (MoH), MESPI, NIPHK, KHMI, and part-
+ner municipalities, exemplifies the project's dedication to efficient output delivery. Additionally, the 
+project extended its collaboration to civil society organisations through activities and small grants, 
+fostering a participatory process that ensures achievements transition seamlessly into institutional 
+ownership.  
+The stakeholders have consistently supported the project's long-term objectives, recognising their 
+alignment with overarching priorities. This affirmation is evident in the sustained and strengthened 
+partnerships between the project and Kosovo institutions, including significant entities such as 
+the Ministry of Health (MoH), MESPI, NIPHK, KHMI, a nd partner municipalities like Obiliq/Obilic 
+and Fushë Kosove/Kosovo Polje, Prishtina/Pristina. Additionally, the project has maintained col-
+laborative ties with civil society organisations through active engagement in project activities and 
+the provision of small grants. This close collaboration, marked by a participatory process, has 
+played a pivotal role in ensuring the efficient delivery of project outputs. Furthermore, it has facil-
+itated a seamless transition of project achievements into the ownership of the involved institutions. 
+All key partners' ongoing commitment and collaborative efforts underscore the project's success 
+in garnering sustained support and engagement from stakeholders aligned with its long-term ob-
+jectives. 
+The project has successfully fostered efficient and mutually satisfactory cooperation arrange-
+ments between the Project Team and public institutions. The active involvement of critical coun-
+terparts in both the design and implementation phases has demonstrated effectiveness in ad-
+dressing the specific needs of institutions and expanding opportunities for successful execution. 
+The project operates on fundamental principles of complexity, interdisciplinarity, and inter-depart-
+mental interaction. However, it is noted that the complete application of these principles is contin-
+gent upon the presence of an appropriate central and local regulatory environment. Additionally, 
+the realisation of these principles necessitates political will, a change of attitude, and a shift in 
+working culture at the local level. Recognising these factors as essential contributors to the pro-
+ject's success and establishing fruitful cooperation arrangements underscores the importance of 
+collaborative efforts between the project team  and public institutions to sustain the project's ob-
+jectives effectively. 
+All partners have demonstrated high commitment and responsibility throughout the project, thor-
+oughly and effectively discharging their respective roles. Their dedication has played a pivotal 
+role in the project's success, ensuring the seamless execution of tasks and attaining objectives. 
+The project, aligning with the UN Country Strategy, has significantly enhanced  environmental 
+health and sustainability. Notably, UNDP has successfully mobilised  vertical funds, showcasing 
+a proactive approach to securing resources. However, it is acknowledged that the donor had 
+anticipated the project, specifically HK1 and HK2, to act as seed money, stimulating additional 
+funds from diverse sources. Regrettably, this envisioned financial leverage has not materialised 
+as expected. Despite this challenge, the project's positive impact remains evident, emphasising 
+the need for continued collaboration and strategic planning to address funding expectations and 
+secure sustained support for future endeavours. 
+ Theory of Change or results/outcome map 
+The evaluation has extensively examined the project's Theory of Change or logic model (Figure 
+5.1.), thoroughly scrutinising its feasibility and realism by meticulously evaluating the underlying 
+assumptions, factors, and risks considered during its formulation. Through this comprehensive 
+examination, the evaluation ensures that the project's overarching plan aligns with the realities on 
+the ground, fostering a thorough understanding of the project's theoretical underpinnings.  
+Was the Theory of Change or project logic feasible and realistic? 
+Were assumptions, factors and risks sufficiently taken into consideration? 
+
+===== PAGE 36 =====
+ 
+Figure 5.1. Theory of change for HK2 
+ 
+The comprehensive evaluation has confirmed that the Theory of Change or project logic was 
+feasible and realistic. The meticulous scrutiny of the project's conceptual framework revealed that 
+the assumptions, factors, and risks were sufficiently considered during its formulation. The exam-
+ination delved deeply into the underlying assumptions, assessing their adequacy, and thoroughly 
+analysed the integration of factors and risks into the model. The evaluation process has provided 
+critical insights into the strengths and potential weaknesses of the project's theoretical underpin-
+nings, ensuring a nuanced understanding of its design and approach. By affirming the feasibility 
+and realism of the Theory of Change, the evaluation serves as a valuable guide for future d eci-
+sions and strategies, contributing significantly to the overall effectiveness and long- term impact 
+of the project. The findings of this thorough evaluation underscore the project's commitment to 
+aligning its overarching plan with the realities on the gr ound, fostering a comprehensive and 
+grounded approach to achieving its objectives. 
+ Human rights  
+The evaluation has rigorously examined the extent to which the project upheld human rights prin-
+ciples, with a particular focus on vulnerable and marginalised populations, including poor com-
+munities, minority groups, individuals with physical disabilities, and women. T he evaluation has 
+delved into the project's approach to ensuring these communities' active participation, inclusion, 
+and representation throughout the implementation process.  
+The findings of the evaluation have revealed that the project has positively upheld human rights 
+principles, especially concerning vulnerable and marginalised populations such as poor commu-
+nities, minority groups, individuals with physical disabilities, and women. The thorough examina-
+tion of outcomes and impacts on these communities demonstrated tangible benefits, indicating 
+the project's success in promoting social justice, equality, and the fulfilment of human rights. The 
+evaluation highlighted the project's effective strategies in ensuring these communities' active par-
+ticipation, inclusion, and representation throughout the implementation process. The measures 
+To what extent have poor, minority groups, physically challenged women, and other disadvantaged and marginal-
+ised groups benefited from the project? 
+
+===== PAGE 37 =====
+ 
+taken to address unique challenges were found to be empowering, contributing to an improve-
+ment in the overall well-being of these groups.  
+ Criteria: Gender 
+The evaluation has rigorously assessed the integration of gender equality and women's empow-
+erment throughout the project's design, implementation, and monitoring phases. It thoroughly ex-
+amined how the project effectively addressed gender disparities and promoted women's empow-
+erment, including evaluating the accuracy and representativeness of the gender marker data as-
+signed to the project. The assessment also scrutinised the project's impact on positive changes 
+in gender equality, considering both intended outcomes and unintended effects.  
+The project has proactively addressed gender equality and women's empowerment throughout 
+its design, implementation, and monitoring phases. An exemplary initiative undertaken by HK2 in 
+this regard was the organisation of a roundtable discussion on gender perspectives and climate 
+change, which attracted diverse stakeholders, including representatives from local organisations, 
+international development and financial institutions, experts, civil society and academic represent-
+atives, environmental activists, and UNDP colleagues from North Macedonia. This event served 
+as a platform for sharing best practices and exchanging ideas on integrating gender perspectives 
+into climate change programs and policies. 
+The project's inter -sectoral approach has successfully tackled various cross -cutting issues, in-
+cluding gender, emphasising intersectional themes such as gender and power analysis. The de-
+sign and implementation of gender-sensitive monitoring and evaluation processes have demon-
+strated the project's commitment to measuring impact and sharing learning across results, teams, 
+and partners. 
+Throughout 2022, HK2 continued its focus on cross-cutting issues, organising the roundtable dis-
+cussion that facilitated input and best practice sharing among diverse stakeholders. The project 
+has strived to incorporate principles and quality criteria related to cross -cutting issues, such as 
+environment, gender equality, women's empowerment, human rights-based approaches, and so-
+cial standards. While facing challenges in quantification and achieving specific targets, the project 
+has committed to inclusivity and equal opportunities for all, paying attention to vulnerable groups, 
+gender considerations, and specific training programs. 
+The local project appraisal committee and UNDP Office in Kosovo have acknowledged the pro-
+ject's efforts, with notable achievements such as receiving a silver medal for gender aspects. The 
+project has exceeded targets related to women's participation and has maintained a focus on 
+ensuring equal access and opportunities for vulnerable groups, including ethnic minorities. De-
+spite challenges in design, the project's implementation consistently prioritised gender consider-
+ations and the inclusion of minority groups, resulting in no observed unintended effects. 
+ 
+  
+To what extent have gender equality and women's empowerment been addressed in the project's design, imple-
+mentation and monitoring? 
+Is the gender marker data assigned to this project representative of reality? 
+T
+o what extent has the project promoted positive changes in gender equality and women's empowerment? 
+Were there any unintended effects? 
+
+===== PAGE 38 =====
+ 
+6. CONCLUSIONS 
+ Project design & contextual relevance 
+Relevance and Urgency: The project's goals align with Kosovo's needs, addressing persistent 
+health and environmental issues, especially during the COVID -19 pandemic. The interconnect-
+edness of environmental and public health issues underscores the need for ongoing support and 
+targeted approaches. 
+Alignment with Country's Environmental Direction: The project's objectives align with Koso-
+vo's climate initiatives, legislative advancements, and international engagements, showcasing its 
+relevance in the nation's journey toward sustainable development amidst climate challenges. 
+Effective Coordination and Management:  The project demonstrates effective coordination, 
+management, and financing arrangements. Collaborative efforts with UNDP, UNV, WHO, donors, 
+and international organisations contribute to successful outcomes, highlighting its adaptability to 
+potential complexities. 
+ Project's effectiveness 
+Effective Achievement of Outputs: The Healthier Kosovo 2 Project has achieved a significant 
+portion of its outputs, and the remaining objectives are on track for completion within the planned 
+timeline. A comprehensive breakdown, including a rating system, provides insights into the pro-
+ject's progress, showcasing the practical realisation of intended outcomes. 
+Factors Influencing Progress: Delays were attributed to law approval, funding modalities, and 
+external challenges like COVID -19. Despite hurdles, the project demonstrated resilience and 
+adaptability, showcasing effective project management and an ability to navigate external com-
+plexities. 
+Coordination and Stakeholder Engagement:  Effective coordination among partners and a 
+comprehensive stakeholder engagement approach have been pivotal in achieving desired re-
+sults. The project strategically collaborates with central and local institutions, fostering multi -
+stakeholder collaboration and emphasising the importance of capacity building and policy devel-
+opment. 
+Good Practices and Innovation:  The project exhibits good practices and innovation in co- de-
+sign, community engagement, data-driven decision-making, and addressing medical waste chal-
+lenges. Its focus on sustainable community development, innovative environmental campaigns, 
+and a holistic approach to air pollution align with the Sustainable Development Goals, contributing 
+to Kosovo's environmental sustainability and resilience. 
+ Project efficiency 
+Efficient Implementation Modality: The project has demonstrated an efficient implementation 
+modality, mainly through the effective support provided to project beneficiaries by implementing 
+partners. Despite resource limitations, the project achieved significant milestones, emphasising  
+its ability to maximise impact with available resources and streamlined human resources.  The 
+project exhibited a commendable commitment to avoiding duplication of efforts, emphasising col-
+laboration among stakeholders and implementing partners.  
+ Project sustainability  
+Foundations for Sustained Benefits: The Healthier Kosovo 2 (HK2) project has laid the foun-
+dations for sustained benefits beyond its immediate activities. Through a participatory planning 
+approach and engagement with stakeholders at various levels, HK2 has fostered collaboration in 
+capacity building and policy development. The project's commitment to multi-stakeholder engage-
+ment has resulted in positive outcomes and effective communication throughout its implementa-
+tion. 
+
+===== PAGE 39 =====
+ 
+Duration and Advocacy Challenges:  Despite accomplishments, concerns about the project's 
+duration are deemed insufficient for ensuring long-term sustainability. Advocacy efforts are iden-
+tified as necessary to improve regulatory environments at both central and local levels, guided by 
+field data and practices. However, HK2 has demonstrated resilience by operating within support-
+ive legal frameworks and governance structures, minimising risks to sustainability. 
+Stakeholder Ownership for Lasting Impact: The pivotal role of stakeholder ownership in sus-
+taining project benefits underscores the lasting impact of HK2's endeavours on environmental 
+health in Kosovo. The engagement of stakeholders at different levels has contributed to the pro-
+ject's success and lays the groundwork for continued positive outcomes in the future. 
+ Stakeholders and partnership strategy 
+Strategic Alignment with Policies:  The project has effectively aligned its objectives and out-
+comes with governmental and sectoral policies. This meticulous alignment ensures compliance 
+with legal frameworks and contributes significantly to broader sectoral objectives, reinforcing the 
+project's impact on environmental and health-related issues. 
+Robust Partnerships and Stakeholder Support: The project has successfully pursued valuable 
+partnerships, fostering synergies to enhance assistance delivery. Sustained and strengthened 
+collaborations with Kosovo institutions, including governmental bodies, municipalities, and civil 
+society organisations, consistently support the project's long-term objectives. The commitment of 
+key partners underscores the project's success in garnering sustained support and engagement. 
+ Theory of Change or results/outcome map 
+Validation of Feasibility and Realism:  The comprehensive evaluation unequivocally confirms 
+the Theory of Change and project logic as feasible and realistic. The meticulous scrutiny of the 
+conceptual framework, including assumptions, factors, and risks, affirms that these elements 
+were adequately considered during the project's formulation. 
+ Human rights  
+Positive Adherence to Human Rights Principles:  The evaluation findings unequivocally indi-
+cate that the project has successfully upheld human rights principles, benefiting vulnerable and 
+marginalised populations, including poor communities, minority groups, individuals with disabili-
+ties, and women.  The evaluation also recognises the project's effective strategies in ensuring 
+active participation, inclusion, and representation of these communities, contributing to their em-
+powerment and overall well-being. 
+ Criteria: Gender 
+Proactive Gender Mainstreaming: The project has proactively integrated gender equality and 
+women's empowerment across all phases, notably exemplified by the successful organisation of 
+a roundtable discussion on gender perspectives and climate change. The diverse stakeholder 
+participation reflects the project's commitment to fostering dialogue and sharing best practices in 
+integrating gender perspectives into climate change programs. 
+  
+
+===== PAGE 40 =====
+ 
+7. LESSONS LEARNED 
+The lessons are presented briefly  and are grounded in specific evidence detailed in the report. 
+These lessons encompass knowledge acquired from unique circumstances, including interven-
+tions, contextual outcomes, and insights about evaluation methods applicable to similar contexts.  
+ 
+Project Design & Contextual Relevance: 
+ The HK2 project has showcased meticulous alignment with Kosovo's needs, particularly 
+addressing the amplified health and environmental challenges during the COVID-19 pan-
+demic. Its goals are well-entrenched in the interconnectedness of environmental and pub-
+lic health issues, emphasising the necessity for continual support and targeted ap-
+proaches. The project's objectives align seamlessly with Kosovo's climate initiatives, leg-
+islative advancements, and international engagements, positioning it as a crucial pl ayer 
+in the nation's sustainable development amid climate challenges. 
+ Effectiveness in addressing target group needs is a hallmark of the project, as it collabo-
+rates with government entities, donors, and municipalities. The commitment to gender 
+equality, proactive environmental engagement, and adherence to rigorous procedures un-
+derscore its effectiveness. The appropriateness of design is evident, with minor adjust-
+ments enhancing impact without compromising integrity. The innovative waste manage-
+ment approach establishes a robust foundation for future initiatives. 
+ Demonstrating effective coordination, management, and financing arrangements, the HK2 
+project has fostered collaborative efforts with UNDP, UNV, WHO, donors, and interna-
+tional organisations. This collaborative approach has been instrumental in overcoming 
+potential complexities, highlighting the project's adaptability to challenges. 
+Project's Effectiveness: 
+ The Healthier Kosovo 2 Project has achieved a substantial portion of its outputs, and the 
+remaining objectives are progressing within the planned timeline. A comprehensive break-
+down, including a rating system, provides insights into the project's progress, showcasing 
+the effective realisation of intended outcomes. Factors influencing progress, such as law 
+approval, funding modalities, and external challenges like COVID-19, have been managed 
+with resilience and adaptability. Coordination among partners and a comprehensive stake-
+holder engagement approach have been pivotal in achieving desired results. 
+ Good practices and innovation in co- design, community engagement, data -driven deci-
+sion-making, and addressing medical waste challenges are evident. The focus on sus-
+tainable community development, innovative environmental campaigns, and a holistic ap-
+proach to air pollution align with the Sustainable Development Goals, contributing signifi-
+cantly to Kosovo's environmental sustainability and resilience. 
+Project Efficiency: 
+ Efficiency in the implementation modality is a notable strength of the project. Significant 
+milestones have been achieved despite resource limitations , emphasising the project's 
+ability to maximise impact with available resources and streamlined human resources. 
+The commitment to avoiding duplication and proactive engagement with stakeholders and 
+implementing partners showcases a strategic approach that fosters collaboration. The 
+dedication to minimising redundancy and enhancing efficiency, exemplified by the cancel-
+lation of assessments and proactive engagement with multiple stakeholders, reflects the 
+project's commitment to optimising its 1-million-dollar, 3-year budget effectively. 
+Project Sustainability: 
+ The Healthier Kosovo 2 project has laid the foundations for sustained benefits beyond 
+immediate activities. Through a participatory planning approach and engagement with 
+stakeholders at various levels, HK2 has fostered collaboration in capacity building and 
+policy development. The commitment to multi -stakeholder engagement has resulted in 
+positive outcomes and effective communication throughout its implementation. 
+
+===== PAGE 41 =====
+ 
+ The multifaceted impact and legacy of HK2 are evident in its strategies addressing envi-
+ronmental health threats through community engagement and collaborations with govern-
+ment and organisations like GIZ. The successful initiatives, such as digitalisation at the 
+central level, demonstrate the project's capacity to mobilise external funds for impactful 
+endeavours. Despite achievements, concerns about the project's duration and advocacy 
+challenges highlight the need for continuous efforts to improve regulatory environments at 
+both central and local levels. The engagement of stakeholders at different levels under-
+scores the lasting impact of HK2's endeavours on environmental health in Kosovo. 
+Stakeholders and Partnership Strategy: 
+ The project's strategic alignment with governmental and sectoral policies has been effec-
+tive, ensuring compliance with legal frameworks and contributing significantly to broader 
+sectoral objectives. Robust partnerships and stakeholder support, especially with Kosovo 
+institutions, governmental bodies, municipalities, and civil society organisations, demon-
+strate consistent support for the project's long-term objectives. 
+ The consistent commitment from partners throughout the project underscored the positive 
+impact on environmental health and sustainability. It emphasised the necessity for ongo-
+ing collaboration and strategic planning to secure sustained support in future initiatives. 
+ UNDP's adept mobilisation of vertical funds showcased a proactive stance in securing 
+additional resources. However, the donor's initial vision of these projects (HK1 and HK2) 
+was that these were seed projects  expected to catalyse additional funds from various 
+sources. This experience underscores the importance of recognising and adapting to the 
+dynamic nature of funding landscapes. It highlights the need for continuous collaboration 
+and strategic planning, aligning funding expectations with the unpredictabl e reality of re-
+source mobilisation. 
+Theory of Change or Results/Outcome Map: 
+ The comprehensive evaluation has unequivocally confirmed the Theory of Change and 
+project logic as feasible and realistic. The detailed scrutiny of the conceptual framework, 
+including assumptions, factors, and risks, affirms that these elements were adequately 
+considered during the project's formulation. The evaluation process has provided critical 
+insights into the project's theoretical underpinnings, offering a nuanced understanding of 
+its design and approach. 
+ This valuable information guides future decisions and strategies, contributing significantly 
+to the project's overall effectiveness and long- term impact. The findings underscore the 
+project's commitment to aligning its plan with on-the-ground realities, ensuring a compre-
+hensive and grounded approach to achieving objectives. 
+Human Rights: 
+ The evaluation findings unequivocally indicate that the project has successfully upheld 
+human rights principles, benefiting vulnerable and marginalised populations, including 
+poor communities, minority groups, individuals with disabilities, and women. Examining  
+outcomes underscores the project's success in promoting social justice, equality, and the 
+fulfilment of human rights. 
+ Effective strategies for inclusivity and empowerment have contributed to the project's suc-
+cess. The evaluation recognises the project's effective strategy in ensuring active partici-
+pation, inclusion, and representation of these communities, contributing to their empow-
+erment and overall well-being. 
+Gender: 
+ Proactive gender mainstreaming is a notable strength of the project, with gender equality 
+and women's empowerment integrated across all phases. The successful organisation of 
+a roundtable discussion on gender perspectives and climate change exemplifies the com-
+mitment to fostering dialogue and sharing best practices in integrating gender perspec-
+tives into climate change programs. 
+ The project's inter-sectoral strategy has effectively addressed cross-cutting issues, partic-
+ularly emphasising gender and power analysis. Incorporating gender-sensitive monitoring 
+
+===== PAGE 42 =====
+ 
+and evaluation processes showcases a commitment to measuring impact and sharing 
+knowledge. Recognition and achievements in gender aspects highlight the project's com-
+mitment to inclusivity and equal opportunities for vulnerable groups and gender consider-
+ations. 
+Delays in Implementation, Challenges, and Best Practices: 
+ The Healthier Kosovo 2 Project encountered initial delays in its implementation due to the 
+pass-through funding modality and UNDP's global contractual reform. The team, however, 
+used this period for effective planning and engagement, resulting in a swift pick-up of im-
+plementation speed and strong results in 2022. Lessons from this experience include ef-
+fective planning during less intensive periods, stakeholder engagement at various levels, 
+and adaptability to unexpected challenges. 
+ The critical lesson from the extension period underscores the importance of engaging the 
+target audience, specifically children aged 11 to 17, in the decision- making process for 
+urban development projects. This collaborative approach ensures a comprehensiv e un-
+derstanding of the unique needs and preferences of the intended users and fosters a 
+sense of community ownership and empowerment. 
+In summary, the Healthier Kosovo 2 Project has demonstrated effectiveness, efficiency, sustain-
+ability, and positive social impact, with valuable lessons learned across various dimensions of 
+project implementation. The detailed and comprehensive approach to project design, stakeholder 
+engagement, gender mainstreaming, and adaptability to challenges has contributed to its suc-
+cess. It lays  a strong foundation for future endeavours in Kosovo's environmental and public 
+health landscape. 
+  
+
+===== PAGE 43 =====
+ 
+8. RECOMMENDATIONS 
+The section puts forth practical recommendations for both current and potential future projects. 
+These suggestions were meticulously developed, aligning seamlessly with pivotal findings and 
+conclusions extracted from the core questions of the evaluation and substantiated by compelling 
+evidence. Emphasis was placed on addressing the initiative's sustainability and, where applica-
+ble, evaluating the adequacy of the project exit strategy. Furthermore, the recommendations 
+transcended the immediate context, providing tailored guidance for upcoming initiatives or similar 
+projects and programming.  
+The comprehensive set of evaluation recommendations is meticulously presented below. Each 
+recommendation undergoes a thorough assessment, strategically tagged based on the order of 
+priority to indicate the urgency of implementation, and is closely linked to the preliminary conclu-
+sions. Each recommendation meticulously identifies the relevant stakeholders accountable for 
+taking the recommended actions. Furthermore, these recommendations have been thoughtfully 
+categorised into three categories: planning and implementation, programmatic improvements and 
+ideas for project extension. 
+ Planning and implementation 
+Relevant to stakeholders: Implementing partners 
+Enhance Early Planning and Engagement:  Initiate project planning and stakeholder engage-
+ment activities during periods of lower intensity or delays, using this time effectively for strategic 
+planning, stakeholder mapping, and preparation of necessary documentation. 
+Adaptive Funding Approach: Considering UNDP's effective vertical fund mobilisation, it's cru-
+cial to adapt the project's financial strategy to the dynamic funding landscape. The experience 
+with HK1 and HK2 as seed projects highlights the unpredictability of resource mobilisation, which 
+is often affected by political issues, and Kosovo UN membership, which limits access to many 
+founding sources in the UN system. Embracing flexibility and exploring innovative funding models 
+will enhance financial resilience and project scale-up. 
+ Programmatic improvements 
+Relevant to stakeholders: Implementing partners, donors, and institutional partners 
+Capacity Building and Policy Advocacy: Prioritize capacity building at local levels and advo-
+cate for improved regulatory environments supported by field data and best practices. Engage in 
+effective advocacy efforts to influence positive policy changes, guided by lessons learned from 
+the project. 
+Innovative Approaches to Community Engagement:  Continue and expand innovative ap-
+proaches to community engagement, particularly involving the target audience in decision-making 
+processes for urban development projects. Prioritise inclusive and community-driven methodolo-
+gies to ensure the unique needs and preferences of diverse communities are considered. 
+Sustainability through Institutionalization: Strengthen efforts to institutionalise capacity devel-
+opment initiatives, action plans, Standard Operating Procedures (SOPs), and Training of Trainers 
+(TOT) programs. Focus on embedding project outcomes into local governance structures and 
+practices to ensure sustained benefits beyond the project's immediate activities. 
+ Ideas for new interventions/actions 
+Relevant to stakeholders: Implementing partners, donors, and institutional partners 
+Institutional Capacity Building: Training for Hygiene Staff and Waste Officers: Future projects 
+should consider ongoing training programs for hygiene staff and waste officers within institutions. 
+This can include capacity building for existing staff to ensure sustainability. Assigning specific 
+individuals the responsibility of Waste Management (WM) oversight, training new personnel, and 
+
+===== PAGE 44 =====
+ 
+ensuring proper WM practices can be crucial. Exploring partnerships with educational institutions 
+or specialised agencies for targeted training sessions could enhance expertise. 
+Heat Action Plans:  Initiating Heat Action Plans: Recognizing the growing impact of climate 
+change, particularly in terms of rising temperatures, future projects should explore the initiation of 
+Heat Action Plans. Collaboration with national institutions can help design and implement specific 
+interventions to minimise the health risks associated with heat waves. Guiding the information to 
+be disseminated and creating awareness campaigns can contribute to lowering the effects and 
+exposures of vulnerable populations. 
+Broadening Project Scope and Stakeholder Engagement:  Expanding Activities and Stake-
+holder Engagement: Building on the successes of HK2, future projects could expand their scope 
+by engaging more stakeholders. This involves collaborating with municipalities that may not have 
+benefited previously and ensuring a more inclusive approach. Engaging committed and interested 
+municipalities, universities, and volunteer groups can lead to deeper community involvement and 
+increased commitment. Consideration should be given to expanding to areas that may be more 
+adversely affected but less involved due to limited resources. 
+Student and Volunteer Engagement: Increasing Involvement of Students and Volunteers: Rec-
+ognizing the enthusiasm of young people for environmental issues, future projects could further 
+involve students and volunteers. Establishing partnerships with universities and creating plat-
+forms for interaction, such as competitions or collaborative projects, can enhance community en-
+gagement. Leveraging international volunteers through mechanisms like Erasmus or Horizon 
+2020 can bring diverse perspectives and expertise to the projects. 
+Prototyping for Public Spaces: Encouraging Public Engagement through Prototyping: The con-
+cept of prototypes for public spaces can be expanded to engage young people and address com-
+munity disinterest. Future projects can focus on creative industries, involving universities and in-
+ternational volunteers to develop and implement prototypes in public spaces. This can be coupled 
+with awareness campaigns to change cultural perceptions and increase interest in public inter-
+ventions. 
+ 
+ 
+ 
+ 
+  
+
+===== PAGE 45 =====
+ 
+APPENDIX 1. TERMS OF REFERENCE FOR EVALUATION  
+  
+
+===== PAGE 46 =====
+ 
+ 
+APPENDIX 2. EVALUATION MATRIX 
+This section specifies the key evaluation questions and how they will be answered via the methods selected. We also identified key stakeholders from 
+which data will be sourced or collected.  
+Relevant evaluation 
+criteria Key questions Method Stakeholders Data sources 
+Indicators/Success 
+Standards 
+Project design & 
+contextual 
+relevance 
+ To what extent are the Project's objectives still valid? 
+ To what extent are the cross-cutting issues (such as environment, gen-
+der equality, women empowerment, human rights -based approach, 
+and social standards), principles and quality criteria? 
+ Does the Project respond to the needs of the identified target groups 
+and beneficiaries? 
+ Were the unique needs of jobseekers taken into consideration / to what 
+extent was gender equality addressed? Were there obstacles in re-
+sponding to the programme? 
+ Were all procedures and beneficiaries respected and mainstreamed 
+within the programme implementation? 
+ Was the design of the Project appropriate for reaching its results and 
+outcomes? 
+ Have any changes been made to the Project’s design during the imple-
+mentation? If yes, did they lead to significant design improvements?  
+ Were coordination, management and financing arrangements clearly 
+defined, and did they support institutional strengthening and local own-
+ership? 
+Desk review, In -
+Depth Interviews, 
+Focus Group Dis-
+cussions 
+Government 
+representa-
+tives, National 
+agencies repre-
+sentatives, im-
+plementation 
+agencies repre-
+sentatives, 
+CSO repre-
+sentatives 
+Project reports, 
+data from specific 
+agencies (KAS, 
+NIPH, WB, WHO) 
+Completion of inter-
+views, data acquisi-
+tion, and data analy-
+sis.  
+Project effective-
+ness 
+ To what extent have the Project outputs been achieved? Are they on 
+track to be completed as planned during the Programme? 
+ What factors contributed to progress or delay in achieving products and 
+results? 
+ What good practices, successful experiences, or transferable exam-
+ples have been identified? 
+ What is the quality of interventions and results achieved with main Pro-
+ject stakeholders? 
+ Have any changes in the overall context in Kosovo affected Project 
+implementation and overall results? 
+Desk review, In -
+Depth Interviews, 
+Focus Group Dis-
+cussions 
+Government 
+representa-
+tives, National 
+agencies repre-
+sentatives, im-
+plementation 
+agencies repre-
+sentatives, 
+CSO repre-
+sentatives 
+Project reports, 
+data from specific 
+agencies (KAS, 
+NIPH, WB, WHO) 
+Completion of inter-
+views, data acquisi-
+tion, and data analy-
+sis. 
+Project efficiency  To what extent has the implementing partners' support to the project 
+beneficiaries been an efficient implementation modality? 
+ To what extent have the target population and participants actively im-
+plemented the Programme? What modes of participation have taken 
+place? 
+Desk review, In -
+Depth Interviews, 
+Focus Group Dis-
+cussions 
+Government 
+representa-
+tives, National 
+agencies repre-
+Project reports, 
+data from specific 
+agencies (KAS, 
+NIPH, WB, WHO) 
+Completion of inter-
+views, data acquisi-
+tion, and data analy-
+sis. 
+
+===== PAGE 47 =====
+ 
+ What factors contributed to progress or delay in achieving products and 
+results? 
+ What good practices, successful experiences, or transferable exam-
+ples have been identified? 
+ What is the quality of interventions and results achieved with main Pro-
+ject stakeholders? 
+ To what extent were activities implemented as scheduled and with the 
+planned financial resources? 
+ Is there any duplication of efforts, including stakeholders and imple-
+menting partners? If not, was the programme so unique in content? If 
+yes, how was this coordinated between coordination bodies/stakehold-
+ers or implementing partners as a tested product or ownership? What 
+was the effectiveness or difference of each approach/case? 
+ What factors contributed to effectiveness or ineffectiveness? 
+sentatives, im-
+plementation 
+agencies repre-
+sentatives, 
+CSO repre-
+sentatives 
+Project sustainabil-
+ity 
+ Has the Project created conditions to ensure that benefits continue be-
+yond the Project activities? 
+ How has the Project institutionalised overall capacity development ef-
+forts so far? 
+ Has an approach/model been developed that can be further dissemi-
+nated throughout Kosovo? 
+ Is the duration of the current Project sufficient to ensure the sustaina-
+bility of the interventions? 
+ Which recommendations can be made to inform future strategies and 
+programs? 
+ Has the project introduced contemporary/innovative approaches to 
+solving unemployment issues? 
+ How is the project ensuring the sustainability of its results and impacts 
+(i.e., strengthened capacities, continuity of use of knowledge, improved 
+practices, etc.)? 
+ Do the legal frameworks, policies, governance structures and pro-
+cesses within which the project operates pose risks that may jeopard-
+ise the sustainability of project benefits? 
+ What is the risk that the level of stakeholders’ ownership will be suffi-
+cient to allow for the project benefits to be sustained? 
+Desk review, In -
+Depth Interviews, 
+Focus Group Dis-
+cussions 
+Government 
+representa-
+tives, National 
+agencies repre-
+sentatives, im-
+plementation 
+agencies repre-
+sentatives, 
+CSO repre-
+sentatives 
+Project reports, 
+data from specific 
+agencies (KAS, 
+NIPH, WB, WHO) 
+Completion of inter-
+views, data acquisi-
+tion, and data analy-
+sis. 
+Stakeholders and 
+partnership strategy 
+ Are the Project's objectives and outcomes consistent and supportive of 
+governmental and sectoral policies (where relevant)? 
+ To what extent have partnerships been sought and established and 
+synergies created in the delivery of assistance? 
+ To what extent do stakeholders support the project’s long-term objec-
+tives? 
+ Were efficient and mutually satisfactory cooperation arrangements es-
+tablished between the Project Team and public institutions? Private 
+sector? 
+ Were partners’ inputs of quality provided promptly? 
+Desk review, In -
+Depth Interviews, 
+Focus Group Dis-
+cussions 
+Government 
+representa-
+tives, National 
+agencies repre-
+sentatives, im-
+plementation 
+agencies repre-
+sentatives, 
+CSO repre-
+sentatives 
+Project reports, 
+data from specific 
+agencies (KAS, 
+NIPH, WB, WHO) 
+Completion of inter-
+views, data acquisi-
+tion, and data analy-
+sis. 
+
+===== PAGE 48 =====
+ 
+ Have partners fully and effectively discharged their responsibilities? 
+Does the Project contribute to the overall UN Country Strategy? Have 
+any new partners emerged that were not initially identified? 
+ How has the project implemented the commitments to promote local 
+ownership, alignment, harmonisation, management for development 
+results and mutual accountability? 
+Theory of Change or 
+results/outcome 
+map 
+ Was the Theory of Change or project logic feasible and realistic? 
+ Were assumptions, factors and risks sufficiently taken into considera-
+tion 
+Desk review, In -
+Depth Interviews, 
+Focus Group Dis-
+cussions 
+Government 
+representa-
+tives, National 
+agencies repre-
+sentatives, im-
+plementation 
+agencies repre-
+sentatives, 
+CSO repre-
+sentatives 
+Project reports, 
+data from specific 
+agencies (KAS, 
+NIPH, WB, WHO) 
+Completion of inter-
+views, data acquisi-
+tion, and data analy-
+sis. 
+Human rights  To what extent have poor, minority groups, physically challenged 
+women and other disadvantaged and marginalised groups benefited 
+from the project? 
+Desk review, In -
+Depth Interviews, 
+Focus Group Dis-
+cussions 
+Government 
+representa-
+tives, National 
+agencies repre-
+sentatives, im-
+plementation 
+agencies repre-
+sentatives, 
+CSO repre-
+sentatives 
+Project reports, 
+data from specific 
+agencies (KAS, 
+NIPH, WB, WHO) 
+Completion of inter-
+views, data acquisi-
+tion, and data analy-
+sis. 
+Gender  To what extent have gender equality and women's empowerment been 
+addressed in the project's design, implementation and monitoring? 
+ Is the gender marker data assigned to this project representative of 
+reality? 
+ To what extent has the project promoted positive changes in gender 
+equality and women's empowerment? 
+ Were there any unintended effects? 
+Desk review, In -
+Depth Interviews, 
+Focus Group Dis-
+cussions 
+Government 
+representa-
+tives, National 
+agencies repre-
+sentatives, im-
+plementation 
+agencies repre-
+sentatives, 
+CSO repre-
+sentatives 
+Project reports, 
+data from specific 
+agencies (KAS, 
+NIPH, WB, WHO) 
+Completion of inter-
+views, data acquisi-
+tion, and data analy-
+sis. 
+
+===== PAGE 49 =====
+ 
+ 
+APPENDIX 3. INTERVIEW GUIDE 
+Inform consent 
+Hello. My name is ______________________________, and I am working with/for the UNDP 
+programme in Kosovo. On behalf of UNDP, WHO, and UNV, we are conducting an end evaluation 
+of the Healthier Kosovo 2 Project (hereafter referred to as HK2). The information collected during 
+this evaluation will inform the key evaluation findings and recommendations that will help UNDP, 
+the Government, and other relevant donors and stakeholders learn from the experience with the 
+implementation of HK2. 
+Today, we want  to interview you and ask questions about the HK2. As one of the key do-
+nors/stakeholders with direct knowledge of the Project, your input  is important to us. We would 
+very much appreciate your uninterrupted availability for this interview. The interview will be rec-
+orded on tape to avoid missing your feedback or comments. With your permission, we will record 
+the interview only for such purposes. 
+Please be assured that your information will be confidential and not shared with anyone other 
+than the evaluation team members. Your responses will also be kept anonymous and not tied 
+back to you. The interview should take about 2 hours (120 minutes) to complete. Your participa-
+tion in this interview is voluntary , and if we ask you any questions you don’t want to answer, let 
+us know, and we will go on to the next question. You can also stop the interview at any time 
+without giving any reason. 
+Do you have any questions about the evaluation or the Interview process now? 
+Do you agree to participate in this interview? Yes [  ] No [  ] 
+May I begin the interview now? Yes [  ] No [  ] 
+Interview Guiding Questions 
+1. Warming up 
+Q1. Could you describe your position and role within the Organization? PROBE: How long have 
+you been involved with HK2 (with your organisation)? How (in what roles) were you involved with 
+the HK2? Which project activities, deliverables, and components? 
+Q2. Please share your understanding of the HK2 Project. PROBE: Can you please elaborate 
+particularly on HK2 interventions in your domain/s of work? 
+2. Main questions 
+Q3. What can you tell us about your experience with HK2 project design & contextual relevance? 
+PROBE: To what extent are the project's objectives still valid? To what extent are the cross-
+cutting issues (such as environment, gender equality, women empowerment, human rights-based 
+approach, and social standards), principles and quality criteria? Does the Project respond to the 
+needs of the identified target groups and beneficiaries? Were the unique needs of jobseekers 
+taken into consideration / to what extent was gender equality addressed ? Were there obstacles 
+in responding to the programme? Were all procedures and beneficiaries respected and main-
+streamed within the programme implementation? Was the design of the Project appropriate for 
+reaching its results and outcomes? Have any changes been made to the Project’s design during 
+the implementation? If yes, did they lead to significant design improvements? Were coordination, 
+management and financing arrangements clearly defined , and did they support institutional 
+strengthening and local ownership? 
+Q4. What can you tell us about the effectiveness of the HK2 project? PROBE: To what extent 
+have the Project outputs been achieved? Are they on track to be achieved as planned during the 
+Programme? What factors contributed to progress or delay in achieving products and results? 
+
+===== PAGE 50 =====
+ 
+What good practices , successful experiences,  or transferable examples have been identified? 
+What is the quality of interventions and results achieved with main Project stakeholders? Have 
+any changes in the overall context in Kosovo affected Project implementation and overall results? 
+Q5. What can you tell us about the efficiency of the HK2 Project? PROBE: To what extent has 
+the implementing partners' support to the project beneficiaries been an efficient implementation 
+modality? To what extent have the target population and participants' jobseekers actively imple-
+mented the Programme? What modes of participation have taken place? What factors contributed 
+to progress or delay in achieving products and results? What good practices, successful experi-
+ences, or transferable examples have been identified? What is the quality of interventions and 
+results achieved with main Project stakeholders? To what extent were activities implemented as 
+scheduled and with the planned financial resources? Is there any duplication of efforts, including 
+stakeholders and implementing partners? If not, was the programme so unique in content? If yes, 
+how was this coordinated between coordination bodies/stakeholders or implementing partners as 
+a tested product or ownership? What was the effectiveness or difference of each approach/case? 
+What factors contributed to effectiveness or ineffectiveness? 
+Q6. What are your impressions about the prospects for HK2 project efforts being sustainable? 
+PROBE: Has the Project created conditions to ensure that benefits continue beyond the Project 
+activities? How has the Project institutionalised overall capacity development efforts so far? Has 
+an approach/model been developed that can be further disseminated throughout Kosovo? Is the 
+duration of the current Project sufficient to ensure the sustainability of the interventions? Which 
+recommendations can be made to inform future strategies and programs? Has the project intro-
+duced contemporary/innovative approaches to solving unemployment issues? How is the project 
+ensuring the sustainability of its results and impacts (i.e., strengthened capacities, continuity of 
+use of knowledge, improved practices, etc.)? Do the legal frameworks, policies , governance 
+structures and processes within which the project operates pose risks that may jeopardise  the 
+sustainability of project benefits? What is the risk that the level of stakeholders’ ownership will be 
+sufficient to allow for the project benefits to be sustained?  
+Q7. What do you think about stakeholders in the HK2 project and partnership strategy? PROBE: 
+Are the Project's objectives and outcomes consistent and supportive of governmental policies 
+and sectoral policies (where relevant)? To what extent have partnerships been sought and es-
+tablished and synergies created in the delivery of assistance? To what extent do stakeholders 
+support the project’s long-term objectives? Were efficient and mutually satisfactory cooperation 
+arrangements established between the Project Team and public institutions? Private sector? 
+Were partners’ inputs of quality provided promptly? Have partners fully and effectively discharged 
+their responsibilities? Does the Project contribute to the overall UN Country Strategy? Have any 
+new partners emerged that were not initially identified? How has the project implemented the 
+commitments to promote local ownership, alignment, harmonisation, management for develop-
+ment results and mutual accountability? 
+Q8. What are your thoughts about the HK2 project Theory of Change or results/outcome map? 
+PROBE: Was the Theory of Change or project logic feasible and realistic? Were assumptions, 
+factors and risks sufficiently taken into consideration?  
+Q9. To what extent were human rights aspects an integral part of the design and implementation 
+of the HK2 project? PROBE: To what extent have poor, minority groups, physically challenged 
+women and other disadvantaged and marginalised groups benefited from the project? 
+Q10. To what extent were gender aspects an integral part of the design and implementation of 
+the HK2 project? PROBE: To what extent have gender equality and women's empowerment been 
+addressed in the project's design, implementation and monitoring ? Is the gender marker data 
+assigned to this project representative of reality? To what extent has the project promoted positive 
+changes in gender equality and women's empowerment? Were there any unintended effects? 
+3. Closing Questions 
+
+===== PAGE 51 =====
+ 
+Q11. Is there anything that we did not ask but, in your view, is significant? Please do share. 
+Thank the respondent for their time and emphasise that the interview has been helpful. 
+Do you have any questions for us? 
+
+===== PAGE 52 =====
+ 
+ 
+APPENDIX 4. LIST OF INDIVIDUALS INTERVIEWED 
+  Name Organisation Title Email Phone Completed 
+1 Eric Dietz Embassy of Luxembourg Charge d'affairs a.i. pristina.amb@mae.etat.lu;Eric.Dietz@mae.etat.lu  +383 (0) 38 22 67 
+87 
+  
+2 Valbona Bogujevci UNDP Assistant Resident Representative and Pro-
+gramme Coordinator 
+valbona.bogujevci@undp.org 049785916 17-Nov-23 
+3 Enisa Serhati UNDP IGCR Portfolio Manager enisa.serhati@undp.org 049117575 17-Nov-23 
+4 Anton Selitaj UNDP Programme Associate anton.selitaj@undp.org 049788447 23-Nov-23 
+5 Zana Shabani Isenaj  UNDP HK2 Project Coordinator zana.shabani.isenaj@undp.org  044186753 17-Nov-23 
+6 Rina Spahiu UNDP HK2 Project Innovation Officer rina.spahiu.curi@undp.org 044162097 17-Nov-23 
+7 Oleksandr Martynenko WHO Liaison Officer martynenkoo@who.int   27-Nov-23 
+8 Bujar Rexhepi WHO Environmental Health Officer rexhepib@who.int 049 317 213 22-Nov-23 
+9 Blerim Azizi UNV Country Coordinator blerim.azizi@unv.org 049785903 27-Nov-23 
+10 Dora Musa Office of President Adviser for sustainability affairs   49500801 13-Dec-23 
+11 Nezakete Hakaj Local consultant UNDP 
+LAPAQs 
+IC nezakete.hakaj@gmail.com 044 213 963 5-Dec-23 
+12 Adnan Bullatovci Municipality of Fushe Ko-
+soves 
+Official for Environmental Protection  Adnan.bullatovci@rks-gov.net 044 684 626 5-Dec-23 
+13 Lulzim Mjekiqi Municipality of Obiliqi Official for Environmental Protection  Lulzim.Mjekiqi@rks-gov.net 049 831 067 29-Nov-23 
+14 Dejan Mitic Municipality of Gracanices Official for Environmental Protection  dejan7mitic@yahoo.com 049 210 847 29-Nov-23 
+15 Arsim Qavderbasha Ministry of Health Head of Department for Health Services  Arsim.Qavdarbasha@rks-gov.net   30-Nov-23 
+16 Antigona Ukëhaxhaj Kosovo National Institute of 
+Public Health 
+Dr. Spec. of Public Health Antigona_dervishaj@yahoo.com; antigona.der-
+vishaj@uni-gjk.org 
+044 741 471 4-Dec-23 
+17 Besmir Kokollari MESPI Officer for environmental awareness  besmir.kokollari@rks-gov.net 049 659 662 No 
+18 Izedin Bytzqi MESPI Permanent Secretary izedin.bytyqi@rks-gov.net + 381 (0) 38 200 
+32 307 
+4-Dec-23 
+19 Agron Shala  Kosovo Hydrometeorologi-
+cal Institute 
+Head of Institute agron.Shala@rks-gov.net 044 242 211 4-Dec-23 
+20 Rinor Kurshuliu CSO 7 Arte Program Manager rkurshumliu@gmail.com   5-Dec-23 
+21 Nasaer Ramadani NIPHK Executive Director naser.ramadani@rks-gov.net, naseri0000@ya-
+hoo.co.uk 
+  4-Dec-23 
+22 Pranvera Kameri Municipality of Prishtines Assistant to Deputy Mayor Pranvera.Kameri@rks-gov.net   30-Nov-23 
+23 Agim Mazreku UNDP Advisor to Ministry of Environment  agimmaz@gmail.com   11-Dec-23 
+24 Gresa Neziri SpaceSyntaKS Executive Director gresaneziri@spacesyntaks.org   11-Dec-23 
+ 
+
+===== PAGE 53 =====
+ 
+ 
+APPENDIX 5. LIST OF SUPPORTING DOCUMENTS REVIEWED  
+Name of document Publisher/Agency/Source 
+2022 Annual Work Plan – Healthier Kosovo 2 UNDP 
+2023 Annual Work Plan – Healthier Kosovo 2 UNDP 
+Summary Report of the Project Board Meeting , January 2023 UNDP 
+Local Air Pollution Reduction Action Plan  – Fushe Kosove Municipality of Fushe Kosove 
+Local Air Pollution Reduction Action Plan  – Gjilan Municipality of Gjilan 
+Local Air Pollution Reduction Action Plan  – Gracanica Municipality of Gracanica 
+Local Air Pollution Reduction Action Plan  – Hani i Elezit Municipality of Hani i Elezit 
+Local Air Pollution Reduction Action Plan  – Obiliq Municipality of Obiliq 
+JP Healthier Kosovo 2 Project Document UNDP 
+JP Healthier Kosovo 2 Project Budget UNDP 
+JP Healthier Kosovo 2 Narrative Report 2022 UNDP 
+JP Healthier Kosovo 2 Financial Report 2022 UNDP 
+JP Healthier Kosovo 2 Narrative Report 2023 UNDP 
+Co-design for Reducing Exposure to Air Pollution with the UN Community Volunteers  Report 
+2022 
+UNKT 
+Social Media Platforms Report. Achievements And Insight  2023 UNDP 
+Behavioural Science for Transportation Behaviour in Kosovo  Ideas 42 
+Theory of change and results framework  UNDP 
+SOP 05-4789 MoH 
+SOP 05-4790 MoH 
+SOP 05-4791 MoH 
+SOP 05-4792 MoH 
+SOP 05-4793 MoH 
+SOP 05-4794 MoH 
+SOP_05-4795 MoH 
+Assessment Of Household Air Pollution In Kosovo  WHO, NIPHK 
+Raporti i Vlerësimit Menaxhimi i Mbeturinave të Kujdesit Shëndetësor në Kosovë  GIZ 
+The Annual Progress Report of The Climate Change Agenda of Kosovo 2022 - 2023 KCCCS 
+Gjendja e Ujërave në Kosovë - Analizë e situatës së ujërave në Mitrovicë  7Arte 
+EVALUATION REPORT Healthier Kosovo Final Project Evaluation  UNKT 
+JP Healthier Kosovo 1 Project Document UNDP 
+Partnership agreement with CSO 7Arte UNDP 
+Partnership agreement with CSO EcoKos Women UNDP 
+Partnership agreement with CSO EcoZ UNDP 
+ 
+  
+
+===== PAGE 54 =====
+ 
+APPENDIX 6. CODE OF CONDUCT 
+ 

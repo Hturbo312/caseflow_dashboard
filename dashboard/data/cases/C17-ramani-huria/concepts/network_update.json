@@ -1,0 +1,24 @@
+{
+ "caseId": "C17",
+ "version": "L2-C17-shared-v0.1",
+ "generatedAt": "2026-11-13",
+ "status": "confirmed",
+ "added": {
+  "nativeConcepts": 11,
+  "sharedConceptCandidates": 7,
+  "mappings": 19
+ },
+ "unchanged": {
+  "c01c11Candidates": 44,
+  "c12Released": 2,
+  "c14Released": 10
+ },
+ "historicalMappingsAdded": 0,
+ "conflicts": [],
+ "futureReview": [
+  "C13 MCM（无概念层）",
+  "C15 春江（无概念层）",
+  "C16 Red Hook WiFi（无概念层）"
+ ],
+ "conclusion": "纳入 C17 原生概念与候选；不改变既有概念边界；7 个候选保持 candidate"
+}

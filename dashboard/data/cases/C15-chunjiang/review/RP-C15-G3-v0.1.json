@@ -1,0 +1,49 @@
+{
+  "packet_id": "RP-C15-G3-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G3",
+  "case_id": "C15",
+  "scope": "Event timeline, process paragraphs and evidence links for Chunjiang digital renewal",
+  "generated_at": "2026-11-13",
+  "status": "awaiting_researcher_decision",
+  "event_count": 29,
+  "process_count": 7,
+  "processes": [
+    {"id": "C15-P01", "time": "2020-2021-02", "events": ["EV01", "EV02"], "evidence_count": 9, "summary": "prehistory, Chunjiang alley, autonomous team, early cameras"},
+    {"id": "C15-P02", "time": "2021-02-2021-07", "events": ["EV03", "EV04", "EV05", "EV06"], "evidence_count": 8, "summary": "minimum management unit phases I-II, Huangpu expansion, Qixi Road shop pilot"},
+    {"id": "C15-P03", "time": "2021-07-2021-12", "events": ["EV07", "EV08", "EV09", "EV10", "EV11", "EV12"], "evidence_count": 17, "summary": "Chunjiang smart scenarios, Beautiful Homeland phase I, charging piles, three meetings, pilot"},
+    {"id": "C15-P04", "time": "2023-02-2023-03", "events": ["EV13", "EV14", "EV15"], "evidence_count": 6, "summary": "Beautiful Homeland phase II, parking shortage, Hengfeng Bank 20 spaces"},
+    {"id": "C15-P05", "time": "2023-before-report-2023-09", "events": ["EV16", "EV17", "EV18"], "evidence_count": 7, "summary": "pavilion proposal, hearing, approval, supervision, six-party structure, self-management team"},
+    {"id": "C15-P06", "time": "2023-05-2023-09", "events": ["EV19", "EV20", "EV21", "EV22", "EV23", "EV24"], "evidence_count": 11, "summary": "Smart Chunjiang launch, four-order system, three event closures, 122 services"},
+    {"id": "C15-P07", "time": "2023-09-2024-02", "events": ["EV25", "EV26", "EV27", "EV28", "EV29"], "evidence_count": 14, "summary": "single micro-grid, Gelixiang, four lists 118, 96%, digital governance network, AI cameras, elderly data"}
+  ],
+  "conflicts": [
+    "P03 preserves M03 active-scenario report and M04 pilot status without resolving them",
+    "P06 uses May 2023 as launch and treats 'second half of this year' as Beautiful Homeland progress",
+    "P05 dates are uncertain; proposal and hearing occurred before the 2023-08-31 report, not necessarily in August",
+    "2022 is a complete gap between P03 and P04",
+    "Relationship between the 2021 smart application system and 2023 Smart Chunjiang is unknown",
+    "Formal relationship among autonomous team, self-management team, micro-grid, Gelixiang and three meetings is unknown",
+    "P07 is a 2024-02 retrospective and is not backfilled into 2023"
+  ],
+  "decisions_required": [
+    "Accept seven process paragraphs and 29 timeline events as the G3 baseline",
+    "Confirm P03 preserves the M03/M04 status difference without resolving it",
+    "Confirm P06 uses May 2023 as launch time and treats 'second half of this year' as Beautiful Homeland progress",
+    "Confirm P05 time range is 'before the 2023 report-2023-09' and does not date the proposal to August",
+    "Accept actor labels with entity IDs deferred to G4"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_historical_case_review": false,
+    "note": "Check micro-grid, platform and event-handling concept boundaries with C04, C05 and C09 after G5/G6."
+  },
+  "researcher_decision": {
+    "action": null,
+    "rationale": null,
+    "modified_content": null,
+    "allow_next_gate": null,
+    "decided_at": null
+  }
+}

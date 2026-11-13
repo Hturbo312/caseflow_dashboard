@@ -1,0 +1,215 @@
+{
+  "case_id": "C19",
+  "generated_at": "2026-11-13",
+  "version": "v0.1",
+  "candidates": [
+    {
+      "candidate_id": "SC-C19-101",
+      "label": "本地参与协调者",
+      "entity_type": "actor",
+      "definition": "本地居民以受薪角色加入更新团队，承担地方知识转译、居民动员与公共活动协调。",
+      "scope": "参与协调角色；不含数字基础设施维护、专业设计或一般志愿服务。",
+      "negative_examples": "外部顾问、志愿者、数字维护者",
+      "supporting_native_ids": [
+        "NC-C19-01"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-102",
+      "label": "生成式 AI 参与式可视化",
+      "entity_type": "technology",
+      "definition": "以参与者口述或文本提示驱动生成式 AI，实时生成场所营造图像并支持反复修改。",
+      "scope": "生成式图像工具/实践；不含传统 GIS、3D 建模或预设图库。",
+      "negative_examples": "仅展示预设图、无参与者提示",
+      "supporting_native_ids": [
+        "NC-C19-02"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-103",
+      "label": "公共艺术与地方叙事载体",
+      "entity_type": "target",
+      "definition": "以壁画、雕塑等公共艺术承载地方历史、身份与社区叙事的空间载体。",
+      "scope": "公共艺术内容与载体；不含一般建筑立面或商业广告。",
+      "negative_examples": "商业广告、纯装饰无地方叙事",
+      "supporting_native_ids": [
+        "NC-C19-11"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-104",
+      "label": "太阳能公共设施",
+      "entity_type": "technology",
+      "definition": "在公共空间设置太阳能发电、遮荫或照明的设施，如太阳能亭、太阳能长椅。",
+      "scope": "公共空间能源设施；不含住宅屋顶光伏。",
+      "negative_examples": "住宅光伏、普通照明",
+      "supporting_native_ids": [
+        "NC-C19-13"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-105",
+      "label": "社区商业锚点建筑",
+      "entity_type": "target",
+      "definition": "以社区商业或混合用途建筑作为更新锚点，带动就业、聚集与日常服务。",
+      "scope": "商业锚点建筑；不含纯住宅或临时摊位。",
+      "negative_examples": "纯住宅开发、临时摊位",
+      "supporting_native_ids": [
+        "NC-C19-14"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-106",
+      "label": "土地银行主导的门户再开发主体",
+      "entity_type": "actor",
+      "definition": "由土地银行或准公共开发机构主导门户地区土地收储、再开发与实施协调。",
+      "scope": "准公共开发主体；不含一般市政府或纯私营开发商。",
+      "negative_examples": "纯市政府、纯私营开发商",
+      "supporting_native_ids": [
+        "NC-C19-16"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-107",
+      "label": "留居型住宅修缮资助",
+      "entity_type": "outcome",
+      "definition": "面向现有居民的住宅修缮资助，以改善住房条件、支持留居与降低置换压力。",
+      "scope": "修缮资助；不含新建住房补贴或一般住房贷款。",
+      "negative_examples": "新建补贴、一般住房贷款",
+      "supporting_native_ids": [
+        "NC-C19-17"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-108",
+      "label": "社区更新授权争议",
+      "entity_type": "context",
+      "definition": "围绕更新主体授权、合同期限、审批合法性产生的争议与停工要求。",
+      "scope": "授权/合同争议；不含一般方案意见分歧。",
+      "negative_examples": "一般方案分歧、无程序争议",
+      "supporting_native_ids": [
+        "NC-C19-18"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-109",
+      "label": "多源公共资金拼装",
+      "entity_type": "action",
+      "definition": "组合县、市、联邦、慈善等多源资金支持同一更新行动。",
+      "scope": "多源资金组合；不含单一拨款。",
+      "negative_examples": "单一资金来源",
+      "supporting_native_ids": [
+        "NC-C19-19"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-110",
+      "label": "项目制更新团队",
+      "entity_type": "actor",
+      "definition": "为特定更新过程临时组建、跨专业机构与本地角色的项目团队。",
+      "scope": "项目制团队；不含常设政府部门或单一顾问。",
+      "negative_examples": "常设机构、单一顾问",
+      "supporting_native_ids": [
+        "NC-C19-21"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-111",
+      "label": "场所营造与住房再开发互补",
+      "entity_type": "task",
+      "definition": "把场所营造作为住宅/商业再开发的补充任务，强调公共空间与住房同步推进。",
+      "scope": "互补任务关系；不含替代住房开发。",
+      "negative_examples": "纯住房开发、纯公共艺术",
+      "supporting_native_ids": [
+        "NC-C19-22"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-112",
+      "label": "跨市边界更新区",
+      "entity_type": "context",
+      "definition": "跨两个或以上市行政边界、需协调授权、资金与服务的更新区。",
+      "scope": "跨市空间范围；不含单一市域。",
+      "negative_examples": "单一行政区、无跨市协调",
+      "supporting_native_ids": [
+        "NC-C19-23"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-113",
+      "label": "本地知识动员能力",
+      "entity_type": "capability",
+      "definition": "通过本地角色动员社区信任、地方知识与人际网络的能力。",
+      "scope": "本地知识动员；不含一般宣传或信息发布。",
+      "negative_examples": "单向宣传、外部调研",
+      "supporting_native_ids": [
+        "NC-C19-25"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    }
+  ]
+}

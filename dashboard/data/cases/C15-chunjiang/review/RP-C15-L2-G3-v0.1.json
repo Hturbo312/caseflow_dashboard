@@ -1,0 +1,47 @@
+{
+  "packet_id": "RP-C15-L2-G3-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G3",
+  "case_id": "C15",
+  "scope": "Native knowledge integration, confirmed mappings, historical mapping review and network delta",
+  "generated_at": "2026-11-13",
+  "status": "awaiting_researcher_decision",
+  "native_layer": {"entities_added": 109, "relations_added": 122, "native_concepts_added": 15},
+  "shared_layer": {"candidates_added": 5, "existing_shared_concepts_modified": 0, "historical_mappings_modified": 0},
+  "mapping_summary": {"semantic_equivalent": 0, "native_hyponym": 4, "partial_or_approximate": 5, "no_map": 6},
+  "historical_review": {
+    "shared_concepts_reviewed": 7,
+    "historical_mappings_reviewed": 125,
+    "cases_involved": 14,
+    "definition_changes": 0,
+    "mapping_changes": 0
+  },
+  "touched_shared_concepts": ["SC-C01-132", "SC-C01-131", "SC-C01-156", "SC-C01-152", "SC-C01-114", "SC-C01-161", "SC-C01-133"],
+  "conflicts": [
+    "4 native_hyponym mappings conflict with historical all-partial usage",
+    "SC-C01-156 definition does not mention resident-initiated orders/evaluation",
+    "5 new candidates are single-case",
+    "File-level delta not imported into dashboard SQLite",
+    "Ontology V4 unchanged; case concept layer version proposed as L2-C15-v1.0"
+  ],
+  "decisions_required": [
+    "Accept historical review: 7 shared concepts, 125 mappings, 14 cases, 0 changes",
+    "Accept file-level network delta: 109 entities, 122 relations, 15 concepts, 15 mappings, 5 candidates",
+    "Keep 4 native_hyponym mappings or change them to partial for historical consistency",
+    "Decide whether to add a negative example to SC-C01-156",
+    "Accept file-level delta, ontology V4 unchanged and case layer L2-C15-v1.0; proceed to L2-G4"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_historical_case_review": true,
+    "note": "Reviewed 14 cases and 125 mappings; no changes."
+  },
+  "researcher_decision": {
+    "action": null,
+    "rationale": null,
+    "modified_content": null,
+    "allow_next_gate": null,
+    "decided_at": null
+  }
+}

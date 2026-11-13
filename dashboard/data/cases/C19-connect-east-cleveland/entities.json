@@ -1,0 +1,1555 @@
+{
+  "case_id": "C19",
+  "generated_at": "2026-11-13",
+  "version": "v1.0",
+  "entities": [
+    {
+      "entity_id": "X01",
+      "case_id": "C19",
+      "label": "East Cleveland 目标区社区（约 150 户、403 地块）",
+      "entity_type": "context",
+      "roles": [
+        "context"
+      ],
+      "definition": "目标区内约 150 户居民与 403 个住宅地块构成的社会空间背景；作为场所营造的社区条件，不作为行动主体。",
+      "aliases": [
+        "East Cleveland context",
+        "target-area households"
+      ],
+      "source_evidence_ids": [
+        "M01-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "X02",
+      "case_id": "C19",
+      "label": "Circle East 西门户 30 英亩区位",
+      "entity_type": "context",
+      "roles": [
+        "context"
+      ],
+      "definition": "位于东克利夫兰西南角、毗邻 University Circle 与 Lake View Cemetery 的约 30 英亩目标区；跨东克利夫兰与克利夫兰两市边界。",
+      "aliases": [
+        "Circle East District",
+        "western gateway",
+        "30-acre target area"
+      ],
+      "source_evidence_ids": [
+        "M01-E01",
+        "M01-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "X03",
+      "case_id": "C19",
+      "label": "2015–2022 前置规划框架",
+      "entity_type": "context",
+      "roles": [
+        "context"
+      ],
+      "definition": "2015 Development Framework、2020 Visioning Project 与 2022 Action Plan 构成的目标区与场所营造前置框架。",
+      "aliases": [
+        "2015 plan",
+        "2020 visioning",
+        "2022 action plan"
+      ],
+      "source_evidence_ids": [
+        "M05-E01",
+        "M31-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "X04",
+      "case_id": "C19",
+      "label": "Circle East District 再开发计划",
+      "entity_type": "context",
+      "roles": [
+        "context"
+      ],
+      "definition": "土地银行主导的 1.22 亿美元、五年、约 200 套住房与基础设施再开发计划；是 Connect EC 的项目情境，不等同于 Connect EC 本身。",
+      "aliases": [
+        "Circle East redevelopment",
+        "$122 million plan"
+      ],
+      "source_evidence_ids": [
+        "M10-E01",
+        "M01-E05"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "X05",
+      "case_id": "C19",
+      "label": "University Circle 与 Lake View Cemetery 邻近性",
+      "entity_type": "context",
+      "roles": [
+        "context"
+      ],
+      "definition": "目标区邻近 University Circle 就业/文化机构与 Lake View Cemetery 绿地，是连通性与场所认同规划的空间条件。",
+      "aliases": [
+        "University Circle adjacency",
+        "Lake View Cemetery"
+      ],
+      "source_evidence_ids": [
+        "M01-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "X06",
+      "case_id": "C19",
+      "label": "市县联邦资金与治理环境",
+      "entity_type": "context",
+      "roles": [
+        "context"
+      ],
+      "definition": "县补充赠款、市 ARPA、树冠赠款与市议会授权/监督构成的资金与治理条件；包含 2025 年合同争议。",
+      "aliases": [
+        "ARPA",
+        "county grants",
+        "council oversight"
+      ],
+      "source_evidence_ids": [
+        "M12-E01",
+        "M28-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A01",
+      "case_id": "C19",
+      "label": "Cuyahoga Land Bank（CCLRC）",
+      "entity_type": "actor",
+      "roles": [
+        "actor",
+        "target"
+      ],
+      "definition": "凯霍加县土地再利用公司；Circle East 的 master developer、Connect EC 的主导机构、Mickey’s 业主与部分行动牵头方。",
+      "aliases": [
+        "Cuyahoga Land Bank",
+        "CCLRC",
+        "Land Bank"
+      ],
+      "source_evidence_ids": [
+        "M01-E05",
+        "M25-E01",
+        "M25-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A02",
+      "case_id": "C19",
+      "label": "City of East Cleveland",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "东克利夫兰市政府；提供 ARPA 资金、基础设施与部分街道景观行动的管辖主体。",
+      "aliases": [
+        "East Cleveland",
+        "City"
+      ],
+      "source_evidence_ids": [
+        "M12-E01",
+        "M23-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A03",
+      "case_id": "C19",
+      "label": "East Cleveland City Council",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "东克利夫兰市议会；2025-10 决议的据称准备者，对土地银行授权提出质疑。",
+      "aliases": [
+        "City Council",
+        "Council"
+      ],
+      "source_evidence_ids": [
+        "M28-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A04",
+      "case_id": "C19",
+      "label": "Seventh Hill",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "本地城市设计顾问；Connect EC 的共同创造过程主导者，负责设计开发、公众活动与报告编制。",
+      "aliases": [
+        "Seventh Hill Design",
+        "Seventh Hill"
+      ],
+      "source_evidence_ids": [
+        "M01-E28",
+        "M10-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A05",
+      "case_id": "C19",
+      "label": "Agnes Studio",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "设计顾问团队成员，参与设计开发、社区外展与报告内容。",
+      "aliases": [
+        "Agnes Studio"
+      ],
+      "source_evidence_ids": [
+        "M01-E28"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A06",
+      "case_id": "C19",
+      "label": "Layer Cake Design",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "景观设计顾问，参与设计开发、社区外展与报告内容。",
+      "aliases": [
+        "Layer Cake Design"
+      ],
+      "source_evidence_ids": [
+        "M01-E28"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A07",
+      "case_id": "C19",
+      "label": "Najae Jackson / Street Team Leader",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "东克利夫兰本地居民，受薪加入顾问团队，负责分享地方知识、邀请居民与主持公共活动。",
+      "aliases": [
+        "Najae Jackson",
+        "Street Team Leader"
+      ],
+      "source_evidence_ids": [
+        "M01-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A08",
+      "case_id": "C19",
+      "label": "East Cleveland residents / participants",
+      "entity_type": "actor",
+      "roles": [
+        "actor",
+        "target"
+      ],
+      "definition": "参与 Connect EC 活动、问卷与反馈的东克利夫兰居民及利益相关者；在参与关系中是行动主体，在场所营造/住房改善中也是作用对象。",
+      "aliases": [
+        "residents",
+        "participants",
+        "community members"
+      ],
+      "source_evidence_ids": [
+        "M01-E08",
+        "M04-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A09",
+      "case_id": "C19",
+      "label": "East Cleveland youth",
+      "entity_type": "actor",
+      "roles": [
+        "actor",
+        "target"
+      ],
+      "definition": "参加 3MB 工作坊的本地青少年；其偏好进入设计讨论，同时是场所营造的使用者/受益对象。",
+      "aliases": [
+        "youth",
+        "young residents"
+      ],
+      "source_evidence_ids": [
+        "M01-E18"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A10",
+      "case_id": "C19",
+      "label": "3MB Mentoring Program",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "本地青少年辅导机构；与设计团队合作举办 2023-08-23 工作坊。",
+      "aliases": [
+        "3MB",
+        "3MB Mentoring"
+      ],
+      "source_evidence_ids": [
+        "M01-E18"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A11",
+      "case_id": "C19",
+      "label": "UrbanistAI（供应商）",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "提供文本生成图像平台的供应商；在 Open House 提供工具与现场支持，不等同于平台本身。",
+      "aliases": [
+        "UrbanistAI"
+      ],
+      "source_evidence_ids": [
+        "M07-E01",
+        "M04-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A12",
+      "case_id": "C19",
+      "label": "Cuyahoga County / County Council",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "凯霍加县与县议会；提供社区发展补充赠款、树冠赠款等资金。",
+      "aliases": [
+        "Cuyahoga County",
+        "County Council"
+      ],
+      "source_evidence_ids": [
+        "M12-E01",
+        "M14-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A13",
+      "case_id": "C19",
+      "label": "Cuyahoga Land Bank Charities",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "土地银行关联慈善机构；2024-05 获县补充赠款用于户外长椅。",
+      "aliases": [
+        "Land Bank Charities"
+      ],
+      "source_evidence_ids": [
+        "M14-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A14",
+      "case_id": "C19",
+      "label": "Loiter Cafe and Marketplace / Ismail Samad",
+      "entity_type": "actor",
+      "roles": [
+        "actor",
+        "target"
+      ],
+      "definition": "Mickey’s 一层的社区咖啡与市集经营者；既是社区商业行动主体，也是租赁/出售争议的对象。",
+      "aliases": [
+        "Loiter",
+        "Loiter Cafe",
+        "Ismail Samad"
+      ],
+      "source_evidence_ids": [
+        "M25-E01",
+        "M23-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A15",
+      "case_id": "C19",
+      "label": "Verdynt Bio Labs",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "计划购买 Mickey’s 的生物科技企业；其交易因诉讼被法院暂时阻止。",
+      "aliases": [
+        "Verdynt",
+        "Verdynt Biotech"
+      ],
+      "source_evidence_ids": [
+        "M25-E02",
+        "M25-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A16",
+      "case_id": "C19",
+      "label": "GCRTA",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "大克利夫兰地区交通局；部分公交候车亭/自行车架行动的相关管辖方。",
+      "aliases": [
+        "RTA",
+        "Greater Cleveland RTA"
+      ],
+      "source_evidence_ids": [
+        "M01-E22"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A17",
+      "case_id": "C19",
+      "label": "Phase 1 private builders",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "参与 Phase 1 住宅建设的四家私营建设方（含土地银行）；具体名称未在本轮证据中逐一登记。",
+      "aliases": [
+        "four builders",
+        "private builders"
+      ],
+      "source_evidence_ids": [
+        "M32-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A18",
+      "case_id": "C19",
+      "label": "Ingenuity Cleveland / Angelica Pozo",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "社区艺术活动组织与本地艺术家；参与绿道马赛克石艺创作。",
+      "aliases": [
+        "Ingenuity",
+        "Angelica Pozo"
+      ],
+      "source_evidence_ids": [
+        "M12-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A19",
+      "case_id": "C19",
+      "label": "Connect EC 项目团队",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "由土地银行主导、Seventh Hill/Agnes Studio/Layer Cake Design 与 Street Team Leader 组成的项目团队；是参与过程的直接实施者，不等同于土地银行。",
+      "aliases": [
+        "Connect EC team",
+        "project team"
+      ],
+      "source_evidence_ids": [
+        "M01-E07",
+        "M03-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "K01",
+      "case_id": "C19",
+      "label": "识别 placemaking/placekeeping 建议",
+      "entity_type": "task",
+      "roles": [
+        "task"
+      ],
+      "definition": "通过社区参与识别公共空间改造与场所维系建议，形成报告与行动清单。",
+      "aliases": [
+        "placemaking recommendations",
+        "placekeeping"
+      ],
+      "source_evidence_ids": [
+        "M01-E04",
+        "M02-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "K02",
+      "case_id": "C19",
+      "label": "组织社区参与",
+      "entity_type": "task",
+      "roles": [
+        "task"
+      ],
+      "definition": "让东克利夫兰居民、青年与利益相关者参与公共空间再想象。",
+      "aliases": [
+        "community engagement",
+        "outreach"
+      ],
+      "source_evidence_ids": [
+        "M01-E09",
+        "M04-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "K03",
+      "case_id": "C19",
+      "label": "把社区偏好转译为行动清单",
+      "entity_type": "task",
+      "roles": [
+        "task"
+      ],
+      "definition": "将活动、问卷与故事反馈归纳为主题、类别、位置、牵头方与时限。",
+      "aliases": [
+        "action planning",
+        "translation"
+      ],
+      "source_evidence_ids": [
+        "M11-E02",
+        "M01-E21"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "K04",
+      "case_id": "C19",
+      "label": "为场所营造行动寻求资金与实施",
+      "entity_type": "task",
+      "roles": [
+        "task"
+      ],
+      "definition": "在报告发布后寻求资金、招标、建设与维护，把建议转化为实施。",
+      "aliases": [
+        "fundraising",
+        "implementation"
+      ],
+      "source_evidence_ids": [
+        "M01-E24",
+        "M14-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "K05",
+      "case_id": "C19",
+      "label": "补充 Circle East 住房再开发",
+      "entity_type": "task",
+      "roles": [
+        "task"
+      ],
+      "definition": "以场所营造补充土地银行主导的住宅/商业再开发，而非替代它。",
+      "aliases": [
+        "complement redevelopment"
+      ],
+      "source_evidence_ids": [
+        "M01-E05",
+        "M10-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T01",
+      "case_id": "C19",
+      "label": "UrbanistAI 平台",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "文本生成图像的参与式设计平台；在 Open House 与青少年工作坊中使用。",
+      "aliases": [
+        "UrbanistAI platform",
+        "AI software"
+      ],
+      "source_evidence_ids": [
+        "M04-E04",
+        "M01-E16"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T02",
+      "case_id": "C19",
+      "label": "3D 打印社区模型",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "按比例打印的社区实体模型，用于在 Open House 标记投资位置。",
+      "aliases": [
+        "3D-printed map",
+        "3D model"
+      ],
+      "source_evidence_ids": [
+        "M01-E16",
+        "M07-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T03",
+      "case_id": "C19",
+      "label": "增强现实（AR）壁画预览",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "通过移动设备把壁画方案叠加到 Mickey’s 东墙的 AR 预览。",
+      "aliases": [
+        "AR",
+        "augmented reality"
+      ],
+      "source_evidence_ids": [
+        "M04-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T04",
+      "case_id": "C19",
+      "label": "纸质/在线问卷",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "用于收集场所营造偏好、人口信息与项目反馈的问卷工具。",
+      "aliases": [
+        "survey",
+        "questionnaire"
+      ],
+      "source_evidence_ids": [
+        "M01-E16",
+        "M04-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T05",
+      "case_id": "C19",
+      "label": "视频/音频故事记录",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "在 Open House 与 Walking Tour 录制参与者故事与愿景的设备/流程。",
+      "aliases": [
+        "storytelling station",
+        "video recording"
+      ],
+      "source_evidence_ids": [
+        "M01-E17",
+        "M04-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T06",
+      "case_id": "C19",
+      "label": "记分卡排序",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "Event 3.0 用于对 10 项短期行动按重要性排序的低技术工具。",
+      "aliases": [
+        "scorecards",
+        "ranking cards"
+      ],
+      "source_evidence_ids": [
+        "M01-E19"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C01",
+      "case_id": "C19",
+      "label": "文本生成图像",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "把口述/文本提示词转化为场所营造视觉图像的能力。",
+      "aliases": [
+        "text-to-image",
+        "AI visualization"
+      ],
+      "source_evidence_ids": [
+        "M04-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C02",
+      "case_id": "C19",
+      "label": "3D 模型辅助空间定位",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "用实体模型帮助参与者理解建筑、空地与新投资位置关系的能力。",
+      "aliases": [
+        "spatial positioning"
+      ],
+      "source_evidence_ids": [
+        "M07-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C03",
+      "case_id": "C19",
+      "label": "AR 现场叠加预览",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "在真实墙面位置上预览壁画方案的能力。",
+      "aliases": [
+        "in-situ preview"
+      ],
+      "source_evidence_ids": [
+        "M04-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C04",
+      "case_id": "C19",
+      "label": "多通道意见收集",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "以书面、口头、触觉与在线方式收集不同学习风格参与者意见的能力。",
+      "aliases": [
+        "multi-channel feedback"
+      ],
+      "source_evidence_ids": [
+        "M04-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C05",
+      "case_id": "C19",
+      "label": "本地知识动员",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "通过受薪本地 Street Team Leader 动员信任、邀请居民与解释社区语境的能力。",
+      "aliases": [
+        "local knowledge",
+        "trusted messenger"
+      ],
+      "source_evidence_ids": [
+        "M01-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C06",
+      "case_id": "C19",
+      "label": "场所营造设计与活动组织",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "设计团队把社区偏好转为场所营造方案、组织公共活动与编制报告的能力。",
+      "aliases": [
+        "placemaking design",
+        "facilitation"
+      ],
+      "source_evidence_ids": [
+        "M10-E02",
+        "M01-E28"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N01",
+      "case_id": "C19",
+      "label": "组建顾问团队并聘请本地 Street Team Leader",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "2023 年初组建 Seventh Hill/Agnes/Layer Cake 团队，并聘请 Najae Jackson 为带薪 Street Team Leader。",
+      "aliases": [
+        "team setup",
+        "hire Street Team Leader"
+      ],
+      "source_evidence_ids": [
+        "M01-E07",
+        "M03-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N02",
+      "case_id": "C19",
+      "label": "举办 Community Event 1.0",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "2023-04-20 在 Salvation Army East Cleveland 举办第一场公共活动。",
+      "aliases": [
+        "Community Event 1.0",
+        "Public Event 1.0"
+      ],
+      "source_evidence_ids": [
+        "M01-E14",
+        "M04-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N03",
+      "case_id": "C19",
+      "label": "组织 Neighborhood Walking Tour 并使用 AR",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "2023-05-24 组织两条路线步行踏勘，并用 AR 展示壁画方案。",
+      "aliases": [
+        "Walking Tour",
+        "AR mural preview"
+      ],
+      "source_evidence_ids": [
+        "M01-E15",
+        "M04-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N04",
+      "case_id": "C19",
+      "label": "举办 Public Open House 2.0",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "2023-07-14 在 Mickey’s building 举办开放日，约 50 人参加。",
+      "aliases": [
+        "Open House 2.0"
+      ],
+      "source_evidence_ids": [
+        "M01-E16",
+        "M04-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N05",
+      "case_id": "C19",
+      "label": "使用 3D 打印模型定位投资",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "参与者在 3D 打印社区模型上标记新投资位置。",
+      "aliases": [
+        "3D model station"
+      ],
+      "source_evidence_ids": [
+        "M01-E16",
+        "M07-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N06",
+      "case_id": "C19",
+      "label": "使用 UrbanistAI 生成图像",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "参与者口述提示词，由主持人输入 UrbanistAI，实时生成场所营造图像。",
+      "aliases": [
+        "AI image generation"
+      ],
+      "source_evidence_ids": [
+        "M04-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N07",
+      "case_id": "C19",
+      "label": "录制故事与收集问卷",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "在 Open House 与 Walking Tour 录制参与者故事并收集纸质/在线问卷。",
+      "aliases": [
+        "storytelling",
+        "survey"
+      ],
+      "source_evidence_ids": [
+        "M01-E17",
+        "M04-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N08",
+      "case_id": "C19",
+      "label": "举办青少年工作坊",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "2023-08-23 与 3MB 合作举办青少年工作坊，使用 AI 生成图像。",
+      "aliases": [
+        "Youth Workshop"
+      ],
+      "source_evidence_ids": [
+        "M01-E18"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N09",
+      "case_id": "C19",
+      "label": "举办 Community Event 3.0 并用记分卡排序",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "2023-08-30 举办最终社区活动，用记分卡对 10 项短期行动排序。",
+      "aliases": [
+        "Community Event 3.0",
+        "scorecard ranking"
+      ],
+      "source_evidence_ids": [
+        "M01-E19",
+        "M04-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N10",
+      "case_id": "C19",
+      "label": "编制 30 项行动并发布报告",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "把反馈归纳为四类主题与 30 项行动，列位置/牵头方/时限，并发布最终报告。",
+      "aliases": [
+        "Action Plan",
+        "final report"
+      ],
+      "source_evidence_ids": [
+        "M01-E21",
+        "M01-E22",
+        "M01-E24"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N11",
+      "case_id": "C19",
+      "label": "安装花箱",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "在 Mickey’s building 外安装花箱。",
+      "aliases": [
+        "planters installation"
+      ],
+      "source_evidence_ids": [
+        "M11-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N12",
+      "case_id": "C19",
+      "label": "绿道清表与种树",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "清理绿道用地、移除死树并种植新树。",
+      "aliases": [
+        "greenway clearing",
+        "tree planting"
+      ],
+      "source_evidence_ids": [
+        "M11-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N13",
+      "case_id": "C19",
+      "label": "获得绿道与长椅资金",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "获得县补充赠款、市 ARPA、树冠赠款与长椅赠款。",
+      "aliases": [
+        "greenway funding",
+        "bench grant"
+      ],
+      "source_evidence_ids": [
+        "M12-E01",
+        "M14-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N14",
+      "case_id": "C19",
+      "label": "建设绿道并安装座椅/自行车架",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "建设 120 万美元绿道，形成中段连接，并安装座椅与自行车架。",
+      "aliases": [
+        "greenway construction",
+        "seating and bike racks"
+      ],
+      "source_evidence_ids": [
+        "M26-E02",
+        "M14-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N15",
+      "case_id": "C19",
+      "label": "种植 30 棵树与创作马赛克（计划）",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "计划沿绿道种 30 棵树，并由 Ingenuity 参与者与 Angelica Pozo 创作马赛克石艺。",
+      "aliases": [
+        "30 trees",
+        "mosaic stone art"
+      ],
+      "source_evidence_ids": [
+        "M15-E01",
+        "M12-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N16",
+      "case_id": "C19",
+      "label": "改造 Mickey’s Building 并剪彩",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "完成 350 万美元的 Mickey’s 改造，并于 2024-07-10 剪彩。",
+      "aliases": [
+        "Mickey’s renovation",
+        "ribbon cutting"
+      ],
+      "source_evidence_ids": [
+        "M25-E01",
+        "M25-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N17",
+      "case_id": "C19",
+      "label": "Loiter Cafe 开业",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "Loiter 作为 Circle East 第一家开业企业投入运营。",
+      "aliases": [
+        "Loiter opening"
+      ],
+      "source_evidence_ids": [
+        "M23-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N18",
+      "case_id": "C19",
+      "label": "Loiter 与 Land Bank 诉讼及和解",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "Loiter 就换锁/移招牌与出售提起诉讼，双方于 2024-11-22 宣布和解。",
+      "aliases": [
+        "lawsuit",
+        "settlement"
+      ],
+      "source_evidence_ids": [
+        "M25-E02",
+        "M24-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N19",
+      "case_id": "C19",
+      "label": "Phase 1 破土与建设",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "Phase 1 于 2025-03 在 Woodlawn Avenue 破土，建设联排与独栋住宅。",
+      "aliases": [
+        "Phase 1 groundbreaking",
+        "housing construction"
+      ],
+      "source_evidence_ids": [
+        "M32-E01",
+        "M27-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N20",
+      "case_id": "C19",
+      "label": "Phase 1 首期剪彩",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "2026-07 举行 Phase 1 首期剪彩，标志 460 万美元首期完成。",
+      "aliases": [
+        "Phase 1 ribbon cutting"
+      ],
+      "source_evidence_ids": [
+        "M26-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G01",
+      "case_id": "C19",
+      "label": "Circle East District 30 英亩",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "场所营造与再开发共同作用的 30 英亩目标区。",
+      "aliases": [
+        "Circle East District"
+      ],
+      "source_evidence_ids": [
+        "M01-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G02",
+      "case_id": "C19",
+      "label": "Euclid Avenue 商业走廊",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "目标区的主要商业与交通走廊，是街道景观与公共艺术的主要载体。",
+      "aliases": [
+        "Euclid Avenue"
+      ],
+      "source_evidence_ids": [
+        "M01-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G03",
+      "case_id": "C19",
+      "label": "Mickey’s Building",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "Euclid 与 Woodlawn 交界的前汽车经销店，被改造为社区/商业混合用途建筑。",
+      "aliases": [
+        "Mickey’s",
+        "Mickey’s building"
+      ],
+      "source_evidence_ids": [
+        "M25-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G04",
+      "case_id": "C19",
+      "label": "Greenway 廊道",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "连接 Woodlawn–Penrose、Brightwood–Wadena 的线性绿道。",
+      "aliases": [
+        "Greenway",
+        "linear park"
+      ],
+      "source_evidence_ids": [
+        "M26-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G05",
+      "case_id": "C19",
+      "label": "Pocket Park 场地",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "Woodlawn 与 Penrose 尽头/Forest Hill 附近的潜在口袋公园场地。",
+      "aliases": [
+        "Pocket Park"
+      ],
+      "source_evidence_ids": [
+        "M01-E23"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G06",
+      "case_id": "C19",
+      "label": "公共空间与 30 项行动地点",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "壁画、花箱、长椅、人行横道、街道景观等公共空间干预的总称。",
+      "aliases": [
+        "public realm",
+        "action sites"
+      ],
+      "source_evidence_ids": [
+        "M01-E23"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G07",
+      "case_id": "C19",
+      "label": "东克利夫兰居民与约 150 户",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "目标区现有居民与家庭；既参与设计，也是场所营造与住房改善的作用对象。",
+      "aliases": [
+        "residents",
+        "150 households"
+      ],
+      "source_evidence_ids": [
+        "M01-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G08",
+      "case_id": "C19",
+      "label": "东克利夫兰青少年",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "青少年工作坊参与者与未来公共空间使用者。",
+      "aliases": [
+        "youth"
+      ],
+      "source_evidence_ids": [
+        "M01-E18"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G09",
+      "case_id": "C19",
+      "label": "Loiter 店面",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "Mickey’s 一层的社区咖啡/市集空间，是租赁争议的对象。",
+      "aliases": [
+        "Loiter storefront"
+      ],
+      "source_evidence_ids": [
+        "M25-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G10",
+      "case_id": "C19",
+      "label": "Phase 1 住宅地块",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "Woodlawn Avenue 沿线的 Phase 1 联排与独栋住宅建设地块。",
+      "aliases": [
+        "Phase 1 housing sites"
+      ],
+      "source_evidence_ids": [
+        "M32-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O01",
+      "case_id": "C19",
+      "label": "30 项行动与最终报告",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "Connect EC 的核心规划产出：四类主题、五类 30 项行动与报告。",
+      "aliases": [
+        "30 actions",
+        "final report"
+      ],
+      "source_evidence_ids": [
+        "M01-E21"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O02",
+      "case_id": "C19",
+      "label": "近 150 人参与",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "通过活动或在线反馈参与的总人数口径。",
+      "aliases": [
+        "~150 participants"
+      ],
+      "source_evidence_ids": [
+        "M01-E08"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O03",
+      "case_id": "C19",
+      "label": "花箱安装",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "Mickey’s 外花箱已安装。",
+      "aliases": [
+        "planters installed"
+      ],
+      "source_evidence_ids": [
+        "M11-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O04",
+      "case_id": "C19",
+      "label": "绿道清表与种树",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "绿道用地清表、死树移除与新树种植。",
+      "aliases": [
+        "greenway clearing"
+      ],
+      "source_evidence_ids": [
+        "M11-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O05",
+      "case_id": "C19",
+      "label": "绿道建成",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "120 万美元绿道建成，形成中段连接并配置座椅/自行车架（截至 2026-07 报道）。",
+      "aliases": [
+        "greenway completed"
+      ],
+      "source_evidence_ids": [
+        "M26-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O06",
+      "case_id": "C19",
+      "label": "长椅赠款与座椅",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "县补充赠款 5 万美元用于户外长椅。",
+      "aliases": [
+        "bench grant"
+      ],
+      "source_evidence_ids": [
+        "M14-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O07",
+      "case_id": "C19",
+      "label": "Mickey’s 改造完成",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "350 万美元改造完成并剪彩。",
+      "aliases": [
+        "Mickey’s renovation completed"
+      ],
+      "source_evidence_ids": [
+        "M25-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O08",
+      "case_id": "C19",
+      "label": "Loiter 开业",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "Loiter 成为 Circle East 第一家开业企业。",
+      "aliases": [
+        "Loiter opened"
+      ],
+      "source_evidence_ids": [
+        "M23-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O09",
+      "case_id": "C19",
+      "label": "Loiter 诉讼和解",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "Land Bank 与 Loiter 宣布解决双向诉讼。",
+      "aliases": [
+        "settlement"
+      ],
+      "source_evidence_ids": [
+        "M24-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O10",
+      "case_id": "C19",
+      "label": "Phase 1 破土",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "Phase 1 于 2025-03 破土。",
+      "aliases": [
+        "Phase 1 groundbreaking"
+      ],
+      "source_evidence_ids": [
+        "M32-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O11",
+      "case_id": "C19",
+      "label": "Phase 1 首期剪彩与 7 套住宅",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "2026-07 首期剪彩，7 套住宅建成或翻新。",
+      "aliases": [
+        "Phase 1 ribbon",
+        "7 homes"
+      ],
+      "source_evidence_ids": [
+        "M26-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O12",
+      "case_id": "C19",
+      "label": "18 户居民修缮资助",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "18 户现有居民平均获得 1.8 万美元修缮资助。",
+      "aliases": [
+        "18 residents",
+        "$18,000"
+      ],
+      "source_evidence_ids": [
+        "M26-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O13",
+      "case_id": "C19",
+      "label": "市议会决议争议",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "2025-10 市议会决议据称要求土地银行停止运营；仅单一来源，未证实。",
+      "aliases": [
+        "council resolution"
+      ],
+      "source_evidence_ids": [
+        "M28-E01"
+      ],
+      "status": "candidate"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "packetId": "RP-C18-G6-v1.0",
+  "supersedes": "RP-C18-G6-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G6",
+  "caseId": "C18",
+  "decidedAt": "2026-11-13",
+  "researcherDecision": {
+    "action": "accept",
+    "rationale": "G6同意；13处修改，报告谓词统一，F031覆盖，冻结并生成case_pack。",
+    "modifiedContent": "R036、R050、R060、R069、R093及8条报告谓词修订。",
+    "allowNextGate": true
+  },
+  "frozenArtifacts": [
+    "relations_v1.0.json",
+    "relations_v1.0.md",
+    "case_pack.json",
+    "case_pack.md",
+    "l2_native_concepts.json",
+    "l2_native_concepts.md",
+    "RP-C18-G6-v1.0"
+  ],
+  "openIssues": [
+    "APP/小程序技术载体身份",
+    "研究团队/方元问问团队身份",
+    "资助受助组合",
+    "南头时间窗",
+    "2025-11后持续运行"
+  ]
+}

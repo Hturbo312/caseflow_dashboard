@@ -1,0 +1,106 @@
+{
+  "caseId": "C18",
+  "name": "方元问问（AskNearby）大语言模型社区信息服务平台研发与深圳双社区试运行",
+  "nameEn": "AskNearby: An LLM-enabled Community Information Service Platform in Shenzhen",
+  "version": "v1.0",
+  "status": "frozen",
+  "frozenAt": "2026-11-13",
+  "period": {
+    "coreStart": "2024年秋季",
+    "coreEnd": "2025-03-15",
+    "observationEnd": "2026-11-13"
+  },
+  "space": "中国深圳；北京大学深圳研究生院学术型社区、南头古城超高密度混合社区；扩展观察为桃源街道大学城社区",
+  "counts": {
+    "materials": 7,
+    "evidence": 51,
+    "processes": 7,
+    "facts": 56,
+    "entities": 83,
+    "relations": 101,
+    "nativeConcepts": 10,
+    "sharedConceptCandidates": 5
+  },
+  "relationStatus": {
+    "implemented": 23,
+    "reported_or_opinion": 71,
+    "planned": 3,
+    "disputed": 4
+  },
+  "entityTypes": {
+    "context": 6,
+    "actor": 12,
+    "task": 7,
+    "technology": 12,
+    "capability": 9,
+    "action": 14,
+    "target": 7,
+    "outcome": 16
+  },
+  "nativeConcepts": [
+    {"id": "NC-C18-01", "label": "LLM+RAG+时空知识图谱社区信息平台", "type": "technology"},
+    {"id": "NC-C18-02", "label": "设施信息检索与主动推送", "type": "capability"},
+    {"id": "NC-C18-03", "label": "邻里UGC与在线社交", "type": "capability"},
+    {"id": "NC-C18-04", "label": "社区资源供需评估与优化建议", "type": "capability"},
+    {"id": "NC-C18-05", "label": "高校新生30天平台试点", "type": "action"},
+    {"id": "NC-C18-06", "label": "高密度混合社区网格化治理试点", "type": "action"},
+    {"id": "NC-C18-07", "label": "开放日小程序打卡分享", "type": "action"},
+    {"id": "NC-C18-08", "label": "大模型答案验证与幻觉抑制", "type": "capability"},
+    {"id": "NC-C18-09", "label": "社会创新项目获奖与慈善资助", "type": "outcome"},
+    {"id": "NC-C18-10", "label": "校社联动与居民学生互助", "type": "task"}
+  ],
+  "sharedConceptCandidates": [
+    {"id": "SC-C18-01", "label": "LLM驱动的社区信息服务平台", "status": "candidate_single_case"},
+    {"id": "SC-C18-02", "label": "地理邻近性增强RAG", "status": "candidate_single_case"},
+    {"id": "SC-C18-03", "label": "设施信息检索与主动推送", "status": "candidate_single_case"},
+    {"id": "SC-C18-04", "label": "高密度社区网格化数字治理", "status": "candidate_single_case"},
+    {"id": "SC-C18-05", "label": "校社联动小程序打卡", "status": "candidate_single_case"}
+  ],
+  "qualityChecks": {
+    "reviewGatesConfirmed": "7/7（G0–G6）",
+    "quoteChecks": "51/51 空白归一化匹配；16/16 网页精确匹配",
+    "factEvidenceCoverage": "56/56",
+    "entityReferenceErrors": 0,
+    "relationEndpointErrors": 0,
+    "duplicateRelationTriples": 0,
+    "orphanEntities": 0,
+    "unreferencedFacts": 0
+  },
+  "artifacts": [
+    "README.md",
+    "case_scope.md",
+    "materials.md",
+    "materials.json",
+    "evidence.md",
+    "evidence.json",
+    "process.md",
+    "process.json",
+    "facts.md",
+    "facts.json",
+    "entities.json",
+    "relations.md",
+    "relations.json",
+    "relations_v1.0.md",
+    "relations_v1.0.json",
+    "l2_native_concepts.md",
+    "l2_native_concepts.json",
+    "review/decision-log.md",
+    "review/relation-review.md"
+  ],
+  "coverageBoundary": [
+    "M01论文为核心材料，覆盖平台架构、两处试点与作者报告效果",
+    "M02–M04仅证明2025年同名小程序在社区开放日中的使用陈述",
+    "M05–M07仅作获奖、资助与身份背景，不证明技术效果",
+    "所有效果指标为作者报告，尚无独立评估或后台日志"
+  ],
+  "openIssues": [
+    "APP与小程序是否为同一客户端/技术版本",
+    "论文作者团队与北京大学方元问问团队是否为同一主体",
+    "20万元资助的受助项目组合与奖项层级",
+    "南头古城试运行起止时间与管理方身份",
+    "指标分母、基线、统计期与原始数据",
+    "2025-11之后的持续运行与维护",
+    "更大范围多类型社区验证"
+  ],
+  "handoff": "scalable-concept-framework"
+}

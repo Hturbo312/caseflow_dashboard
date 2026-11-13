@@ -1,0 +1,72 @@
+{
+  "packetId": "RP-C18-G3-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G3",
+  "caseId": "C18",
+  "scope": "案例过程重构",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher",
+  "processed": [
+    "7个过程段落",
+    "7个时间事件",
+    "过程间关系",
+    "未决时间与冲突"
+  ],
+  "notProcessed": [
+    "G4事实拆解",
+    "G5关系编码",
+    "G6关系审校"
+  ],
+  "counts": {
+    "processes": 7,
+    "events": 7
+  },
+  "processes": [
+    {"id":"C18-P01","title":"研究目标与三类应用场景设定","time":"未载明","evidenceCount":6,"suggestedAction":"accept"},
+    {"id":"C18-P02","title":"技术架构形成与平台开发","time":"未载明","evidenceCount":11,"suggestedAction":"accept"},
+    {"id":"C18-P03","title":"北京大学深圳研究生院试运行","time":"2024年秋季，30天","evidenceCount":7,"suggestedAction":"accept"},
+    {"id":"C18-P04","title":"南头古城超高密度混合社区试运行","time":"未载明，与高校试点并置","evidenceCount":6,"suggestedAction":"accept"},
+    {"id":"C18-P05","title":"项目参赛、获金奖与资助报道","time":"2024-11","evidenceCount":8,"suggestedAction":"accept"},
+    {"id":"C18-P06","title":"论文总结、效果报告与边界声明","time":"2025年第3期","evidenceCount":6,"suggestedAction":"accept"},
+    {"id":"C18-P07","title":"扩展期社区开放日中的小程序使用","time":"2025-10-27—11-13","evidenceCount":8,"suggestedAction":"accept"}
+  ],
+  "conflicts": [
+    "M05/M06/M07资助受助组合不一致",
+    "APP与小程序载体称谓不一致",
+    "P03与P04无先后关系",
+    "P06论文发表具体日期未载"
+  ],
+  "gaps": [
+    "平台研发、上线和版本日期",
+    "南头古城时间窗与管理方材料",
+    "试点问卷、访谈、对照设计与后台日志",
+    "2025-11之后的持续运行证据"
+  ],
+  "decisionsRequired": [
+    "是否接受7个过程及分界",
+    "P01/P02无日期只按设计逻辑排列",
+    "P03/P04视为并置不判先后",
+    "P05/P06/P07各自独立"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false,
+    "note": "新增C18过程，不修改C01-C17"
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": null,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "version": "v0.1",
+  "openIssues": [
+    "过程切分",
+    "无日期过程",
+    "双试点顺序",
+    "外围过程定位"
+  ]
+}

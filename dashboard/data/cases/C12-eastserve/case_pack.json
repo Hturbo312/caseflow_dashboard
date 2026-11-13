@@ -1,0 +1,160 @@
+{
+  "case_id": "C12",
+  "name": "Eastserve, East Manchester",
+  "version": "v1.0",
+  "status": "frozen_for_current_scope",
+  "frozen_at": "2026-11-13",
+  "scope": {
+    "core_implementation": "2000-2010",
+    "exit_and_transfer": "2011-2017",
+    "core_space": [
+      "Beswick",
+      "Clayton",
+      "Openshaw"
+    ],
+    "evidence_cutoff": "2026-11-13"
+  },
+  "counts": {
+    "materials": 23,
+    "evidence": 89,
+    "processes": 7,
+    "entities": 84,
+    "facts": 46,
+    "relations": 73,
+    "native_concepts": 8,
+    "shared_concepts": 0,
+    "entity_types": {
+      "actor": 27,
+      "technology": 10,
+      "capability": 8,
+      "task": 4,
+      "action": 12,
+      "target": 7,
+      "outcome": 11,
+      "context": 5
+    },
+    "fact_status": {
+      "implemented": 28,
+      "planned": 7,
+      "reported_or_opinion": 10,
+      "unconfirmed": 1,
+      "disputed": 0
+    },
+    "relation_status": {
+      "implemented": 50,
+      "planned": 11,
+      "reported_or_opinion": 11,
+      "unconfirmed": 1,
+      "disputed": 0
+    }
+  },
+  "files": {
+    "scope": "case_scope.md",
+    "materials": "materials_v0.3.md",
+    "materials_json": "materials_v0.3.json",
+    "evidence": "evidence.md",
+    "evidence_json": "evidence.json",
+    "process": "process.md",
+    "process_json": "process.json",
+    "entities": "entities.md",
+    "entities_json": "entities.json",
+    "facts": "facts.md",
+    "facts_json": "facts.json",
+    "relations": "relations_v1.1.md",
+    "relations_json": "relations_v1.1.json",
+    "native_concepts": "native_concepts.md",
+    "native_concepts_json": "native_concepts.json",
+    "g6_audit": "review/G6-audit.md",
+    "decision_log": "review/decision-log.md"
+  },
+  "native_concept_ids": [
+    "NC-C12-01",
+    "NC-C12-02",
+    "NC-C12-03",
+    "NC-C12-04",
+    "NC-C12-05",
+    "NC-C12-06",
+    "NC-C12-07",
+    "NC-C12-08"
+  ],
+  "review_packets": [
+    "RP-C12-G0-v1.0",
+    "RP-C12-G1-v0.3",
+    "RP-C12-G2-v1.0",
+    "RP-C12-G3-v1.0",
+    "RP-C12-G4-v1.0",
+    "RP-C12-G5-v1.0",
+    "RP-C12-G6-v1.1"
+  ],
+  "completeness_audit": {
+    "evidence_directly_linked": 55,
+    "evidence_total": 89,
+    "facts_linked_to_relations": 39,
+    "facts_total": 46,
+    "entities_used": 79,
+    "entities_total": 84,
+    "relations_total": 73,
+    "exact_duplicate_relations": 0,
+    "near_duplicate_groups_retained": 7,
+    "unused_entities": [
+      "N05",
+      "N06",
+      "G05",
+      "G06",
+      "X01"
+    ],
+    "standalone_facts": [
+      "F006",
+      "F007",
+      "F014",
+      "F023",
+      "F026",
+      "F029",
+      "F046"
+    ]
+  },
+  "open_questions": [
+    "Exact date of the 2003 wireless network launch",
+    "User numbers, revenue and service quality for 2011-2013",
+    "Official end date of the Eastserve brand/service",
+    "Legal continuity between CityServe (999) and the 2014 CityServe business",
+    "Original 2002 Residents' Perceptions Survey and June 2003 sustainability survey",
+    "Whether to encode 8 high-priority unencoded facts/relations",
+    "NDC/New East Manchester board minutes and Eastserve partnership records"
+  ],
+  "handoff": {
+    "target_skill": "scalable-concept-framework",
+    "native_entities": 84,
+    "relations": 73,
+    "native_concepts": 8,
+    "shared_concepts_confirmed": false,
+    "note": "Native concepts are candidates only; L2 decides reuse, new shared concepts, or no_map."
+  },
+  "sqlite": {
+    "db_path": "C:\\Users\\zhaosiqi02\\.hermes\\shared-knowledge\\projects\\caseflow_dashboard\\dashboard\\data\\community-renewal.db",
+    "dataset": "caseflow-c01-c12",
+    "imported_at": "2026-11-13",
+    "backup": "data/_backup/community-renewal.db.before-c12-2026-11-13T06-54-16.db",
+    "import_script": "scripts/import-c12.ts",
+    "counts": {
+      "cases": 1,
+      "entities": 84,
+      "materials": 23,
+      "evidence": 89,
+      "processes": 7,
+      "facts": 46,
+      "relations": 73,
+      "native_concepts": 12,
+      "shared_concepts": 2,
+      "concept_mappings": 19
+    }
+  },
+  "media": {
+    "file": "public/case-media/C12.jpg",
+    "caption": "Eastserve 办公室（418 Ashton Old Road）外的剪彩活动",
+    "type": "项目实景",
+    "credit": "Manchester Evening News",
+    "source_url": "https://www.manchestereveningnews.co.uk/news/local-news/staying-in-touch-just-got-easier-914080",
+    "status": "已下载，来源已定位"
+  }
+}

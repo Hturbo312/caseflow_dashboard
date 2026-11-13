@@ -1,0 +1,22 @@
+{
+  "packetId": "RP-C16-G4-v1.0",
+  "supersedes": "RP-C16-G4-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G4",
+  "caseId": "C16",
+  "decidedAt": "2026-11-13",
+  "researcherDecision": {
+    "action": "accept",
+    "rationale": "G4 按推荐通过",
+    "modifiedContent": null,
+    "allowNextGate": true
+  },
+  "frozenArtifacts": ["facts.md v1.0", "facts.json v1.0", "entities.md v1.0", "entities.json v1.0", "RP-C16-G4-v1.0"],
+  "changes": [],
+  "openIssues": [
+    "F035 RISE 金额单一来源",
+    "F042 2019 移交单一来源",
+    "2013–2015 节点与维护记录缺失",
+    "2020–2022 市府/NYCHA 文件缺失"
+  ]
+}

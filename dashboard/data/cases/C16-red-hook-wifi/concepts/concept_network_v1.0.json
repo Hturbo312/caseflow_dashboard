@@ -1,0 +1,310 @@
+{
+  "case_id": "C16",
+  "version": "v1.0",
+  "status": "confirmed_by_researcher",
+  "generated_at": "2026-11-13",
+  "nodes": [
+    {
+      "id": "C16",
+      "node_type": "case",
+      "label": "Red Hook WiFi",
+      "entity_type": "case",
+      "status": "frozen_case_pack"
+    },
+    {
+      "id": "NC-C16-01",
+      "node_type": "native_concept",
+      "label": "社区组织锚点",
+      "entity_type": "actor",
+      "status": "confirmed_native",
+      "source_relation_ids": [
+        "R001",
+        "R008",
+        "R027",
+        "R106"
+      ]
+    },
+    {
+      "id": "NC-C16-02",
+      "node_type": "native_concept",
+      "label": "本地数字管家",
+      "entity_type": "actor",
+      "status": "confirmed_native",
+      "source_relation_ids": [
+        "R040",
+        "R042",
+        "R043",
+        "R050",
+        "R051",
+        "R068"
+      ]
+    },
+    {
+      "id": "NC-C16-03",
+      "node_type": "native_concept",
+      "label": "断网本地通信",
+      "entity_type": "capability",
+      "status": "confirmed_native",
+      "source_relation_ids": [
+        "R016",
+        "R019",
+        "R049"
+      ]
+    },
+    {
+      "id": "NC-C16-04",
+      "node_type": "native_concept",
+      "label": "社区 mesh 网络",
+      "entity_type": "technology",
+      "status": "confirmed_native",
+      "source_relation_ids": [
+        "R009",
+        "R014",
+        "R017",
+        "R044",
+        "R056"
+      ]
+    },
+    {
+      "id": "NC-C16-05",
+      "node_type": "native_concept",
+      "label": "灾时通信据点",
+      "entity_type": "outcome",
+      "status": "confirmed_native",
+      "source_relation_ids": [
+        "R027",
+        "R028",
+        "R029"
+      ]
+    },
+    {
+      "id": "NC-C16-06",
+      "node_type": "native_concept",
+      "label": "商户宿主网络",
+      "entity_type": "action",
+      "status": "confirmed_native",
+      "source_relation_ids": [
+        "R039",
+        "R059",
+        "R061",
+        "R070",
+        "R092"
+      ]
+    },
+    {
+      "id": "NC-C16-07",
+      "node_type": "native_concept",
+      "label": "一次性资助后的维护断层",
+      "entity_type": "outcome",
+      "status": "confirmed_native",
+      "source_relation_ids": [
+        "R055",
+        "R065",
+        "R067",
+        "R110"
+      ]
+    },
+    {
+      "id": "NC-C16-08",
+      "node_type": "native_concept",
+      "label": "户外覆盖替代室内接入",
+      "entity_type": "outcome",
+      "status": "confirmed_native",
+      "source_relation_ids": [
+        "R071",
+        "R073",
+        "R077",
+        "R108"
+      ]
+    },
+    {
+      "id": "NC-C16-09",
+      "node_type": "native_concept",
+      "label": "环境传感复用",
+      "entity_type": "action",
+      "status": "confirmed_native",
+      "source_relation_ids": [
+        "R078",
+        "R079",
+        "R080",
+        "R081",
+        "R093"
+      ]
+    },
+    {
+      "id": "SC-C01-114",
+      "node_type": "shared_concept",
+      "label": "地方组织与运营主体",
+      "entity_type": "actor",
+      "status": "existing_candidate"
+    },
+    {
+      "id": "SC-C01-134",
+      "node_type": "shared_concept",
+      "label": "通信与公共数字基础设施",
+      "entity_type": "technology",
+      "status": "existing_candidate"
+    },
+    {
+      "id": "SC-C01-142",
+      "node_type": "shared_concept",
+      "label": "数据监测与环境诊断能力",
+      "entity_type": "capability",
+      "status": "existing_candidate"
+    },
+    {
+      "id": "SC-C01-175",
+      "node_type": "shared_concept",
+      "label": "实施风险与负面结果",
+      "entity_type": "outcome",
+      "status": "existing_candidate"
+    },
+    {
+      "id": "SC-C16-201",
+      "node_type": "candidate_concept",
+      "label": "本地数字维护者",
+      "entity_type": "actor",
+      "status": "candidate_single_case"
+    },
+    {
+      "id": "SC-C16-202",
+      "node_type": "candidate_concept",
+      "label": "断网本地通信",
+      "entity_type": "capability",
+      "status": "candidate_single_case"
+    },
+    {
+      "id": "SC-C16-203",
+      "node_type": "candidate_concept",
+      "label": "灾时通信据点",
+      "entity_type": "outcome",
+      "status": "candidate_single_case"
+    },
+    {
+      "id": "SC-C16-204",
+      "node_type": "candidate_concept",
+      "label": "商户宿主网络",
+      "entity_type": "action",
+      "status": "candidate_single_case"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C16",
+      "target": "NC-C16-01",
+      "relation": "contains_native_concept"
+    },
+    {
+      "source": "C16",
+      "target": "NC-C16-02",
+      "relation": "contains_native_concept"
+    },
+    {
+      "source": "C16",
+      "target": "NC-C16-03",
+      "relation": "contains_native_concept"
+    },
+    {
+      "source": "C16",
+      "target": "NC-C16-04",
+      "relation": "contains_native_concept"
+    },
+    {
+      "source": "C16",
+      "target": "NC-C16-05",
+      "relation": "contains_native_concept"
+    },
+    {
+      "source": "C16",
+      "target": "NC-C16-06",
+      "relation": "contains_native_concept"
+    },
+    {
+      "source": "C16",
+      "target": "NC-C16-07",
+      "relation": "contains_native_concept"
+    },
+    {
+      "source": "C16",
+      "target": "NC-C16-08",
+      "relation": "contains_native_concept"
+    },
+    {
+      "source": "C16",
+      "target": "NC-C16-09",
+      "relation": "contains_native_concept"
+    },
+    {
+      "source": "NC-C16-01",
+      "target": "SC-C01-114",
+      "relation": "maps_to_shared",
+      "mapping_id": "MAP-C16-001",
+      "mapping_type": "native_hyponym",
+      "decision": "accepted"
+    },
+    {
+      "source": "NC-C16-02",
+      "target": "SC-C16-201",
+      "relation": "supports_candidate",
+      "mapping_id": "MAP-C16-002",
+      "mapping_type": "no_map",
+      "decision": "keep_native"
+    },
+    {
+      "source": "NC-C16-03",
+      "target": "SC-C16-202",
+      "relation": "supports_candidate",
+      "mapping_id": "MAP-C16-003",
+      "mapping_type": "no_map",
+      "decision": "keep_native"
+    },
+    {
+      "source": "NC-C16-04",
+      "target": "SC-C01-134",
+      "relation": "maps_to_shared",
+      "mapping_id": "MAP-C16-004",
+      "mapping_type": "native_hyponym",
+      "decision": "accepted"
+    },
+    {
+      "source": "NC-C16-05",
+      "target": "SC-C16-203",
+      "relation": "supports_candidate",
+      "mapping_id": "MAP-C16-005",
+      "mapping_type": "no_map",
+      "decision": "keep_native"
+    },
+    {
+      "source": "NC-C16-06",
+      "target": "SC-C16-204",
+      "relation": "supports_candidate",
+      "mapping_id": "MAP-C16-006",
+      "mapping_type": "no_map",
+      "decision": "keep_native"
+    },
+    {
+      "source": "NC-C16-07",
+      "target": "SC-C01-175",
+      "relation": "maps_to_shared",
+      "mapping_id": "MAP-C16-007",
+      "mapping_type": "native_hyponym",
+      "decision": "accepted"
+    },
+    {
+      "source": "NC-C16-08",
+      "target": "SC-C01-175",
+      "relation": "maps_to_shared",
+      "mapping_id": "MAP-C16-008",
+      "mapping_type": "partial_or_approximate",
+      "decision": "accepted_partial"
+    },
+    {
+      "source": "NC-C16-09",
+      "target": "SC-C01-142",
+      "relation": "maps_to_shared",
+      "mapping_id": "MAP-C16-009",
+      "mapping_type": "partial_or_approximate",
+      "decision": "accepted_partial"
+    }
+  ]
+}

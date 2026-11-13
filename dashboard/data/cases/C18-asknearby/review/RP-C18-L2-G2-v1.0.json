@@ -1,0 +1,16 @@
+{
+  "packetId": "RP-C18-L2-G2-v1.0",
+  "supersedes": "RP-C18-L2-G2-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G2",
+  "caseId": "C18",
+  "decidedAt": "2026-11-13",
+  "researcherDecision": {
+    "action": "accept",
+    "rationale": "16映射，7候选，SC-C18-02保留，支持变更待G3。",
+    "modifiedContent": "接受16条映射与7个活跃候选。",
+    "allowNextGate": true
+  },
+  "frozenArtifacts": ["concept_mapping_v1.0.md/json", "shared_concept_candidates_v1.0.md/json", "RP-C18-L2-G2-v1.0"],
+  "openIssues": ["G3历史回查", "网络增量"]
+}

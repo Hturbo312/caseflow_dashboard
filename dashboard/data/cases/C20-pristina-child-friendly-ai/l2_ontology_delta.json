@@ -1,0 +1,34 @@
+{
+  "delta_id": "DELTA-C20-L2-001",
+  "case_id": "C20",
+  "status": "released",
+  "ontology_version": "V4",
+  "ontology_changed": false,
+  "layer_version": "L2-C20-v1.0",
+  "base_layer": "L2-C18-v1.0 + L2-C19-v0.1 (DB-only)",
+  "generated_at": "2026-11-13",
+  "changes": {
+    "mappings_added": 9,
+    "mapping_types": {"semantic_equivalent": 0, "native_hyponym": 2, "partial_or_approximate": 5, "no_map": 2},
+    "support_additions": 7,
+    "new_candidates": 1,
+    "withdrawn_candidates": 1,
+    "promotions": 1,
+    "definition_changes": 0,
+    "negative_changes": 0,
+    "historical_mapping_changes": 0,
+    "historical_reclassifications": 0
+  },
+  "affected_shared_concepts": [
+    "SC-C01-152","SC-C01-131","SC-C01-121","SC-C01-122","SC-C01-174","SC-C01-155","SC-C19-102"
+  ],
+  "new_candidate_ids": ["SC-C20-02"],
+  "withdrawn_candidate_ids": ["SC-C20-01"],
+  "promoted_ids": ["SC-C19-102"],
+  "files": [
+    "l2_concept_mapping_v1.0.json",
+    "l2_shared_concepts_v1.0.json",
+    "l2_network_delta.json",
+    "l2_historical_mapping_review.json"
+  ]
+}

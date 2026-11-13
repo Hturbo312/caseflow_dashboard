@@ -1,0 +1,43 @@
+{
+  "packetId": "RP-L2-G2-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "G2",
+  "caseId": "C16",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher_confirmation",
+  "candidates": 4,
+  "mappings": 9,
+  "mappingTypes": {
+    "semantic_equivalent": 0,
+    "native_hyponym": 3,
+    "partial_or_approximate": 2,
+    "no_map": 4
+  },
+  "candidateIds": ["SC-C16-201", "SC-C16-202", "SC-C16-203", "SC-C16-204"],
+  "decisionPoints": [
+    "4 个单案例候选",
+    "3 条下位映射",
+    "2 条部分映射",
+    "4 条 no_map",
+    "进入 G3"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false,
+    "scope": "C16 加法；C01–C12 不变"
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": false,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "openIssues": [
+    "4 个候选均单案例",
+    "NC-08 反向机制未覆盖",
+    "NC-06 与 SC-C01-155/157 的部分重叠"
+  ]
+}

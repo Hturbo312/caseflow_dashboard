@@ -1,0 +1,195 @@
+Eastserve (Eastserve) | Interoperable Europe Portal
+Skip to main content
+Policy
+News
+Events
+Interoperable Europe Act
+AI in the public sector
+Digital-ready policymaking
+FAQs
+Solutions
+Interoperable Europe Solutions
+Interoperability Catalogue
+Open-source Catalogue
+Guidelines on Sharing Interoperability Solutions
+European Public Licence (EUPL)
+Support Centre
+Portal support
+Semantics (SEMIC)
+Open source (OSOR)
+European Interoperability Framework (EIF)
+Monitoring
+Public Sector Tech Watch
+GovTech
+Architecture and test tools
+Regulatory sandboxes
+Forum
+Governance
+Board
+Community
+National competent authorities
+Assessments
+Funding opportunities
+EU digital regulations
+Academy
+Learning paths
+Courses
+Policy briefs
+Curriculum
+Seasonal school 2026
+SEMIC 2026
+Sign in
+Get started
+Create an account
+As a signed-in user you can create content, become a member of a community, receive notifications on your favourite solutions and topics, and access all other features available on the platform.
+Toggle menu
+Home
+Policy
+News
+Events
+Interoperable Europe Act
+AI in the public sector
+Digital-ready policymaking
+FAQs
+Solutions
+Interoperable Europe Solutions
+Interoperability Catalogue
+Open-source Catalogue
+Guidelines on Sharing Interoperability Solutions
+European Public Licence (EUPL)
+Support Centre
+Portal support
+Semantics (SEMIC)
+Open source (OSOR)
+European Interoperability Framework (EIF)
+Monitoring
+Public Sector Tech Watch
+GovTech
+Architecture and test tools
+Regulatory sandboxes
+Forum
+Governance
+Board
+Community
+National competent authorities
+Assessments
+Funding opportunities
+EU digital regulations
+Academy
+Learning paths
+Courses
+Policy briefs
+Curriculum
+Seasonal school 2026
+SEMIC 2026
+Sign in
+About us
+Toggle search box
+eGovernment
+Search
+Home
+eGovernment
+Eastserve (Eastserve)
+eGovernment
+Join this collection
+6 Solutions
+153 members
+Topics:
+Digital government
+Overview
+ePractice
+Bookmark
+Like (0)
+Eastserve (Eastserve)
+Anonymous (not verified)
+Published on: 14/02/2006
+Last update: 15/02/2006
+Document
+Archived
+Getting the local community on-line has been a major success story in East Manchester.
+The Eastserve project was set up in 2000, funded through the Beacons for a Brighter Future Initiative - the programme which is managing the New Deal for Communities and Single Regeneration Budget regeneration funds for the Beswick, Openshaw and Clayton neighbourhoods of East Manchester - and the Department for Education and Skills Wired up Communities programme. Since then it has extended across the wider New East Manchester area and provided a model of best practice for the development of the City's e government agenda.
+The project has provided PCs, basic ICT training, community help and support, access to online services and local information and low cost wireless broadband internet access where previously this did not exist.
+PCs were heavily subsidised - a new computer with all the peripheral equipment cost just Â£200 against the full cost of Â£1,000, and attending a 3 hour training course in a local venue was part of the deal. Customer Services are provided from a local shop Unit by paid staff and technical and non technical volunteers.
+A community portal -
+www.eastserve.com
+- has also been developed, designed specifically for the local community through intensive consultation and providing access to local services and news about the area. The Eastserve site provides information and interactive services from City Council Departments particularly housing and street based services, employment agencies, the Police and community networks. It aims to be fast and convenient and is organised to reflect the needs of the residents rather than the structure of agencies or organisations.
+Eastserve Broadband has been established to address the issue of a quarter of residents being unable to access the Internet at home and to provide high speed, affordable links to the Internet from homes, community locations, schools and businesses.
+The third phase of the project has now received funding from the North West Development Agency to further develop the project and lead it to becoming a self-sustaining viable enterprise by 2007.
+Main results, benefits and impacts
+Access to ICT and digital exclusion is a key issue in deprived neighbourhoods such as East Manchester. Eastserve has provided around 3500 PC's to residents in the area and has connected 1500 households with Broadband Internet. Many wouldn't have been able to access these facilities without Eastserve.
+The Eastserve public forums have provided a place to express opinions on a range of subjects - from local issues such as progress on the regeneration programme, to PC and Internet problems, to discussion on local history, current local and national news and fun subjects. They have attracted thousands of contributions from local people.
+The subsidised PC's, Eastserve Broadband Internet and eastserve.com have provided residents with the means to access information that they would not previously have been able to access:
+- Local Community Information
+- On line services
+- Syndicated news
+- Advertising
+- Employment opportunities
+- Training, Further Education
+This info-network is extended with Eastserve Broadband inclusion facilities - links with local schools, UK On Line Centres, Community Centres.
+Community involvement was encouraged by the creation of a Residents' Panel of 15 to make recommendations, alongside this computer literate "community champions" volunteered to assist other residents solve their IT problems.
+Local people also became involved through an "intermediate labour market" scheme which gave some of them employment as part of the process of installing the IT equipment.
+Extract - NEM Residents' Perceptions Survey 2002:
+The project success can be demonstrated by Eastserve being the local organisation with which residents have been most involved, especially in the Beacons area. Eastserve receives the highest respondent ratings.
+- Adults between 16-59 have most likely been involved with Eastserve
+- The vast majority who have had contact with Eastserve find it produces a high service level. 87% rate the service it provides as good/very good
+- Three in ten residents (31%) currently have a computer at home, and a third of these (34%) received it through Eastserve. A further three in ten (27%) are interested in buying a PC at low cost.
+Extract - Eastserve evaluation and sustainability survey June 2003:
+- Before Eastserve, 47.2% of respondents had never used a computer
+- 63.8% had never used the Internet
+- 50% were accessing training and of these 44% had got an IT qualification
+- 69.6% now interested in studying for a further IT qualification
+- 73.3% now feel that the Internet provides help with access their children's homework
+- 42% log on to Eastserve at least weekly
+- 65% use it to access local news
+- 60% use Eastserve email
+- 84% consider the online payments service good/very good
+- 77% felt happy with the Broadband service and felt they were getting value for money
+- 64% were happy with the speed and reliability
+- 57% had phoned Eastserve for support, 70% found the help desk supportive.
+Return on investment
+Return on investment: Not applicable / Not available
+Lessons learnt
+Eastserve is now being developed as a multi-agency partnership to develop innovative eGovernment solutions which will support:
+- service improvement through enhanced service quality and delivery;
+- citizen engagement through the development of new service delivery models and by engaging citizens more effectively in strategic planning and consultation arrangements;
+- the development of new business models which will aid organisational transformation, including public-private partnerships (PPPs) and social economy enterprises.
+The Manchester City Council is now working hard to promote e-services take up through awareness campaigns, improved access to training and the direct involvement of citizens in producing on-line services content. Its newly established, city-wide, Manchester Digital Development Agency (MDDA), has been charged with developing this agenda and transferring the experiences from East Manchester to other regeneration areas within the city and the wider metropolitan area.
+All of this experience, and the initial results from the ongoing research coming from participation in the IntelCities project, suggest that key players in eGovernment need to take a more holistic approach to promoting and delivering greater access to, and take up of, information society technologies. Further work is now needed to identify and evaluate best practice, especially in terms of identifying effective ways of engaging and sustaining citizen involvement. At the same time work is also needed on new delivery partnerships - public-private partnerships (PPPs), citizen partnerships and models of social economy enterprises.
+City administrations also need to learn from these results. The Eastserve project has many implications for the way that public and community services are delivered, including eGovernment solutions, not only in local authorities but also in other areas, e.g. in East Manchester the Police and health services are also now implementing changes to the way they deliver services because of the experience of the Eastserve project.
+The policy recommendations on the outlined issues are being taken forward by Manchester City Council through the MDDA which supports Eastserve and a wide range of other ICT initiatives across the city and the region. At a regional level the City Council is working through the North West eGovernment Group (NWeGG), at national level through the UK Government's National eGovernment Unit and at a European level through networks - Eurocities, Telecities.
+At a local level, Manchester City Council intends to build upon this experience, secure additional resources and extend the Eastserve experience to other areas of the city. The ultimate objective would be to support a network of "intelligent neighbourhoods" across the city where more than 50,000 households would be connected and supported over the next three years. This would create a new city-wide Digital Inclusion Initiative to be coordinated by the MDDA.
+Scope: Local (city or municipality)
+Report abusive content
+Login
+or
+create an account
+to comment.
+Interoperable Europe
+2.17.0
+Useful links
+About us
+Interoperable Europe Portal
+Licensing Assistant
+EIF Solutions Finder
+Interoperable Europe
+Help and support
+Take a tour
+User Reference Guide
+Frequently Asked Questions (FAQ)
+How-To Articles
+Contact Portal Support
+Contribution rules
+Legal notice
+Privacy statement
+Accessibility statement
+European Commission
+About the Commission's new web presence
+Resources for partners
+Cookies
+Contact European Commission
+Europa Analytics
+Follow us
+Newsletter subscription
+Newsletter archive
+Twitter / X
+LinkedIn

@@ -1,0 +1,27 @@
+{
+  "packetId": "RP-C13-L2-G3G4-v1.0",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G3/G4",
+  "caseId": "C13",
+  "scope": "C13概念增量、历史回查与版本记录",
+  "generatedAt": "2026-11-13",
+  "status": "frozen_candidate_layer",
+  "version": "L2-C13-shared-v1.0",
+  "baseConceptCount": 45,
+  "addedCandidates": 8,
+  "addedMappings": 14,
+  "modifiedConcepts": 0,
+  "deletedConcepts": 0,
+  "historicalMappingsReviewed": 101,
+  "historicalReclassifications": 0,
+  "resultingConceptNodes": 53,
+  "databaseState": "C01-C12; C13 file-layer delta pending import",
+  "openIssues": [
+    "8个候选缺第二案例支持",
+    "维护与衰减缺2016-2017证据",
+    "是否追加C13到既有概念supporting_case_ids待定",
+    "C13尚未导入dashboard数据库"
+  ],
+  "researcherDecision": {"action": "accept", "rationale": "接受建议", "allowRelease": true, "decidedAt": "2026-11-13"},
+  "frozenArtifacts": ["l2_shared_concepts_v1.0.json", "l2_concept_mapping.json v1.0", "l2_ontology_delta.md/json", "l2_version_record.md/json"]
+}

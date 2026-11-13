@@ -1,0 +1,42 @@
+{
+  "packetId": "RP-C17-L2-G3-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G3",
+  "caseId": "C17",
+  "scope": "历史映射回查、增量内容、网络状态更新",
+  "generatedAt": "2026-11-13",
+  "status": "accepted_by_researcher",
+  "counts": {
+    "nativeConcepts": 11,
+    "candidates": 7,
+    "mappings": 19,
+    "historicalMappingsAdded": 0,
+    "sharedConceptsBefore": 56,
+    "sharedConceptsAfter": 63,
+    "released": 12,
+    "pendingCandidates": 51
+  },
+  "historicalReview": [
+    {"candidate":"SC-C17-01","closest":"NC-C02-003","verdict":"no_second_case"},
+    {"candidate":"SC-C17-02","closest":"NC-C02-005","verdict":"no_second_case"},
+    {"candidate":"SC-C17-03","closest":"NC-C01-003","verdict":"no_second_case"},
+    {"candidate":"SC-C17-04","closest":null,"verdict":"no_second_case"},
+    {"candidate":"SC-C17-05","closest":"NC-C12-10","verdict":"no_second_case"},
+    {"candidate":"SC-C17-06","closest":"NC-C10-004","verdict":"no_second_case"},
+    {"candidate":"SC-C17-07","closest":"NC-C11-001","verdict":"no_second_case"}
+  ],
+  "conflicts": [],
+  "gaps": ["C13/C15/C16 无概念层", "7 个候选缺第二案例"],
+  "decisionsRequired": [
+    "7 个候选保持 candidate",
+    "C13/C15/C16 列入回查",
+    "不修改既有概念",
+    "63 个共享概念计数",
+    "版本命名 L2-C17-shared-v1.0"
+  ],
+  "historyImpact": {"affectsSharedConcepts": false, "affectsHistoricalMappings": false, "triggersHistoricalReview": true, "note": "C13/C15/C16 待回查"},
+  "researcherDecision": {"action": "accept", "rationale": "接受，按推荐", "modifiedContent": "7 个候选保持 candidate；C13/C15/C16 列入回查；不修改既有概念；63 个共享概念计数；版本命名 L2-C17-shared-v1.0", "allowNextGate": true, "decidedAt": "2026-11-13"},
+  "frozenArtifacts": [],
+  "version": "v0.1",
+  "openIssues": ["回查结论", "后续回查", "既有层", "网络计数", "版本命名"]
+}

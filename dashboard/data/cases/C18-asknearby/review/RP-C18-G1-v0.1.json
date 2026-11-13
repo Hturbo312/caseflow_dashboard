@@ -1,0 +1,182 @@
+{
+  "packetId": "RP-C18-G1-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G1",
+  "caseId": "C18",
+  "scope": "方元问问（AskNearby）材料登记与质量核验",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher",
+  "evidenceCutoff": "2026-11-13",
+  "processed": [
+    "材料标题",
+    "来源与作者",
+    "日期",
+    "链接",
+    "覆盖范围",
+    "可靠性与核验状态",
+    "本地副本"
+  ],
+  "notProcessed": [
+    "G2 证据逐条定位",
+    "G3 过程重建",
+    "G4 事实拆解",
+    "G5 关系编码",
+    "G6 关系审校"
+  ],
+  "materials": [
+    {
+      "id": "M01",
+      "name": "大语言模型助力社区生活圈规划与治理研究",
+      "sourceType": "academic_article",
+      "date": "2025年第3期",
+      "link": "https://www.shplanning.com.cn/archive/download/id/1467.html",
+      "recommendedScope": "core",
+      "reliability": "medium-high",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "M02",
+      "name": "汇高校“后浪”，焕党群“新颜”，桃源街道校社联动共筑活力“WE社区”",
+      "sourceType": "mainstream_media_event_report",
+      "date": "2025-10-30",
+      "link": "https://static.nfnews.com/content/202510/29/c11862721.html",
+      "recommendedScope": "extension",
+      "reliability": "medium-high",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "M03",
+      "name": "高校“后浪”涌入！桃源街道解锁党群新貌，焕活“WE社区”",
+      "sourceType": "local_media_event_report",
+      "date": "2025-10-28",
+      "link": "https://m.toutiao.com/article/7566227558790873609/",
+      "recommendedScope": "extension",
+      "reliability": "medium",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "M04",
+      "name": "深圳：“无界桃源”催生“创新雨林”",
+      "sourceType": "feature_repost",
+      "date": "2025-11-13",
+      "link": "https://m.toutiao.com/article/7572015519453299235/",
+      "recommendedScope": "extension",
+      "reliability": "medium-high",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "M05",
+      "name": "南山区第七届大学生社会创新项目大赛决赛举行，18个项目获奖",
+      "sourceType": "local_media_award_report",
+      "date": "2024-11-12",
+      "link": "https://appdetail.netwin.cn/web/2024/11/e6dddee573a6070c42e4ea9420fb82ad.html",
+      "recommendedScope": "context",
+      "reliability": "medium-high",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "M06",
+      "name": "“益创星”南山区大学生社会创新大赛在深举行",
+      "sourceType": "news_agency_award_report",
+      "date": "2024-11-13",
+      "link": "https://www.gd.chinanews.com/2024/2024-11-13/438141.shtml",
+      "recommendedScope": "context",
+      "reliability": "medium-high",
+      "suggestedAction": "accept"
+    },
+    {
+      "id": "M07",
+      "name": "架构设计到“支持青年创新创业”慈善心愿落地，汉正提供全程陪伴",
+      "sourceType": "institutional_promotion",
+      "date": "2024-11-13",
+      "link": "https://m.sohu.com/a/826492677_100244361/",
+      "recommendedScope": "context",
+      "reliability": "low-medium",
+      "factStatus": "disputed",
+      "suggestedAction": "discuss"
+    }
+  ],
+  "sourceClusters": [
+    {
+      "id": "CL-01",
+      "label": "学术论文",
+      "materials": ["M01"],
+      "independence": "single_core_source"
+    },
+    {
+      "id": "CL-02",
+      "label": "2025校社活动报道",
+      "materials": ["M02", "M03", "M04"],
+      "independence": "same_event_cluster"
+    },
+    {
+      "id": "CL-03",
+      "label": "2024获奖与资助",
+      "materials": ["M05", "M06", "M07"],
+      "independence": "same_award_cluster"
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "产品形态",
+      "positions": [
+        "M01：APP",
+        "M02-M04：小程序"
+      ],
+      "handling": "暂不合并为同一客户端；G2/G4 按平台、应用、项目名拆分"
+    },
+    {
+      "topic": "奖项与资助",
+      "positions": [
+        "M05/M06：赛道金奖",
+        "M05：两个金奖项目获落地扶持资金",
+        "M06：金奖AskNearby与银奖益心同行获落地扶持金",
+        "M07：AskNearby与益心同行获舒琦青创领航特别奖，两个项目合计20万元"
+      ],
+      "handling": "分记奖项、受助项目与金额；受助组合标disputed，不把20万元写成AskNearby独得"
+    },
+    {
+      "topic": "时间锚点",
+      "positions": [
+        "M01：2024年秋季试运行",
+        "M05-M07：2024年11月获奖",
+        "M02-M04：2025年10-11月社区活动"
+      ],
+      "handling": "构成跨年时间线，但不是同一事件的连续观测"
+    }
+  ],
+  "gaps": [
+    "平台页面、应用商店说明、版本信息与后台日志",
+    "两处试点的原始问卷、访谈与统计方法",
+    "南头古城的独立材料与管理方确认",
+    "2025-11之后的持续运行与维护证据"
+  ],
+  "decisionsRequired": [
+    "是否纳入M01-M07，M07是否仅作低权重背景",
+    "是否按事件簇处理M02-M04与M05-M07的独立性",
+    "APP/小程序/平台/项目名是否暂不合并",
+    "核心、扩展与背景材料的定位"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false,
+    "note": "新增C18材料登记，不修改C01-C17"
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": null,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "version": "v0.1",
+  "openIssues": [
+    "M07权重",
+    "事件簇独立性",
+    "APP/小程序身份",
+    "核心/扩展定位",
+    "受资助项目组合"
+  ]
+}

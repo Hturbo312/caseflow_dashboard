@@ -1,0 +1,48 @@
+{
+  "packetId": "RP-C17-G6-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G6",
+  "caseId": "C17",
+  "scope": "重复、遗漏、矛盾、方向与谓词一致性审校",
+  "generatedAt": "2026-11-13",
+  "status": "accepted_by_researcher",
+  "evidenceCutoff": "2026-11-13",
+  "counts": {"relations": 106, "accept": 97, "modify": 7, "delete": 1, "supplement": 1, "discuss": 1},
+  "audit": {
+    "duplicateTriples": 0,
+    "inverseDuplicates": [["R024","R105"]],
+    "selfLoops": 0,
+    "typePredicateConflicts": ["R101"],
+    "overloadedPredicates": [{"predicate":"支持","count":10,"senses":["资助","技术辅助","数据输入","组织协作"]}]
+  },
+  "proposals": {
+    "delete": [{"id":"R105","reason":"与 R024 反向重复"}],
+    "modify": [
+      {"id":"R045","from":"高分辨率影像获取能力—支持→排水制图","to":"高分辨率影像获取能力—提升→排水制图精度","reason":"语义过泛"},
+      {"id":"R046","from":"MapGive 卫星影像—支持→外业制图","to":"MapGive 卫星影像—补充→外业制图底图","reason":"影像是底图补充"},
+      {"id":"R047","from":"描图纸与铅笔—支持→社区论坛","to":"描图纸与铅笔—辅助→洪泛范围勾绘","reason":"工具辅助勾绘"},
+      {"id":"R101","from":"1D—2D 水动力模拟能力—具备→532 段排水数据与模型改进","to":"1D—2D 水动力模拟能力—支撑→532 段排水数据与模型改进","reason":"方向错误"},
+      {"id":"R102","from":"数据质量核验能力—支持→532 段排水数据与模型改进","to":"数据质量核验能力—保障→532 段排水数据与模型改进","reason":"质检是保障条件"},
+      {"id":"R103","from":"洪水数据点—验证→532 段排水数据与模型改进","to":"洪水数据点—用于验证→532 段排水数据与模型改进","reason":"数据是验证材料"},
+      {"id":"R104","from":"532 段排水数据与模型改进—支持→开展洪水风险分析与建模","to":"532 段排水数据与模型改进—作为输入→开展洪水风险分析与建模","reason":"明确输入角色"}
+    ],
+    "supplement": [
+      {"id":"R107","relation":"市辖区议会（Ilala/Kinondoni/Temeke）—接收→图集与印刷地图","status":"planned","evidence":"M01-E04","reason":"图集声明的政府交付对象"}
+    ],
+    "discuss": [
+      {"id":"R005-R007","issue":"世界银行/GFDRR/红十字会的“支持”是否改为“资助”或拆分","recommendation":"保留“支持”，在限定中注明角色差异"}
+    ],
+    "accept": 97
+  },
+  "intentionalOmissions": [
+    "数据维护/更新关系（无证据）",
+    "市政实际采用地图关系（缺决策记录）",
+    "Zuia Mafuriko 独立行动链（仅序言级证据）",
+    "因果效果边（留 L3）"
+  ],
+  "historyImpact": {"affectsSharedConcepts": false, "affectsHistoricalMappings": false, "triggersHistoricalReview": false, "note": "仅 C17 关系集合"},
+  "researcherDecision": {"action": "accept_all_proposals", "rationale": "同意全部处理", "modifiedContent": "删除 R105；修改 R045/R046/R047/R101/R102/R103/R104；补充 R107；其余 97 条接受", "allowNextGate": true, "decidedAt": "2026-11-13"},
+  "frozenArtifacts": [],
+  "version": "v0.1",
+  "openIssues": ["R005-R007 谓词精度", "数据维护缺口", "市政采用缺口"]
+}

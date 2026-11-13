@@ -1,0 +1,1616 @@
+{
+  "case_id": "C20",
+  "relation_version": "v0.2-frozen",
+  "generated_at": "2026-11-13",
+  "status": "frozen",
+  "relations": [
+    {
+      "relation_id": "R001",
+      "head_entity": "普里什蒂纳市",
+      "head_type": "context",
+      "predicate": "加入",
+      "tail_entity": "City Experiment Fund (CEF)",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2022",
+        "space": "普里什蒂纳",
+        "quantity": "—",
+        "scope": "城市作为行动主体加入CEF；类型沿用context"
+      },
+      "evidence_ids": [
+        "M09-E01"
+      ],
+      "fact_ids": [
+        "F001"
+      ],
+      "process_ids": [
+        "C20-P01"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R002",
+      "head_entity": "普里什蒂纳市",
+      "head_type": "context",
+      "predicate": "缺乏",
+      "tail_entity": "儿童友好公共空间",
+      "tail_type": "target",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023-09-14",
+        "space": "普里什蒂纳",
+        "quantity": "—",
+        "scope": "较大儿童/10+；项目方问题表述"
+      },
+      "evidence_ids": [
+        "M01-E01"
+      ],
+      "fact_ids": [
+        "F002"
+      ],
+      "process_ids": [
+        "C20-P01"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R003",
+      "head_entity": "10–17岁儿童参与者",
+      "head_type": "actor",
+      "predicate": "提出需求",
+      "tail_entity": "儿童友好公共空间",
+      "tail_type": "target",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023年上半年",
+        "space": "普里什蒂纳",
+        "quantity": "—",
+        "scope": "儿童一致认为缺少；头脑风暴"
+      },
+      "evidence_ids": [
+        "M01-E05"
+      ],
+      "fact_ids": [
+        "F003"
+      ],
+      "process_ids": [
+        "C20-P01"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R004",
+      "head_entity": "女童参与者",
+      "head_type": "actor",
+      "predicate": "提出关切",
+      "tail_entity": "儿童友好公共空间",
+      "tail_type": "target",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023年上半年",
+        "space": "普里什蒂纳",
+        "quantity": "—",
+        "scope": "安全与隐私；头脑风暴"
+      },
+      "evidence_ids": [
+        "M01-E05"
+      ],
+      "fact_ids": [
+        "F004"
+      ],
+      "process_ids": [
+        "C20-P01"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R005",
+      "head_entity": "UNDP Kosovo",
+      "head_type": "actor",
+      "predicate": "设立",
+      "tail_entity": "City Experiment Fund (CEF)",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "未限定（CEF设立时）",
+        "space": "欧洲与中亚区域",
+        "quantity": "—",
+        "scope": "与斯洛伐克财政部共同设立"
+      },
+      "evidence_ids": [
+        "M01-E14",
+        "M13-E01"
+      ],
+      "fact_ids": [
+        "F007"
+      ],
+      "process_ids": [
+        "C20-P02"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R006",
+      "head_entity": "斯洛伐克财政部",
+      "head_type": "actor",
+      "predicate": "资助",
+      "tail_entity": "City Experiment Fund (CEF)",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "未限定",
+        "space": "欧洲与中亚区域",
+        "quantity": "—",
+        "scope": "CEF资助方"
+      },
+      "evidence_ids": [
+        "M01-E14",
+        "M13-E01"
+      ],
+      "fact_ids": [
+        "F007"
+      ],
+      "process_ids": [
+        "C20-P02"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R007",
+      "head_entity": "UNDP Kosovo",
+      "head_type": "actor",
+      "predicate": "实施",
+      "tail_entity": "Healthier Kosovo 2 (HK2)",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2021-08-01—2023-12-31",
+        "space": "科索沃",
+        "quantity": "—",
+        "scope": "与WHO、UNV共同实施"
+      },
+      "evidence_ids": [
+        "M01-E15",
+        "M12-E02"
+      ],
+      "fact_ids": [
+        "F008"
+      ],
+      "process_ids": [
+        "C20-P02"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R008",
+      "head_entity": "WHO",
+      "head_type": "actor",
+      "predicate": "实施",
+      "tail_entity": "Healthier Kosovo 2 (HK2)",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2021-08-01—2023-12-31",
+        "space": "科索沃",
+        "quantity": "—",
+        "scope": "与UNDP、UNV共同实施"
+      },
+      "evidence_ids": [
+        "M01-E15",
+        "M12-E02"
+      ],
+      "fact_ids": [
+        "F008"
+      ],
+      "process_ids": [
+        "C20-P02"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R009",
+      "head_entity": "UNV",
+      "head_type": "actor",
+      "predicate": "实施",
+      "tail_entity": "Healthier Kosovo 2 (HK2)",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2021-08-01—2023-12-31",
+        "space": "科索沃",
+        "quantity": "—",
+        "scope": "与UNDP、WHO共同实施"
+      },
+      "evidence_ids": [
+        "M01-E15",
+        "M12-E02"
+      ],
+      "fact_ids": [
+        "F008"
+      ],
+      "process_ids": [
+        "C20-P02"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R010",
+      "head_entity": "卢森堡政府",
+      "head_type": "actor",
+      "predicate": "资助",
+      "tail_entity": "Healthier Kosovo 2 (HK2)",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2021-08-01—2023-12-31",
+        "space": "科索沃",
+        "quantity": "—",
+        "scope": "HK2资助方"
+      },
+      "evidence_ids": [
+        "M01-E15",
+        "M12-E02"
+      ],
+      "fact_ids": [
+        "F008"
+      ],
+      "process_ids": [
+        "C20-P02"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R011",
+      "head_entity": "普里什蒂纳市政府",
+      "head_type": "actor",
+      "predicate": "任命",
+      "tail_entity": "Children Councils / Assembly of Children",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2023年上半年",
+        "space": "普里什蒂纳",
+        "quantity": "—",
+        "scope": "Children Councils由市政府任命"
+      },
+      "evidence_ids": [
+        "M01-E03"
+      ],
+      "fact_ids": [
+        "F011"
+      ],
+      "process_ids": [
+        "C20-P02"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R012",
+      "head_entity": "Children Councils / Assembly of Children",
+      "head_type": "actor",
+      "predicate": "遴选",
+      "tail_entity": "10–17岁儿童参与者",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2023年上半年",
+        "space": "普里什蒂纳各学校",
+        "quantity": "未给人数",
+        "scope": "按背景与视角多样性"
+      },
+      "evidence_ids": [
+        "M01-E03"
+      ],
+      "fact_ids": [
+        "F011"
+      ],
+      "process_ids": [
+        "C20-P02"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R013",
+      "head_entity": "普里什蒂纳市政府公共空间与公园局",
+      "head_type": "actor",
+      "predicate": "支持",
+      "tail_entity": "6个月共创过程",
+      "tail_type": "action",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023年上半年—09-14前",
+        "space": "普里什蒂纳",
+        "quantity": "—",
+        "scope": "全过程支持；项目方叙述"
+      },
+      "evidence_ids": [
+        "M01-E02"
+      ],
+      "fact_ids": [
+        "F009"
+      ],
+      "process_ids": [
+        "C20-P02"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R014",
+      "head_entity": "Space SyntaKs",
+      "head_type": "actor",
+      "predicate": "主持",
+      "tail_entity": "4场儿童工作坊",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2023年上半年",
+        "space": "普里什蒂纳",
+        "quantity": "4场（评估口径）",
+        "scope": "与Save the Children共同主持"
+      },
+      "evidence_ids": [
+        "M01-E03",
+        "M03-E01"
+      ],
+      "fact_ids": [
+        "F010"
+      ],
+      "process_ids": [
+        "C20-P03"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R015",
+      "head_entity": "Save the Children",
+      "head_type": "actor",
+      "predicate": "主持",
+      "tail_entity": "4场儿童工作坊",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2023年上半年",
+        "space": "普里什蒂纳",
+        "quantity": "4场（评估口径）",
+        "scope": "与Space SyntaKs共同主持"
+      },
+      "evidence_ids": [
+        "M01-E03",
+        "M03-E01"
+      ],
+      "fact_ids": [
+        "F010"
+      ],
+      "process_ids": [
+        "C20-P03"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R016",
+      "head_entity": "10–17岁儿童参与者",
+      "head_type": "actor",
+      "predicate": "参与",
+      "tail_entity": "6个月共创过程",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2023年上半年—09-14前",
+        "space": "普里什蒂纳",
+        "quantity": "未给人数",
+        "scope": "平等参与者/自己空间的专家"
+      },
+      "evidence_ids": [
+        "M01-E03",
+        "M01-E10",
+        "M08-E01"
+      ],
+      "fact_ids": [
+        "F011",
+        "F013"
+      ],
+      "process_ids": [
+        "C20-P02"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R017",
+      "head_entity": "5场利益相关方工作坊",
+      "head_type": "action",
+      "predicate": "属于",
+      "tail_entity": "6个月共创过程",
+      "tail_type": "action",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023年上半年",
+        "space": "普里什蒂纳",
+        "quantity": "5场",
+        "scope": "识别公园需求"
+      },
+      "evidence_ids": [
+        "M03-E01"
+      ],
+      "fact_ids": [
+        "F014"
+      ],
+      "process_ids": [
+        "C20-P03"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R018",
+      "head_entity": "4场儿童工作坊",
+      "head_type": "action",
+      "predicate": "属于",
+      "tail_entity": "6个月共创过程",
+      "tail_type": "action",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023年上半年",
+        "space": "普里什蒂纳",
+        "quantity": "4场；50+儿童；11–17岁",
+        "scope": "儿童参与"
+      },
+      "evidence_ids": [
+        "M03-E01"
+      ],
+      "fact_ids": [
+        "F015",
+        "F012"
+      ],
+      "process_ids": [
+        "C20-P03"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R019",
+      "head_entity": "10–17岁儿童参与者",
+      "head_type": "actor",
+      "predicate": "参与",
+      "tail_entity": "4场儿童工作坊",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2023年上半年",
+        "space": "普里什蒂纳",
+        "quantity": "50+（评估口径）",
+        "scope": "11–17岁（评估口径）"
+      },
+      "evidence_ids": [
+        "M03-E01"
+      ],
+      "fact_ids": [
+        "F015",
+        "F012"
+      ],
+      "process_ids": [
+        "C20-P03"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R020",
+      "head_entity": "10–17岁儿童参与者",
+      "head_type": "actor",
+      "predicate": "参与",
+      "tail_entity": "AI共创session",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2023-06中旬",
+        "space": "普里什蒂纳",
+        "quantity": "未给人数",
+        "scope": "使用UrbanistAI"
+      },
+      "evidence_ids": [
+        "M10-E01",
+        "M11-E01"
+      ],
+      "fact_ids": [
+        "F016"
+      ],
+      "process_ids": [
+        "C20-P03"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R021",
+      "head_entity": "Space SyntaKs",
+      "head_type": "actor",
+      "predicate": "组织",
+      "tail_entity": "AI共创session",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2023-06中旬",
+        "space": "普里什蒂纳",
+        "quantity": "1场",
+        "scope": "与UNDP Kosovo、市政府合作"
+      },
+      "evidence_ids": [
+        "M10-E01",
+        "M11-E01"
+      ],
+      "fact_ids": [
+        "F016"
+      ],
+      "process_ids": [
+        "C20-P03"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R022",
+      "head_entity": "AI共创session",
+      "head_type": "action",
+      "predicate": "补充",
+      "tail_entity": "6个月共创过程",
+      "tail_type": "action",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023-06",
+        "space": "普里什蒂纳",
+        "quantity": "1场",
+        "scope": "UNDP称其为addendum；用于识别10+空间位置与功能"
+      },
+      "evidence_ids": [
+        "M11-E02"
+      ],
+      "fact_ids": [
+        "F017"
+      ],
+      "process_ids": [
+        "C20-P03"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R023",
+      "head_entity": "10–17岁儿童参与者",
+      "head_type": "actor",
+      "predicate": "参与",
+      "tail_entity": "最终评估工作坊",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2023-09-14前",
+        "space": "普里什蒂纳",
+        "quantity": "未给人数",
+        "scope": "评估专业设计师方案"
+      },
+      "evidence_ids": [
+        "M01-E10"
+      ],
+      "fact_ids": [
+        "F024"
+      ],
+      "process_ids": [
+        "C20-P05"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R024",
+      "head_entity": "最终评估工作坊",
+      "head_type": "action",
+      "predicate": "评估",
+      "tail_entity": "三份儿童友好公共空间方案",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2023-09-14前",
+        "space": "普里什蒂纳",
+        "quantity": "3份",
+        "scope": "儿童评估专业设计师方案"
+      },
+      "evidence_ids": [
+        "M01-E10"
+      ],
+      "fact_ids": [
+        "F024",
+        "F025"
+      ],
+      "process_ids": [
+        "C20-P05"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R025",
+      "head_entity": "专业设计师",
+      "head_type": "actor",
+      "predicate": "制作",
+      "tail_entity": "三份儿童友好公共空间方案",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2023-09-14前",
+        "space": "普里什蒂纳",
+        "quantity": "3份",
+        "scope": "基于6个月共创输入"
+      },
+      "evidence_ids": [
+        "M01-E10"
+      ],
+      "fact_ids": [
+        "F023",
+        "F025"
+      ],
+      "process_ids": [
+        "C20-P05"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R026",
+      "head_entity": "三份儿童友好公共空间方案",
+      "head_type": "outcome",
+      "predicate": "定稿于",
+      "tail_entity": "普里什蒂纳市",
+      "tail_type": "context",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2023-09-14前",
+        "space": "普里什蒂纳",
+        "quantity": "3份方案/3个地点",
+        "scope": "M01未命名；M03另列3个地名"
+      },
+      "evidence_ids": [
+        "M01-E10",
+        "M03-E02"
+      ],
+      "fact_ids": [
+        "F025"
+      ],
+      "process_ids": [
+        "C20-P05"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R027",
+      "head_entity": "三份儿童友好公共空间方案",
+      "head_type": "outcome",
+      "predicate": "涉及（部分）",
+      "tail_entity": "Design 1",
+      "tail_type": "outcome",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023-09-14",
+        "space": "未命名地点",
+        "quantity": "1个设计",
+        "scope": "整体—部分关系未确认；仅表示两份具体设计与三份方案相关"
+      },
+      "evidence_ids": [
+        "M01-E10",
+        "M01-E12"
+      ],
+      "fact_ids": [
+        "F025",
+        "F031"
+      ],
+      "process_ids": [
+        "C20-P05"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R028",
+      "head_entity": "三份儿童友好公共空间方案",
+      "head_type": "outcome",
+      "predicate": "涉及（部分）",
+      "tail_entity": "Design 2",
+      "tail_type": "outcome",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023-09-14",
+        "space": "普里什蒂纳中心",
+        "quantity": "1个设计",
+        "scope": "整体—部分关系未确认；仅表示两份具体设计与三份方案相关"
+      },
+      "evidence_ids": [
+        "M01-E10",
+        "M01-E13"
+      ],
+      "fact_ids": [
+        "F025",
+        "F032"
+      ],
+      "process_ids": [
+        "C20-P05"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R029",
+      "head_entity": "10–17岁儿童参与者",
+      "head_type": "actor",
+      "predicate": "使用",
+      "tail_entity": "UrbanistAI",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2023年上半年—06中旬",
+        "space": "普里什蒂纳",
+        "quantity": "未限定",
+        "scope": "AI共创session/共创过程"
+      },
+      "evidence_ids": [
+        "M01-E09",
+        "M03-E01",
+        "M10-E01",
+        "M11-E01"
+      ],
+      "fact_ids": [
+        "F026"
+      ],
+      "process_ids": [
+        "C20-P04"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R030",
+      "head_entity": "UrbanistAI",
+      "head_type": "technology",
+      "predicate": "提供",
+      "tail_entity": "AI图像生成/可视化能力",
+      "tail_type": "capability",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023-06-19",
+        "space": "普里什蒂纳",
+        "quantity": "—",
+        "scope": "平台结合AI与城市设计"
+      },
+      "evidence_ids": [
+        "M11-E01"
+      ],
+      "fact_ids": [
+        "F027"
+      ],
+      "process_ids": [
+        "C20-P04"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R031",
+      "head_entity": "10–17岁儿童参与者",
+      "head_type": "actor",
+      "predicate": "使用",
+      "tail_entity": "AI图像生成/可视化能力",
+      "tail_type": "capability",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023-06中旬",
+        "space": "普里什蒂纳",
+        "quantity": "未限定",
+        "scope": "生成并可视化想法；合作方自述"
+      },
+      "evidence_ids": [
+        "M10-E02"
+      ],
+      "fact_ids": [
+        "F028"
+      ],
+      "process_ids": [
+        "C20-P04"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R032",
+      "head_entity": "UrbanistAI",
+      "head_type": "technology",
+      "predicate": "用于",
+      "tail_entity": "三份儿童友好公共空间方案",
+      "tail_type": "outcome",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023年上半年—09-14前",
+        "space": "普里什蒂纳",
+        "quantity": "—",
+        "scope": "项目方称AI增强愿景；无提示词/生成日志"
+      },
+      "evidence_ids": [
+        "M01-E09"
+      ],
+      "fact_ids": [
+        "F029"
+      ],
+      "process_ids": [
+        "C20-P04"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R033",
+      "head_entity": "Space SyntaKs",
+      "head_type": "actor",
+      "predicate": "关联",
+      "tail_entity": "UrbanistAI",
+      "tail_type": "technology",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "未注明",
+        "space": "普里什蒂纳",
+        "quantity": "—",
+        "scope": "LinkedIn与供应商页面提示同一团队；未给法律实体/版本"
+      },
+      "evidence_ids": [
+        "M08-E04"
+      ],
+      "fact_ids": [
+        "F030"
+      ],
+      "process_ids": [
+        "C20-P04"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R035",
+      "head_entity": "Space SyntaKs",
+      "head_type": "actor",
+      "predicate": "补充描述",
+      "tail_entity": "三份儿童友好公共空间方案",
+      "tail_type": "outcome",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "未注明",
+        "space": "普里什蒂纳",
+        "quantity": "2类结构",
+        "scope": "圆形剧场/秋千座凳；低置信补充"
+      },
+      "evidence_ids": [
+        "M08-E02"
+      ],
+      "fact_ids": [
+        "F033"
+      ],
+      "process_ids": [
+        "C20-P05"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R036",
+      "head_entity": "UNDP Kosovo",
+      "head_type": "actor",
+      "predicate": "启动实施",
+      "tail_entity": "三份儿童友好公共空间方案",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2023-09",
+        "space": "普里什蒂纳",
+        "quantity": "2份（共3份）",
+        "scope": "initiated；不等于建成"
+      },
+      "evidence_ids": [
+        "M01-E11"
+      ],
+      "fact_ids": [
+        "F034"
+      ],
+      "process_ids": [
+        "C20-P06"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R037",
+      "head_entity": "UNDP Kosovo",
+      "head_type": "actor",
+      "predicate": "发布",
+      "tail_entity": "RFQ UNDP-KOS-00094",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2023-09-27—2023-10-24",
+        "space": "普里什蒂纳",
+        "quantity": "1个RFQ",
+        "scope": "无中标/合同信息"
+      },
+      "evidence_ids": [
+        "M04-E01"
+      ],
+      "fact_ids": [
+        "F035"
+      ],
+      "process_ids": [
+        "C20-P06"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R038",
+      "head_entity": "普里什蒂纳市政府",
+      "head_type": "actor",
+      "predicate": "取得",
+      "tail_entity": "市政许可",
+      "tail_type": "outcome",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023-10—12评估期",
+        "space": "普里什蒂纳",
+        "quantity": "未给数量",
+        "scope": "评估报告单源；许可主体未明确；未见许可文件"
+      },
+      "evidence_ids": [
+        "M03-E02"
+      ],
+      "fact_ids": [
+        "F036"
+      ],
+      "process_ids": [
+        "C20-P06"
+      ],
+      "review": "discuss_not_frozen",
+      "version": "v0.2-open"
+    },
+    {
+      "relation_id": "R039",
+      "head_entity": "市政许可",
+      "head_type": "outcome",
+      "predicate": "覆盖（许可范围）",
+      "tail_entity": "三份儿童友好公共空间方案",
+      "tail_type": "outcome",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023-10—12评估期",
+        "space": "普里什蒂纳",
+        "quantity": "2个批准设计/3个地点",
+        "scope": "许可覆盖2个批准设计/3个地点；评估报告口径"
+      },
+      "evidence_ids": [
+        "M03-E02"
+      ],
+      "fact_ids": [
+        "F037"
+      ],
+      "process_ids": [
+        "C20-P06"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R040",
+      "head_entity": "三份儿童友好公共空间方案",
+      "head_type": "outcome",
+      "predicate": "实施地点包括",
+      "tail_entity": "主邮局附近空间",
+      "tail_type": "target",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023-10—12评估期",
+        "space": "普里什蒂纳主邮局附近",
+        "quantity": "地点之一",
+        "scope": "2个批准设计/3个地点；方案—地点对应未确认"
+      },
+      "evidence_ids": [
+        "M03-E02"
+      ],
+      "fact_ids": [
+        "F038"
+      ],
+      "process_ids": [
+        "C20-P06"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R041",
+      "head_entity": "三份儿童友好公共空间方案",
+      "head_type": "outcome",
+      "predicate": "实施地点包括",
+      "tail_entity": "City Park",
+      "tail_type": "target",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023-10—12评估期",
+        "space": "普里什蒂纳City Park",
+        "quantity": "地点之一",
+        "scope": "2个批准设计/3个地点；方案—地点对应未确认"
+      },
+      "evidence_ids": [
+        "M03-E02"
+      ],
+      "fact_ids": [
+        "F038"
+      ],
+      "process_ids": [
+        "C20-P06"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R042",
+      "head_entity": "三份儿童友好公共空间方案",
+      "head_type": "outcome",
+      "predicate": "实施地点包括",
+      "tail_entity": "Park of Taukbahce",
+      "tail_type": "target",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023-10—12评估期",
+        "space": "普里什蒂纳Park of Taukbahce",
+        "quantity": "地点之一",
+        "scope": "2个批准设计/3个地点；方案—地点对应未确认"
+      },
+      "evidence_ids": [
+        "M03-E02"
+      ],
+      "fact_ids": [
+        "F038"
+      ],
+      "process_ids": [
+        "C20-P06"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R043",
+      "head_entity": "评估者 Ilir Hoxha",
+      "head_type": "actor",
+      "predicate": "评估",
+      "tail_entity": "Healthier Kosovo 2 (HK2)",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2023-10-20—2023-12-15",
+        "space": "科索沃",
+        "quantity": "23次访谈",
+        "scope": "终期评估；未开展儿童焦点小组"
+      },
+      "evidence_ids": [
+        "M03-E04",
+        "M03-E05"
+      ],
+      "fact_ids": [
+        "F040"
+      ],
+      "process_ids": [
+        "C20-P06"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R044",
+      "head_entity": "Urban Transformation Initiative (UTI)",
+      "head_type": "actor",
+      "predicate": "延续",
+      "tail_entity": "City Experiment Fund (CEF)",
+      "tail_type": "actor",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "页面无日期",
+        "space": "普里什蒂纳",
+        "quantity": "—",
+        "scope": "UTI为CEF延伸项目"
+      },
+      "evidence_ids": [
+        "M05-E01"
+      ],
+      "fact_ids": [
+        "F042"
+      ],
+      "process_ids": [
+        "C20-P07"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R045",
+      "head_entity": "Urban Transformation Initiative (UTI)",
+      "head_type": "actor",
+      "predicate": "实施（部分）",
+      "tail_entity": "三份儿童友好公共空间方案",
+      "tail_type": "outcome",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "页面无日期",
+        "space": "普里什蒂纳",
+        "quantity": "未限定",
+        "scope": "UTI称实施CEF原型；是否本案三个地点不确定"
+      },
+      "evidence_ids": [
+        "M05-E01"
+      ],
+      "fact_ids": [
+        "F042"
+      ],
+      "process_ids": [
+        "C20-P07"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R046",
+      "head_entity": "Urban Transformation Initiative (UTI)",
+      "head_type": "actor",
+      "predicate": "设定目标",
+      "tail_entity": "10岁以上儿童（设计服务对象）",
+      "tail_type": "target",
+      "fact_status": "planned",
+      "qualifiers": {
+        "time": "页面无日期",
+        "space": "普里什蒂纳",
+        "quantity": "—",
+        "scope": "里程碑：适龄公共户外空间"
+      },
+      "evidence_ids": [
+        "M05-E02"
+      ],
+      "fact_ids": [
+        "F043"
+      ],
+      "process_ids": [
+        "C20-P07"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R047",
+      "head_entity": "UNDP Kosovo",
+      "head_type": "actor",
+      "predicate": "报道",
+      "tail_entity": "儿童友好公共空间",
+      "tail_type": "target",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2025-02-21",
+        "space": "普里什蒂纳",
+        "quantity": "—",
+        "scope": "称空间正从被忽视地区转变为活力包容场所"
+      },
+      "evidence_ids": [
+        "M06-E02"
+      ],
+      "fact_ids": [
+        "F044"
+      ],
+      "process_ids": [
+        "C20-P07"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R048",
+      "head_entity": "UNDP Geneva",
+      "head_type": "actor",
+      "predicate": "引用为案例",
+      "tail_entity": "普里什蒂纳市",
+      "tail_type": "context",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023-10-31",
+        "space": "普里什蒂纳",
+        "quantity": "—",
+        "scope": "AI促进公众参与城市规划"
+      },
+      "evidence_ids": [
+        "M07-E01"
+      ],
+      "fact_ids": [
+        "F045"
+      ],
+      "process_ids": [
+        "C20-P07"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R049",
+      "head_entity": "UNDP Geneva",
+      "head_type": "actor",
+      "predicate": "引用为案例",
+      "tail_entity": "UrbanistAI",
+      "tail_type": "technology",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023-10-31",
+        "space": "普里什蒂纳",
+        "quantity": "—",
+        "scope": "AI促进公众参与城市规划"
+      },
+      "evidence_ids": [
+        "M07-E01"
+      ],
+      "fact_ids": [
+        "F045"
+      ],
+      "process_ids": [
+        "C20-P07"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R050",
+      "head_entity": "Space SyntaKs",
+      "head_type": "actor",
+      "predicate": "预告",
+      "tail_entity": "儿童友好公共空间",
+      "tail_type": "target",
+      "fact_status": "planned",
+      "qualifiers": {
+        "time": "2023-06",
+        "space": "普里什蒂纳",
+        "quantity": "—",
+        "scope": "地点将呈现新面貌"
+      },
+      "evidence_ids": [
+        "M10-E03",
+        "M11-E03"
+      ],
+      "fact_ids": [
+        "F046"
+      ],
+      "process_ids": [
+        "C20-P06"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R051",
+      "head_entity": "UNDP Kosovo",
+      "head_type": "actor",
+      "predicate": "预告",
+      "tail_entity": "儿童友好公共空间",
+      "tail_type": "target",
+      "fact_status": "planned",
+      "qualifiers": {
+        "time": "2023-06",
+        "space": "普里什蒂纳",
+        "quantity": "—",
+        "scope": "地点将经历转变"
+      },
+      "evidence_ids": [
+        "M10-E03",
+        "M11-E03"
+      ],
+      "fact_ids": [
+        "F046"
+      ],
+      "process_ids": [
+        "C20-P06"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R052",
+      "head_entity": "普里什蒂纳市政府",
+      "head_type": "actor",
+      "predicate": "参与",
+      "tail_entity": "5场利益相关方工作坊",
+      "tail_type": "action",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023年上半年",
+        "space": "普里什蒂纳",
+        "quantity": "5场",
+        "scope": "评估报告称市政府参与"
+      },
+      "evidence_ids": [
+        "M03-E01"
+      ],
+      "fact_ids": [
+        "F014"
+      ],
+      "process_ids": [
+        "C20-P03"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R053",
+      "head_entity": "地方NGO",
+      "head_type": "actor",
+      "predicate": "参与",
+      "tail_entity": "5场利益相关方工作坊",
+      "tail_type": "action",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023年上半年",
+        "space": "普里什蒂纳",
+        "quantity": "5场",
+        "scope": "评估报告称地方NGO参与"
+      },
+      "evidence_ids": [
+        "M03-E01"
+      ],
+      "fact_ids": [
+        "F014"
+      ],
+      "process_ids": [
+        "C20-P03"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R054",
+      "head_entity": "Children Councils / Assembly of Children",
+      "head_type": "actor",
+      "predicate": "合作",
+      "tail_entity": "4场儿童工作坊",
+      "tail_type": "action",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023年上半年",
+        "space": "普里什蒂纳",
+        "quantity": "4场",
+        "scope": "评估报告称与Assembly of Children合作"
+      },
+      "evidence_ids": [
+        "M03-E01"
+      ],
+      "fact_ids": [
+        "F015"
+      ],
+      "process_ids": [
+        "C20-P03"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R055",
+      "head_entity": "普里什蒂纳市政府公共空间与公园局",
+      "head_type": "actor",
+      "predicate": "合作",
+      "tail_entity": "4场儿童工作坊",
+      "tail_type": "action",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": {
+        "time": "2023年上半年",
+        "space": "普里什蒂纳",
+        "quantity": "4场",
+        "scope": "评估报告称与Directorate of Public Spaces and Parks合作"
+      },
+      "evidence_ids": [
+        "M03-E01"
+      ],
+      "fact_ids": [
+        "F015"
+      ],
+      "process_ids": [
+        "C20-P03"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    },
+    {
+      "relation_id": "R056",
+      "head_entity": "10–17岁儿童参与者",
+      "head_type": "actor",
+      "predicate": "合作",
+      "tail_entity": "专业设计师",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": {
+        "time": "2023年上半年—09-14前",
+        "space": "普里什蒂纳",
+        "quantity": "未限定",
+        "scope": "项目方称儿童与儿童中心设计/城市规划专业人士合作"
+      },
+      "evidence_ids": [
+        "M01-E09"
+      ],
+      "fact_ids": [
+        "F022"
+      ],
+      "process_ids": [
+        "C20-P04"
+      ],
+      "review": "accepted_frozen",
+      "version": "v0.2-frozen"
+    }
+  ],
+  "status_counts": {
+    "implemented": 24,
+    "reported_or_opinion": 28,
+    "planned": 3
+  },
+  "predicate_counts": {
+    "加入": 1,
+    "缺乏": 1,
+    "提出需求": 1,
+    "提出关切": 1,
+    "设立": 1,
+    "资助": 2,
+    "实施": 3,
+    "任命": 1,
+    "遴选": 1,
+    "支持": 1,
+    "主持": 2,
+    "参与": 6,
+    "属于": 2,
+    "组织": 1,
+    "补充": 1,
+    "评估": 2,
+    "制作": 1,
+    "定稿于": 1,
+    "涉及（部分）": 2,
+    "使用": 2,
+    "提供": 1,
+    "用于": 1,
+    "关联": 1,
+    "补充描述": 1,
+    "启动实施": 1,
+    "发布": 1,
+    "取得": 1,
+    "覆盖（许可范围）": 1,
+    "实施地点包括": 3,
+    "延续": 1,
+    "实施（部分）": 1,
+    "设定目标": 1,
+    "报道": 1,
+    "引用为案例": 2,
+    "预告": 2,
+    "合作": 3
+  },
+  "decisions_requested": [
+    "51条关系的头尾实体、类型、谓词与方向是否成立",
+    "哪些关系应合并/拆分/删除，尤其是R029–R035的AI工具链与R036–R042的实施链",
+    "事实状态是否与底层事实一致，尤其是R038/R039许可、R040–R042实施于三地点",
+    "是否同意不写AI导致设计改善的因果边，只保留使用/用于/补充描述"
+  ],
+  "g6_review": {
+    "base_version": "v0.1",
+    "actions": {
+      "modify": [
+        "R001",
+        "R027",
+        "R028",
+        "R033",
+        "R039",
+        "R040",
+        "R041",
+        "R042",
+        "R045"
+      ],
+      "delete": [
+        "R034"
+      ],
+      "supplement": [
+        "R052",
+        "R053",
+        "R054",
+        "R055",
+        "R056"
+      ],
+      "discuss": [
+        "R038"
+      ],
+      "accept_count": 40
+    },
+    "notes": [
+      "R034删除：品牌交付主体为CoPlanAI，非Space SyntaKs；品牌延续改记入E007/E008属性说明",
+      "R040–R042改为实施地点包括，避免暗示三份方案逐一落地",
+      "R038标为待讨论：许可主体未明确"
+    ]
+  },
+  "frozen_relation_ids": [
+    "R001",
+    "R002",
+    "R003",
+    "R004",
+    "R005",
+    "R006",
+    "R007",
+    "R008",
+    "R009",
+    "R010",
+    "R011",
+    "R012",
+    "R013",
+    "R014",
+    "R015",
+    "R016",
+    "R017",
+    "R018",
+    "R019",
+    "R020",
+    "R021",
+    "R022",
+    "R023",
+    "R024",
+    "R025",
+    "R026",
+    "R027",
+    "R028",
+    "R029",
+    "R030",
+    "R031",
+    "R032",
+    "R033",
+    "R035",
+    "R036",
+    "R037",
+    "R039",
+    "R040",
+    "R041",
+    "R042",
+    "R043",
+    "R044",
+    "R045",
+    "R046",
+    "R047",
+    "R048",
+    "R049",
+    "R050",
+    "R051",
+    "R052",
+    "R053",
+    "R054",
+    "R055",
+    "R056"
+  ],
+  "open_relation_ids": [
+    "R038"
+  ],
+  "decision": {
+    "action": "accept_and_freeze",
+    "rationale": "研究者确认G6审校结果并冻结；R038因许可主体未明确，按契约不纳入冻结集合",
+    "decided_at": "2026-11-13",
+    "frozen_count": 54,
+    "open_count": 1
+  }
+}

@@ -1,0 +1,44 @@
+{
+ "version": "L2-C17-shared-v1.0",
+ "caseId": "C17",
+ "generatedAt": "2026-11-13",
+ "status": "released",
+ "releaseScope": [
+  "native_concept_inventory",
+  "shared_concept_candidates",
+  "concept_mappings",
+  "historical_review",
+  "network_update"
+ ],
+ "notReleased": [
+  "正式共享概念 SC-xxx（0 个）"
+ ],
+ "counts": {
+  "nativeConcepts": 11,
+  "candidates": 7,
+  "mappings": 19,
+  "mappingTypes": {
+   "native_hyponym": 10,
+   "partial_or_approximate": 8,
+   "no_map": 1
+  },
+  "sharedConceptsBefore": 56,
+  "sharedConceptsAfter": 63,
+  "released": 12,
+  "pendingCandidates": 51
+ },
+ "reviewChain": [
+  "L2-G1",
+  "L2-G2",
+  "L2-G3",
+  "L2-G4"
+ ],
+ "limitations": [
+  "候选均为单案例",
+  "无正式共享概念",
+  "既有 C01–C11 层未确认"
+ ],
+ "supersedes": null,
+ "rollback": "删除本版新增候选与映射；不影响既有 C01–C14",
+ "releasedAt": "2026-11-13"
+}

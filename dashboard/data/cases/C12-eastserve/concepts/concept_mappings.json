@@ -1,0 +1,213 @@
+{
+  "case_id": "C12",
+  "generated_at": "2026-11-13",
+  "status": "confirmed",
+  "mappings": [
+    {
+      "mapping_id": "MAP-C12-001",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-02",
+      "shared_concept_id": "SC-C01-134",
+      "mapping_type": "native_hyponym",
+      "basis": "社区无线宽带是通信与公共数字基础设施的下位类型。",
+      "scope": "community wireless last-mile; no inheritance of all SC properties",
+      "evidence_ids": [
+        "M03-E10",
+        "M09-E01",
+        "M20-E01"
+      ],
+      "decision": "accept",
+      "version": "L2-C12-mapping-v0.1",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-002",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-04",
+      "shared_concept_id": null,
+      "mapping_type": "no_map",
+      "basis": "现有共享概念无“本地安装就业链”直接对应；SC-C01-158 仅覆盖能力建设。",
+      "scope": "keep native; candidate SC-C12-04",
+      "evidence_ids": [
+        "M10-E07"
+      ],
+      "decision": "keep_native",
+      "version": "L2-C12-mapping-v0.1",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-003",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-05",
+      "shared_concept_id": null,
+      "mapping_type": "no_map",
+      "basis": "现有共享概念无“设备补贴+低息贷款”能力机制；SC-C01-104 是成本约束语境。",
+      "scope": "keep native; candidate SC-C12-05",
+      "evidence_ids": [
+        "M02-E03",
+        "M03-E08",
+        "M14-E03"
+      ],
+      "decision": "keep_native",
+      "version": "L2-C12-mapping-v0.1",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-004",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-06",
+      "shared_concept_id": "SC-C01-114",
+      "mapping_type": "partial_or_approximate",
+      "basis": "只映射“运营主体”成分；运营模式转换与清算/承接不包含在 SC-C01-114。",
+      "scope": "operating actor component only; transition remains native",
+      "evidence_ids": [
+        "M11-E01",
+        "M21-E01",
+        "M22-E01"
+      ],
+      "decision": "accept_partial",
+      "version": "L2-C12-mapping-v0.1",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-005",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-07",
+      "shared_concept_id": "SC-C01-175",
+      "mapping_type": "partial_or_approximate",
+      "basis": "只映射“退出/负面结果”成分；基础设施延续不包含在 SC-C01-175。",
+      "scope": "exit component only; continuity remains native",
+      "evidence_ids": [
+        "M19-E01",
+        "M22-E01",
+        "M20-E01",
+        "M12-E01"
+      ],
+      "decision": "accept_partial",
+      "version": "L2-C12-mapping-v0.1",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-006",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-08",
+      "shared_concept_id": "SC-C01-132",
+      "mapping_type": "partial_or_approximate",
+      "basis": "只映射“门户/行政入口”成分；不继承 SC-C01-132 的全部治理平台功能。",
+      "scope": "portal entry component only",
+      "evidence_ids": [
+        "M01-E04",
+        "M03-E13",
+        "M18-E07"
+      ],
+      "decision": "accept_partial",
+      "version": "L2-C12-mapping-v0.1",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-007",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-09",
+      "shared_concept_id": null,
+      "mapping_type": "no_map",
+      "basis": "设备分发行动未被现有共享概念覆盖；与 C07 家庭终端部署可形成新候选。",
+      "scope": "keep native; candidate SC-C12-01",
+      "evidence_ids": [
+        "M02-E03",
+        "M03-E08"
+      ],
+      "decision": "keep_native",
+      "version": "L2-C12-mapping-v0.1",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-008",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-10",
+      "shared_concept_id": "SC-C01-158",
+      "mapping_type": "native_hyponym",
+      "basis": "3 小时入门培训是“技术试验与能力建设”的下位类型。",
+      "scope": "introductory training subtype; no inheritance of experimentation",
+      "evidence_ids": [
+        "M02-E05",
+        "M03-E12"
+      ],
+      "decision": "accept",
+      "version": "L2-C12-mapping-v0.1",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-009",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-11",
+      "shared_concept_id": "SC-C01-143",
+      "mapping_type": "partial_or_approximate",
+      "basis": "只映射“信息服务/内容”成分；门户技术与社会支持不包含。",
+      "scope": "information/content component only",
+      "evidence_ids": [
+        "M01-E04",
+        "M03-E13",
+        "M18-E07"
+      ],
+      "decision": "accept_partial",
+      "version": "L2-C12-mapping-v0.1",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-010",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-12",
+      "shared_concept_id": "SC-C01-155",
+      "mapping_type": "partial_or_approximate",
+      "basis": "只映射组合干预中的跨组织协调/治理成分；设备、培训、内容组件不继承。",
+      "scope": "coordination/governance component only",
+      "evidence_ids": [
+        "M02-E03",
+        "M02-E05",
+        "M03-E07"
+      ],
+      "decision": "accept_partial",
+      "version": "L2-C12-mapping-v0.1",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-011",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-13",
+      "shared_concept_id": "SC-C01-151",
+      "mapping_type": "native_hyponym",
+      "basis": "居民小组内容建议是社区参与/意见收集的下位类型。",
+      "scope": "resident panel/content advice subtype",
+      "evidence_ids": [
+        "M03-E07",
+        "M10-E07"
+      ],
+      "decision": "accept",
+      "version": "L2-C12-mapping-v0.1",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-012",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-14",
+      "shared_concept_id": "SC-C01-158",
+      "mapping_type": "partial_or_approximate",
+      "basis": "只映射能力建设/支持成分；冠军技术支持不放进“意见收集”。",
+      "scope": "capacity/support component only",
+      "evidence_ids": [
+        "M03-E07",
+        "M03-E12"
+      ],
+      "decision": "accept_partial",
+      "version": "L2-C12-mapping-v0.1",
+      "note": ""
+    }
+  ],
+  "version": "v1.0",
+  "researcher_decision": {
+    "action": "accept_all",
+    "rationale": "Accept 12 mappings; promote SC-C12-01/02 to G3; keep SC-C12-03 partial; keep SC-C12-04/05/06 single-case.",
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  }
+}

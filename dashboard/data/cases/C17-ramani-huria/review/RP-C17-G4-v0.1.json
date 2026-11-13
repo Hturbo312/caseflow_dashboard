@@ -1,0 +1,40 @@
+{
+  "packetId": "RP-C17-G4-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G4",
+  "caseId": "C17",
+  "scope": "原子事实、实体类别与语义角色",
+  "generatedAt": "2026-11-13",
+  "status": "accepted_by_researcher",
+  "evidenceCutoff": "2026-11-13",
+  "processed": ["78 条原子事实", "105 个实体", "事实—证据—实体角色关联"],
+  "notProcessed": ["G5 关系编码", "G6 关系审校", "概念层"],
+  "counts": {
+    "facts": 78,
+    "entities": 105,
+    "implemented": 63,
+    "planned": 3,
+    "reported_or_opinion": 12,
+    "disputed": 0,
+    "unconfirmed": 0,
+    "byType": {"actor": 27, "target": 16, "action": 15, "technology": 14, "capability": 11, "outcome": 9, "task": 7, "context": 6}
+  },
+  "conflicts": [
+    {"topic": "参与规模", "positions": ["450（F043）", "400+（F048）", "800+/6000+（F065）", "1000+/300（F066）"], "handling": "分条记录，不合并"},
+    {"topic": "ward 数", "positions": ["29（F042）", "65（F027）", "44（F053）"], "handling": "按阶段与口径记录"},
+    {"topic": "项目结束", "positions": ["2016-12-31（F041）", "2019（F062）"], "handling": "区分 1.0 与 2.0"}
+  ],
+  "gaps": ["数据维护指标", "市政使用地图的决策记录", "2016 closing workshop 原文"],
+  "decisionsRequired": [
+    "78 条事实与 105 个实体是否接受",
+    "学生实体是否按批次拆分",
+    "技术—能力是否保持三层",
+    "模型结论状态（F076/F079）",
+    "社区成员的 target 角色是否保留"
+  ],
+  "historyImpact": {"affectsSharedConcepts": false, "affectsHistoricalMappings": false, "triggersHistoricalReview": false, "note": "新增 C17 事实与实体，不修改 C01-C16"},
+  "researcherDecision": {"action": "accept", "rationale": "接受，按推荐", "modifiedContent": "78 条事实与 105 个实体接受；学生保持单一实体；技术—能力—使用三层；F076/F079 状态确认；社区成员 target 角色保留", "allowNextGate": true, "decidedAt": "2026-11-13"},
+  "frozenArtifacts": [],
+  "version": "v0.1",
+  "openIssues": ["事实与实体总量", "学生实体粒度", "技术—能力分层", "模型结论状态", "社区成员角色"]
+}

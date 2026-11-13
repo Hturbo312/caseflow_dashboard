@@ -1,0 +1,64 @@
+{
+  "case_id": "C20",
+  "layer": "L2-G3",
+  "version": "v0.1",
+  "generated_at": "2026-11-13",
+  "status": "pending_researcher_confirmation",
+  "base_layer": "L2-C18-v1.0 + L2-C19-v0.1 (DB-only)",
+  "mappings": [
+    {"mapping_id": "MAP-C20-001", "native_concept_id": "NC-C20-001", "shared_concept_id": null, "mapping_type": "no_map", "note": "复合伞概念，由006/007处理"},
+    {"mapping_id": "MAP-C20-002", "native_concept_id": "NC-C20-006", "shared_concept_id": "SC-C01-152", "mapping_type": "native_hyponym", "note": "儿童主导的公共空间共制"},
+    {"mapping_id": "MAP-C20-003", "native_concept_id": "NC-C20-007", "shared_concept_id": "SC-C01-131", "mapping_type": "partial_or_approximate", "note": "宽类：数字参与/可视化工具成分"},
+    {"mapping_id": "MAP-C20-004", "native_concept_id": "NC-C20-002", "shared_concept_id": "SC-C01-121", "mapping_type": "partial_or_approximate", "note": "需求识别成分"},
+    {"mapping_id": "MAP-C20-005", "native_concept_id": "NC-C20-003", "shared_concept_id": "SC-C01-122", "mapping_type": "partial_or_approximate", "note": "设计与实施准备成分"},
+    {"mapping_id": "MAP-C20-006", "native_concept_id": "NC-C20-003", "shared_concept_id": "SC-C01-174", "mapping_type": "partial_or_approximate", "note": "许可/审批进展成分"},
+    {"mapping_id": "MAP-C20-007", "native_concept_id": "NC-C20-004", "shared_concept_id": "SC-C01-155", "mapping_type": "native_hyponym", "note": "多机构共创安排"},
+    {"mapping_id": "MAP-C20-008", "native_concept_id": "NC-C20-005", "shared_concept_id": null, "mapping_type": "no_map", "note": "元概念/实体消歧"},
+    {"mapping_id": "MAP-C20-009", "native_concept_id": "NC-C20-007", "shared_concept_id": "SC-C19-102", "mapping_type": "partial_or_approximate", "note": "生成式AI参与式可视化；C19+C20两案例"}
+  ],
+  "mapping_type_counts": {
+    "semantic_equivalent": 0,
+    "native_hyponym": 2,
+    "partial_or_approximate": 5,
+    "no_map": 2
+  },
+  "support_additions": [
+    {"shared_concept_id": "SC-C01-152", "case_id": "C20", "native_concept_ids": ["NC-C20-006"], "scope": "儿童主导的公共空间共制"},
+    {"shared_concept_id": "SC-C01-131", "case_id": "C20", "native_concept_ids": ["NC-C20-007"], "scope": "AI可视化工具/媒介成分"},
+    {"shared_concept_id": "SC-C01-121", "case_id": "C20", "native_concept_ids": ["NC-C20-002"], "scope": "儿童安全/隐私/绿色社交需求识别"},
+    {"shared_concept_id": "SC-C01-122", "case_id": "C20", "native_concept_ids": ["NC-C20-003"], "scope": "方案定稿/启动/采购准备"},
+    {"shared_concept_id": "SC-C01-174", "case_id": "C20", "native_concept_ids": ["NC-C20-003"], "scope": "市政许可/审批进展"},
+    {"shared_concept_id": "SC-C01-155", "case_id": "C20", "native_concept_ids": ["NC-C20-004"], "scope": "多机构共创安排"},
+    {"shared_concept_id": "SC-C19-102", "case_id": "C20", "native_concept_ids": ["NC-C20-007"], "scope": "生成式AI参与式可视化"}
+  ],
+  "candidate_changes": {
+    "withdrawn": [
+      {"candidate_id": "SC-C20-01", "reason": "与SC-C19-102生成式AI参与式可视化近重复"}
+    ],
+    "retained": [
+      {"candidate_id": "SC-C20-02", "label": "儿童地方知识转译", "status": "candidate_single_case"}
+    ],
+    "promotion_proposals": [
+      {"shared_concept_id": "SC-C19-102", "from": "candidate_single_case", "to": "researcher_confirmed", "supporting_cases": ["C19","C20"]}
+    ]
+  },
+  "counts": {
+    "mappings": 9,
+    "support_additions": 7,
+    "new_candidates": 1,
+    "withdrawn_candidates": 1,
+    "promotions_proposed": 1,
+    "definition_changes": 0,
+    "negative_changes": 0,
+    "historical_mapping_changes": 0,
+    "historical_reclassifications": 0,
+    "shared_concept_records_after": 89,
+    "confirmed_after_if_promoted": 47
+  },
+  "decisions_requested": [
+    "是否接受C19 DB-only基线更正",
+    "是否撤回SC-C20-01并新增MAP-C20-009到SC-C19-102",
+    "是否接受7个支持增量与SC-C20-02保留",
+    "是否同意G4将SC-C19-102晋升为researcher_confirmed"
+  ]
+}

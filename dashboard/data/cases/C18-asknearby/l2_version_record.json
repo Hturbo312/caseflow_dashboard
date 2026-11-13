@@ -1,0 +1,42 @@
+{
+  "record_id": "VR-C18-L2-001",
+  "case_id": "C18",
+  "ontology_version": "V4",
+  "case_layer_version": "L2-C18-v1.0",
+  "date": "2026-11-13",
+  "status": "released",
+  "base_layer": "L2-C15-v1.0",
+  "scope": "C18 原生概念接入、16 条映射、7 个活跃候选、1 个保留候选、6 个既有共享概念支持增量；不修改八类本体。",
+  "changes": [
+    "新增 10 个原生概念",
+    "新增 16 条映射：7 hyponym、6 partial、3 no_map",
+    "新增 7 个活跃单案候选 SC-C18-01/03/04/05/06/07/08",
+    "保留 SC-C18-02，不进入活跃候选",
+    "6 个既有共享概念增加 C18 支持",
+    "0 个定义修改、0 个负例修改、0 个历史改判",
+    "C01-C11、C13、C15 历史文件未覆盖"
+  ],
+  "validation": {
+    "reference_check": "passed",
+    "mapping_count": 16,
+    "active_candidate_count": 7,
+    "held_candidate_count": 1,
+    "support_additions": 6,
+    "active_shared_concepts_after": 64,
+    "definition_changes": 0,
+    "historical_reclassifications": 0
+  },
+  "release_scope": "file-level only; dashboard SQLite import not included",
+  "release_decision": {
+    "action": "accept",
+    "rationale": "L2-G4同意；L2-C18-v1.0，V4不变，文件级发布，完成交接。",
+    "released_at": "2026-11-13"
+  },
+  "post_release_import": {
+    "sqlite_imported": true,
+    "imported_at": "2026-11-13T08:37:23.529Z",
+    "database": "dashboard/data/community-renewal.db",
+    "record": "import_record.json",
+    "media_count": 3
+  }
+}

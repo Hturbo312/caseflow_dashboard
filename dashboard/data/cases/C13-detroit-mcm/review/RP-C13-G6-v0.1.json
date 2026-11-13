@@ -1,0 +1,34 @@
+{
+  "packetId": "RP-C13-G6-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G6",
+  "caseId": "C13",
+  "scope": "关系去重、遗漏、方向、状态与谓词审校",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher",
+  "baseRelationCount": 84,
+  "proposedFinalCount": 86,
+  "checks": {
+    "duplicateTriples": 0,
+    "orphanEntities": ["E-T02", "E-T05", "E-O03"],
+    "typeMismatches": 0,
+    "missingEvidence": 0,
+    "missingProcess": 0,
+    "statusMismatches": 0
+  },
+  "actions": [
+    {"id": "G6-01", "type": "supplement", "target": "R085", "relation": "全市地块外业普查 —服务→ 建立全市地块状况数据库", "evidenceIds": ["M01-E06", "M01-E07"]},
+    {"id": "G6-02", "type": "supplement", "target": "R086", "relation": "公众更新与众包复核 —服务→ 社区参与与数据复核", "evidenceIds": ["M06-E02"]},
+    {"id": "G6-03", "type": "supplement", "target": "R087", "relation": "平台上线与数据公开 —产生→ 公开的MCM平台与CSV", "evidenceIds": ["M11-E03", "M02-E14"]},
+    {"id": "G6-04", "type": "modify", "target": "R038", "change": "谓词 使用→参照", "evidenceIds": ["M01-E22"]},
+    {"id": "G6-05", "type": "delete", "target": "R035", "reason": "与R030/R031/R032重复"},
+    {"id": "G6-06", "type": "discuss", "target": "R025", "options": ["能力→能力", "主体→能力", "保留"]}
+  ],
+  "predicateReview": {
+    "merge": false,
+    "note": "提交/交付、扩展至/扩展方法至、支持/服务、参与/执行语义不同，不合并"
+  },
+  "researcherDecision": {"action": null, "rationale": null, "modifiedContent": null, "allowFreeze": null, "decidedAt": null},
+  "frozenArtifacts": [],
+  "version": "v0.1"
+}

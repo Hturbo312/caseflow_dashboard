@@ -1,0 +1,226 @@
+{
+  "case_id": "C15",
+  "case_layer_version": "L2-C15-v1.0",
+  "ontology_version": "V4",
+  "status": "released",
+  "generated_at": "2026-11-13",
+  "native_layer": {
+    "entities_added": 109,
+    "relations_added": 122,
+    "native_concepts_added": 15
+  },
+  "mapping_summary": {
+    "semantic_equivalent": 0,
+    "native_hyponym": 4,
+    "partial_or_approximate": 5,
+    "no_map": 6
+  },
+  "active_candidates": [
+    {
+      "candidate_id": "SC-C15-01",
+      "label": "社区级最小治理单元",
+      "definition": "以单个居民小区为对象，连接城运体系、街道、物业与居民的数字治理单元。",
+      "entity_type": "context",
+      "supporting_native_ids": [
+        "NC-C15-01"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case"
+    },
+    {
+      "candidate_id": "SC-C15-03",
+      "label": "社区微网格治理单元",
+      "definition": "把单个小区或街区划分为微网格，并配置网格长、网格员、下沉力量和议事阵地的治理单元。",
+      "entity_type": "actor",
+      "supporting_native_ids": [
+        "NC-C15-07"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case"
+    },
+    {
+      "candidate_id": "SC-C15-06",
+      "label": "社区问题资源议题项目清单",
+      "definition": "通过入户走访形成的问题、资源、议题、项目四类清单，用于需求梳理和资源匹配。",
+      "entity_type": "target",
+      "supporting_native_ids": [
+        "NC-C15-05"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case"
+    },
+    {
+      "candidate_id": "SC-C15-07",
+      "label": "老旧小区分阶段实体更新",
+      "definition": "把老旧小区实体更新分为若干阶段，逐期实施楼道、道路、无障碍、停车等工程并验收。",
+      "entity_type": "task",
+      "supporting_native_ids": [
+        "NC-C15-11",
+        "NC-C15-15"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case"
+    },
+    {
+      "candidate_id": "SC-C15-08",
+      "label": "养老服务数据匹配能力",
+      "definition": "依托养老数据库和数据分析，为老年人匹配政策、服务和个性化清单的能力。",
+      "entity_type": "capability",
+      "supporting_native_ids": [
+        "NC-C15-14"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case"
+    }
+  ],
+  "held_candidates": [
+    {
+      "candidate_id": "SC-C15-02",
+      "label": "居民端社区服务小程序",
+      "definition": "面向社区居民、承载诉求提交、服务入口和线上议事的轻量应用。",
+      "entity_type": "technology",
+      "supporting_native_ids": [
+        "NC-C15-03"
+      ],
+      "status": "held_not_carried_forward",
+      "reason": "NC-C15-03 已部分映射 SC-C01-131；服务工单/122 项服务保留为原生语义，不再新增重复候选。"
+    },
+    {
+      "candidate_id": "SC-C15-04",
+      "label": "社区数字治理网络",
+      "definition": "把社区人、房、事、物、情数据与物业、安防、告警设备连接起来的社区级数字治理网络。",
+      "entity_type": "technology",
+      "supporting_native_ids": [
+        "NC-C15-06"
+      ],
+      "status": "held_not_carried_forward",
+      "reason": "NC-C15-06 已部分映射 SC-C01-132；物业融合/最小管理单元数据保留为原生语义，不再新增重复候选。"
+    },
+    {
+      "candidate_id": "SC-C15-05",
+      "label": "社区诉求工单闭环",
+      "definition": "将居民诉求转化为点单、派单、接单、评单的工单流程，并形成核查、处置、反馈闭环。",
+      "entity_type": "action",
+      "supporting_native_ids": [
+        "NC-C15-04"
+      ],
+      "status": "held_not_carried_forward",
+      "reason": "NC-C15-04 已部分映射 SC-C01-156；居民点单/评单保留为原生语义，SC-C01-156 以负例排除。"
+    }
+  ],
+  "touched_shared_concepts": [
+    {
+      "id": "SC-C01-132",
+      "label": "社区治理与行政平台",
+      "historical_mappings": 19,
+      "cases": 8
+    },
+    {
+      "id": "SC-C01-131",
+      "label": "数字参与与可视化工具",
+      "historical_mappings": 16,
+      "cases": 6
+    },
+    {
+      "id": "SC-C01-156",
+      "label": "问题核查与闭环处置",
+      "historical_mappings": 11,
+      "cases": 4
+    },
+    {
+      "id": "SC-C01-152",
+      "label": "方案共制与居民协商决策",
+      "historical_mappings": 8,
+      "cases": 6
+    },
+    {
+      "id": "SC-C01-114",
+      "label": "地方组织与运营主体",
+      "historical_mappings": 15,
+      "cases": 9
+    },
+    {
+      "id": "SC-C01-161",
+      "label": "住区空间建筑与基础设施",
+      "historical_mappings": 26,
+      "cases": 7
+    },
+    {
+      "id": "SC-C01-133",
+      "label": "传感监测与异常识别设备",
+      "historical_mappings": 30,
+      "cases": 8
+    }
+  ],
+  "amendments": [
+    {
+      "amendment_id": "AMD-C15-001",
+      "shared_concept_id": "SC-C01-156",
+      "shared_concept_label": "问题核查与闭环处置",
+      "change_type": "add_negative_example",
+      "negative_example": "不含居民自主点单/评单的闭环处置",
+      "reason": "C15 四单制增加居民自主点单、评单和微网格角色；这些是部分映射后保留的原生语义，不应自动归入 SC-C01-156。",
+      "scope": "只增加负例，不修改定义、不修改历史映射。",
+      "decision": "researcher_confirmed_l2_g3"
+    }
+  ],
+  "historical_review": {
+    "shared_concepts_reviewed": 7,
+    "historical_mappings_reviewed": 125,
+    "cases_involved": 14,
+    "definition_changes": 0,
+    "mapping_changes": 0
+  },
+  "candidate_reconciliation": {
+    "issue": "L1 native_concepts.json used SC-C15-02/04/05 for three different candidate labels; L2-G2 reused those IDs for new labels.",
+    "resolution": "Keep SC-C15-01 and SC-C15-03; add SC-C15-06/07/08 for new labels; hold SC-C15-02/04/05 as not carried forward.",
+    "active_candidates": [
+      "SC-C15-01",
+      "SC-C15-03",
+      "SC-C15-06",
+      "SC-C15-07",
+      "SC-C15-08"
+    ],
+    "held_candidates": [
+      "SC-C15-02",
+      "SC-C15-04",
+      "SC-C15-05"
+    ]
+  },
+  "unresolved": [
+    "5 active candidates need a second case",
+    "platform and organizational continuity",
+    "file-level delta not imported into dashboard SQLite"
+  ],
+  "resolved": [
+    "4 hyponym mappings retained; historical partial usage unchanged",
+    "SC-C01-156 negative example added"
+  ],
+  "handoff": {
+    "next_skill": "cross-case-causal-analysis",
+    "provide": [
+      "shared concept layer",
+      "native knowledge layer",
+      "evidence traceability layer",
+      "mapping table",
+      "version record",
+      "unresolved concepts"
+    ],
+    "rule": "比较走共享层，解释回原生层和证据层。"
+  },
+  "release_decision": {
+    "action": "accept",
+    "rationale": "Confirm V4 unchanged, release L2-C15-v1.0; accept candidate reconciliation, mapping v1.1 and SC-C01-156 negative example; release and hand off.",
+    "released_at": "2026-11-13"
+  }
+}

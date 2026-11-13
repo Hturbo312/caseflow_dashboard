@@ -1,0 +1,317 @@
+{
+  "case_id": "C12",
+  "version": "L2-C12-shared-v1.0",
+  "status": "candidate_awaiting_G3_confirmation",
+  "mappings": [
+    {
+      "mapping_id": "MAP-C12-001",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-02",
+      "shared_concept_id": "SC-C01-134",
+      "mapping_type": "native_hyponym",
+      "basis": "社区无线宽带是通信与公共数字基础设施的下位类型。",
+      "scope": "community wireless last-mile; no inheritance of all SC properties",
+      "evidence_ids": [
+        "M03-E10",
+        "M09-E01",
+        "M20-E01"
+      ],
+      "decision": "accepted",
+      "version": "L2-C12-shared-v1.0",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-002",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-04",
+      "shared_concept_id": null,
+      "mapping_type": "no_map",
+      "basis": "本地安装就业链未被现有共享概念覆盖。",
+      "scope": "keep native; candidate SC-C12-04",
+      "evidence_ids": [
+        "M10-E07"
+      ],
+      "decision": "keep_native",
+      "version": "L2-C12-shared-v1.0",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-003",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-05",
+      "shared_concept_id": null,
+      "mapping_type": "no_map",
+      "basis": "设备补贴+低息贷款未被现有共享概念覆盖；SC-C01-104 是成本约束语境。",
+      "scope": "keep native; candidate SC-C12-05",
+      "evidence_ids": [
+        "M02-E03",
+        "M03-E08",
+        "M14-E03"
+      ],
+      "decision": "keep_native",
+      "version": "L2-C12-shared-v1.0",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-004",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-06",
+      "shared_concept_id": "SC-C01-114",
+      "mapping_type": "partial_or_approximate",
+      "basis": "只映射运营主体成分；运营模式转换与清算/承接不包含在 SC-C01-114。",
+      "scope": "operating actor component only",
+      "evidence_ids": [
+        "M11-E01",
+        "M21-E01",
+        "M22-E01"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C12-shared-v1.0",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-005",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-07",
+      "shared_concept_id": "SC-C01-175",
+      "mapping_type": "partial_or_approximate",
+      "basis": "只映射退出/负面结果成分；基础设施延续不包含在 SC-C01-175。",
+      "scope": "exit component only",
+      "evidence_ids": [
+        "M19-E01",
+        "M22-E01",
+        "M20-E01",
+        "M12-E01"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C12-shared-v1.0",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-006",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-08",
+      "shared_concept_id": "SC-C01-132",
+      "mapping_type": "partial_or_approximate",
+      "basis": "只映射门户/行政入口成分；不继承治理平台全部功能。",
+      "scope": "portal entry component only",
+      "evidence_ids": [
+        "M01-E04",
+        "M03-E13",
+        "M18-E07"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C12-shared-v1.0",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-007",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-09",
+      "shared_concept_id": "SC-C12-101",
+      "mapping_type": "native_hyponym",
+      "basis": "C12 家庭设备补贴与分发是“家庭数字终端部署与接入”的下位实例。",
+      "scope": "C12 PC/set-top distribution subtype",
+      "evidence_ids": [
+        "M02-E03",
+        "M03-E08"
+      ],
+      "decision": "accepted",
+      "version": "L2-C12-shared-v1.0",
+      "note": "revised from v0.1 no_map"
+    },
+    {
+      "mapping_id": "MAP-C12-008",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-10",
+      "shared_concept_id": "SC-C01-158",
+      "mapping_type": "native_hyponym",
+      "basis": "3 小时入门培训是“技术试验与能力建设”的下位类型。",
+      "scope": "introductory training subtype",
+      "evidence_ids": [
+        "M02-E05",
+        "M03-E12"
+      ],
+      "decision": "accepted",
+      "version": "L2-C12-shared-v1.0",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-009",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-11",
+      "shared_concept_id": "SC-C01-143",
+      "mapping_type": "partial_or_approximate",
+      "basis": "只映射信息服务/内容成分。",
+      "scope": "information/content component only",
+      "evidence_ids": [
+        "M01-E04",
+        "M03-E13",
+        "M18-E07"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C12-shared-v1.0",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-010",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-12",
+      "shared_concept_id": "SC-C01-155",
+      "mapping_type": "partial_or_approximate",
+      "basis": "只映射组合干预中的跨组织协调/治理成分。",
+      "scope": "coordination/governance component only",
+      "evidence_ids": [
+        "M02-E03",
+        "M02-E05",
+        "M03-E07"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C12-shared-v1.0",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-011",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-13",
+      "shared_concept_id": "SC-C01-151",
+      "mapping_type": "native_hyponym",
+      "basis": "居民小组内容建议是社区参与/意见收集的下位类型。",
+      "scope": "resident panel/content advice subtype",
+      "evidence_ids": [
+        "M03-E07",
+        "M10-E07"
+      ],
+      "decision": "accepted",
+      "version": "L2-C12-shared-v1.0",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-012",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-14",
+      "shared_concept_id": "SC-C01-158",
+      "mapping_type": "partial_or_approximate",
+      "basis": "只映射能力建设/支持成分；冠军技术支持不放进意见收集。",
+      "scope": "capacity/support component only",
+      "evidence_ids": [
+        "M03-E07",
+        "M03-E12"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C12-shared-v1.0",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-013",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-08",
+      "shared_concept_id": "SC-C12-102",
+      "mapping_type": "native_hyponym",
+      "basis": "eastserve.com 是社区门户/本地公共服务入口的下位实例。",
+      "scope": "C12 portal subtype",
+      "evidence_ids": [
+        "M01-E04",
+        "M03-E13",
+        "M18-E07"
+      ],
+      "decision": "accepted",
+      "version": "L2-C12-shared-v1.0",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-014",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-11",
+      "shared_concept_id": "SC-C12-102",
+      "mapping_type": "partial_or_approximate",
+      "basis": "只映射门户中的本地内容/服务成分。",
+      "scope": "content component only",
+      "evidence_ids": [
+        "M01-E04",
+        "M03-E13",
+        "M18-E07"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C12-shared-v1.0",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-015",
+      "case_id": "C07",
+      "native_concept_id": "NC-C07-technology-005",
+      "shared_concept_id": "SC-C12-101",
+      "mapping_type": "native_hyponym",
+      "basis": "C07 家庭数字设备是家庭数字终端部署的下位实例；原映射为 no_map。",
+      "scope": "additive mapping; original no_map retained in history",
+      "evidence_ids": [
+        "C07-G08-Q01"
+      ],
+      "decision": "proposed_additive",
+      "version": "L2-C12-shared-v1.0",
+      "note": "historical no_map remains"
+    },
+    {
+      "mapping_id": "MAP-C12-016",
+      "case_id": "C07",
+      "native_concept_id": "NC-C07-action-002",
+      "shared_concept_id": "SC-C12-101",
+      "mapping_type": "partial_or_approximate",
+      "basis": "C07 机顶盒及相关网络服务部署包含终端部署成分；原映射到 SC-C01-157。",
+      "scope": "terminal deployment component only",
+      "evidence_ids": [
+        "C07-G04-Q01"
+      ],
+      "decision": "proposed_additive",
+      "version": "L2-C12-shared-v1.0",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-017",
+      "case_id": "C01",
+      "native_concept_id": "NC-C01-technology-006",
+      "shared_concept_id": "SC-C12-102",
+      "mapping_type": "partial_or_approximate",
+      "basis": "C01 虚拟社区门户包含社区门户入口成分；原映射到 SC-C01-131。",
+      "scope": "portal entry component only",
+      "evidence_ids": [
+        "C01-G07-Q01"
+      ],
+      "decision": "proposed_additive",
+      "version": "L2-C12-shared-v1.0",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-018",
+      "case_id": "C01",
+      "native_concept_id": "NC-C01-technology-009",
+      "shared_concept_id": "SC-C12-102",
+      "mapping_type": "partial_or_approximate",
+      "basis": "C01 虚拟社区平台包含门户入口成分；原映射到 SC-C01-131。",
+      "scope": "portal entry component only",
+      "evidence_ids": [
+        "C01-G09-Q01"
+      ],
+      "decision": "proposed_additive",
+      "version": "L2-C12-shared-v1.0",
+      "note": ""
+    },
+    {
+      "mapping_id": "MAP-C12-019",
+      "case_id": "C07",
+      "native_concept_id": "NC-C07-technology-003",
+      "shared_concept_id": "SC-C12-102",
+      "mapping_type": "partial_or_approximate",
+      "basis": "C07 Carpenters Connect 是社区门户实例；原映射到 SC-C01-133 存疑。",
+      "scope": "portal entry component only; legacy mapping flagged",
+      "evidence_ids": [
+        "C07-G06-Q01",
+        "C07-G07-Q01",
+        "C07-G07-Q02"
+      ],
+      "decision": "proposed_additive",
+      "version": "L2-C12-shared-v1.0",
+      "note": "legacy SC-C01-133 mapping flagged for review"
+    }
+  ]
+}

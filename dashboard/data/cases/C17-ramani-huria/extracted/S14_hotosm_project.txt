@@ -1,0 +1,151 @@
+Urban flood resilience: Ramani Huria
+- HOT Website
+Urban flood resilience: Ramani Huria
+Ramani Huria, "Open Map" in Swahili, is a HOT Tanzania project focused on mapping Dar es Salaam to inform flood prevention plans.
+Dar es Salaam is one of the fastest growing cities in Africa, with an annual population growth of over 5.7%. In 2002 there were approximately 2.5 million inhabitants, increasing to 4.4 million in 2012, and currently estimated at over 5.5 million. The population is expected to exceed 10 million by 2040, making Dar es Salaam a megacity. Urbanization is largely unplanned, and around 70% of city residents live in informal settlements. The poorest citizens who settle in these areas not only have less access to basic services, but are also the most exposed to natural hazards.
+Severe flooding in December 2011 - January 2012 displaced at least 10,000 people in Dar es Salaam and caused 40 deaths. Heavy rains in April 2014 also led to widespread flooding and infrastructure damage. Climate change is expected to exacerbate these trends, as Tanzania’s coastal region is likely to experience heavier, more concentrated rainfall events. Increasing frequency of floods, landslides, and other hazards is expected to impact the most fragile, unplanned parts of the city.
+In 2015 HOT began an initiative to mapping infrastructure data in various parts of Dar es Salaam. Now in its second phase, Ramani Huria 2.0, which began in 2017, is combining exposure data and flood hazard data to conduct risk analysis of potential future disasters. The team are using community mapping techniques to engage with local leaders and teach community inhabitants free, open source data collection tools from their smartphones. The data collected is enabling people across all levels of society to improve flood mitigation plans and raise awareness and resiliency to natural threats.
+Twitter
+Photo Gallery
+Impact Areas
+Disaster Response
+Climate Resilience & Sustainability
+Regional Hub/Country
+Eastern & Southern Africa
+Tanzania
+Duration
+April 1, 2015 ー Dec. 31, 2016
+Status
+Complete
+Partners
+World Bank
+U.K. Department for International Development (DfID)
+Tools
+Export Tool
+OSM Analytics
+Data
+Humanitarian Data Exchange
+Related News
+View all News
+Migrated News
+OSM TANZANIA
+March 24, 2015
+Migrated News
+OSM TANZANIA
+March 25, 2015
+Migrated News
+Updates from Dar es Salaam
+April 22, 2015
+Migrated News
+Recent flooding in Dar Es Salaam shows need for maps
+May 12, 2015
+Migrated News
+"Ramani Huria" Scale Up - Dar es Salaam, 6th July, 2015
+July 17, 2015
+Migrated News
+Ramani Huria community mapping showcased to Tanzanian President Jakaya Kikwete
+La quatrième conférence annuelle nationale Tanzanienne des sciences, des technologies et de l'innovation s'est déroulée à Dar es Salaam du 17 au 19 juin 2015. La conférence a permis une présentation de la cartographie communautaire Ramani Huria de Dar es Salaam au President de la république de Tanzanie, Jakaya Kikwete.
+Aug. 9, 2015
+Migrated News
+Community Mapping can greatly contribute to the development of Dar es Salaam
+Mr. Monday Anthony, a 66 year old community member of Mchikichini ward in Ilala District who participated in Community Mapping for Flood Resilience, talked to Mr. Steven Bukulu a Mapping Supervisor and Media Specialist of Ramani Huria about the main reasons for floods occurring in many areas in Dar es Salaam, in particular Mchikichini.
+Aug. 18, 2015
+Migrated News
+Ramani Huria at the Africa Open Data Conference
+The Ramani Huria team was proud to be part of the first Africa Open Data Conference in Dar es Salaam, Tanzania. The event drew speakers and attendees from all over the world, to discuss, debate and showcase ‘local and global examples of open data being produced, published, visualized, and captured in creative ways across Africa.’
+Sept. 14, 2015
+Migrated News
+Community mapping has long lasting impact in Tandale, Dar es Salaam Tanzania
+The ward of Tandale was one of the first wards in Dar es Salaam to benefit from community mapping and be comprehensively mapped on OpenStreetMap. Ramani Huria recently spoke to Ward Executive Officer for Tandale Mr. Osiligi Lossai about how they are using the data and maps provided to the ward following the completion of mapping.
+Sept. 23, 2015
+Migrated News
+Mapping Drainage in Dar es Salaam
+Every year during the rainy season, the largest city in Tanzania, Dar es Salaam, suffers from devastating floods that wipe out roads, destroy houses, and result in deaths, sickness, and millions of dollars worth of damages. By helping communities to map their wards, the Ramani Huria project is able to support disaster prevention and response to areas that were previously off the map, literally. One key element of these maps is drainage systems. We have dedicated mappers working to ensure these, as well as wetland zones and flood-prone areas, are included accurately in our maps.
+Nov. 19, 2015
+Migrated News
+A day mapping in Dar Es Salaam: drainage in Chang'ombe
+Guest post by Kathryn Davis, Columbia University.January 14th, 10:30am. We arrive in Chang'ombe ward (an industrial area in Dar es Salaam) after weaving in and out of traffic in the project bajaj (rickshaw) through different neighborhoods. Johannes Peter, a seasoned mapper with the Dar Ramani Huria project, takes another look at his drone imagery printout of the area, and indicates that we’ve arrived at our starting point.Mappers like Johannes detail key drainage and water infrastructure that hasn't been digitized before, and that can be used for disaster risk reduction planning and flood resilience. Almost immediately, we see drainage on the right side of the wide dirt road, and mark it on the map...
+Feb. 16, 2016
+Migrated News
+Ramani Huria: how are the maps being used in the wards?
+(Guest post by Mercedes Hoffay, Master of Public Administration Candidate - Columbia University).All policy students are obsessed with the effectiveness and feasibility of policies and programs that governments implement. So when we find a tool that allows significant efficiency gains in government planning, we are thrilled. That is how we felt when we embarked on our Graduate Capstone Project to evaluate the Humanitarian OpenStreetMap Team’s work in Tanzania and their role in Dar Ramani Huria.
+April 14, 2016
+Migrated News
+Mapping Bicycle Routes During Dar es Salaam's Cycle Caravan.
+June 14, 2016
+Migrated News
+Ramani Huria: Street View Mapping for Tanzania's Largest City
+Aug. 9, 2016
+Migrated News
+Mapping Dar es Salaam's Water, Sanitation and Hygiene Facilities
+Oct. 19, 2016
+Migrated News
+Ramani Huria Closing Workshop: Reflection & New Direction
+Nov. 21, 2016
+Migrated News
+Ramani Huria Trains Secondary School Students During STEM Boot Camp
+Jan. 26, 2017
+Migrated News
+Three Hundred Students to Map for Flood Resilience in Dar es Salaam
+July 18, 2017
+Migrated News
+Ramani Huria: Building Open Tools to Map Drains
+Nov. 5, 2017
+Migrated News
+The First State of the Map Tanzania - 2017
+Dec. 13, 2017
+Migrated News
+Improving Access to Health Facilities in Dar es Salaam
+March 21, 2018
+Migrated News
+Students Complete Industrial Training – 228 Mapped Subwards and Action Maps for Disaster Management of Dar es Salaam
+by Hawa Adinani.
+Sept. 26, 2018
+Migrated News
+Using Open Source Tools to Solve Routing Issues for Solid Waste Collection in Dar Es Salaam
+One of the biggest difficulties in establishing an effective and efficient waste management collection and transportation system in Dar es Salaam is how long it takes to travel to Pugu dumpsite, the only officially designated solid waste dump in the city, and the best route to use.
+Aug. 30, 2019
+Migrated News
+What we Learnt from Mapping African Megacity Dar es Salaam
+Since the project kicked-off in 2015, Ramani Huria, funded by the World Bank and implemented by Humanitarian OpenStreetMap Team (HOT), has managed to map three-quarters of one of Africa’s megacities, Dar es Salaam. As a city that is particularly vulnerable to floods, the team focused their mapping on flood-prone areas, especially in informal settlements where vulnerable populations live.
+Dec. 12, 2019
+Migrated News
+Equipping University Students with Digital Geospatial Skills: More than 10,000 Flood Data Points Mapped in Eight Weeks
+Ramani Huria has been training students in Dar es Salaam and equipping them with industrial and technical skills for the 21st Century while generating vital high-precision, low-cost data for flood prediction and preparedness.
+Nov. 5, 2020
+Chat with Our Community
+Get connected now
+Check out our other projects
+View Our Work
+Who We Are
+Our Approach
+Our People
+News
+Events
+Contact Us
+Work for HOT
+Our bylaws
+Financial reports
+Annual reports
+Our Work
+Programs
+Projects
+Impact Areas
+Get Involved
+Partner With Us
+Job Opportunities
+Volunteer Opportunities
+Request for Proposals
+Working Groups
+Join Our Conversation
+Privacy Policy
+Code of Conduct
+© 2026 HOTOSM all rights reserved. Website Design by
+SWOON CREATIVE MEDIA
+About the information we collect
+We use cookies and similar technologies to recognize and analyze your visits, and measure traffic usage and activity. You can learn about how we use the data about your visit or information you provide by reading our
+privacy policy
+.
+By clicking "I Agree", you consent to the use of cookies.
+I Agree
+I Disagree

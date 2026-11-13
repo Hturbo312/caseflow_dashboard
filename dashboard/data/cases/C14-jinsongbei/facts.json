@@ -1,0 +1,1807 @@
+{
+  "case_id": "C14",
+  "gate": "G4",
+  "generated_at": "2026-11-13",
+  "status": "confirmed",
+  "entity_count": 62,
+  "fact_count": 58,
+  "fact_status_counts": {
+    "implemented": 27,
+    "reported_or_opinion": 27,
+    "planned": 1,
+    "disputed": 3
+  },
+  "theme_counts": {
+    "context": 4,
+    "governance": 7,
+    "participation": 6,
+    "physical": 3,
+    "smart_label": 4,
+    "property": 8,
+    "age_friendly": 11,
+    "smart_devices": 3,
+    "smart_platform": 1,
+    "recognition": 1,
+    "funding": 10
+  },
+  "validation": {
+    "problems": [],
+    "unused_entities": [],
+    "unused_evidence": [
+      "M09-E02",
+      "M11-E03"
+    ]
+  },
+  "entities": [
+    {
+      "entity_id": "C01",
+      "type": "context",
+      "label": "劲松北社区",
+      "definition": "北京市朝阳区劲松街道劲松北社区，含劲松一区、二区；1978年建成的第一批成建制住宅区。",
+      "evidence_ids": [
+        "M01-E01",
+        "M02-E01"
+      ]
+    },
+    {
+      "entity_id": "C02",
+      "type": "context",
+      "label": "社区人口与老龄化结构",
+      "definition": "劲松北社区常住人口、老年住户比率、独居老人比率等人口条件。",
+      "evidence_ids": [
+        "M02-E01"
+      ]
+    },
+    {
+      "entity_id": "C03",
+      "type": "context",
+      "label": "老旧小区改造政策环境",
+      "definition": "2018年以来北京市、朝阳区推进老旧小区综合整治、引入社会资本、物业管理与适老化改造的政策条件。",
+      "evidence_ids": [
+        "M02-E07",
+        "M03-E02"
+      ]
+    },
+    {
+      "entity_id": "C04",
+      "type": "context",
+      "label": "项目空间范围（一区、二区）",
+      "definition": "劲松北社区老旧小区综合整治项目实际涉及的劲松一区、二区空间范围。",
+      "evidence_ids": [
+        "M01-E01",
+        "M02-E10"
+      ]
+    },
+    {
+      "entity_id": "A01",
+      "type": "actor",
+      "label": "劲松街道",
+      "definition": "朝阳区劲松街道办事处，项目属地主导与组织协调主体。",
+      "evidence_ids": [
+        "M01-E02",
+        "M03-E08"
+      ]
+    },
+    {
+      "entity_id": "A02",
+      "type": "actor",
+      "label": "朝阳区政府/区级部门",
+      "definition": "朝阳区级统筹部门，包括区委办局、住建、规划等。",
+      "evidence_ids": [
+        "M03-E08",
+        "M02-E06"
+      ]
+    },
+    {
+      "entity_id": "A03",
+      "type": "actor",
+      "label": "愿景集团",
+      "definition": "社会资本方，参与投资、设计、施工、运营与物业管理。",
+      "evidence_ids": [
+        "M03-E02",
+        "M11-E01"
+      ]
+    },
+    {
+      "entity_id": "A04",
+      "type": "actor",
+      "label": "愿景和家",
+      "definition": "愿景集团旗下和家生活科技集团，提供智慧社区综合管理平台HEDATA。",
+      "evidence_ids": [
+        "M09-E01"
+      ]
+    },
+    {
+      "entity_id": "A05",
+      "type": "actor",
+      "label": "愿景物业",
+      "definition": "经业主投票入驻劲松北社区的物业服务企业，承担物业、设备运维与为老服务。",
+      "evidence_ids": [
+        "M05-E03",
+        "M06-E04"
+      ]
+    },
+    {
+      "entity_id": "A06",
+      "type": "actor",
+      "label": "社区党委/居委会",
+      "definition": "劲松北社区党委与居民委员会，牵头社区党建、居民动员与议事。",
+      "evidence_ids": [
+        "M02-E06",
+        "M04-E04"
+      ]
+    },
+    {
+      "entity_id": "A07",
+      "type": "actor",
+      "label": "居民/业主",
+      "definition": "劲松北社区居民与房屋业主，参与需求表达、议事、投票与使用服务。",
+      "evidence_ids": [
+        "M02-E03",
+        "M04-E04"
+      ]
+    },
+    {
+      "entity_id": "A08",
+      "type": "actor",
+      "label": "楼门长/党员",
+      "definition": "社区党员与楼门长，参与动员、议事与改造推进。",
+      "evidence_ids": [
+        "M05-E02"
+      ]
+    },
+    {
+      "entity_id": "A09",
+      "type": "actor",
+      "label": "责任规划师/规划设计团队",
+      "definition": "承担街区诊断、分层规划、居民调研与设计配合的规划团队。",
+      "evidence_ids": [
+        "M02-E02"
+      ]
+    },
+    {
+      "entity_id": "A10",
+      "type": "actor",
+      "label": "第三方养老机构",
+      "definition": "承接为老服务清单、紧急呼叫响应等服务的第三方机构。",
+      "evidence_ids": [
+        "M08-E01"
+      ]
+    },
+    {
+      "entity_id": "A11",
+      "type": "actor",
+      "label": "市区财政部门",
+      "definition": "提供老旧小区基础类改造财政资金与物业扶持资金的市、区两级财政。",
+      "evidence_ids": [
+        "M02-E07",
+        "M06-E02"
+      ]
+    },
+    {
+      "entity_id": "A12",
+      "type": "actor",
+      "label": "商户/便民业态",
+      "definition": "入驻社区配套空间的理发、餐饮、维修、便利店等便民业态经营者。",
+      "evidence_ids": [
+        "M02-E05",
+        "M04-E02"
+      ]
+    },
+    {
+      "entity_id": "T01",
+      "type": "task",
+      "label": "老旧小区综合整治与有机更新",
+      "definition": "对劲松北社区公共空间、配套服务、无障碍、物业等进行的系统更新任务。",
+      "evidence_ids": [
+        "M01-E03",
+        "M03-E03"
+      ]
+    },
+    {
+      "entity_id": "T02",
+      "type": "task",
+      "label": "引入社会资本与长效物业",
+      "definition": "通过市场化方式引入社会资本、建立投资回报与长效物业服务机制的任务。",
+      "evidence_ids": [
+        "M03-E02",
+        "M02-E07"
+      ]
+    },
+    {
+      "entity_id": "T03",
+      "type": "task",
+      "label": "智慧社区/智慧治理",
+      "definition": "以智能设备、平台、数据与运营提升社区治理与服务的任务；本案中证据强度不均。",
+      "evidence_ids": [
+        "M09-E01",
+        "M10-E02"
+      ]
+    },
+    {
+      "entity_id": "T04",
+      "type": "task",
+      "label": "适老化改造与物业+养老",
+      "definition": "面向老年人的无障碍、辅助器具、紧急呼叫与为老服务任务。",
+      "evidence_ids": [
+        "M08-E01",
+        "M07-E03"
+      ]
+    },
+    {
+      "entity_id": "T05",
+      "type": "task",
+      "label": "居民需求识别与方案确定",
+      "definition": "通过问卷、访谈、问需会、议事会等方式识别需求并确定改造方案的任务。",
+      "evidence_ids": [
+        "M02-E03",
+        "M04-E04"
+      ]
+    },
+    {
+      "entity_id": "TECH01",
+      "type": "technology",
+      "label": "智能门禁",
+      "definition": "安装在社区入口/单元的门禁设备；识别方式、联网与数据去向未确认。",
+      "evidence_ids": [
+        "M07-E04"
+      ]
+    },
+    {
+      "entity_id": "TECH02",
+      "type": "technology",
+      "label": "人脸识别系统",
+      "definition": "报道中把守小区入口的人脸识别设备；与智能门禁可能同一或不同批次。",
+      "evidence_ids": [
+        "M05-E01"
+      ]
+    },
+    {
+      "entity_id": "TECH03",
+      "type": "technology",
+      "label": "智能车棚",
+      "definition": "209号楼附近改造后的车棚，提供电动自行车充电服务。",
+      "evidence_ids": [
+        "M04-E01"
+      ]
+    },
+    {
+      "entity_id": "TECH04",
+      "type": "technology",
+      "label": "HEDATA平台",
+      "definition": "愿景和家智慧社区综合管理平台；功能、覆盖、使用与数据归属未确认。",
+      "evidence_ids": [
+        "M09-E01"
+      ]
+    },
+    {
+      "entity_id": "TECH05",
+      "type": "technology",
+      "label": "爬楼机",
+      "definition": "靠背后方装有履带、需志愿者协助的上下楼辅助设备。",
+      "evidence_ids": [
+        "M07-E02",
+        "M07-E03"
+      ]
+    },
+    {
+      "entity_id": "TECH06",
+      "type": "technology",
+      "label": "电动轮椅",
+      "definition": "供行动不便老人租借使用的电动出行辅助设备。",
+      "evidence_ids": [
+        "M07-E03"
+      ]
+    },
+    {
+      "entity_id": "TECH07",
+      "type": "technology",
+      "label": "紧急呼叫器",
+      "definition": "安装在有需要的老人家中、用于紧急呼叫的适老化设备；是否联网未确认。",
+      "evidence_ids": [
+        "M08-E01"
+      ]
+    },
+    {
+      "entity_id": "TECH08",
+      "type": "technology",
+      "label": "安全扶手/无障碍坡道",
+      "definition": "座前扶手、坡道、防撞条等物理无障碍设施。",
+      "evidence_ids": [
+        "M04-E07",
+        "M07-E04"
+      ]
+    },
+    {
+      "entity_id": "TECH09",
+      "type": "technology",
+      "label": "自动面条机",
+      "definition": "车棚一角的扫码自动售卖设备，被报道称为“既智能又便捷”；不纳入智慧治理技术清单。",
+      "evidence_ids": [
+        "M05-E07"
+      ]
+    },
+    {
+      "entity_id": "CAP01",
+      "type": "capability",
+      "label": "身份识别与门禁控制",
+      "definition": "门禁/人脸识别设备提供的身份识别与出入口控制能力。",
+      "evidence_ids": [
+        "M05-E01",
+        "M07-E04"
+      ]
+    },
+    {
+      "entity_id": "CAP02",
+      "type": "capability",
+      "label": "电动自行车充电",
+      "definition": "智能车棚提供的电动自行车充电能力。",
+      "evidence_ids": [
+        "M04-E01"
+      ]
+    },
+    {
+      "entity_id": "CAP03",
+      "type": "capability",
+      "label": "辅助上下楼/出行",
+      "definition": "爬楼机、电动轮椅、坡道、扶手等提供的辅助出行能力。",
+      "evidence_ids": [
+        "M07-E02",
+        "M07-E03"
+      ]
+    },
+    {
+      "entity_id": "CAP04",
+      "type": "capability",
+      "label": "紧急呼叫与第三方响应",
+      "definition": "紧急呼叫器与第三方机构响应构成的照护呼叫能力；是否联网未确认。",
+      "evidence_ids": [
+        "M08-E01"
+      ]
+    },
+    {
+      "entity_id": "CAP05",
+      "type": "capability",
+      "label": "平台数据整合/多领域服务（声称）",
+      "definition": "企业方声称HEDATA可覆盖居民、物业、街道等多领域服务需求；能力范围未核实。",
+      "evidence_ids": [
+        "M09-E01"
+      ]
+    },
+    {
+      "entity_id": "CAP06",
+      "type": "capability",
+      "label": "物业快速响应",
+      "definition": "物业承诺的24小时值守、3分钟受理、10分钟上门等服务响应能力。",
+      "evidence_ids": [
+        "M06-E03"
+      ]
+    },
+    {
+      "entity_id": "ACT01",
+      "type": "action",
+      "label": "签订战略合作协议",
+      "definition": "劲松街道与愿景集团就劲松地区合作模式与实施区域达成合作。",
+      "evidence_ids": [
+        "M02-E02",
+        "M03-E02"
+      ]
+    },
+    {
+      "entity_id": "ACT02",
+      "type": "action",
+      "label": "规划诊断与三层规划",
+      "definition": "责任规划师开展街区诊断，形成1—8区定位规划、北社区详细规划与示范区实施规划。",
+      "evidence_ids": [
+        "M02-E02",
+        "M02-E04"
+      ]
+    },
+    {
+      "entity_id": "ACT03",
+      "type": "action",
+      "label": "需求调研",
+      "definition": "通过问卷、走访、入户、访谈、问需会等方式收集居民需求。",
+      "evidence_ids": [
+        "M02-E03",
+        "M04-E04"
+      ]
+    },
+    {
+      "entity_id": "ACT04",
+      "type": "action",
+      "label": "示范区建设",
+      "definition": "2019年对劲松西街、两个公园、配套用房、无障碍系统等进行的示范性改造。",
+      "evidence_ids": [
+        "M02-E05"
+      ]
+    },
+    {
+      "entity_id": "ACT05",
+      "type": "action",
+      "label": "物业引入/双过半投票",
+      "definition": "通过业主投票、双过半与先尝后买引入愿景物业。",
+      "evidence_ids": [
+        "M05-E03",
+        "M02-E09"
+      ]
+    },
+    {
+      "entity_id": "ACT06",
+      "type": "action",
+      "label": "物业费收取",
+      "definition": "按多层0.43元、高层1.42元/平方米/月收取物业费并统计收缴率。",
+      "evidence_ids": [
+        "M06-E04"
+      ]
+    },
+    {
+      "entity_id": "ACT07",
+      "type": "action",
+      "label": "物业+养老试点",
+      "definition": "2020年起由物业开展为老服务清单、紧急呼叫、手机班等服务。",
+      "evidence_ids": [
+        "M08-E01",
+        "M04-E03"
+      ]
+    },
+    {
+      "entity_id": "ACT08",
+      "type": "action",
+      "label": "适老化设备部署",
+      "definition": "安装紧急呼叫器、安全扶手，引入爬楼机、电动轮椅，建设坡道等。",
+      "evidence_ids": [
+        "M08-E01",
+        "M07-E03",
+        "M07-E04"
+      ]
+    },
+    {
+      "entity_id": "ACT09",
+      "type": "action",
+      "label": "智能设备部署",
+      "definition": "安装智能门禁、人脸识别，改造智能车棚等前端设备。",
+      "evidence_ids": [
+        "M04-E01",
+        "M05-E01",
+        "M07-E04"
+      ]
+    },
+    {
+      "entity_id": "ACT10",
+      "type": "action",
+      "label": "低效空间盘活/业态引入",
+      "definition": "将闲置配套用房、车棚等改造为便民业态与服务空间。",
+      "evidence_ids": [
+        "M03-E05",
+        "M04-E02"
+      ]
+    },
+    {
+      "entity_id": "ACT11",
+      "type": "action",
+      "label": "五方联动/党建共同体",
+      "definition": "建立区级统筹、街乡主导、社区协调、居民议事、企业运作机制与社区党建共同体。",
+      "evidence_ids": [
+        "M01-E02",
+        "M03-E08"
+      ]
+    },
+    {
+      "entity_id": "ACT12",
+      "type": "action",
+      "label": "居民议事/方案调整",
+      "definition": "居民通过议事会、投票、建议等参与改造方案与业态选择。",
+      "evidence_ids": [
+        "M04-E05",
+        "M06-E05"
+      ]
+    },
+    {
+      "entity_id": "TGT01",
+      "type": "target",
+      "label": "社区入口",
+      "definition": "小区入口/出入口，智能门禁与人脸识别的安装位置。",
+      "evidence_ids": [
+        "M05-E01",
+        "M07-E04"
+      ]
+    },
+    {
+      "entity_id": "TGT02",
+      "type": "target",
+      "label": "209号楼车棚",
+      "definition": "209号楼附近原杂乱停车棚，改造为匠心工坊与智能车棚。",
+      "evidence_ids": [
+        "M04-E01"
+      ]
+    },
+    {
+      "entity_id": "TGT03",
+      "type": "target",
+      "label": "老年人",
+      "definition": "社区老年住户，适老化设备、为老服务与手机班的主要服务对象。",
+      "evidence_ids": [
+        "M08-E01",
+        "M07-E03"
+      ]
+    },
+    {
+      "entity_id": "TGT04",
+      "type": "target",
+      "label": "电动自行车",
+      "definition": "智能车棚提供充电服务的对象。",
+      "evidence_ids": [
+        "M04-E01"
+      ]
+    },
+    {
+      "entity_id": "TGT05",
+      "type": "target",
+      "label": "低效空间/配套用房",
+      "definition": "社区闲置或低效使用的车棚、锅炉房、小仓库、沿街配套用房等。",
+      "evidence_ids": [
+        "M03-E05",
+        "M04-E02"
+      ]
+    },
+    {
+      "entity_id": "TGT06",
+      "type": "target",
+      "label": "物业费",
+      "definition": "居民按标准缴纳的物业服务费用。",
+      "evidence_ids": [
+        "M06-E04",
+        "M04-E06"
+      ]
+    },
+    {
+      "entity_id": "OUT01",
+      "type": "outcome",
+      "label": "示范区完工",
+      "definition": "2019年8月2日示范区完成改造并亮相。",
+      "evidence_ids": [
+        "M02-E05"
+      ]
+    },
+    {
+      "entity_id": "OUT02",
+      "type": "outcome",
+      "label": "物业入驻",
+      "definition": "愿景物业经业主投票入驻劲松北社区。",
+      "evidence_ids": [
+        "M05-E03"
+      ]
+    },
+    {
+      "entity_id": "OUT03",
+      "type": "outcome",
+      "label": "物业费收缴率",
+      "definition": "2020-06为60%，2020-11报道为75%。",
+      "evidence_ids": [
+        "M06-E04",
+        "M04-E06"
+      ]
+    },
+    {
+      "entity_id": "OUT04",
+      "type": "outcome",
+      "label": "千余平方米空间激活",
+      "definition": "千余平方米低效空间被改造为便民业态与服务空间。",
+      "evidence_ids": [
+        "M04-E02"
+      ]
+    },
+    {
+      "entity_id": "OUT05",
+      "type": "outcome",
+      "label": "为老服务清单",
+      "definition": "为社区老年人建立的服务清单与第三方响应机制。",
+      "evidence_ids": [
+        "M08-E01"
+      ]
+    },
+    {
+      "entity_id": "OUT06",
+      "type": "outcome",
+      "label": "最佳实践入选",
+      "definition": "2022年7月入选北京城市更新“最佳实践”。",
+      "evidence_ids": [
+        "M11-E01"
+      ]
+    },
+    {
+      "entity_id": "OUT07",
+      "type": "outcome",
+      "label": "居民出行频率提高（声称）",
+      "definition": "项目方称无障碍体系完善后居民出行频率提高、室外活动与社交增加。",
+      "evidence_ids": [
+        "M02-E12"
+      ]
+    },
+    {
+      "entity_id": "OUT08",
+      "type": "outcome",
+      "label": "投资回收（测算）",
+      "definition": "项目预计10年左右或约14年收回投资；均为测算/报道。",
+      "evidence_ids": [
+        "M02-E07",
+        "M05-E05"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "F001",
+      "theme": "context",
+      "statement": "劲松北社区始建于1978年，有居民楼43栋，总建筑面积19.4万平方米。",
+      "entity_roles": [
+        "C01:context",
+        "T01:task"
+      ],
+      "evidence_ids": [
+        "M01-E01",
+        "M02-E01"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "1978",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "43栋；19.4万㎡",
+      "confidence": "high",
+      "notes": "空间与建设年代的基础事实。"
+    },
+    {
+      "fact_id": "F002",
+      "theme": "context",
+      "statement": "劲松北社区总户数4199户，常住人口9494人，老年住户比率39.6%，老年住户中独居老人比率52%。",
+      "entity_roles": [
+        "C02:context",
+        "C01:context",
+        "TGT03:target"
+      ],
+      "evidence_ids": [
+        "M02-E01"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2021年前后",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "4199户；9494人；39.6%；52%",
+      "confidence": "high",
+      "notes": "社区总户数口径。"
+    },
+    {
+      "fact_id": "F003",
+      "theme": "context",
+      "statement": "劲松北社区老旧小区综合整治项目涉及总户数3605户。",
+      "entity_roles": [
+        "C04:context",
+        "C01:context"
+      ],
+      "evidence_ids": [
+        "M03-E01",
+        "M05-E04"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2019—2022",
+      "space_scope": "劲松一区、二区",
+      "quantity_scope": "3605户",
+      "confidence": "medium_high",
+      "notes": "项目涉及户数口径，与F002的4199户不合并。"
+    },
+    {
+      "fact_id": "F004",
+      "theme": "governance",
+      "statement": "2018年7月，劲松街道与愿景集团接洽，随后签订战略合作协议。",
+      "entity_roles": [
+        "A01:actor",
+        "A03:actor",
+        "ACT01:action",
+        "T02:task",
+        "C03:context"
+      ],
+      "evidence_ids": [
+        "M02-E02",
+        "M03-E02"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2018-07",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "",
+      "confidence": "high",
+      "notes": "M02记接洽，M03记签约。"
+    },
+    {
+      "fact_id": "F005",
+      "theme": "governance",
+      "statement": "责任规划师完成劲松1—8区定位规划、劲松北社区分区详细规划与示范区实施规划。",
+      "entity_roles": [
+        "A09:actor",
+        "ACT02:action",
+        "T01:task",
+        "C04:context"
+      ],
+      "evidence_ids": [
+        "M02-E02"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2018—2019",
+      "space_scope": "劲松1—8区；劲松北社区",
+      "quantity_scope": "三个分层规划",
+      "confidence": "high",
+      "notes": "规划范围为1—8区，实施重点为北社区。"
+    },
+    {
+      "fact_id": "F006",
+      "theme": "participation",
+      "statement": "项目初期通过线上线下2300多份问卷识别居民需求。",
+      "entity_roles": [
+        "A09:actor",
+        "A07:target",
+        "ACT03:action",
+        "T05:task"
+      ],
+      "evidence_ids": [
+        "M02-E03"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2018—2019",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "2300多份",
+      "confidence": "high",
+      "notes": "与2380人访谈是不同方法。"
+    },
+    {
+      "fact_id": "F007",
+      "theme": "participation",
+      "statement": "项目团队走访2380位居民，收集不同年龄段需求。",
+      "entity_roles": [
+        "A03:actor",
+        "A07:target",
+        "ACT03:action",
+        "T05:task"
+      ],
+      "evidence_ids": [
+        "M05-E02"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2018—2019",
+      "space_scope": "劲松一区、二区",
+      "quantity_scope": "2380人",
+      "confidence": "medium",
+      "notes": "M05为背景材料。"
+    },
+    {
+      "fact_id": "F008",
+      "theme": "participation",
+      "statement": "社区党委带领居民党支部开展10余场群众问需会。",
+      "entity_roles": [
+        "A06:actor",
+        "A07:target",
+        "ACT03:action",
+        "T05:task"
+      ],
+      "evidence_ids": [
+        "M04-E04"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2018—2019",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "10余场",
+      "confidence": "high",
+      "notes": "未给具体日期与参与人数。"
+    },
+    {
+      "fact_id": "F009",
+      "theme": "participation",
+      "statement": "居民召开不下20次议事会，形成停车、治安、景观、灯光、电梯加装等21大类51项改造清单。",
+      "entity_roles": [
+        "A07:actor",
+        "A08:actor",
+        "ACT12:action",
+        "T05:task"
+      ],
+      "evidence_ids": [
+        "M05-E02"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2018—2019",
+      "space_scope": "劲松一区、二区",
+      "quantity_scope": "20余次；21类51项",
+      "confidence": "medium",
+      "notes": "M05为背景材料；21类51项未逐项核对。"
+    },
+    {
+      "fact_id": "F010",
+      "theme": "physical",
+      "statement": "示范区于2019年5月6日开工，2019年8月2日完工。",
+      "entity_roles": [
+        "A03:actor",
+        "ACT04:action",
+        "OUT01:outcome",
+        "C04:context"
+      ],
+      "evidence_ids": [
+        "M02-E05"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2019-05-06—2019-08-02",
+      "space_scope": "示范区",
+      "quantity_scope": "历时3个月",
+      "confidence": "high",
+      "notes": "官方日期；另有媒体称2019-09。"
+    },
+    {
+      "fact_id": "F011",
+      "theme": "physical",
+      "statement": "示范区完成劲松西街强电架空线入地、两个公园提升、沿街配套用房改造和无障碍系统完善。",
+      "entity_roles": [
+        "A03:actor",
+        "ACT04:action",
+        "T01:task",
+        "C01:target"
+      ],
+      "evidence_ids": [
+        "M02-E05"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2019",
+      "space_scope": "示范区",
+      "quantity_scope": "",
+      "confidence": "high",
+      "notes": "物理更新内容。"
+    },
+    {
+      "fact_id": "F012",
+      "theme": "physical",
+      "statement": "示范区引入理发店、匠心工坊、社区食堂、百年义利等便民业态。",
+      "entity_roles": [
+        "A12:actor",
+        "ACT10:action",
+        "TGT05:target"
+      ],
+      "evidence_ids": [
+        "M02-E05"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2019",
+      "space_scope": "示范区",
+      "quantity_scope": "4类业态",
+      "confidence": "high",
+      "notes": "业态引入与空间盘活相关。"
+    },
+    {
+      "fact_id": "F013",
+      "theme": "smart_label",
+      "statement": "官方把“智能化”列为示范区改造的内容类别之一，但未列出具体技术、设备或平台。",
+      "entity_roles": [
+        "T03:task",
+        "C03:context",
+        "ACT04:action"
+      ],
+      "evidence_ids": [
+        "M01-E03",
+        "M03-E03"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2020—2022",
+      "space_scope": "示范区；一、二区",
+      "quantity_scope": "四大类之一",
+      "confidence": "high",
+      "notes": "类别级表述，不能据此认定智慧治理体系。"
+    },
+    {
+      "fact_id": "F014",
+      "theme": "property",
+      "statement": "2019年6月，经劲松一、二区业主投票，愿景物业正式入驻。",
+      "entity_roles": [
+        "A05:actor",
+        "A07:actor",
+        "ACT05:action",
+        "OUT02:outcome"
+      ],
+      "evidence_ids": [
+        "M05-E03"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2019-06",
+      "space_scope": "劲松一区、二区",
+      "quantity_scope": "",
+      "confidence": "medium",
+      "notes": "由2019-10报道“今年6月”推得；缺投票记录。"
+    },
+    {
+      "fact_id": "F015",
+      "theme": "property",
+      "statement": "物业引入采用“居民户数过半、建筑面积过半”的双过半和“先尝后买”。",
+      "entity_roles": [
+        "A05:actor",
+        "A07:actor",
+        "ACT05:action",
+        "T02:task"
+      ],
+      "evidence_ids": [
+        "M01-E04",
+        "M02-E09",
+        "M03-E07"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2019",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "双过半",
+      "confidence": "high",
+      "notes": "具体票数与面积口径未给。"
+    },
+    {
+      "fact_id": "F016",
+      "theme": "property",
+      "statement": "劲松北被称为北京市第一个以“双过半”引入专业物业的老旧小区。",
+      "entity_roles": [
+        "A05:actor",
+        "OUT02:outcome",
+        "C03:context"
+      ],
+      "evidence_ids": [
+        "M02-E09"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2019",
+      "space_scope": "北京市",
+      "quantity_scope": "第一个",
+      "confidence": "medium",
+      "notes": "官方评价性表述。"
+    },
+    {
+      "fact_id": "F017",
+      "theme": "property",
+      "statement": "街道给予企业3年物业扶持期，将原“政府兜底”资金拨付企业。",
+      "entity_roles": [
+        "A01:actor",
+        "A05:actor",
+        "A11:actor",
+        "T02:task"
+      ],
+      "evidence_ids": [
+        "M06-E02"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2019—2022",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "3年",
+      "confidence": "medium_high",
+      "notes": "起止日期与金额未给。"
+    },
+    {
+      "fact_id": "F018",
+      "theme": "property",
+      "statement": "物业费标准为多层0.43元/平方米/月、高层1.42元/平方米/月。",
+      "entity_roles": [
+        "A05:actor",
+        "TGT06:target",
+        "ACT06:action"
+      ],
+      "evidence_ids": [
+        "M06-E04"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2020",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "0.43/1.42元",
+      "confidence": "high",
+      "notes": "按直管公房价格统一。"
+    },
+    {
+      "fact_id": "F019",
+      "theme": "property",
+      "statement": "2020年初开始收取物业费，截至2020年6月底收缴率达到60%。",
+      "entity_roles": [
+        "A05:actor",
+        "TGT06:target",
+        "ACT06:action",
+        "OUT03:outcome"
+      ],
+      "evidence_ids": [
+        "M06-E04"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2020-01—2020-06",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "60%",
+      "confidence": "medium_high",
+      "notes": "企业方引述；分母与口径未给。"
+    },
+    {
+      "fact_id": "F020",
+      "theme": "property",
+      "statement": "2020年11月报道称，居民自主缴纳物业费达到75%。",
+      "entity_roles": [
+        "A05:actor",
+        "OUT03:outcome",
+        "TGT06:target"
+      ],
+      "evidence_ids": [
+        "M04-E06"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2020-11",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "75%",
+      "confidence": "medium",
+      "notes": "企业方引述；与60%构成时间序列。"
+    },
+    {
+      "fact_id": "F021",
+      "theme": "property",
+      "statement": "物业服务承诺24小时值守、每日清扫、每周垃圾桶清洗，居民需求3分钟内受理、10分钟内上门。",
+      "entity_roles": [
+        "A05:actor",
+        "CAP06:capability",
+        "ACT06:action"
+      ],
+      "evidence_ids": [
+        "M06-E03"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2020",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "3分钟；10分钟",
+      "confidence": "medium",
+      "notes": "服务承诺/报道，缺工单记录。"
+    },
+    {
+      "fact_id": "F022",
+      "theme": "age_friendly",
+      "statement": "2020年起，劲松北试点“物业+养老”新模式。",
+      "entity_roles": [
+        "A05:actor",
+        "A10:actor",
+        "ACT07:action",
+        "T04:task"
+      ],
+      "evidence_ids": [
+        "M08-E01"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2020",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "",
+      "confidence": "medium",
+      "notes": "报道称2020年开始。"
+    },
+    {
+      "fact_id": "F023",
+      "theme": "age_friendly",
+      "statement": "项目为有需要的老人安装紧急呼叫器、安全扶手等适老化设备。",
+      "entity_roles": [
+        "A05:actor",
+        "TGT03:target",
+        "TECH07:technology",
+        "TECH08:technology",
+        "CAP04:capability",
+        "ACT08:action"
+      ],
+      "evidence_ids": [
+        "M08-E01",
+        "M04-E07"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2020—2021",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "",
+      "confidence": "medium",
+      "notes": "紧急呼叫器是否联网未确认；默认归入适老化。"
+    },
+    {
+      "fact_id": "F024",
+      "theme": "age_friendly",
+      "statement": "项目建立为老服务清单，并接第三方机构第一时间响应。",
+      "entity_roles": [
+        "A05:actor",
+        "A10:actor",
+        "TGT03:target",
+        "CAP04:capability",
+        "OUT05:outcome",
+        "ACT07:action"
+      ],
+      "evidence_ids": [
+        "M08-E01"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2020",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "",
+      "confidence": "medium",
+      "notes": "清单内容与响应记录未取得。"
+    },
+    {
+      "fact_id": "F025",
+      "theme": "age_friendly",
+      "statement": "劲松社区在适老化改造中引入9台爬楼机、12台电动轮椅。",
+      "entity_roles": [
+        "A05:actor",
+        "TECH05:technology",
+        "TECH06:technology",
+        "CAP03:capability",
+        "ACT08:action"
+      ],
+      "evidence_ids": [
+        "M07-E03"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2020",
+      "space_scope": "劲松社区（可能多个社区）",
+      "quantity_scope": "9台；12台",
+      "confidence": "medium",
+      "notes": "原文称“劲松社区”，不等于劲松北独有。"
+    },
+    {
+      "fact_id": "F026",
+      "theme": "age_friendly",
+      "statement": "爬楼机和电动轮椅放置在不同区域社区居委会，供居民租借，并在社区间协调调度。",
+      "entity_roles": [
+        "A05:actor",
+        "TECH05:technology",
+        "TECH06:technology",
+        "CAP03:capability",
+        "TGT03:target",
+        "ACT08:action"
+      ],
+      "evidence_ids": [
+        "M07-E03"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2020",
+      "space_scope": "劲松社区",
+      "quantity_scope": "",
+      "confidence": "medium",
+      "notes": "租借记录与使用频次未取得。"
+    },
+    {
+      "fact_id": "F027",
+      "theme": "age_friendly",
+      "statement": "劲松北社区进行全坡道建设。",
+      "entity_roles": [
+        "A05:actor",
+        "TECH08:technology",
+        "CAP03:capability",
+        "ACT08:action",
+        "C01:target"
+      ],
+      "evidence_ids": [
+        "M07-E04"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2020—2021",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "全坡道",
+      "confidence": "medium",
+      "notes": "建设范围与验收未给。"
+    },
+    {
+      "fact_id": "F028",
+      "theme": "age_friendly",
+      "statement": "劲松北社区开设美好食堂、美好会客厅、美好理发店。",
+      "entity_roles": [
+        "A12:actor",
+        "ACT10:action",
+        "TGT05:target"
+      ],
+      "evidence_ids": [
+        "M07-E04"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2019—2021",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "3类空间",
+      "confidence": "high",
+      "notes": "与便民业态/空间盘活相关。"
+    },
+    {
+      "fact_id": "F029",
+      "theme": "smart_devices",
+      "statement": "劲松北社区安装智能门禁。",
+      "entity_roles": [
+        "A05:actor",
+        "TECH01:technology",
+        "CAP01:capability",
+        "ACT09:action",
+        "TGT01:target"
+      ],
+      "evidence_ids": [
+        "M07-E04"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2020—2021",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "",
+      "confidence": "medium",
+      "notes": "识别方式、覆盖入口、联网与数据未给。"
+    },
+    {
+      "fact_id": "F030",
+      "theme": "smart_devices",
+      "statement": "209号楼附近车棚改造为智能车棚，为电动自行车等提供充电服务。",
+      "entity_roles": [
+        "A05:actor",
+        "TECH03:technology",
+        "CAP02:capability",
+        "ACT09:action",
+        "TGT02:target",
+        "TGT04:target"
+      ],
+      "evidence_ids": [
+        "M04-E01"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2020",
+      "space_scope": "209号楼车棚",
+      "quantity_scope": "",
+      "confidence": "medium",
+      "notes": "是否联网、计费、接入消防/物业平台未确认。"
+    },
+    {
+      "fact_id": "F031",
+      "theme": "smart_devices",
+      "statement": "2019年10月报道称，小区入口由人脸识别系统把守。",
+      "entity_roles": [
+        "A05:actor",
+        "TECH02:technology",
+        "CAP01:capability",
+        "ACT09:action",
+        "TGT01:target"
+      ],
+      "evidence_ids": [
+        "M05-E01"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2019-10",
+      "space_scope": "社区入口",
+      "quantity_scope": "",
+      "confidence": "low_medium",
+      "notes": "M05为背景材料；与智能门禁可能同一或不同批次。"
+    },
+    {
+      "fact_id": "F032",
+      "theme": "age_friendly",
+      "statement": "社区设置座前扶手、桌椅防撞条、树坑渗水砖等适老化与安全细节。",
+      "entity_roles": [
+        "A05:actor",
+        "TECH08:technology",
+        "ACT08:action",
+        "TGT03:target"
+      ],
+      "evidence_ids": [
+        "M04-E07"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2019—2020",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "",
+      "confidence": "high",
+      "notes": "细节改造，不等同于智慧治理。"
+    },
+    {
+      "fact_id": "F033",
+      "theme": "age_friendly",
+      "statement": "美好会客厅开设手机班，向老人传授智能手机使用技巧。",
+      "entity_roles": [
+        "A05:actor",
+        "ACT07:action",
+        "TGT03:target"
+      ],
+      "evidence_ids": [
+        "M04-E03"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2020",
+      "space_scope": "美好会客厅",
+      "quantity_scope": "",
+      "confidence": "high",
+      "notes": "数字素养服务，不归入智慧治理平台。"
+    },
+    {
+      "fact_id": "F034",
+      "theme": "age_friendly",
+      "statement": "项目方称无障碍体系完善后提高了居民出行频率，并促进室外活动与社交。",
+      "entity_roles": [
+        "A05:actor",
+        "OUT07:outcome",
+        "TGT03:target"
+      ],
+      "evidence_ids": [
+        "M02-E12"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2019—2021",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "",
+      "confidence": "low",
+      "notes": "因果性表述，缺使用数据。"
+    },
+    {
+      "fact_id": "F035",
+      "theme": "smart_label",
+      "statement": "车棚一角的扫码自动面条机被报道称为“既智能又便捷”。",
+      "entity_roles": [
+        "A12:actor",
+        "TECH09:technology",
+        "TGT05:target"
+      ],
+      "evidence_ids": [
+        "M05-E07"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2019",
+      "space_scope": "车棚",
+      "quantity_scope": "",
+      "confidence": "low",
+      "notes": "反映“智能”标签使用宽泛；不纳入智慧治理技术清单。"
+    },
+    {
+      "fact_id": "F036",
+      "theme": "smart_platform",
+      "statement": "2022年5月，愿景和家称HEDATA平台已在劲松北完成智慧社区改造，覆盖居民、物业、街道等多领域服务需求。",
+      "entity_roles": [
+        "A04:actor",
+        "TECH04:technology",
+        "CAP05:capability",
+        "T03:task"
+      ],
+      "evidence_ids": [
+        "M09-E01"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2022-05",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "",
+      "confidence": "low_medium",
+      "notes": "企业方陈述；无功能、覆盖、使用、数据归属与验收材料。"
+    },
+    {
+      "fact_id": "F037",
+      "theme": "smart_label",
+      "statement": "项目方把“智慧社区”列为平安、有序、敬老、宜居、智慧、熟人六个更新维度之一。",
+      "entity_roles": [
+        "A03:actor",
+        "T03:task",
+        "C01:context"
+      ],
+      "evidence_ids": [
+        "M10-E02"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2020",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "六维度之一",
+      "confidence": "medium",
+      "notes": "项目宣传材料，已按G1降为背景。"
+    },
+    {
+      "fact_id": "F038",
+      "theme": "recognition",
+      "statement": "2022年7月，劲松北项目入选北京城市更新“最佳实践”。",
+      "entity_roles": [
+        "A01:actor",
+        "A03:actor",
+        "OUT06:outcome",
+        "T01:task"
+      ],
+      "evidence_ids": [
+        "M11-E01"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2022-07",
+      "space_scope": "北京市",
+      "quantity_scope": "",
+      "confidence": "high",
+      "notes": "官方/媒体报道。"
+    },
+    {
+      "fact_id": "F039",
+      "theme": "governance",
+      "statement": "官方与媒体把劲松模式概括为党建引领、社会资本参与、微利可持续、投资改造管理运营一体。",
+      "entity_roles": [
+        "A03:actor",
+        "T02:task",
+        "C03:context"
+      ],
+      "evidence_ids": [
+        "M03-E04",
+        "M11-E02",
+        "M06-E01"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2020—2022",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "",
+      "confidence": "medium",
+      "notes": "评价性概括；是否实现需运营数据。"
+    },
+    {
+      "fact_id": "F040",
+      "theme": "funding",
+      "statement": "区、街道授权企业对社区存量低效空间改造并享有长期运营权。",
+      "entity_roles": [
+        "A01:actor",
+        "A03:actor",
+        "TGT05:target",
+        "ACT10:action",
+        "T02:task"
+      ],
+      "evidence_ids": [
+        "M03-E05"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2019—2022",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "",
+      "confidence": "high",
+      "notes": "长期运营权的年限、租金、面积与合同条件未给。"
+    },
+    {
+      "fact_id": "F041",
+      "theme": "funding",
+      "statement": "劲松北社区千余平方米低效空间被激活，用于便民业态。",
+      "entity_roles": [
+        "A03:actor",
+        "TGT05:target",
+        "OUT04:outcome",
+        "ACT10:action"
+      ],
+      "evidence_ids": [
+        "M04-E02",
+        "M03-E05"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2019—2021",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "千余平方米",
+      "confidence": "high",
+      "notes": "约数；未给具体面积与租金。"
+    },
+    {
+      "fact_id": "F042",
+      "theme": "funding",
+      "statement": "项目回报来源包括低效空间经营收益、物业费、停车管理费、社区养老等有偿服务和政府购买服务补贴。",
+      "entity_roles": [
+        "A03:actor",
+        "A01:actor",
+        "A11:actor",
+        "T02:task",
+        "TGT05:target"
+      ],
+      "evidence_ids": [
+        "M02-E07",
+        "M03-E05"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2019—2022",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "",
+      "confidence": "medium_high",
+      "notes": "收入结构设计；缺收支数据。"
+    },
+    {
+      "fact_id": "F043",
+      "theme": "funding",
+      "statement": "项目预计10年左右收回投资。",
+      "entity_roles": [
+        "A03:actor",
+        "OUT08:outcome",
+        "T02:task"
+      ],
+      "evidence_ids": [
+        "M02-E07"
+      ],
+      "fact_status": "planned",
+      "time_scope": "2019—2029（测算）",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "10年左右",
+      "confidence": "medium",
+      "notes": "测算/预期，不是已实现结果。"
+    },
+    {
+      "fact_id": "F044",
+      "theme": "funding",
+      "statement": "企业测算改造资金约14年全部收回，并实现微利、可持续经营。",
+      "entity_roles": [
+        "A03:actor",
+        "OUT08:outcome",
+        "T02:task"
+      ],
+      "evidence_ids": [
+        "M05-E05"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2019—2033（测算）",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "14年",
+      "confidence": "low_medium",
+      "notes": "M05为背景材料；与F043的10年不一致。"
+    },
+    {
+      "fact_id": "F045",
+      "theme": "funding",
+      "statement": "社会资本投入自有资金3000万元，占总投入45%。",
+      "entity_roles": [
+        "A03:actor",
+        "T02:task",
+        "C04:context"
+      ],
+      "evidence_ids": [
+        "M03-E02"
+      ],
+      "fact_status": "disputed",
+      "time_scope": "2018—2022",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "3000万元；45%",
+      "confidence": "medium",
+      "notes": "与F046的2.9亿、F047的4000余万口径冲突，未裁定。"
+    },
+    {
+      "fact_id": "F046",
+      "theme": "funding",
+      "statement": "项目方材料称更新规模20万平方米，总投资约2.9亿元。",
+      "entity_roles": [
+        "A03:actor",
+        "T02:task",
+        "C01:context"
+      ],
+      "evidence_ids": [
+        "M10-E01"
+      ],
+      "fact_status": "disputed",
+      "time_scope": "2020",
+      "space_scope": "劲松一区、二区",
+      "quantity_scope": "20万㎡；2.9亿元",
+      "confidence": "low_medium",
+      "notes": "项目宣传材料；与F045/F047冲突。"
+    },
+    {
+      "fact_id": "F047",
+      "theme": "funding",
+      "statement": "2019年报道称二区示范区投入四千余万元。",
+      "entity_roles": [
+        "A03:actor",
+        "T02:task",
+        "C04:context"
+      ],
+      "evidence_ids": [
+        "M05-E06"
+      ],
+      "fact_status": "disputed",
+      "time_scope": "2019",
+      "space_scope": "二区示范区",
+      "quantity_scope": "4000余万元",
+      "confidence": "low",
+      "notes": "M05为背景材料；与F045/F046冲突。"
+    },
+    {
+      "fact_id": "F048",
+      "theme": "governance",
+      "statement": "项目采用“区级统筹、街乡主导、社区协调、居民议事、企业运作”的五方联动机制。",
+      "entity_roles": [
+        "A01:actor",
+        "A02:actor",
+        "A03:actor",
+        "A06:actor",
+        "A07:actor",
+        "ACT11:action",
+        "T02:task"
+      ],
+      "evidence_ids": [
+        "M01-E02",
+        "M02-E06",
+        "M11-E02"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2018—2023",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "五方",
+      "confidence": "high",
+      "notes": "各材料主体表述略有差异。"
+    },
+    {
+      "fact_id": "F049",
+      "theme": "governance",
+      "statement": "区级建立统筹/条块协同，街道依托“街乡吹哨、部门报到”，社区建立党委牵头、居民/物业/企业党支部参与的党建共同体。",
+      "entity_roles": [
+        "A02:actor",
+        "A01:actor",
+        "A06:actor",
+        "A05:actor",
+        "A03:actor",
+        "ACT11:action",
+        "T02:task"
+      ],
+      "evidence_ids": [
+        "M03-E08",
+        "M02-E06"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2018—2023",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "三层",
+      "confidence": "high",
+      "notes": "组织机制事实。"
+    },
+    {
+      "fact_id": "F050",
+      "theme": "participation",
+      "statement": "公园方案根据居民建议调整喷泉池、塑胶跑道与乒乓球区域。",
+      "entity_roles": [
+        "A07:actor",
+        "A09:actor",
+        "ACT12:action",
+        "T05:task"
+      ],
+      "evidence_ids": [
+        "M04-E05"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2019",
+      "space_scope": "劲松大公园",
+      "quantity_scope": "3类调整",
+      "confidence": "high",
+      "notes": "居民参与影响设计的具体例证。"
+    },
+    {
+      "fact_id": "F051",
+      "theme": "participation",
+      "statement": "愿景集团项目总经理称，房子怎么改、哪些行业能入驻，都由居民投票决定。",
+      "entity_roles": [
+        "A03:actor",
+        "A07:actor",
+        "ACT05:action",
+        "ACT12:action",
+        "T05:task"
+      ],
+      "evidence_ids": [
+        "M06-E05"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2019—2020",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "",
+      "confidence": "medium",
+      "notes": "企业方陈述；未给投票范围、票数与结果。"
+    },
+    {
+      "fact_id": "F052",
+      "theme": "governance",
+      "statement": "项目强调“软硬兼顾”、设计—施工—运营一体化。",
+      "entity_roles": [
+        "A03:actor",
+        "T01:task",
+        "T02:task"
+      ],
+      "evidence_ids": [
+        "M02-E08",
+        "M03-E06"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2019—2022",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "",
+      "confidence": "medium_high",
+      "notes": "组织方式事实；效果需另证。"
+    },
+    {
+      "fact_id": "F053",
+      "theme": "context",
+      "statement": "劲松1—8区分为劲松北（1—2区）、劲松东（3—4区）、劲松中（5—6区）、劲松西（7—8区）四个社区。",
+      "entity_roles": [
+        "C01:context",
+        "C04:context"
+      ],
+      "evidence_ids": [
+        "M02-E10"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2021",
+      "space_scope": "劲松1—8区",
+      "quantity_scope": "四个社区",
+      "confidence": "high",
+      "notes": "支持北社区=1—2区的空间边界。"
+    },
+    {
+      "fact_id": "F054",
+      "theme": "governance",
+      "statement": "2018—2020年持续研究形成“一带、两园、三街、四区、多点”的详细规划方案。",
+      "entity_roles": [
+        "A09:actor",
+        "ACT02:action",
+        "T01:task",
+        "C01:target"
+      ],
+      "evidence_ids": [
+        "M02-E04"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2018—2020",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "一带两园三街四区多点",
+      "confidence": "high",
+      "notes": "规划结构事实。"
+    },
+    {
+      "fact_id": "F055",
+      "theme": "funding",
+      "statement": "示范区由社会资本投资先行实施。",
+      "entity_roles": [
+        "A03:actor",
+        "ACT04:action",
+        "T02:task",
+        "C04:context"
+      ],
+      "evidence_ids": [
+        "M02-E11"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2019",
+      "space_scope": "示范区",
+      "quantity_scope": "",
+      "confidence": "high",
+      "notes": "与F004/F045共同说明社会资本进入方式。"
+    },
+    {
+      "fact_id": "F056",
+      "theme": "smart_label",
+      "statement": "报道称劲松北社区“利用智慧科技”改善老年人的宜居体验。",
+      "entity_roles": [
+        "A05:actor",
+        "T03:task",
+        "TGT03:target"
+      ],
+      "evidence_ids": [
+        "M07-E01"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2020-11",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "",
+      "confidence": "low_medium",
+      "notes": "报道标签级表述；后文具体物件为爬楼机、轮椅、智能门禁、坡道。"
+    },
+    {
+      "fact_id": "F057",
+      "theme": "age_friendly",
+      "statement": "爬楼机靠背后方装有两条履带，需在志愿者协助下开启履带开关，帮助老人上下楼。",
+      "entity_roles": [
+        "TECH05:technology",
+        "CAP03:capability",
+        "TGT03:target",
+        "ACT08:action"
+      ],
+      "evidence_ids": [
+        "M07-E02"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2020",
+      "space_scope": "劲松社区",
+      "quantity_scope": "",
+      "confidence": "medium",
+      "notes": "设备使用方式事实；需志愿者协助。"
+    },
+    {
+      "fact_id": "F058",
+      "theme": "funding",
+      "statement": "政府基础类项目由市区财政资金改造，自选类及其他提升经费由愿景集团自有资金投入；通过居民双过半投票引入愿景物业。",
+      "entity_roles": [
+        "A11:actor",
+        "A03:actor",
+        "A05:actor",
+        "ACT05:action",
+        "T02:task"
+      ],
+      "evidence_ids": [
+        "M10-E03"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2018—2020",
+      "space_scope": "劲松北社区",
+      "quantity_scope": "",
+      "confidence": "medium_high",
+      "notes": "M10为背景项目材料；资金分工可与M02/M03互证，金额不互证。"
+    }
+  ]
+}

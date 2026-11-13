@@ -1,0 +1,24 @@
+{
+  "packetId": "RP-C13-G6-v1.0",
+  "supersedes": "RP-C13-G6-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G6",
+  "caseId": "C13",
+  "decidedAt": "2026-11-13",
+  "researcherDecision": {
+    "action": "accept",
+    "rationale": "接受建议",
+    "allowFreeze": true
+  },
+  "applied": [
+    {"id": "G6-01", "action": "supplement", "target": "R085"},
+    {"id": "G6-02", "action": "supplement", "target": "R086"},
+    {"id": "G6-03", "action": "supplement", "target": "R087"},
+    {"id": "G6-04", "action": "modify", "target": "R038", "change": "使用→参照"},
+    {"id": "G6-05", "action": "delete", "target": "R035"},
+    {"id": "G6-06", "action": "modify", "target": "R025", "change": "actor→capability"}
+  ],
+  "frozenRelationCount": 86,
+  "frozenArtifacts": ["relations.json v2.0", "relations.md v2.0"],
+  "historyPreserved": ["relations_v1.0.json", "relations_v1.0.md", "RP-C13-G6-v0.1"]
+}

@@ -1,0 +1,51 @@
+{
+  "packet_id": "RP-C15-G2-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G2",
+  "case_id": "C15",
+  "scope": "Evidence extraction from nine Chunjiang materials with locators and verbatim spans",
+  "generated_at": "2026-11-13",
+  "status": "awaiting_researcher_decision",
+  "evidence_count": 72,
+  "by_material": {
+    "M01": 7,
+    "M02": 4,
+    "M03": 6,
+    "M04": 10,
+    "M05": 6,
+    "M06": 6,
+    "M07": 7,
+    "M08": 12,
+    "M09": 14
+  },
+  "quote_validation": "72/72 non-ellipsis segments matched extracted text verbatim",
+  "conflicts": [
+    "M03 describes active Chunjiang scenarios while M04 says the smart system is under pilot",
+    "M08-E01 'second half of this year' and M08-E03 'May 2023 launch' may refer to different events",
+    "M08 headline 'four lists' conflicts with body 'four orders'; M09 defines four lists as problem/resource/topic/project",
+    "M04-E04 409 charging spaces are for five communities, not Chunjiang alone",
+    "M09-E08 96% resolution rate has no denominator or period",
+    "M08-E09 122 services are a content list, not usage",
+    "M01 is prehistory and M09 is a 2024-02 follow-up; neither automatically enters the 2021 core action chain"
+  ],
+  "decisions_required": [
+    "Accept 72 evidence items as the G2 baseline, or identify items to delete or merge",
+    "Confirm that M04-E09, M04-E10, M08-E12, M09-E08 and M09-E12 retain planned/pilot/reported modality",
+    "Keep M02-E03 and M03-E06 as cross-source corroboration rather than merging at G2",
+    "Keep M01 and M06 evidence as prehistory/process background without automatic entry into core digital relations",
+    "Accept verified syndicated copies with original pages pending and proceed to G3"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_historical_case_review": false,
+    "note": "Check micro-grid, platform and event-handling concept boundaries with C04, C05 and C09 after G5/G6."
+  },
+  "researcher_decision": {
+    "action": null,
+    "rationale": null,
+    "modified_content": null,
+    "allow_next_gate": null,
+    "decided_at": null
+  }
+}

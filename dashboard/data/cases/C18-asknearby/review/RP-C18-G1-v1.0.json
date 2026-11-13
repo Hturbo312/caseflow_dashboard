@@ -1,0 +1,21 @@
+{
+  "packetId": "RP-C18-G1-v1.0",
+  "supersedes": "RP-C18-G1-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G1",
+  "caseId": "C18",
+  "decidedAt": "2026-11-13",
+  "researcherDecision": {
+    "action": "accept",
+    "rationale": "G1同意；全部材料纳入，按事件簇处理，名称暂不合并，按核心/扩展/背景定位。",
+    "modifiedContent": "M01-M07全部纳入；M07仅作低权重背景；M02-M04与M05-M07按事件簇处理。",
+    "allowNextGate": true
+  },
+  "frozenArtifacts": ["materials.md v1.0", "materials.json v1.0", "RP-C18-G1-v1.0"],
+  "openIssues": [
+    "APP/小程序是否为同一客户端或技术版本",
+    "20万元资助的受助项目组合与奖项层级",
+    "南头古城试点的独立材料",
+    "2025-11之后的持续运行证据"
+  ]
+}

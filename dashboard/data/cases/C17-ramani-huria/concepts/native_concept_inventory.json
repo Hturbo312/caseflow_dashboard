@@ -1,0 +1,287 @@
+{
+ "caseId": "C17",
+  "version": "v1.0",
+  "status": "confirmed",
+ "generatedAt": "2026-11-13",
+ "concepts": [
+  {
+   "id": "NC-C17-01",
+   "label": "社区洪泛记忆的空间转译",
+   "labelEn": "Spatial translation of community flood memory",
+   "entityType": "capability",
+   "definition": "把社区对常年洪水与 2011 年大水的记忆、深度经验，经社区论坛讨论、描图纸勾绘与数字化，转为可入库、可制图的洪泛范围几何。",
+   "examples": [
+    "21 个社区 ward 的洪泛范围勾绘",
+    "Vingunguti 开场论坛讨论淹水区域",
+    "社区报告 0.5—5 米淹水深度"
+   ],
+   "sourceRelationIds": [
+    "R047",
+    "R048",
+    "R049"
+   ],
+   "frequency": 3,
+   "preliminaryMatches": [
+    "SC-C01-141(partial_or_approximate)",
+    "SC-C01-143(partial_or_approximate)",
+    "SC-C01-151(partial_or_approximate)"
+   ],
+   "boundaryQuestions": [
+    "与一般“居民提交意见”的区别在于空间化与可建模性；是否应单独成为共享候选？"
+   ]
+  },
+  {
+   "id": "NC-C17-02",
+   "label": "大学—社区联合外业制图",
+   "labelEn": "University-community joint field mapping",
+   "entityType": "action",
+   "definition": "由大学学生（督导制）与社区成员、红十字志愿者、ward 官员共同完成的 ward 级外业采集组织方式。",
+   "examples": [
+    "150 名学生与 15 名督导",
+    "红十字两组各 10 人参与 Vingunguti",
+    "两周完成 Vingunguti 全 ward"
+   ],
+   "sourceRelationIds": [
+    "R017",
+    "R023",
+    "R032",
+    "R033",
+    "R035"
+   ],
+   "frequency": 5,
+   "preliminaryMatches": [
+    "SC-C01-151(native_hyponym)",
+    "SC-C01-158(partial_or_approximate)"
+   ],
+   "boundaryQuestions": [
+    "是否包含培训环节？本盘点把培训单列为 NC-C17-03。"
+   ]
+  },
+  {
+   "id": "NC-C17-03",
+   "label": "产业实习式制图能力建设",
+   "labelEn": "Industrial-internship mapping capacity building",
+   "entityType": "action",
+   "definition": "以大学产业实习或暑期学校形式，把制图、GIS、ODK 等技能训练嵌入真实项目交付，形成可替换的学生制图队伍。",
+   "examples": [
+    "2018 年 7 周、450+ 学生",
+    "2020 年 200 名学生",
+    "两个月实习加小额补贴"
+   ],
+   "sourceRelationIds": [
+    "R022",
+    "R073",
+    "R093"
+   ],
+   "frequency": 3,
+   "preliminaryMatches": [
+    "SC-C01-158(native_hyponym)"
+   ],
+   "boundaryQuestions": [
+    "与一般培训的差别在“真实项目交付 + 学分/实习制度”，是否构成独立概念？"
+   ]
+  },
+  {
+   "id": "NC-C17-04",
+   "label": "开放地图数据生产与发布",
+   "labelEn": "Open map data production and release",
+   "entityType": "task",
+   "definition": "把外业数据编辑入 OpenStreetMap，按开放许可发布，并以在线或印刷地图回馈 ward 政府与公众。",
+   "examples": [
+    "65 个 ward 数据进入 OSM",
+    "2016 年图集",
+    "印刷地图交付 ward"
+   ],
+   "sourceRelationIds": [
+    "R050",
+    "R051",
+    "R052"
+   ],
+   "frequency": 3,
+   "preliminaryMatches": [
+    "SC-C01-123(partial_or_approximate)",
+    "SC-C01-134(partial_or_approximate)"
+   ],
+   "boundaryQuestions": [
+    "强调开放数据而非平台建设；是否与“数字平台与数据治理任务”区分？"
+   ]
+  },
+  {
+   "id": "NC-C17-05",
+   "label": "标准化排水网络数据模型",
+   "labelEn": "Standardized drainage network data model",
+   "entityType": "technology",
+   "definition": "规定排水段几何、尺寸、材质、连接与检查井等属性的数据模型，使分散采集可拼成拓扑连通的网络。",
+   "examples": [
+    "Kijitonyama 532 段排水",
+    "36 段断连检查",
+    "排水属性完整性检查"
+   ],
+   "sourceRelationIds": [
+    "R067",
+    "R068",
+    "R100"
+   ],
+   "frequency": 3,
+   "preliminaryMatches": [
+    "SC-C01-164(partial_or_approximate)"
+   ],
+   "boundaryQuestions": [
+    "它是 schema + 拓扑规则，不只是“数据记录”；是否需要新候选？"
+   ]
+  },
+  {
+   "id": "NC-C17-06",
+   "label": "低成本移动采集工具组合",
+   "labelEn": "Low-cost mobile data collection toolkit",
+   "entityType": "technology",
+   "definition": "以智能手机加免费应用（ODK、OSM Tracker）与低成本 GPS/双频接收机替代专业设备的采集组合。",
+   "examples": [
+    "ODK 采集 20,392 个垃圾点",
+    "u-blox 双频接收机 PPP 控制点",
+    "eTrex 30 与 OSM Tracker"
+   ],
+   "sourceRelationIds": [
+    "R028",
+    "R029",
+    "R030",
+    "R031",
+    "R074",
+    "R092",
+    "R106"
+   ],
+   "frequency": 6,
+   "preliminaryMatches": [
+    "SC-C01-134(partial_or_approximate)"
+   ],
+   "boundaryQuestions": [
+    "组合概念，不应整体映射到单一“通信基础设施”；是否拆为设备与应用两条？"
+   ]
+  },
+  {
+   "id": "NC-C17-07",
+   "label": "洪水模型验证与迭代",
+   "labelEn": "Flood model validation and iteration",
+   "entityType": "action",
+   "definition": "用社区记录的洪水范围/水深与观测点校验水动力模型，并据定位误差与拓扑断连修正数据与模型。",
+   "examples": [
+    "44 个验证点",
+    "12/532 段定位错误（2.25%）",
+    "36/532 段断连（6.8%）"
+   ],
+   "sourceRelationIds": [
+    "R101",
+    "R102",
+    "R103",
+    "R104"
+   ],
+   "frequency": 4,
+   "preliminaryMatches": [
+    "SC-C01-143(partial_or_approximate)",
+    "SC-C01-159(partial_or_approximate)"
+   ],
+   "boundaryQuestions": [
+    "它是模型验证，不是项目监测评估；与 SC-C01-159 的边界需澄清。"
+   ]
+  },
+  {
+   "id": "NC-C17-08",
+   "label": "项目能力的组织化承接",
+   "labelEn": "Organizational absorption of project capacity",
+   "entityType": "outcome",
+   "definition": "项目结束时把数据、工具、教材与培训体系移交大学联盟或本地机构，使能力以组织形式延续。",
+   "examples": [
+    "2019 年移交 Tanzania Resilience Academy",
+    "RA 继承数据集与教材",
+    "OMDTZ 成立并承接能力"
+   ],
+   "sourceRelationIds": [
+    "R081",
+    "R086",
+    "R089"
+   ],
+   "frequency": 3,
+   "preliminaryMatches": [
+    "SC-C01-176(native_hyponym)",
+    "SC-C01-175(partial_or_approximate)"
+   ],
+   "boundaryQuestions": [
+    "与“项目退出/终止”不同，强调承接主体与资产转移。"
+   ]
+  },
+  {
+   "id": "NC-C17-09",
+   "label": "跨城市方法复制",
+   "labelEn": "Cross-city method replication",
+   "entityType": "action",
+   "definition": "把达累斯萨拉姆形成的社区制图流程复制到另一城市（Mwanza），并按当地灾种与地形调整。",
+   "examples": [
+    "Mwanza 五个月、79 名学生",
+    "1.5 万洪泛点与 1700 段排水",
+    "增加落石灾种"
+   ],
+   "sourceRelationIds": [
+    "R095",
+    "R097",
+    "R098"
+   ],
+   "frequency": 3,
+   "preliminaryMatches": [
+    "SC-C01-176(partial_or_approximate)"
+   ],
+   "boundaryQuestions": [
+    "单案例概念，可能保留 no_map；是否应并入“组织能力与可复制成果”？"
+   ]
+  },
+  {
+   "id": "NC-C17-10",
+   "label": "社区资产—威胁盘点会议",
+   "labelEn": "Community asset-threat inventory meeting",
+   "entityType": "action",
+   "definition": "以约 11 人的社区会议、三组并行讨论、印刷地图与描图纸识别 subward 资产与威胁，并产出行动地图与报告。",
+   "examples": [
+    "228 个 subward 的资产—威胁制图",
+    "每组由两名学生主持",
+    "报告与行动地图成对交付"
+   ],
+   "sourceRelationIds": [
+    "R075",
+    "R076",
+    "R077",
+    "R078"
+   ],
+   "frequency": 4,
+   "preliminaryMatches": [
+    "SC-C01-151(native_hyponym)",
+    "SC-C01-173(partial_or_approximate)"
+   ],
+   "boundaryQuestions": [
+    "与洪泛范围勾绘（NC-01）不同：对象是资产/威胁清单，不是淹没几何。"
+   ]
+  },
+  {
+   "id": "NC-C17-11",
+   "label": "数据稀缺条件下的洪涝风险",
+   "labelEn": "Flood risk under data scarcity",
+   "entityType": "context",
+   "definition": "快速扩张与非正规住区叠加排水、地形与基础地图数据缺失，使城市洪水风险难以评估与规划。",
+   "examples": [
+    "基础地图老化",
+    "非正规住区占比高",
+    "排水与地形数据缺失制约建模"
+   ],
+   "sourceRelationIds": [
+    "R001",
+    "R002"
+   ],
+   "frequency": 2,
+   "preliminaryMatches": [
+    "SC-C01-101(partial_or_approximate)",
+    "SC-C01-104(partial_or_approximate)"
+   ],
+   "boundaryQuestions": [
+    "既有共享层的 context 偏重物质/制度/成本约束，未覆盖“数据稀缺”；是否新增候选？"
+   ]
+  }
+ ]
+}

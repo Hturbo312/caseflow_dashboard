@@ -1,0 +1,52 @@
+{
+  "packet_id": "RP-C19-L2-G2-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G2",
+  "case_id": "C19",
+  "scope": "C19 原生概念到现有共享概念的映射与单案例候选",
+  "generated_at": "2026-11-13",
+  "status": "pending",
+  "counts": {
+    "native_concepts": 25,
+    "mappings": 40,
+    "native_hyponym": 24,
+    "partial_or_approximate": 14,
+    "no_map": 2,
+    "semantic_equivalent": 0,
+    "new_single_case_candidates": 13,
+    "existing_shared_concepts_touched": 14
+  },
+  "candidates": [
+    {"id": "SC-C19-101", "label": "本地参与协调者", "type": "actor", "native": "NC-C19-01"},
+    {"id": "SC-C19-102", "label": "生成式 AI 参与式可视化", "type": "technology", "native": "NC-C19-02"},
+    {"id": "SC-C19-103", "label": "公共艺术与地方叙事载体", "type": "target", "native": "NC-C19-11"},
+    {"id": "SC-C19-104", "label": "太阳能公共设施", "type": "technology", "native": "NC-C19-13"},
+    {"id": "SC-C19-105", "label": "社区商业锚点建筑", "type": "target", "native": "NC-C19-14"},
+    {"id": "SC-C19-106", "label": "土地银行主导的门户再开发主体", "type": "actor", "native": "NC-C19-16"},
+    {"id": "SC-C19-107", "label": "留居型住宅修缮资助", "type": "outcome", "native": "NC-C19-17"},
+    {"id": "SC-C19-108", "label": "社区更新授权争议", "type": "context", "native": "NC-C19-18"},
+    {"id": "SC-C19-109", "label": "多源公共资金拼装", "type": "action", "native": "NC-C19-19"},
+    {"id": "SC-C19-110", "label": "项目制更新团队", "type": "actor", "native": "NC-C19-21"},
+    {"id": "SC-C19-111", "label": "场所营造与住房再开发互补", "type": "task", "native": "NC-C19-22"},
+    {"id": "SC-C19-112", "label": "跨市边界更新区", "type": "context", "native": "NC-C19-23"},
+    {"id": "SC-C19-113", "label": "本地知识动员能力", "type": "capability", "native": "NC-C19-25"}
+  ],
+  "no_map": [
+    {"native": "NC-C19-13", "existing": "SC-C01-135", "reason": "住宅能源 vs 公共太阳能亭/线性公园"},
+    {"native": "NC-C19-23", "existing": "SC-C01-165", "reason": "产权/参与范围 vs 跨市空间边界"}
+  ],
+  "decisions_requested": [
+    "Accept 40 mappings",
+    "Keep 13 single-case candidates (or downgrade 105/106/108)",
+    "Accept NC-C19-01 dual mapping to SC-C16-201 + SC-C19-101",
+    "G3 only appends C19 native IDs to 14 existing concepts",
+    "Historical review scope C01-C16",
+    "Keep 2 no_map plus candidates"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": true,
+    "affects_historical_mappings": false,
+    "triggers_case_review": true,
+    "scope": "14 existing SCs; append native IDs only"
+  }
+}

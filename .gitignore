@@ -1,7 +1,15 @@
 node_modules/
 dist/
-dashboard/data/
 .codegraph/
 /_*
 .DS_Store
 *.log
+dashboard/data/_backup/
+dashboard/data/_scratch/
+dashboard/data/**/_scratch/
+dashboard/data/**/_candidates/
+dashboard/data/**/__pycache__/
+dashboard/data/*.db-shm
+dashboard/data/*.db-wal
+dashboard/data/*.log
+dashboard/data/*.png

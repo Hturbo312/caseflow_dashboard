@@ -1,0 +1,19 @@
+{
+  "caseId": "C18",
+  "fromOntologyVersion": "V4",
+  "toOntologyVersion": "V4",
+  "generatedAt": "2026-11-13",
+  "status": "final",
+  "entityTypeChanges": 0,
+  "relationTypeChanges": 0,
+  "coreTypeChanges": [],
+  "caseLayerDelta": {
+    "nativeConceptsAdded": 10,
+    "mappingsAdded": 16,
+    "activeCandidatesAdded": 7,
+    "heldCandidates": 1,
+    "supportAdditions": 6
+  },
+  "reason": "C18只新增案例原生概念、单案候选和既有概念支持，不需要修改八类核心实体定义。",
+  "releasedAt": "2026-11-13"
+}

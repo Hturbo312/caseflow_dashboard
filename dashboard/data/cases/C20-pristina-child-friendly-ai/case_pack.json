@@ -1,0 +1,140 @@
+{
+  "case_id": "C20",
+  "case_name_zh": "普里什蒂纳儿童友好公共空间人工智能共创",
+  "case_name_en": "Co-designing Child-Friendly Public Spaces with Children Using AI in Prishtinë/Priština",
+  "case_pack_version": "v1.0",
+  "status": "final",
+  "evidence_cutoff": "2026-11-13",
+  "generated_at": "2026-11-13",
+  "counts": {
+    "materials": 13,
+    "evidence": 43,
+    "processes": 7,
+    "entities": 39,
+    "facts": 47,
+    "relation_candidates": 55,
+    "frozen_relations": 54,
+    "open_relations": 1,
+    "native_concept_candidates": 5,
+    "shared_concepts": 0
+  },
+  "frozen_relation_status_counts": {
+    "implemented": 24,
+    "reported_or_opinion": 27,
+    "planned": 3
+  },
+  "boundary": {
+    "core_period": "2023",
+    "observation_period": "2023-09 to 2026-11-13",
+    "city": "Prishtinë/Priština, Kosovo",
+    "sites": ["主邮局附近空间", "City Park", "Park of Taukbahce"],
+    "excluded": ["Blloku 1", "Kosovo Architecture Festival", "HK1", "其他CEF城市", "UrbanistAI其他项目", "UTI公交优先行动"]
+  },
+  "frozen_relation_ids": [
+    "R001","R002","R003","R004","R005","R006","R007","R008","R009","R010",
+    "R011","R012","R013","R014","R015","R016","R017","R018","R019","R020",
+    "R021","R022","R023","R024","R025","R026","R027","R028","R029","R030",
+    "R031","R032","R033","R035","R036","R037","R039","R040","R041","R042",
+    "R043","R044","R045","R046","R047","R048","R049","R050","R051","R052",
+    "R053","R054","R055","R056"
+  ],
+  "open_relation_ids": ["R038"],
+  "files": {
+    "case_scope": "case_scope.md",
+    "materials_md": "materials.md",
+    "materials_json": "materials.json",
+    "evidence_md": "evidence.md",
+    "evidence_json": "evidence.json",
+    "process_md": "process.md",
+    "process_json": "process.json",
+    "entities_json": "entities.json",
+    "facts_md": "facts.md",
+    "facts_json": "facts.json",
+    "relations_md": "relations.md",
+    "relations_json": "relations.json",
+    "frozen_relations_md": "relations_frozen_v0.2.md",
+    "frozen_relations_json": "relations_frozen_v0.2.json",
+    "review_log": "review/decision-log.md"
+  },
+  "native_concept_candidates": [
+    {
+      "native_concept_id": "NC-C20-001",
+      "label": "儿童主导的AI辅助公共空间共创",
+      "entity_type": "action",
+      "definition": "儿童在facilitator支持下使用AI平台生成/可视化空间想法，并由专业设计师转译为方案。",
+      "source_relation_ids": ["R014","R016","R020","R021","R023","R024","R025","R029","R031","R032","R056"],
+      "evidence_ids": ["M01-E03","M01-E09","M03-E01","M10-E02","M11-E01"],
+      "status": "candidate_for_L2"
+    },
+    {
+      "native_concept_id": "NC-C20-002",
+      "label": "儿童地方知识转译",
+      "entity_type": "action",
+      "definition": "儿童的安全、隐私、绿色社交需求被带入选址、愿景与设计转译。",
+      "source_relation_ids": ["R003","R004","R056"],
+      "evidence_ids": ["M01-E05","M01-E06","M01-E07","M01-E09"],
+      "status": "candidate_for_L2"
+    },
+    {
+      "native_concept_id": "NC-C20-003",
+      "label": "分阶段实施与许可",
+      "entity_type": "action",
+      "definition": "从方案定稿到启动、采购、许可与地点实施的阶段化过程；状态不等同于建成。",
+      "source_relation_ids": ["R036","R037","R039","R040","R041","R042"],
+      "evidence_ids": ["M01-E11","M03-E02","M03-E03","M04-E01"],
+      "status": "candidate_for_L2"
+    },
+    {
+      "native_concept_id": "NC-C20-004",
+      "label": "多机构共创安排",
+      "entity_type": "action",
+      "definition": "UNDP CEF/HK2、市政府部门、NGO、供应商与儿童代表机构的角色分工。",
+      "source_relation_ids": ["R005","R006","R007","R008","R009","R010","R011","R012","R013","R014","R015","R052","R053","R054","R055"],
+      "evidence_ids": ["M01-E02","M01-E03","M01-E14","M01-E15","M03-E01"],
+      "status": "candidate_for_L2"
+    },
+    {
+      "native_concept_id": "NC-C20-005",
+      "label": "AI平台的多重指称与机构边界",
+      "entity_type": "technology",
+      "definition": "UrbanistAI / Urbanist AI / AI platform / CoPlanAI / Space SyntaKs 的名称、品牌与实体边界，以及“平台—能力—行动”的区分。",
+      "source_relation_ids": ["R029","R030","R031","R033"],
+      "evidence_ids": ["M03-E01","M08-E04","M10-E01","M11-E01"],
+      "status": "candidate_for_L2"
+    }
+  ],
+  "open_questions": [
+    "R038许可主体未明确；不纳入冻结集合",
+    "3份方案—2个批准设计—3个地点—2个空间—1个公园更新的对应关系",
+    "1个公园更新的具体位置",
+    "两份设计是否全部建成、开放或使用",
+    "AI提示词/生成图像/模型版本/儿童修改记录",
+    "儿童对过程、AI工具与成品的直接反馈（评估未开展儿童焦点小组）",
+    "参与者年龄10–17岁 vs 11–17岁的口径冲突（F047 disputed）",
+    "共创过程的具体起始月份",
+    "9场工作坊的日期、地点、议程、签到、参与者构成",
+    "UTI是否就是本案三个地点的实施主体、是否完成10+空间里程碑",
+    "地方媒体/市政府独立报道"
+  ],
+  "review_records": [
+    {"gate": "G0", "packet_id": "RP-C20-G0-v0.1", "decision": "accept", "date": "2026-11-13"},
+    {"gate": "G1", "packet_id": "RP-C20-G1-v0.1", "decision": "accept", "date": "2026-11-13"},
+    {"gate": "G2", "packet_id": "RP-C20-G2-v0.1", "decision": "accept", "date": "2026-11-13"},
+    {"gate": "G3", "packet_id": "RP-C20-G3-v0.1", "decision": "accept", "date": "2026-11-13"},
+    {"gate": "G4", "packet_id": "RP-C20-G4-v0.1", "decision": "accept", "date": "2026-11-13"},
+    {"gate": "G5", "packet_id": "RP-C20-G5-v0.1", "decision": "accept", "date": "2026-11-13"},
+    {"gate": "G6", "packet_id": "RP-C20-G6-v0.1", "decision": "accept_and_freeze", "date": "2026-11-13", "frozen": 54, "open": ["R038"]}
+  ],
+  "handoff_to_L2": {
+    "native_entities_file": "entities.json",
+    "native_relations_file": "relations.json",
+    "frozen_relation_ids_source": "relations.json#frozen_relation_ids",
+    "open_relation_ids": ["R038"],
+    "native_concept_candidates": ["NC-C20-001","NC-C20-002","NC-C20-003","NC-C20-004","NC-C20-005"],
+    "evidence_pointer_files": ["evidence.json","facts.json","relations.json","process.json"],
+    "review_record_files": ["review/decision-log.md","review/RP-C20-G0-v0.1.md","review/RP-C20-G1-v0.1.md","review/RP-C20-G2-v0.1.md","review/RP-C20-G3-v0.1.md","review/RP-C20-G4-v0.1.md","review/RP-C20-G5-v0.1.md","review/RP-C20-G6-v0.1.md"],
+    "shared_concepts_confirmed": [],
+    "concept_mappings": [],
+    "note": "本skill不确认共享概念；C20与C19都使用UrbanistAI，是否形成共享概念候选由L2判断。"
+  }
+}

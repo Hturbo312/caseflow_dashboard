@@ -1,0 +1,22 @@
+{
+  "packetId": "RP-C16-G0-v1.0",
+  "supersedes": "RP-C16-G0-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G0",
+  "caseId": "C16",
+  "decidedAt": "2026-11-13",
+  "researcherDecision": {
+    "action": "accept",
+    "rationale": "G0 按推荐通过",
+    "modifiedContent": null,
+    "allowNextGate": true
+  },
+  "frozenArtifacts": ["case_scope.md v1.0", "RP-C16-G0-v1.0"],
+  "changes": [],
+  "openIssues": [
+    "起点日期口径需在 G2 拆分",
+    "RISE:NYC 拨款金额缺一手文件",
+    "2019 年移交仅有单一来源",
+    "2018 年后节点清单与访问数据缺失"
+  ]
+}

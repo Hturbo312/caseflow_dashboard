@@ -1,0 +1,53 @@
+{
+  "packet_id": "RP-C15-G6-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G6",
+  "case_id": "C15",
+  "scope": "Relation audit for duplicates, omissions, direction, predicates and status",
+  "generated_at": "2026-11-13",
+  "status": "awaiting_researcher_decision",
+  "before_count": 101,
+  "after_count": 122,
+  "actions": {
+    "unchanged": 99,
+    "modified": 2,
+    "added": 21,
+    "deleted": 0
+  },
+  "status_counts": {
+    "implemented": 107,
+    "reported_or_opinion": 15
+  },
+  "modifications": [
+    {"relation_id": "R012", "change": "predicate 产生 -> 构成", "reason": "N04 is part of O01, not an independent completion action"},
+    {"relation_id": "R064", "change": "note clarified", "reason": "launch action and launch state are two sides of the same event"}
+  ],
+  "additions": ["R102", "R103", "R104", "R105", "R106", "R107", "R108", "R109", "R110", "R111", "R112", "R113", "R114", "R115", "R116", "R117", "R118", "R119", "R120", "R121", "R122"],
+  "unresolved": [
+    "G06 combines Chunjiang alley and pavilion; R009 only refers to the alley",
+    "No relation between 2021 smart application system and 2023 Smart Chunjiang",
+    "No formal relation among autonomous team, self-management team and micro-grid",
+    "Platform developer/vendor/operator absent",
+    "47 predicates contain near-synonym groups"
+  ],
+  "decisions_required": [
+    "Accept 21 additions R102-R122",
+    "Accept R012 predicate change and R064 note",
+    "Keep 47 predicates and record near-synonym groups without normalization",
+    "Do not split G06 in G6; list it as unresolved",
+    "Freeze 122 relations and generate case_pack"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_historical_case_review": false,
+    "note": "After freeze, check C04, C05 and C09 concept boundaries without changing their native knowledge."
+  },
+  "researcher_decision": {
+    "action": null,
+    "rationale": null,
+    "modified_content": null,
+    "allow_freeze_and_case_pack": null,
+    "decided_at": null
+  }
+}

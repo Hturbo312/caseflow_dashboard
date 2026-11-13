@@ -1,0 +1,78 @@
+{
+  "packetId": "RP-C18-G4-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G4",
+  "caseId": "C18",
+  "scope": "原子事实识别与实体角色",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher",
+  "counts": {
+    "facts": 56,
+    "entities": 83,
+    "entityTypes": {
+      "context": 6,
+      "actor": 12,
+      "task": 7,
+      "technology": 12,
+      "capability": 9,
+      "action": 14,
+      "target": 7,
+      "outcome": 16
+    },
+    "factStatus": {
+      "implemented": 9,
+      "reported_or_opinion": 41,
+      "planned": 3,
+      "disputed": 3
+    }
+  },
+  "processed": [
+    "56条原子事实",
+    "83个实体",
+    "实体类别与角色",
+    "时间空间数量限定"
+  ],
+  "notProcessed": [
+    "G5关系编码",
+    "G6关系审校"
+  ],
+  "conflicts": [
+    "F042-F044受助项目组合与奖项层级不一致",
+    "APP与小程序暂分列",
+    "研究团队与方元问问团队暂不合并",
+    "南头过程无时间窗"
+  ],
+  "gaps": [
+    "平台版本、客户端、下载页与后台日志",
+    "南头管理方与试运行时间",
+    "指标分母、基线与原始数据",
+    "2025-11之后的持续运行证据"
+  ],
+  "decisionsRequired": [
+    "是否接受56条事实与83个实体",
+    "是否确认事实状态分布",
+    "是否确认APP/小程序、研究团队/项目团队分列",
+    "是否确认E35并入F029"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false,
+    "note": "新增C18事实与实体，不修改C01-C17"
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": null,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "version": "v0.1",
+  "openIssues": [
+    "全量确认",
+    "状态分布",
+    "身份拆分",
+    "E35合并"
+  ]
+}

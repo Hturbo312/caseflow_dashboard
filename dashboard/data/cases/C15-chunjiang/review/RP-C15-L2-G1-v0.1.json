@@ -1,0 +1,51 @@
+{
+  "packet_id": "RP-C15-L2-G1-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G1",
+  "case_id": "C15",
+  "scope": "Native concept inventory by eight entity types, with definitions, examples, source relations, frequencies and boundary questions",
+  "generated_at": "2026-11-13",
+  "status": "awaiting_researcher_decision",
+  "native_node_count": 109,
+  "salient_concept_count": 14,
+  "concepts_by_type": {
+    "context": 1,
+    "actor": 3,
+    "task": 1,
+    "technology": 4,
+    "capability": 1,
+    "action": 2,
+    "target": 2,
+    "outcome": 0
+  },
+  "boundary_issues": [
+    "NC-C15-01 minimum management unit: context vs task",
+    "NC-C15-02 2021 system and NC-C15-03 2023 mini-program: separate, relationship unknown",
+    "NC-C15-04 four orders: action vs capability",
+    "NC-C15-05 four lists: target vs outcome",
+    "NC-C15-07/08/09 micro-grid, Gelixiang and self-management team: separate, formal relations unknown",
+    "NC-C15-10 pavilion: target vs outcome",
+    "NC-C15-11 Beautiful Homeland phases I and II combined; may need split",
+    "Capabilities C01/C05-C07/C08/C10 not separately listed as native concepts"
+  ],
+  "decisions_required": [
+    "Accept 14 salient native concepts as the L2-G1 inventory",
+    "Confirm 109 entities are full native nodes and 14 are salient concepts for mapping",
+    "Confirm entity types for minimum management unit, four orders, four lists and pavilion",
+    "Decide whether to split Beautiful Homeland phases I and II",
+    "Confirm separate treatment of 2021 system/2023 platform, micro-grid/Gelixiang/self-management team, and three meetings/four orders"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_historical_case_review": false,
+    "note": "L2-G2 will search SC-C01-121, SC-C01-132, SC-C01-144, SC-C01-156, SC-C01-152, SC-C01-131 and SC-C01-114."
+  },
+  "researcher_decision": {
+    "action": null,
+    "rationale": null,
+    "modified_content": null,
+    "allow_next_gate": null,
+    "decided_at": null
+  }
+}

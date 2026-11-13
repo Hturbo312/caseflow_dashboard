@@ -1,0 +1,40 @@
+{
+  "packetId": "RP-C17-L2-G1-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G1",
+  "caseId": "C17",
+  "scope": "按八类实体整理原生概念、定义、示例、来源关系与边界",
+  "generatedAt": "2026-11-13",
+  "status": "accepted_by_researcher",
+  "counts": {"concepts": 11, "byType": {"action": 5, "technology": 2, "capability": 1, "task": 1, "outcome": 1, "context": 1}},
+  "candidates": [
+    {"id":"NC-C17-01","label":"社区洪泛记忆的空间转译","type":"capability","frequency":3,"relations":["R047","R048","R049"],"suggestedAction":"accept"},
+    {"id":"NC-C17-02","label":"大学—社区联合外业制图","type":"action","frequency":5,"relations":["R017","R023","R032","R033","R035"],"suggestedAction":"accept"},
+    {"id":"NC-C17-03","label":"产业实习式制图能力建设","type":"action","frequency":3,"relations":["R022","R073","R093"],"suggestedAction":"accept"},
+    {"id":"NC-C17-04","label":"开放地图数据生产与发布","type":"task","frequency":3,"relations":["R050","R051","R052"],"suggestedAction":"accept"},
+    {"id":"NC-C17-05","label":"标准化排水网络数据模型","type":"technology","frequency":3,"relations":["R067","R068","R100"],"suggestedAction":"accept"},
+    {"id":"NC-C17-06","label":"低成本移动采集工具组合","type":"technology","frequency":6,"relations":["R028","R029","R030","R031","R074","R092","R106"],"suggestedAction":"accept"},
+    {"id":"NC-C17-07","label":"洪水模型验证与迭代","type":"action","frequency":4,"relations":["R101","R102","R103","R104"],"suggestedAction":"accept"},
+    {"id":"NC-C17-08","label":"项目能力的组织化承接","type":"outcome","frequency":3,"relations":["R081","R086","R089"],"suggestedAction":"accept"},
+    {"id":"NC-C17-09","label":"跨城市方法复制","type":"action","frequency":3,"relations":["R095","R097","R098"],"suggestedAction":"accept"},
+    {"id":"NC-C17-10","label":"社区资产—威胁盘点会议","type":"action","frequency":4,"relations":["R075","R076","R077","R078"],"suggestedAction":"accept"},
+    {"id":"NC-C17-11","label":"数据稀缺条件下的洪涝风险","type":"context","frequency":2,"relations":["R001","R002"],"suggestedAction":"accept"}
+  ],
+  "overlaps": [
+    {"pair":["NC-C17-01","NC-C17-10"],"issue":"都涉及社区会议与描图纸","handling":"对象不同：淹没几何 vs 资产/威胁清单"},
+    {"pair":["NC-C17-02","NC-C17-03"],"issue":"2018 暑期重合","handling":"外业组织 vs 能力建设制度"}
+  ],
+  "gaps": ["既有层缺数据稀缺情境", "既有层缺排水拓扑模型", "既有层缺模型验证"],
+  "decisionsRequired": [
+    "11 个概念是否接受",
+    "NC-01/10 是否合并",
+    "NC-02/03 是否合并",
+    "NC-06 是否拆分",
+    "NC-11 是否保留"
+  ],
+  "historyImpact": {"affectsSharedConcepts": false, "affectsHistoricalMappings": false, "triggersHistoricalReview": false, "note": "新增 C17 概念文件，不修改既有概念层"},
+  "researcherDecision": {"action": "accept", "rationale": "接受，按推荐", "modifiedContent": "11 个原生概念接受；NC-01/10 与 NC-02/03 分别保留；NC-06 保持组合；NC-11 保留", "allowNextGate": true, "decidedAt": "2026-11-13"},
+  "frozenArtifacts": [],
+  "version": "v0.1",
+  "openIssues": ["概念总量", "NC-01/10", "NC-02/03", "NC-06", "NC-11"]
+}

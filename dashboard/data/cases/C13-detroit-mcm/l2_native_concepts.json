@@ -1,0 +1,26 @@
+{
+  "caseId": "C13",
+  "version": "v1.0",
+  "status": "confirmed_inherited_from_L1",
+  "source": "case_pack.md v1.0 + relations.json v2.0",
+  "handoffChecks": {
+    "entities": 75,
+    "relations": 86,
+    "evidence": 66,
+    "processes": 9,
+    "decisionLogEntries": 7,
+    "nativeConcepts": 10
+  },
+  "concepts": [
+    {"id": "NC-C13-01", "label": "全市地块外业普查", "type": "action", "definition": "对市域全部不动产地块逐块拍照、编码与回传的普查行动。", "examples": "2013-12至2014-01的75组外业；378,136个地块", "sourceRelationIds": ["R008", "R022", "R023", "R024", "R085"], "frequency": 5, "boundaryQuestion": "是否包含筹备、培训与收尾；不含拆除实施"},
+    {"id": "NC-C13-02", "label": "移动端地块编码", "type": "technology", "definition": "以平板/手机应用在街道现场完成定位、拍照与问卷的采集方式。", "examples": "Blexting的Android/iOS地块选择、拍照与问卷", "sourceRelationIds": ["R012", "R015", "R016"], "frequency": 3, "boundaryQuestion": "与Blexting应用、平板设备、Site Control的边界；仅指采集端"},
+    {"id": "NC-C13-03", "label": "地块状况字段体系", "type": "capability", "definition": "结构/空地、占用、用途、单元、状况、火灾、倾倒等可比较字段。", "examples": "结构/空地、Occupied/Possibly/Unoccupied、六类用途", "sourceRelationIds": ["R016", "R058"], "frequency": 2, "boundaryQuestion": "能力还是技术配置；与传感监测能力的区别"},
+    {"id": "NC-C13-04", "label": "破败十项判定", "type": "task", "definition": "以公共妨害、火灾、断供、税务回收等十项条件界定破败。", "examples": "十项定义；街区破败限定为住宅、小商业与空地", "sourceRelationIds": ["R002"], "frequency": 1, "boundaryQuestion": "任务还是规则；与84,641口径的区别"},
+    {"id": "NC-C13-05", "label": "需干预地块口径", "type": "outcome", "definition": "把破败与破败征兆合并为可排序地块的统计口径。", "examples": "84,641=78,506结构+6,135空地", "sourceRelationIds": ["R030", "R031", "R032"], "frequency": 3, "boundaryQuestion": "结果还是目标；与拆除量的区别"},
+    {"id": "NC-C13-06", "label": "临界点优先级分析", "type": "capability", "definition": "以Dynamics/Threat两层指数识别优先干预街区。", "examples": "MCI；193,384人覆盖", "sourceRelationIds": ["R036", "R037", "R038", "R039"], "frequency": 4, "boundaryQuestion": "工具还是能力；与一般空间分析的区别"},
+    {"id": "NC-C13-07", "label": "单栋分级评估", "type": "technology", "definition": "以12问SATT对单栋结构判断修复、清除或封板。", "examples": "SATT 12问；建议DLBA采用", "sourceRelationIds": ["R041", "R042"], "frequency": 2, "boundaryQuestion": "工具还是任务；与MCI的分工"},
+    {"id": "NC-C13-08", "label": "公开地块数据平台", "type": "technology", "definition": "地块级查询、地理聚合与开放CSV的公开数据平台。", "examples": "motorcitymapping.org；5类地理聚合；CSV", "sourceRelationIds": ["R057", "R058", "R087"], "frequency": 3, "boundaryQuestion": "与治理平台的区别；CSV是否属于平台"},
+    {"id": "NC-C13-09", "label": "社区复核小额资助", "type": "action", "definition": "以小额资助组织居民复核本街区地块数据。", "examples": "15个组织、260+居民、76,000+地块", "sourceRelationIds": ["R061", "R062", "R063", "R064", "R065", "R066"], "frequency": 6, "boundaryQuestion": "行动还是机制；与一般意见征集的区别"},
+    {"id": "NC-C13-10", "label": "数据基础设施跨场景复用", "type": "action", "definition": "把地块采集与调查能力复用到止赎、外部城市等新场景。", "examples": "2015止赎调查；Highland Park/Hamtramck", "sourceRelationIds": ["R074", "R075", "R079", "R080"], "frequency": 4, "boundaryQuestion": "行动还是结果；与数字服务运营迭代的区别"}
+  ]
+}

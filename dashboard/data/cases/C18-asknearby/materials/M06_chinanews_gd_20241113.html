@@ -1,0 +1,400 @@
+<!--[13,2,438141] published at 2024-11-13 11:07:49 from #238 by 32-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="keywords" content="新闻,时事,时政,国际,国内,社会,法治,聚焦,评论,文化,教育,新视点,深度,网评,专题,环球,传播,论坛,图片,军事,焦点,排行,环保,校园,法治,奇闻,真情">
+<meta name="Author" Content="中国新闻网·广东新闻">
+<meta name="Copyright" Content="中国新闻网  广东新闻  版权所有">
+<meta name="description" content="" />
+<!-- 强制Chromium内核，作用于360浏览器、QQ浏览器等国产双核浏览器 -->
+<meta name="renderer" content="webkit" />
+<!-- 强制Chromium内核，作用于其他双核浏览器 -->
+<meta name="force-rendering" content="webkit" />
+<!-- 如果有安装 Google Chrome Frame 插件则强制为Chromium内核，否则强制本机支持的最高版本IE内核，作用于IE浏览器 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+<base target="_blank">
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "http://hm.baidu.com/hm.js?3b0ff05f977db0e48286a963974dd159";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<title>“益创星”南山区大学生社会创新大赛在深举行——中国新闻网·广东</title>
+ 
+<link rel="shortcut icon" href="//www.chinanews.com.cn/favicon.ico" type="image/x-icon">
+<link href="//image.cns.com.cn/default/5ddb9ec3/20231113/css/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+<link href="//image.cns.com.cn/default/113c4582/20231219/base.css" rel="stylesheet" type="text/css" />
+<link href="//image.cns.com.cn/default/68768354/20231114/index.css" rel="stylesheet" type="text/css" />
+<script src="//www.chinanews.com/js/jquery1.4.js"></script>
+<script src="//www.chinanews.com/js/ScrollPic.js" type="text/javascript"></script>
+<script>
+//搜索
+function quickQueryCust(evt) {
+    evt = (evt) ? evt : ((window.event) ? window.event : "") //兼容IE和Firefox获得keyBoardEvent对象
+    var key = evt.keyCode ? evt.keyCode : evt.which; //兼容IE和Firefox获得keyBoardEvent对象的键值
+    if (key == 13) { //判断是否是回车事件。
+        submitFun();
+    }
+}
+/*请输入关键字*/
+
+function checksubmit() {
+    var code = event.keyCode;
+    if (code == 13) submitFun();
+}
+
+function submitFun() {
+    var hotword = document.getElementsByName('q')[0].value;
+    if (hotword == '') {
+        alert('请输入关键字!');
+        return false;
+    } else {
+        // window.open("//sou.chinanews.com/search.do?q=" + encodeURIComponent(hotword) + "&dbtype=gz");
+        window.open("//searchnews.chinanews.com/search.do?q=" + encodeURIComponent(hotword) + "&dbtype=guangdong");
+    }
+}
+</script>
+
+<!--pc和手机适配代码开始-->
+<!--pc和手机适配代码开始-->
+<script>		
+
+var mynum=window.location.search;
+var url = window.location.href;//获取当前Url
+if(mynum != ""){
+var url = url.split("?");
+var url = url[0];
+//alert(url);
+//alert("a");
+location = url;		
+}
+//取文档id开始
+var url = url.split("/");
+var url = url[5].split(".");
+var docid = url[0];
+
+//yuming2='http://www.gd.chinanews.com/';
+yuming2='http://www.gd.chinanews.com/';
+
+function GetUrlRelativePath()//获取当前相对路径的方法
+{
+　　　　var url = document.location.toString();
+　　　　var arrUrl = url.split("//");
+
+　　　　var start = arrUrl[1].indexOf("/");
+　　　　var relUrl = arrUrl[1].substring(start);//stop省略，截取从start开始到结尾的所有字符
+
+　　　　if(relUrl.indexOf("?") != -1){
+　　　　　　relUrl = relUrl.split("?")[0];
+　　　　}
+　　　　return relUrl;
+}
+
+if(docid >= 1){
+if(mynum ==''){
+  	var sUserAgent = window.navigator.userAgent;
+//MicroMessenger微信浏览器
+  	var mobileAgents = ['Windows CE', 'iPod', 'Symbian', 'iPhone', 'BlackBerry', 'Android','MicroMessenger'];
+
+  	if (sUserAgent.indexOf('Android') > -1 && (sUserAgent.indexOf('ERD79') > -1 || sUserAgent.indexOf('MZ60') > -1 || sUserAgent.indexOf('GT-P7') > -1 || sUserAgent.indexOf('SCH-P7') > -1)) {
+
+  	} else {
+
+  		if (location.href.indexOf('?pc') == -1) {
+
+  			for (var i = 0; i < mobileAgents.length; i++) {
+
+  				if (sUserAgent.indexOf(mobileAgents[i]) > -1) {
+
+  					//location = 'http://www.ecns.cn/m/';	
+
+					url=GetUrlRelativePath(url);//获取当前url的相对路径
+					if(url.indexOf("/wap/")==0)//以/m/开头
+					{
+						//alert(url);
+					}
+					else
+					{	
+						url=yuming2+'wap'+url;
+						//alert(url);
+                                                if('' !== 'pc'){
+                                                     location = url;	
+                                                }
+
+					}
+  					break;
+
+  				}
+
+  			}
+
+  		} 
+  	}
+
+  	//var ads = [];
+  }
+  else{
+   //alert(mynum);
+  }
+
+}//end if(docid>=1)
+else{
+//alert("err")
+}
+</script>
+<!--pc和手机适配代码结束-->
+<!--pc和手机适配代码结束-->
+
+<style>
+@media screen and (max-width:1279px){
+body {width: 130vw;}
+}
+
+#top1 .logo{width:294px; height:74px; margin-top: 43px;}
+
+#top1 {
+    height: 178px;
+    margin: 0 auto;
+    width: 100%;
+    background: url(https://www.gd.chinanews.com/U32P13T139D2F7799DT20240706111425.jpg) no-repeat center top; 
+background-size: cover;
+}
+.searchinput .search_a {background: url(https://image.cns.com.cn/default/5ddb9ec3/20231113/images/search.png) no-repeat 0 #fff;}
+/*nav*/
+#nav{width: 100%; height: 68px; line-height: 68px; background: #f5f5f7; border-top: 2px solid #da0010; font-size: 17px;}
+#nav li{float: left;}
+#nav li+li{margin-left: 21px;}
+.searchinput {width: auto;}
+.logo_right .icon {border: 0;}
+
+/* content */
+.content_box {background-color:#f9f9f9;display:flex;}
+.article_box {width:880px;margin:0px 0px 10px 10px;}
+.article_zw {padding-top:25px;border-radius:8px;background-color:#fff;}
+.article_c_title,.article_m_title,.article_s_title {padding: 0 20px 20px; color: #333;font-weight: 700;font-size: 39px;line-height: 53px;}
+.article_time,.article_source {padding: 0 20px 15px; color: #b7b7b7; font-size: 14px; line-height: 40px;}
+.w_line {clear:both;height:1px; border-bottom: 1px solid #f2f2f2;margin-bottom:25px;}
+.article_content {margin-top:25px;margin:0 15px;}
+.article_vedio {text-align:center;margin:15px 0;}
+.article_content p {margin-bottom: 20px; color: #333;font-size: 20px;line-height: 40px;text-align:justify;}
+.article_content img {max-width: 700px;margin: 0 auto;}
+.img_wrapper {margin: 0 auto 10px;width: 700px;text-align: center;}
+.img_descr,.pictext {margin: 0 auto 10px;padding: 10px 5px;color: #828282;text-align: left;font-size: 16px; text-indent: 2em; width: 700px; line-height: 26px;display:block;}
+.left_name {padding-right: 0; padding-bottom: 0; width: 485px;background: url(https://i2.chinanews.com.cn/2019/newzw2/images/bg1.jpg) repeat-x 0; color: #494949;text-align: right;font-size: 14px;}
+.left_name span {display: inline-block;padding-left: 10px;background: #fff;}
+.download_wrapper {padding-top:15px;}
+
+.con-right_box {margin:10px;padding-left:15px;}
+.recommend_news_t{display: inline-block;margin-top: 0;padding-left: 10px; background: url(http://www.chinanews.com/fileftp/2022/04/2022-04-27/U947P4T47D50090F24534DT20220428160433.png) no-repeat 0;color: #333;font-weight: 700; font-size: 20px;line-height: 28px;}
+.recommend_news ul {width:350px;}
+.recommend_news li {line-height:22px;height: 56px;}
+.recommend_news li a:hover {text-decoration:underline;}
+.recommend_news_pt {margin:15px 0;display:flex;}
+.recommend_news_p,.video_news_p1,.video_news_p2 {width:165px;height:110px;}
+.recommend_news_p img,.video_news_p1 img,.video_news_p2 img {width:100%;height:100%;border-radius:8px;}
+.recommend_news_text {width:165px;padding-left:10px;font-weight: 700;font-size: 16px;line-height: 28px;}
+.video_news_p1 {width:165px;padding-left:10px;font-size: 14px;line-height: 28px;}
+.video_news_p2 {width:165px;padding-left:10px;font-size: 14px;line-height: 28px;}
+.fl {float: left;}
+.fr {float: right;}
+</style>
+
+<link rel="stylesheet" type="text/css" href="//www.chinanews.com.cn/part/cns_public/156/grey_share.min.css">
+
+</head>
+<body>
+<!--[if lt IE 9]>
+<div id="warning"></div>
+<![endif]-->
+<!--分社 s-->
+<div class="substation">
+  <div class="w1280 m_center">
+    <a href="//www.ah.chinanews.com.cn/">安徽</a>|<a href="//www.bj.chinanews.com.cn/">北京</a>|<a href="//www.cq.chinanews.com.cn/">重庆</a>|<a href="//www.fj.chinanews.com.cn/">福建</a>|<a href="//www.gs.chinanews.com.cn/">甘肃</a>|<a href="//www.gz.chinanews.com.cn/">贵州</a>|<a href="//www.gd.chinanews.com.cn/">广东</a>|<a href="//www.gx.chinanews.com.cn/">广西</a>|<a href="//www.hi.chinanews.com.cn/">海南</a>|<a href="//www.heb.chinanews.com.cn/">河北</a>|<a href="//www.ha.chinanews.com.cn/">河南</a>|<a href="//www.hb.chinanews.com.cn/">湖北</a>|<a href="//www.hn.chinanews.com.cn/">湖南</a>|<a href="//www.hlj.chinanews.com.cn/">黑龙江</a>|<a href="//www.js.chinanews.com.cn/">江苏</a>|<a href="//www.jx.chinanews.com.cn/">江西</a>|<a href="//www.jl.chinanews.com.cn/">吉林</a>|<a href="//www.ln.chinanews.com.cn/">辽宁</a>|<a href="//www.nmg.chinanews.com.cn/">内蒙古</a>|<a href="//www.nx.chinanews.com.cn/">宁夏</a>|<a href="//www.qh.chinanews.com.cn/">青海</a>|<a href="//www.sd.chinanews.com.cn/">山东</a>|<a href="//www.sx.chinanews.com.cn/">山西</a>|<a href="//www.shx.chinanews.com.cn/">陕西</a>|<a href="//www.sh.chinanews.com.cn/">上海</a>|<a href="//www.sc.chinanews.com.cn/">四川</a>|<a href="//www.tj.chinanews.com.cn/">天津</a>|<a href="//www.xj.chinanews.com.cn/">新疆</a>|<a href="//www.bt.chinanews.com.cn/">兵团</a>|<a href="//www.yn.chinanews.com.cn/">云南</a>|<a href="//www.zj.chinanews.com.cn/">浙江</a>
+</div>
+</div>
+<!--分社 e-->
+
+<!--top s-->
+<div id="top1">
+  <div class="w1280 m_center">
+    <div class="logo left" ><a href="//www.gd.chinanews.com.cn/"><img src="//www.gd.chinanews.com/U32P13T139D2F7799DT20240708180419.png"></a></div>
+    <div class="logo_right">
+      <a href="https://m.chinanews.com/wap/area/chs/guangdong/%E5%B9%BF%E4%B8%9C" class="icon wap">移动版</a>
+      <a href="https://www.chinanews.com/app/chinanews/index.shtml" class="icon app">客户端</a>
+      <a href="https://weibo.com/u/1764220904" class="icon weibo">微博</a>
+      <!--<a href="" class="icon gzh">公众号</a>-->
+      <div class="icon gzh">公众号<div class="cnswx_show"><img src="//f2.gd.chinanews.com.cn/zhuanti/2018/danxia/zw/wxewm.png" alt="" width="120"></div></div>
+    </div>
+    <div class="searchinput" id="zxss">
+      <input type="text" value="请输入关键字" onclick="this.value='',this.style.color='#000'" name="q" class="search_input" onkeydown="return quickQueryCust(event)">
+      <a class="search_a" onclick="submitFun()">搜 索</a>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<!--top e-->
+
+<!--nav s-->
+<div id="nav">
+  <div class="w1280 m_center">
+    <ul>
+    <li><a href="//www.gd.chinanews.com.cn/index/yw.html">要闻</a></li>
+    <li><a href="//www.gd.chinanews.com.cn/index/zxsp.html">视频 </a></li>
+    <li><a href="//www.gd.chinanews.com.cn/index/tsgd.html">图片</a></li>
+    <li><a href="//www.gd.chinanews.com.cn/index/zxsjzkgd.html">原创</a></li>
+    <li><a href="//www.gd.chinanews.com.cn/index/gdzw.html">政务</a></li>
+    <li><a href="//www.gd.chinanews.com.cn/index/dwq.html">大湾区</a></li>
+    <li><a href="//www.gd.chinanews.com.cn/index/qxlf.html">侨乡</a></li>
+    <li><a href="//www.gd.chinanews.com.cn/index/tzzc.html">统战</a></li>
+    <li><a href="//www.gd.chinanews.com.cn/index/shms.html">社会</a></li>
+    <li><a href="//www.gd.chinanews.com.cn/index/cjqy.html">财经</a></li>
+    <li><a href="//www.gd.chinanews.com.cn/index/kjjy.html">科教</a></li>
+    <li><a href="//www.gd.chinanews.com.cn/index/jkyl.html">健康</a></li>
+    <li><a href="//www.gd.chinanews.com.cn/index/whly.html">文旅</a></li>
+    <li><a href="//www.gd.chinanews.com.cn/index/lnrw.html">人物</a></li>
+    <li><a href="//www.gd.chinanews.com.cn/index/gfgl.html">广府</a></li>
+    <li><a href="//www.gd.chinanews.com.cn/index/cstt.html">潮汕</a></li>
+    <li><a href="//www.gd.chinanews.com.cn/index/kjyn.html">客家</a></li>
+    <li><a href="//www.gd.chinanews.com.cn/index/tyyd.html">体育</a></li>
+    <li><a href="//www.gd.chinanews.com.cn/index/zxzq.html">中新专区</a></li>
+    <li><a href="//www.gd.chinanews.com.cn/index/zhibo.html">直播</a></li>
+    <li><a href="//www.chinanews.com.cn/cnspp/pp-talk/index.shtml">小新Talkshow</a></li>
+  </ul>
+  </div>
+</div>
+<!--nav e-->
+<div class="clear"></div>
+<script>
+	$(function(){
+	var arr = [$(".article_c_title"),$(".article_s_title")]
+    $.each(arr,function(){
+        if ($(this).text().length==0){
+          $(this).css("display","none");
+        }
+      });
+    });
+$(function(){
+	var arr = [$("#sp")]
+    $.each(arr,function(){
+        if ($(this).attr("src").length==0){
+          $(this).css("display","none");
+        }
+});
+    });
+</script>
+<div class="content_box w1280">
+	<div class="article_box fl">
+		<div class="article_zw">
+
+			<div class="article_m_title">“益创星”南山区大学生社会创新大赛在深举行</div>
+
+			<div class="article_time fl">2024年11月13日 11:07</div><div class="article_source fl">来源：中新网广东</div>
+			
+			<div class="con_left_nav_share right">
+                    <div id="share-2" class="share" style="padding: 0 20px 15px; color: #b7b7b7; font-size: 14px; line-height: 40px;">分享到：</div>
+                </div>
+			
+			<div class="w_line"></div>
+			
+			<div class="article_content">
+<p>　　中新网广东新闻11月12日电　(陈文 谭逸丹) 近日，“益创星·2024”深圳市南山区第七届大学生社会创新项目大赛决赛在深圳大学举办。决赛评选出18个获奖项目，南山区民政局携手南山区首个慈善信托“舒琦青创领航慈善信托”，为决赛获奖项目提供项目奖励金、落地扶持金共计40万元。</p>
+
+<p>　　其中，来自北京大学的“方元问问——大模型连接小社区项目”和来自华东理工大学的“我和我的塘子——代际共融与记忆传承助力共同体建设项目”分获两个赛道金奖。</p>
+
+<p>　　本届大赛以“青春悦动乐龄南山”为主题，围绕“民生七优”目标，重点聚焦养老服务领域，设置养老服务专题赛道和其他赛道。</p>
+
+<p>　　据了解，南山区民政局首次链接“舒琦青创领航慈善信托”等慈善力量，为可行性高、创新性强的优质项目提供资金扶持与创业指导，助力青年迈出创业梦想的第一步。</p>
+
+<p>　　大赛金奖项目“方元问问——大模型连接小社区项目”和银奖项目“益心同行——打造南山区新一代智慧养老心理辅导平台”获得舒琦青创领航慈善信托的落地扶持金。(完)</p></div>
+			<div class="adEditor"><!--编辑姓名start--><div class="left_name fr"> <span>【编辑:黄强】 </span></div><!--编辑姓名end--></div>
+		<div class="clear"></div>
+		</div>	
+		<div class="download_wrapper">
+            <img src="https://www.chinanews.com/fileftp/2022/04/2022-04-20/U719P4T47D50049F24533DT20220420152844.png" alt="">
+        </div>
+	</div>
+	<div class="con-right_box fr">
+		<div class="recommend_news">
+			<div class="recommend_news_t">推荐阅读</div>
+			
+			<div class="recommend_news_pt">
+               <div class="recommend_news_p fl"><a href="https://www.chinanews.com.cn/tp/hd2011/2024/11-12/1129553.shtml"><img src="/U32P13T233D1F8227DT20241112193445.jpg" /></a></div>
+               <div class="recommend_news_text fl"><a href="https://www.chinanews.com.cn/tp/hd2011/2024/11-12/1129553.shtml">第十五届中国航展开幕 大国利器震撼来袭</a></div>
+            </div>
+			
+			<div class="recommend_news_pt">
+               <div class="recommend_news_p fl"><a href="https://www.chinanews.com.cn/tp/hd2011/2024/11-02/1128217.shtml"><img src="/U32P13T233D1F8230DT20241103205821.jpg" /></a></div>
+               <div class="recommend_news_text fl"><a href="https://www.chinanews.com.cn/tp/hd2011/2024/11-02/1128217.shtml">广花城际最大直径盾构机“羊城号”顺利始发</a></div>
+            </div>
+			
+			<div class="recommend_news_pt">
+               <div class="recommend_news_p fl"><a href="http://www.gd.chinanews.com.cn/2024/2024-10-25/437581.shtml"><img src="/U187P13T233D1F8233DT20241025103744.jpg" /></a></div>
+               <div class="recommend_news_text fl"><a href="http://www.gd.chinanews.com.cn/2024/2024-10-25/437581.shtml">百老汇英文原版音乐剧《芝加哥》在深圳启幕</a></div>
+            </div>
+			<ul>
+				<li><span><a href="/2024/2024-11-12/438132.shtml">中国航展新装备、“黑科技”看点观展“指南”</a></span></li><li><span><a href="/2024/2024-11-12/438125.shtml">东莞—香港国际空港中心至西班牙航线开通</a></span></li><li><span><a href="/2024/2024-11-12/438122.shtml">第十一届台湾青年岭南行总闭营活动在穗举行</a></span></li><li><span><a href="/2024/2024-11-11/438090.shtml">2024顺德半程马拉松举行 1.2万名选手参赛</a></span></li><li><span><a href="/2024/2024-11-11/438091.shtml">“中华战舞”飒气凛然 舞剧《英歌》在广州首演</a></span></li><li><span><a href="/2024/2024-11-11/438128.shtml">前10月广东进出口7.52万亿元 同比增长10.6%</a></span></li><li><span><a href="/2024/2024-11-11/438083.shtml">2024岭南影响力年度活动在广州开幕 逾千人参与</a></span></li><li><span><a href="/2024/2024-11-11/438129.shtml">国际篮联三人篮球公开赛全国总决赛收官 广东夺冠</a></span></li>
+			</ul>
+		</div>
+		<div class="recommend_news">
+			<div class="recommend_news_t">图说广东</div>
+			<div class="recommend_news_pt">
+				<div class="video_news_p1 fl"><a href="https://www.chinanews.com.cn/tp/hd2011/2024/11-12/1129553.shtml"><img src="/U32P13T233D1F8252DT20241112193816.jpg" alt=""/>第十五届中国航展开幕 大国利器震撼来袭</a></div>
+				<div class="video_news_p2 fl"><a href="https://www.chinanews.com.cn/tp/hd2011/2024/11-09/1129334.shtml"><img src="/U32P13T233D1F8255DT20241112193816.jpg" alt=""/>2024年广州国际灯光节开幕</a></div>
+			</div>
+		</div>
+		<div class="recommend_news">
+			<div class="recommend_news_t" style="margin-top:50px; margin-bottom:15px;">中新社记者看广东</div>
+			<ul>
+				<li><a href="/2024/2024-11-12/438132.shtml">中国航展新装备、“黑科技”看点观展“指南”</a></li><li><a href="/2024/2024-11-12/438119.shtml">中国航展观察：无人装备发展大有可为</a></li><li><a href="/2024/2024-11-11/438088.shtml">澳门居民11日起可在横琴免费看诊拿药</a></li><li><a href="/2024/2024-11-10/438121.shtml">中国航展探馆：歼-20S与歼-35A首次同台亮相</a></li><li><a href="/2024/2024-11-09/438031.shtml">十五运会和残特奥会主题口号、会徽和吉祥物揭晓</a></li><li><a href="/2024/2024-11-09/438037.shtml">华文作家张翎《归海》获2024花地文学榜年度作品</a></li><li><a href="/2024/2024-11-09/438043.shtml">濠江中学附属横琴学校举行落成启用典礼</a></li><li><a href="/2024/2024-11-09/438018.shtml">外企“巨头”加码投资粤港澳大湾区</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="clear"></div>
+<div class="pagebottom">
+  <div class="pagebottom_nav">
+    <ul>
+        <li><a href="https://www.chinanews.com.cn/common/footer/intro.shtml">关于我们</a></li>
+        <li><a href="https://www.chinanews.com.cn/common/footer/aboutus.shtml">About us</a></li>
+        <li><a href="https://www.chinanews.com.cn/common/footer/contact.shtml">联系我们</a></li>
+        <li><a href="https://www.gd.chinanews.com.cn/ggfw.html">广告服务</a></li>
+        <li><a href="https://www.chinanews.com.cn/common/footer/news-service.shtml">供稿服务</a></li>
+        <li><a href="https://www.chinanews.com.cn/common/footer/law.shtml">法律声明</a></li>
+        <li><a href="https://www.chinanews.com.cn/hr/">招聘信息</a></li>
+        <li><a href="https://www.chinanews.com.cn/common/footer/sitemap.shtml">网站地图</a></li>
+    </ul>
+  </div>
+  <div class="pagebottom_nr">
+    <div class="des">本网站所刊载信息，不代表中新社和中新网观点。 刊用本网站稿件，务经书面授权。</div>
+    <div class="des">未经授权禁止转载、摘编、复制及建立镜像，违者将依法追究法律责任。</div>
+  </div>
+
+  <div class="pagebottom_nr" style="padding-bottom:20px">
+    <div class="des">[<a href="https://www.chinanews.com.cn/news/xuke.html">网上传播视听节目许可证(0106168)</a>] [<a href="https://beian.miit.gov.cn/">京ICP证040655号</a>] [
+      <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010202009201" style="display:inline-block;height:20px;line-height:20px;"><img src="http://www.chinanews.com/fileftp/2016/02/2016-02-29/ghs.png
+                 " style="float:left;">京公网安备 11010202009201号</a>] [<a href="https://beian.miit.gov.cn/">京ICP备05004340号-1</a>] [<a href="https://www.chinanews.com.cn/news/zjxuke.html">互联网宗教信息服务许可证：京(2022)0000118；京(2022)0000119</a>]<br>违法和不良信息举报电话：15699788000 举报邮箱：jubao@chinanews.com.cn <a href="https://www.chinanews.com.cn/kong/2018/01-17/8426100.shtml">举报受理和处置管理办法</a>  总机：86-10-87826688</div>
+    <div class="des">Copyright &copy;1999-2024 chinanews.com. All Rights Reserved</div>
+  </div>
+
+</div>
+
+<script src="//www.chinanews.com.cn/test/fabu/2019-05-20/1294/jquery.share.min.js" charset="UTF-8"></script>
+<script src="//www.gd.chinanews.com/U32P13T139D2F7799DT20240731213011.js"></script> 
+
+<!-- tongji -->
+<script type="text/javascript">
+	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Feb108de699cff54c6e0e05effbb844c6' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+</body>
+</html>
+<!--<meta name="chinanews_site_verification" content="44feba7440a7b60400b112f65cbb5594"/>-->
+<!--13,2,438141 published at 2024-11-13 11:07:49 by 32-->

@@ -1,0 +1,61 @@
+{
+  "packet_id": "RP-C20-L2-G1-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G1",
+  "case_id": "C20",
+  "scope": "C20原生概念的名称、类别、定义、案例内范围、来源关系与边界疑问",
+  "generated_at": "2026-11-13",
+  "status": "accepted",
+  "baseline": {
+    "ontology_version": "V4",
+    "shared_concept_records": 88,
+    "researcher_confirmed": 46,
+    "candidate_single_case": 33,
+    "candidate_awaiting_second_case": 7,
+    "candidate_single_case_evidence_weak": 1,
+    "held_not_carried_forward": 1,
+    "concept_mappings": 836,
+    "latest_case_layer": "L2-C18-v1.0",
+    "c19_l2_status": "not_started"
+  },
+  "native_concepts": [
+    {"id": "NC-C20-001", "label": "儿童主导的AI辅助公共空间共创", "entity_type": "action", "frequency": 11, "suggested_action": "keep_composite_umbrella"},
+    {"id": "NC-C20-006", "label": "儿童主导的公共空间共创", "entity_type": "action", "frequency": 7, "suggested_action": "add_subconcept"},
+    {"id": "NC-C20-007", "label": "AI辅助的空间想法生成与可视化", "entity_type": "action", "frequency": 6, "suggested_action": "add_subconcept"},
+    {"id": "NC-C20-002", "label": "儿童地方知识转译", "entity_type": "action", "frequency": 3, "suggested_action": "keep_native"},
+    {"id": "NC-C20-003", "label": "分阶段实施与许可", "entity_type": "action", "frequency": 6, "suggested_action": "keep_native"},
+    {"id": "NC-C20-004", "label": "多机构共创安排", "entity_type": "action", "frequency": 15, "suggested_action": "keep_native"},
+    {"id": "NC-C20-005", "label": "AI平台的多重指称与机构边界", "entity_type": "technology", "frequency": 4, "suggested_action": "no_map_meta"}
+  ],
+  "conflicts": [
+    "C18版本记录称64个活跃共享概念，SQLite当前88条记录（含单案候选/待二案/held）",
+    "NC-C20-001包含儿童参与、AI使用、设计转译三个语义成分",
+    "NC-C20-005是实体消歧/数据质量说明，不是可比较技术概念",
+    "C19未进入L2，不能作为C20的第二案例支持"
+  ],
+  "gaps": [
+    "R038许可主体待讨论",
+    "1个公园更新位置未知",
+    "儿童直接反馈缺失",
+    "AI提示词/生成记录缺失"
+  ],
+  "decisions_requested": [
+    "确认基线：V4、88条共享概念记录、L2-C18-v1.0、C19未进入L2",
+    "是否同意NC-C20-001保留为复合伞概念并新增NC-C20-006/007",
+    "是否同意NC-C20-005剔除共享候选、标no_map",
+    "是否确认6个实质原生概念+1个元概念说明，进入G2"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_case_review": false,
+    "note": "G1只盘点原生概念，未做映射"
+  },
+  "decision": {
+    "action": "accept",
+    "rationale": "研究者确认L2-G1原生概念盘点，按建议方案通过",
+    "modified_content": null,
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  }
+}

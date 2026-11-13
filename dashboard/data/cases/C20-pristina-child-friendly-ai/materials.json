@@ -1,0 +1,322 @@
+{
+  "case_id": "C20",
+  "registry_version": "v0.1",
+  "generated_at": "2026-11-13",
+  "status": "accepted",
+  "materials": [
+    {
+      "material_id": "M01",
+      "name": "Embarking on Urban Adventure: Children Leading Co-Design for revolutionizing urban Spaces in Prishtinë/Priština",
+      "source_type": "project_story",
+      "author_or_org": "UNDP Kosovo; Arlinda Rushaj Sadiku, Rina Abazi",
+      "date": "2023-09-14",
+      "link": "https://undpkosovo.exposure.co/embarking-on-urban-adventure",
+      "scope": "10–17岁Children Councils参与者、工作坊类型、AI平台、三份方案、两份实施启动、两份设计要素",
+      "reliability": "medium_high",
+      "verification_status": "full_text_read",
+      "local_files": ["materials/S01_undp_exposure_20230914.html", "extracted/S01_undp_exposure_20230914.txt"],
+      "sha256_16": "A61F42D38C806695",
+      "same_source_group": "UNDP-Pristina-release-2023-09-14",
+      "notes": "项目方自述；无方法说明；未点名UrbanistAI，仅称AI platform/interactive co-design tool"
+    },
+    {
+      "material_id": "M02",
+      "name": "Embarking on an urban adventure",
+      "source_type": "project_story_duplicate",
+      "author_or_org": "UNDP Europe and Central Asia, Innovation for Development",
+      "date": "2023-09-14",
+      "link": "https://innovation.eurasia.undp.org/pristina-youth-urban-spaces/",
+      "scope": "与M01高度同源；用于核对文本差异与转载关系",
+      "reliability": "medium_high",
+      "verification_status": "full_text_read",
+      "local_files": ["materials/S02_undp_eurasia_20230914.html", "extracted/S02_undp_eurasia_20230914.txt"],
+      "sha256_16": "186802CEC11D33BA",
+      "same_source_group": "UNDP-Pristina-release-2023-09-14",
+      "notes": "同一通稿的另一发布渠道，不构成独立观察"
+    },
+    {
+      "material_id": "M03",
+      "name": "Final Evaluation for Healthier Kosovo 2 Project",
+      "source_type": "evaluation_report",
+      "author_or_org": "Ilir Hoxha (evaluator); MPTF/UNDP published",
+      "date": "evaluation 2023-10-20 to 2023-12-15; PDF generated 2024-05-30",
+      "link": "https://mptf.undp.org/sites/default/files/documents/2024-05/jp_healthier_kosovo_ii_final_evaluation_report.pdf",
+      "scope": "指标1.3.d：5场利益相关方工作坊+4场儿童工作坊、50+儿童、11–17岁、Urbanist AI、2个批准设计/3个地点、市政许可、1个公园完成更新；HK2整体评估",
+      "reliability": "high",
+      "verification_status": "full_text_read",
+      "local_files": ["materials/S15_hk2_final_evaluation_2024.pdf", "materials/S15_hk2_final_evaluation_2024_extracted.txt"],
+      "sha256_16": "5A60E5DA05700D03",
+      "same_source_group": "HK2-final-evaluation-2024",
+      "notes": "独立评估者+23次关键知情人访谈；受UNDP委托；儿童空间仅为HK2一个指标，未单列儿童访谈；关键段落在PDF p.27"
+    },
+    {
+      "material_id": "M04",
+      "name": "RFQ Development of Child-Friendly Public Spaces in Pristina (UNDP-KOS-00094)",
+      "source_type": "procurement_notice",
+      "author_or_org": "UNDP Office Kosovo Procurement Unit; UNGM",
+      "date": "published 2023-09-27; deadline 2023-10-24",
+      "link": "https://www.ungm.org/Public/Notice/214984",
+      "scope": "儿童友好公共空间实施采购；无中标/合同信息",
+      "reliability": "high",
+      "verification_status": "full_text_read",
+      "local_files": ["materials/S05_ungm_rfq_20230927.html", "extracted/S05_ungm_rfq_20230927.txt"],
+      "sha256_16": "2E328933F8B1AF7C",
+      "same_source_group": "UNGM-UNDP-KOS-00094",
+      "notes": "仅证明采购流程启动，不证明中标、开工或完工"
+    },
+    {
+      "material_id": "M05",
+      "name": "Urban Transformation Initiative project page",
+      "source_type": "project_page",
+      "author_or_org": "UNDP Kosovo",
+      "date": "undated; captured 2026-11-13; page shows Active (NEW)",
+      "link": "https://www.undp.org/kosovo/projects/urban-transformation-initiative",
+      "scope": "UTI延续CEF、实施portfolio co-design原型；里程碑含10+儿童适龄户外空间；预算270,000 EUR；一年期",
+      "reliability": "medium_high",
+      "verification_status": "full_text_read",
+      "local_files": ["materials/S06_undp_uti_project_page.txt"],
+      "sha256_16": "783D23DA25CAB3B6",
+      "same_source_group": "UNDP-UTI-project-page",
+      "notes": "无发布日期；不能把抓取日期当作事实发生日期"
+    },
+    {
+      "material_id": "M06",
+      "name": "Cities reimagined: Youth shaping the cities of tomorrow",
+      "source_type": "institutional_retrospective",
+      "author_or_org": "UNDP Europe and Central Asia, Innovation for Development",
+      "date": "2025-02-21",
+      "link": "https://innovation.eurasia.undp.org/cities-reimagined-youth-shaping-the-cities-of-tomorrow/",
+      "scope": "回顾普里什蒂纳儿童参与；两个突出想法（圆形座椅+秋千社交枢纽；开放绿地文化场地）；未报告建成",
+      "reliability": "medium",
+      "verification_status": "full_text_read",
+      "local_files": ["materials/S07_undp_cities_reimagined_20250221.html", "extracted/S07_undp_cities_reimagined_20250221.txt"],
+      "sha256_16": "491282E97A56AEC9",
+      "same_source_group": "UNDP-regional-retrospective-2025",
+      "notes": "机构回顾；具体细节少于M01/M03"
+    },
+    {
+      "material_id": "M07",
+      "name": "Reshaping Urban Futures: Applying digital technologies for urban resilience",
+      "source_type": "institutional_blog",
+      "author_or_org": "UNDP Geneva",
+      "date": "2023-10-31",
+      "link": "https://www.undp.org/geneva/blog/reshaping-urban-futures-applying-digital-technologies-urban-resilience",
+      "scope": "把普里什蒂纳与UrbanistAI的合作列为AI促进公众参与城市规划的例子",
+      "reliability": "medium",
+      "verification_status": "full_text_read",
+      "local_files": ["materials/S08_undp_geneva_urban_resilience.txt"],
+      "sha256_16": "2CF7FB85A710802C",
+      "same_source_group": "UNDP-Geneva-blog-2023-10-31",
+      "notes": "机构观点；无项目细节；M08误标为2024-12，应以本记录2023-10-31为准"
+    },
+    {
+      "material_id": "M08",
+      "name": "Pristina: Children, Festivals and Blloku 1",
+      "source_type": "vendor_case_page",
+      "author_or_org": "CoPlanAI (UrbanistAI successor brand)",
+      "date": "undated; labels project year 2023",
+      "link": "https://coplanai.com/portfolio/pristina-cluster/",
+      "scope": "六个月过程、三份方案、两份启动；圆形剧场/模块座椅、秋千与座凳结构；混合Blloku 1与建筑节",
+      "reliability": "low_medium",
+      "verification_status": "full_text_read",
+      "local_files": ["materials/S09_coplanai_pristina_cluster.html", "extracted/S09_coplanai_pristina_cluster.txt"],
+      "sha256_16": "B0554AD55EA506AB",
+      "same_source_group": "CoPlanAI-UrbanistAI-vendor",
+      "notes": "供应商营销页；无日期；混合多个项目；把M07误标为2024-12；不能独立印证M01/M03"
+    },
+    {
+      "material_id": "M09",
+      "name": "Social Innovation Platform in Prishtina",
+      "source_type": "partner_case_page",
+      "author_or_org": "Agirre Lehendakaria Center",
+      "date": "2023-12-27",
+      "link": "https://www.agirrecenter.eus/en/work/experimentation/undp-eurasia.html",
+      "scope": "普里什蒂纳2022年加入CEF；围绕城市转型开展叙事倾听与集体解释",
+      "reliability": "medium_high",
+      "verification_status": "full_text_read",
+      "local_files": ["materials/S10_agirrecenter_prishtina_20231227.txt"],
+      "sha256_16": "8BB1AECF392721D0",
+      "same_source_group": "Agirre-CEF-Prishtina",
+      "notes": "CEF合作机构背景材料；不含儿童空间细节"
+    },
+    {
+      "material_id": "M10",
+      "name": "Space SyntaKs LinkedIn post (activity 7076540510701531136)",
+      "source_type": "social_media_post",
+      "author_or_org": "Space SyntaKs",
+      "date": "2023-06-19",
+      "link": "https://www.linkedin.com/posts/space-syntaks_cityexperimentfund-prishtina-komunaeprishtin%C3%ABs-activity-7076540510701531136--FhB",
+      "scope": "“上周”儿童与青少年用UrbanistAI共创；安全、环境友好、社会包容的10+空间；协作决策",
+      "reliability": "medium",
+      "verification_status": "full_text_via_public_proxy",
+      "local_files": ["materials/S03_linkedin_spacesyntaks_20230619.txt"],
+      "sha256_16": "400AC6735E55C17F",
+      "same_source_group": "Pristina-AI-workshop-2023-06",
+      "notes": "相对时间“上周”指向2023-06中旬；需登录核对原帖；公开帖文可能被编辑"
+    },
+    {
+      "material_id": "M11",
+      "name": "UNDP Kosovo LinkedIn post (activity 7077281620965126144)",
+      "source_type": "social_media_post",
+      "author_or_org": "UNDP Kosovo",
+      "date": "2023-06-19",
+      "link": "https://www.linkedin.com/posts/undp-kosovo_ai-artificialintelligence-urbandesign-activity-7077281620965126144-my6b",
+      "scope": "AI模拟共创session；是既有共创过程的addendum；识别10+儿童在公共/绿色空间中的位置与功能",
+      "reliability": "medium",
+      "verification_status": "full_text_via_public_proxy",
+      "local_files": ["materials/S04_linkedin_undp_20230619.txt"],
+      "sha256_16": "BF38DB92419EC666",
+      "same_source_group": "Pristina-AI-workshop-2023-06",
+      "notes": "与M10同日发布，可相互印证事件存在；需登录核对原帖"
+    },
+    {
+      "material_id": "M12",
+      "name": "Healthier Kosovo (HK 2) project page",
+      "source_type": "project_page",
+      "author_or_org": "UNDP Kosovo",
+      "date": "undated; captured 2026-11-13; Status Completed",
+      "link": "https://www.undp.org/kosovo/projects/healthier-kosovo-hk-2",
+      "scope": "HK2总体目标、周期2021-08-01—2023-12-31、合作伙伴；未单列儿童空间试点",
+      "reliability": "medium_high",
+      "verification_status": "full_text_read",
+      "local_files": ["materials/S16_undp_hk2_project_page.txt"],
+      "sha256_16": "05366F0AE132AF67",
+      "same_source_group": "UNDP-HK2-project-page",
+      "notes": "官方项目页；无发布日期；不能把抓取日期当作事实发生日期"
+    },
+    {
+      "material_id": "M13",
+      "name": "City Experiment Fund programme page",
+      "source_type": "programme_page",
+      "author_or_org": "UNDP Europe and Central Asia, Innovation for Development",
+      "date": "page marked 2026-06-21; captured 2026-11-13",
+      "link": "https://innovation.eurasia.undp.org/initiatives/city-experiment-fund/",
+      "scope": "CEF机制、portfolio approach、斯洛伐克财政部资助；不含普里什蒂纳2023个案细节",
+      "reliability": "medium",
+      "verification_status": "full_text_read",
+      "local_files": ["materials/S12_undp_cef_page.txt"],
+      "sha256_16": "D8915A78B65354A1",
+      "same_source_group": "UNDP-CEF-programme-page",
+      "notes": "仅作背景；页面为当前版本，非2023年cohort页面"
+    }
+  ],
+  "same_source_groups": [
+    {
+      "group_id": "UNDP-Pristina-release-2023-09-14",
+      "members": ["M01", "M02"],
+      "note": "同一通稿的两个发布渠道，措辞高度一致，不构成独立观察"
+    },
+    {
+      "group_id": "Pristina-AI-workshop-2023-06",
+      "members": ["M10", "M11"],
+      "note": "同一事件的两个组织账号，同日发布；可互证事件存在，不能互证人数字/地点/效果"
+    },
+    {
+      "group_id": "CoPlanAI-UrbanistAI-vendor",
+      "members": ["M08"],
+      "note": "供应商营销页，部分内容可能转述M01/M03；不构成独立观察"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "source": "S11 Healthier Kosovo project page (2018–2019)",
+      "reason": "属HK1，不是HK2；项目阶段不符"
+    },
+    {
+      "source": "S13 UrbanistAI Projects page; S14 UrbanistAI 2023 page",
+      "reason": "JS/Shadow DOM，抓取无可读项目内容；非普里什蒂纳专属"
+    },
+    {
+      "source": "UNDP Kosovo Facebook duplicate post",
+      "reason": "与M11同账号、同活动、同文本"
+    },
+    {
+      "source": "Blloku 1 regeneration; Kosovo Architecture Festival workshops",
+      "reason": "同一城市/平台但不同事件，不属于本案边界"
+    },
+    {
+      "source": "UrbanistAI Helsinki, Connect East Cleveland and other projects",
+      "reason": "技术背景或跨案例比较材料，不是本案事实"
+    },
+    {
+      "source": "Kosovo 2.0 / Prishtina Insight search results",
+      "reason": "未发现直接报道本案的文章；记录为独立媒体覆盖缺口"
+    }
+  ],
+  "key_discrepancies": [
+    {
+      "issue": "参与者年龄",
+      "values": ["M01/M02: 10–17", "M03: 11–17", "M10/M11: 10+"],
+      "handling": "保留三个口径：参与者范围/评估实际范围/设计服务对象，不合并为单一数字"
+    },
+    {
+      "issue": "参与者数量",
+      "values": ["M01/M02: 未给人数", "M03: 超过50名儿童"],
+      "handling": "采用50+作为目前唯一可核数量，注明仅来自评估报告"
+    },
+    {
+      "issue": "工作坊数量",
+      "values": ["M01/M02: 一系列brainstorming/design roundtables/AI testing workshops", "M03: 5场利益相关方+4场儿童工作坊", "M11: AI session是addendum"],
+      "handling": "保留5+4结构；G2判断哪一场是AI session"
+    },
+    {
+      "issue": "干预地点",
+      "values": ["M01/M02: 三个未命名地点", "M03: main postal office / City Park / Park of Taukbahce"],
+      "handling": "采用M03地点名作为候选，G2核对拼写与行政归属；不得用受访学校位置推定"
+    },
+    {
+      "issue": "方案与实施数量",
+      "values": ["M01/M02: 3份方案、2份实施启动、two spaces", "M03: 2个批准设计、3个地点、市政许可、1个公园更新", "M08: 3份方案、2份启动"],
+      "handling": "区分提案—批准—许可—更新四个层级；G2/G3逐条核验"
+    },
+    {
+      "issue": "工具名称",
+      "values": ["M01/M02: AI platform / interactive co-design tool", "M03: Urbanist AI tool", "M10/M11: UrbanistAI"],
+      "handling": "保留三种写法；G2判断是否同一工具/版本，不先验合并"
+    },
+    {
+      "issue": "儿童参与机构",
+      "values": ["M01/M02: Children Councils", "M03: Assembly of Children"],
+      "handling": "疑似同一机构的不同英文译法；G2找正式名称后再合并"
+    },
+    {
+      "issue": "facilitation机构",
+      "values": ["M01/M02: SpaceSyntaks", "M03: NGO Space Sinteks"],
+      "handling": "疑似同一机构的不同转写；G2找正式名称后再合并"
+    },
+    {
+      "issue": "供应商引用日期",
+      "values": ["M08: UNDP Geneva article Dec 2024", "M07: 2023-10-31"],
+      "handling": "以M07为准；M08日期错误降低其可靠性"
+    }
+  ],
+  "gaps": [
+    "HK2 2023 Narrative Report / 2023 Annual Work Plan / Project Board Meeting records",
+    "9场工作坊的日期、地点、议程、签到表、参与者学校/性别/年龄分布",
+    "三份方案完整图纸、设计说明、儿童投票/选择记录、AI生成图像与采纳/淘汰对应关系",
+    "UrbanistAI提示词、生成次数、模型版本、facilitator引导方式、儿童对输出的修改",
+    "市政许可、两份设计的中标/合同、施工图、施工日志、验收/开放记录",
+    "“1个公园完成更新”具体指哪一处，以及是否属于两份批准设计",
+    "儿童对过程、AI工具与成品的直接反馈（评估未开展儿童焦点小组）",
+    "地方媒体/市政府对本项目的独立报道或公告"
+  ],
+  "decisions_requested": [
+    "是否确认纳入M01–M13（M13仅作背景）并确认排除清单",
+    "是否接受M03作为关键相对独立材料，同时保留M01/M02项目方口径",
+    "命名变体是否先建立“疑似同一指称”候选、不直接合并实体",
+    "研究者能否补充HK2 2023 Narrative Report、工作坊记录、市政许可或设计板；若不能是否同意以公开材料推进并标注缺口"
+  ],
+  "decision": {
+    "action": "accept",
+    "rationale": "研究者确认G1材料登记，按建议方案通过",
+    "modified_content": null,
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13",
+    "adopted_options": {
+      "include_materials": "M01-M13 (M13 background only)",
+      "m03_usage": "key_relatively_independent_source_with_m01_m02_project_narrative_retained",
+      "naming_variants": "candidate_same_referent_no_entity_merge",
+      "internal_materials": "not_provided_proceed_with_public_sources_and_flag_gaps"
+    }
+  }
+}

@@ -1,0 +1,380 @@
+{
+ "case_id": "C17",
+ "version": "v1.0",
+ "status": "accepted_by_researcher",
+ "mappings": [
+  {
+   "mapping_id": "MAP-C17-001",
+   "case_id": "C17",
+   "native_concept_id": "NC-C17-01",
+   "native_label": "社区洪泛记忆的空间转译",
+   "shared_concept_id": "SC-C17-01",
+   "mapping_type": "native_hyponym",
+   "basis": "C17 的洪泛记忆转译是“社区洪泛记忆的空间转译”的下位实例。",
+   "scope": "memory-to-geometry component",
+   "evidence_ids": [
+    "M01-E37",
+    "M13-E01",
+    "M01-E28",
+    "M01-E38"
+   ],
+   "decision": "accepted",
+   "version": "L2-C17-shared-v0.1",
+   "note": ""
+  },
+  {
+   "mapping_id": "MAP-C17-002",
+   "case_id": "C17",
+   "native_concept_id": "NC-C17-01",
+   "native_label": "社区洪泛记忆的空间转译",
+   "shared_concept_id": "SC-C01-141",
+   "mapping_type": "partial_or_approximate",
+   "basis": "只映射“居民提交空间信息”成分；不包含洪泛记忆整理与制图转化。",
+   "scope": "spatial submission component only",
+   "evidence_ids": [
+    "M01-E37",
+    "M13-E01",
+    "M01-E28",
+    "M01-E38"
+   ],
+   "decision": "accepted_partial",
+   "version": "L2-C17-shared-v0.1",
+   "note": ""
+  },
+  {
+   "mapping_id": "MAP-C17-003",
+   "case_id": "C17",
+   "native_concept_id": "NC-C17-02",
+   "native_label": "大学—社区联合外业制图",
+   "shared_concept_id": "SC-C17-02",
+   "mapping_type": "native_hyponym",
+   "basis": "C17 的联合外业是“大学—社区联合外业制图”的下位实例。",
+   "scope": "C17 university-community subtype",
+   "evidence_ids": [
+    "M01-E06",
+    "M04-E01",
+    "M04-E03",
+    "M01-E28",
+    "M06-E02",
+    "M06-E03",
+    "M06-E05"
+   ],
+   "decision": "accepted",
+   "version": "L2-C17-shared-v0.1",
+   "note": ""
+  },
+  {
+   "mapping_id": "MAP-C17-004",
+   "case_id": "C17",
+   "native_concept_id": "NC-C17-02",
+   "native_label": "大学—社区联合外业制图",
+   "shared_concept_id": "SC-C01-151",
+   "mapping_type": "partial_or_approximate",
+   "basis": "只映射社区参与成分；外业测绘与督导制不包含在 SC-C01-151。",
+   "scope": "participation component only",
+   "evidence_ids": [
+    "M01-E06",
+    "M04-E01",
+    "M04-E03",
+    "M01-E28",
+    "M06-E02",
+    "M06-E03",
+    "M06-E05"
+   ],
+   "decision": "accepted_partial",
+   "version": "L2-C17-shared-v0.1",
+   "note": ""
+  },
+  {
+   "mapping_id": "MAP-C17-005",
+   "case_id": "C17",
+   "native_concept_id": "NC-C17-03",
+   "native_label": "产业实习式制图能力建设",
+   "shared_concept_id": "SC-C01-158",
+   "mapping_type": "native_hyponym",
+   "basis": "产业实习式能力建设是“技术试验与能力建设”的下位类型。",
+   "scope": "internship-based training subtype",
+   "evidence_ids": [
+    "M04-E01",
+    "M09-E04",
+    "M12-E01"
+   ],
+   "decision": "accepted",
+   "version": "L2-C17-shared-v0.1",
+   "note": ""
+  },
+  {
+   "mapping_id": "MAP-C17-006",
+   "case_id": "C17",
+   "native_concept_id": "NC-C17-04",
+   "native_label": "开放地图数据生产与发布",
+   "shared_concept_id": "SC-C17-03",
+   "mapping_type": "native_hyponym",
+   "basis": "C17 的开放地图生产与发布是“开放地理数据生产与发布”的下位实例。",
+   "scope": "open geodata subtype",
+   "evidence_ids": [
+    "M01-E30",
+    "M02-E01",
+    "M01-E24",
+    "M01-E03"
+   ],
+   "decision": "accepted",
+   "version": "L2-C17-shared-v0.1",
+   "note": ""
+  },
+  {
+   "mapping_id": "MAP-C17-007",
+   "case_id": "C17",
+   "native_concept_id": "NC-C17-04",
+   "native_label": "开放地图数据生产与发布",
+   "shared_concept_id": "SC-C01-123",
+   "mapping_type": "partial_or_approximate",
+   "basis": "只映射数据治理任务成分；开放许可与印刷回馈不包含在 SC-C01-123。",
+   "scope": "data governance component only",
+   "evidence_ids": [
+    "M01-E30",
+    "M02-E01",
+    "M01-E24",
+    "M01-E03"
+   ],
+   "decision": "accepted_partial",
+   "version": "L2-C17-shared-v0.1",
+   "note": ""
+  },
+  {
+   "mapping_id": "MAP-C17-008",
+   "case_id": "C17",
+   "native_concept_id": "NC-C17-05",
+   "native_label": "标准化排水网络数据模型",
+   "shared_concept_id": "SC-C17-04",
+   "mapping_type": "native_hyponym",
+   "basis": "排水数据模型是“基础设施网络数据模型”的下位实例。",
+   "scope": "drainage network subtype",
+   "evidence_ids": [
+    "M08-E01",
+    "M08-E03",
+    "M16-E02",
+    "M08-E02",
+    "M16-E05",
+    "M16-E06"
+   ],
+   "decision": "accepted",
+   "version": "L2-C17-shared-v0.1",
+   "note": ""
+  },
+  {
+   "mapping_id": "MAP-C17-009",
+   "case_id": "C17",
+   "native_concept_id": "NC-C17-05",
+   "native_label": "标准化排水网络数据模型",
+   "shared_concept_id": "SC-C01-164",
+   "mapping_type": "partial_or_approximate",
+   "basis": "只映射数据记录成分；拓扑规则与连接语义不包含在 SC-C01-164。",
+   "scope": "data record component only",
+   "evidence_ids": [
+    "M08-E01",
+    "M08-E03",
+    "M16-E02",
+    "M08-E02",
+    "M16-E05",
+    "M16-E06"
+   ],
+   "decision": "accepted_partial",
+   "version": "L2-C17-shared-v0.1",
+   "note": ""
+  },
+  {
+   "mapping_id": "MAP-C17-010",
+   "case_id": "C17",
+   "native_concept_id": "NC-C17-06",
+   "native_label": "低成本移动采集工具组合",
+   "shared_concept_id": "SC-C17-05",
+   "mapping_type": "native_hyponym",
+   "basis": "C17 的工具组合是“低成本移动采集工具组合”的下位实例。",
+   "scope": "C17 toolkit subtype",
+   "evidence_ids": [
+    "M04-E04",
+    "M01-E17",
+    "M01-E21",
+    "M01-E38",
+    "M09-E04",
+    "M09-E05",
+    "M11-E04",
+    "M01-E31"
+   ],
+   "decision": "accepted",
+   "version": "L2-C17-shared-v0.1",
+   "note": ""
+  },
+  {
+   "mapping_id": "MAP-C17-011",
+   "case_id": "C17",
+   "native_concept_id": "NC-C17-06",
+   "native_label": "低成本移动采集工具组合",
+   "shared_concept_id": "SC-C01-134",
+   "mapping_type": "partial_or_approximate",
+   "basis": "只映射基础数据接入成分；应用与定位设备不包含在 SC-C01-134。",
+   "scope": "data access component only",
+   "evidence_ids": [
+    "M04-E04",
+    "M01-E17",
+    "M01-E21",
+    "M01-E38",
+    "M09-E04",
+    "M09-E05",
+    "M11-E04",
+    "M01-E31"
+   ],
+   "decision": "accepted_partial",
+   "version": "L2-C17-shared-v0.1",
+   "note": ""
+  },
+  {
+   "mapping_id": "MAP-C17-012",
+   "case_id": "C17",
+   "native_concept_id": "NC-C17-07",
+   "native_label": "洪水模型验证与迭代",
+   "shared_concept_id": "SC-C17-06",
+   "mapping_type": "native_hyponym",
+   "basis": "C17 的模型验证是“模型验证与迭代”的下位实例。",
+   "scope": "Kijitonyama validation subtype",
+   "evidence_ids": [
+    "M16-E08",
+    "M17-E01",
+    "M16-E05",
+    "M16-E06",
+    "M16-E07",
+    "M17-E02"
+   ],
+   "decision": "accepted",
+   "version": "L2-C17-shared-v0.1",
+   "note": ""
+  },
+  {
+   "mapping_id": "MAP-C17-013",
+   "case_id": "C17",
+   "native_concept_id": "NC-C17-07",
+   "native_label": "洪水模型验证与迭代",
+   "shared_concept_id": "SC-C01-159",
+   "mapping_type": "partial_or_approximate",
+   "basis": "只映射反馈调整成分；模型校验与参数迭代不包含在 SC-C01-159。",
+   "scope": "feedback component only",
+   "evidence_ids": [
+    "M16-E08",
+    "M17-E01",
+    "M16-E05",
+    "M16-E06",
+    "M16-E07",
+    "M17-E02"
+   ],
+   "decision": "accepted_partial",
+   "version": "L2-C17-shared-v0.1",
+   "note": ""
+  },
+  {
+   "mapping_id": "MAP-C17-014",
+   "case_id": "C17",
+   "native_concept_id": "NC-C17-08",
+   "native_label": "项目能力的组织化承接",
+   "shared_concept_id": "SC-C01-176",
+   "mapping_type": "native_hyponym",
+   "basis": "项目能力的组织化承接是“组织能力与可复制成果”的下位类型。",
+   "scope": "organizational absorption subtype",
+   "evidence_ids": [
+    "M10-E02",
+    "M10-E06",
+    "M11-E01"
+   ],
+   "decision": "accepted",
+   "version": "L2-C17-shared-v0.1",
+   "note": ""
+  },
+  {
+   "mapping_id": "MAP-C17-015",
+   "case_id": "C17",
+   "native_concept_id": "NC-C17-09",
+   "native_label": "跨城市方法复制",
+   "shared_concept_id": null,
+   "mapping_type": "no_map",
+   "basis": "跨城市方法复制未被现有共享概念覆盖；且仅一个案例，保留原生概念。",
+   "scope": "keep native; possible SC-C17 candidate later",
+   "evidence_ids": [
+    "M12-E01",
+    "M12-E03"
+   ],
+   "decision": "keep_native",
+   "version": "L2-C17-shared-v0.1",
+   "note": ""
+  },
+  {
+   "mapping_id": "MAP-C17-016",
+   "case_id": "C17",
+   "native_concept_id": "NC-C17-10",
+   "native_label": "社区资产—威胁盘点会议",
+   "shared_concept_id": "SC-C01-151",
+   "mapping_type": "native_hyponym",
+   "basis": "资产—威胁盘点会议是“社区参与与意见收集”的下位类型。",
+   "scope": "asset-threat meeting subtype",
+   "evidence_ids": [
+    "M09-E06",
+    "M09-E07",
+    "M09-E08",
+    "M09-E04"
+   ],
+   "decision": "accepted",
+   "version": "L2-C17-shared-v0.1",
+   "note": ""
+  },
+  {
+   "mapping_id": "MAP-C17-017",
+   "case_id": "C17",
+   "native_concept_id": "NC-C17-10",
+   "native_label": "社区资产—威胁盘点会议",
+   "shared_concept_id": "SC-C01-173",
+   "mapping_type": "partial_or_approximate",
+   "basis": "只映射参与产出成分；行动地图与灾害管理用途不包含在 SC-C01-173。",
+   "scope": "participation output component only",
+   "evidence_ids": [
+    "M09-E06",
+    "M09-E07",
+    "M09-E08",
+    "M09-E04"
+   ],
+   "decision": "accepted_partial",
+   "version": "L2-C17-shared-v0.1",
+   "note": ""
+  },
+  {
+   "mapping_id": "MAP-C17-018",
+   "case_id": "C17",
+   "native_concept_id": "NC-C17-11",
+   "native_label": "数据稀缺条件下的洪涝风险",
+   "shared_concept_id": "SC-C17-07",
+   "mapping_type": "native_hyponym",
+   "basis": "C17 的数据稀缺情境是“数据稀缺与基础地图缺失”的下位实例。",
+   "scope": "data scarcity subtype",
+   "evidence_ids": [
+    "M01-E02"
+   ],
+   "decision": "accepted",
+   "version": "L2-C17-shared-v0.1",
+   "note": ""
+  },
+  {
+   "mapping_id": "MAP-C17-019",
+   "case_id": "C17",
+   "native_concept_id": "NC-C17-11",
+   "native_label": "数据稀缺条件下的洪涝风险",
+   "shared_concept_id": "SC-C01-101",
+   "mapping_type": "partial_or_approximate",
+   "basis": "只映射建成环境条件成分；地图与数据缺失不包含在 SC-C01-101。",
+   "scope": "built environment component only",
+   "evidence_ids": [
+    "M01-E02"
+   ],
+   "decision": "accepted_partial",
+   "version": "L2-C17-shared-v0.1",
+   "note": ""
+  }
+ ]
+}

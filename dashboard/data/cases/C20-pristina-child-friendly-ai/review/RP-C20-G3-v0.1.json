@@ -1,0 +1,63 @@
+{
+  "packet_id": "RP-C20-G3-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G3",
+  "case_id": "C20",
+  "scope": "普里什蒂纳儿童友好公共空间 AI 共创的事件顺序、主体关系、状态变化与来源冲突",
+  "generated_at": "2026-11-13",
+  "status": "accepted",
+  "candidates": [
+    {"id": "C20-P01", "content": "背景与问题识别", "time_range": "2022—2023上半年", "evidence": ["M09-E01", "M01-E01", "M01-E05", "M01-E06", "M01-E07"], "confidence": "medium_high", "suggested_action": "accept"},
+    {"id": "C20-P02", "content": "项目组织与参与架构", "time_range": "2023上半年（起点未确认）", "evidence": ["M01-E02", "M01-E03", "M01-E10", "M08-E01", "M01-E14", "M13-E01", "M01-E15", "M12-E01", "M12-E02"], "confidence": "medium_high", "suggested_action": "accept"},
+    {"id": "C20-P03", "content": "工作坊、需求识别与选址", "time_range": "2023上半年—06中旬", "evidence": ["M03-E01", "M01-E03", "M01-E08", "M10-E01", "M10-E02", "M11-E01", "M11-E02"], "confidence": "medium", "suggested_action": "accept"},
+    {"id": "C20-P04", "content": "AI共创与设计转译", "time_range": "2023-06中旬—09-14前", "evidence": ["M01-E09", "M10-E02", "M11-E01", "M03-E01", "M08-E04"], "confidence": "medium_low", "suggested_action": "discuss"},
+    {"id": "C20-P05", "content": "方案定稿与最终评估", "time_range": "2023-09-14前", "evidence": ["M01-E10", "M01-E12", "M01-E13", "M06-E01", "M08-E02"], "confidence": "medium_high", "suggested_action": "accept"},
+    {"id": "C20-P06", "content": "实施启动、许可与采购", "time_range": "2023-09—12", "evidence": ["M01-E11", "M10-E03", "M11-E03", "M04-E01", "M03-E02", "M03-E03", "M03-E04"], "confidence": "medium", "suggested_action": "discuss"},
+    {"id": "C20-P07", "content": "后续延续与结果观察", "time_range": "2023-12—2026-11", "evidence": ["M12-E02", "M03-E04", "M05-E01", "M05-E02", "M05-E03", "M06-E02", "M07-E01"], "confidence": "medium_low", "suggested_action": "accept"}
+  ],
+  "conflicts": [
+    "共创起点只能放在2023年上半年，具体月份未知",
+    "M01说3份方案/2份启动/2个空间，M03说2个批准设计/3个地点/1个公园更新",
+    "1个公园完成更新不能推出3个地点全部建成",
+    "年龄10–17 vs 11–17 vs 10+",
+    "工作坊一系列 vs 5+4场",
+    "地点未命名 vs 主邮局附近/City Park/Park of Taukbahce",
+    "工具AI platform / Urbanist AI tool / UrbanistAI",
+    "儿童引语为项目方转述，不是独立访谈"
+  ],
+  "gaps": [
+    "共创起点月份",
+    "9场工作坊日期/地点/议程/签到",
+    "4场儿童工作坊中哪一场是AI session",
+    "三份方案完整图纸/设计说明/儿童选择记录",
+    "AI提示词/生成图像/模型版本",
+    "市政许可/RFQ中标/合同/施工/验收/开放",
+    "1个公园具体位置；两份设计是否全部建成",
+    "儿童对过程/AI工具/成品的直接反馈"
+  ],
+  "decisions_requested": [
+    "C20-P01–P07的分段与顺序是否成立；是否需要合并或拆分",
+    "是否同意共创起点保留为2023年上半年、具体月份未确认",
+    "是否同意P06只写启动/许可/至少1个公园更新，P07作为结果观察",
+    "是否同意儿童引语只作为项目方转述，不升级为儿童直接访谈证据"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_case_review": false,
+    "note": "C20与C19都使用UrbanistAI，G6后交L2判断共享概念候选"
+  },
+  "decision": {
+    "action": "accept",
+    "rationale": "研究者确认G3过程重建，按建议方案通过",
+    "modified_content": null,
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13",
+    "adopted_options": {
+      "segmentation": "P01-P07_accepted",
+      "start_date": "2023_H1_exact_month_unconfirmed",
+      "implementation_scope": "P06_start_permit_one_park_only_P07_result_observation",
+      "child_quotes": "project_mediated_not_direct_interview"
+    }
+  }
+}

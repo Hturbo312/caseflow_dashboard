@@ -1,0 +1,86 @@
+{
+  "packetId": "RP-C18-G2-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G2",
+  "caseId": "C18",
+  "scope": "M01-M07证据提取与编号",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher",
+  "evidenceCutoff": "2026-11-13",
+  "processed": [
+    "51条证据",
+    "原文定位",
+    "引文核验",
+    "暂定事实状态与置信度"
+  ],
+  "notProcessed": [
+    "G3过程重建",
+    "G4事实拆解",
+    "G5关系编码",
+    "G6关系审校"
+  ],
+  "counts": {
+    "total": 51,
+    "byMaterial": {
+      "M01": 35,
+      "M02": 3,
+      "M03": 3,
+      "M04": 2,
+      "M05": 3,
+      "M06": 3,
+      "M07": 2
+    },
+    "normalizedQuoteMatches": "51/51",
+    "verbatimWebMatches": "16/16"
+  },
+  "conflicts": [
+    {
+      "topic": "受助项目组合",
+      "ids": ["M05-E03", "M06-E03", "M07-E01"],
+      "handling": "保留三种表述，标disputed"
+    },
+    {
+      "topic": "产品形态",
+      "ids": ["M01-E18", "M02-E03", "M03-E03", "M04-E01"],
+      "handling": "APP与小程序暂不合并"
+    },
+    {
+      "topic": "跨页证据",
+      "ids": ["M01-E23", "M01-E35"],
+      "handling": "暂分两条，G4可合并事实"
+    }
+  ],
+  "gaps": [
+    "平台页面、应用商店说明、版本信息与后台日志",
+    "两处试点原始问卷、访谈与评估方法",
+    "南头古城起止时间与管理方材料",
+    "2025-11之后的持续运行证据"
+  ],
+  "decisionsRequired": [
+    "是否接受51条证据全量纳入",
+    "是否确认效果数字为reported_or_opinion、未来实验为planned",
+    "是否确认受助项目组合维持disputed",
+    "是否保留M01-E35为独立证据"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false,
+    "note": "新增C18证据索引，不修改C01-C17"
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": null,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "version": "v0.1",
+  "openIssues": [
+    "51条证据全量",
+    "状态判定",
+    "资助争议",
+    "跨页证据处理"
+  ]
+}

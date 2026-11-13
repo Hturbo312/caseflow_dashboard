@@ -1,0 +1,51 @@
+{
+  "case_id": "C18",
+  "status": "imported",
+  "imported_at": "2026-11-13T08:37:23.529Z",
+  "database": "dashboard/data/community-renewal.db",
+  "import_script": "dashboard/scripts/import-c18.ts",
+  "case_version": "L2-C18-v1.0",
+  "backup": "dashboard/data/_backup/community-renewal.db.before-c18-2026-11-13T08-37-23.db",
+  "counts": {
+    "materials": 7,
+    "evidence": 51,
+    "processes": 7,
+    "facts": 56,
+    "entities": 83,
+    "entityRoles": 86,
+    "relations": 101,
+    "nativeConcepts": 10,
+    "sharedConcepts": 8,
+    "conceptMappings": 16,
+    "searchDocs": 215
+  },
+  "supportAdditionsApplied": [
+    "SC-C01-132",
+    "SC-C01-143",
+    "SC-C01-141",
+    "SC-C01-156",
+    "SC-C01-151",
+    "SC-C01-158"
+  ],
+  "media": {
+    "index": "dashboard/shared/case-media.ts",
+    "files": [
+      "dashboard/public/case-media/C18-1.jpg",
+      "dashboard/public/case-media/C18-2.jpg",
+      "dashboard/public/case-media/C18-3.jpg"
+    ],
+    "apiStatus": "200 for all 3 files"
+  },
+  "validation": {
+    "build": "passed",
+    "apiBootstrap": "C18 present; caseCount=18",
+    "apiCaseDetail": "83 entities / 7 materials / 51 evidence / 7 processes / 56 facts / 10 native concepts / 16 mappings",
+    "databaseSupportAdditions": "C18 present in all 6 shared concepts",
+    "images": "C18-1/2/3.jpg served as image/jpeg"
+  },
+  "server": {
+    "url": "http://127.0.0.1:8788",
+    "pid": 32956,
+    "restarted": true
+  }
+}

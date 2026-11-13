@@ -1,0 +1,106 @@
+{
+  "packet_id": "RP-C14-G0-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G0",
+  "case_id": "C14",
+  "scope": "Jinsongbei Community (Chaoyang, Beijing) organic renewal and smart governance: case boundary, inclusion/exclusion criteria, research questions",
+  "generated_at": "2026-11-13",
+  "status": "awaiting_researcher_decision",
+  "candidates": [
+    {
+      "id": "C14-SCOPE-01",
+      "content": "Case name: Jinsongbei Community organic renewal and smart governance pilot, Chaoyang, Beijing",
+      "evidence": ["T01", "T02", "T03", "T04", "T05"],
+      "fact_status": "unconfirmed",
+      "confidence": "high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C14-SCOPE-02",
+      "content": "Period 2018-07 to 2023-12; core implementation 2018-07 to 2022-12; 2023 as follow-up observation",
+      "evidence": ["T03", "T05", "T13"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium",
+      "suggested_action": "discuss"
+    },
+    {
+      "id": "C14-SCOPE-03",
+      "content": "Core space limited to Jinsongbei Community (Jinsong Blocks 1-2); Blocks 3-8 only as agreement scope and diffusion context",
+      "evidence": ["T01", "T02", "T03"],
+      "fact_status": "unconfirmed",
+      "confidence": "high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C14-SCOPE-04",
+      "content": "Include six core processes: partnership and diagnosis; demonstration-area construction; property entry; fee collection and property-plus-eldercare; smart/age-friendly equipment; best-practice recognition and operation",
+      "evidence": ["T01", "T02", "T03", "T04", "T05", "T06", "T07", "T08", "T09", "T10", "T11"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium-high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C14-SCOPE-05",
+      "content": "Exclude other Jinsong blocks, other community cases, national policy, and generic industry technology claims",
+      "evidence": ["boundary_decision"],
+      "fact_status": "unconfirmed",
+      "confidence": "high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C14-SCOPE-06",
+      "content": "Five research questions: micro-profit closure; five-party participation; technology-capability-action inventory; smart renewal as goal/tool/narrative; sustainability",
+      "evidence": ["research_design"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium",
+      "suggested_action": "discuss"
+    },
+    {
+      "id": "C14-SCOPE-07",
+      "content": "Treat smart governance as a parallel theme with a higher evidence threshold; do not presume a system-level smart-governance regime",
+      "evidence": ["T01", "T09", "T10"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium-high",
+      "suggested_action": "discuss"
+    },
+    {
+      "id": "C14-SCOPE-08",
+      "content": "Record stair-climbing machines, electric wheelchairs, emergency callers, and grab bars first as age-friendly technology/services; whether to classify them as smart governance remains open",
+      "evidence": ["T07", "T08"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium",
+      "suggested_action": "discuss"
+    }
+  ],
+  "conflicts": [
+    "Household counts: 3605 project households vs 4199 community households vs 3684 in community profiles",
+    "Investment: RMB 30 million at 45% of total (T03) vs total about RMB 290 million and 200,000 sqm (T10); possibly phase vs full project",
+    "Property-fee collection: 60% in June 2020 (T06) vs 75% in November 2020 (T04), a time series with unclear scope",
+    "Demonstration-area completion: official 2019-08-02 vs some media 2019-09",
+    "Property entry: T05 points to June 2019; other sources say 2019 or 2020",
+    "HEDATA platform deployment is a corporate claim without independent verification of functions, coverage, or usage",
+    "Face recognition (T05) and smart access control (T07) may be the same device or different batches",
+    "Demonstration area is about 10% of Blocks 1-2, not the whole community",
+    "T07 reports 9 stair-climbing machines and 12 electric wheelchairs for 'Jinsong community', possibly across multiple sub-communities, not Jinsongbei alone"
+  ],
+  "decisions_required": [
+    "Time boundary: A 2018-07 to 2022-12 / B 2018-07 to 2023-12 with follow-up (recommended) / C 2018-07 to 2026-11",
+    "Limit core space to Jinsongbei Community (Blocks 1-2), with Blocks 3-8 only as context? (recommended yes)",
+    "Theme structure: organic renewal as primary and smart governance as a parallel, evidence-gated sub-theme? (recommended yes)",
+    "Classify stair-climbing machines, wheelchairs, callers, and grab bars as age-friendly services rather than smart governance? (recommended yes)",
+    "Adopt the five draft research questions? Add privacy/data governance and resident acceptance as separate questions?"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_historical_case_review": false,
+    "note": "C14 shares a Chinese urban-community renewal context with C04 and C05; check their social-capital, property, and smart-technology concept boundaries during later comparison."
+  },
+  "researcher_decision": {
+    "action": null,
+    "rationale": null,
+    "modified_content": null,
+    "allow_next_gate": null,
+    "decided_at": null
+  }
+}

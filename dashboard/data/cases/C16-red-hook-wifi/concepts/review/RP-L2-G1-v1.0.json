@@ -1,0 +1,19 @@
+{
+  "packetId": "RP-L2-G1-v1.0",
+  "supersedes": "RP-L2-G1-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "G1",
+  "caseId": "C16",
+  "decidedAt": "2026-11-13",
+  "researcherDecision": {
+    "action": "accept",
+    "rationale": "L2-G1 按推荐通过",
+    "modifiedContent": null,
+    "allowNextGate": true
+  },
+  "frozenArtifacts": ["native_concept_inventory_v1.0.md", "native_concept_inventory_v1.0.json", "RP-L2-G1-v1.0"],
+  "openIssues": [
+    "NC-C16-02/05 是否新候选留待 G2",
+    "PC-C16-01/02 不进入本轮映射"
+  ]
+}

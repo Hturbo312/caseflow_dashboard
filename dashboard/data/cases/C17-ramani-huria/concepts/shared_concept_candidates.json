@@ -1,0 +1,197 @@
+{
+ "caseId": "C17",
+ "version": "v1.0",
+ "status": "accepted_as_candidates",
+ "sharedConceptCandidates": [
+  {
+   "id": "SC-C17-01",
+   "label": "社区洪泛记忆的空间转译",
+   "definition": "把社区对历史洪水的记忆、深度与范围经验，经会议讨论、纸质勾绘与数字化转为可入库空间数据的能力。",
+   "entityType": "capability",
+   "scope": "仅覆盖“记忆→空间数据”的转译能力；不包含洪水观测或模型计算。",
+   "negativeExamples": [
+    "纯口头叙述未空间化",
+    "水文实测数据"
+   ],
+   "supportingNativeIds": [
+    "NC-C17-01"
+   ],
+   "supportingCaseIds": [
+    "C17"
+   ],
+   "status": "candidate",
+   "origin": "C17",
+   "evidenceIds": [
+    "M01-E37",
+    "M13-E01",
+    "M01-E28",
+    "M01-E38"
+   ],
+   "note": "单案例候选；G3 回查历史案例是否提供第二案例支持"
+  },
+  {
+   "id": "SC-C17-02",
+   "label": "大学—社区联合外业制图",
+   "definition": "由大学师生（含督导制）与社区成员、志愿者、ward 官员共同组织的 ward 级外业采集行动。",
+   "entityType": "action",
+   "scope": "联合外业组织方式；不包含培训制度或数据分析。",
+   "negativeExamples": [
+    "纯商业外包测绘",
+    "无社区参与的校园制图"
+   ],
+   "supportingNativeIds": [
+    "NC-C17-02"
+   ],
+   "supportingCaseIds": [
+    "C17"
+   ],
+   "status": "candidate",
+   "origin": "C17",
+   "evidenceIds": [
+    "M01-E06",
+    "M04-E01",
+    "M04-E03",
+    "M01-E28",
+    "M06-E02",
+    "M06-E03",
+    "M06-E05"
+   ],
+   "note": "单案例候选；G3 回查历史案例是否提供第二案例支持"
+  },
+  {
+   "id": "SC-C17-03",
+   "label": "开放地理数据生产与发布",
+   "definition": "将外业数据编辑入开放地图平台、按开放许可发布，并以在线或印刷地图回馈政府与公众的任务。",
+   "entityType": "task",
+   "scope": "开放数据生产与发布任务；不包含平台软件开发。",
+   "negativeExamples": [
+    "内部 GIS 库",
+    "未开放的数据产品"
+   ],
+   "supportingNativeIds": [
+    "NC-C17-04"
+   ],
+   "supportingCaseIds": [
+    "C17"
+   ],
+   "status": "candidate",
+   "origin": "C17",
+   "evidenceIds": [
+    "M01-E30",
+    "M02-E01",
+    "M01-E24",
+    "M01-E03"
+   ],
+   "note": "单案例候选；G3 回查历史案例是否提供第二案例支持"
+  },
+  {
+   "id": "SC-C17-04",
+   "label": "基础设施网络数据模型",
+   "definition": "规定线状基础设施（排水、管网等）几何、属性、连接与拓扑规则的数据模型，使分散采集可拼成可计算网络。",
+   "entityType": "technology",
+   "scope": "schema 与拓扑规则；不包含采集设备。",
+   "negativeExamples": [
+    "无连接规则的图层集合",
+    "仅建筑点位数据"
+   ],
+   "supportingNativeIds": [
+    "NC-C17-05"
+   ],
+   "supportingCaseIds": [
+    "C17"
+   ],
+   "status": "candidate",
+   "origin": "C17",
+   "evidenceIds": [
+    "M08-E01",
+    "M08-E03",
+    "M16-E02",
+    "M08-E02",
+    "M16-E05",
+    "M16-E06"
+   ],
+   "note": "单案例候选；G3 回查历史案例是否提供第二案例支持"
+  },
+  {
+   "id": "SC-C17-05",
+   "label": "低成本移动采集工具组合",
+   "definition": "以智能手机、免费采集应用与低成本定位设备组合替代专业测绘设备的采集工具集。",
+   "entityType": "technology",
+   "scope": "工具组合；不包含培训与组织方式。",
+   "negativeExamples": [
+    "单一高端测绘设备",
+    "无定位能力的问卷工具"
+   ],
+   "supportingNativeIds": [
+    "NC-C17-06"
+   ],
+   "supportingCaseIds": [
+    "C17"
+   ],
+   "status": "candidate",
+   "origin": "C17",
+   "evidenceIds": [
+    "M04-E04",
+    "M01-E17",
+    "M01-E21",
+    "M01-E38",
+    "M09-E04",
+    "M09-E05",
+    "M11-E04",
+    "M01-E31"
+   ],
+   "note": "单案例候选；G3 回查历史案例是否提供第二案例支持"
+  },
+  {
+   "id": "SC-C17-06",
+   "label": "模型验证与迭代",
+   "definition": "用独立观测（社区记录的洪水范围/水深、控制点）校验模型输出，并据误差修正数据与模型参数的迭代行动。",
+   "entityType": "action",
+   "scope": "模型验证与修正；不包含项目监测评估。",
+   "negativeExamples": [
+    "仅运行模型未验证",
+    "仅宣传模拟结果"
+   ],
+   "supportingNativeIds": [
+    "NC-C17-07"
+   ],
+   "supportingCaseIds": [
+    "C17"
+   ],
+   "status": "candidate",
+   "origin": "C17",
+   "evidenceIds": [
+    "M16-E08",
+    "M17-E01",
+    "M16-E05",
+    "M16-E06",
+    "M16-E07",
+    "M17-E02"
+   ],
+   "note": "单案例候选；G3 回查历史案例是否提供第二案例支持"
+  },
+  {
+   "id": "SC-C17-07",
+   "label": "数据稀缺与基础地图缺失",
+   "definition": "快速城市化与非正规住区叠加基础地图老化、排水与地形数据缺失，使洪水风险难以评估的情境。",
+   "entityType": "context",
+   "scope": "数据与地图供给不足的情境条件；不包含一般资金或制度约束。",
+   "negativeExamples": [
+    "数据完备的城市",
+    "单纯洪水频率描述"
+   ],
+   "supportingNativeIds": [
+    "NC-C17-11"
+   ],
+   "supportingCaseIds": [
+    "C17"
+   ],
+   "status": "candidate",
+   "origin": "C17",
+   "evidenceIds": [
+    "M01-E02"
+   ],
+   "note": "单案例候选；G3 回查历史案例是否提供第二案例支持"
+  }
+ ]
+}

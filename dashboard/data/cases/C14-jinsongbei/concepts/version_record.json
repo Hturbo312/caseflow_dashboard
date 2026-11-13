@@ -1,0 +1,46 @@
+{
+  "version": "L2-C14-shared-v1.0",
+  "caseId": "C14",
+  "date": "2026-11-13",
+  "baseLayer": "L2-C01-C11-shared-v0.2 + L2-C12-shared-v1.0 + L2-C13-shared-v1.0",
+  "status": "released",
+  "scope": "C14 concept delta; no changes to C01-C13",
+  "changes": {
+    "addedCandidates": 10,
+    "addedMappings": 20,
+    "modifiedConcepts": 0,
+    "supportingCaseChanges": 0,
+    "deletedConcepts": 0,
+    "historicalReclassifications": 0
+  },
+  "checks": {
+    "nativeConceptSourceRelations": "14/14",
+    "mappingSharedRefs": "20/20",
+    "candidateNativeRefs": "10/10",
+    "historicalMappingsReviewed": 88,
+    "historicalReclassifications": 0
+  },
+  "counts": {
+    "sharedConceptNodes": 64,
+    "confirmedSharedConcepts": 46,
+    "candidateConcepts": 18,
+    "conceptMappings": 777,
+    "nativeConcepts": 760,
+    "cases": 14
+  },
+  "openIssues": [
+    "10个候选缺第二案例支持",
+    "SC-C14-110（企业运营的社区智慧治理平台）证据仅企业方陈述",
+    "投资口径三种说法未裁定",
+    "HEDATA功能/覆盖/使用/数据归属未取得",
+    "M13-M17仍为仅元数据",
+    "SC-C01-103计入后基线为46个已确认概念；C12/C13历史记录仍为45，需后续汇总版本统一",
+    "C14尚未导入dashboard数据库"
+  ],
+  "nextVersionTriggers": [
+    "第二案例支持任一SC-C14-10x",
+    "HEDATA平台功能/验收材料补齐",
+    "研究者决定将C14追加为既有概念的支持案例",
+    "投资口径由合同/预算/审计材料裁定"
+  ]
+}

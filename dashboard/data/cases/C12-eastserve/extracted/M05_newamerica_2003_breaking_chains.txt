@@ -1,0 +1,287 @@
+Breaking the Chains - New America
+New America
+Skip to navigation
+Accesskey "n"
+Skip to content
+Accesskey "c"
+Skip to footer
+Accesskey "f"
+Search
+Menu
+Issues
+[1]
+At New America, our work spans across five issue areas—each essential to building a nation and a world where everyone can thrive.
+See Our Programs
+m">
+Education & Work
+Education & Work
+Democratic Futures
+Democratic Futures
+Global Security
+Global Security
+Technology & Democracy
+Technology & Democracy
+Thriving Families
+Thriving Families
+Latest
+[2]
+Trending Topics
+Electoral Reform
+Housing
+Artificial Intelligence (AI)
+Care
+See The Latest
+What Parents of Young Kids Want: Insights from the 2026 National Parent Survey
+What Parents of Young Kids Want: Insights from the 2026 National Parent Survey
+New America Celebrates 2026 Pulitzer Prizes
+New America Celebrates 2026 Pulitzer Prizes
+The Care Disconnect: Americans Misjudge Care Realities, But Know Families Need Help
+The Care Disconnect: Americans Misjudge Care Realities, But Know Families Need Help
+A Model for Associational Party Building
+A Model for Associational Party Building
+Impact
+[3]
+For over 25 years, New America’s insights and policy solutions have helped usher in meaningful change. Discover recent stories of how we have turned bold ideas into real-world impact.
+See Our Impact
+Redrawing School Boundaries for Fairer Funding
+Redrawing School Boundaries for Fairer Funding
+Reframing Fusion Voting as a Practical, Powerful Reform Strategy
+Reframing Fusion Voting as a Practical, Powerful Reform Strategy
+Harnessing Terrorism Data to Reshape U.S. National Security Policy
+Harnessing Terrorism Data to Reshape U.S. National Security Policy
+Establishing a National Housing Loss Rate
+Establishing a National Housing Loss Rate
+Fellows
+[4]
+For more than 25 years, New America has supported hundreds of fellows as they pursue ambitious work. Through our flagship Fellows Program and specialized fellowships, we back ideas rooted in depth, rigor, and lasting relevance.
+See All Fellowships
+New America Fellows
+The New America Fellows Program supports thinkers, creators, and storytellers whose work shapes public conversation on the defining issues of our time.
+Us@250 Fellowship
+Learning Sciences Exchange (LSX) Fellowship
+Future Security Fellowships
+Future of Work Reporting Fellowship
+Events
+[5]
+New America hosts various in-person, virtual, and hybrid events. Join the conversation.
+See Our Events
+November 17, 2026
+What is the Science of Dad Brain?
+What is the Science of Dad Brain?
+December 2, 2026
+The Best Kind of American
+The Best Kind of American
+December 3, 2026
+The Better Animal: A Hopeful Tale of a Future America
+The Better Animal: A Hopeful Tale of a Future America
+December 15, 2026
+American Pogroms
+American Pogroms
+About
+[6]
+Generating big ideas and bold solutions for a new America.
+Learn About Us
+About Us
+Who We Are
+Leadership
+Programs, Projects, and Initiatives
+Careers
+Funding
+Press
+Search
+Subscribe
+Donate
+Close
+Search
+Report
+/
+In Depth
+Breaking the Chains
+Jun 1, 2003
+James Johnston
+Linkedin
+Facebook
+X
+Bluesky
+Email
+Save as PDF
+Man is born free; and everywhere he is in chains. — Jean Jacques Rousseau
+Rousseau might just as well have been talking about telecommunications. Most people still can't imagine computer networking without cables. Before Wi-Fi, people who wanted ubiquitous broadband access had to snake wires through their homes or offices. It was a very expensive and often impractical proposition. And even then, the broadband user was chained to a wire. Wi-Fi meant freedom. By creating a wireless local area network (WLAN), a Wi-Fi device can go anywhere; equipment is inexpensive; access to the airwaves is free within one's own home; and communication is very fast, or at least it would be if not limited by the sluggish wirelines that connect most WLANs to the backbone. But Wi-Fi only breaks the chains on the last hundred feet of the telecommunications network. The rest of the last mile is still in chains.
+Some of these chains are physical. They are the twisted-pairs of copper wire of the telephone network and the coaxial cables of cable television that connect users to the outside world of the Internet. Others are institutional. They are everybody with a government-granted airwaves license or monopoly over last-mile service. They are the telephone, cable, cell phone and broadcast companies. And they are the Federal Communications Commission — the master enforcer of all government-granted, last-mile telecommunications monopolies.
+Is Wi-Fi just the tip of the iceberg of the unlicensed wireless revolution, or is it the iceberg itself? If it is only the tip, then much or all of the rest of the "last mile" (or last 35 miles) can also be freed from its wired and government-licensed chains.
+Leading the charge to provide unlicensed service over the last mile are wireless Internet service providers (WISPs). WISPs use unlicensed spectrum to connect small businesses, farms, home-schooling families, and others as far as 35 miles from wireline connections. WISPs have been especially important to bringing broadband Internet service to rural and low-income areas. Tens of thousands of users already receive broadband Internet service via WISPs. Despite being relegated to relatively high frequency bands, which cannot readily pass through trees and walls the way broadcast television and other low frequency services do, WISPs provide high-speed connections at a fraction of the cost of upgrading wireline connections. If last-mile providers had access to the "white space" in the underutilized low-frequency bands (below 800 MHz), both WISPs and non-profit community networks could provide even more rural and low-income areas with affordable broadband connections.
+The current debate over last-mile broadband policy is all too often a sterile debate focused on the wired infrastructure. The debate needs to shift to spectrum policy. Spectrum is not just a third last-mile broadband platform to compete with cable modems and DSL. It is the platform of choice. The wired infrastructure belongs in the backbone, not in the consumers home, lawn, or neighborhood.
+For unlicensed wireless service to reach its full potential as part of the last-mile broadband solution, we need fundamental changes in spectrum policy, including: 1) more spectrum allocated to unlicensed service, especially at the lower, more cost-effective frequencies below 800 MHz, and 2) more low power services such as WISPs that make highly efficient use of spectrum.
+Wireless Last-Mile Connections: Licensed vs. Unlicensed
+When the Internet was first opened to the public in the 1990s, consumers had no choice but to connect via modems over conventional telephone lines. Only the telephone network could provide service over the so-called "last mile" to homes and offices. The problem is that telephone dial-up connections are agonizingly slow. In a few years, faster, broadband connections became available. Yet, the wired communications infrastructure remained static, consisting of giant telephone and cable television companies, which are the only ones covering the last mile. Consumer choice is limited, at best, to two service providers. Telephone companies call their broadband connections Digital Subscriber Lines (DSL) while cable companies refer to theirs as cable modem service.
+The success of Wi-Fi for local area networks, with connection speeds far exceeding wired broadband, raises the obvious question of whether wireless can serve the last mile to homes and offices. In rural areas where DSL and cable modem services are typically not available, wireless seems the only economically feasible way to deliver broadband. In urban areas, wireless may be a more affordable alternative to the wired infrastructure of telephone and cable companies.
+From a regulatory perspective, there are two fundamentally different approaches to wireless broadband. The first approach is the traditional one that allocates specific bands of spectrum for a service and implements a program of licensing providers. This is the way cellular phone service is provided today. The second approach follows the spectrum allocation system that made Wi-Fi successful and relies on what is often called "unlicensed spectrum," meaning frequencies where radio transmitters may be used without an FCC license. While licensing gives cell phone companies virtually exclusive use of a band, Wi-Fi users share unlicensed frequencies with no protection against interference.
+The unlicensed approach already has been highly successful for extending wireless Internet connections to public spaces and private "hot spots," such as hotels, airports and coffee shops. As an application, Wi-Fi has been about linking users to the last few hundred feet or less of the last mile. This is a very important part of the last mile, but it is not the last mile itself.
+Untitled Document
+Loudoun County Virginia:
+Two Start-up WISPS Connecting the Suburban and Rural Last Mile
+Despite their proximity to the Internet backbone, many Loudoun County residents have no broadband access. The mountainous western regions of the county are far from the Internet infrastructure serving Northern Virginia companies like AOL and VeriSign. However, because of license-exempt wireless technology, WISPs like Roadstar Internet Services and SkyNet Access are bringing broadband to rural and suburban consumers.
+SkyNet Access, focusing on the small businesses and telecommuter market, is meeting the demand for broadband in the Leesburg suburbs. Chris Chamberlain, SkyNet CEO says unlicensed wireless technology gives small businesses instant infrastructure, helping them compete with larger firms. SkyNet has over 100 subscribing customers in their first year.
+Another local WISP, Roadstar Internet Services, also connects over 100 households and small businesses in the rural, western regions of the county. Customers include home-schooling families, telecommuters and a local school.
+Like most WISPs, Roadstar and SkyNet rely on a combination of unlicensed bands to create a cohesive network. The first leg of Roadstar's network uses the 5.7 and 5.8 GHz bands in a point-to-point transmission, traveling 18 miles from a mountaintop transceiver. Long distance transmissions are not uncommon for rural WISPs. Under Part 15 rules for unlicensed usage, the FCC allows operators to make point-to-point connections without reducing Transmitter Power Output (TPO) on the 5.725 and 5.825 GHz band.
+The network then reaches wireless access points mounted on customer silos, barns and rooftops using the 2.4 GHz and 900 MHz bands. To reach the last mile, Roadstar and other WISPs transmit farther than the 300-foot standards for Wi-Fi technology by creating sectorized cells with high-gain, directional antennas. These final connections typically reach two to three miles-providing rural areas with symmetrical broadband at speeds exceeding typical cable and DSL connections — but at comparable prices.
+Scaling Up Unlicensed: From Hot Spots to Hot Zones
+Today, when many people think of unlicensed Wi-Fi, they think of hot spots at Starbucks for yuppies. But this is a misleading image. Indeed, it is a classic example of misconstruing the power of an early technology by looking at its initial, primitive application. For example, when the telegraph and computer were first developed, few people, if any, had an accurate idea how they would eventually be used. The challenge for the unlicensed approach has been to scale it up for last-mile use. There are three primary ways this is being done: through hot spots, hot zones, and hot last-mile pathways. A hot spot is a single low power access point, through which multiple users can share a wired broadband connection. A hot zone is a contiguous cluster of hot spots. A hot pathway is a link between hot nodes or zones.
+The entrepreneurial inventiveness in transforming low power unlicensed into an ever-increasing part of the last-mile broadband solution has been breathtaking. Where a road, wall, or other obstacle intervenes, they aren't digging up the road or tearing apart a wall to lay wire. Nor are they buying a license from the FCC. Instead, many opt to use an unlicensed device to complete the link.
+When many hot spots in a specific geographic region are tightly linked together, they become "hot zones." Companies, universities, hospitals, and government agencies are knitting large campuses together with meshed networks of unlicensed devices. In France, the 400 stations in the Paris Metro system are each being given a cluster of Wi-Fi hotspots. Eventually, each train on the metro will also be turned into a hotspot. When the system is completed, the Paris Metro will be a hot zone
+Some communities in the United States, including San Francisco, are providing hot zones in downtown areas as economic development tools. In Manchester, England, a low-income, economically depressed area, a six square mile area is becoming a hot zone (see sidebar). The justification is that Wi-Fi costs less than conventional wired broadband service, so it is the only economical way to provide high-speed broadband connections to a poor urban area.
+Perhaps the easiest way to scale up a hot spot into a virtual hot zone is to increase the power levels of the hot spot to cover a larger geographical area. Many foreign countries with relatively little use of the airwaves already allow unlicensed devices to operate at greater distances than in America.
+Untitled Document
+Manchester, England:
+Unlicensed Broadband-An Appropriate Technology for Urban Areas
+While policy makers debate over how to bridge the last mile, unlicensed technology is giving communities the ability to solve access issues themselves. One example is the EastServe network in Manchester, England, where community members have connected 350 households and 17 schools with wireless broadband.
+The EastServe network was created through the British government's "Wired Up Communities" initiative. There are seven pilot communities in the "Wired Up" program-each is using a slightly different model to help bridge the UK last mile. EastServe is the flagship project for unlicensed wireless, and a showcase for wireless broadband in urban areas.
+For East Manchester, wireless was the only solution. Ninety percent of the population have no high-speed cable access, and 25% have no fixed-line phone service since many households only use mobile phones. With much of the population living in publicly funded houses, the expense of laying cable or a DSL to each residence is especially prohibitive. But the wireless solution has allowed the low-income community to set-up and manage the network themselves.
+A local company, Gaia Technologies, has trained resident volunteers to install and maintain the 10 community access points currently in place. The network is a ring formation of six backbone towers, located among the 17 schools in the area. These towers provide a total of 26 Mbits of data transmitted in narrow beam connections at 45 Mbps on the 5.8 GHz band.
+Within this ring of towers 802.11b access points transmit in wedge-shaped sectors to reach households. Flat dwellers share a wireless connection directly to the backbone, demonstrating the network's scalability. And as the demand grows, community member will have the know-how to expand the network.
+arns and rooftops using the 2.4 GHz and 900 MHz bands. To reach the last mile, Roadstar and other WISPs transmit farther than the 300-foot standards for Wi-Fi technology by creating sectorized cells with high-gain, directional antennas. These final connections typically reach two to three miles-providing rural areas with symmetrical broadband at speeds exceeding typical cable and DSL connections — but at comparable prices.
+Scaling Up Unlicensed: Hot Pathways for Last-Mile Backhaul
+The other major way to provide unlicensed service over longer distances, "hot pathways," is to pinpoint transmitting and receiving equipment. Today, some transmitters send signals in sectors as slender as 1 degree. If information is directionally transmitted in pencil-shaped beams between two points, the spectrum in a three dimensionally defined area is virtually limitless. Think of thousands of laser beams passing through each other in the night to get to their destinations — as opposed to one, giant floodlight lighting up the landscape in all directions.
+The use of hot pathways allows unlicensed information to travel many miles without creating unacceptable interference. This is central to the success of WISPs because it allows them to take a low power transmitter and cover a long distance. WISPs have been especially successful in rural areas because it is prohibitively expensive to provide broadband wireline service in such areas. For example, in the hilly terrain of Northern Virginia, two such WISPs (profiled in the sidebar above) use unlicensed spectrum to provide high-speed connections to farms, homes and businesses as far as 27 miles from the firm's fiber access point to the backbone. One vendor, Alvarion, has installed 800 such unlicensed systems in the United States of which 130 are commercial or utility networks. AMA.TechTel in rural Texas, is a large-scale WISP example. It boasts 4,000 users with prices and speeds equivalent to DSL — which isn't available in most rural Texas communities. There are already and estimated 100,000 to 300,000 subscribers to broadband service in the unlicensed bands.
+The Future of Broadband
+The speeds of today's last-mile broadband service are clearly inadequate for the needs of the future. Recognizing this, the high-tech industry has been calling for dramatic increases in last-mile broadband speeds. TechNet, a large coalition of high tech CEOs, has called on federal policymakers to set a goal of making affordable 100 megabit broadband connections available to all American homes and small businesses by 2010. The State of California has funded a non-profit entity, CENIC, to pursue an even more ambitious goal: one gigabit broadband to all Californians by 2010.
+But, will the gigabit broadband last-mile networks of the future be wired or wireless? And if, as we believe, wireless last-mile connections can be deployed more quickly and at lower cost, should the nation rely primarily on licensed (exclusive use) or unlicensed (shared use) access to the public airwaves to jumpstart broadband deployment?
+Currently, licensed high-power wireless providers are having a hard time scaling up to today's typical wireline broadband speed of less than 1 megabit. Mobile telephone companies plan to upgrade their networks to third-generation cell phone technology, 3G, which operates at a maximum of 2 Mbps in a stationary mode and 0.384 Mbps when in motion and which, if these speeds were actually achieved, would be on a par with current wireline broadband Internet service. But they also claim that they don't have enough spectrum to provide broadband service at higher speeds. What happens when they must compete with gigabit service? Will they need a thousand times the spectrum they currently have? Clearly, some fundamental changes will have to happen if wireless is going to be competitive with wired in the emerging gigabit broadband world.
+In short, until we are prepared to dig up every road, lawn, and wall in America to provide ubiquitous, next-generation broadband service — at a cost of hundreds of billions of dollars spread out perhaps over decades — we must rethink wireless policy.
+Untitled Document
+Somerset County, Pennsylvania:
+A Model for High-Speed Wireless in Rural School Communities
+The Somerset County town of Rockwood was too small and remote for cable and phone companies to bring wired broadband to the area. The local schools felt severely hampered by this inequality and sought an alternative solution. Partnering with a local WISP and using unlicensed wireless technology, the school district has created a network to serve schools and residents throughout the area.
+Simply bringing the technology to the area wasn't the end goal — using the network to connect the school with the parents is the ultimate design of the project. Both schools have put many classroom functions online. Teachers use Palm Pilots and laptops to design lessons and record grades-which are available to parents online.
+The school installed three transceivers to access the license-exempt bands. The Rockwood High School hosts a 100-foot tower that transmits 12 miles on the 5.8 GHz band to reach the Kingwood Elementary school. The two schools share a narrow beam, point-to-point connection with a third transceiver at the Seven Springs Ski Resort. Within this triangle, multiple access points within neighborhoods receive directional signals and transmit in efficient sectors, covering the community.
+As incentive to businesses and residents to join the network, Sting offers the fee of $10 per month plus an additional $10 equipment rental for the first 100 subscribers. So far, thirty-five families have been connected, with the first 100 families expected to be online by the end of the summer. Project leaders hope their last-mile approach will be replicated in other rural communities, including a larger effort that will connect 15 rural school communities, providing a valuable last-mile model for rural municipalities around the country.
+POLICY RECOMMENDATIONS
+Too often, the current debate over last-mile broadband policy only accounts to the wired infrastructure, ignoring the wireless alternative. The debate needs to shift to spectrum policy. Spectrum is not just a third last-mile broadband platform to compete with cable modems and DSL. It should be the platform of choice. The wired infrastructure belongs in the backbone, not in the consumers home, lawn, or neighborhood. United States spectrum policy, however, appears geared to keeping the wireless alternative a crippled competitor to the wired broadband last mile.
+Policymakers, including Congress and the FCC, should adopt spectrum allocation policies that allow wireless communication to compete with wired communication in the coming era of gigabit service to the home. The continued existence of hegemonic high power terrestrial polluters is not consistent with this goal. Specific steps policymakers need to take include the following:
+1. The FCC should allocate more unlicensed spectrum.
+As information capacity needs increase and average power levels drop in coming years, the rationale for unlicensed spectrum increases. Only the low power levels conventionally associated with unlicensed can provide the information capacity the broadband network of the future needs. This is why descriptions of 4G (next generation cellular) and unlicensed technologies tend to overlap. The growth of dual mode Wi-Fi and mobile phones is merely step one in this process of convergence.
+2. The FCC should allocate more unlicensed spectrum at low frequencies (especially below 2 GHz).
+Currently, there is 26 MHz of long-term, dedicated unlicensed spectrum below 2 GHz, 180 MHz of licensed mobile telephone spectrum, and 402 MHz of licensed TV broadcast spectrum. This amount of low frequency unlicensed spectrum is inadequate.
+Spectrum at lower frequencies is vastly more valuable than spectrum at higher frequencies because of its better propagation properties. The bands below 2 GHz are especially important to link communication devices within the home/enterprise and from the street curb to the home/enterprise. The vast number of obstacles within this space requires lower frequency transmission. One company, Shared Spectrum, estimates that the cost of providing last-mile broadband service with high, microwave frequencies is 7 times the cost of providing the same service with the low VHF frequencies. Access to low frequencies will reduce the power requirements and enhance the portability of these wireless devices.
+3. The FCC should allow more low power allocations of spectrum.
+Currently, many bands of spectrum only allow high power use. This is akin to only allowing giant ocean liners to use the oceans, with all other vessels banned by fiat. These high power restrictions should be relaxed to allow for both high and low power use.
+4. The FCC should charge license holders for exclusive rights to use the public airwaves for their most profitable use — low power transmissions.
+Currently, incumbent license holders are furiously lobbying Congress and the FCC for "spectrum flexibility," including the right to use the public airwaves at low power levels without public compensation. These highly valuable rights to use currently unused spectrum, called "white space," should not simply be given away. They should be either auctioned separately (via an upfront payment or lease fee) or allocated to unlicensed use. With smart radio technology, low power uses can co-exist with high-powered uses. The FCC's Part 15 rules already allow for a particular type of low power sharing, called underlays, in many bands. But both underlays and low power sharing more generally need to be greatly expanded.
+5. The FCC should increase power levels for unlicensed spectrum in rural and other sparsely populated areas.
+Global Positioning Systems (GPS) and other new technologies make it relatively easy for unlicensed devices to acquire location awareness. In this new technological context, it makes no sense to require unlicensed devices to operate at the same power levels in Manhattan and rural Wyoming.
+6. The FCC should allocate more unlicensed spectrum at higher frequencies for last-mile back haul.
+At higher frequencies mobility is progressively lost but the cost advantage of not having to dig trenches to lay fiber in the last mile is still large. This makes high frequency spectrum well suited for last-mile backhaul from the home to the curb. High frequency spectrum is also well suited for reuse of spectrum via narrow pathways (also called "beamwidths"). Narrow pathways at low frequencies require much larger antennas than narrow pathways at high frequencies. The prodigious increase in spectrum capacity created by narrow pathways makes unlicensed an efficient allocation system for last-mile backhaul. The FCC, for example, is currently allocating 13 GHz of previously virgin spectrum located above 70 GHz.
+7. The FCC should prohibit wired broadband providers from discriminating against unlicensed spectrum users.
+Restrictions on shared use were deemed unlawful with respect to the public switched network. They should be unlawful for the broadband network as well. Innovation will not flourish when it can be nipped in the bud by communications incumbents.
+8. The FCC should develop a spectrum policy capable of supporting the XG type spectrum sharing technology developed by the Defense Advanced Research Projects Agency (DARPA).
+According to DARPA, less than 2% of the most valuable U.S. spectrum capacity is currently in use. In other countries, the percentage may even be lower. DARPA's XG technology allows the U.S. military to share another country's spectrum without interfering with that country's domestic spectrum license holders. The failure to use this technology domestically to allow efficient spectrum sharing would sacrifice an American technological advantage akin to DARPA's development of the Internet.
+9. High power transmissions need to be more heavily regulated than low power transmissions.
+Because high power transmissions can do much more harm and be much more wasteful than low power transmissions, they need to be more heavily regulated. Today, the opposite is true. Because high-power licensees got the initial rights to use frequencies and now wield substantial political power, low power users are being forced to accommodate them. Accordingly, high power users are given primary legal status and low power users secondary status. This relationship should be reversed.
+10. The FCC should force high power polluters to become socially responsible citizens.
+Currently, the FCC places the burden of non-interference solely on the low-power radios. In the future, the burden should, at a minimum, be shared equally. For example, high power transmitters that are "good citizens" should transmit their geo-location so that other transmitters can avoid interfering with them. Similarly, receivers for these high power transmitters should send out low power signals announcing themselves, just as tall buildings, boats, and cars are required to transmit light to signal others and prevent collisions. If high-powered users were good citizens, spectrum worth tens of billions of dollars would be freed up, and low power, low cost unlicensed use would be greatly facilitated.
+CONCLUSION
+Yet, Congress and the FCC are acting to lock in high-power, exclusive allocations of spectrum at the very moment that low-power, shared allocations are establishing themselves as the wave of the future. This is not deregulation but a disastrous and dated form of regulation.
+Unlicensed spectrum has economic and social importance far beyond the benefits of stand-alone Wi-Fi hot spots. To equate Wi-Fi with unlicensed is to confuse the tip of the iceberg with the iceberg. The technology and protocols already exist to scale wireless broadband up from hot spots, to hot zones, to hot, last-mile pathways. In the past, low power unlicensed uses of spectrum have been an after-thought, the second-class mammals in an age ruled by dinosaurs. In the future, they need to be primary, because the gigabit network of the future depends on them.
+Downloads
+breaking-the-chains
+breaking-the-chains
+breaking-the-chains
+breaking-the-chains
+More About the Author
+James Johnston
+Issues
+Technology & Democracy
+Programs/Projects/Initiatives
+Open Technology Institute
+Related
+The Indispensable Spectrum: General Authorized Access to the Citizens Broadband Radio Service
+Report
+/
+In Depth
+The Indispensable Spectrum: General Authorized Access to the Citizens Broadband Radio Service
+Oct 15, 2026
+Michael Calabrese
+Bridging the Gap: Funding Universal Service in the Broadband Era
+Report
+/
+In Depth
+Bridging the Gap: Funding Universal Service in the Broadband Era
+Aug 19, 2025
+Jessica Dine
+, Raza Panjwani
+How to Protect Government Data with Privacy-Enhancing Technology
+Report
+/
+In Depth
+How to Protect Government Data with Privacy-Enhancing Technology
+Mar 25, 2025
+Sydney Saubestre
+Openness in Artificial Intelligence Models
+Report
+/
+In Depth
+Openness in Artificial Intelligence Models
+Nov 20, 2024
+Prem M. Trivedi, Nat Meysenburg
+Get the Latest from New America
+Subscribe
+Issues
+Latest
+Impact
+Fellows
+Events
+About
+The Thread
+Podcasts
+Careers
+Press
+Contact
+Who We Are
+New America
+740 15th Street NW
+Suite 900
+Washington, DC 20005
+Linkedin
+Instagram
+Bluesky
+Youtube
+Facebook
+X
+©2026 New America
+Policies
+Privacy Policy
+Creative Commons
+Close
+Issues
+Education & Work
+Democratic Futures
+Thriving Families
+Global Security
+Technology & Democracy
+Latest
+Impact
+Fellows
+New America Fellows
+Us@250 Fellowship
+Learning Sciences Exchange (LSX) Fellowship
+Future of Work Reporting Fellowship
+Events
+About
+About Us
+Who We Are
+Leadership
+Programs, Projects, and Initiatives
+Careers
+Funding
+Press
+Subscribe
+Donate
+Breaking the Chains
+Linkedin
+Facebook
+X
+Bluesky
+Email
+Save as PDF
+Search
+Menu

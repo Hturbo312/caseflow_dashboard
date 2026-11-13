@@ -1,0 +1,60 @@
+{
+  "case_id": "C20",
+  "release_id": "L2-C20-v1.0",
+  "status": "released",
+  "released_at": "2026-11-13",
+  "release_scope": "file-level only; dashboard SQLite import not included",
+  "ontology_version": "V4",
+  "base_layer": "L2-C18-v1.0 + L2-C19-v0.1 (DB-only)",
+  "counts": {
+    "mappings": 9,
+    "mapping_types": {"semantic_equivalent": 0, "native_hyponym": 2, "partial_or_approximate": 5, "no_map": 2},
+    "support_additions": 7,
+    "new_candidates": 1,
+    "withdrawn_candidates": 1,
+    "promotions": 1,
+    "definition_changes": 0,
+    "negative_changes": 0,
+    "historical_mapping_changes": 0,
+    "historical_reclassifications": 0,
+    "shared_concept_records_before": 101,
+    "shared_concept_records_after": 102,
+    "confirmed_before": 47,
+    "confirmed_after": 48,
+    "single_candidates_after": 45,
+    "awaiting_second_case_after": 7,
+    "evidence_weak_after": 1,
+    "held_after": 1
+  },
+  "promoted": ["SC-C19-102"],
+  "new_candidates": ["SC-C20-02"],
+  "withdrawn_candidates": ["SC-C20-01"],
+  "support_additions": ["SC-C01-152","SC-C01-131","SC-C01-121","SC-C01-122","SC-C01-174","SC-C01-155","SC-C19-102"],
+  "files": [
+    "l2_concept_mapping_v1.0.md",
+    "l2_concept_mapping_v1.0.json",
+    "l2_shared_concepts_v1.0.json",
+    "l2_ontology_delta.md",
+    "l2_ontology_delta.json",
+    "l2_version_record.md",
+    "l2_version_record.json"
+  ],
+  "handoff_to_L3": {
+    "confirmed_shared_concepts": ["SC-C19-102"],
+    "single_case_candidates": ["SC-C20-02"],
+    "support_additions": ["SC-C01-152","SC-C01-131","SC-C01-121","SC-C01-122","SC-C01-174","SC-C01-155"],
+    "native_layer": ["entities.json","facts.json","relations.json","evidence.json"],
+    "mapping_file": "l2_concept_mapping_v1.0.json",
+    "version_record": "l2_version_record.json",
+    "open_questions": [
+      "R038许可主体未明确",
+      "1个公园更新具体位置未知",
+      "两份设计是否全部建成未确认",
+      "AI提示词/生成日志/儿童修改记录缺失",
+      "儿童直接反馈缺失",
+      "SC-C20-02仍为单案候选"
+    ],
+    "comparison_note": "C20与C19可通过SC-C19-102生成式AI参与式可视化比较；C20与C19的儿童/青年参与差异需回原生层。"
+  },
+  "pending": ["dashboard SQLite import"]
+}

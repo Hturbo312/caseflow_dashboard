@@ -1,0 +1,43 @@
+{
+  "packetId": "RP-L2-G1-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "G1",
+  "caseId": "C16",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher_confirmation",
+  "nativeConcepts": 9,
+  "proposedSupplements": 2,
+  "existingLayer": {
+    "sharedConcepts": 45,
+    "mappings": 743,
+    "nativeConcepts": 736,
+    "versions": ["L2-C01-C11-shared-v0.2", "L2-C12-shared-v1.0"]
+  },
+  "decisionPoints": [
+    "确认 9 个原生概念",
+    "是否提升 PC-C16-01/02",
+    "NC-C16-02/05 是否新候选",
+    "NC-C16-08 是否另立候选",
+    "进入 G2"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false,
+    "scope": "C16 概念层；C01–C12 不变"
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": false,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "openIssues": [
+    "NC-C16-02 无同类别共享概念",
+    "NC-C16-05 无直接匹配",
+    "PC-C16-01/02 未进入案例包",
+    "NC-C16-08 的反向机制未被 SC-C01-175 覆盖"
+  ]
+}

@@ -1,0 +1,403 @@
+{
+ "caseId": "C17",
+  "version": "v1.0",
+  "status": "confirmed",
+ "generatedAt": "2026-11-13",
+ "timeSpan": "2011/2021-01-22",
+ "processes": [
+  {
+   "processId": "C17-P01",
+   "title": "前史：2011 年 Ramani Tandale 试点与社区制图方法来源",
+   "timeRange": "2011/2014",
+   "narrative": "在 Ramani Huria 启动前，HOT 与 Tandale ward 的社区成员、学生已在 2011 年开展名为 Ramani Tandale 的试点，证明少数本地参与者能够生成并管理超出既有“专家”资料范围的地方数据。该试点构成 2015 年项目的方法与组织前史；达累斯萨拉姆每年雨季的洪水破坏则是项目要回应的持续情境。",
+   "actors": [
+    "HOT",
+    "Tandale 社区成员",
+    "学生志愿者"
+   ],
+   "events": [
+    "E01 2011 年 Ramani Tandale 试点",
+    "E02 洪水反复造成道路与房屋破坏"
+   ],
+   "evidenceIds": [
+    "M01-E06",
+    "M01-E02",
+    "M14-E02"
+   ],
+   "status": "implemented",
+   "revision": 1,
+   "note": "前史段落，不计入 2015–2021 事件主链"
+  },
+  {
+   "processId": "C17-P02",
+   "title": "启动与伙伴集结：COSTECH 工作坊与资助—实施结构",
+   "timeRange": "2015-03",
+   "narrative": "2015 年 3 月 26—27 日，项目在坦桑尼亚科学技术委员会（COSTECH）举办启动工作坊，正式 kickoff。项目嵌于 DFID 与世界银行共建的坦桑尼亚城市韧性计划（TURP），由世界银行、GFDRR 与红十字会支持，HOT 负责实施指导；Ardhi 大学、UDSM、达累斯萨拉姆市议会与三个市议会、TODI、BUNI Hub、COSTECH 等构成合作网络。",
+   "actors": [
+    "HOT",
+    "世界银行",
+    "GFDRR",
+    "DFID",
+    "红十字会",
+    "COSTECH",
+    "Ardhi University",
+    "UDSM",
+    "达累斯萨拉姆市议会",
+    "Ilala/Kinondoni/Temeke 市议会",
+    "TODI",
+    "BUNI Hub"
+   ],
+   "events": [
+    "E03 COSTECH 启动工作坊",
+    "E04 形成 TURP 资助结构",
+    "E05 建立大学—市政—红十字会合作网络"
+   ],
+   "evidenceIds": [
+    "M01-E13",
+    "M01-E05",
+    "M02-E02",
+    "M02-E03",
+    "M14-E02"
+   ],
+   "status": "implemented",
+   "revision": 1,
+   "note": ""
+  },
+  {
+   "processId": "C17-P03",
+   "title": "三 ward 试点：招募学生、打磨社区制图流程",
+   "timeRange": "2015-03/2015-06",
+   "narrative": "项目启动后招募约 15 名 Ardhi 大学城市规划专业学生为实习生，在 Ndugumbi、Tandale、Mchikichini 三个 ward 试行并调整社区制图方法。6 月起，部分学生已能负责 Mchikichini 的 subward 制图。该阶段同时训练出后来承担扩展期培训的 15 名学生督导（他们在带训前接受约三个月指导）。",
+   "actors": [
+    "HOT",
+    "Ardhi University",
+    "约 15 名实习生",
+    "Ndugumbi/Tandale/Mchikichini 社区"
+   ],
+   "events": [
+    "E06 招募约 15 名 Ardhi 实习生",
+    "E07 三 ward 试点",
+    "E08 学生晋升为 subward 负责人/督导"
+   ],
+   "evidenceIds": [
+    "M01-E15",
+    "M01-E14",
+    "M04-E02"
+   ],
+   "status": "implemented",
+   "revision": 1,
+   "note": "M04 称督导此前接受三个月培训，与试点期长度相容"
+  },
+  {
+   "processId": "C17-P04",
+   "title": "大规模扩展：150 名学生、14+8 个 ward 与结项论坛",
+   "timeRange": "2015-07/2015-10",
+   "narrative": "2015 年 7 月 6 日，项目在 UDSM Nkrumah Hall 举办扩展工作坊，随后签约 150 名 Ardhi 与 UDSM 学生；15 名 Ardhi 学生督导用三天培训新学生（两天理论、一天在 UDSM 校园实操），内容覆盖 OSM、Field Papers、GPS eTrex 30、OSM Tracker 与 JOSM。7—8 月以完整社区流程完成 14 个 ward，最多 6 个并行；9 月初配合非洲开放数据会议完成市中心 8 个 ward；10 月 9 日在 Manzese、Mzimuni、Kigogo、Vingunguti 举行结项社区论坛。7 月 28 日的博客另列首批 6 个 ward（Mabibo、Mburahati、Makurumla、Makumbusho、Msasani、Keko），属扩展早期的批次口径。",
+   "actors": [
+    "HOT",
+    "UDSM",
+    "Ardhi University",
+    "150 名学生",
+    "15 名学生督导",
+    "红十字会志愿者",
+    "ward 政府与社区"
+   ],
+   "events": [
+    "E09 7-06 UDSM 扩展工作坊",
+    "E10 签约 150 名学生",
+    "E11 三天培训",
+    "E12 7—8 月完成 14 ward",
+    "E13 9 月初完成市中心 8 ward",
+    "E14 10-09 四 ward 结项论坛"
+   ],
+   "evidenceIds": [
+    "M01-E16",
+    "M01-E17",
+    "M01-E18",
+    "M01-E19",
+    "M04-E01",
+    "M04-E02",
+    "M04-E03",
+    "M04-E04",
+    "M04-E05"
+   ],
+   "status": "implemented",
+   "revision": 1,
+   "note": "6 ward（M04，7 月）与 14 ward（M01，7—8 月）为不同时点口径"
+  },
+  {
+   "processId": "C17-P05",
+   "title": "社区参与的组织现场：Vingunguti 论坛、红十字分组与两周外业",
+   "timeRange": "2015-09/2015-10",
+   "narrative": "Vingunguti（Ilala 区，2012 年人口 106,946）是完整社区流程的典型现场。2015 年 9 月 11 日，项目与 ward 执行官员、8 个 subward 的社区成员举行社区论坛启动制图，世界银行、HOT 与两校学生代表到场；红十字志愿者分为两组、每组 10 人，分别于 9 月 14—18 日与 9 月 21—25 日随学生制图员用 GPS 采集。外业遭遇断电与 ward 办公室场地变动，数字化进度受影响，部分活动转移到 Kombo 小学。团队在两周内完成全 ward 制图，10 月 9 日举行结项论坛，向 ward 执行官员提交通用地图与排水地图，并向参与者颁发证书。",
+   "actors": [
+    "Vingunguti ward 办公室",
+    "Vingunguti 社区成员",
+    "坦桑尼亚红十字会志愿者",
+    "Ardhi/UDSM 学生",
+    "HOT",
+    "世界银行代表"
+   ],
+   "events": [
+    "E15 9-11 社区论坛",
+    "E16 红十字两组各 10 人外业",
+    "E17 断电与场地变动",
+    "E18 两周完成全 ward",
+    "E19 10-09 结项与地图交付"
+   ],
+   "evidenceIds": [
+    "M06-E01",
+    "M06-E02",
+    "M06-E03",
+    "M06-E04",
+    "M06-E05",
+    "M01-E19"
+   ],
+   "status": "implemented",
+   "revision": 1,
+   "note": "作为过程例证，不替代 21 个 ward 的整体统计"
+  },
+  {
+   "processId": "C17-P06",
+   "title": "收缩、质量提升与排水系统扩展：21/29/65 的口径形成",
+   "timeRange": "2015-10/2016-02",
+   "narrative": "扩展期结束后，制图队缩减为 20 名制图员加 2 名督导，单 ward 平均工期由三周降至两周。此后新增 Ubungo、Tabata、Ilala、Temeke 四个社区流程 ward，使社区制图 ward 达 21 个；市中心 8 个 ward 完成全面实地测绘，累计 29 个 ward；另在 36 个外围 ward 完成排水与水系制图，使地图得到实质改善的 ward 总数达 65 个。排水制图由专职队伍承担，单 ward 约三天（两天采集、一天核验与数字化），可四个 ward 并行；无人机（COSTECH 提供 eBee，3—5 厘米/像素）与 MapGive 卫星影像用于补足高密度与非覆盖区域。",
+   "actors": [
+    "HOT",
+    "20 名制图员与 2 名督导",
+    "排水制图队",
+    "COSTECH",
+    "MapGive（美国国务院）",
+    "36 个外围 ward 的社区与政府"
+   ],
+   "events": [
+    "E20 队伍缩减至 20+2",
+    "E21 新增 4 个社区 ward 达 21",
+    "E22 市中心 8 ward 全面测绘达 29",
+    "E23 36 ward 排水制图达 65",
+    "E24 排水制图三天/ward、四 ward 并行",
+    "E25 引入 eBee 与 MapGive 影像"
+   ],
+   "evidenceIds": [
+    "M01-E20",
+    "M01-E21",
+    "M01-E22",
+    "M01-E23",
+    "M01-E24",
+    "M01-E25",
+    "M01-E26",
+    "M01-E41",
+    "M01-E43",
+    "M01-E30",
+    "M01-E31",
+    "M01-E32",
+    "M01-E33",
+    "M01-E34",
+    "M05-E01",
+    "M05-E02"
+   ],
+   "status": "implemented",
+   "revision": 1,
+   "note": "21+8+36=65；29 为“全面测绘”口径"
+  },
+  {
+   "processId": "C17-P07",
+   "title": "图集发布与 1.0 收束：从数据到公共产品",
+   "timeRange": "2016-03/2016-12",
+   "narrative": "2016 年 3 月，项目发布《The Atlas of Flood Resilience in Dar es Salaam》，把 21 个社区制图 ward 的地图、8 个市中心 ward 图、36 个 ward 排水图与社区勾绘的洪泛范围汇编为公共产品；图集声明地图将与 InaSAFE 结合用于灾害情景，并计划在线公开、提供下载及以印刷形式交付各 ward 基层政府。HOT 的项目记录将本项目周期记为 2015-04-01 至 2016-12-31，状态为完成；项目官网另自报 29 个 ward、1254 公里水道、3396 公里道路、450 名制图员与 10 支社区防灾队。",
+   "actors": [
+    "世界银行",
+    "HOT",
+    "达累斯萨拉姆市议会与市辖区",
+    "21 个社区 ward",
+    "印刷与数据使用者"
+   ],
+   "events": [
+    "E26 2016-03 图集发布",
+    "E27 地图公开与印刷交付（计划）",
+    "E28 2016-12-31 HOT 项目记录结束",
+    "E29 官网自报规模"
+   ],
+   "evidenceIds": [
+    "M01-E24",
+    "M01-E04",
+    "M01-E03",
+    "M14-E01",
+    "M03-E01",
+    "M03-E02",
+    "M03-E03",
+    "M03-E04"
+   ],
+   "status": "implemented",
+   "revision": 1,
+   "note": "印刷交付在图集撰写时为计划；官网规模为自报"
+  },
+  {
+   "processId": "C17-P08",
+   "title": "Ramani Huria 2.0 启动：从制图转向风险分析",
+   "timeRange": "2017-09",
+   "narrative": "2017 年 9 月 26 日，Ramani Huria 2.0 在 Julius Nyerere 国际会议中心正式启动。Ardhi 副校长回顾 1.0 已为 21 个 ward、约 130 万居民制图，并称 2.0 预计覆盖 300 万以上居民、已向 400 余名学生转移灾害风险管理知识；Ardhi、世界银行与 DFID 在会上签署 MoU。HOT 项目页称 2.0 自 2017 年开始，把暴露数据与洪水危险数据结合开展未来灾害风险分析。",
+   "actors": [
+    "Ardhi University",
+    "世界银行",
+    "DFID",
+    "HOT",
+    "政府官员",
+    "红十字会",
+    "学生"
+   ],
+   "events": [
+    "E30 2017-09-26 2.0 启动",
+    "E31 1.0 覆盖 21 ward/130 万居民",
+    "E32 2.0 预期 300 万居民",
+    "E33 签署 Ardhi–WB–DFID MoU"
+   ],
+   "evidenceIds": [
+    "M07-E01",
+    "M07-E02",
+    "M07-E03",
+    "M07-E04",
+    "M07-E05",
+    "M14-E03"
+   ],
+   "status": "implemented",
+   "revision": 1,
+   "note": "300 万为预期值，不写成已实现"
+  },
+  {
+   "processId": "C17-P09",
+   "title": "排水重测与 228 个 subward 的资产—威胁制图",
+   "timeRange": "2017/2019",
+   "narrative": "2.0 建立统一的排水数据模型，对所有排水进行重测并强调拓扑连通性；2018 年 6 月前 20 个 ward 完成重测，2017—2019 年累计扩展到 44 个 ward。2018 年暑期，450 余名 Ardhi 与 UDSM 学生在 7 周内完成 228 个 subward 的资产与威胁制图：先用 ODK 在 44 个 ward 采集 20,392 个垃圾点，再以约 11 人的社区会议、三组并行讨论、印刷地图与描图纸识别资产与威胁，每个 subward 产出报告与行动地图，交由 Deltares 与 ward 领导制定灾害管理计划。",
+   "actors": [
+    "HOT",
+    "Ardhi University",
+    "UDSM",
+    "450+ 学生",
+    "社区成员与 ward 领导",
+    "Deltares",
+    "Nipe Fagio"
+   ],
+   "events": [
+    "E34 排水数据模型与全网重测",
+    "E35 2018-06 前 20 ward 完成",
+    "E36 2017—2019 扩展至 44 ward",
+    "E37 7 周完成 228 subward",
+    "E38 ODK 采集 20,392 垃圾点",
+    "E39 社区会议与三组讨论",
+    "E40 报告与行动地图交付 Deltares"
+   ],
+   "evidenceIds": [
+    "M08-E01",
+    "M08-E02",
+    "M08-E03",
+    "M16-E02",
+    "M09-E01",
+    "M09-E02",
+    "M09-E04",
+    "M09-E05",
+    "M09-E06",
+    "M09-E07",
+    "M09-E08",
+    "M16-E03"
+   ],
+   "status": "implemented",
+   "revision": 1,
+   "note": "M09-E08 的 Deltares 使用在撰写时为计划"
+  },
+  {
+   "processId": "C17-P10",
+   "title": "移交 Tanzania Resilience Academy 与 2.0 结束",
+   "timeRange": "2019-07/2019-12",
+   "narrative": "2019 年 7 月 29 日，Ramani Huria 暑期产业培训项目从 HOT 直接管理转为 UDSM、Ardhi、SUZA 共同管理的 Tanzania Resilience Academy（RA），并与芬兰 Turku 大学合作；HOT 继续在组织与培训上提供支持。项目方宣布第二阶段于 2019 年结束，数据、工具、教材与文档移交 RA；OMDTZ 作为本地机构承接能力。项目方称数据已被红十字会与 DarMAERT 等应急机构使用，但同一篇文字对参与规模给出两套互相冲突的数字（800+ 学生/6000+ 社区成员；1000+ 学生/约 300 社区成员）。",
+   "actors": [
+    "HOT",
+    "Tanzania Resilience Academy",
+    "UDSM",
+    "Ardhi University",
+    "SUZA",
+    "University of Turku",
+    "OMDTZ",
+    "红十字会",
+    "DarMAERT"
+   ],
+   "events": [
+    "E41 2019-07-29 管理权移交 RA",
+    "E42 RA 四校合作结构",
+    "E43 2.0 于 2019 结束",
+    "E44 数据/工具/教材移交",
+    "E45 OMDTZ 承接能力",
+    "E46 数据被 Red Cross/DarMAERT 使用"
+   ],
+   "evidenceIds": [
+    "M10-E01",
+    "M10-E02",
+    "M10-E05",
+    "M10-E06",
+    "M10-E07",
+    "M10-E03",
+    "M10-E04"
+   ],
+   "status": "implemented",
+   "revision": 1,
+   "note": "参与人数两套口径并列，不合并"
+  },
+  {
+   "processId": "C17-P11",
+   "title": "RA 时期的洪水数据采集：20 个 ward 与 10,000+ 数据点",
+   "timeRange": "2020-09/2020-11",
+   "narrative": "2020 年 9—11 月，项目与 RA 合作培训三所大学 200 名学生，在达累斯萨拉姆 20 个 ward 与社区成员采集洪水范围与水深数据，两个月内超过 10,000 个洪水数据点。团队还使用低成本 u-blox 双频接收机，以精密单点定位（PPP）采集可校正无人机影像的控制点；这些数据用于补足城市洪水模型。",
+   "actors": [
+    "Tanzania Resilience Academy",
+    "三所大学",
+    "200 名学生",
+    "20 个 ward 的社区成员",
+    "HOT/OMDTZ 技术人员"
+   ],
+   "events": [
+    "E47 培训 200 名学生",
+    "E48 20 ward 洪水范围与水深采集",
+    "E49 10,000+ 洪水数据点",
+    "E50 u-blox PPP 控制点"
+   ],
+   "evidenceIds": [
+    "M11-E01",
+    "M11-E02",
+    "M11-E03",
+    "M11-E04"
+   ],
+   "status": "implemented",
+   "revision": 1,
+   "note": ""
+  },
+  {
+   "processId": "C17-P12",
+   "title": "方法向 Mwanza 扩散：五个月、79 名学生与多灾种数据",
+   "timeRange": "2020-10/2021-01",
+   "narrative": "2020 年 10 月至 2021 年 1 月，Spatial Collective、HOT 与 OMDTZ 用五个月把社区制图扩展到 Mwanza 的 Nyamagana 与 Ilemela，培训 IRDP 与 St. Augustine 大学 79 名学生，采集 30 万+ 建筑、1.5 万+ 洪泛点、800 个落石点、8 万+ 城市暴露点与 1700 段排水（145 公里）。项目遇到陡坡地形、社区担心拆迁、选举期许可延迟等障碍。该段作为方法可迁移性的扩散观察，不并入达累斯萨拉姆核心行动链。",
+   "actors": [
+    "Spatial Collective",
+    "HOT",
+    "OMDTZ",
+    "IRDP",
+    "St. Augustine University of Tanzania",
+    "Mwanza 社区与地方政府"
+   ],
+   "events": [
+    "E51 五个月扩展至 Mwanza",
+    "E52 培训 79 名学生",
+    "E53 采集建筑/洪泛/落石/排水数据",
+    "E54 地形、拆迁误解与选举障碍"
+   ],
+   "evidenceIds": [
+    "M12-E01",
+    "M12-E02",
+    "M12-E03",
+    "M12-E04"
+   ],
+   "status": "implemented",
+   "revision": 1,
+   "note": "扩散观察，不进入达市核心链"
+  }
+ ]
+}

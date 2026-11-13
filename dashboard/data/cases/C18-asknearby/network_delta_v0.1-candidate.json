@@ -1,0 +1,75 @@
+{
+  "case_id": "C18",
+  "network_layer_version": "L2-C18-v1.0",
+  "status": "confirmed",
+  "generated_at": "2026-11-13",
+  "base_layer": "L2-C15-v1.0",
+  "delta": {
+    "support_additions": [
+      {
+        "shared_concept_id": "SC-C01-132",
+        "add_case_id": "C18",
+        "native_concept_ids": ["NC-C18-01"],
+        "mapping_ids": ["MAP-C18-002"],
+        "scope": "社区信息/服务整合成分"
+      },
+      {
+        "shared_concept_id": "SC-C01-143",
+        "add_case_id": "C18",
+        "native_concept_ids": ["NC-C18-02", "NC-C18-04"],
+        "mapping_ids": ["MAP-C18-004", "MAP-C18-008"],
+        "scope": "设施查询/推荐与资源空间分析"
+      },
+      {
+        "shared_concept_id": "SC-C01-141",
+        "add_case_id": "C18",
+        "native_concept_ids": ["NC-C18-03"],
+        "mapping_ids": ["MAP-C18-006"],
+        "scope": "居民讨论/评价的表达成分"
+      },
+      {
+        "shared_concept_id": "SC-C01-156",
+        "add_case_id": "C18",
+        "native_concept_ids": ["NC-C18-06"],
+        "mapping_ids": ["MAP-C18-011"],
+        "scope": "网格工单/痛点处置"
+      },
+      {
+        "shared_concept_id": "SC-C01-151",
+        "add_case_id": "C18",
+        "native_concept_ids": ["NC-C18-07"],
+        "mapping_ids": ["MAP-C18-013"],
+        "scope": "开放日参与/打卡"
+      },
+      {
+        "shared_concept_id": "SC-C01-158",
+        "add_case_id": "C18",
+        "native_concept_ids": ["NC-C18-05"],
+        "mapping_ids": ["MAP-C18-009"],
+        "scope": "30天平台试点"
+      }
+    ],
+    "new_candidates": ["SC-C18-01", "SC-C18-03", "SC-C18-04", "SC-C18-05", "SC-C18-06", "SC-C18-07", "SC-C18-08"],
+    "held_candidates": ["SC-C18-02"],
+    "no_map_native_concepts": ["NC-C18-09", "NC-C18-10"],
+    "definition_changes": 0,
+    "negative_example_changes": 0,
+    "historical_reclassifications": 0
+  },
+  "network_counts": {
+    "before_active_shared_concepts": 57,
+    "added_active_candidates": 7,
+    "held_candidates": 1,
+    "after_active_shared_concepts": 64,
+    "support_additions": 6
+  },
+  "historical_review": "historical_mapping_review.json",
+  "note": "本文件是增量，不覆盖 C01–C15 的概念文件或历史映射。",
+  "researcher_decision": {
+    "action": "accept",
+    "rationale": "6支持增量，0改判，64活跃概念，进入G4。",
+    "modified_content": "接受网络增量与6个支持变更。",
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  }
+}

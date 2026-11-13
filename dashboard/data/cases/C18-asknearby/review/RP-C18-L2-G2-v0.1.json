@@ -1,0 +1,47 @@
+{
+  "packetId": "RP-C18-L2-G2-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G2",
+  "caseId": "C18",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher",
+  "baseline": "L2-C15-v1.0",
+  "checkedSharedConcepts": 57,
+  "counts": {
+    "mappings": 16,
+    "semantic_equivalent": 0,
+    "native_hyponym": 7,
+    "partial_or_approximate": 6,
+    "no_map": 3,
+    "activeCandidates": 7,
+    "heldCandidates": 1,
+    "notProposed": 2
+  },
+  "proposedSupportAdditions": [
+    "SC-C01-132",
+    "SC-C01-143",
+    "SC-C01-141",
+    "SC-C01-156",
+    "SC-C01-151",
+    "SC-C01-158"
+  ],
+  "decisionsRequired": [
+    "是否接受16条映射及类型分布",
+    "是否接受7个活跃候选并保留SC-C18-02",
+    "是否确认NC-C18-09/10不提出候选",
+    "是否同意历史支持变更留到G3"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": "support_additions_pending",
+    "affectsHistoricalMappings": true,
+    "triggersHistoricalReview": true
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": null,
+    "decidedAt": null
+  },
+  "version": "v0.1"
+}

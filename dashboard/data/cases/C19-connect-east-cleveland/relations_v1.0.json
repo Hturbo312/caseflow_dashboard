@@ -1,0 +1,2496 @@
+{
+  "case_id": "C19",
+  "generated_at": "2026-11-13",
+  "version": "v1.0",
+  "status": "confirmed",
+  "relations": [
+    {
+      "relation_id": "R001",
+      "case_id": "C19",
+      "head_entity": "X03",
+      "head_type": "context",
+      "predicate": "defined_target_area",
+      "tail_entity": "X02",
+      "tail_type": "context",
+      "fact_status": "implemented",
+      "qualifiers": "2015–2022; western gateway",
+      "evidence_ids": [
+        "M05-E01",
+        "M31-E01"
+      ],
+      "process_ids": [
+        "C19-P01"
+      ],
+      "fact_ids": [
+        "F001"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R002",
+      "case_id": "C19",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "acts_as_master_developer_of",
+      "tail_entity": "X04",
+      "tail_type": "context",
+      "fact_status": "implemented",
+      "qualifiers": "2023; Circle East District",
+      "evidence_ids": [
+        "M10-E01",
+        "M01-E05"
+      ],
+      "process_ids": [
+        "C19-P01"
+      ],
+      "fact_ids": [
+        "F004",
+        "F005"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R003",
+      "case_id": "C19",
+      "head_entity": "X04",
+      "head_type": "context",
+      "predicate": "targets",
+      "tail_entity": "G01",
+      "tail_type": "target",
+      "fact_status": "planned",
+      "qualifiers": "30 acres; ~200 homes; $122M",
+      "evidence_ids": [
+        "M10-E01"
+      ],
+      "process_ids": [
+        "C19-P01"
+      ],
+      "fact_ids": [
+        "F005"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R004",
+      "case_id": "C19",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "acquired",
+      "tail_entity": "G01",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "by 2023; 200+ residential parcels; 18 commercial",
+      "evidence_ids": [
+        "M01-E05",
+        "M03-E02"
+      ],
+      "process_ids": [
+        "C19-P01"
+      ],
+      "fact_ids": [
+        "F004"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R005",
+      "case_id": "C19",
+      "head_entity": "A02",
+      "head_type": "actor",
+      "predicate": "partnered_in",
+      "tail_entity": "X04",
+      "tail_type": "context",
+      "fact_status": "planned",
+      "qualifiers": "2023; City of East Cleveland",
+      "evidence_ids": [
+        "M10-E01"
+      ],
+      "process_ids": [
+        "C19-P01"
+      ],
+      "fact_ids": [
+        "F005"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R006",
+      "case_id": "C19",
+      "head_entity": "X04",
+      "head_type": "context",
+      "predicate": "context_for",
+      "tail_entity": "K01",
+      "tail_type": "task",
+      "fact_status": "planned",
+      "qualifiers": "2023; placemaking complements redevelopment",
+      "evidence_ids": [
+        "M01-E05"
+      ],
+      "process_ids": [
+        "C19-P01"
+      ],
+      "fact_ids": [
+        "F005"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R007",
+      "case_id": "C19",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "established",
+      "tail_entity": "A19",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2023",
+      "evidence_ids": [
+        "M03-E01",
+        "M02-E01"
+      ],
+      "process_ids": [
+        "C19-P02"
+      ],
+      "fact_ids": [
+        "F006"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R008",
+      "case_id": "C19",
+      "head_entity": "A19",
+      "head_type": "actor",
+      "predicate": "hired",
+      "tail_entity": "A07",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2023; paid Street Team Leader",
+      "evidence_ids": [
+        "M01-E07"
+      ],
+      "process_ids": [
+        "C19-P02"
+      ],
+      "fact_ids": [
+        "F008"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R009",
+      "case_id": "C19",
+      "head_entity": "A07",
+      "head_type": "actor",
+      "predicate": "provides",
+      "tail_entity": "C05",
+      "tail_type": "capability",
+      "fact_status": "implemented",
+      "qualifiers": "local knowledge; resident networks",
+      "evidence_ids": [
+        "M01-E07"
+      ],
+      "process_ids": [
+        "C19-P02"
+      ],
+      "fact_ids": [
+        "F008"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R010",
+      "case_id": "C19",
+      "head_entity": "A19",
+      "head_type": "actor",
+      "predicate": "includes",
+      "tail_entity": "A04",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2023; design lead",
+      "evidence_ids": [
+        "M01-E28"
+      ],
+      "process_ids": [
+        "C19-P02"
+      ],
+      "fact_ids": [
+        "F006"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R011",
+      "case_id": "C19",
+      "head_entity": "A19",
+      "head_type": "actor",
+      "predicate": "includes",
+      "tail_entity": "A05",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2023; design consultant",
+      "evidence_ids": [
+        "M01-E28"
+      ],
+      "process_ids": [
+        "C19-P02"
+      ],
+      "fact_ids": [
+        "F006"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R012",
+      "case_id": "C19",
+      "head_entity": "A19",
+      "head_type": "actor",
+      "predicate": "includes",
+      "tail_entity": "A06",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2023; landscape consultant",
+      "evidence_ids": [
+        "M01-E28"
+      ],
+      "process_ids": [
+        "C19-P02"
+      ],
+      "fact_ids": [
+        "F006"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R013",
+      "case_id": "C19",
+      "head_entity": "A19",
+      "head_type": "actor",
+      "predicate": "set_priorities_for",
+      "tail_entity": "K01",
+      "tail_type": "task",
+      "fact_status": "implemented",
+      "qualifiers": "2023; 4 priorities",
+      "evidence_ids": [
+        "M01-E12"
+      ],
+      "process_ids": [
+        "C19-P02"
+      ],
+      "fact_ids": [
+        "F009"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R014",
+      "case_id": "C19",
+      "head_entity": "A19",
+      "head_type": "actor",
+      "predicate": "organized",
+      "tail_entity": "N02",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-04-20; Salvation Army East Cleveland",
+      "evidence_ids": [
+        "M01-E14",
+        "M04-E01",
+        "M01-E09"
+      ],
+      "process_ids": [
+        "C19-P03"
+      ],
+      "fact_ids": [
+        "F010"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R015",
+      "case_id": "C19",
+      "head_entity": "A08",
+      "head_type": "actor",
+      "predicate": "participated_in",
+      "tail_entity": "N02",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-04-20; Event 1.0",
+      "evidence_ids": [
+        "M04-E01"
+      ],
+      "process_ids": [
+        "C19-P03"
+      ],
+      "fact_ids": [
+        "F010"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R016",
+      "case_id": "C19",
+      "head_entity": "N02",
+      "head_type": "action",
+      "predicate": "informed",
+      "tail_entity": "K01",
+      "tail_type": "task",
+      "fact_status": "implemented",
+      "qualifiers": "2023-04-20; priorities",
+      "evidence_ids": [
+        "M01-E12",
+        "M04-E01"
+      ],
+      "process_ids": [
+        "C19-P03"
+      ],
+      "fact_ids": [
+        "F009",
+        "F010"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R017",
+      "case_id": "C19",
+      "head_entity": "A19",
+      "head_type": "actor",
+      "predicate": "organized",
+      "tail_entity": "N03",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-05-24; 2 routes",
+      "evidence_ids": [
+        "M01-E15",
+        "M04-E02",
+        "M01-E09"
+      ],
+      "process_ids": [
+        "C19-P04"
+      ],
+      "fact_ids": [
+        "F011"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R018",
+      "case_id": "C19",
+      "head_entity": "A08",
+      "head_type": "actor",
+      "predicate": "participated_in",
+      "tail_entity": "N03",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "15+ participants",
+      "evidence_ids": [
+        "M04-E02"
+      ],
+      "process_ids": [
+        "C19-P04"
+      ],
+      "fact_ids": [
+        "F011"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R019",
+      "case_id": "C19",
+      "head_entity": "N03",
+      "head_type": "action",
+      "predicate": "used",
+      "tail_entity": "T03",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2023-05-24; Mickey’s east wall",
+      "evidence_ids": [
+        "M04-E02"
+      ],
+      "process_ids": [
+        "C19-P04"
+      ],
+      "fact_ids": [
+        "F012"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R020",
+      "case_id": "C19",
+      "head_entity": "T03",
+      "head_type": "technology",
+      "predicate": "provides",
+      "tail_entity": "C03",
+      "tail_type": "capability",
+      "fact_status": "implemented",
+      "qualifiers": "3 mural options",
+      "evidence_ids": [
+        "M04-E02"
+      ],
+      "process_ids": [
+        "C19-P04"
+      ],
+      "fact_ids": [
+        "F012"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R021",
+      "case_id": "C19",
+      "head_entity": "N03",
+      "head_type": "action",
+      "predicate": "targeted",
+      "tail_entity": "G03",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "Mickey’s east wall",
+      "evidence_ids": [
+        "M04-E02"
+      ],
+      "process_ids": [
+        "C19-P04"
+      ],
+      "fact_ids": [
+        "F012"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R022",
+      "case_id": "C19",
+      "head_entity": "T03",
+      "head_type": "technology",
+      "predicate": "visualized",
+      "tail_entity": "G06",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "3 mural options",
+      "evidence_ids": [
+        "M04-E02"
+      ],
+      "process_ids": [
+        "C19-P04"
+      ],
+      "fact_ids": [
+        "F012"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R023",
+      "case_id": "C19",
+      "head_entity": "A19",
+      "head_type": "actor",
+      "predicate": "organized",
+      "tail_entity": "N04",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-07-14; ~50 participants",
+      "evidence_ids": [
+        "M01-E16",
+        "M04-E03"
+      ],
+      "process_ids": [
+        "C19-P05"
+      ],
+      "fact_ids": [
+        "F013"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R024",
+      "case_id": "C19",
+      "head_entity": "A08",
+      "head_type": "actor",
+      "predicate": "participated_in",
+      "tail_entity": "N04",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "~50 participants",
+      "evidence_ids": [
+        "M04-E03",
+        "M09-E01"
+      ],
+      "process_ids": [
+        "C19-P05"
+      ],
+      "fact_ids": [
+        "F013"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R025",
+      "case_id": "C19",
+      "head_entity": "N04",
+      "head_type": "action",
+      "predicate": "includes",
+      "tail_entity": "N05",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "3D model station",
+      "evidence_ids": [
+        "M01-E16",
+        "M04-E05"
+      ],
+      "process_ids": [
+        "C19-P05"
+      ],
+      "fact_ids": [
+        "F014"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R026",
+      "case_id": "C19",
+      "head_entity": "N04",
+      "head_type": "action",
+      "predicate": "includes",
+      "tail_entity": "N06",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "UrbanistAI station",
+      "evidence_ids": [
+        "M01-E16",
+        "M04-E05"
+      ],
+      "process_ids": [
+        "C19-P05"
+      ],
+      "fact_ids": [
+        "F014"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R027",
+      "case_id": "C19",
+      "head_entity": "N04",
+      "head_type": "action",
+      "predicate": "includes",
+      "tail_entity": "N07",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "storytelling/survey stations",
+      "evidence_ids": [
+        "M01-E16"
+      ],
+      "process_ids": [
+        "C19-P05"
+      ],
+      "fact_ids": [
+        "F014"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R028",
+      "case_id": "C19",
+      "head_entity": "N05",
+      "head_type": "action",
+      "predicate": "used",
+      "tail_entity": "T02",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2023-07-14",
+      "evidence_ids": [
+        "M01-E16",
+        "M07-E01"
+      ],
+      "process_ids": [
+        "C19-P05"
+      ],
+      "fact_ids": [
+        "F015"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R029",
+      "case_id": "C19",
+      "head_entity": "T02",
+      "head_type": "technology",
+      "predicate": "provides",
+      "tail_entity": "C02",
+      "tail_type": "capability",
+      "fact_status": "implemented",
+      "qualifiers": "spatial positioning",
+      "evidence_ids": [
+        "M07-E01"
+      ],
+      "process_ids": [
+        "C19-P05"
+      ],
+      "fact_ids": [
+        "F015"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R030",
+      "case_id": "C19",
+      "head_entity": "N06",
+      "head_type": "action",
+      "predicate": "used",
+      "tail_entity": "T01",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2023-07-14",
+      "evidence_ids": [
+        "M04-E04"
+      ],
+      "process_ids": [
+        "C19-P05"
+      ],
+      "fact_ids": [
+        "F016"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R031",
+      "case_id": "C19",
+      "head_entity": "T01",
+      "head_type": "technology",
+      "predicate": "provides",
+      "tail_entity": "C01",
+      "tail_type": "capability",
+      "fact_status": "implemented",
+      "qualifiers": "text-to-image visualization",
+      "evidence_ids": [
+        "M04-E04"
+      ],
+      "process_ids": [
+        "C19-P05"
+      ],
+      "fact_ids": [
+        "F016"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R032",
+      "case_id": "C19",
+      "head_entity": "A08",
+      "head_type": "actor",
+      "predicate": "prompted",
+      "tail_entity": "T01",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "participant-dictated prompts",
+      "evidence_ids": [
+        "M04-E04"
+      ],
+      "process_ids": [
+        "C19-P05"
+      ],
+      "fact_ids": [
+        "F016"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R033",
+      "case_id": "C19",
+      "head_entity": "N06",
+      "head_type": "action",
+      "predicate": "generated",
+      "tail_entity": "G06",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "placemaking images",
+      "evidence_ids": [
+        "M04-E04"
+      ],
+      "process_ids": [
+        "C19-P05"
+      ],
+      "fact_ids": [
+        "F016"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R034",
+      "case_id": "C19",
+      "head_entity": "A11",
+      "head_type": "actor",
+      "predicate": "supplied",
+      "tail_entity": "T01",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2023; vendor/platform",
+      "evidence_ids": [
+        "M07-E01",
+        "M07-E02"
+      ],
+      "process_ids": [
+        "C19-P05"
+      ],
+      "fact_ids": [
+        "F016"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R035",
+      "case_id": "C19",
+      "head_entity": "A19",
+      "head_type": "actor",
+      "predicate": "organized",
+      "tail_entity": "N08",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-08-23; 3MB",
+      "evidence_ids": [
+        "M01-E18",
+        "M01-E10"
+      ],
+      "process_ids": [
+        "C19-P06"
+      ],
+      "fact_ids": [
+        "F017"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R036",
+      "case_id": "C19",
+      "head_entity": "A10",
+      "head_type": "actor",
+      "predicate": "co_hosted",
+      "tail_entity": "N08",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-08-23",
+      "evidence_ids": [
+        "M01-E18"
+      ],
+      "process_ids": [
+        "C19-P06"
+      ],
+      "fact_ids": [
+        "F017"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R037",
+      "case_id": "C19",
+      "head_entity": "A09",
+      "head_type": "actor",
+      "predicate": "participated_in",
+      "tail_entity": "N08",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-08-23",
+      "evidence_ids": [
+        "M01-E18"
+      ],
+      "process_ids": [
+        "C19-P06"
+      ],
+      "fact_ids": [
+        "F017"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R038",
+      "case_id": "C19",
+      "head_entity": "N08",
+      "head_type": "action",
+      "predicate": "used",
+      "tail_entity": "T01",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "AI-generated images",
+      "evidence_ids": [
+        "M01-E18"
+      ],
+      "process_ids": [
+        "C19-P06"
+      ],
+      "fact_ids": [
+        "F017"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R039",
+      "case_id": "C19",
+      "head_entity": "N08",
+      "head_type": "action",
+      "predicate": "targeted",
+      "tail_entity": "G08",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "East Cleveland youth",
+      "evidence_ids": [
+        "M01-E18"
+      ],
+      "process_ids": [
+        "C19-P06"
+      ],
+      "fact_ids": [
+        "F017"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R040",
+      "case_id": "C19",
+      "head_entity": "A19",
+      "head_type": "actor",
+      "predicate": "organized",
+      "tail_entity": "N09",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-08-30",
+      "evidence_ids": [
+        "M01-E19",
+        "M04-E06"
+      ],
+      "process_ids": [
+        "C19-P07"
+      ],
+      "fact_ids": [
+        "F018"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R041",
+      "case_id": "C19",
+      "head_entity": "N09",
+      "head_type": "action",
+      "predicate": "used",
+      "tail_entity": "T06",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "10 short-term actions",
+      "evidence_ids": [
+        "M01-E19"
+      ],
+      "process_ids": [
+        "C19-P07"
+      ],
+      "fact_ids": [
+        "F018"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R042",
+      "case_id": "C19",
+      "head_entity": "A08",
+      "head_type": "actor",
+      "predicate": "ranked",
+      "tail_entity": "G06",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "10 short-term actions",
+      "evidence_ids": [
+        "M01-E19"
+      ],
+      "process_ids": [
+        "C19-P07"
+      ],
+      "fact_ids": [
+        "F018"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R043",
+      "case_id": "C19",
+      "head_entity": "A19",
+      "head_type": "actor",
+      "predicate": "produced",
+      "tail_entity": "O01",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "30 actions; final report",
+      "evidence_ids": [
+        "M01-E21",
+        "M01-E25",
+        "M11-E02"
+      ],
+      "process_ids": [
+        "C19-P07"
+      ],
+      "fact_ids": [
+        "F020",
+        "F023"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R044",
+      "case_id": "C19",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "leads",
+      "tail_entity": "G06",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "many actions",
+      "evidence_ids": [
+        "M01-E22"
+      ],
+      "process_ids": [
+        "C19-P07"
+      ],
+      "fact_ids": [
+        "F022"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R045",
+      "case_id": "C19",
+      "head_entity": "A02",
+      "head_type": "actor",
+      "predicate": "has_jurisdiction_over",
+      "tail_entity": "G06",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "some actions",
+      "evidence_ids": [
+        "M01-E22"
+      ],
+      "process_ids": [
+        "C19-P07"
+      ],
+      "fact_ids": [
+        "F022"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R046",
+      "case_id": "C19",
+      "head_entity": "A16",
+      "head_type": "actor",
+      "predicate": "has_jurisdiction_over",
+      "tail_entity": "G06",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "some actions",
+      "evidence_ids": [
+        "M01-E22"
+      ],
+      "process_ids": [
+        "C19-P07"
+      ],
+      "fact_ids": [
+        "F022"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R047",
+      "case_id": "C19",
+      "head_entity": "K03",
+      "head_type": "task",
+      "predicate": "operationalized_by",
+      "tail_entity": "N10",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023",
+      "evidence_ids": [
+        "M01-E21"
+      ],
+      "process_ids": [
+        "C19-P07"
+      ],
+      "fact_ids": [
+        "F020"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R048",
+      "case_id": "C19",
+      "head_entity": "O02",
+      "head_type": "outcome",
+      "predicate": "reports_reach_of",
+      "tail_entity": "K02",
+      "tail_type": "task",
+      "fact_status": "implemented",
+      "qualifiers": "~150 participants",
+      "evidence_ids": [
+        "M01-E08",
+        "M11-E01"
+      ],
+      "process_ids": [
+        "C19-P07"
+      ],
+      "fact_ids": [
+        "F047"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R049",
+      "case_id": "C19",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "installed",
+      "tail_entity": "N11",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "by 2024-07; Mickey’s exterior",
+      "evidence_ids": [
+        "M11-E03"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F027"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R050",
+      "case_id": "C19",
+      "head_entity": "N11",
+      "head_type": "action",
+      "predicate": "located_at",
+      "tail_entity": "G03",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "Mickey’s building",
+      "evidence_ids": [
+        "M11-E03"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F027"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R051",
+      "case_id": "C19",
+      "head_entity": "N11",
+      "head_type": "action",
+      "predicate": "produced",
+      "tail_entity": "O03",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "planters installed",
+      "evidence_ids": [
+        "M11-E03"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F027"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R052",
+      "case_id": "C19",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "cleared_and_planted",
+      "tail_entity": "N12",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "by 2024-07; greenway",
+      "evidence_ids": [
+        "M11-E04"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F028"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R053",
+      "case_id": "C19",
+      "head_entity": "N12",
+      "head_type": "action",
+      "predicate": "located_at",
+      "tail_entity": "G04",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "greenway corridor",
+      "evidence_ids": [
+        "M11-E04"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F028"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R054",
+      "case_id": "C19",
+      "head_entity": "N12",
+      "head_type": "action",
+      "predicate": "produced",
+      "tail_entity": "O04",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "cleared/dead trees removed/new trees",
+      "evidence_ids": [
+        "M11-E04"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F028"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R055",
+      "case_id": "C19",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "planned",
+      "tail_entity": "N14",
+      "tail_type": "action",
+      "fact_status": "planned",
+      "qualifiers": "2024; facilities out to bid; summer–Sept",
+      "evidence_ids": [
+        "M11-E04",
+        "M14-E02",
+        "M16-E01"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F029"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R056",
+      "case_id": "C19",
+      "head_entity": "A12",
+      "head_type": "actor",
+      "predicate": "funded",
+      "tail_entity": "N13",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2024; $50k supplemental + $50k tree canopy",
+      "evidence_ids": [
+        "M12-E01",
+        "M14-E01"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F030",
+        "F031"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R057",
+      "case_id": "C19",
+      "head_entity": "A02",
+      "head_type": "actor",
+      "predicate": "funded",
+      "tail_entity": "N13",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2024; $1M ARPA",
+      "evidence_ids": [
+        "M12-E01"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F030"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R058",
+      "case_id": "C19",
+      "head_entity": "N13",
+      "head_type": "action",
+      "predicate": "supports",
+      "tail_entity": "G04",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "greenway funding",
+      "evidence_ids": [
+        "M12-E01"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F030"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R059",
+      "case_id": "C19",
+      "head_entity": "A12",
+      "head_type": "actor",
+      "predicate": "granted",
+      "tail_entity": "A13",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2024-05; $50k bench grant",
+      "evidence_ids": [
+        "M14-E01"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F031"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R060",
+      "case_id": "C19",
+      "head_entity": "A13",
+      "head_type": "actor",
+      "predicate": "funded",
+      "tail_entity": "O06",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2024-05; $50k benches",
+      "evidence_ids": [
+        "M14-E01"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F031"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R061",
+      "case_id": "C19",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "planned",
+      "tail_entity": "N15",
+      "tail_type": "action",
+      "fact_status": "planned",
+      "qualifiers": "30 trees; mosaic stone art",
+      "evidence_ids": [
+        "M15-E01",
+        "M12-E02"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F032",
+        "F033"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R062",
+      "case_id": "C19",
+      "head_entity": "A18",
+      "head_type": "actor",
+      "predicate": "contributes_to",
+      "tail_entity": "N15",
+      "tail_type": "action",
+      "fact_status": "planned",
+      "qualifiers": "mosaic stone art",
+      "evidence_ids": [
+        "M12-E02"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F033"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R063",
+      "case_id": "C19",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "renovated",
+      "tail_entity": "N16",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2024-07-10; $3.5M",
+      "evidence_ids": [
+        "M25-E01",
+        "M25-E03"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F034"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R064",
+      "case_id": "C19",
+      "head_entity": "N16",
+      "head_type": "action",
+      "predicate": "located_at",
+      "tail_entity": "G03",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "Mickey’s building",
+      "evidence_ids": [
+        "M25-E01"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F034"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R065",
+      "case_id": "C19",
+      "head_entity": "N16",
+      "head_type": "action",
+      "predicate": "produced",
+      "tail_entity": "O07",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "renovation/ribbon",
+      "evidence_ids": [
+        "M25-E01"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F034"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R066",
+      "case_id": "C19",
+      "head_entity": "A14",
+      "head_type": "actor",
+      "predicate": "opened",
+      "tail_entity": "N17",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "first business in district",
+      "evidence_ids": [
+        "M23-E02"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F035"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R067",
+      "case_id": "C19",
+      "head_entity": "N17",
+      "head_type": "action",
+      "predicate": "produced",
+      "tail_entity": "O08",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "Loiter opened",
+      "evidence_ids": [
+        "M23-E02"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F035"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R068",
+      "case_id": "C19",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "locked_out",
+      "tail_entity": "A14",
+      "tail_type": "actor",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2024; alleged in complaint",
+      "evidence_ids": [
+        "M25-E02"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F036"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": "诉状主张；不得写成法院认定。"
+    },
+    {
+      "relation_id": "R069",
+      "case_id": "C19",
+      "head_entity": "A14",
+      "head_type": "actor",
+      "predicate": "sued",
+      "tail_entity": "A01",
+      "tail_type": "actor",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2024; complaint",
+      "evidence_ids": [
+        "M25-E02"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F036"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R070",
+      "case_id": "C19",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "settled_with",
+      "tail_entity": "A14",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2024-11-22",
+      "evidence_ids": [
+        "M24-E01"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F038"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R071",
+      "case_id": "C19",
+      "head_entity": "N18",
+      "head_type": "action",
+      "predicate": "produced",
+      "tail_entity": "O09",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "settlement",
+      "evidence_ids": [
+        "M24-E01"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F038"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R072",
+      "case_id": "C19",
+      "head_entity": "A15",
+      "head_type": "actor",
+      "predicate": "attempted_to_buy",
+      "tail_entity": "G03",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2024; sale blocked by court",
+      "evidence_ids": [
+        "M25-E02"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F037"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R073",
+      "case_id": "C19",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "broke_ground",
+      "tail_entity": "N19",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2025-03; Woodlawn Avenue",
+      "evidence_ids": [
+        "M32-E01",
+        "M27-E01"
+      ],
+      "process_ids": [
+        "C19-P09"
+      ],
+      "fact_ids": [
+        "F039"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R074",
+      "case_id": "C19",
+      "head_entity": "N19",
+      "head_type": "action",
+      "predicate": "located_at",
+      "tail_entity": "G10",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "Woodlawn Avenue",
+      "evidence_ids": [
+        "M32-E01"
+      ],
+      "process_ids": [
+        "C19-P09"
+      ],
+      "fact_ids": [
+        "F039"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R075",
+      "case_id": "C19",
+      "head_entity": "N19",
+      "head_type": "action",
+      "predicate": "produced",
+      "tail_entity": "O10",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "groundbreaking",
+      "evidence_ids": [
+        "M32-E01"
+      ],
+      "process_ids": [
+        "C19-P09"
+      ],
+      "fact_ids": [
+        "F039"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R076",
+      "case_id": "C19",
+      "head_entity": "A17",
+      "head_type": "actor",
+      "predicate": "participated_in",
+      "tail_entity": "N19",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "four builders",
+      "evidence_ids": [
+        "M32-E02",
+        "M17-E01"
+      ],
+      "process_ids": [
+        "C19-P09"
+      ],
+      "fact_ids": [
+        "F039",
+        "F040"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R077",
+      "case_id": "C19",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "planned",
+      "tail_entity": "G10",
+      "tail_type": "target",
+      "fact_status": "planned",
+      "qualifiers": "1-acre linear park; solar pavilions",
+      "evidence_ids": [
+        "M27-E01"
+      ],
+      "process_ids": [
+        "C19-P09"
+      ],
+      "fact_ids": [
+        "F041"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R078",
+      "case_id": "C19",
+      "head_entity": "A02",
+      "head_type": "actor",
+      "predicate": "planned",
+      "tail_entity": "N19",
+      "tail_type": "action",
+      "fact_status": "planned",
+      "qualifiers": "2025; sewer/sidewalk construction",
+      "evidence_ids": [
+        "M23-E01"
+      ],
+      "process_ids": [
+        "C19-P09"
+      ],
+      "fact_ids": [
+        "F042"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R079",
+      "case_id": "C19",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "predicate": "demanded",
+      "tail_entity": "A01",
+      "tail_type": "actor",
+      "fact_status": "disputed",
+      "qualifiers": "2025-10; cease operations (single source)",
+      "evidence_ids": [
+        "M28-E01",
+        "M28-E02"
+      ],
+      "process_ids": [
+        "C19-P09"
+      ],
+      "fact_ids": [
+        "F043"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": "仅单一低可靠性来源；未取得决议原件。"
+    },
+    {
+      "relation_id": "R080",
+      "case_id": "C19",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "predicate": "challenged",
+      "tail_entity": "X04",
+      "tail_type": "context",
+      "fact_status": "disputed",
+      "qualifiers": "2025-10; authorization/contract",
+      "evidence_ids": [
+        "M28-E01",
+        "M28-E02"
+      ],
+      "process_ids": [
+        "C19-P09"
+      ],
+      "fact_ids": [
+        "F043"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R081",
+      "case_id": "C19",
+      "head_entity": "X06",
+      "head_type": "context",
+      "predicate": "constrains",
+      "tail_entity": "X04",
+      "tail_type": "context",
+      "fact_status": "disputed",
+      "qualifiers": "contract expiry/authorization dispute",
+      "evidence_ids": [
+        "M28-E01",
+        "M28-E02"
+      ],
+      "process_ids": [
+        "C19-P09"
+      ],
+      "fact_ids": [
+        "F043"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R082",
+      "case_id": "C19",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "completed",
+      "tail_entity": "N20",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2026-07; $4.6M initial phase",
+      "evidence_ids": [
+        "M26-E01"
+      ],
+      "process_ids": [
+        "C19-P10"
+      ],
+      "fact_ids": [
+        "F044"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R083",
+      "case_id": "C19",
+      "head_entity": "N20",
+      "head_type": "action",
+      "predicate": "produced",
+      "tail_entity": "O11",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "7 homes",
+      "evidence_ids": [
+        "M26-E01"
+      ],
+      "process_ids": [
+        "C19-P10"
+      ],
+      "fact_ids": [
+        "F044"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R084",
+      "case_id": "C19",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "funded",
+      "tail_entity": "O12",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2026-07; 18 residents; $18k avg",
+      "evidence_ids": [
+        "M26-E01"
+      ],
+      "process_ids": [
+        "C19-P10"
+      ],
+      "fact_ids": [
+        "F045"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R085",
+      "case_id": "C19",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "completed",
+      "tail_entity": "N14",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2026-07; $1.2M greenway",
+      "evidence_ids": [
+        "M26-E02"
+      ],
+      "process_ids": [
+        "C19-P10"
+      ],
+      "fact_ids": [
+        "F046"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R086",
+      "case_id": "C19",
+      "head_entity": "N14",
+      "head_type": "action",
+      "predicate": "produced",
+      "tail_entity": "O05",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "greenway completed",
+      "evidence_ids": [
+        "M26-E02"
+      ],
+      "process_ids": [
+        "C19-P10"
+      ],
+      "fact_ids": [
+        "F046"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R087",
+      "case_id": "C19",
+      "head_entity": "G02",
+      "head_type": "target",
+      "predicate": "part_of",
+      "tail_entity": "G01",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "Euclid Avenue corridor within 30-acre district",
+      "evidence_ids": [
+        "M01-E01",
+        "M01-E02"
+      ],
+      "process_ids": [
+        "C19-P01"
+      ],
+      "fact_ids": [
+        "F002"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R088",
+      "case_id": "C19",
+      "head_entity": "G01",
+      "head_type": "target",
+      "predicate": "contains",
+      "tail_entity": "G07",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "~150 households",
+      "evidence_ids": [
+        "M01-E02"
+      ],
+      "process_ids": [
+        "C19-P01"
+      ],
+      "fact_ids": [
+        "F003"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R089",
+      "case_id": "C19",
+      "head_entity": "X01",
+      "head_type": "context",
+      "predicate": "context_for",
+      "tail_entity": "G07",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "target-area community",
+      "evidence_ids": [
+        "M01-E02"
+      ],
+      "process_ids": [
+        "C19-P01"
+      ],
+      "fact_ids": [
+        "F003"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R090",
+      "case_id": "C19",
+      "head_entity": "X05",
+      "head_type": "context",
+      "predicate": "adjacent_to",
+      "tail_entity": "G01",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "University Circle / Lake View Cemetery",
+      "evidence_ids": [
+        "M01-E03"
+      ],
+      "process_ids": [
+        "C19-P01"
+      ],
+      "fact_ids": [
+        "F002"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R091",
+      "case_id": "C19",
+      "head_entity": "A07",
+      "head_type": "actor",
+      "predicate": "participated_in",
+      "tail_entity": "N01",
+      "tail_type": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023; team setup",
+      "evidence_ids": [
+        "M01-E07"
+      ],
+      "process_ids": [
+        "C19-P02"
+      ],
+      "fact_ids": [
+        "F006",
+        "F008"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R092",
+      "case_id": "C19",
+      "head_entity": "N07",
+      "head_type": "action",
+      "predicate": "used",
+      "tail_entity": "T04",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2023; paper/online survey",
+      "evidence_ids": [
+        "M01-E16",
+        "M04-E02"
+      ],
+      "process_ids": [
+        "C19-P05"
+      ],
+      "fact_ids": [
+        "F014"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R093",
+      "case_id": "C19",
+      "head_entity": "N07",
+      "head_type": "action",
+      "predicate": "used",
+      "tail_entity": "T05",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2023; storytelling/video",
+      "evidence_ids": [
+        "M01-E17"
+      ],
+      "process_ids": [
+        "C19-P05"
+      ],
+      "fact_ids": [
+        "F014"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R094",
+      "case_id": "C19",
+      "head_entity": "T04",
+      "head_type": "technology",
+      "predicate": "provides",
+      "tail_entity": "C04",
+      "tail_type": "capability",
+      "fact_status": "implemented",
+      "qualifiers": "multi-channel feedback",
+      "evidence_ids": [
+        "M04-E03",
+        "M04-E02"
+      ],
+      "process_ids": [
+        "C19-P05"
+      ],
+      "fact_ids": [
+        "F014"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R095",
+      "case_id": "C19",
+      "head_entity": "T05",
+      "head_type": "technology",
+      "predicate": "provides",
+      "tail_entity": "C04",
+      "tail_type": "capability",
+      "fact_status": "implemented",
+      "qualifiers": "oral/narrative feedback",
+      "evidence_ids": [
+        "M04-E03"
+      ],
+      "process_ids": [
+        "C19-P05"
+      ],
+      "fact_ids": [
+        "F014"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R096",
+      "case_id": "C19",
+      "head_entity": "O01",
+      "head_type": "outcome",
+      "predicate": "guides",
+      "tail_entity": "K04",
+      "tail_type": "task",
+      "fact_status": "implemented",
+      "qualifiers": "30 actions + timeframes",
+      "evidence_ids": [
+        "M01-E24",
+        "M01-E22"
+      ],
+      "process_ids": [
+        "C19-P07"
+      ],
+      "fact_ids": [
+        "F023"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R097",
+      "case_id": "C19",
+      "head_entity": "K05",
+      "head_type": "task",
+      "predicate": "complements",
+      "tail_entity": "K01",
+      "tail_type": "task",
+      "fact_status": "planned",
+      "qualifiers": "placemaking complements redevelopment",
+      "evidence_ids": [
+        "M01-E05",
+        "M01-E04"
+      ],
+      "process_ids": [
+        "C19-P01"
+      ],
+      "fact_ids": [
+        "F005"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R098",
+      "case_id": "C19",
+      "head_entity": "A04",
+      "head_type": "actor",
+      "predicate": "provides",
+      "tail_entity": "C06",
+      "tail_type": "capability",
+      "fact_status": "implemented",
+      "qualifiers": "design/facilitation",
+      "evidence_ids": [
+        "M01-E28",
+        "M10-E02",
+        "M01-E20"
+      ],
+      "process_ids": [
+        "C19-P07"
+      ],
+      "fact_ids": [
+        "F019"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R099",
+      "case_id": "C19",
+      "head_entity": "O01",
+      "head_type": "outcome",
+      "predicate": "proposes",
+      "tail_entity": "G05",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "Pocket Park actions 5–8",
+      "evidence_ids": [
+        "M01-E21",
+        "M01-E23"
+      ],
+      "process_ids": [
+        "C19-P07"
+      ],
+      "fact_ids": [
+        "F020"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R100",
+      "case_id": "C19",
+      "head_entity": "N17",
+      "head_type": "action",
+      "predicate": "located_at",
+      "tail_entity": "G09",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "Mickey’s first floor",
+      "evidence_ids": [
+        "M23-E02",
+        "M25-E01"
+      ],
+      "process_ids": [
+        "C19-P08"
+      ],
+      "fact_ids": [
+        "F035"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R101",
+      "case_id": "C19",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "predicate": "produced",
+      "tail_entity": "O13",
+      "tail_type": "outcome",
+      "fact_status": "disputed",
+      "qualifiers": "2025-10; single source",
+      "evidence_ids": [
+        "M28-E01"
+      ],
+      "process_ids": [
+        "C19-P09"
+      ],
+      "fact_ids": [
+        "F043"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R102",
+      "case_id": "C19",
+      "head_entity": "A19",
+      "head_type": "actor",
+      "predicate": "scheduled",
+      "tail_entity": "K02",
+      "tail_type": "task",
+      "fact_status": "disputed",
+      "qualifiers": "2023; Jan–Aug vs April start",
+      "evidence_ids": [
+        "M01-E06",
+        "M06-E01",
+        "M01-E11",
+        "M01-E13",
+        "M01-E29"
+      ],
+      "process_ids": [
+        "C19-P02"
+      ],
+      "fact_ids": [
+        "F007"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R103",
+      "case_id": "C19",
+      "head_entity": "O01",
+      "head_type": "outcome",
+      "predicate": "specifies",
+      "tail_entity": "G06",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "30 action sites/timeframes",
+      "evidence_ids": [
+        "M01-E22"
+      ],
+      "process_ids": [
+        "C19-P07"
+      ],
+      "fact_ids": [
+        "F021"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R104",
+      "case_id": "C19",
+      "head_entity": "T04",
+      "head_type": "technology",
+      "predicate": "administered_to",
+      "tail_entity": "A08",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2023; survey respondents",
+      "evidence_ids": [
+        "M01-E25"
+      ],
+      "process_ids": [
+        "C19-P07"
+      ],
+      "fact_ids": [
+        "F024"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R105",
+      "case_id": "C19",
+      "head_entity": "T04",
+      "head_type": "technology",
+      "predicate": "measured_preference_for",
+      "tail_entity": "G06",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2023; mural 47.06%",
+      "evidence_ids": [
+        "M01-E26"
+      ],
+      "process_ids": [
+        "C19-P07"
+      ],
+      "fact_ids": [
+        "F025"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    },
+    {
+      "relation_id": "R106",
+      "case_id": "C19",
+      "head_entity": "T04",
+      "head_type": "technology",
+      "predicate": "measured_preference_for",
+      "tail_entity": "G05",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2023; park 52.31%",
+      "evidence_ids": [
+        "M01-E27"
+      ],
+      "process_ids": [
+        "C19-P07"
+      ],
+      "fact_ids": [
+        "F026"
+      ],
+      "review": "accepted",
+      "version": "v1.0",
+      "note": ""
+    }
+  ]
+}

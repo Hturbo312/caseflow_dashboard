@@ -1,0 +1,65 @@
+{
+  "packet_id": "RP-C19-G2-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G2",
+  "case_id": "C19",
+  "scope": "Connect East Cleveland 的原文定位、证据陈述与证据编号",
+  "generated_at": "2026-11-13",
+  "status": "pending",
+  "counts": {
+    "evidence_total": 70,
+    "materials_covered": 23,
+    "materials_total": 32,
+    "implemented": 54,
+    "planned": 9,
+    "reported_or_opinion": 3,
+    "disputed": 4
+  },
+  "coverage": {
+    "setup_and_team": ["M01-E06", "M01-E07", "M01-E08", "M01-E09", "M01-E10", "M01-E11", "M02-E01", "M03-E01", "M03-E02", "M06-E01"],
+    "public_events": ["M01-E13", "M01-E14", "M01-E15", "M01-E16", "M01-E17", "M01-E18", "M01-E19", "M04-E01", "M04-E02", "M04-E03", "M04-E05", "M04-E06", "M07-E01", "M09-E01"],
+    "tools": ["M01-E16", "M01-E17", "M01-E18", "M04-E02", "M04-E03", "M04-E04", "M07-E01", "M07-E02"],
+    "themes_and_actions": ["M01-E20", "M01-E21", "M01-E22", "M01-E23", "M11-E02", "M14-E02"],
+    "implementation_2024": ["M11-E03", "M11-E04", "M12-E01", "M12-E02", "M14-E01", "M15-E01"],
+    "implementation_2025_2026": ["M16-E01", "M17-E01", "M23-E01", "M23-E02", "M26-E01", "M26-E02", "M27-E01", "M32-E01", "M32-E02"],
+    "governance_dispute": ["M24-E01", "M25-E01", "M25-E02", "M25-E03", "M28-E01", "M28-E02"],
+    "context": ["M05-E01", "M31-E01"]
+  },
+  "key_evidence": [
+    {"id": "M01-E05", "issue": "200+ 住宅地块与 M03 180+ 冲突", "suggested_action": "保留并在 G4 拆分为取得/计划两条"},
+    {"id": "M01-E13", "issue": "报告时间线把 Event 3.0 标为 7-14", "suggested_action": "保留为冲突证据"},
+    {"id": "M01-E16", "issue": "Open House 约 50 人、七站点、AI 生成图像", "suggested_action": "accept"},
+    {"id": "M01-E22", "issue": "30 项行动、五类、牵头方与时限", "suggested_action": "accept"},
+    {"id": "M01-E29", "issue": "six month vs seven months", "suggested_action": "保留为冲突证据"},
+    {"id": "M25-E02", "issue": "换锁/移招牌为诉状主张", "suggested_action": "保留“据诉状称”措辞"},
+    {"id": "M26-E02", "issue": "2026-07 报道称绿道已建成", "suggested_action": "implemented，限定完工日期未取得"},
+    {"id": "M28-E01", "issue": "2025-10 市议会决议", "suggested_action": "仅 disputed，待原件"},
+    {"id": "M28-E02", "issue": "2016 年 Resolution 15-16", "suggested_action": "仅 disputed，待原件"}
+  ],
+  "conflicts": [
+    "参与时长：seven months vs six month vs January–July vs April 起",
+    "Event 3.0：7-14（报告 p.17 版式）vs 8-30（报告 p.30、M04）",
+    "地块数：403 个住宅地块 vs 200+ 已取得 vs 180+ 已取得并拆除 103 栋",
+    "Phase 1 套数：12+22（M17）vs 12+21（M32）vs 4+12 计划（M23）",
+    "绿道状态：2024-07 待招标 vs 2025-07 once complete vs 2026-07 已建成"
+  ],
+  "gaps": [
+    "无签到表、问卷原始数据、活动演示全文",
+    "无 UrbanistAI 提示词、生成图像清单与选择/淘汰记录",
+    "无合同、预算、招标、许可、验收与维护记录",
+    "无 2025 年内绿道完工的一手证据",
+    "无市议会 2025-10 决议与 2016 年 Resolution 15-16 原件"
+  ],
+  "decisions_requested": [
+    "70 条证据是否整体接受",
+    "M01-E05 是否在 G4 拆分",
+    "M25-E02 是否保留“据诉状称”",
+    "M26-E02 是否标为 implemented（截至 2026-07）",
+    "M28 两条是否仅作 disputed 证据"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_case_review": false
+  }
+}

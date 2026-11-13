@@ -1,0 +1,45 @@
+{
+  "packetId": "L2-C18-shared-v1.0",
+  "caseId": "C18",
+  "version": "L2-C18-v1.0",
+  "status": "released",
+  "generatedAt": "2026-11-13",
+  "baseLayer": "L2-C15-v1.0",
+  "activeCandidates": [
+    "SC-C18-01",
+    "SC-C18-03",
+    "SC-C18-04",
+    "SC-C18-05",
+    "SC-C18-06",
+    "SC-C18-07",
+    "SC-C18-08"
+  ],
+  "heldCandidates": ["SC-C18-02"],
+  "noMapNativeConcepts": ["NC-C18-09", "NC-C18-10"],
+  "supportAdditions": [
+    {"sharedConceptId": "SC-C01-132", "caseId": "C18", "scope": "社区信息/服务整合"},
+    {"sharedConceptId": "SC-C01-143", "caseId": "C18", "scope": "设施查询/资源空间分析"},
+    {"sharedConceptId": "SC-C01-141", "caseId": "C18", "scope": "居民表达/讨论"},
+    {"sharedConceptId": "SC-C01-156", "caseId": "C18", "scope": "网格工单/痛点处置"},
+    {"sharedConceptId": "SC-C01-151", "caseId": "C18", "scope": "开放日参与/打卡"},
+    {"sharedConceptId": "SC-C01-158", "caseId": "C18", "scope": "30天平台试点"}
+  ],
+  "counts": {
+    "nativeConcepts": 10,
+    "mappings": 16,
+    "activeCandidates": 7,
+    "heldCandidates": 1,
+    "supportAdditions": 6,
+    "afterActiveSharedConcepts": 64
+  },
+  "definitionChanges": 0,
+  "negativeExampleChanges": 0,
+  "historicalReclassifications": 0,
+  "versionRecord": "l2_version_record.json",
+  "note": "只提交 C18 增量与候选，不确认正式共享概念，不覆盖历史概念文件。",
+  "release_decision": {
+    "action": "accept",
+    "release_scope": "file-level only",
+    "released_at": "2026-11-13"
+  }
+}

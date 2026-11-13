@@ -1,0 +1,58 @@
+{
+  "packet_id": "RP-C19-G5-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G5",
+  "case_id": "C19",
+  "scope": "Connect East Cleveland 的实体关系、谓词、方向、状态与限定",
+  "generated_at": "2026-11-13",
+  "status": "pending",
+  "counts": {
+    "relations": 106,
+    "entities_used": 85,
+    "facts_used": 47,
+    "implemented": 90,
+    "planned": 9,
+    "disputed": 5,
+    "reported_or_opinion": 2,
+    "distinct_predicates": 61
+  },
+  "clusters": {
+    "project_context": ["X03→X02", "A01→X04", "X04→G01", "A01→G01"],
+    "team_and_local_knowledge": ["A01→A19", "A19→A07", "A07→C05", "A19→A04/A05/A06"],
+    "participation_2023": ["A19→N02", "A19→N03", "A19→N04", "A19→N08", "A19→N09", "A08→N02/N03/N04"],
+    "participatory_technology": ["N03→T03", "N05→T02", "N06→T01", "N07→T04/T05"],
+    "action_plan": ["A19→O01", "O01→G06/G05", "A01→G06", "A02/A16→G06"],
+    "implementation_2024": ["A01→N11/N12/N16", "A12/A02→N13", "A13→O06"],
+    "loiter_dispute": ["A01→A14 (locked_out)", "A14→A01 (sued)", "A01→A14 (settled_with)"],
+    "implementation_2025_2026": ["A01→N19/N20/N14", "A03→A01/X04"]
+  },
+  "state_sensitive": [
+    {"id": "R068", "issue": "A01 locked_out A14", "status": "reported_or_opinion"},
+    {"id": "R069", "issue": "A14 sued A01", "status": "reported_or_opinion"},
+    {"id": "R079", "issue": "A03 demanded A01 cease operations", "status": "disputed"},
+    {"id": "R080", "issue": "A03 challenged X04 authorization", "status": "disputed"},
+    {"id": "R081", "issue": "X06 constrains X04", "status": "disputed"},
+    {"id": "R101", "issue": "A03 produced O13", "status": "disputed"},
+    {"id": "R102", "issue": "A19 scheduled K02", "status": "disputed"}
+  ],
+  "issues": [
+    "61 predicates for 106 relations; many one-offs need consolidation in G6",
+    "direction inconsistency: some action→actor participation relations",
+    "near-duplicates: planned vs completed N14; guides vs specifies",
+    "no item-level owner/status relations for 30 actions",
+    "no causal effect relations written"
+  ],
+  "decisions_requested": [
+    "106 relations overall acceptance",
+    "merge synonymous predicates in G6",
+    "unify direction in G6",
+    "keep planned/completed N14 as two relations",
+    "rename co_governs to has_jurisdiction_over",
+    "keep A19 scheduled K02 as disputed"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_case_review": false
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "packet_id": "RP-C20-G5-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G5",
+  "case_id": "C20",
+  "scope": "普里什蒂纳儿童友好公共空间 AI 共创的实体关系、谓词、方向与限定",
+  "generated_at": "2026-11-13",
+  "status": "accepted",
+  "summary": {
+    "relations": 51,
+    "predicates": 35,
+    "status_counts": {
+      "implemented": 23,
+      "reported_or_opinion": 25,
+      "planned": 3,
+      "disputed": 0,
+      "unconfirmed": 0
+    },
+    "groups": {
+      "context_and_needs": 4,
+      "organization": 9,
+      "workshops_and_process": 15,
+      "ai_chain": 7,
+      "implementation": 8,
+      "follow_up": 8
+    }
+  },
+  "conflicts": [
+    "R007–R009三方实施HK2可能合并",
+    "R014–R015共同主持同一批工作坊可能合并",
+    "R027–R028整体方案与具体设计可能不是整体—部分关系",
+    "R033–R034开发/运营与品牌交付可能重复",
+    "R040–R042三地点实施可能无法一一对应方案",
+    "R001城市加入CEF的类型context vs actor",
+    "R002缺乏是状态性谓词，是否保留为基础关系"
+  ],
+  "gaps": [
+    "头脑风暴/设计圆桌/AI测试未单独建行动节点",
+    "3份方案—2个批准设计—2个空间—1个公园更新缺少单条对应边",
+    "1个公园更新未与具体地点相连",
+    "儿童对AI输出的选择/修改无证据"
+  ],
+  "decisions_requested": [
+    "51条关系、35个谓词是否成立；是否需要删除/改写/补充",
+    "R007–R009、R014–R015、R027–R028、R033–R034是否合并；R040–R042是否改为一条",
+    "R036/R038/R039/R040–R042的状态与分层是否准确",
+    "是否同意不写AI导致设计改善的因果边，只保留使用/用于/补充描述"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_case_review": false,
+    "note": "C20与C19都使用UrbanistAI，G6后交L2判断共享概念候选"
+  },
+  "decision": {
+    "action": "accept",
+    "rationale": "研究者确认G5关系候选，按建议方案通过",
+    "modified_content": null,
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  }
+}

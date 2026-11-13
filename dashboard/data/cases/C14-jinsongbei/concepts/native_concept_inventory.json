@@ -1,0 +1,399 @@
+{
+  "case_id": "C14",
+  "gate": "L2-G1",
+  "version": "L2-C14-shared-v0.1",
+  "status": "confirmed",
+  "confirmed_at": "2026-11-13",
+  "baseline": "L2-C01-C11-shared-v0.2 + L2-C12-shared-v1.0 + L2-C13-shared-v1.0",
+  "baseline_nodes_actual": 54,
+  "baseline_nodes_historical": 53,
+  "native_concept_count": 14,
+  "native_concepts": [
+    {
+      "native_concept_id": "NC-C14-01",
+      "label": "五方联动",
+      "core_type": "action",
+      "native_type": "governance_mechanism",
+      "definition": "区级统筹、街乡主导、社区协调、居民议事、企业运作五类主体共同推进更新与治理的机制。",
+      "source_relation_ids": [
+        "R003",
+        "R061",
+        "R062"
+      ],
+      "frequency": 3,
+      "boundary_questions": [
+        "与一般跨组织协作的区别是什么？",
+        "是否必须同时包含五类主体，缺一是否仍成立？",
+        "与“党建共同体”的边界如何划分？"
+      ],
+      "evidence_ids": [
+        "M01-E02",
+        "M02-E02",
+        "M02-E06",
+        "M03-E02",
+        "M03-E08",
+        "M11-E02"
+      ],
+      "source_relation_types": [
+        "action",
+        "actor"
+      ]
+    },
+    {
+      "native_concept_id": "NC-C14-02",
+      "label": "双过半与先尝后买",
+      "core_type": "action",
+      "native_type": "property_mechanism",
+      "definition": "以居民户数过半、建筑面积过半投票引入物业，并通过先服务、后收费培养缴费习惯。",
+      "source_relation_ids": [
+        "R016",
+        "R017",
+        "R019"
+      ],
+      "frequency": 3,
+      "boundary_questions": [
+        "与一般居民协商/方案共制的区别是什么？",
+        "双过半是否是必要条件？",
+        "先尝后买是否独立于双过半？"
+      ],
+      "evidence_ids": [
+        "M01-E04",
+        "M02-E09",
+        "M03-E07",
+        "M05-E03",
+        "M06-E02"
+      ],
+      "source_relation_types": [
+        "action",
+        "actor"
+      ]
+    },
+    {
+      "native_concept_id": "NC-C14-03",
+      "label": "微利可持续",
+      "core_type": "context",
+      "native_type": "funding_model",
+      "definition": "社会资本通过低效空间经营、物业费、停车费、社区养老与政府购买服务等多元收入，在较长周期内回收改造投入并维持微利运营的条件。",
+      "source_relation_ids": [
+        "R050",
+        "R055",
+        "R056",
+        "R057",
+        "R058",
+        "R059"
+      ],
+      "frequency": 6,
+      "boundary_questions": [
+        "是条件、模式还是结果？",
+        "与一般成本约束的区别是什么？",
+        "投资与回收期的三种口径如何裁定？"
+      ],
+      "evidence_ids": [
+        "M02-E07",
+        "M03-E02",
+        "M03-E04",
+        "M03-E05",
+        "M05-E05",
+        "M05-E06",
+        "M06-E01",
+        "M10-E01",
+        "M11-E02"
+      ],
+      "source_relation_types": [
+        "actor",
+        "outcome",
+        "task"
+      ]
+    },
+    {
+      "native_concept_id": "NC-C14-04",
+      "label": "低效空间长期运营权",
+      "core_type": "action",
+      "native_type": "funding_space_mechanism",
+      "definition": "区、街道授权企业改造并长期运营社区低效空间，以经营收益回收更新投入。",
+      "source_relation_ids": [
+        "R051",
+        "R052",
+        "R053",
+        "R054"
+      ],
+      "frequency": 4,
+      "boundary_questions": [
+        "与一般空间施工/运营的区别是什么？",
+        "长期运营权是否是核心条件？",
+        "是否必须包含租金/合同安排？"
+      ],
+      "evidence_ids": [
+        "M03-E05",
+        "M04-E02"
+      ],
+      "source_relation_types": [
+        "action",
+        "actor",
+        "outcome",
+        "target"
+      ]
+    },
+    {
+      "native_concept_id": "NC-C14-05",
+      "label": "物业+养老",
+      "core_type": "action",
+      "native_type": "service_model",
+      "definition": "由物业企业整合为老服务清单、紧急呼叫、适老化设备与第三方响应，形成社区居家养老服务。",
+      "source_relation_ids": [
+        "R024",
+        "R025",
+        "R026",
+        "R027"
+      ],
+      "frequency": 4,
+      "boundary_questions": [
+        "与一般养老服务、物业服务的区别是什么？",
+        "是否必须由物业主导？",
+        "服务清单与响应记录是否足以支撑概念？"
+      ],
+      "evidence_ids": [
+        "M04-E03",
+        "M08-E01"
+      ],
+      "source_relation_types": [
+        "action",
+        "actor",
+        "outcome",
+        "target"
+      ]
+    },
+    {
+      "native_concept_id": "NC-C14-06",
+      "label": "HEDATA智慧社区平台",
+      "core_type": "technology",
+      "native_type": "technology_platform",
+      "definition": "愿景和家提供的智慧社区综合管理平台，企业方称已在劲松北完成智慧社区改造并覆盖居民、物业、街道多领域服务。",
+      "source_relation_ids": [
+        "R045",
+        "R046",
+        "R047"
+      ],
+      "frequency": 3,
+      "boundary_questions": [
+        "平台功能/覆盖/使用未验证，是否足以立概念？",
+        "与社区门户、行政平台、数据中台的区别是什么？",
+        "是否应作为企业运营平台的特例？"
+      ],
+      "evidence_ids": [
+        "M09-E01"
+      ],
+      "source_relation_types": [
+        "actor",
+        "capability",
+        "context",
+        "technology"
+      ]
+    },
+    {
+      "native_concept_id": "NC-C14-07",
+      "label": "智能车棚",
+      "core_type": "technology",
+      "native_type": "technology_device",
+      "definition": "209号楼附近改造后的车棚，为电动自行车提供充电服务。",
+      "source_relation_ids": [
+        "R039",
+        "R042",
+        "R043"
+      ],
+      "frequency": 3,
+      "boundary_questions": [
+        "是设备、设施还是空间？",
+        "是否联网、计费、接入消防/物业平台？",
+        "与一般充电桩的区别是什么？"
+      ],
+      "evidence_ids": [
+        "M04-E01"
+      ],
+      "source_relation_types": [
+        "action",
+        "capability",
+        "target",
+        "technology"
+      ]
+    },
+    {
+      "native_concept_id": "NC-C14-08",
+      "label": "爬楼机/电动轮椅租借",
+      "core_type": "action",
+      "native_type": "age_friendly_service",
+      "definition": "社区引入爬楼机与电动轮椅，放置在不同区域社区居委会，供居民租借并跨社区调度。",
+      "source_relation_ids": [
+        "R031",
+        "R032",
+        "R033",
+        "R034"
+      ],
+      "frequency": 4,
+      "boundary_questions": [
+        "是设备还是服务？",
+        "数量覆盖多个社区，如何限定？",
+        "使用记录缺失是否影响概念成立？"
+      ],
+      "evidence_ids": [
+        "M07-E02",
+        "M07-E03"
+      ],
+      "source_relation_types": [
+        "action",
+        "capability",
+        "technology"
+      ]
+    },
+    {
+      "native_concept_id": "NC-C14-09",
+      "label": "社区党建共同体",
+      "core_type": "action",
+      "native_type": "governance_mechanism",
+      "definition": "社区党委牵头，居民党支部、物业党支部、企业党支部共同参与的组织机制。",
+      "source_relation_ids": [
+        "R062"
+      ],
+      "frequency": 1,
+      "boundary_questions": [
+        "与五方联动的关系是什么？",
+        "是组织、机制还是行动？",
+        "是否应并入五方联动？"
+      ],
+      "evidence_ids": [
+        "M02-E06",
+        "M03-E08"
+      ],
+      "source_relation_types": [
+        "action",
+        "actor"
+      ]
+    },
+    {
+      "native_concept_id": "NC-C14-10",
+      "label": "责任规划师沉浸式设计",
+      "core_type": "action",
+      "native_type": "planning_method",
+      "definition": "责任规划师通过街区诊断、分层规划、居民调研、施工配合与跟踪运营，持续调整设计方案。",
+      "source_relation_ids": [
+        "R004",
+        "R005"
+      ],
+      "frequency": 2,
+      "boundary_questions": [
+        "与一般规划设计/公众参与的区别是什么？",
+        "“沉浸式设计”是否可复制？",
+        "是否应作为规划方法还是协作机制？"
+      ],
+      "evidence_ids": [
+        "M02-E02",
+        "M02-E04"
+      ],
+      "source_relation_types": [
+        "action",
+        "actor",
+        "task"
+      ]
+    },
+    {
+      "native_concept_id": "NC-C14-11",
+      "label": "社区共建者与手机班",
+      "core_type": "action",
+      "native_type": "digital_literacy_service",
+      "definition": "愿景物业组建“社区共建者”团队，在美好会客厅开设手机班、健康班与兴趣班，向老人传授智能手机使用技巧。",
+      "source_relation_ids": [
+        "R025"
+      ],
+      "frequency": 1,
+      "boundary_questions": [
+        "是数字素养、社区活动还是智慧治理？",
+        "是否使用平台/设备？",
+        "是否应并入技术能力建设？"
+      ],
+      "evidence_ids": [
+        "M04-E03",
+        "M08-E01"
+      ],
+      "source_relation_types": [
+        "action",
+        "target"
+      ]
+    },
+    {
+      "native_concept_id": "NC-C14-12",
+      "label": "智慧社区六维度",
+      "core_type": "context",
+      "native_type": "project_framing",
+      "definition": "项目方把更新目标表述为平安、有序、敬老、宜居、智慧、熟人六个社区维度。",
+      "source_relation_ids": [
+        "R048",
+        "R067"
+      ],
+      "frequency": 2,
+      "boundary_questions": [
+        "是目标框架、传播话语还是评估标准？",
+        "“智慧”维度是否有技术清单？",
+        "是否应作为共享概念？"
+      ],
+      "evidence_ids": [
+        "M07-E01",
+        "M10-E02"
+      ],
+      "source_relation_types": [
+        "actor",
+        "task"
+      ]
+    },
+    {
+      "native_concept_id": "NC-C14-13",
+      "label": "智能门禁与人脸识别",
+      "core_type": "technology",
+      "native_type": "technology_device",
+      "definition": "社区入口安装智能门禁/人脸识别设备，用于身份识别与出入口控制。",
+      "source_relation_ids": [
+        "R037",
+        "R038",
+        "R040",
+        "R041"
+      ],
+      "frequency": 4,
+      "boundary_questions": [
+        "两者是否同一设备或不同批次？",
+        "数据去向与隐私处理如何？",
+        "与传感监测设备的区别是什么？"
+      ],
+      "evidence_ids": [
+        "M05-E01",
+        "M07-E04"
+      ],
+      "source_relation_types": [
+        "action",
+        "capability",
+        "technology"
+      ]
+    },
+    {
+      "native_concept_id": "NC-C14-14",
+      "label": "扫码自动面条机",
+      "core_type": "technology",
+      "native_type": "technology_label",
+      "definition": "车棚一角的扫码自动售卖设备，被报道称为“既智能又便捷”。",
+      "source_relation_ids": [
+        "R044"
+      ],
+      "frequency": 1,
+      "boundary_questions": [
+        "是否应作为技术概念？",
+        "是否只是“智能”标签宽泛的例证？",
+        "是否应保留为 no_map？"
+      ],
+      "evidence_ids": [
+        "M05-E07"
+      ],
+      "source_relation_types": [
+        "target",
+        "technology"
+      ]
+    }
+  ]
+}

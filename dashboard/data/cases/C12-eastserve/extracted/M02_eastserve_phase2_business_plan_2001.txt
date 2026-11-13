@@ -1,0 +1,1261 @@
+
+===== PAGE 1 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+   
+   
+ 
+ 
+ 
+ 
+ 
+Eastserve  
+(Phase 2) 
+ 
+Helping Bridge the Digital Divide in East Manchester 
+ 
+ 
+Business Plan (Draft 1.3) 
+ 
+ 
+9th July 2001 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+New Deal for Communities 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+187 Grey Mare Lane Drive 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Beswick 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Manchester 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+M11 3Nd 
+Eastserve Phase 2                         Page 1 of 1                            10/03/2003 
+
+===== PAGE 2 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+ 
+ 
+ 
+ 
+ 
+Table of Contents 
+ 
+1. 
+Overview............................................................................................2 
+2. 
+Scope ................................................................................................4 
+3. 
+Eastserve Phase 2 – The Programme...............................................7 
+4. 
+Activities ..........................................................................................13 
+5. 
+Organisation ....................................................................................17 
+6. 
+Implementation................................................................................18 
+7. 
+Funding............................................................................................21 
+8. 
+Key Issues.......................................................................................21 
+9. 
+Early Wins .......................................................................................21 
+ 
+ 
+• 
+• 
+• 
+• 
+ 
+Contact Details 
+ 
+ 
+ 
+1. Overview 
+ 
+This document describes the plan for the programme to be known as 
+Eastserve Phase 2, and incorporates the activities for which East Manchester 
+has recently been awarded funding under the Wired up Community initiative. 
+Rather than presenting the WUC plan in isolation we have integrated it into 
+our overall programme, though we have clearly identified the various funding 
+sources outputs/outcomes which will be used to measure the impact of the 
+WUC project. 
+ 
+The overall objective is to implement the next stage of the East Manchester 
+ICT strategy, through: 
+ 
+ 
+building on the foundations and learning from the current Eastserve 
+pilot 
+“wiring up” in excess of 4,500 homes in the Beswick, Clayton and 
+Openshaw communities of East Manchester, through funding from 
+DfES 
+extending provision of local content and services through 
+eastserve.com 
+setting up a network of community learning centres 
+Eastserve Phase 2                         Page 2 of 2                            10/03/2003 
+
+===== PAGE 3 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+implementing the first phase of the City Council e-maintenance 
+project 
+• 
+• integrating the ICT in schools activities being progressed by the 
+Education Action Zone, and funded through the e-learning 
+foundation (subject of separate plan)  
+ 
+We believe that by implementing the above as part of a single programme, we 
+can more easily ensure a joined up approach, draw on economies of scale, 
+avoid reinventing wheels and most importantly enable the community to have 
+access to comprehensive and integrated ICT provision across content, access 
+and learning. 
+ 
+The programme contains a range of activities from project management, 
+marketing and administration to procurement, logistics, technical support and 
+content development. Some of these will be undertaken through dedicated 
+project staff, others through contracts with the voluntary and private sectors. A 
+key thread will be the desire to find opportunities for local capacity building 
+within East Manchester.  
+ 
+A Steering Group, ultimately chaired by a local resident, will be set up to take 
+overall responsibility for the programme. A project team will then take 
+responsibility for the day-to-day delivery of the programme. During the course 
+of the programme, we intend to look at alternative structures that will enable 
+the services to be both supported and further  enhanced in the future. 
+ 
+The programme plan shows key activities starting in May, which will enable us 
+to complete delivery of Internet Devices to resident’s homes by March 2002.  
+(However, should it be agreed that WUC monies can be spent beyond March 
+2002 this plan will be amended in order to maximise the impact of the WUC 
+funding).     
+ 
+The funding for the programme will come from a variety of sources including 
+DfES Wired up Community Initiative, NDC/SRB, ERDF, Manchester City 
+Council/HMT and the private sector, as well as the e-learning foundation for 
+the schools initiatives. 
+ 
+We are planning to achieve early success by rolling out access to 450 homes 
+as part of the first phase of Eastserve.  In addition, in advance of a decision 
+on the UK On-Line Centre proposal, a number of community based facilities 
+will be brought on stream to support the drive for increasing ICT skills within 
+the community.  This will include shop front premises in Beswick will act as 
+the “Eastserve Hub” for the roll out of WUC.   
+Eastserve Phase 2                         Page 3 of 3                            10/03/2003 
+
+===== PAGE 4 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+ 
+2. Scope 
+ 
+2.1  Context 
+ 
+The vision for East Manchester is for the creation of an East Manchester 
+Network linking homes, business, schools and colleges, public agencies and 
+the voluntary sector to each other and online local services, at broadband 
+speeds and at no cost. Access to the wider Internet would incur charges.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+Broadband
+Local 
+Content 
+ 
+East Manchester 
+Network 
+Homes 
+PC
+TV
+Phone 
+BroadBand 
+ 
+Eastserve.
+com 
+Local 
+Services 
+  Schools/
+Colleges 
+Broadband
+Community 
+Centres 
+BroadBand 
+ 
+ 
+INTERNET 
+MCC 
+Network 
+Computer
+Public 
+Agencies 
+Businesses
+ 
+ 
+ 
+ 
+ 
+Eastserve Phase 2                         Page 4 of 4                            10/03/2003 
+
+===== PAGE 5 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+2.2  Scope 
+of Beswick, Clayton and Openshaw 
+ East Manchester and covers a total of: 
+ 
+• 
+holds 
+• 
+ Initially 4 Community Learning Centres  
+ 
+ty 
+No of PCs 
+ 
+The map at Annex A shows the target for the WUC activity.  This relates to 
+the SRB 5 area covering the communities 
+in
+8,500 House
+17 Schools 
+•
+Location 
+Availabili
+Beswick ICT Centre 
+Sept 01 
+15 
+The Grange 
+Sept 01 
+15 
+Surestart(Clayton) 
+Sept 01 
+15 
+Mill Street Centre 
+Now 
+10 
+ 
+The above centres will form the first phase of the East Manchester plan for 
+the delivery of UK Online Centres; the full plan for which is included in a rou
+3 bid to DfES to be submitted by 4 May 2001. The Openshaw location will 
+nd 
+lso act as the main Eastserve/WUC resident information and support centre. 
+.3  Programme Outputs 
+umber of residents with a PC in the home 
+ 
+2,500 
+umber of homes with new internet access 
+ 
+4,500 
+umber of residents accessing ICT training 
+ 
+4,500 
+ping 
+ 
+10 
+e training and support infrastructure 
+sing Internet services 
+ 
+2,000 
+r job search activity 
+ access learning   
+ 
+ 
+ 
+ 
+>1500 
+t home to access online education sites 
+             750 
+ assist with computer awareness sessions  
+ 
+  100 
+a
+ 
+ 
+2
+ 
+N
+  
+N
+ 
+N
+ 
+Number of jobs created through develo
+th
+ 
+Number of residents u
+fo
+ 
+Numbers of pupils using a PC at home and school  
+to
+ 
+Number of parents working with children  
+a
+ 
+Number of parents working with schools  
+to
+ 
+Improved results in SATS related to  
+Eastserve Phase 2                         Page 5 of 5                            10/03/2003 
+
+===== PAGE 6 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+increased access to appropriate digital content 
+via PC  
+ 
+ 
+ 
+ 
+ 
+ 
+> 5% 
+ocational routes 
+ 
+ 
+ 
+ 
+ 
+  500 
+tronic mail to  
+f a d  
+r other educational purposes 
+ 
+ 
+ 
+   500 
+.4  Programme Outcomes  
+reasonable 
+ 
+ 
+ 
+ and computer skills” (currently 13%) 
+arget  
+- 
+35% 
+ 
+ 
+Numbers of pupils using online services to promote  
+v
+ 
+Numbers of pupils and staff using elec
+communicate with teaching staf
+n
+fo
+ 
+ 
+2
+ 
+ 
+Increased percentage of residents with “
+IT
+ 
+T
+Eastserve Phase 2                         Page 6 of 6                            10/03/2003 
+
+===== PAGE 7 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+ 
+3. Eastserve Phase 2 – The Programme 
+ 
+3.1 Overview 
+ 
+The principal elements to be delivered in this phase of the programme are:  
+ 
+• Marketing 
+• Content 
+• Homes 
+• Schools  
+• Community Learning Centres 
+• Connectivity 
+• Training and Support 
+• Eastserve Partnership 
+ 
+3.2 Marketing 
+ 
+An Eastserve marketing plan will be developed with two specific objectives, to 
+raise awareness of the device options available to residents and encourage 
+them to sign up for the scheme, and in parallel to promote the content site 
+www.eastserve.com . 
+ 
+In presenting options to residents, considerable thought will need to be given 
+to how individual options such as the NIC or settop box are promoted 
+differently from say a new PC, in order that we achieve our target mix of 
+devices. 
+ 
+The use and participation of residents in the eastserve.com site is a key 
+aspect of the overall programme and the marketing plan must address how 
+this will be encouraged.   
+ 
+It is envisaged that specialist help will be required to formulate the marketing 
+plan which will be implemented by the project team.  A specification for this 
+key piece of work will be drawn up with a view to the plan being completed by 
+the end of June 2001 and being implemented from 1 July 2001.   
+ 
+3.3 Content 
+ 
+a) Community 
+ 
+Residents will have access to the full range of Internet content, although we 
+will provide filters and training in their use in order to block certain types of 
+content. 
+ 
+Eastserve Phase 2                         Page 7 of 7                            10/03/2003 
+
+===== PAGE 8 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+Local content and services will be accessible through the eastserve.com site, 
+which has been developed during the pilot and provides access to housing, 
+police, employment, environmental and general community information and 
+services. During this phase the site will be enhanced to include community 
+generated content, links to national DfES and UK Online content, and further 
+local services including “e-maintenance” for tenants. In addition, links to 
+education content and services will be provided as described below. 
+ 
+b) Schools 
+ 
+The majority of the schools in the Education Action Zone already have their 
+own websites which have been produced by children working with an ICT 
+development assistant who constantly updates the site centrally. They also all 
+have interactive white boards.  Plans are now in place for schools to further 
+extend their presence on the Web by using simplified Internet publishing as 
+used in the Digital Brain approach. This would enable children to prepare and 
+develop materials which would be quickly uploaded to their site. It would 
+enable staff to easily select, prepare and customise digital materials for 
+classroom availability on PC’s across the school and beyond to the wider 
+online educational community.  
+ 
+Dialogue is therefore taking place to ensure that East Manchester benefits 
+from the advantages of the high quality multimedia online content which is 
+now available for schools from a range of providers. Early broadband 
+availability will assist in the effective delivery of the most useful material. 
+Several companies are being consulted to see which elements of their 
+offerings may be made available to schools in the future e.g. Paradigm, 
+Research Machines and Espresso. 
+ 
+3.4 Homes 
+ 
+Three types of Internet access devices are proposed for the area, a settop 
+box, a network computer and a PC (either recycled or new).  
+ 
+Every household will be given the opportunity to have Internet access on their 
+TV through a free settop box. Alternatively, residents will be able to purchase 
+more functional devices such as the Network Computer, a recycled PC or new 
+PC at a subsidised price. Where needed loans to pay for the equipment will 
+be available from the local Credit Union.  
+ 
+The range of proposed devices will ensure that residents without ICT skills 
+can first access the Internet on the TV, while perhaps gaining some additional 
+skills at a local community learning centre. There will then be the option to 
+“upgrade” to either a Network Computer or PC. 
+Eastserve Phase 2                         Page 8 of 8                            10/03/2003 
+
+===== PAGE 9 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+The devices currently proposed are: 
+ 
+Settop Box (Internet on TV) 
+ 
+• Netbox from Netgem /OnDigital 
+ 
+Internet on TV provides a cheap and convenient way for residents to gain 
+initial access to the Internet, without the need for extra devices and necessary 
+space in the home. 
+ 
+Network Computer 
+ 
+• New Internet Computer from the NIC Company set up by Larry Ellison  
+ 
+The NIC provides an outstanding opportunity for residents to access the 
+Internet and other locally hosted applications without the price, complexity and 
+support requirements of a PC. The NIC combines the personal use and power 
+of a PC with the simplicity of consumer devices such as a TV. 
+ 
+PC 
+ 
+• New basic PC (suppliers to be confirmed via tender) 
+• Nutshell PC, including unlimited Internet access 
+• Recycled  PC  
+ 
+The PC offers most flexibility and over the long term is the best device for 
+encouraging development of ICT skills. Those who qualify for the Computers 
+within Reach recycled PC will be provided with a device from that scheme.   
+ 
+Phone 
+ 
+We also looking at making available a small number of mobile devices 
+through which it will be possible to access the Internet including a repurposed 
+version of the eastserve.com site. These will be provided to selected 
+households from those without current fixed telephone lines. 
+ 
+Device 
+Supplier  
+Resident 
+Contribution  
+Number 
+Settop Box 
+NetBox/OnDigital 
+0 
+1000 
+Network 
+Computer 
+NIC 
+50 
+1000 
+PC (Recycled) 
+ITEM (CWR) 
+30 
+1000 
+PC (Recycled) 
+ITEM 
+100 
+500 
+PC (New) 
+TBD  
+200 
+500 
+PC (New) 
+TBD 
+200 
+500 
+Phone 
+TBD 
+0 
+100 
+Eastserve Phase 2                         Page 9 of 9                            10/03/2003 
+
+===== PAGE 10 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+ 
+3.5 Schools 
+ 
+Schools need a range of technical developments to maintain their ICT delivery 
+at an effective level. Whilst difficult to achieve with any certainty the “future-
+proofing” and flexibility of school-based ICT solutions needs to be considered. 
+For example the advent of wireless technology offers opportunities for 
+flexibility within the school teaching and learning environment enabling 
+significant gains in terms of access.  
+ 
+3.6 Community Learning Centres 
+ 
+As part of the phase 2 programme a number of community learning centres 
+will be set up including a Centre in Beswick as the focal point or hub for the 
+Eastserve programme. The development of these centres will be supported 
+via regeneration and European funding, and further ones added should the 
+East Manchester UK Online round 3 bid be successful. 
+ 
+ 
+Location 
+Availability 
+No of PCs 
+ 
+Beswick ICT Centre 
+Sept 01 
+15 
+ 
+The Grange 
+Sept 01 
+15 
+ 
+Surestart(Clayton) 
+Sept 01 
+15 
+ 
+Mill Street Centre 
+Now 
+10 
+ 
+Gorton Community Centre 
+ 
+ 
+UK Online 
+Grumpy 
+ 
+ 
+UK Online 
+PJs Youth Centre 
+ 
+ 
+UK Online 
+MERCI 
+ 
+ 
+UK Online 
+Victoria Mill 
+ 
+ 
+UK Online 
+ 
+Each centre will offer comprehensive Internet access facilities, and a variety 
+of specialist and generic content and training. The centres will provide the 
+locations for the initial training of residents prior to the rollout of the equipment 
+to homes, and will subsequently offer a range of progression courses. 
+Residents will be able to use the centres in order to try out equipment such as 
+a PC, prior to committing to a purchase or when looking to upgrade from say 
+a settop box. 
+ 
+3.7 Connectivity 
+ 
+Our objective over time is to enable free broadband access to local content, 
+whilst charges are still made for wider Internet access and voice services. In 
+order to achieve this we will need to work closely with a telecommunications 
+partner and we are already in discussion with a number of companies, 
+including BT, NTL and Atlantic. This activity also needs to be co-ordinated 
+with other Manchester wide initiatives from the City Council and the Education 
+Authority. 
+Eastserve Phase 2                         Page 10 of 10                            10/03/2003 
+
+===== PAGE 11 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+ 
+In this phase of the programme there are a number of activities that need to 
+take place: 
+ 
+• Installation/reconnection of telephone lines for upto 500 households 
+without a current landline. 
+• Broadband installation for upto 750 households. 
+• Broadband installations for the 17 schools 
+• Broadband installations for the community learning centres 
+• Availability of Broadband upgrades for the 3,750 households initially on 
+Narrowband 
+• Settup of 100 mobile accounts. 
+ 
+In general, the programme will cover installation costs, and will seek to cover 
+costs of access to eastserve.com and other local content. Wider Internet and 
+other usage such as voice will be charged to the resident. In the first instance 
+this may simply be handled by providing an unlimited access package along 
+with the Internet device for three months, as has been done with the pilot. 
+ 
+The broadband technology is likely to be ADSL/DSL, though this needs 
+confirming with our chosen partner. In addition, we need to agree on an 
+approach to the hosting of local content, such that revenue charges for 
+access can be kept to a minimum. 
+   
+3.8 Training and Support 
+ 
+The training and support structures are crucial to the successful delivery of 
+the programme.  In addition, the Wired Up Communities initiative will provide 
+a ready-made audience for the developing UK Online Centres/Community 
+Learning Centres, thus supporting the sustainability of these Centres.  The 
+revenue funding secured via the New Opportunities Fund and the mainstream 
+FEFC funding available through local training providers such as MANCAT will 
+be used to contribute towards the training and support costs.   
+ 
+The installation and training strategy will be as follows: 
+ 
+• One member of each household will receive initial 3 hour training course 
+prior to collection and installation of devices. This will be done in groups of 
+between 10 and 15 and will vary according to the device. The first courses 
+in August will be trials using the Community Champions. 
+ 
+• Where the individual identifies the desire to access more in depth training 
+this will be made available via the nearest community based UK Online 
+Centre and higher-level training will be delivered by MANCAT.  
+Eastserve Phase 2                         Page 11 of 11                            10/03/2003 
+
+===== PAGE 12 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+• The settop boxes, NICs and PCs will all be provided with guidance for self-
+installation. However there will be a free support service available for 
+those who need help.   
+• A range of ongoing support services will be put into place: 
+• Community Champions to offer residents first level support. 
+• Eastserve technical support service to provide backup to the 
+champions and handle in depth problems. 
+• Eastserve central support service for issues relating to applications 
+and the operation of local services. 
+• Community Learning/UK Online Centres for drop in advice or 
+online courses 
+• Training providers for additional courses  
+• Technical support from device suppliers and Telco’s.  
+ 
+3.9 Eastserve Partnership 
+ 
+An Eastserve Partnership will be set up to develop and operate the Eastserve 
+services. Key aspects are: 
+ 
+• The accountable body will be Manchester City Council, via the New 
+Deal for Communities partnership in East Manchester. 
+ 
+•  A steering group will be established drawing together residents and 
+key agencies to ensure Eastserve meets its objectives, and 
+complements both the regeneration strategy and the wider Manchester 
+ICT vision. The initial membership will include: 
+ 
+• Residents  
+• New Deal for Communities/New East Manchester Ltd 
+• East Manchester Education Action Zone 
+• Manchester City Council 
+• Manchester 2002 
+• DfES 
+• GONW 
+ 
+This steering group will take over from the current Eastserve pilot 
+steering committee. 
+ 
+• An Eastserve editorial board will be set up to take responsibility for 
+content being delivered through Eastserve, and will be formed through 
+extension of the current Eastserve editorial board. 
+ 
+• A programme delivery team will be set up to progress the development 
+of Eastserve, including engaging and managing key private sector 
+partners for various aspects of the programme, and developing the 
+training and support services through the UK Online Centres. 
+Eastserve Phase 2                         Page 12 of 12                            10/03/2003 
+
+===== PAGE 13 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+ 
+ 
+4. Activities 
+ 
+This section describes the various activities that need to take place as part of 
+the programme and identifies options for how it will be undertaken and any 
+key decisions and milestones relating to the activity. 
+ 
+Where private sector is indicated a briefing note will be prepared as the basis 
+for discussions. 
+ 
+Programme Management 
+• Scope 
+Planning 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+Policies (Security,Filtering etc) 
+Strategy 
+Progress Monitoring/Reporting 
+Scoping 
+Partner Agreements/Procurement 
+Technical Architecture  
+• Financial Management 
+• Bidding for SRB / EU funding? 
+ 
+• Effort     May – Oct  Full Time ; Nov – Mar Part Time (3 days/week) 
+ 
+• Options Staff Appointment/Private Sector Consultancy 
+ 
+• Key Appointment needed by early May 
+ 
+Project Office/Administration 
+• Scope 
+Resident Data 
+Resident Finance 
+Resident Agreements 
+Marketing Support 
+Funding/Outputs 
+General Admin Support  
+Eastserve Resident Support 
+Review/Evaluation 
+Servicing of Steering Group 
+ 
+• Effort   2  Full Time from May 2001;  2 more Full Time from June 2001; 
+= 4fte’s 
+ 
+• Options Staff Appointments  
+Eastserve Phase 2                         Page 13 of 13                            10/03/2003 
+
+===== PAGE 14 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+ 
+• Key One person on board by May to set up resident database 
+ 
+Marketing 
+• Scope 
+Branding 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+Promotion of Options 
+Promotion of Eastserve 
+General awareness of the overall vision 
+ 
+• Effort     May – June;  
+ 
+• Options Private Sector (+admin support) 
+ 
+• Key Specification will need to be drawn up and a provider selected by 
+early May 
+ 
+Content Management 
+• Scope 
+Specification 
+Policy 
+Moderation 
+ 
+• Effort   1  Full Time from June 2001 (Webmaster);   
+ 
+• Options Staff Appointment  
+• Key Early Identification of Webmaster 
+ 
+Content Development 
+• Scope 
+Community Content 
+Updates Review/Evaluation 
+Agency Content 
+ 
+• Effort   1  Full Time from July 2001;  1 more Full Time from Sept 2001; 
+(plus supervision) 
+ 
+• Options Staff Appointment/MCIN  
+ 
+• Key Link into pilot work 
+ 
+System Development  
+• Scope 
+Eastserve.com 
+ISB 
+Eastserve Phase 2                         Page 14 of 14                            10/03/2003 
+
+===== PAGE 15 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+Education 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+Interfaces 
+Mobile 
+ 
+• Effort   TBD (Budget Limited) 
+ 
+• Options Private Sector (eg ClicksandLinks/Digital Brain) 
+ 
+• Key Specification of Scope during May/June, including ISB, Education  
+ 
+System Operation  
+• Scope 
+Hosting 
+ 
+• Effort   Service to host local servers including Eastserve.com, possible 
+linked to ISP. 
+ 
+• Options MCC/Private Sector/MANCAT/NCC 
+ 
+• Key Enabling of fast free access to local content 
+ 
+Communications  Partners  
+• Scope 
+ISP 
+Installations 
+Bandwidth 
+ 
+• Effort   N/A 
+ 
+• Options Identification of one or more partners to provide narrow and 
+broadband access from all devices. ISP for separate access to local 
+content and wider Internet access. 
+ 
+ 
+o Comms:  BT/Atlantic/NTL/Norweb 
+o ISP: Nutshell/Affinity plus above 
+ 
+• Key Fit with strategy for free broadband to local content, plus low price 
+installations. 
+ 
+ 
+Training  
+• Scope 
+Residents (450 courses) 
+Champions (45 champions) 
+Progression to higher level training 
+Eastserve Phase 2                         Page 15 of 15                            10/03/2003 
+
+===== PAGE 16 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+Development of community based learning centres 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+ 
+• Effort   2 Full Time trainers July to March (plus champions) 
+ 
+• Options MANCAT/Training Providers (funded through mainstream and 
+follow on provision) 
+ 
+• Key Plans in place by the end of June 
+ 
+Technical Support/Rollout 
+• Scope 
+Supplier Relationships 
+Logistics/Rollout 
+Settup/Pickup 
+Home Installation/Delivery 
+Champions Support 
+Technical Support 
+ 
+• Effort   Local Team (Community Enterprise) working with Suppliers to 
+set up equipment and install where necessary. Same team to provide 
+technical support working with Champions and Suppliers to provide full 
+support service.   
+ 
+• Options ITEM 
+ 
+• Key Decision by mid June on Community Enterprise  
+ 
+Eastserve Phase 2                         Page 16 of 16                            10/03/2003 
+
+===== PAGE 17 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+ 
+5. Organisation 
+ 
+The organisational structure proposed for the delivery of Eastserve 
+programme is as shown below: 
+ 
+ 
+ 
+ 
+ 
+ 
+Steering 
+Group 
+System 
+Operation 
+Communications 
+Partner 
+Content  
+Board 
+Content 
+Management
+(WebMaster)
+Content 
+Development
+Programme 
+Management
+Project 
+Officer/Admin 
+Team  
+Technical 
+Support 
+System 
+Development
+ 
+Training 
+Devices 
+Suppliers 
+Eastserve Phase 2                         Page 17 of 17                            10/03/2003 
+
+===== PAGE 18 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+ 
+6. Implementation 
+ 
+Plan 
+Apr-01
+May-01
+Jun-01
+Jul-01
+Aug-01
+Sep-01
+Oct-01
+Nov-01
+Dec-01
+Jan-02
+Feb-02
+Mar-02
+Apr-02
+May-02
+Jun-02
+Activity
+Programme Management
+ - Planning
+ - Procurement
+ - Scoping/Strategy
+ - Monitoring/Report
+Marketing
+ - Plan
+ - Device Campaign
+ - Use Campaign
+Administration
+ - Resident Database
+ - Resident Sign Up 
+ - Resident Finance
+ - Resident Support
+Training
+ - Phase 1
+ - Residents
+675
+675
+675
+675
+675
+675
+450
+0
+0
+0
+ - Champions
+20
+20
+10
+Technical Support
+Eastserve Pilot
+Resident Rollout
+675
+675
+675
+675
+675
+675
+450
+0
+0
+0
+ - PCs (New)
+150
+150
+150
+150
+150
+150
+100
+ - PCs (Recycled)
+75
+75
+75
+75
+75
+75
+50
+ - PCs (CWR)
+150
+150
+150
+150
+150
+150
+100
+ - NICs
+150
+150
+150
+150
+150
+150
+100
+ - STBs
+150
+150
+150
+150
+150
+150
+100
+ - Phones
+50
+50
+Eastserve Phase 2                         Page 18 of 18                            10/03/2003 
+
+===== PAGE 19 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+Milestones 
+ 
+May 2001 
+- Initial Project Plan produced   
+ 
+June 2001 
+- Marketing Plan agreed 
+- Detailed Project Plan approved 
+- 1st meeting of new Steering Group 
+- Resident Database constructed 
+- Risk Assessment completed 
+- Decision on provider(s) of Technical Support 
+- Remaining Phase 1 activities factored into Phase 2 programme 
+ 
+July 2001 
+- Approval of Business Plan 
+- Marketing Campaign underway 
+- Decision on suppliers for Phase 2 Internet access devices  
+- Eastserve Policies approved 
+- Approval of Appraisal re NDC funding 
+- WUC contract agreed/signed 
+- Refresher training for Phase 1 users 
+ 
+August 2001 
+- Proposal submitted for Broadband connectivity 
+- Training of Community Champions 
+- Commence training programme for Phase 2 users 
+- Agree Scope of Phase 2 Content 
+- Eastserve project team fully staffed and relocated 
+ 
+September 2001 
+- Decision on System Hosting 
+- Commence 2-month roll-out programme for Clayton residents  
+- Decision on UK Online Centres bid 
+- Phase 2 Content Go Live 
+ 
+October 
+- Commence transition of Phase 2 project management from Clicks and Links  
+to 'Eastserve Partnership'  
+- Launch Event 
+- Phase 2 Content Go Live 
+ 
+November 
+- Commence 2-month roll-out programme for Openshaw residents 
+ 
+December 
+- 
+Eastserve Phase 2                         Page 19 of 19                            10/03/2003 
+
+===== PAGE 20 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+ 
+January 2002 
+- Commence 2-month roll-out programme for Beswick residents 
+ 
+February 
+- 
+ 
+March 
+- Completion of Eastserve Phase 2 implementation (ie. 'wiring-up' 4500 hom 
+ 
+ 
+ 
+ 
+ 
+ 
+Eastserve Phase 2                         Page 20 of 20                            10/03/2003 
+
+===== PAGE 21 =====
+ 
+Helping Bridge the Digital Divide in East Manchester 
+ 
+7. Funding 
+ 
+A full profile was contained in an attached spreadsheet. 
+ 
+8. Key Issues 
+ 
+There are a number of key issues that require early resolution, these include: 
+ 
+establishment of the delivery team including programme management 
+• 
+• 
+• 
+• 
+• 
+procurement and contractual processes 
+the packages on offer to residents 
+the selection of a communications partner 
+key policy decisions around security, filtering and finance 
+ 
+9. Early Wins 
+ 
+The Eastserve pilot provides a early win for the whole programme and by 
+early May will have some 400 household connected up either by PCs or 
+settop boxes. 
+ 
+The next key win will be the setting up of the Eastserve Hub in Beswick in 
+August, followed by the initial training courses and the rollout of equipment in 
+Clayton from September. 
+ 
+ 
+Eastserve Phase 2                         Page 21 of 21                            10/03/2003 

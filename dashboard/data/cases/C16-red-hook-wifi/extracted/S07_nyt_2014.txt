@@ -1,0 +1,76 @@
+
+
+Red Hook’s Cutting-Edge Wireless Network - The New York Times
+
+ 
+
+Skip to content
+Skip to site index
+New York
+ 
+Today’s Paper
+New York
+|
+Red Hook’s Cutting-Edge Wireless Network
+https://www.nytimes.com/2014/08/24/nyregion/red-hooks-cutting-edge-wireless-network.html
+Share full article
+Advertisement
+SKIP ADVERTISEMENT
+You have a preview view of this article while we are checking your access. When we have confirmed access, the full article content will load.
+Supported by
+SKIP ADVERTISEMENT
+Red Hook’s Cutting-Edge Wireless Network
+Share full article
+Ali Abdussabur installed a network node on a building’s roof this month.
+Credit...
+Chang W. Lee/The New York Times
+By 
+Noam Cohen
+Aug. 22, 2014
+Robert Smith, a 19-year-old in a gray T-shirt and camouflage pants, climbed the stairwell of the Joseph Miccio Community Center in Red Hook, scaled a ladder at the top floor and jumped onto the roof. He soon found what he was looking for: bright, white plastic boxes, each about the size of a brick, some with little antennas sticking out. Mr. Smith pulled a laptop from his backpack and got to work, tending to the nodes of the Red Hook mesh, an ambitious plan to link up a local wireless digital network across the neighborhood.
+With the Brooklyn-Queens Expressway just ahead and the Lower Manhattan skyline in the distance, Mr. Smith worked on keeping the digital conversation going. He was examining two devices on the roof while wirelessly conversing with a minicomputer a few hundred feet away on the roof of a school that had a high-speed Internet connection. 
+Though these white boxes, spread across various rooftops in Red Hook, may appear haphazard, or guerrilla even, the Red Hook mesh is actually in the vanguard of wireless networking. Unlike the Internet available at work or at home, which typically arrives through a wire and follows a carefully plotted path from Internet provider to user, a mesh network is improvised — and remarkably resilient. 
+Because the devices speak to one another, they are more than a series of “hot spots” with Internet access; the mesh remains a network whether or not it is connected to the Internet. And that independence is its main attraction — in Berlin, where a tech collective shares Internet access to save money; in rural Spain, where one of the largest mesh networks covers areas ignored by telecoms; in Tunisia, where the State Department has spent millions establishing a mesh network to experiment with a local network impervious to government censorship. 
+Red Hook, which juts out of Brooklyn into New York Bay and is cut off from the rest of the borough by the B.Q.E., has similar reasons for hosting a mesh. The 11,000 or so residents can feel at the whim of nature, as well as government and corporate bureaucracies. There is no subway service; there are few Internet hot spots; close to 70 percent of the population lives in New York City housing projects. 
+Image
+Members of Red Hook Initiative at work this month maintaining the Brooklyn neighborhood’s mesh network.
+Credit...
+Chang W. Lee/The New York Times
+Thank you for your patience while we verify access. If you are in Reader mode please exit and 
+log into
+ your Times account, or 
+subscribe
+ for all of The Times.
+Thank you for your patience while we verify access.
+Already a subscriber? 
+Log in
+.
+Want all of The Times? 
+Subscribe
+.
+Related Content
+Advertisement
+SKIP ADVERTISEMENT
+Site Index
+Site Information Navigation
+© 
+2026
+ 
+The New York Times Company
+NYTCo
+Contact Us
+Accessibility
+Work with us
+Advertise
+T Brand Studio
+Privacy Policy
+Cookie Policy
+Terms of Service
+Terms of Sale
+Site Map
+Canada
+International
+Help
+Subscriptions
+Manage Privacy Preferences
+

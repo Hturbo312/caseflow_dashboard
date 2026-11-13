@@ -1,0 +1,19 @@
+{
+  "packetId": "RP-C18-G5-v1.0",
+  "supersedes": "RP-C18-G5-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G5",
+  "caseId": "C18",
+  "decidedAt": "2026-11-13",
+  "researcherDecision": {
+    "action": "accept",
+    "rationale": "同意101条关系；状态分布确认；资助冲突保留；身份关系暂不补。",
+    "modifiedContent": "维持101条关系与四条资助口径。",
+    "allowNextGate": true
+  },
+  "frozenArtifacts": ["relations.md v1.0", "relations.json v1.0", "RP-C18-G5-v1.0"],
+  "openIssues": [
+    "G6方向与谓词审校",
+    "F031关系覆盖"
+  ]
+}

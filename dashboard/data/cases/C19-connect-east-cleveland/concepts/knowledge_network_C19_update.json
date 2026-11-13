@@ -1,0 +1,1840 @@
+{
+  "case_id": "C19",
+  "generated_at": "2026-11-13",
+  "version": "L2-C19-v1.0",
+  "existing_concept_updates": [
+    {
+      "shared_concept_id": "SC-C01-102",
+      "label": "规划制度与产权治理约束",
+      "entity_type": "context",
+      "definition": "规划程序、产权结构、业主决策和审批规则限制或塑造更新方案。",
+      "scope": "规划、产权、审批与正式决策条件。",
+      "negative_examples": "[\"未进入正式程序的愿景\"]",
+      "old_supporting_case_ids": [
+        "C02",
+        "C07",
+        "C10",
+        "C11"
+      ],
+      "old_supporting_native_ids": [
+        "NC-C02-context-002",
+        "NC-C07-context-004",
+        "NC-C10-context-003",
+        "NC-C11-context-006",
+        "NC-C11-context-007",
+        "NC-C11-context-008",
+        "NC-C11-context-009",
+        "NC-C11-context-010",
+        "NC-C11-context-013",
+        "NC-C11-context-014"
+      ],
+      "new_supporting_case_ids": [
+        "C02",
+        "C07",
+        "C10",
+        "C11",
+        "C19"
+      ],
+      "new_supporting_native_ids": [
+        "NC-C02-context-002",
+        "NC-C07-context-004",
+        "NC-C10-context-003",
+        "NC-C11-context-006",
+        "NC-C11-context-007",
+        "NC-C11-context-008",
+        "NC-C11-context-009",
+        "NC-C11-context-010",
+        "NC-C11-context-013",
+        "NC-C11-context-014",
+        "NC-C19-18"
+      ],
+      "appended_native_ids": [
+        "NC-C19-18"
+      ],
+      "change_type": "append_native_ids",
+      "definition_changed": false,
+      "scope_changed": false,
+      "version": "L2-C19-v1.0"
+    },
+    {
+      "shared_concept_id": "SC-C01-111",
+      "label": "地方政府与规划治理主体",
+      "entity_type": "actor",
+      "definition": "市政府、区级机构、委员会或规划部门承担组织、审批和制度供给。",
+      "scope": "公共部门及其正式治理角色。",
+      "negative_examples": "[\"居民个人\"]",
+      "old_supporting_case_ids": [
+        "C01",
+        "C02",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C09",
+        "C11"
+      ],
+      "old_supporting_native_ids": [
+        "NC-C01-actor-003",
+        "NC-C01-actor-006",
+        "NC-C01-actor-007",
+        "NC-C02-actor-004",
+        "NC-C04-actor-003",
+        "NC-C04-actor-004",
+        "NC-C05-actor-005",
+        "NC-C06-actor-001",
+        "NC-C07-actor-001",
+        "NC-C07-actor-003",
+        "NC-C07-actor-010",
+        "NC-C09-actor-001",
+        "NC-C11-actor-001"
+      ],
+      "new_supporting_case_ids": [
+        "C01",
+        "C02",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C09",
+        "C11",
+        "C19"
+      ],
+      "new_supporting_native_ids": [
+        "NC-C01-actor-003",
+        "NC-C01-actor-006",
+        "NC-C01-actor-007",
+        "NC-C02-actor-004",
+        "NC-C04-actor-003",
+        "NC-C04-actor-004",
+        "NC-C05-actor-005",
+        "NC-C06-actor-001",
+        "NC-C07-actor-001",
+        "NC-C07-actor-003",
+        "NC-C07-actor-010",
+        "NC-C09-actor-001",
+        "NC-C11-actor-001",
+        "NC-C19-16"
+      ],
+      "appended_native_ids": [
+        "NC-C19-16"
+      ],
+      "change_type": "append_native_ids",
+      "definition_changed": false,
+      "scope_changed": false,
+      "version": "L2-C19-v1.0"
+    },
+    {
+      "shared_concept_id": "SC-C01-112",
+      "label": "专业研究和服务机构",
+      "entity_type": "actor",
+      "definition": "大学、研究团队、工程机构或技术服务方提供研究、设计与专业支持。",
+      "scope": "专业、研究和技术服务角色。",
+      "negative_examples": "[\"普通居民\"]",
+      "old_supporting_case_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C07",
+        "C08",
+        "C11"
+      ],
+      "old_supporting_native_ids": [
+        "NC-C01-actor-002",
+        "NC-C01-actor-018",
+        "NC-C02-actor-001",
+        "NC-C02-actor-002",
+        "NC-C03-actor-005",
+        "NC-C03-actor-008",
+        "NC-C07-actor-006",
+        "NC-C07-actor-011",
+        "NC-C07-actor-012",
+        "NC-C08-actor-004",
+        "NC-C11-actor-002"
+      ],
+      "new_supporting_case_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C07",
+        "C08",
+        "C11",
+        "C19"
+      ],
+      "new_supporting_native_ids": [
+        "NC-C01-actor-002",
+        "NC-C01-actor-018",
+        "NC-C02-actor-001",
+        "NC-C02-actor-002",
+        "NC-C03-actor-005",
+        "NC-C03-actor-008",
+        "NC-C07-actor-006",
+        "NC-C07-actor-011",
+        "NC-C07-actor-012",
+        "NC-C08-actor-004",
+        "NC-C11-actor-002",
+        "NC-C19-21"
+      ],
+      "appended_native_ids": [
+        "NC-C19-21"
+      ],
+      "change_type": "append_native_ids",
+      "definition_changed": false,
+      "scope_changed": false,
+      "version": "L2-C19-v1.0"
+    },
+    {
+      "shared_concept_id": "SC-C01-114",
+      "label": "地方组织与运营主体",
+      "entity_type": "actor",
+      "definition": "社区组织、企业、物业、协会或住房组织承担联络、运营和共同治理。",
+      "scope": "组织化的地方行动和运营主体。",
+      "negative_examples": "[\"未组织化的个体意见\"]",
+      "old_supporting_case_ids": [
+        "C01",
+        "C04",
+        "C05",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11"
+      ],
+      "old_supporting_native_ids": [
+        "NC-C01-actor-001",
+        "NC-C01-actor-010",
+        "NC-C01-actor-014",
+        "NC-C01-actor-019",
+        "NC-C04-actor-001",
+        "NC-C04-actor-005",
+        "NC-C04-actor-010",
+        "NC-C05-actor-006",
+        "NC-C07-actor-008",
+        "NC-C07-actor-009",
+        "NC-C08-actor-006",
+        "NC-C09-actor-005",
+        "NC-C10-actor-004",
+        "NC-C11-actor-006"
+      ],
+      "new_supporting_case_ids": [
+        "C01",
+        "C04",
+        "C05",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C19"
+      ],
+      "new_supporting_native_ids": [
+        "NC-C01-actor-001",
+        "NC-C01-actor-010",
+        "NC-C01-actor-014",
+        "NC-C01-actor-019",
+        "NC-C04-actor-001",
+        "NC-C04-actor-005",
+        "NC-C04-actor-010",
+        "NC-C05-actor-006",
+        "NC-C07-actor-008",
+        "NC-C07-actor-009",
+        "NC-C08-actor-006",
+        "NC-C09-actor-005",
+        "NC-C10-actor-004",
+        "NC-C11-actor-006",
+        "NC-C19-15",
+        "NC-C19-21"
+      ],
+      "appended_native_ids": [
+        "NC-C19-15",
+        "NC-C19-21"
+      ],
+      "change_type": "append_native_ids",
+      "definition_changed": false,
+      "scope_changed": false,
+      "version": "L2-C19-v1.0"
+    },
+    {
+      "shared_concept_id": "SC-C01-122",
+      "label": "规划设计与实施准备",
+      "entity_type": "task",
+      "definition": "形成规划方案、工程设计、审批材料和实施安排。",
+      "scope": "规划、设计和项目准备。",
+      "negative_examples": "[\"已完成建设\"]",
+      "old_supporting_case_ids": [
+        "C01",
+        "C02",
+        "C05",
+        "C07",
+        "C10",
+        "C11"
+      ],
+      "old_supporting_native_ids": [
+        "NC-C01-task-004",
+        "NC-C02-task-004",
+        "NC-C05-task-006",
+        "NC-C07-task-002",
+        "NC-C07-task-003",
+        "NC-C07-task-005",
+        "NC-C07-task-008",
+        "NC-C10-task-004",
+        "NC-C11-task-005"
+      ],
+      "new_supporting_case_ids": [
+        "C01",
+        "C02",
+        "C05",
+        "C07",
+        "C10",
+        "C11",
+        "C19"
+      ],
+      "new_supporting_native_ids": [
+        "NC-C01-task-004",
+        "NC-C02-task-004",
+        "NC-C05-task-006",
+        "NC-C07-task-002",
+        "NC-C07-task-003",
+        "NC-C07-task-005",
+        "NC-C07-task-008",
+        "NC-C10-task-004",
+        "NC-C11-task-005",
+        "NC-C19-22"
+      ],
+      "appended_native_ids": [
+        "NC-C19-22"
+      ],
+      "change_type": "append_native_ids",
+      "definition_changed": false,
+      "scope_changed": false,
+      "version": "L2-C19-v1.0"
+    },
+    {
+      "shared_concept_id": "SC-C01-131",
+      "label": "数字参与与可视化工具",
+      "entity_type": "technology",
+      "definition": "支持意见提交、空间表达、参与讨论和愿景可视化的数字或实体工具。",
+      "scope": "用于参与过程的工具与媒介。",
+      "negative_examples": "[\"仅用于内部管理\"]",
+      "old_supporting_case_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C05",
+        "C06",
+        "C07"
+      ],
+      "old_supporting_native_ids": [
+        "NC-C01-technology-006",
+        "NC-C01-technology-007",
+        "NC-C01-technology-009",
+        "NC-C02-technology-001",
+        "NC-C02-technology-002",
+        "NC-C02-technology-003",
+        "NC-C02-technology-004",
+        "NC-C03-technology-001",
+        "NC-C03-technology-002",
+        "NC-C03-technology-003",
+        "NC-C03-technology-004",
+        "NC-C05-technology-004",
+        "NC-C05-technology-005",
+        "NC-C06-technology-001",
+        "NC-C06-technology-003",
+        "NC-C07-technology-008"
+      ],
+      "new_supporting_case_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C05",
+        "C06",
+        "C07",
+        "C19"
+      ],
+      "new_supporting_native_ids": [
+        "NC-C01-technology-006",
+        "NC-C01-technology-007",
+        "NC-C01-technology-009",
+        "NC-C02-technology-001",
+        "NC-C02-technology-002",
+        "NC-C02-technology-003",
+        "NC-C02-technology-004",
+        "NC-C03-technology-001",
+        "NC-C03-technology-002",
+        "NC-C03-technology-003",
+        "NC-C03-technology-004",
+        "NC-C05-technology-004",
+        "NC-C05-technology-005",
+        "NC-C06-technology-001",
+        "NC-C06-technology-003",
+        "NC-C07-technology-008",
+        "NC-C19-02",
+        "NC-C19-03",
+        "NC-C19-04",
+        "NC-C19-08"
+      ],
+      "appended_native_ids": [
+        "NC-C19-02",
+        "NC-C19-03",
+        "NC-C19-04",
+        "NC-C19-08"
+      ],
+      "change_type": "append_native_ids",
+      "definition_changed": false,
+      "scope_changed": false,
+      "version": "L2-C19-v1.0"
+    },
+    {
+      "shared_concept_id": "SC-C01-141",
+      "label": "参与表达与意见采集能力",
+      "entity_type": "capability",
+      "definition": "让居民表达意见、提交空间信息、提问或参与愿景讨论的能力。",
+      "scope": "居民表达和意见采集能力。",
+      "negative_examples": "[\"单向公告\"]",
+      "old_supporting_case_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C07"
+      ],
+      "old_supporting_native_ids": [
+        "NC-C01-capability-006",
+        "NC-C02-capability-002",
+        "NC-C03-capability-002",
+        "NC-C07-capability-003"
+      ],
+      "new_supporting_case_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C07",
+        "C19"
+      ],
+      "new_supporting_native_ids": [
+        "NC-C01-capability-006",
+        "NC-C02-capability-002",
+        "NC-C03-capability-002",
+        "NC-C07-capability-003",
+        "NC-C19-24",
+        "NC-C19-25"
+      ],
+      "appended_native_ids": [
+        "NC-C19-24",
+        "NC-C19-25"
+      ],
+      "change_type": "append_native_ids",
+      "definition_changed": false,
+      "scope_changed": false,
+      "version": "L2-C19-v1.0"
+    },
+    {
+      "shared_concept_id": "SC-C01-151",
+      "label": "社区参与与意见收集",
+      "entity_type": "action",
+      "definition": "组织居民参与活动并收集其生活问题、空间意见和服务需求。",
+      "scope": "参与活动和意见收集行动。",
+      "negative_examples": "[\"内部行政会议\"]",
+      "old_supporting_case_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C11"
+      ],
+      "old_supporting_native_ids": [
+        "NC-C01-action-003",
+        "NC-C01-action-010",
+        "NC-C01-action-011",
+        "NC-C02-action-001",
+        "NC-C02-action-002",
+        "NC-C02-action-003",
+        "NC-C02-action-004",
+        "NC-C02-action-005",
+        "NC-C02-action-006",
+        "NC-C02-action-007",
+        "NC-C02-action-009",
+        "NC-C02-action-011",
+        "NC-C02-action-012",
+        "NC-C03-action-001",
+        "NC-C03-action-002",
+        "NC-C03-action-003",
+        "NC-C03-action-004",
+        "NC-C03-action-006",
+        "NC-C03-action-012",
+        "NC-C03-action-013",
+        "NC-C05-action-005",
+        "NC-C06-action-001",
+        "NC-C06-action-002",
+        "NC-C06-action-003",
+        "NC-C06-action-004",
+        "NC-C06-action-014",
+        "NC-C06-action-015",
+        "NC-C06-action-016",
+        "NC-C07-action-005",
+        "NC-C07-action-006",
+        "NC-C07-action-010",
+        "NC-C07-action-011",
+        "NC-C08-action-002",
+        "NC-C08-action-003",
+        "NC-C09-action-008",
+        "NC-C09-action-009",
+        "NC-C11-action-006",
+        "NC-C11-action-008"
+      ],
+      "new_supporting_case_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C11",
+        "C19"
+      ],
+      "new_supporting_native_ids": [
+        "NC-C01-action-003",
+        "NC-C01-action-010",
+        "NC-C01-action-011",
+        "NC-C02-action-001",
+        "NC-C02-action-002",
+        "NC-C02-action-003",
+        "NC-C02-action-004",
+        "NC-C02-action-005",
+        "NC-C02-action-006",
+        "NC-C02-action-007",
+        "NC-C02-action-009",
+        "NC-C02-action-011",
+        "NC-C02-action-012",
+        "NC-C03-action-001",
+        "NC-C03-action-002",
+        "NC-C03-action-003",
+        "NC-C03-action-004",
+        "NC-C03-action-006",
+        "NC-C03-action-012",
+        "NC-C03-action-013",
+        "NC-C05-action-005",
+        "NC-C06-action-001",
+        "NC-C06-action-002",
+        "NC-C06-action-003",
+        "NC-C06-action-004",
+        "NC-C06-action-014",
+        "NC-C06-action-015",
+        "NC-C06-action-016",
+        "NC-C07-action-005",
+        "NC-C07-action-006",
+        "NC-C07-action-010",
+        "NC-C07-action-011",
+        "NC-C08-action-002",
+        "NC-C08-action-003",
+        "NC-C09-action-008",
+        "NC-C09-action-009",
+        "NC-C11-action-006",
+        "NC-C11-action-008",
+        "NC-C19-05",
+        "NC-C19-20"
+      ],
+      "appended_native_ids": [
+        "NC-C19-05",
+        "NC-C19-20"
+      ],
+      "change_type": "append_native_ids",
+      "definition_changed": false,
+      "scope_changed": false,
+      "version": "L2-C19-v1.0"
+    },
+    {
+      "shared_concept_id": "SC-C01-152",
+      "label": "方案共制与居民协商决策",
+      "entity_type": "action",
+      "definition": "居民和利益相关者共同讨论、协商或决定更新方案及参与条件。",
+      "scope": "方案共制和共同决策行动。",
+      "negative_examples": "[\"单向信息发布\"]",
+      "old_supporting_case_ids": [
+        "C04",
+        "C05",
+        "C06",
+        "C10",
+        "C11"
+      ],
+      "old_supporting_native_ids": [
+        "NC-C04-action-001",
+        "NC-C04-action-011",
+        "NC-C05-action-002",
+        "NC-C06-action-007",
+        "NC-C10-action-004",
+        "NC-C10-action-009",
+        "NC-C11-action-002"
+      ],
+      "new_supporting_case_ids": [
+        "C04",
+        "C05",
+        "C06",
+        "C10",
+        "C11",
+        "C19"
+      ],
+      "new_supporting_native_ids": [
+        "NC-C04-action-001",
+        "NC-C04-action-011",
+        "NC-C05-action-002",
+        "NC-C06-action-007",
+        "NC-C10-action-004",
+        "NC-C10-action-009",
+        "NC-C11-action-002",
+        "NC-C19-05"
+      ],
+      "appended_native_ids": [
+        "NC-C19-05"
+      ],
+      "change_type": "append_native_ids",
+      "definition_changed": false,
+      "scope_changed": false,
+      "version": "L2-C19-v1.0"
+    },
+    {
+      "shared_concept_id": "SC-C01-155",
+      "label": "跨组织协作与信息协调",
+      "entity_type": "action",
+      "definition": "政府、组织、企业、专业人员和居民之间开展协作、会议和联络。",
+      "scope": "跨组织协调和联络行动。",
+      "negative_examples": "[\"单一组织内部事务\"]",
+      "old_supporting_case_ids": [
+        "C01",
+        "C03",
+        "C07",
+        "C08"
+      ],
+      "old_supporting_native_ids": [
+        "NC-C01-action-004",
+        "NC-C01-action-006",
+        "NC-C03-action-007",
+        "NC-C03-action-008",
+        "NC-C07-action-007",
+        "NC-C07-action-008",
+        "NC-C08-action-001",
+        "NC-C08-action-006"
+      ],
+      "new_supporting_case_ids": [
+        "C01",
+        "C03",
+        "C07",
+        "C08",
+        "C19"
+      ],
+      "new_supporting_native_ids": [
+        "NC-C01-action-004",
+        "NC-C01-action-006",
+        "NC-C03-action-007",
+        "NC-C03-action-008",
+        "NC-C07-action-007",
+        "NC-C07-action-008",
+        "NC-C08-action-001",
+        "NC-C08-action-006",
+        "NC-C19-19"
+      ],
+      "appended_native_ids": [
+        "NC-C19-19"
+      ],
+      "change_type": "append_native_ids",
+      "definition_changed": false,
+      "scope_changed": false,
+      "version": "L2-C19-v1.0"
+    },
+    {
+      "shared_concept_id": "SC-C01-161",
+      "label": "住区空间建筑与基础设施",
+      "entity_type": "target",
+      "definition": "住宅、街巷、公共空间、停车、道路、管线及围护结构等实体载体。",
+      "scope": "实体空间和设施作用对象。",
+      "negative_examples": "[\"规划文本\"]",
+      "old_supporting_case_ids": [
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11"
+      ],
+      "old_supporting_native_ids": [
+        "NC-C05-target-001",
+        "NC-C06-target-004",
+        "NC-C07-target-002",
+        "NC-C07-target-004",
+        "NC-C07-target-006",
+        "NC-C07-target-010",
+        "NC-C07-target-012",
+        "NC-C08-target-003",
+        "NC-C08-target-006",
+        "NC-C08-target-007",
+        "NC-C08-target-010",
+        "NC-C09-target-001",
+        "NC-C10-target-001",
+        "NC-C10-target-002",
+        "NC-C10-target-004",
+        "NC-C10-target-005",
+        "NC-C10-target-006",
+        "NC-C10-target-007",
+        "NC-C10-target-008",
+        "NC-C10-target-011",
+        "NC-C11-target-001",
+        "NC-C11-target-002",
+        "NC-C11-target-005",
+        "NC-C11-target-009",
+        "NC-C11-target-011",
+        "NC-C11-target-013"
+      ],
+      "new_supporting_case_ids": [
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C19"
+      ],
+      "new_supporting_native_ids": [
+        "NC-C05-target-001",
+        "NC-C06-target-004",
+        "NC-C07-target-002",
+        "NC-C07-target-004",
+        "NC-C07-target-006",
+        "NC-C07-target-010",
+        "NC-C07-target-012",
+        "NC-C08-target-003",
+        "NC-C08-target-006",
+        "NC-C08-target-007",
+        "NC-C08-target-010",
+        "NC-C09-target-001",
+        "NC-C10-target-001",
+        "NC-C10-target-002",
+        "NC-C10-target-004",
+        "NC-C10-target-005",
+        "NC-C10-target-006",
+        "NC-C10-target-007",
+        "NC-C10-target-008",
+        "NC-C10-target-011",
+        "NC-C11-target-001",
+        "NC-C11-target-002",
+        "NC-C11-target-005",
+        "NC-C11-target-009",
+        "NC-C11-target-011",
+        "NC-C11-target-013",
+        "NC-C19-09",
+        "NC-C19-10",
+        "NC-C19-11",
+        "NC-C19-12",
+        "NC-C19-14"
+      ],
+      "appended_native_ids": [
+        "NC-C19-09",
+        "NC-C19-10",
+        "NC-C19-11",
+        "NC-C19-12",
+        "NC-C19-14"
+      ],
+      "change_type": "append_native_ids",
+      "definition_changed": false,
+      "scope_changed": false,
+      "version": "L2-C19-v1.0"
+    },
+    {
+      "shared_concept_id": "SC-C01-171",
+      "label": "实体环境与能源改造成效",
+      "entity_type": "outcome",
+      "definition": "空间、建筑、设施或能源系统完成更新并形成可观察状态变化。",
+      "scope": "实体和能源结果。",
+      "negative_examples": "[\"只有施工计划\"]",
+      "old_supporting_case_ids": [
+        "C03",
+        "C04",
+        "C07",
+        "C10",
+        "C11"
+      ],
+      "old_supporting_native_ids": [
+        "NC-C03-outcome-002",
+        "NC-C03-outcome-003",
+        "NC-C04-outcome-001",
+        "NC-C07-outcome-003",
+        "NC-C07-outcome-004",
+        "NC-C10-outcome-001",
+        "NC-C10-outcome-004",
+        "NC-C10-outcome-005",
+        "NC-C10-outcome-006",
+        "NC-C10-outcome-007",
+        "NC-C10-outcome-008",
+        "NC-C10-outcome-009",
+        "NC-C11-outcome-004",
+        "NC-C11-outcome-005",
+        "NC-C11-outcome-006",
+        "NC-C11-outcome-009",
+        "NC-C11-outcome-012"
+      ],
+      "new_supporting_case_ids": [
+        "C03",
+        "C04",
+        "C07",
+        "C10",
+        "C11",
+        "C19"
+      ],
+      "new_supporting_native_ids": [
+        "NC-C03-outcome-002",
+        "NC-C03-outcome-003",
+        "NC-C04-outcome-001",
+        "NC-C07-outcome-003",
+        "NC-C07-outcome-004",
+        "NC-C10-outcome-001",
+        "NC-C10-outcome-004",
+        "NC-C10-outcome-005",
+        "NC-C10-outcome-006",
+        "NC-C10-outcome-007",
+        "NC-C10-outcome-008",
+        "NC-C10-outcome-009",
+        "NC-C11-outcome-004",
+        "NC-C11-outcome-005",
+        "NC-C11-outcome-006",
+        "NC-C11-outcome-009",
+        "NC-C11-outcome-012",
+        "NC-C19-17"
+      ],
+      "appended_native_ids": [
+        "NC-C19-17"
+      ],
+      "change_type": "append_native_ids",
+      "definition_changed": false,
+      "scope_changed": false,
+      "version": "L2-C19-v1.0"
+    },
+    {
+      "shared_concept_id": "SC-C01-173",
+      "label": "参与表达与规划共制成果",
+      "entity_type": "outcome",
+      "definition": "形成居民意见、建议方案、规划材料或参与活动产出。",
+      "scope": "参与和规划成果。",
+      "negative_examples": "[\"未记录任何参与产出\"]",
+      "old_supporting_case_ids": [
+        "C02",
+        "C03",
+        "C07",
+        "C11"
+      ],
+      "old_supporting_native_ids": [
+        "NC-C02-outcome-003",
+        "NC-C02-outcome-007",
+        "NC-C02-outcome-008",
+        "NC-C02-outcome-010",
+        "NC-C03-outcome-001",
+        "NC-C03-outcome-004",
+        "NC-C07-outcome-002",
+        "NC-C11-outcome-001"
+      ],
+      "new_supporting_case_ids": [
+        "C02",
+        "C03",
+        "C07",
+        "C11",
+        "C19"
+      ],
+      "new_supporting_native_ids": [
+        "NC-C02-outcome-003",
+        "NC-C02-outcome-007",
+        "NC-C02-outcome-008",
+        "NC-C02-outcome-010",
+        "NC-C03-outcome-001",
+        "NC-C03-outcome-004",
+        "NC-C07-outcome-002",
+        "NC-C11-outcome-001",
+        "NC-C19-06",
+        "NC-C19-07"
+      ],
+      "appended_native_ids": [
+        "NC-C19-06",
+        "NC-C19-07"
+      ],
+      "change_type": "append_native_ids",
+      "definition_changed": false,
+      "scope_changed": false,
+      "version": "L2-C19-v1.0"
+    },
+    {
+      "shared_concept_id": "SC-C16-201",
+      "label": "本地数字维护者",
+      "entity_type": "actor",
+      "definition": "从本地社区招募并培训，承担数字基础设施安装、维护、推广与社区技术支持的本地人员或角色群体。",
+      "scope": "是角色群体，不是培训课程或外部工程团队；不自动继承就业成果或治理权。",
+      "negative_examples": "[\"外部承包商\",\"单次志愿者活动\",\"仅有培训课程无实际维护角色\"]",
+      "old_supporting_case_ids": [
+        "C16"
+      ],
+      "old_supporting_native_ids": [
+        "NC-C16-02"
+      ],
+      "new_supporting_case_ids": [
+        "C16",
+        "C19"
+      ],
+      "new_supporting_native_ids": [
+        "NC-C16-02",
+        "NC-C19-01"
+      ],
+      "appended_native_ids": [
+        "NC-C19-01"
+      ],
+      "change_type": "append_native_ids",
+      "definition_changed": false,
+      "scope_changed": false,
+      "version": "L2-C19-v1.0"
+    }
+  ],
+  "new_candidates": [
+    {
+      "candidate_id": "SC-C19-101",
+      "label": "本地参与协调者",
+      "entity_type": "actor",
+      "definition": "本地居民以受薪角色加入更新团队，承担地方知识转译、居民动员与公共活动协调。",
+      "scope": "参与协调角色；不含数字基础设施维护、专业设计或一般志愿服务。",
+      "negative_examples": "外部顾问、志愿者、数字维护者",
+      "supporting_native_ids": [
+        "NC-C19-01"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-102",
+      "label": "生成式 AI 参与式可视化",
+      "entity_type": "technology",
+      "definition": "以参与者口述或文本提示驱动生成式 AI，实时生成场所营造图像并支持反复修改。",
+      "scope": "生成式图像工具/实践；不含传统 GIS、3D 建模或预设图库。",
+      "negative_examples": "仅展示预设图、无参与者提示",
+      "supporting_native_ids": [
+        "NC-C19-02"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-103",
+      "label": "公共艺术与地方叙事载体",
+      "entity_type": "target",
+      "definition": "以壁画、雕塑等公共艺术承载地方历史、身份与社区叙事的空间载体。",
+      "scope": "公共艺术内容与载体；不含一般建筑立面或商业广告。",
+      "negative_examples": "商业广告、纯装饰无地方叙事",
+      "supporting_native_ids": [
+        "NC-C19-11"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-104",
+      "label": "太阳能公共设施",
+      "entity_type": "technology",
+      "definition": "在公共空间设置太阳能发电、遮荫或照明的设施，如太阳能亭、太阳能长椅。",
+      "scope": "公共空间能源设施；不含住宅屋顶光伏。",
+      "negative_examples": "住宅光伏、普通照明",
+      "supporting_native_ids": [
+        "NC-C19-13"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-105",
+      "label": "社区商业锚点建筑",
+      "entity_type": "target",
+      "definition": "以社区商业或混合用途建筑作为更新锚点，带动就业、聚集与日常服务。",
+      "scope": "商业锚点建筑；不含纯住宅或临时摊位。",
+      "negative_examples": "纯住宅开发、临时摊位",
+      "supporting_native_ids": [
+        "NC-C19-14"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-106",
+      "label": "土地银行主导的门户再开发主体",
+      "entity_type": "actor",
+      "definition": "由土地银行或准公共开发机构主导门户地区土地收储、再开发与实施协调。",
+      "scope": "准公共开发主体；不含一般市政府或纯私营开发商。",
+      "negative_examples": "纯市政府、纯私营开发商",
+      "supporting_native_ids": [
+        "NC-C19-16"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-107",
+      "label": "留居型住宅修缮资助",
+      "entity_type": "outcome",
+      "definition": "面向现有居民的住宅修缮资助，以改善住房条件、支持留居与降低置换压力。",
+      "scope": "修缮资助；不含新建住房补贴或一般住房贷款。",
+      "negative_examples": "新建补贴、一般住房贷款",
+      "supporting_native_ids": [
+        "NC-C19-17"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-108",
+      "label": "社区更新授权争议",
+      "entity_type": "context",
+      "definition": "围绕更新主体授权、合同期限、审批合法性产生的争议与停工要求。",
+      "scope": "授权/合同争议；不含一般方案意见分歧。",
+      "negative_examples": "一般方案分歧、无程序争议",
+      "supporting_native_ids": [
+        "NC-C19-18"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-109",
+      "label": "多源公共资金拼装",
+      "entity_type": "action",
+      "definition": "组合县、市、联邦、慈善等多源资金支持同一更新行动。",
+      "scope": "多源资金组合；不含单一拨款。",
+      "negative_examples": "单一资金来源",
+      "supporting_native_ids": [
+        "NC-C19-19"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-110",
+      "label": "项目制更新团队",
+      "entity_type": "actor",
+      "definition": "为特定更新过程临时组建、跨专业机构与本地角色的项目团队。",
+      "scope": "项目制团队；不含常设政府部门或单一顾问。",
+      "negative_examples": "常设机构、单一顾问",
+      "supporting_native_ids": [
+        "NC-C19-21"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-111",
+      "label": "场所营造与住房再开发互补",
+      "entity_type": "task",
+      "definition": "把场所营造作为住宅/商业再开发的补充任务，强调公共空间与住房同步推进。",
+      "scope": "互补任务关系；不含替代住房开发。",
+      "negative_examples": "纯住房开发、纯公共艺术",
+      "supporting_native_ids": [
+        "NC-C19-22"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-112",
+      "label": "跨市边界更新区",
+      "entity_type": "context",
+      "definition": "跨两个或以上市行政边界、需协调授权、资金与服务的更新区。",
+      "scope": "跨市空间范围；不含单一市域。",
+      "negative_examples": "单一行政区、无跨市协调",
+      "supporting_native_ids": [
+        "NC-C19-23"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    },
+    {
+      "candidate_id": "SC-C19-113",
+      "label": "本地知识动员能力",
+      "entity_type": "capability",
+      "definition": "通过本地角色动员社区信任、地方知识与人际网络的能力。",
+      "scope": "本地知识动员；不含一般宣传或信息发布。",
+      "negative_examples": "单向宣传、外部调研",
+      "supporting_native_ids": [
+        "NC-C19-25"
+      ],
+      "supporting_case_ids": [
+        "C19"
+      ],
+      "status": "candidate_single_case",
+      "exception_reason": "现有共享层无对应概念；按 C13–C16 单案例候选先例记录例外，待第二案例支持后再提交正式共享概念。"
+    }
+  ],
+  "mappings": [
+    {
+      "mapping_id": "MAP-C19-001",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-01",
+      "native_label": "带薪本地 Street Team Leader",
+      "native_type": "action",
+      "shared_concept_id": "SC-C16-201",
+      "shared_label": "本地数字维护者",
+      "mapping_type": "partial_or_approximate",
+      "basis": "同为本地招募/受薪社区角色；C19 角色是参与协调，不是数字基础设施维护。",
+      "scope": "只映射“本地受薪社区角色”成分。",
+      "evidence_ids": [
+        "M01-E07",
+        "M01-E08"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-002",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-01",
+      "native_label": "带薪本地 Street Team Leader",
+      "native_type": "action",
+      "shared_concept_id": "SC-C19-101",
+      "shared_label": "本地参与协调者",
+      "mapping_type": "native_hyponym",
+      "basis": "本地受薪参与协调角色在 C19 首次出现。",
+      "scope": "保留参与协调角色，不继承数字维护属性。",
+      "evidence_ids": [
+        "M01-E07",
+        "M01-E08"
+      ],
+      "decision": "candidate_created",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-003",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-02",
+      "native_label": "AI 文本生成图像参与",
+      "native_type": "technology",
+      "shared_concept_id": "SC-C01-131",
+      "shared_label": "数字参与与可视化工具",
+      "mapping_type": "native_hyponym",
+      "basis": "生成式 AI 图像是数字参与/可视化工具的下位类型。",
+      "scope": "只映射参与式可视化工具成分。",
+      "evidence_ids": [
+        "M04-E04",
+        "M01-E18",
+        "M07-E01"
+      ],
+      "decision": "accepted",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-004",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-02",
+      "native_label": "AI 文本生成图像参与",
+      "native_type": "technology",
+      "shared_concept_id": "SC-C19-102",
+      "shared_label": "生成式 AI 参与式可视化",
+      "mapping_type": "native_hyponym",
+      "basis": "提示词—生成—修改的生成式机制是现有工具概念未覆盖的新成分。",
+      "scope": "保留生成式 AI 机制。",
+      "evidence_ids": [
+        "M04-E04",
+        "M01-E18",
+        "M07-E01"
+      ],
+      "decision": "candidate_created",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-005",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-03",
+      "native_label": "AR 壁画现场预览",
+      "native_type": "technology",
+      "shared_concept_id": "SC-C01-131",
+      "shared_label": "数字参与与可视化工具",
+      "mapping_type": "native_hyponym",
+      "basis": "AR 现场预览属于数字参与/可视化工具。",
+      "scope": "只映射可视化工具成分。",
+      "evidence_ids": [
+        "M04-E02"
+      ],
+      "decision": "accepted",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-006",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-04",
+      "native_label": "3D 打印社区模型定位",
+      "native_type": "technology",
+      "shared_concept_id": "SC-C01-131",
+      "shared_label": "数字参与与可视化工具",
+      "mapping_type": "native_hyponym",
+      "basis": "3D 打印实体模型属于该概念定义中的“实体工具”。",
+      "scope": "只映射实体可视化工具成分。",
+      "evidence_ids": [
+        "M01-E16",
+        "M07-E01"
+      ],
+      "decision": "accepted",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-007",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-05",
+      "native_label": "七站点开放式参与",
+      "native_type": "action",
+      "shared_concept_id": "SC-C01-151",
+      "shared_label": "社区参与与意见收集",
+      "mapping_type": "native_hyponym",
+      "basis": "七站点开放日是社区参与活动的组织形式。",
+      "scope": "只映射参与活动组织成分。",
+      "evidence_ids": [
+        "M01-E16",
+        "M04-E03"
+      ],
+      "decision": "accepted",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-008",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-05",
+      "native_label": "七站点开放式参与",
+      "native_type": "action",
+      "shared_concept_id": "SC-C01-152",
+      "shared_label": "方案共制与居民协商决策",
+      "mapping_type": "partial_or_approximate",
+      "basis": "站点中的方案选择/共创成分映射至方案共制。",
+      "scope": "不映射活动组织与问卷部分。",
+      "evidence_ids": [
+        "M01-E16",
+        "M04-E03"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-009",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-06",
+      "native_label": "社区反馈四主题",
+      "native_type": "outcome",
+      "shared_concept_id": "SC-C01-173",
+      "shared_label": "参与表达与规划共制成果",
+      "mapping_type": "native_hyponym",
+      "basis": "四主题是参与反馈的归纳产出。",
+      "scope": "只映射参与产出成分。",
+      "evidence_ids": [
+        "M01-E20"
+      ],
+      "decision": "accepted",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-010",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-07",
+      "native_label": "30 项行动清单与牵头/时限",
+      "native_type": "outcome",
+      "shared_concept_id": "SC-C01-173",
+      "shared_label": "参与表达与规划共制成果",
+      "mapping_type": "partial_or_approximate",
+      "basis": "30 项行动清单是参与/规划产出，但现有概念不覆盖责任主体与时限。",
+      "scope": "只映射规划产出成分。",
+      "evidence_ids": [
+        "M01-E21",
+        "M01-E22"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-011",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-08",
+      "native_label": "记分卡短期行动排序",
+      "native_type": "technology",
+      "shared_concept_id": "SC-C01-131",
+      "shared_label": "数字参与与可视化工具",
+      "mapping_type": "native_hyponym",
+      "basis": "记分卡是实体参与工具。",
+      "scope": "只映射实体参与工具成分。",
+      "evidence_ids": [
+        "M01-E19"
+      ],
+      "decision": "accepted",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-012",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-09",
+      "native_label": "绿道连接器",
+      "native_type": "target",
+      "shared_concept_id": "SC-C01-161",
+      "shared_label": "住区空间建筑与基础设施",
+      "mapping_type": "native_hyponym",
+      "basis": "绿道是公共空间/基础设施载体。",
+      "scope": "只映射空间载体成分。",
+      "evidence_ids": [
+        "M11-E04",
+        "M26-E02",
+        "M27-E01"
+      ],
+      "decision": "accepted",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-013",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-10",
+      "native_label": "口袋公园共同设计",
+      "native_type": "target",
+      "shared_concept_id": "SC-C01-161",
+      "shared_label": "住区空间建筑与基础设施",
+      "mapping_type": "native_hyponym",
+      "basis": "口袋公园是公共空间载体。",
+      "scope": "只映射空间载体成分。",
+      "evidence_ids": [
+        "M01-E23",
+        "M01-E27"
+      ],
+      "decision": "accepted",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-014",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-11",
+      "native_label": "公共艺术壁画",
+      "native_type": "target",
+      "shared_concept_id": "SC-C01-161",
+      "shared_label": "住区空间建筑与基础设施",
+      "mapping_type": "partial_or_approximate",
+      "basis": "壁画依附建筑墙面，只映射空间载体成分。",
+      "scope": "不映射艺术内容与叙事。",
+      "evidence_ids": [
+        "M04-E02",
+        "M01-E26"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-015",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-11",
+      "native_label": "公共艺术壁画",
+      "native_type": "target",
+      "shared_concept_id": "SC-C19-103",
+      "shared_label": "公共艺术与地方叙事载体",
+      "mapping_type": "native_hyponym",
+      "basis": "公共艺术的地方叙事成分无现有概念。",
+      "scope": "保留艺术内容与地方叙事。",
+      "evidence_ids": [
+        "M04-E02",
+        "M01-E26"
+      ],
+      "decision": "candidate_created",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-016",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-12",
+      "native_label": "街道景观与街道家具",
+      "native_type": "target",
+      "shared_concept_id": "SC-C01-161",
+      "shared_label": "住区空间建筑与基础设施",
+      "mapping_type": "native_hyponym",
+      "basis": "街道家具属于街道空间/设施。",
+      "scope": "只映射街道空间载体成分。",
+      "evidence_ids": [
+        "M11-E03",
+        "M14-E01"
+      ],
+      "decision": "accepted",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-017",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-13",
+      "native_label": "太阳能亭与线性公园",
+      "native_type": "technology",
+      "shared_concept_id": null,
+      "shared_label": null,
+      "mapping_type": "no_map",
+      "basis": "SC-C01-135 仅覆盖住宅能源系统，不覆盖公共太阳能亭/线性公园。",
+      "scope": "不映射至住宅能源概念。",
+      "evidence_ids": [
+        "M27-E01"
+      ],
+      "decision": "no_map",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-018",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-13",
+      "native_label": "太阳能亭与线性公园",
+      "native_type": "technology",
+      "shared_concept_id": "SC-C19-104",
+      "shared_label": "太阳能公共设施",
+      "mapping_type": "native_hyponym",
+      "basis": "公共空间太阳能设施无现有概念。",
+      "scope": "保留公共太阳能设施成分。",
+      "evidence_ids": [
+        "M27-E01"
+      ],
+      "decision": "candidate_created",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-019",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-14",
+      "native_label": "Mickey’s 社区商业锚点",
+      "native_type": "target",
+      "shared_concept_id": "SC-C01-161",
+      "shared_label": "住区空间建筑与基础设施",
+      "mapping_type": "partial_or_approximate",
+      "basis": "Mickey’s 是建筑载体；商业锚点成分另立候选。",
+      "scope": "只映射建筑载体成分。",
+      "evidence_ids": [
+        "M25-E01",
+        "M25-E03"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-020",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-14",
+      "native_label": "Mickey’s 社区商业锚点",
+      "native_type": "target",
+      "shared_concept_id": "SC-C19-105",
+      "shared_label": "社区商业锚点建筑",
+      "mapping_type": "native_hyponym",
+      "basis": "社区商业锚点建筑无现有概念。",
+      "scope": "保留商业锚点成分。",
+      "evidence_ids": [
+        "M25-E01",
+        "M25-E03"
+      ],
+      "decision": "candidate_created",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-021",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-15",
+      "native_label": "Loiter 社区商业与租赁冲突",
+      "native_type": "actor",
+      "shared_concept_id": "SC-C01-114",
+      "shared_label": "地方组织与运营主体",
+      "mapping_type": "partial_or_approximate",
+      "basis": "Loiter 是社区商业运营主体；租赁冲突成分不映射。",
+      "scope": "只映射组织化运营主体成分。",
+      "evidence_ids": [
+        "M23-E02",
+        "M24-E01",
+        "M25-E01",
+        "M25-E02"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-022",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-16",
+      "native_label": "土地银行主导门户再开发",
+      "native_type": "actor",
+      "shared_concept_id": "SC-C01-111",
+      "shared_label": "地方政府与规划治理主体",
+      "mapping_type": "partial_or_approximate",
+      "basis": "土地银行承担准公共开发治理角色，但不等于市政府。",
+      "scope": "只映射公共治理主体成分。",
+      "evidence_ids": [
+        "M01-E05",
+        "M10-E01"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-023",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-16",
+      "native_label": "土地银行主导门户再开发",
+      "native_type": "actor",
+      "shared_concept_id": "SC-C19-106",
+      "shared_label": "土地银行主导的门户再开发主体",
+      "mapping_type": "native_hyponym",
+      "basis": "土地银行主导门户再开发无现有概念。",
+      "scope": "保留准公共开发主体成分。",
+      "evidence_ids": [
+        "M01-E05",
+        "M10-E01"
+      ],
+      "decision": "candidate_created",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-024",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-17",
+      "native_label": "居民住宅修缮资助",
+      "native_type": "outcome",
+      "shared_concept_id": "SC-C01-171",
+      "shared_label": "实体环境与能源改造成效",
+      "mapping_type": "partial_or_approximate",
+      "basis": "修缮资助带来实体改善，但核心是留居型资助工具。",
+      "scope": "只映射实体改善结果成分。",
+      "evidence_ids": [
+        "M26-E01"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-025",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-17",
+      "native_label": "居民住宅修缮资助",
+      "native_type": "outcome",
+      "shared_concept_id": "SC-C19-107",
+      "shared_label": "留居型住宅修缮资助",
+      "mapping_type": "native_hyponym",
+      "basis": "留居型修缮资助无现有概念。",
+      "scope": "保留资助工具与留居目标。",
+      "evidence_ids": [
+        "M26-E01"
+      ],
+      "decision": "candidate_created",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-026",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-18",
+      "native_label": "市议会授权争议",
+      "native_type": "context",
+      "shared_concept_id": "SC-C01-102",
+      "shared_label": "规划制度与产权治理约束",
+      "mapping_type": "partial_or_approximate",
+      "basis": "授权争议属于规划制度/审批约束。",
+      "scope": "只映射制度与审批约束成分。",
+      "evidence_ids": [
+        "M28-E01",
+        "M28-E02"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-027",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-18",
+      "native_label": "市议会授权争议",
+      "native_type": "context",
+      "shared_concept_id": "SC-C19-108",
+      "shared_label": "社区更新授权争议",
+      "mapping_type": "native_hyponym",
+      "basis": "社区更新授权争议无现有概念。",
+      "scope": "保留授权/合同争议成分。",
+      "evidence_ids": [
+        "M28-E01",
+        "M28-E02"
+      ],
+      "decision": "candidate_created",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-028",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-19",
+      "native_label": "多主体资金拼装",
+      "native_type": "action",
+      "shared_concept_id": "SC-C01-155",
+      "shared_label": "跨组织协作与信息协调",
+      "mapping_type": "partial_or_approximate",
+      "basis": "多源资金拼装含跨组织协作成分。",
+      "scope": "只映射跨组织协调成分。",
+      "evidence_ids": [
+        "M12-E01",
+        "M14-E01"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-029",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-19",
+      "native_label": "多主体资金拼装",
+      "native_type": "action",
+      "shared_concept_id": "SC-C19-109",
+      "shared_label": "多源公共资金拼装",
+      "mapping_type": "native_hyponym",
+      "basis": "多源公共资金组合无现有概念。",
+      "scope": "保留资金拼装成分。",
+      "evidence_ids": [
+        "M12-E01",
+        "M14-E01"
+      ],
+      "decision": "candidate_created",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-030",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-20",
+      "native_label": "青年参与工作坊",
+      "native_type": "action",
+      "shared_concept_id": "SC-C01-151",
+      "shared_label": "社区参与与意见收集",
+      "mapping_type": "native_hyponym",
+      "basis": "青年工作坊是参与活动的年龄特定形式。",
+      "scope": "只映射参与活动成分。",
+      "evidence_ids": [
+        "M01-E18"
+      ],
+      "decision": "accepted",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-031",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-21",
+      "native_label": "项目团队与土地银行分离",
+      "native_type": "actor",
+      "shared_concept_id": "SC-C01-112",
+      "shared_label": "专业研究和服务机构",
+      "mapping_type": "partial_or_approximate",
+      "basis": "顾问团队含专业服务机构成分。",
+      "scope": "只映射专业服务成分。",
+      "evidence_ids": [
+        "M01-E07",
+        "M01-E28",
+        "M03-E01"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-032",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-21",
+      "native_label": "项目团队与土地银行分离",
+      "native_type": "actor",
+      "shared_concept_id": "SC-C01-114",
+      "shared_label": "地方组织与运营主体",
+      "mapping_type": "partial_or_approximate",
+      "basis": "项目团队含地方运营/协调成分。",
+      "scope": "只映射地方协调成分。",
+      "evidence_ids": [
+        "M01-E07",
+        "M01-E28",
+        "M03-E01"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-033",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-21",
+      "native_label": "项目团队与土地银行分离",
+      "native_type": "actor",
+      "shared_concept_id": "SC-C19-110",
+      "shared_label": "项目制更新团队",
+      "mapping_type": "native_hyponym",
+      "basis": "临时项目制团队无现有概念。",
+      "scope": "保留项目制团队成分。",
+      "evidence_ids": [
+        "M01-E07",
+        "M01-E28",
+        "M03-E01"
+      ],
+      "decision": "candidate_created",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-034",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-22",
+      "native_label": "场所营造补充住房再开发",
+      "native_type": "task",
+      "shared_concept_id": "SC-C01-122",
+      "shared_label": "规划设计与实施准备",
+      "mapping_type": "partial_or_approximate",
+      "basis": "场所营造补充再开发属于规划/实施准备任务。",
+      "scope": "只映射规划准备成分。",
+      "evidence_ids": [
+        "M01-E04",
+        "M01-E05"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-035",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-22",
+      "native_label": "场所营造补充住房再开发",
+      "native_type": "task",
+      "shared_concept_id": "SC-C19-111",
+      "shared_label": "场所营造与住房再开发互补",
+      "mapping_type": "native_hyponym",
+      "basis": "场所营造与住房再开发互补任务无现有概念。",
+      "scope": "保留互补任务关系。",
+      "evidence_ids": [
+        "M01-E04",
+        "M01-E05"
+      ],
+      "decision": "candidate_created",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-036",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-23",
+      "native_label": "30 英亩跨市边界目标区",
+      "native_type": "context",
+      "shared_concept_id": null,
+      "shared_label": null,
+      "mapping_type": "no_map",
+      "basis": "SC-C01-165 为产权/参与范围，不覆盖跨市空间边界。",
+      "scope": "不映射至产权概念。",
+      "evidence_ids": [
+        "M01-E01",
+        "M01-E02",
+        "M01-E03"
+      ],
+      "decision": "no_map",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-037",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-23",
+      "native_label": "30 英亩跨市边界目标区",
+      "native_type": "context",
+      "shared_concept_id": "SC-C19-112",
+      "shared_label": "跨市边界更新区",
+      "mapping_type": "native_hyponym",
+      "basis": "跨市边界更新区无现有概念。",
+      "scope": "保留跨市空间范围。",
+      "evidence_ids": [
+        "M01-E01",
+        "M01-E02",
+        "M01-E03"
+      ],
+      "decision": "candidate_created",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-038",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-24",
+      "native_label": "多通道参与反馈能力",
+      "native_type": "capability",
+      "shared_concept_id": "SC-C01-141",
+      "shared_label": "参与表达与意见采集能力",
+      "mapping_type": "native_hyponym",
+      "basis": "多通道反馈是参与表达/意见采集能力的具体形态。",
+      "scope": "只映射意见采集能力。",
+      "evidence_ids": [
+        "M04-E03",
+        "M04-E02"
+      ],
+      "decision": "accepted",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-039",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-25",
+      "native_label": "本地知识动员能力",
+      "native_type": "capability",
+      "shared_concept_id": "SC-C01-141",
+      "shared_label": "参与表达与意见采集能力",
+      "mapping_type": "partial_or_approximate",
+      "basis": "本地知识动员含意见采集成分，但核心是信任/网络动员。",
+      "scope": "只映射意见采集成分。",
+      "evidence_ids": [
+        "M01-E07"
+      ],
+      "decision": "accepted_partial",
+      "version": "L2-C19-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C19-040",
+      "case_id": "C19",
+      "native_concept_id": "NC-C19-25",
+      "native_label": "本地知识动员能力",
+      "native_type": "capability",
+      "shared_concept_id": "SC-C19-113",
+      "shared_label": "本地知识动员能力",
+      "mapping_type": "native_hyponym",
+      "basis": "本地知识动员能力无现有概念。",
+      "scope": "保留信任/网络动员成分。",
+      "evidence_ids": [
+        "M01-E07"
+      ],
+      "decision": "candidate_created",
+      "version": "L2-C19-v0.1"
+    }
+  ],
+  "summary": {
+    "existing_concepts_updated": 14,
+    "native_ids_appended": 25,
+    "new_candidates": 13,
+    "mappings": 40,
+    "definition_changes": 0,
+    "scope_changes": 0,
+    "historical_mappings_changed": 0
+  },
+  "status": "released",
+  "released_at": "2026-11-13"
+}

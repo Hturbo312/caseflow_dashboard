@@ -1,0 +1,47 @@
+{
+  "packet_id": "RP-C19-G6-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G6",
+  "case_id": "C19",
+  "scope": "Connect East Cleveland 关系的重复、方向、谓词、状态与遗漏审校",
+  "generated_at": "2026-11-13",
+  "status": "pending",
+  "counts": {
+    "relations": 106,
+    "predicates": 56,
+    "implemented": 90,
+    "planned": 9,
+    "disputed": 5,
+    "reported_or_opinion": 2,
+    "deleted": 0,
+    "added": 0,
+    "direction_fixes": 2,
+    "predicate_rewrites": 13
+  },
+  "audit_actions": {
+    "duplicates": "6 near-duplicate groups kept; 0 deleted",
+    "direction": ["R015 N02 engaged A08 -> A08 participated_in N02", "R091 N01 includes A07 -> A07 participated_in N01"],
+    "predicate_merges": ["held->organized", "included->includes", "co_governs->has_jurisdiction_over", "participates_in->participated_in", "plans->planned"],
+    "evidence_added_to_relations": 19,
+    "status_changes": 0
+  },
+  "residual_issues": [
+    "56 predicates remain; context_for/guides/complements/supports are analytic",
+    "30 actions remain aggregate; no item-level owner/status relations",
+    "5 disputed + 2 reported rely on single/low-reliability sources",
+    "2026 relations R083-R086 are retrospective only"
+  ],
+  "decisions_requested": [
+    "Freeze 106 relations v1.0",
+    "Accept direction fixes R015/R091",
+    "Accept 13 predicate rewrites",
+    "Accept 6 near-duplicate groups kept",
+    "Accept 30 actions aggregate-level only",
+    "Keep 5 disputed / 2 reported"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_case_review": false
+  }
+}

@@ -1,0 +1,71 @@
+Ramani Huria Now Under Tanzania Resilience Academy – Ramani Huria
+Skip to the content
+Close Menu
+On 29th July 2019, the Ramani Huria (RH) summer industrial training project entered a new era of management and administration, shifting from the direct management by the Humanitarian OpenStreetMap Team (HOT) to being managed by universities, i.e. University of Dar es Salaam (UDSM), Ardhi University (ARU) and the State University of Zanzibar (SUZA) as the
+Tanzania Resilience Academy (RA).
+The RA has established cooperation between Tanzanian universities and the
+University of Turku
+in Finland together with national and international actors interested in working on urban resilience and flooding issues. Through the RA, multiple research teams, public and private sectors, NGOs and the general public come together to solve challenges of flooding with diverse digital datasets, tools, and solutions.
+Just as it was done before, the Resilience Academy will focus on capacitating university students to be able to learn by doing and participating in real projects such as the collection of digital datasets, the only difference being that it will not be a stand-alone project, but a consortium of many other partners interested in the resilience program.
+Since its establishment in 2015, Ramani Huria has picked up the pace and gained the reputation of becoming the largest community mapping initiative in Africa, training over 800 students working with over 6000 community members on open community mapping, mobile data collection, the power of mapping, and how it can serve as a tool for disaster planning and management.
+By helping communities to map residential areas, roads, streams, floodplains, and other relevant features, the project has brought and will continue bringing disaster prevention and response to areas that were not visible on a map—considering that the city is unplanned and some neighbourhood construction is increasing at 20% per year. The data are being used by disaster emergency response programs and organizations such as RedCross and
+Dar es Salaam Multi-Agency Emergency Response Team (DarMAERT)
+The project also builds awareness of the need for flood prevention and risk reduction to the local level, while teaching participants valuable computer and mapping skills that they can put to use elsewhere.
+The Training
+As the project is a new experience to the coordinators of the Resilience Academy, HOT is supporting the coordination in terms of organizing and training students. In this year’s industrial training, only 150 students were allocated to the program which is in contrast to last year where we had more than 600 students during the summer RH scale-up. The main reason to have fewer students is to be able to manage students properly as it is a new experience for the RA.
+This number of students gives room for supervisors to provide intensive training and close follow-up on the materials disseminated together with practice in the field.
+Students have their expectations from the project and the industrial training. One of the students interviewed had this to say:
+‘My expectations during this training are to improve my academic career but also learn how to support my community when I graduate, especially fighting disasters like flooding. I’m specializing in drainage mapping–collecting datasets which will help us understand the flow of water in the city and support different initiatives focusing on flood reduction, by giving them reliable data’.
+He added
+‘In general I would like to congratulate the Ramani Huria project for their amazing work in trying to help communities affected by flooding, I call for everyone out there to support the project for the present and future generations’.
+Humphrey Mrema–first year student, Urban and Regional Planning
+Students are from different fields of study including Urban and Regional Planning, Housing and Infrastructure Planning, Regional Development Planning, Geography and Environment Studies, Computer Science, Computer Engineering and Information Technology, and Telecommunication Engineering, which will create a diverse range of expertise and the learning will be beneficial to all students and the future of the Resilience Academy.
+‘This year’s industrial training, a different training is being conducted, I will specifically work with computer science students and see how we can integrate geospatial data and ICT–there is a big gap between these two fields and they have been seen as two separate independent blocks. But with the changing technology and seeing the bigger picture, there is a need to integrate them. For example, we are doing data collection, how are we going to develop tools?  How are we going to automate the data cleaning process? i.e Python, scripting the tools we use in data collection, visualization, etc. one needs to have an understanding of both GIS and ICT’
+–Iddy Chazua, GIS and Tech lead-HOT/OMDTZ.
+For the last three years, students have only been directly involved in data collection while a few did data cleaning and map production. In this phase, however, the training will be more advanced and students will be trained in a number of areas including:
+Community mapping and mobile data collection:
+Using mobile phone applications for data collection such as OpenDataKit (ODK) Collect and OpenMapKit (OMK) and working with community members who support in the collection of information and produce an enormous amount of datasets.
+Drainage mapping
+: Mapping drainage systems in the most flood-prone areas across Dar es Salaam using cheap and practical methods, and cleaning them in the Hydro OSM model. This data will later be used to produce a flood model of the city, early warning systems, and support in risk management and planning.
+Data processing:
+The
+Geospatial Data Abstraction Library
+(GDAL) will be used for batch compression and conversion of the high-resolution imagery to Mbtiles to be used in data collection tools, i.e. ODK and OMK and desktop software (QGIS and JOSM). QGIS will also be used to monitor the daily quality of data by partial visualization as the data are collected and visualized for the final product.
+Data management
+: This will be covered using PostgreSQL server with PostGIS extension installed locally for sharing data using Local Area Network (LAN) to avoid clipping and merging when sharing the data which may result in data loss and errors. The same setup will also be configured in a remote host, i.e.
+Digital Ocean
+, which will be potentially used for data storage and sharing among the teams throughout the industrial training.
+XLS form creation
+: Creating ODK surveys to equip students with the necessary skills and not spoon-feeding them by only giving them pre-developed surveys to use in the field. This involves training them on how they can export collected data from the field and make initial checks on Excel.
+Data manipulation and automation:
+Students will use the Python program to develop intelligent scripts and add automation to data cleaning used after data collection. They will be taught the fundamentals of Python as well as implementing their scripts practically to clean CSVs with ODK form responses from the community mapping activities of the industrial training.  Additionally, they will learn GDAL bash scripting to automate image processing and scripts in SQL for manipulating data in PostgreSQL.
+For smooth training and data collection, students have been divided into six major groups of specialization. I.e Flood extent mapping, Drone development, Drainage mapping, Computer Science, Assets and Threats mapping and Data cleaning group.
+What is Next for Ramani Huria?–The Legacy of Ramani Huria
+The second phase of Ramani Huria will end this year, however, the legacy of the project will still surface on different levels, from institutions to government to students who benefited from the project and many other fields. The legacy of the project can be explained in two major blocks:
+Intangible Impacts:
+Creating an apprenticeship system to students supporting them learn by doing i.e students participating in real project activities in the field. Through this system, a number of graduates who participated in the project are now implementing different projects and have technical and managerial capacities to run even bigger projects in the future.
+The knowledge gained by students and community members throughout the implementation of the project. As we have mentioned earlier, more than 1000 students and about 300 community members have been involved in the project. The knowledge gained will increase the use of datasets produced and contribute to city resilience with a strong, young, and enthusiastic community that believes in data-driven policies and decisions.
+Ramani Huria becomes a community-mapping model to other African countries and worldwide: Other countries like Zambia, Mozambique, Sierra Leone are now looking back at the project and see the potential of replicating it. The project has gone far beyond and is called ‘The largest community mapping project in Africa’. Having datasets with details in the fast-growing and unplanned city like Dar es salaam is a big step toward creating a better and resilient city. This is what other countries that are growing as fast as Dar es Salaam look up to, and see how they can design a project of this kind.
+Tangible Impacts:
+Datasets/maps, tools, learning materials and documentation of the project will be carried on and used by the Resilience Academy.
+Companies using ‘our’ data and methods of data collection to run their activities. For example,
+Green Waste Pro LTD
+–A trash collection company in Dar es salaam, worked with us to develop datasets for them to be able to track and locate their clients for better service and revenue. The company’s revenue increased significantly as they started using our datasets. This is the result of the training and support they received from the RH team.
+Government institutions changing their way of thinking through our influence and training—something that wouldn’t have been possible without the support of the RH team. I.e President’s Office Regional Administration and Local Government offices (PORALG)—working on administrative boundaries using our technical capabilities.
+Institutions/NGOs like OMDTZ and the amazing staff with technical capabilities and managerial skills to run projects have come into existence through the influence of RH.
+So, Ramani Huria as a project is ending, but the legacy of the project will still manifest over the coming years under the Resilience Academy and through many other partners and individuals who have changed their way of thinking and doing things through the project. We hope other countries will look to the legacy of Ramani Huria as a model for how community mapping can build resilience in their cities
+Share this:
+Share on X (Opens in new window)
+X
+Share on Facebook (Opens in new window)
+Facebook
+Like
+Loading…
+Leave a Reply
+Cancel reply
+Name
+Email
+Website
+Δ
+Our Partners
+%d

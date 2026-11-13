@@ -1,0 +1,81 @@
+{
+ "version": "L2-C17-shared-v1.0",
+ "previousVersion": "L2-C01-C11-shared-v0.2 + C12/C14 releases",
+ "caseId": "C17",
+ "generatedAt": "2026-11-13",
+ "status": "released",
+ "added": {
+  "nativeConcepts": [
+   "NC-C17-01",
+   "NC-C17-02",
+   "NC-C17-03",
+   "NC-C17-04",
+   "NC-C17-05",
+   "NC-C17-06",
+   "NC-C17-07",
+   "NC-C17-08",
+   "NC-C17-09",
+   "NC-C17-10",
+   "NC-C17-11"
+  ],
+  "candidates": [
+   "SC-C17-01",
+   "SC-C17-02",
+   "SC-C17-03",
+   "SC-C17-04",
+   "SC-C17-05",
+   "SC-C17-06",
+   "SC-C17-07"
+  ],
+  "mappings": [
+   "MAP-C17-001",
+   "MAP-C17-002",
+   "MAP-C17-003",
+   "MAP-C17-004",
+   "MAP-C17-005",
+   "MAP-C17-006",
+   "MAP-C17-007",
+   "MAP-C17-008",
+   "MAP-C17-009",
+   "MAP-C17-010",
+   "MAP-C17-011",
+   "MAP-C17-012",
+   "MAP-C17-013",
+   "MAP-C17-014",
+   "MAP-C17-015",
+   "MAP-C17-016",
+   "MAP-C17-017",
+   "MAP-C17-018",
+   "MAP-C17-019"
+  ]
+ },
+ "counts": {
+  "nativeConcepts": 11,
+  "candidates": 7,
+  "mappings": 19,
+  "mappingTypes": {
+   "native_hyponym": 10,
+   "partial_or_approximate": 8,
+   "no_map": 1
+  },
+  "sharedConceptsBefore": 56,
+  "sharedConceptsAfter": 63,
+  "released": 12,
+  "pendingCandidates": 51
+ },
+ "modifiedExisting": [],
+ "historicalMappingsAdded": 0,
+ "formalSharedConceptsConfirmed": 0,
+ "unresolved": [
+  "7 个候选缺第二案例",
+  "C13/C15/C16 无概念层",
+  "C01–C11 候选层仍未确认"
+ ],
+ "nextReviewTriggers": [
+  "C13 L2 完成",
+  "C15 L2 完成",
+  "C16 L2 完成",
+  "研究者确认 C01–C11 候选层"
+ ],
+ "releasedAt": "2026-11-13"
+}

@@ -1,0 +1,27 @@
+{
+  "packet_id": "RP-C15-G5-v1.0",
+  "skill": "case-knowledge-construction",
+  "gate": "G5",
+  "case_id": "C15",
+  "status": "confirmed",
+  "generated_at": "2026-11-13",
+  "researcher_decision": {
+    "action": "accept",
+    "rationale": "Accept 101 relations and 47 predicates; context relations only frame; direction rules confirmed; 15 reported relations confirmed; defer platform and organizational linkage to G6.",
+    "modified_content": {
+      "relation_baseline": 101,
+      "predicate_count": 47,
+      "context_relation_rule": "frames only",
+      "reported_relations": 15,
+      "deferred_links": ["2021 system to 2023 platform", "autonomous team/self-management team/micro-grid"]
+    },
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  },
+  "frozen_outputs": ["relations.md@v1.0", "relations.json@v1.0", "relations_v0.1.md", "relations_v0.1.json", "decision-log.md#6"],
+  "open_items": [
+    "Predicate near-synonyms and duplicate relations",
+    "Platform continuity and organizational linkage",
+    "Platform developer/operator"
+  ]
+}

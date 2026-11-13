@@ -1,0 +1,120 @@
+{
+  "case_id": "C18",
+  "version": "v1.0",
+  "status": "confirmed_candidates",
+  "generated_at": "2026-11-13",
+  "baseline": "L2-C15-v1.0 + C01-C11 v0.2 candidates + C13 v1.0 candidates",
+  "active_candidates": [
+    {
+      "candidate_id": "SC-C18-01",
+      "label": "LLM增强的社区信息服务平台",
+      "definition": "以LLM、地理邻近性检索增强生成和社区时空知识图谱整合服务信息，面向居民与管理者提供问答、推荐、社交和资源评估的平台。",
+      "entity_type": "technology",
+      "supporting_native_ids": ["NC-C18-01"],
+      "supporting_case_ids": ["C18"],
+      "status": "candidate_single_case_requires_second_case",
+      "boundary": "保持平台整体概念；不把RAG、知识图谱、垂域模型分别确认为独立共享概念。"
+    },
+    {
+      "candidate_id": "SC-C18-03",
+      "label": "设施信息检索与主动推送",
+      "definition": "围绕公共服务设施信息，以检索和情境化主动推送双模式提供设施查询、推荐与服务信息。",
+      "entity_type": "capability",
+      "supporting_native_ids": ["NC-C18-02"],
+      "supporting_case_ids": ["C18"],
+      "status": "candidate_single_case_requires_second_case",
+      "boundary": "不含邻里社交、资源优化建议或设施施工。"
+    },
+    {
+      "candidate_id": "SC-C18-04",
+      "label": "高密度社区网格化治理试点",
+      "definition": "在高密度混合社区中，通过网格化工单、痛点识别、导视更新和居民互助开展数字治理试点。",
+      "entity_type": "action",
+      "supporting_native_ids": ["NC-C18-06"],
+      "supporting_case_ids": ["C18"],
+      "status": "candidate_single_case_requires_second_case",
+      "boundary": "试点级复合行动；不自动等于常态化网格治理或全部社区治理。"
+    },
+    {
+      "candidate_id": "SC-C18-05",
+      "label": "校社联动小程序打卡",
+      "definition": "在大学城/社区开放日中通过小程序线上打卡、分享体验，促进高校学生与社区居民互动。",
+      "entity_type": "action",
+      "supporting_native_ids": ["NC-C18-07"],
+      "supporting_case_ids": ["C18"],
+      "status": "candidate_single_case_requires_second_case",
+      "boundary": "单次开放日行动；不证明小程序常态化运行或校社关系改善。"
+    },
+    {
+      "candidate_id": "SC-C18-06",
+      "label": "邻里UGC与在线社交能力",
+      "definition": "支持居民以多种媒介发布信息、评价设施、讨论社区议题并沉淀本地知识的能力。",
+      "entity_type": "capability",
+      "supporting_native_ids": ["NC-C18-03"],
+      "supporting_case_ids": ["C18"],
+      "status": "candidate_single_case_requires_second_case",
+      "boundary": "在线社交与UGC，不含线下互助、工单处置或正式参与程序。"
+    },
+    {
+      "candidate_id": "SC-C18-07",
+      "label": "社区资源供需评估与优化建议能力",
+      "definition": "监测社区资源供需、聚合居民反馈，并生成设施调度或空间优化建议的能力。",
+      "entity_type": "capability",
+      "supporting_native_ids": ["NC-C18-04"],
+      "supporting_case_ids": ["C18"],
+      "status": "candidate_single_case_requires_second_case",
+      "boundary": "评估与建议；不自动等于方案实施、A/B测试或资源改善结果。"
+    },
+    {
+      "candidate_id": "SC-C18-08",
+      "label": "大模型答案验证与幻觉抑制",
+      "definition": "通过知识图谱比对、来源交叉验证、分类器筛选、人工复核和专家审核，提高大模型回答可靠性的机制。",
+      "entity_type": "capability",
+      "supporting_native_ids": ["NC-C18-08"],
+      "supporting_case_ids": ["C18"],
+      "status": "candidate_single_case_requires_second_case",
+      "boundary": "验证机制；不保证所有回答真实，也不等于系统性独立评估。"
+    }
+  ],
+  "held_candidates": [
+    {
+      "candidate_id": "SC-C18-02",
+      "label": "地理邻近性增强RAG",
+      "definition": "在检索增强生成中融合地理邻近、语义关联和社会网络关系的技术方案。",
+      "entity_type": "technology",
+      "supporting_native_ids": ["NC-C18-01"],
+      "supporting_case_ids": ["C18"],
+      "status": "held_not_carried_forward",
+      "reason": "G1 已确认 NC-C18-01 保持平台整体概念；RAG 是平台内部技术组成，缺少独立原生概念，暂不单列候选。"
+    }
+  ],
+  "not_proposed": [
+    {
+      "native_concept_id": "NC-C18-09",
+      "reason": "获奖与慈善资助是项目级结果，现有共享结果概念不能准确覆盖；保留原生，暂不提出跨案例候选。"
+    },
+    {
+      "native_concept_id": "NC-C18-10",
+      "reason": "校社联动与居民学生互助是任务/目标，未观测到实际合作关系变化；保留原生，暂不提出候选。"
+    }
+  ],
+  "candidate_reconciliation": {
+    "from_case_pack": [
+      "SC-C18-01 carried forward",
+      "SC-C18-02 held",
+      "SC-C18-03 carried forward",
+      "SC-C18-04 carried forward",
+      "SC-C18-05 carried forward"
+    ],
+    "new_in_L2_G2": ["SC-C18-06", "SC-C18-07", "SC-C18-08"],
+    "active_candidate_count": 7,
+    "held_candidate_count": 1
+  },
+  "researcher_decision": {
+    "action": "accept",
+    "rationale": "L2-G2同意；7个活跃候选，SC-C18-02保留。",
+    "modified_content": "接受7个活跃候选与1个保留候选。",
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  }
+}

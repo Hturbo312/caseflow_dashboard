@@ -1,0 +1,71 @@
+{
+  "packet_id": "RP-C19-G4-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G4",
+  "case_id": "C19",
+  "scope": "Connect East Cleveland 的实体类别、角色与原子事实",
+  "generated_at": "2026-11-13",
+  "status": "pending",
+  "counts": {
+    "entities": 85,
+    "facts": 47,
+    "context": 6,
+    "actor": 19,
+    "task": 5,
+    "technology": 6,
+    "capability": 6,
+    "action": 20,
+    "target": 10,
+    "outcome": 13,
+    "implemented": 37,
+    "planned": 6,
+    "disputed": 3,
+    "reported_or_opinion": 1,
+    "high_confidence": 43,
+    "medium_confidence": 3,
+    "low_confidence": 1
+  },
+  "key_facts": [
+    {"id": "F002", "issue": "30 英亩/403 地块/74-329 分布", "action": "accept"},
+    {"id": "F003", "issue": "约 150 户", "action": "accept"},
+    {"id": "F004", "issue": "200+ 住宅地块与 18 商业地块；M03 另称 180+", "action": "accept，保留冲突"},
+    {"id": "F006", "issue": "团队 2023-01—07 工作", "action": "accept"},
+    {"id": "F007", "issue": "参与期 1–8 月 vs 4 月起", "action": "保留为 disputed"},
+    {"id": "F008", "issue": "Najae 受薪 Street Team Leader", "action": "accept"},
+    {"id": "F014", "issue": "Open House 七站点", "action": "accept；不拆为四条事实"},
+    {"id": "F020", "issue": "30 项行动/五类", "action": "accept"},
+    {"id": "F036", "issue": "换锁/移招牌诉状主张", "action": "保留 reported_or_opinion"},
+    {"id": "F037", "issue": "法院阻止向 Verdynt 出售", "action": "accept"},
+    {"id": "F038", "issue": "Loiter 和解", "action": "accept"},
+    {"id": "F039", "issue": "Phase 1 2025-03 破土", "action": "accept"},
+    {"id": "F040", "issue": "12+21 vs 12+22", "action": "保留为 disputed"},
+    {"id": "F043", "issue": "2025-10 市议会决议", "action": "仅 disputed，待原件"},
+    {"id": "F044", "issue": "2026-07 首期剪彩/7 套住宅", "action": "accept，仅回溯"},
+    {"id": "F046", "issue": "2026-07 绿道建成", "action": "accept，仅回溯"}
+  ],
+  "identity_issues": [
+    "A19 Connect EC 项目团队 vs A01 Land Bank：不得合并",
+    "A01 在取得地块/房东/被质疑对象中承担不同角色",
+    "A08 居民同时是 actor 与 target",
+    "A11 UrbanistAI 供应商 vs T01 平台"
+  ],
+  "gaps": [
+    "缺 UrbanistAI 提示词、生成图像清单与选择/淘汰记录",
+    "缺 30 项行动逐项实施状态、施工/验收记录",
+    "缺市议会决议与 2016 年协议原件",
+    "缺活动签到与问卷原始数据"
+  ],
+  "decisions_requested": [
+    "85 个实体、47 条事实是否整体接受",
+    "A19 是否保留为独立 actor",
+    "A05/A06 是否合并",
+    "A08 是否保留 actor/target 双角色",
+    "F007/F040/F043 是否保留为 disputed 事实",
+    "F014 是否按工具拆成四条事实"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_case_review": false
+  }
+}

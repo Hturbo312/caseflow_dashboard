@@ -1,0 +1,954 @@
+
+===== PAGE 1 =====
+         Proceedings of the 9th International Conference on Computers in Urban Planning and Urban
+                                 Management, CASA, UCL, London, 29th June – 1st July 2005
+
+         URBAN REGENERATION IN THE INTELLIGENT CITY
+
+
+
+
+                             Richard KINGSTON
+                                     Lecturer
+                             Planning & Landscape
+                   School of Environment and Development
+                              University of Manchester
+                                Oxford Road
+                           Manchester M13 9PL
+                                 England
+                                 Tel: +44 161 275 6883
+                            Fax: +44 161 275 6893
+                     E-mail: richard.kingston@manchester.ac.uk
+
+                            Dominica BABICKI
+                           Research Associate
+                    Centre for Urban and Regional Ecology
+                              University of Manchester
+                                Oxford Road
+                           Manchester M13 9PL
+                                 England
+                                 Tel: +44 161 275 6914
+                            Fax: +44 161 275 6893
+                    E-mail: dominica.babicki@manchester.ac.uk
+
+                              Joe RAVETZ
+                            Research Fellow
+                    Centre for Urban and Regional Ecology
+                              University of Manchester
+                                Oxford Road
+                           Manchester M13 9PL
+                                 England
+                                 Tel: +44 161 275 6879
+                            Fax: +44 161 275 6893
+                        E-mail: joe.ravetz@manchester.ac.uk
+
+
+
+
+Abstract: This paper explores on going research into the Intelligent City as part of a
+wider EU  6th Framework Information Society Technology funded research and
+development project.  Intelligent Cities (IntelCities) aims to pool advanced knowledge
+and experience of electronic government, planning systems and citizen participation
+from across Europe.  IntelCities is a very large and complex research project but this
+paper will focus specifically on citizen engagement in regeneration processes and
+how this will manifest itself in the future Intelligent City. As part of the research a
+number of on-line interactive GIS systems are being developed, deployed and tested
+on citizens in the East of Manchester, an inner city area facing multiple deprivation
+and under investment over recent decades. The systems under development (forms
+of PPGIS) allow citizens and stakeholders in local communities to access local
+services through new technologies.
+
+
+Keywords: public participation, urban regeneration, GIS, ICT, e-Planning
+
+
+
+Paper 30
+                                                                   1
+===== PAGE 2 =====
+         Proceedings of the 9th International Conference on Computers in Urban Planning and Urban
+                                 Management, CASA, UCL, London, 29th June – 1st July 2005
+
+         URBAN REGENERATION IN THE INTELLIGENT CITY
+
+
+1   INTRODUCTION
+
+The past 10 years has seen exponential growth in the use of the Internet for the
+delivery of a whole new set of services across the globe coupled with a growing
+reliance on new Information and Communication Technology (ICT) to support the
+functions and delivery of municipal services for urban planning and management.
+This paper  will report on current research into Intelligent Cities (IntelCities) with
+particular reference to how urban regeneration is being undertaken when new ICTs
+are used to support the process of regeneration in East Manchester. The paper will
+examine the concept of the intelligent city through the development of an e-City
+Platform which is being tested across Europe as part of the research project. The
+paper  will then go on to examine some of the specific tools which have been
+developed and tested along side current regeneration processes.  The paper will
+then look at how ICTs and e-government practice can support the provision of better
+urban planning and management services in our cities.
+
+
+
+1.1  IntelCities and New East Manchester
+IntelCities  is an EU Information Society Technologies  6th Framework Integrated
+Project.  Its main aim is to help achieve the EU policy goal of the Knowledge Society
+by 2010 through new forms of electronic governance of cities and greater social
+inclusion through enhanced access to services by citizens and businesses.  The
+research project aims to create a new and innovative set  of interoperable, e-
+government services that will provide information to all citizens and businesses about
+all aspects of city life via interactive city-wide Internet based applications.  This is
+being    achieved    through   a   number    of   Work   Packages    (see
+http://www.intelcitiesproject.com/ for further details), but this paper will focus more
+specifically on Work Package 5 (WP5) – e-Regeneration.  This WP is being led by
+Manchester City Council and the Universities of Manchester and Salford.
+
+
+The City of Manchester has a long history of championing urban regeneration
+projects and is well placed for using parts of the City for the development and testing
+of new techniques in urban regeneration.  With this in mind a large area of the city
+known as New East Manchester (NEM) is being used to implement the new e-
+government tools developed as part of IntelCities. The main characteristics of East
+Manchester are:
+   •  1,100 hectares east of Manchester city centre
+   •  Loss of the traditional manufacturing base – 60% employment loss 1975-85
+   •  13% population loss in 1990s
+   •  Collapse in housing market (it now forms part of the Manchester – Salford
+      housing market renewal area (ODPM, 2004))
+   •  20% vacant properties and negative equity
+   •  Low skills base, high crime, poor health, poor community and retail facilities
+
+
+
+Paper 30
+                                                                   2
+===== PAGE 3 =====
+         Proceedings of the 9th International Conference on Computers in Urban Planning and Urban
+                                 Management, CASA, UCL, London, 29th June – 1st July 2005
+   •  Fragile economic base
+   •  52% households receive benefit
+   •  12% unemployment
+   •  Poor infrastructure and environment
+
+
+Over recent years, mainly since the Commonwealth Games were held in Manchester
+in 2002, the area has seen considerable inward investment to help regenerate the
+community after decades of decline. From the perspective of IntelCities there are
+two significant factors in the Manchester experience of using IT in managing urban
+change:
+   •  the City has a long and strong tradition of support for the non -statutory sector
+     and  encourages  community  involvement.   The means  of  undertaking
+      community engagement and the success of these initiatives has varied but it is
+        politically encouraged.
+   •  There is an equally strong tradition of supporting the use of ICT in business
+     and community development. This goes back over 14 years with the launch of
+      the Manchester Host – the UK’s first ever public access integrated email; the
+       creation of a bulletin board and online database service in 1991, through to
+      the development of the Electronic Village Halls in 1992 (Harvey et al, 2002),
+      the Manchester Community Information Network in 1994 and the Manchester
+        Digital Development Agency (MDDA) in 2003.
+
+
+
+The underpinning philosophy of these initiatives has been that technology is a means
+to  achieving  sustainable  regeneration,  the promotion  of  entrepreneurship and
+enterprise and attracting the kind of investment which in turn continues to sustain
+these schemes.  Linked to this  is the ‘joined up’ approach which the City has
+pioneered in order to ensure that the wider community has access to, and is actively
+encouraged to, use these new technologies. It is through projects like the network of
+Internet access centres in libraries across the city and having the largest network of
+UK Online for Learning and Learn Direct Centres in the UK that has allowed a
+greater than average access to ICT by citizens in Manchester.
+
+
+East Manchester has been successful in securing considerable funding from the
+central UK government and through European Regional Development Fund. As East
+Manchester was the site for the 2002 Commonwealth Games, there was a major
+investment in physical infrastructure and funding was received for East Manchester
+through the Wired-Up-Communities project which resulted in a local wireless network
+covering an area of 9,000 households. Approximately 3,500 PCs were purchased by
+residents at a subsidised rate and there are currently 1,250 users on the network
+equating to a much higher rate of Internet usage than the UK on average.  The
+community website (http://www.eastserve.com/) has been developed by a  local
+partnership of statutory and voluntary organisations led by the City Council and is
+seen as an important part of the regeneration process.   It has been used as one of
+the vehicles  for public engagement and testing the  usability of the technology
+developed as part of IntelCities. The East Manchester Regeneration Company has
+
+
+Paper 30
+                                                                   3
+===== PAGE 4 =====
+         Proceedings of the 9th International Conference on Computers in Urban Planning and Urban
+                                 Management, CASA, UCL, London, 29th June – 1st July 2005
+
+produced a Regeneration Framework (http://www.neweastmanchester.com/) which
+has provided a good baseline for building a set of desired functionality of a system to
+support regeneration.
+
+
+2   ICT AND URBAN REGENERATION
+
+2.1  Urban Regeneration in New East Manchester
+
+Many recognise the important role ICT plays and should play in the planning process
+(Craig et al, 2002, Hudson-Smith et al, 2002 and Kingston et al, 2000, 2003). This is
+especially true with regeneration, a particularly complex process and in many ways a
+process that needs ICT as  it  is a particularly rapid and multi-faceted planning
+procedure. While ICT is useful in all aspects of regeneration, the focus in this section
+will be on defining ICT driven design and decision-making tools that are used, and
+could be used, in NEM. The reason for this is that tools in this area provide tangible
+means to help planners, policy makers and citizens of varying backgrounds build
+consensus about the design and development of a place.   If used properly these
+tools are meant to help people make better planning decisions by enabling improved
+communication, design and analysis (Al-Kodmany, 2002). An essential ingredient in
+improving the decision-making process is improving the extent to which citizens are
+included in the decision-making process between and within governance structures
+(Healey, 1997, UNECE, 1998).  Therefore the improvement of the regeneration
+process will be assessed by the manner in which it engages with citizens.
+
+
+To understand what for what purpose ICT tools are currently being used, what
+purpose they fulfil and where potential exists for their further exploitation in NEM, a
+matrix has been developed that attempts to show how the regeneration process in
+NEM  currently  uses  design and  decision-making  tools,  what  type  of  public
+involvement the tools support and what areas of the regeneration process could be
+assisted with such tools. A major element of the research in NEM focuses on ICT
+driven design and decision-making tools and how they assist with the regeneration
+process and therefore the type of public involvement the tools promote needs to be
+defined.  In an OECD paper entitled ‘Citizens as Partners: Information, Consultation
+and  Public  Participation  in  Policy-making’ (OECD,  2001),  the types  of  public
+involvement in government decision-making are defined as follows:
+   •  Information and transaction – government informs citizens (one way process)
+   •  Consultation – government consults with citizens (citizen’s responses
+       generally predetermined by government via multiple-choice, closed –question
+       options)
+   •  Deliberative Involvement – government engages citizens in consultation
+      process (citizens encouraged to deliberate over issues prior to final response)
+   •  Government – led active participation – government instigates consultation
+     and retains decision-making powers
+   •  Citizen-led active participation – citizens are actively engaged in decision-
+      making processes, alongside government; citizen decisions become binding;
+       citizens share ownership and responsibility over outcomes.
+
+
+
+
+
+Paper 30
+                                                                   4
+===== PAGE 5 =====
+         Proceedings of the 9th International Conference on Computers in Urban Planning and Urban
+                                 Management, CASA, UCL, London, 29th June – 1st July 2005
+
+One of the aims of IntelCities is to provide the necessary tools, skills, knowledge and
+understanding to allow citizens to fully engage in the regeneration process.  While
+City officials in NEM are not supportive of citizen-led active participation for  all
+decision-making,  they  are committed  to a comprehensive  public engagement
+process which engages the public at  different levels depending of the type of
+decisions being taken. A major task of WP5 has been to identify the types of design
+and decision making tools currently used by NEM and asses what new methods
+could be developed and  tested  to  increase and make more  effective  public
+involvement in the decision-making process. The table below (Table 1) attempts to
+categorise these tools.
+
+    Table 1: Categories of NEM Design and Decision Making Tools in use/too be developed
+
+
+Tool Type    Task
+
+
+Enquiry /      Enquiries on specific data requirements, from citizens: to policy / managers
+Reporting &
+Tracking      Reporting on monitoring / specific needs, from citizens / users: to managers / providers
+Services
+               Information on city issues/plans from planners/mangers to citizens
+
+
+Community    Tools that focus on how the planning process can become integrated into community
+Process        building empowerment efforts.
+Tools
+            These tools assist citizens and planners/managers to work better together and
+               information flows both from citizens/ users to planners/managers and from
+              planners/managers to citizens.
+
+
+Asset        These are tools for identifying and documenting a community’s assets including
+Mapping        cultural, historical, physical, economic and social
+
+
+               Information on community assets from citizens to planners/managers
+
+
+                Survey/historical information from planners/managers to citizens
+
+
+Visualising    Using a variety of 2D and 3D medium for both citizens and planners/managers to see
+the Future    how their community could evolve over time
+
+
+              Future visions from citizens/planners/managers to citizens/planners/managers
+
+
+Impact        Using a range of GIS applications, an impact analysis gives a community specific
+Analysis      economic and physical impacts of future development plans.
+
+
+               Analysis of impact from citizens/planners/managers to citizens/planners/managers
+
+
+Scenario      Analysing a scenario involves a more comprehensive analysis of the many
+Analysis       implications of a planning scenario
+
+
+              Future visions/needs/wants/tradeoffs from citizens/planners/managers to
+               citizens/planners/managers
+
+
+
+Paper 30
+                                                                   5
+===== PAGE 6 =====
+         Proceedings of the 9th International Conference on Computers in Urban Planning and Urban
+                                 Management, CASA, UCL, London, 29th June – 1st July 2005
+
+
+Performance   This is the process of identifying and developing performance criteria to measure how
+Based          effective a plan is over time and creates accountability through performance –based
+Planning      standards
+
+
+               Evaluation of plans from planners/managers to citizens/planners/managers
+
+
+Predictive     This is a process of looking at planning in the fourth dimension (time). Looking at
+Modelling      issues such as what the long-term implications of population growth and sustainability
+               issues of a master plan are over the next 30 years.
+
+
+              Future vision in a time scale from citizens / planners / managers to citizens / planners /
+            managers
+
+
+                                                    (Adapted from Boyd and Chan, 2002, p.13)
+
+
+Whilst NEM make extensive use of a range of design and decision making tools to
+support their planning and regeneration functions  it is apparent that NEM does not
+exploit ICT tools for these purposes to their  full potential.  This was particularly
+pertinent in the use of ICT tools for public consultation and participation.  Table 2
+below attempts to detail the steps in the planning process and map which ICT tools
+are currently used, for what purpose and how they promote public participation. The
+main theme emerging here  is that while NEM use and are  in the process of
+developing a range of ICT techniques and tools, they lacked a coherent process for
+using some of these tools for engaging citizens and stakeholders, exploring design
+options, assessing impacts and prioritising options for the re-design and development
+of the physical infrastructure and built form.  Citizens have generally only become
+involved mid-way through the planning process rather than at the out-set when goals
+are being defined and options generated and debated.
+
+
+                         Table 2: ICT Planning Tools Used by NEM
+
+
+Generic       NEM Planning      ICT Planning    Type of ICT        Type of Public
+Planning         Process           Tools Currently  Planning Tool       Consultation
+Process                            Used/Being                        ICT Planning
+                                  Developed in                       Tool Promotes
+                          NEM
+
+
+Issue                Identify area to be    Eastserve         Enquiry/Reporting    Consultation
+Identification /      regenerated &       Network       & Tracking
+Baseline Studies   research and                          Services and
+                    consultation                       Community
+                   proposals                           Process Tool
+
+
+                                        Tracking          Enquiry/Reporting    Consultation
+                                    Neighbourhood   & Tracking
+                                 Change GIS      Services
+                                  System
+
+
+
+
+Paper 30
+                                                                   6
+===== PAGE 7 =====
+         Proceedings of the 9th International Conference on Computers in Urban Planning and Urban
+                                 Management, CASA, UCL, London, 29th June – 1st July 2005
+
+
+                                     Environment on   Enquiry/Reporting    Consultation
+                                            Call & Crime on  & Tracking
+                                            Call              Services
+
+
+Engage          Research &          e-Consultation    Enquiry/Reporting    Could be used in
+Stakeholders       Consultation        GIS Tool       & Tracking           promoting all the
+                  Proposals                             Services               different types of
+                                                                                      public
+                                                 Community
+                                                                                    consultation
+                                                     Process Tool
+
+                                                       Asset Mapping
+
+
+Develop Process   Research &           lack of use of
+                    Consultation        ICT tools
+                  Proposals
+
+
+Inventory         Research &          Tracking           Predictive            Information &
+Conditions         Consultation        Neighbourhood    Modelling            Transaction
+                  Proposals         Change
+
+
+Analyse Trends    Research &          Tracking           Predictive            Information &
+                    Consultation        Neighbourhood    Modelling            Transaction
+                  Proposals         Change
+
+
+Explore Design    Research &          Salford 3D         Visualising the        Consultation /
+Options            Consultation          Visualisation      Future                Deliberative
+                  Proposals & agreed                                        Involvement
+                   regeneration plan
+
+
+Assess Impacts    Consultation &        lack of use of
+                   Evaluation for       ICT tools
+                 Drawing up
+                   Implementation
+                  Plan
+
+
+Prioritise Options   Consultation &        lack of use of
+                   Evaluation for       ICT tools
+                 Drawing up
+                   Implementation
+                  Plan
+
+
+Implement Plans   Agreed               lack of use of
+                  Regeneration &      ICT tools
+                   Implementation
+                  Plan With Delivery
+                  Plan (Timescales)
+
+
+Analysis and        Monitoring, Control   System K        Performance Based  Information &
+Evaluation       & Report                              Planning             Transaction
+
+
+
+Paper 30
+                                                                   7
+===== PAGE 8 =====
+         Proceedings of the 9th International Conference on Computers in Urban Planning and Urban
+                                 Management, CASA, UCL, London, 29th June – 1st July 2005
+
+
+Table 2 above can be used to inform us what kind of ICT design and decision-making
+tools are being used and what their purpose is in the NEM regeneration process
+(Pemberton-Billing, 2005 and Babicki, 2005). Most importantly, however, the Table
+provides some insight to where additional tools could assist with the regeneration
+process. As seen in the Table, according to the research done to date, there are
+very few ICT tools that are currently being used to assist with the design and
+decision-making process in NEM.  In particular the grey-filled cells identify those
+areas where policy makers could make more use of such tools.  While a small
+amount of new tools are being developed that will be used in different stages of the
+regeneration process (shown in Table in grey  italics), none of them specifically
+promote either government-led active participation or citizen-led active participation
+with the context of the OECD (2001) criteria outlined above.  This is an area that
+needs to be developed further as there is a clear need for more effective and more
+inclusive public involvement in the regeneration process. This is an important point
+for the IntelCities project as a whole which has as an overall aim to improve urban
+governance and sustainability through the development of the ‘eCity Platform’ (e-
+CP).
+
+
+
+2.2  The e-City Platform
+
+At the heart of the IntelCities research project is the creation of a set of new and
+innovative interoperable e-Government services  that  will provide information  to
+citizens and businesses about all aspects of city life via interactive city-wide internet-
+based applications through a multi-purpose e-CP. The platform will demonstrate how
+technology can contribute to the planning and administration of cities, leading to long
+term sustainability and successful urban environments.  The system will provide a
+city wide information system that will make all aspects of what is ‘going – on’ in the
+city available to all, and aid decision makers in planning future development and
+services. The key benefits of the use of the e-CP will be the delivery of streamlined
+city government, city management and city regeneration processes, which will lead to
+more  efficient use  of  city  facilities and resources and improve the economic
+competitiveness of the cities by:
+   •  Providing 24 hour access to city information and services, supporting the day-
+      to-day needs and activities of citizens, business and visitors alike;
+   •  Integrating  information from  city  authorities,  utility and  transport system
+       providers,  leading  therefore  to a more  efficient  city management and
+       administration; and
+   •  Enabling  cities  to  have  better  urban  planning  through more  reliable
+       visualisation and prediction of how planned changes in the city  will affect
+      peoples’ lives.
+
+
+This  will  be  supported  through  the  improved  interaction  between  business,
+developers,  local  administrations  and  citizens  by  promoting  social  inclusion,
+extending citizenship and ‘ownership’ of plans and proposals. The concept of a ‘one-
+
+
+
+Paper 30
+                                                                   8
+===== PAGE 9 =====
+         Proceedings of the 9th International Conference on Computers in Urban Planning and Urban
+                                 Management, CASA, UCL, London, 29th June – 1st July 2005
+
+stop’  intelligent metropolitan information infrastructure as the platform to secure
+knowledge and as the basis for delivery of a wide range of integrated services, like:
+   •  greater intelligence in the internet services and system through integrating a
+      wider variety of data systems  in  cities, government,  utility and transport
+       services;
+   •  real-time features such as traffic and transport information through real time
+      monitoring and global positioning; and
+   •  better land use and planning information through GIS and similar.
+
+
+This is illustrated in the conceptual diagram in Figure 1 below showing how citizens
+would interact with the different services. From the perspective of the citizen the e-
+CP will be completely invisible and in a sense non-existent, indeed many on-line
+services will ‘look and feel’ the same –  it is the back office environment which has
+radically changed.
+
+
+
+
+
+                           Figure 1 The e-City Platform Concept
+
+The focus of WP 5 has been on the development of a set of systems for specific use
+in urban regeneration and their integration with other city systems.   It encompasses
+the   physical,   social  and  economic  elements   of  regeneration  and   their
+interdependencies.  This work is being developed in the context of the key priorities
+set by urban administrations and partners to ensure successful and sustainable
+regeneration, based on:
+   •  economic  development  resulting   in  new  industries  and  employment
+       opportunities to replace old;
+
+
+Paper 30
+                                                                   9
+===== PAGE 10 =====
+         Proceedings of the 9th International Conference on Computers in Urban Planning and Urban
+                                 Management, CASA, UCL, London, 29th June – 1st July 2005
+   •  reversing the decline of populations in inner city areas and encouraging new
+      forms of city living with the services to support this;
+   •  tackling social exclusion and improving the quality of life;
+   •  improving the business environment and attracting new investment and jobs;
+     and
+   •  promoting democratic renewal and re-engaging citizens with civic life.
+
+
+The work package will produce a city vision for the city in the knowledge economy
+and a set of targets to enhance regeneration. WP5 aims to produce a system to
+support improved decision making in the strategic planning process by engaging
+citizens in planning regeneration. The result is an assessment on how technology
+and,  in particular, how data that  is captured, stored, interrogated and used by
+different stakeholders, is supported by the shared e-CP.
+
+The e-CP  is based on the CORBA standard (Common Object Request Broker
+Architecture), an open, vendor-independent  architecture and  infrastructure  that
+computer  applications use  to work together over networks.  A CORBA-based
+program from any vendor, on almost any computer, operating system, programming
+language, and network, can interoperate with a CORBA-based program from the
+same  or  another  vendor, on  almost any  other  computer,  operating  system,
+programming language, and network.  Anyone developing a new or upgrading a
+legacy system can work and interact with the e-CP by providing a wrapper written in
+CORBA to link between their systems and the e-CP.
+
+
+
+3   DEVELOPMENT AND TESTING OF THE e-CP
+
+Within the e-CP framework outlined in Figure 2, the e-Regeneration Work Package
+(WP5) links end users through a web interface client in the  first instance.    It is
+anticipated that in the future these services will also be available through hand-held
+devices and cable TV channels.  The services provided in the three pilot studies
+outlined in the following section are being tested with citizens of NEM during 2005.
+Figure 3 below outlines the structure of the three systems and how they fit in to the e-
+CP. The systems developed across the whole of IntelCities are following the open
+source model of software development following a range of data standards such as
+e-GIF  (electronic  government  interoperability  framework), OGC  (Open  GIS
+Consortium) and XML.  This allows for improved flexibility and adoption for working
+with legacy systems on the one hand and emerging technologies on the other.
+
+
+At the time of writing live testing of the systems was being developed but had not
+taken  place due  to changes  in  the  timing  of  public  participation on  specific
+regeneration  projects.  The systems have been  tested by Manchester  Digital
+Development Agency for e-GIF compliance and work is underway to make the three
+systems compliant with the e-CP platform. The aim of the three pilot studies is to
+investigate how the delivery and management of current and future services will be
+operated by the local authority and used by citizens and businesses. The first two
+systems developed, Environment on Call and Crime of Call, mirror and enhance two
+
+
+Paper 30
+                                                                  10
+===== PAGE 11 =====
+         Proceedings of the 9th International Conference on Computers in Urban Planning and Urban
+                                 Management, CASA, UCL, London, 29th June – 1st July 2005
+
+of the City’s current services while the third, e-Participation develops new methods to
+allow  citizens and business  to  participate  in urban regeneration and planning
+processes.
+
+
+
+
+
+                           Figure 2 WP5 and the e-City Platform
+
+
+
+
+3.1  Environment on Call and Crime on Call
+
+Manchester City Council’s Environmental Services allow citizens to report issues and
+find out about services through a part of their web site called Environment On Call.
+This  is the City Council's contact centre  for  all environmental and operational
+Services. At the moment it is possible to contact Environment On Call via telephone,
+textphone, text messaging or e-mail with any reports or enquiries about the street
+environment.  Staff are on hand to take telephone enquires Monday to Friday from
+8am to 8pm.  Citizens can also use a series of on-line forms to report particular
+environmental problems.  For example, you can report a problems with grounds
+maintenance such as parks or gardens or road and pavement problems. You are
+required to describe the problem and be as specific as possible with regards to its
+location.   It is also necessary to leave contact details.  In many cases Environment
+on Call staff are forced to telephone the person making the call to clarify the exact
+location. Once the electronic enquiry is received a call centre operative uses an in-
+house GIS and attempts to identify the exact location on a map based on instructions
+received.  The same procedure applies  if a citizen telephones the City Council to
+report a problem rather than using the on-line method. Once the location has been
+identified the operative produces a report which is then forwarded to the relevant
+
+
+Paper 30
+                                                                  11
+===== PAGE 12 =====
+         Proceedings of the 9th International Conference on Computers in Urban Planning and Urban
+                                 Management, CASA, UCL, London, 29th June – 1st July 2005
+
+team on the ground to deal with the problem.  This involves a pro-forma with the
+necessary details on a map. The Crime on Call system works in exactly the same
+way, the only difference is that the issues being reported related to different types of
+crime such as car crime, burglary, anti-social behaviour etc. The system works by
+sending information to the New Deal for Communities Crime and Safety Officers
+rather than directly to the police.  This has worked well within the community as
+people have felt more comfortable informing the community organisation rather than
+dealing directly with Greater Manchester Police.
+
+
+
+
+
+                         Figure 3: Environment on Call Public GIS
+
+
+
+As mentioned earlier one of the central aims of WP5 and of IntelCities as a whole
+has been the ‘delivery of streamlined city government, city management and city
+regeneration processes which lead  to more  efficient use  of  city  facilities and
+resources   and   improve    the   economic    competitiveness    of     cities
+(http://www.intelcitiesproject.com/). The development of the Environment and Crime
+on Call systems as part of WP 5 clearly support this aim. The inclusion of a GIS
+interface to the current city services allows citizens to identify the exact location on
+the map themselves, select the service domain (e.g. broken pavement or crime
+example etc.) fill in the necessary details and then send the enquiry to Environment
+on Call or Crime on Call (see in Figure 3).  The advantage of the system under
+development is that the enquiry goes directly to the relevant team who deal with the
+specific service providing a report of the problem and a map. In some circumstances
+it is expected that the system will be further developed in the future to be transmitted
+directly into a vehicle, such as a refuse collection truck if it related to a missed bin or
+
+
+Paper 30
+                                                                  12
+===== PAGE 13 =====
+         Proceedings of the 9th International Conference on Computers in Urban Planning and Urban
+                                 Management, CASA, UCL, London, 29th June – 1st July 2005
+
+a grounds maintenance truck  if  it related to parks and gardens. With regards to a
+reported crime the message could be directly texted to officers patrolling the area
+concerned. As well as providing a more streamlined service between citizen and
+street operative, the system also provides new intelligence on service delivery and
+management. The system generates a geo-referenced database which allows policy
+makers to monitor the types of complaints and enquiries being reported. The report
+also includes a URL allowing them to recreate the users map with a point layer
+representing specific comments.  This allows the Council to map and monitor the
+spatial location of the different types of service enquiry allowing them to investigate
+persistence problems and target resources appropriately.
+
+
+
+3.2  e-Participation
+
+The focus of the systems described above  is on reporting problems or making
+enquiries and not about consultation and participation. The e-Participation system
+however is aimed at supporting and improving open and transparent dialogue which
+has a spatial planning and regeneration focus. The system allows citizens to discuss
+new proposals or identify issues relating to space and place within their community.
+As shown in Table 2, the e-Participation system can fulfil the tasks set out by tools
+categorised as providing ‘enquiry/reporting & tracking services’, as well as acting as
+a ‘community process’ and ‘asset mapping’ tool. While this tool can be used to
+facilitate all the different types of public participation processes listed in section 2.1,
+ideally it will be used to assist citizen-led participation in the regeneration decision-
+making process.  In this scenario, users start discussions and debate issues and
+thereby, in a sense, create their own geo-referenced community database.
+
+
+
+
+
+                     Figure 4: PPGIS with integrated discussion forum
+
+
+
+
+
+Paper 30
+                                                                  13
+===== PAGE 14 =====
+         Proceedings of the 9th International Conference on Computers in Urban Planning and Urban
+                                 Management, CASA, UCL, London, 29th June – 1st July 2005
+
+The e-Participation  tool uses the same base technology as the other systems
+developed for WP5. The system is based on the OGC compliant Web Map Server
+(WMS) technology and supports a range of spatial data formats including ESRI
+Shape files, MapInfo and various raster data formats such as geoTIFF.   It also has
+functions for the inclusion of further geospatial layers to show relevant spatial policy
+data and information, etc.   It makes use of CGI executable files for the processing
+and management  of user comments and feedback using  the PERL  scripting
+language. The system also incorporates a geo-referenced discussion forum written
+in PHP and uses a mySQL database to store user discussions as shown in Figure 4
+below.  Users can navigate the map by zooming and panning into an appropriate
+location and turning relevant map layers on or off and querying these layers for
+relevant attribute information.  A discussion can be started by switching to the
+appropriate mode and clicking on an appropriate location. The user then activates
+the discussion forum by creating a topic and initiating a discussion. Other users can
+search the map for discussions based on a specific topic, keyword or click on point
+locations on the map to view previous users comments and make appropriate
+comments themselves.
+
+
+It is anticipated that NEM and the City Council officials will initiate discussions on
+specific urban regeneration issues at specific time intervals as and when the policy
+process dictates in parallel with community-led initiatives. The discussion forum can
+syndicate the latest discussions to other web sites/pages to highlight the latest
+activity. There are still a number of key operational issues to be overcome during the
+coming months, such as:
+   •  should a moderator be present for discussions;
+   •  what spatial data layers should be included;
+   •  an evaluation system to provide questionnaires and interactive weighting and
+        priority setting for users to give feedback on plans and programmes;
+   •  a layer for information providing access to photos, text, 3D VRML, etc;
+   •   facility for users to link to their own text and graphics allowing users to provide
+        their own material; and
+   •  should users be able  to upload  their own  spatial data rather than  just
+     comments and ides.
+
+
+All three systems developed use the same underlying system architecture using
+OGC compliant WMS technology, mySQL for storing enquiries in a database, PHP
+for the discussion forum and PERL for processing the enquiries. They also meet the
+UK’s electronic Government Interoperability Framework standards (e-GIF). While the
+systems developed here are focused on NEM, they are scalable and can be
+expanded to include the whole of the Manchester Metropolitan district and the wider
+city-region. Indeed the system can work in any place by changing the spatial data to
+the appropriate location.
+
+
+
+
+
+Paper 30
+                                                                  14
+===== PAGE 15 =====
+         Proceedings of the 9th International Conference on Computers in Urban Planning and Urban
+                                 Management, CASA, UCL, London, 29th June – 1st July 2005
+
+4   E-GOVERNMENT AND THE PROVISION OF BETTER SERVICES
+
+4.1  Improving Public Participation
+
+As one of the reponses to the Lisbon Strategy, The eEurope 2005 Action Plan was
+launched at the Seville European Council in June 2002 and endorsed by the Council
+of Ministers in the eEurope Resolution of January 2003. The principal aim of the
+eEurope intiative was to harness the power of ICT in order that  it may provide a
+favourable environment for private investment, job creation and productivity and
+growth, while modernising public services and giving all citizens the opportunity to
+participate  in the global Information Society.  On June 1 2005 the European
+Commission annouced, i2010 – also known as ‘European Information Society 2010’
+with an aim to promote growth and jobs in the European Information Society and
+media industries.  The new five-year strategy, which  is meant to succeed the
+previous eEurope 2005  initiative, provides a comprehensive framework  for the
+development of the digital economy. In this respect, EU policy instruments such as
+regulatory  initiatives,  research, and  partnerships  will  play a key  role  in  the
+implementation of the new strategy.  According to the European Commission, the
+i2010 initiative will contribute to the implementation of three policy priorities:
+
+
+•  Create an open and competitive single market for information society and
+   media services within the EU. To this end, the Commission will propose the
+   following initiatives: an efficient spectrum management policy in Europe (2005); a
+   modernisation of the rules on audiovisual media services (end 2005); an updating
+    of the regulatory framework for electronic communications (2006); a strategy for a
+   secure information society (2006); and a comprehensive approach for effective
+   and interoperable digital rights management (2006/2007).
+•  Increase EU investment in research on information and communication
+   technologies (ICT) by 80%. Europe currently lags behind  in ICT research,
+   investing only EUR 80 per head as compared to EUR 350 in Japan and EUR 400
+    in  the  US. Among  other   initiatives,  i2010   will  promote  trans-European
+   demonstrator projects to test out promising research results, and take measures
+    to better integrate small and medium-sized enterprises in EU research projects.
+•  Promote an inclusive European information society. The Commission  will
+   propose an Action Plan on e-Government for citizen-centred services (2006);
+   three “quality of  life” ICT flagship initiatives in the areas of ageing, intelligent
+   vehicles, and multilingual digital libraries (2007); and a number of actions to
+   overcome the geographic and social digital divide, culminating in a European
+    Initiative on e-Inclusion (2008).
+
+
+Concerning e-government, the European Commission’s i2010 Communication notes
+that making public services “better, more accessible and more cost-effective” is a
+“key  challenge”.  In  spite  of  considerable advances achieved  in the  rollout  of
+electronic public services, the Communication stresses that "much remains to be
+done  to  demonstrate  economic  impact  and  social  acceptance”  of  e-
+government. In addition, there  is  still a need  to develop “common interfaces,
+portability of identity from one system to another and authentication systems”, the
+
+
+Paper 30
+                                                                  15
+===== PAGE 16 =====
+         Proceedings of the 9th International Conference on Computers in Urban Planning and Urban
+                                 Management, CASA, UCL, London, 29th June – 1st July 2005
+
+Communication says, as well as for “new practices, new skills and different rules”.
+(European Commission,  2005).   The  IntelCities  project  clearly addresses  e-
+government aspirations expressed in i2010. More specifically, on the issue of public
+involvement and planning, IntelCities visibly supports the EU’s Action Plan on ‘e-
+Government for citizen-centred services’ by enabling ‘citizens and business to play a
+far more participative and inclusive role  in  city planning via more  reliable  city
+modelling, predictive planning and advanced visualisation technology’ (IntelCities,
+2005).
+
+
+
+4.2  Improving Policy Analysis and Resource Targeting
+
+As detailed above, the development of Environment on Call, Crime on Call and E-
+Participation and the provision  of these services  in NEM  is a  visible step  in
+addressing the goals of improved e-government.  While Environment of Call and
+Crime on Call are limited in their ability to improve government decision-making and
+focus more on increasing government  efficiency, the  e-Participation system  is
+capable of both increasing efficiency and the role of citizens in decision-making.
+
+
+As well as improving the types of services offered to citizens   it also provides
+opportunities for improving the management of cities and helping achieve long term
+physical, social and economic sustainability. For example, the Environment on Call
+system’s database stores geo-referenced complaints and enquires based on the type
+of complaint made.  This allows policy officers to monitor in a GIS the spatial
+dispersion across the city of service use.  They can monitor in real time whether
+there is clustering of particular problems and target resources appropriately as and
+when problems occur.  For example,  if a cluster of missed bins or vandalised cars
+are appearing in a particular part of the city them can investigate why this is occurring
+at particular locations and take the necessary actions to alleviate any problems.
+
+This research is on-going and it is anticipated that results of current experiments will
+be reported upon in further user testing in Manchester.  It is envisaged that the e-CP
+will continue to be developed and enhanced to work across a number of European
+Cities.  Future outcomes of this research  will depend upon the EC deciding on
+whether to adopt this type of system across Europe.
+
+
+
+Acknowledgements
+This research was funded by the EU’s 6th Framework IST Programme No. 507860.
+We would like to thank the project coordinators Manchester Digital Development
+Agency and the many people in NEM who have been involved in this work.
+
+
+
+
+
+Paper 30
+                                                                  16
+===== PAGE 17 =====
+         Proceedings of the 9th International Conference on Computers in Urban Planning and Urban
+                                 Management, CASA, UCL, London, 29th June – 1st July 2005
+
+                       REFERENCES
+
+Al-Kodmany, K. (2002) GIS and the Artist: Shaping the Image of a Neighborhood in
+Participatory Environmental Design. In Craig, W., Harris, T. and Weiner, D. (ed.)
+Community Empowerment, Public Participation and Geographic Information
+Science. London: Taylor & Francis.
+
+Babicki, D. (2005) ICT and Regeneration in New East Manchester. IntelCities WP
+5 Report, University of Manchester (unpublished report).
+
+Boyd, S. and Chan, Ray (2002) Placemaking Tools for Community Action.
+http://www.placematters.com/Documents/RESOURCES/OpenBackgnd.html.
+Accessed on April 20, 2005
+
+Craig, W., Harris, T. and Weiner, D. (eds.) (2002) Community Empowerment,
+Public Participation and Geographic Information Science. London: Taylor &
+Francis.
+
+European Commission  (2005) European Commission  unveils new  Information
+Society strategy. Press release 2nd June http://europa.eu.int/idabc/en/document/4340
+Accessed on 5th June 2005.
+
+Harvey, P.M., Green, S and Agar, J (2002) From Cotton to Computers: the Social
+Contexts of Virtual Manchester. In Woolgar, S. (ed) Virtual Society. Oxford: Oxford
+University Press.
+
+Healey, P. (1997) Collaborative Planning – shaping places  in fragmented
+societies. London: Macmillan.
+
+Hudson-Smith, A., Evans, S., Batty, M. and Batty, S. (2002) Online Participation: The
+Woodbury Down Experiment. CASA Working Paper No. 60. London: CASA, UCL.
+
+IntelCities (2005) About IntelCities http://www.intelcitiesproject.com/ Accessed on
+4th May 2005.
+
+Kingston, R., Evans,  A., and Carver, S. (2003) Public  participation via on-line
+democracy. In S. Geertman J. and Stillwell (eds), Planning Support Systems in
+Practice. Berlin: Springer-Valag.
+
+Kingston,  R., Carver,  S., Evans, A. and  Turton,  I. (2000) Web-Based Public
+Participation Geographical Information Systems: An Aid To Local Environmental
+Decision-Making. Computers, Environment and Urban Systems, 24(2), 109-125.
+
+ODPM (2004) Market renewal pathfinders: learning lessons. London: ODPM.
+
+OECD  (2001)  Citizens as  Partners:  Information, Consultation and  Public
+participation in policy-making. Paris, OECD.
+
+
+Pemberton-Billing, I. (2005) The Regeneration Process in New East Manchester.
+IntelCities WP5 Report, University of Salford (unpublished report).
+
+UNECE (1998) Convention on Access to Information, Public Participation in
+Decision-making and Access to Justice in Environmental Matters. Geneve,
+UNECE.
+
+
+
+
+Paper 30
+                                                                  17

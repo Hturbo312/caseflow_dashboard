@@ -1,0 +1,38 @@
+{
+  "packetId": "RP-L2-G3-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "G3",
+  "caseId": "C16",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher_confirmation",
+  "networkNodes": 18,
+  "networkEdges": 18,
+  "candidatesRemainingSingleCase": 4,
+  "historicalMappingsChanged": 0,
+  "decisionPoints": [
+    "确认 18 节点/18 边网络",
+    "4 个候选维持单案例",
+    "5 条既有映射为加法",
+    "C06/C12 邻近线索保留",
+    "进入 G4"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": true,
+    "scope": "C16 加法网络；C01–C12 不变"
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": false,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "openIssues": [
+    "4 个候选均单案例",
+    "C06 低联网隐私为邻近线索",
+    "C12 本地安装就业为邻近线索"
+  ]
+}

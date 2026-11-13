@@ -1,0 +1,373 @@
+
+
+ 
+
+Local Connections: The Red Hook WiFi Project - Urban Omnibus
+
+ 
+
+We are celebrating 15 years — and counting — of stories that are deeply researched and deeply felt, that build a historical record of what the city has been. 
+
+Get Urban Omnibus Weekly
+
+Sign up for our newsletter to receive updates on new features, special events, and more on the collective work of citymaking.
+
+First Name  
+*
+
+Last Name  
+*
+
+Email Address  
+*
+
+Urban Omnibus
+
+A Publication of 
+the Architectural League of New York
+
+About Us
+
+Contact
+
+Subjects
+
+Series
+
+Browse
+
+ 
+
+ 
+
+Architecture
+
+Neighborhood
+
+Infrastructure
+
+Landscape
+
+Policy
+
+Arts
+
+Environment
+
+Transportation
+
+Housing
+
+Technology
+
+New City Critics
+
+City Habitats
+
+Romantic Urbanism
+
+The Green Shift
+
+Cleaning Up
+
+Digital Frictions
+
+The Location of Justice
+
+Intersections
+
+Housing Brass Tacks
+
++ See All Series
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Local Connections: The Red Hook WiFi Project
+
+		
+					Urban Omnibus
+		
+	
+
+ • 
+
+Sep 25, 2013
+
+While the information and tools for communication available via an Internet connection continue to expand, their worth is only as a valuable as one’s ability to access them. In contemporary New York, where such connections may appear ubiquitous, the digital divide — inequality in access to and ability to use technology — remains a barrier to opportunity for many communities. And for those with access, disasters like Hurricane Sandy have revealed just how tenuous this connection can be, demonstrating that local, intra-community communication platforms can be as important as a link to the worldwide web.
+
+In Red Hook, Brooklyn — a waterfront neighborhood particularly hard hit by Sandy and home to one of the city’s largest concentrations of public housing and a growing community of young professionals drawn to its unique isolation — Internet access is only one part of a larger problem. Communication across physical and social boundaries can also be a challenge. A partnership between 
+Red Hook Initiative (RHI)
+, a youth development agency that supports students and young adults in their education, social and emotional health, and job training, and the 
+Open Technology Institute (OTI)
+, a project of the New America Foundation that develops tools to improve digital access in isolated and low-income communities, seeks to address both with the 
+Red Hook WiFi Project
+, a wireless network created for and owned by the local community. 
+Tony Schloss
+, Director of Media Programs at RHI, and 
+Alyx Baldwin
+, a designer who began work on the network while a masters candidate at Parsons The New School for Design and continues on the project alongside OTI, spearhead the initiative, leveraging resilient infrastructure and an OTI-developed curriculum to train local youth as “Digital Stewards” capable of building and maintaining the network. We sat down with them to discuss how locally controlled infrastructure, community-based applications, and neighborhood knowledge can produce both virtual resources and concrete benefits. –J.T.
+
+WiFi router serving Coffey Park attached to an antenna | Photo by Jonathan Baldwin
+
+						Urban Omnibus (UO):
+					
+
+What was the impetus for creating the Red Hook WiFi Project and what brought your organizations together?
+
+						Tony Schloss (TS):
+					
+
+The overarching goal is to use technology for community development, and a WiFi network can be an incredible tool with which to do that. We are creating a community-owned network to provide Internet resources and, more importantly, a platform for local communication. Red Hook is a very isolated community: we’re cut off by a highway and sandwiched in by the water. It’s really hard to get information to people who might need it, and there’s been no central place for local communication. There are neighborhood services available to residents that not everybody takes advantage of, and people need help with things like finding jobs, getting their benefits, or responding to court orders. This network can help people figure out those processes. There are also two sides to the neighborhood: the public housing and the middle-class homeowners. My hope is that the network is a virtual space where everyone meets together.
+
+We decided to create a public WiFi network after conducting a survey, which revealed that many local residents access the Internet primarily through mobile phones — not many people have wireless routers in their houses, and many have one or no computer. When we first set up WiFi around our building, a lot of young people came and sat outside to use it, even when the office was closed, which told us we were providing a needed service.
+
+Eventually we hope to provide a low-cost option in people’s homes also. The Internet infrastructure of the United States is largely controlled by several media companies who set high, mostly arbitrary prices for access. As of three years ago, if you lived in the Red Hook Houses you could only get service from one provider, which didn’t seem fair or appropriate. Local infrastructure can allow us to offer alternatives.
+
+L: Bus Time Application, M: Red Hook WiFi Splash Page, R: Stop & Frisk Application | Images courtesy of Jonathan Baldwin
+
+						Alyx Baldwin (AB):
+					
+
+I began work on the project before I joined OTI when I was at Parsons in the Masters of Design Technology program. My thesis was on social incentives behind wireless mesh networks and I wanted to work with a community to test out some of my ideas. First, we set up a small wireless network at RHI. I built in a splash page, which is what you see when you connect to the network, that serves as a community hub where we could post news announcements and people could add to a comment feed. That blossomed into a mapping platform with applications attached to it that were developed in coordination with the community, like an app for reporting where and when a stop and frisk has occurred and a tracker for the B61 bus.
+
+						UO:
+					
+
+How did that community involvement process work?
+
+						AB:
+					
+
+It started with groups within RHI. We organized a series of brainstorming sessions to determine how needs in the community could be addressed through digital applications on the network. I would build a prototype, bring it here to get feedback, and tweak it. It is an iterative process and there has to be a constant, open dialogue. It’s not about air-dropping technology somewhere; it’s about letting it grow naturally in response to the local context.
+
+Mesh network diagram: each point is a wireless router which collectively create the wireless network (in green) by spreading the direct connection to, in this case, two of the nodes. | Image via Commotion Wireless
+
+						UO:
+					
+
+Walk us through the basic technology of the network. What infrastructure does the project require?
+
+						TS:
+					
+
+A local server hosts the apps and is connected to a series of routers. First, we identified the tallest buildings in the neighborhood and built a ring of routers on some of those rooftops that connects with both the server and the Internet. Those routers spread connections to other routers at street level. All of these routers talk to each other and transmit the connection to ones farther away from the base ring. The only connection any of those stations need, except for those that connect directly to the Internet, is to a power source. The routers are fairly cheap, waterproof, and quite powerful. Each one can handle upwards of 50 connections at a time. The Internet connection for the network is provided through Brooklyn Fiber, a local Internet Service Provider.
+
+						AB:
+					
+
+When you connect to the Red Hook WiFi signal, you are directed to the map-based web application. In addition to the Bus Time and Stop & Frisk apps, we now have Twitter and SMS integration, so you can tweet or text to the application if you aren’t directly connected to it and that information will be stored locally as well. The software, Tidepools, runs on the server locally so even if there is no Internet connection the network still works.
+
+						TS:
+					
+
+That’s significant, because even if the connection is cut off for some reason, you can still communicate within the neighborhood through the network. We equate the local ownership of the infrastructure with this local communication, and we all saw why that is important with Hurricane Sandy.
+
+The Tidepools map-based application that runs on the network | Image courtesy of Jonathan Baldwin
+
+						UO:
+					
+
+How did the network operate during Sandy, and what did that say about its potential for future use?
+
+						TS:
+					
+
+When the storm hit, there was no phone service because all the cell towers were down, but fortunately our power and Verizon connection still worked, so our local network still provided WiFi access. RHI became the recovery hub in the neighborhood. People came to charge their phones, stay warm, and use the network to let people know that they were OK. About a week and a half later, FEMA heard about our work and wanted to support it. They provided a satellite uplink so we were no longer using RHI’s Verizon connection, and we were able to expand the Internet connection to the node at Coffey Park, which previously didn’t have it.
+
+						AB:
+					
+
+Before Sandy, we had trouble getting permission to put routers on certain buildings that could serve as crucial nodes in expanding coverage. When we talked to schools, the discussion got lost in a black hole of bureaucracy. We tried to talk to an auto mechanics shop, but they wanted to know what was in it for them. A lot of these frustrating barriers disintegrated after Sandy. The shop allowed us to put a router on their roof. Everything basically unfolded over a weekend.
+
+						TS:
+					
+
+People realized we’re all stuck down here together and have to handle our own business to some degree. We were extremely lucky to have the support of so many volunteers from around the city, but they weren’t here before Sandy and they won’t always be here. Sandy really strengthened the ties in the neighborhood.
+
+Red Hook WiFi Coverage Map
+
+						UO:
+					
+
+What are some of the other challenges that you face in expanding the network?
+
+						TS:
+					
+
+I have found that pitching the project to someone who doesn’t have a connection to the neighborhood beyond owning a building here is a losing battle. Generally, we’ve been very lucky that many of the community members we’ve targeted are invested in Red Hook. In other parts of New York, who owns what building and where they live is often less clear.
+
+						AB:
+					
+
+There are so many human factors. If you are able to site a router in someone’s apartment, they might move or unplug it and that can cut off part of the network. Environmental factors, from building materials to weather conditions, affect functionality. Maintenance is a huge challenge, because things just break. You have to have a support structure in place locally, a group that is committed to repairing and spreading the word about the network. It’s best to have someone come and teach those skills so the knowledge becomes self-sustaining in the community. If that knowledge source leaves without teaching others, then the network will collapse. And you need a community anchor where that information exchange can happen. That’s what RHI is.
+
+						TS:
+					
+
+Eventually we need the network to be financially self-sustaining too. If we had 300 people paying $5 a month, we’d have plenty of money for support and Internet access. We have to build the capacity to maintain the network. That’s where the Digital Stewards program really comes in.
+
+A Digital Steward-produced video for Steve’s Key Lime Pie
+
+						UO:
+					
+
+What is the Digital Stewards program, and how does it factor into Red Hook WiFi?
+
+						TS:
+					
+
+Digital Stewards is an open-source curriculum that OTI developed to teach people how to build a community wireless network. OTI first implemented it in Detroit with a group of community activists and we’ve adapted it for our youth development work. Young adults work as RHI employees through a one-year fellowship where they learn technical and community organizing skills by building and maintaining the network. Then we work to place them into a job or training program. Right now we have eight young adults between the ages of 19 and 24 that are doing network installation, maintenance, and promotion. This summer the Digital Stewards went through a digital boot camp, which we organized with Dance Theatre Etcetera, Good Shepherd Services, and the South Brooklyn Community High School, to learn video production and graphic design. During that time they canvassed neighborhood businesses to pitch the project and produce advertisements for those businesses that were then posted on the network.
+
+A Digital Steward is named such because in addition to building a network, they’re bringing community members into the process and spreading knowledge in the neighborhood. To that end, they also provide support to computer labs in the neighborhood. The Digital Stewards are able see physical results of their work — the physical router and the signal that’s broadcast to the community — and that makes a difference for them.
+
+There is, however, a certain point when you need to be a network engineer to figure out some problem, at which point we call someone at OTI. If we didn’t have that partnership, we would be stuck.
+
+Digital Steward Katherine Ortiz in installation mode | Photo courtesy of Red Hook WiFi
+
+						UO:
+					
+
+Do you have plans to share this with other neighborhoods and is there potential to scale it up beyond Red Hook?
+
+						AB:
+					
+
+All of the resources and software we are using are open source. We developed some of the applications specifically for the neighborhood, but they could be adopted elsewhere, as can the methodology behind it: listening to how people in a community are already working on an issue.
+
+						TS:
+					
+
+We have had some successes in Red Hook that could be unique to the setting. RHI has deep community ties, and we’ve been able to use those to build the network. Our partnerships with Brooklyn Fiber, OTI, and Jonathan have been key to making big improvements as well.
+
+						UO:
+					
+
+What are your plans for the future of the network?
+
+						TS:
+					
+
+This fall we’re going to bring in more community members. We also want to expand the network and determine the best strategy for that growth. It might be possible to cover the important areas in Red Hook through our current model of partnering with businesses and residents, blanketing the neighborhood. It may also turn out that we can only reach a certain saturation of the neighborhood that way before we have to go to a company that professionally installs these networks.
+
+Tony Schloss and the Digital Stewards | Image courtesy of Red Hook WiFI 
+
+						TS:
+					
+
+One obvious thing that’s missing is getting the network onto Red Hook Houses property. That was part of the original intent, and we have met with NYCHA to discuss it, but it’s a bureaucratic, social, and technical challenge. Because we realized that process would be a long one, we’ve decided to surround the Red Hook Houses with the network as an interim strategy. We also want to take one building in the Red Hook Houses and see if we can spread the network just through residents putting routers in their apartment windows.
+
+We are working toward this access goal, but local communication is still primary. I hate that I have to keep bringing up Sandy, but the example I always think of is seeing the water rising and knowing that my family should evacuate. I wish there was a way for me to have shared that information. There’s not too much trust in government officials telling you to leave when they’ve been wrong before. If I could have told the neighborhood what I saw, maybe that local information, which people are more willing to trust, could have changed things.
+
+						UO:
+					
+
+You mentioned the process of deciding whether expansion requires going outside of the community for expertise. How would that affect the community-owned nature of the network?
+
+						AB:
+					
+
+If the community or the Digital Stewards decide that outside expertise is required, that expansion doesn’t erase the network’s independence — as long as the original catalyst for that decision is the community or the Digital Stewards.
+
+						TS:
+					
+
+I do think there is a benefit to the community owning and supporting the physical network, but what we do with that network is more significant. Who cares who installed the infrastructure as long as the community can control it? It’s called Red Hook WiFi, not Red Hook Initiative WiFi, because we want the network to benefit and involve everybody. When you connect to the network and see a splash page that you recognize as something built by and for you and this community; that sense of ownership is what’s most important.
+
+Alyx Baldwin, known as Jonathan at the time of publication, is an interaction/visual designer and creative technologist, who has developed a range of social/communication mobile technology projects, writings on Internet culture, and critical interactive design works. Past work includes art direction for a variety of design agencies and animated, educational videos for the Large Hadron Collider at CERN. Alyx holds a Master of Fine Arts in Design and Technology from Parsons, The New School for Design, and a Bachelor of Fine Arts in Design, Photography, and Film from the University of Southern California. For more on Baldwin’s work, visit 
+www.jrbaldwin.com
+.
+
+Tony Schloss is the Director of Media Programs at the Red Hook Initiative. A former recording engineer and producer who found working with youth to be infinitely more rewarding then recording guitar solos ad nauseam, Tony joined the Red Hook Initiative by creating RHI Radio, a youth radio program at the nonprofit. This work developed into other types of media production with teenagers and young adults from the Red Hook community and eventually grew into the Red Hook WiFi project. Tony also co-founded the Digital Waves Youth Media Festival held each year in partnership with WNYC. Tony holds a Masters in Education from Stanford University, where he attended the Learning, Design and Technology program.
+
+The views expressed here are those of the authors only and do not reflect the position of The Architectural League of New York.
+
+Infrastructure
+
+Technology
+
+Community Engagement
+
+Information Technology
+
+Brooklyn
+
+Comment
+
+Name*
+
+Email (will not be published)*
+
+ 
+Save my name, email, and website in this browser for the next time I comment.
+
+ 
+
+Δ
+
+ 
+
+Explore
+
+Urban Agriculture: East New York: Agricultural Organizing
+
+Deborah Greig, Urban Agriculture Coordinator for East New York Farms!, explains the history of the organization in the context of the neighborhood.
+
+					
+											Urban Omnibus
+					
+				
+
+ • 
+
+Jan 21, 2009
+
+Private/Public: Rethinking Design for the Homeless
+
+Deborah Grossberg Katz and Terri Chiao explore how small-scale design can address broader social issues through their research on the systemic cycle of homelessness in the city.
+
+					
+											Terri Chiao
+					
+				
+
+ and 
+ 
+
+					
+											Deborah Grossberg Katz
+					
+				
+
+ • 
+
+Nov 11, 2009
+
+Urban Agriculture: East New York: Farmers Market
+
+A documentary video in five chapters that explains how East New York’s urban agriculture movement evolved. This chapter is a portrait of the East New York farmers' market.
+
+					
+											Urban Omnibus
+					
+				
+
+ • 
+
+Jan 06, 2009
+
+About
+
+Contact
+
+Support
+

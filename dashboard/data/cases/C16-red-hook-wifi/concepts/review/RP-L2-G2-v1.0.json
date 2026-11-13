@@ -1,0 +1,19 @@
+{
+  "packetId": "RP-L2-G2-v1.0",
+  "supersedes": "RP-L2-G2-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "G2",
+  "caseId": "C16",
+  "decidedAt": "2026-11-13",
+  "researcherDecision": {
+    "action": "accept",
+    "rationale": "L2-G2 按推荐通过",
+    "modifiedContent": null,
+    "allowNextGate": true
+  },
+  "frozenArtifacts": ["shared_concept_candidates_v1.0", "concept_mappings_v1.0", "RP-L2-G2-v1.0"],
+  "openIssues": [
+    "4 个候选均单案例",
+    "NC-C16-08 反向机制未进入共享概念"
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "caseId": "C18",
+  "version": "v1.0",
+  "status": "case_pack_handoff",
+  "generatedAt": "2026-11-13",
+  "nativeConcepts": [
+    {
+      "id": "NC-C18-01",
+      "label": "LLM+RAG+时空知识图谱社区信息平台",
+      "entityType": "technology",
+      "definition": "以四层架构整合时空知识图谱、地理邻近性多模态RAG、垂域大模型和时空分析引擎的社区信息服务平台。",
+      "examples": ["方元问问APP", "感知—传输—平台—应用架构"],
+      "sourceRelationIds": ["R017", "R018", "R019", "R020", "R021", "R022", "R023", "R025", "R026", "R027", "R028", "R029", "R030", "R031", "R036", "R100"],
+      "status": "native_confirmed"
+    },
+    {
+      "id": "NC-C18-02",
+      "label": "设施信息检索与主动推送",
+      "entityType": "capability",
+      "definition": "围绕公共服务设施信息，以检索与情境推送双模式提供设施查询和推荐的能力。",
+      "examples": ["检索+推送", "附近急诊医院", "亲子图书馆"],
+      "sourceRelationIds": ["R009", "R012"],
+      "status": "native_confirmed"
+    },
+    {
+      "id": "NC-C18-03",
+      "label": "邻里UGC与在线社交",
+      "entityType": "capability",
+      "definition": "支持居民以文本、语音、图片发布内容、评价设施、讨论社区议题并沉淀用户生成内容的能力。",
+      "examples": ["设施评价", "社区舆情", "UGC在地知识"],
+      "sourceRelationIds": ["R010", "R013"],
+      "status": "native_confirmed"
+    },
+    {
+      "id": "NC-C18-04",
+      "label": "社区资源供需评估与优化建议",
+      "entityType": "capability",
+      "definition": "监测社区资源供需、聚合居民反馈并生成设施调度或空间优化建议的能力。",
+      "examples": ["资源缺口反馈", "交通与停车调度", "绿地/商业配置建议"],
+      "sourceRelationIds": ["R011", "R014", "R016", "R033"],
+      "status": "native_confirmed"
+    },
+    {
+      "id": "NC-C18-05",
+      "label": "高校新生30天平台试点",
+      "entityType": "action",
+      "definition": "2024年秋季在北京大学深圳研究生院面向新生开展的约30天平台试运行。",
+      "examples": ["新生渗透率46%", "活跃峰值1500", "信息获取15→3分钟"],
+      "sourceRelationIds": ["R037", "R038", "R039", "R040", "R041", "R042", "R043", "R044", "R045", "R046", "R047", "R048"],
+      "status": "native_confirmed"
+    },
+    {
+      "id": "NC-C18-06",
+      "label": "高密度混合社区网格化治理试点",
+      "entityType": "action",
+      "definition": "南头古城试运行中以管理端网格化系统处理工单、识别痛点、更新导视并支持居民互助的行动。",
+      "examples": ["工单响应提升67%", "23项高频痛点", "1472次线下交互"],
+      "sourceRelationIds": ["R049", "R050", "R051", "R052", "R053", "R054", "R055", "R056", "R057", "R058", "R059", "R060", "R061", "R062", "R063", "R064", "R065", "R066", "R067", "R068", "R101"],
+      "status": "native_confirmed"
+    },
+    {
+      "id": "NC-C18-07",
+      "label": "开放日小程序打卡分享",
+      "entityType": "action",
+      "definition": "2025年WE社区开放日中使用方元问问小程序进行线上打卡、体验分享和校社互动的行动。",
+      "examples": ["线上打卡", "分享体验", "社区主理人"],
+      "sourceRelationIds": ["R093", "R094", "R095", "R096"],
+      "status": "native_confirmed"
+    },
+    {
+      "id": "NC-C18-08",
+      "label": "大模型答案验证与幻觉抑制",
+      "entityType": "capability",
+      "definition": "通过知识图谱实体比对、来源交叉验证、分类器筛选、人工复核和专家审核提高大模型回答可靠性的能力。",
+      "examples": ["答案验证机制", "人工复核", "专家审核"],
+      "sourceRelationIds": ["R030", "R031", "R084"],
+      "status": "native_confirmed"
+    },
+    {
+      "id": "NC-C18-09",
+      "label": "社会创新项目获奖与慈善资助",
+      "entityType": "outcome",
+      "definition": "方元问问项目在益创星·2024获赛道金奖，并出现总资助、特别奖和受助组合的多口径报道。",
+      "examples": ["赛道金奖", "40万元总资助", "20万元特别奖争议"],
+      "sourceRelationIds": ["R069", "R070", "R071", "R072", "R073", "R074", "R075", "R076", "R077", "R078", "R079"],
+      "status": "native_confirmed"
+    },
+    {
+      "id": "NC-C18-10",
+      "label": "校社联动与居民学生互助",
+      "entityType": "task",
+      "definition": "2025年开放日中以小程序为媒介，试图加强高校学生与社区居民互动、促进彼此联结的任务。",
+      "examples": ["校社联结", "居民与学生互助"],
+      "sourceRelationIds": ["R096", "R097"],
+      "status": "native_confirmed"
+    }
+  ],
+  "sharedConceptCandidates": [
+    {
+      "candidateId": "SC-C18-01",
+      "label": "LLM驱动的社区信息服务平台",
+      "definition": "以LLM、检索增强生成和社区时空知识为基础，面向居民/管理者提供社区信息与治理服务的平台。",
+      "entityType": "technology",
+      "supportingNativeIds": ["NC-C18-01"],
+      "supportingCaseIds": ["C18"],
+      "status": "candidate_single_case"
+    },
+    {
+      "candidateId": "SC-C18-02",
+      "label": "地理邻近性增强RAG",
+      "definition": "在检索增强生成中融合地理邻近、语义关联和社会网络关系的技术方案。",
+      "entityType": "technology",
+      "supportingNativeIds": ["NC-C18-01", "NC-C18-08"],
+      "supportingCaseIds": ["C18"],
+      "status": "candidate_single_case"
+    },
+    {
+      "candidateId": "SC-C18-03",
+      "label": "设施信息检索与主动推送",
+      "definition": "面向社区公共服务设施的检索、筛选和情境化主动推送服务。",
+      "entityType": "capability",
+      "supportingNativeIds": ["NC-C18-02"],
+      "supportingCaseIds": ["C18"],
+      "status": "candidate_single_case"
+    },
+    {
+      "candidateId": "SC-C18-04",
+      "label": "高密度社区网格化数字治理",
+      "definition": "以网格化系统和数据平台支持高密度社区工单、痛点识别、导视更新与居民互动的治理方式。",
+      "entityType": "action",
+      "supportingNativeIds": ["NC-C18-06"],
+      "supportingCaseIds": ["C18"],
+      "status": "candidate_single_case"
+    },
+    {
+      "candidateId": "SC-C18-05",
+      "label": "校社联动小程序打卡",
+      "definition": "在大学城/社区开放日中通过小程序线上打卡、分享体验，促进高校学生与居民互动的方式。",
+      "entityType": "action",
+      "supportingNativeIds": ["NC-C18-07"],
+      "supportingCaseIds": ["C18"],
+      "status": "candidate_single_case"
+    }
+  ],
+  "conceptMappings": [],
+  "handoff": "scalable-concept-framework",
+  "note": "本文件只提交单案原生概念与共享概念候选，不确认正式共享概念。"
+}

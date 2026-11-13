@@ -1,0 +1,43 @@
+{
+  "packet_id": "RP-C19-L2-G1-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G1",
+  "case_id": "C19",
+  "scope": "C19 原生概念清单、类型、定义、案例内范围与边界疑问",
+  "generated_at": "2026-11-13",
+  "status": "pending",
+  "counts": {
+    "native_concepts": 25,
+    "action": 4,
+    "technology": 5,
+    "outcome": 3,
+    "target": 5,
+    "actor": 3,
+    "context": 2,
+    "task": 1,
+    "capability": 2,
+    "existing_shared_concepts": 73,
+    "existing_mappings": 801
+  },
+  "boundary_issues": [
+    "NC-C19-01 action vs actor role",
+    "NC-C19-07 outcome vs target document",
+    "NC-C19-13 solar pavilion technology vs linear park target",
+    "NC-C19-15 Loiter actor vs lease conflict context",
+    "NC-C19-18 council dispute context vs negative outcome",
+    "NC-C19-23 cross-jurisdiction context vs spatial target"
+  ],
+  "decisions_requested": [
+    "Accept 25 native concepts and definitions",
+    "Keep composite concepts unsplit; use partial mappings",
+    "Keep NC-C19-01 as action",
+    "Allow single-case candidates with recorded exception",
+    "Accept historical review scope C01-C16"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_case_review": false,
+    "note": "C17/C18 未入库，历史回查覆盖 C01-C16"
+  }
+}

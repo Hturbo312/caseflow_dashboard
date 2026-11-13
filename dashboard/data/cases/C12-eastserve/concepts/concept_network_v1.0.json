@@ -1,0 +1,254 @@
+{
+  "version": "L2-C12-shared-v1.0",
+  "case_id": "C12",
+  "generated_at": "2026-11-13",
+  "shared_concepts": [
+    {
+      "id": "SC-C12-101",
+      "label": "家庭数字终端部署与接入",
+      "entity_type": "action",
+      "supporting_case_ids": [
+        "C07",
+        "C12"
+      ]
+    },
+    {
+      "id": "SC-C12-102",
+      "label": "社区门户与本地公共服务入口",
+      "entity_type": "technology",
+      "supporting_case_ids": [
+        "C01",
+        "C07",
+        "C12"
+      ]
+    }
+  ],
+  "native_concepts": [
+    {
+      "id": "NC-C12-02",
+      "label": "社区无线宽带作为替代性最后一英里",
+      "entity_type": "technology",
+      "case_id": "C12"
+    },
+    {
+      "id": "NC-C12-04",
+      "label": "安装链条中的本地就业",
+      "entity_type": "action",
+      "case_id": "C12"
+    },
+    {
+      "id": "NC-C12-05",
+      "label": "补贴设备与信用合作社贷款",
+      "entity_type": "capability",
+      "case_id": "C12"
+    },
+    {
+      "id": "NC-C12-06",
+      "label": "公共项目向私营/社会企业运营转换",
+      "entity_type": "action",
+      "case_id": "C12"
+    },
+    {
+      "id": "NC-C12-07",
+      "label": "组织退出与基础设施转移分离",
+      "entity_type": "outcome",
+      "case_id": "C12"
+    },
+    {
+      "id": "NC-C12-08",
+      "label": "门户作为本地公共服务入口",
+      "entity_type": "technology",
+      "case_id": "C12"
+    },
+    {
+      "id": "NC-C12-09",
+      "label": "家庭设备补贴与分发",
+      "entity_type": "action",
+      "case_id": "C12"
+    },
+    {
+      "id": "NC-C12-10",
+      "label": "三小时入门培训",
+      "entity_type": "action",
+      "case_id": "C12"
+    },
+    {
+      "id": "NC-C12-11",
+      "label": "本地内容供给",
+      "entity_type": "capability",
+      "case_id": "C12"
+    },
+    {
+      "id": "NC-C12-12",
+      "label": "组合干预的项目整合与交付管理",
+      "entity_type": "action",
+      "case_id": "C12"
+    },
+    {
+      "id": "NC-C12-13",
+      "label": "居民小组与内容建议",
+      "entity_type": "action",
+      "case_id": "C12"
+    },
+    {
+      "id": "NC-C12-14",
+      "label": "社区冠军技术支持",
+      "entity_type": "action",
+      "case_id": "C12"
+    }
+  ],
+  "edges": [
+    {
+      "mapping_id": "MAP-C12-001",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-02",
+      "shared_concept_id": "SC-C01-134",
+      "mapping_type": "native_hyponym",
+      "decision": "accepted"
+    },
+    {
+      "mapping_id": "MAP-C12-002",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-04",
+      "shared_concept_id": null,
+      "mapping_type": "no_map",
+      "decision": "keep_native"
+    },
+    {
+      "mapping_id": "MAP-C12-003",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-05",
+      "shared_concept_id": null,
+      "mapping_type": "no_map",
+      "decision": "keep_native"
+    },
+    {
+      "mapping_id": "MAP-C12-004",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-06",
+      "shared_concept_id": "SC-C01-114",
+      "mapping_type": "partial_or_approximate",
+      "decision": "accepted_partial"
+    },
+    {
+      "mapping_id": "MAP-C12-005",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-07",
+      "shared_concept_id": "SC-C01-175",
+      "mapping_type": "partial_or_approximate",
+      "decision": "accepted_partial"
+    },
+    {
+      "mapping_id": "MAP-C12-006",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-08",
+      "shared_concept_id": "SC-C01-132",
+      "mapping_type": "partial_or_approximate",
+      "decision": "accepted_partial"
+    },
+    {
+      "mapping_id": "MAP-C12-007",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-09",
+      "shared_concept_id": "SC-C12-101",
+      "mapping_type": "native_hyponym",
+      "decision": "accepted"
+    },
+    {
+      "mapping_id": "MAP-C12-008",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-10",
+      "shared_concept_id": "SC-C01-158",
+      "mapping_type": "native_hyponym",
+      "decision": "accepted"
+    },
+    {
+      "mapping_id": "MAP-C12-009",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-11",
+      "shared_concept_id": "SC-C01-143",
+      "mapping_type": "partial_or_approximate",
+      "decision": "accepted_partial"
+    },
+    {
+      "mapping_id": "MAP-C12-010",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-12",
+      "shared_concept_id": "SC-C01-155",
+      "mapping_type": "partial_or_approximate",
+      "decision": "accepted_partial"
+    },
+    {
+      "mapping_id": "MAP-C12-011",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-13",
+      "shared_concept_id": "SC-C01-151",
+      "mapping_type": "native_hyponym",
+      "decision": "accepted"
+    },
+    {
+      "mapping_id": "MAP-C12-012",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-14",
+      "shared_concept_id": "SC-C01-158",
+      "mapping_type": "partial_or_approximate",
+      "decision": "accepted_partial"
+    },
+    {
+      "mapping_id": "MAP-C12-013",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-08",
+      "shared_concept_id": "SC-C12-102",
+      "mapping_type": "native_hyponym",
+      "decision": "accepted"
+    },
+    {
+      "mapping_id": "MAP-C12-014",
+      "case_id": "C12",
+      "native_concept_id": "NC-C12-11",
+      "shared_concept_id": "SC-C12-102",
+      "mapping_type": "partial_or_approximate",
+      "decision": "accepted_partial"
+    },
+    {
+      "mapping_id": "MAP-C12-015",
+      "case_id": "C07",
+      "native_concept_id": "NC-C07-technology-005",
+      "shared_concept_id": "SC-C12-101",
+      "mapping_type": "native_hyponym",
+      "decision": "accepted_additive"
+    },
+    {
+      "mapping_id": "MAP-C12-016",
+      "case_id": "C07",
+      "native_concept_id": "NC-C07-action-002",
+      "shared_concept_id": "SC-C12-101",
+      "mapping_type": "partial_or_approximate",
+      "decision": "accepted_additive"
+    },
+    {
+      "mapping_id": "MAP-C12-017",
+      "case_id": "C01",
+      "native_concept_id": "NC-C01-technology-006",
+      "shared_concept_id": "SC-C12-102",
+      "mapping_type": "partial_or_approximate",
+      "decision": "accepted_additive"
+    },
+    {
+      "mapping_id": "MAP-C12-018",
+      "case_id": "C01",
+      "native_concept_id": "NC-C01-technology-009",
+      "shared_concept_id": "SC-C12-102",
+      "mapping_type": "partial_or_approximate",
+      "decision": "accepted_additive"
+    },
+    {
+      "mapping_id": "MAP-C12-019",
+      "case_id": "C07",
+      "native_concept_id": "NC-C07-technology-003",
+      "shared_concept_id": "SC-C12-102",
+      "mapping_type": "partial_or_approximate",
+      "decision": "accepted_additive"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+Title: Reshaping Urban Futures: Applying digital technologies for urban resilience
+
+URL Source: https://www.undp.org/geneva/blog/reshaping-urban-futures-applying-digital-technologies-urban-resilience
+
+Markdown Content:
+On October 31st, as we celebrate [**World Cities Day,**](https://media.un.org/en/asset/k1z/k1zuchrctr) we recognise the vital role cities play in our global tapestry, serving as hubs of diversity, innovation, and shared aspirations.
+
+Urban resilience has become a cornerstone of sustainable urban development, ensuring cities can withstand, adapt to, and recover from shocks and stresses, while preventing the creation of new risks in the face of rapid urbanization and navigating the growing impact of climate change.
+
+Understanding the evolving landscape, UNDP is committed to leveraging the catalytic potential offered by digital technologies and innovation to re-imagine urban landscapes and to secure resilient urban futures. [**UNDP’s Strategic Plan 2022-2025**](https://strategicplan.undp.org/#:~:text=This%20new%20Strategic%20Plan%202022,approaches%20aimed%20at%20transformative%20change.) reinforces the need to harness the potential of latest advancements in digital and other technologies, applying it as a key enabler to build resilience and to advance sustainable development.
+
+Translating the UNDP Strategic Plan vision into action, [**UNDP's Urban Risk Management and Resilience Strategy**](https://www.undp.org/sites/g/files/zskgke326/files/2021-12/UNDP-Urban-Risk-Management-and-Resilience-Strategy.pdf) acknowledges the limitless avenues offered by innovation and digital technologies in re-shaping urban futures. Given the rapid expansion of digital technologies and their adoption by countries and communities, especially those in urban areas, the potential to harness the reach of digital technologies across a spectrum of risk and development contexts is being increasingly tapped into – while also being the key to bridge this critical gap in the urban resilience action over the past decade.
+
+> Pillar 5: Harness the potential of innovation and digital technologies for resilient urban futures by maximizing the potential of innovation and digital technology-based solutions to address evolving needs and use methodologies such as Foresight, scenario planning, resilience benchmarking etc. to improve urban services and functionality, including urban planning and crisis management systems.
+
+[Video 5](https://www.undp.org/sites/g/files/zskgke326/files/2023-10/world_cities_day_gifs_3.mp4)
+#### **Technology in action: augmenting cities’ capacities to beat the heat**
+
+Due to variability caused by processes associated with climate change, extreme heatwaves are becoming increasingly pronounced. Marked by prolonged spells, especially in urban areas, the effects are compounded due to the heat island effect. Rising temperatures and searing heatwaves are affecting hitherto unaffected countries and communities in the northern hemisphere – especially the vulnerable segments of society like the elderly, children, women and the disadvantaged.
+
+Complementing the conventional disaster/climate risk reduction and adaptation interventions, UNDP is increasingly fostering application of digital technology-based solutions to increase cities' capacity and capabilities to be resilient to the heatwaves, through community-centered, impact-driven interventions – especially in cities where the typical built environment and insufficient natural resource buffer tends to trap the heat and aggravate the heat island effect.
+
+Recognising this existing and increasingly aggravating threat, UNDP is taking programmatic action to address the challenges posed by heatwaves in cities, which are often exacerbated by the heat island effect.
+
+With the help of cutting-edge technology, data analytics, and community involvement, the cities are being supported to identify hotspots, set up early warning systems, and implement risk-reduction measures for heat-related hazards and successfully demonstrate the potential of combining digital technology and innovation with community involvement to address the heatwave challenge and advance urban resilience action.
+
+The heatwave resilience building initiative takes a three-pronged approach viz.
+
+1.   Identify and map the susceptible cities, communities and areas on a digital platform;
+2.   A mobile application will offer real-time heatwave alerts, emergency contacts, and maps of cool places. It is a two-way tool for authorities and residents to communicate. Digital channels will be used for awareness campaigns to inform the public about the dangers of heatwaves and possible solutions.
+3.   Complementing the use of digital technology, nature-based solutions will be integrated to fully address the heatwave challenge in cities. This includes initiatives like redesigning public spaces to include heat-resistant features like water and shade, incentivizing cool and green roofs, etc.   
+
+![Image 1](https://www.undp.org/sites/g/files/zskgke326/files/styles/image_with_credit_caption_wide_large_1920_x897_/public/2023-10/photo-2023-10-04-18-44-42_2.jpg?itok=MENROnby)
+
+For us in UNDP, digital technology isn’t just about transforming how we address heat-related challenges, but it is also a game-changer for addressing a broad spectrum of challenges related to governance, improving urban service delivery, and managing risks such as urban floods, etc.
+
+UNDP is supporting several urban resilience projects where digital technology takes center stage. Take, for instance, our initiative in [Serbia](https://www.undp.org/serbia), where we utilized specialized software solutions and hardware infrastructure to map second-order water stream confluences in the Drina River Basin to help downstream municipalities plan better to mitigate and manage urban flooding.
+
+UNDP has also been at the forefront of climate-induced water stress, flood hazard and mudflow mitigation in [Bishkek, Kyrgyzstan](https://www.undp.org/kyrgyzstan) where we facilitated the enhancement and scaling up of effective water, mudflow, and flood management practices using GIS technologies.
+
+While in Kosovo 1, UNDP, in partnership with UrbanistAI has utilized [AI in the city of Prishtina](https://innovation.eurasia.undp.org/pristina-youth-urban-spaces/) to foster greater public involvement in urban planning, envisioning urban spaces and decision-making to demonstrate the catalytic potential of AI to build resilient cities and to amplify the voices of citizens to determine their own urban landscape.
+
+[Video 6](https://www.undp.org/sites/g/files/zskgke326/files/2023-10/world_cities_day_gifs_2.mp4)
+
+#### **Collaborating for a Resilient Future**
+
+UNDP is looking ahead to collaborate with a diverse range of partners – including governments, private sector, tech entities and research organizations, people with disabilities, women and youth as well as communities in general -- to broaden the horizons of urban resilience across a wide range of issues, embracing the universal power and limitless potential of digital technology. The idea being to use digital-centric approach to better equip cities to address existing demands while developing capabilities to meet the challenges and uncertainties of tomorrow and to transform them into resilient and thriving cities. Expanding the application of digital technologies and innovative initiatives is central to this endeavour.
+
+[1]_References to Kosovo shall be understood to be in the context of Security Council resolution 1244 (1999)._
+

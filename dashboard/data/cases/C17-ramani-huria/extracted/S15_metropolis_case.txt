@@ -1,0 +1,125 @@
+Ramani Huria – flood resilience in Dar es Salaam City | use: urban sustainability exchange | Metropolis
+Cookies
+The
+use
+platform uses external services to improve your user experience. By agreeing to these services, your data may be accessed by these companies and provided to third parties. For further information please read our Privacy policy.
+Accept
+Decline
+Learn more and customize
+Linkedin
+Search
+Log in
+Linkedin
+Ramani Huria – flood resilience in Dar es Salaam City, Tanzania - © Ramani Huria
+- © Ramani Huria
+- © Ramani Huria 2.0
+- © Ramani Huria
+Arrow pointing to the left
+Arrow pointing to the right
+Item 1 of 4
+Ramani Huria – flood resilience in Dar es Salaam City
+Status
+completed
+100%
+City
+Dar es Salaam
+Main actors
+Local Government, City Government, Supranational / Intergovernmental Institutions, NGO / Philanthropy, Community / Citizen Group, Research Institutes / Universities
+Project area
+Neighborhood or district
+Duration
+2015 - 2018
+To combat natural disasters the Ramani Huria project uses community mapping to increase resilience throughout the city.
+In 2015, the Ramani Huria project commenced to address the consquences of floods in Dar es Salaam. More recently Ramani Huria 2.0 was launched to continue searching for the best ways of combating floods. Subsequently, several projects have been established including: drainage mapping, asset and threat mapping and soil sampling in addition to developing elevation tools to improve flood models and flood extents. The project relies on community participation to identify areas that are the most vulnerable.
+As the population of Dar es Salaam increases, so does the rate of flooding. The drainage channels remain the same width and depth and some become blocked by informal housing structures, while other drainage channels do not have outflow points such as streams, rivers, or the ocean and therefore the water is left to flow into residential areas. This is particularly serious as up to 70% of Dar es Salaam is composed of informal housing settlements.
+For further information about the case study, click here.
+Sustainable Development Goals
+City to City Barcelona FAD Award
+This project was shortlisted for the 'City to City Barcelona FAD Award' in 2018.
+Learn more
+City information
+City
+Dar es Salaam, Tanzania
+Size and population development
+As of 2022, Dar es Salaam had a population of approximately 6.7 million inhabitants, making it the largest city in Tanzania and one of the fastest-growing cities in Africa. The population has been growing rapidly, with an annual growth rate of about 5.6%, significantly higher than the national average.
+Population composition
+The population is predominantly African, with various ethnic groups from across Tanzania. The city has a relatively young population, with about 70% of residents under the age of 35. There is also a significant presence of South Asian, Arab, and European communities. The city attracts many internal migrants from other regions of Tanzania seeking economic opportunities.
+Main functions
+Although Dodoma is the official capital of Tanzania, Dar es Salaam remains the country's largest city and primary commercial hub. It serves as Tanzania's major seaport, handling about 95% of the country's international trade. The city is also the main transportation hub, with major road and rail connections to neighbouring countries, and hosts the country's main international airport (Julius Nyerere International Airport).
+Main industries / business
+The economy of Dar es Salaam is diverse, dominated by trade, manufacturing, and services. The port is a major economic driver, handling maritime trade for Tanzania and several landlocked neighbouring countries. Other significant sectors include telecommunications, banking and finance, tourism, and informal trade. The city hosts the Dar es Salaam Stock Exchange and headquarters of many national and international companies operating in Tanzania.
+Sources for city budget
+The city's budget comes from multiple sources, including local property taxes, business licenses, market fees, and parking fees. Significant funding also comes from the central government and international development partners. The city also generates revenue from various service charges and permits.
+Political structure
+Dar es Salaam is governed by the Dar es Salaam City Council, alongside five municipal councils: Ilala, Kinondoni, Ubungo, Temeke, and Kigamboni. Each municipal council has its own mayor and council members. The Regional Commissioner, appointed by the President of Tanzania, oversees the overall administration of the region.
+Administrative structure
+The city is administratively divided into five municipalities, each further subdivided into wards and sub-wards (mitaa). Each level has its own administrative structure responsible for local service delivery, development planning, and community engagement. The city council coordinates activities across all municipalities and handles citywide matters.
+Website
+https://www.dcc.go.tz
+Background and objectives
+Dar es Salaam is a coastal city on the Indian Ocean. It is the most populated and developed city in Tanzania and is considered to be one of the fastest growing cities in the world.
+[1]
+Dar es Salaam has a population of more than four (4) million people according to the 2012 national census. The population increases daily mainly due to the migration of people from rural areas looking for employment and a better standard of living.
+The city regularly faces flooding due to several reasons; being located in a flat area along the ocean, the clogging of drainage channels due to deposits of solid waste, and the construction of informal settlements where houses are built randomly blocking drainage channels.
+Ramani Huria 2.0 is expected to be completed in 2019. The project involves university students working with community members in order to collect the data that is needed to better understand the effects of flooding. The project uses open source software so the data can be accessed by everyone.
+Implementation
+Recently university students who completed their industrial training mapped a total of 228 sub-wards in Dar es Salaam to create a community asset and threat inventory, which is a collection of action maps, reports and open data for disaster management. They accomplished this within 7 weeks, with nearly 500 students out in the field mapping. This data presents local perspectives on what is important to communities, which is essential to first responders, as well as the residents themselves.
+In order to understand the best way to create resilience, the project workers have gathered data on key information - including elevation, hyperlocal boundaries, and soil composition. This data will add a 3rd dimension to flood maps and help identify the water flow as well as the people affected at the most granular level. The aim of this is to be able to accurately evaluate different components relevant to flooding, using inexpensive methods and to be able to replicate this process in other cities in Africa who are also facing floods.
+Ramani Huria uses open source tools in the collection of data, they are easy to learn and can be used by anyone who has an Android smartphone. These tools include Open Data Kit (ODK) and Open Map Kit (OMK), in the production of maps, Ramani Huria uses QGIS and Java OpenStreetMap (JOSM) which are also open source software. The project encourages community participation whereby the students and staff help the community members in map production, data collection, and map reading. This way the students from Ardhi University and the University of Dar es Salaam can develop their professional skills as planners.
+Financing and resources
+The World Bank is the main financier of the project, and Humanitarian OpenStreetMap Team (HOT) is the primary organization managing projects. OpenMap Development Tanzania (OMDTZ) is the primary local organization with the team carrying out activities.
+There are many stakeholders who are involved in the project and they all play important roles in its success. These include:
+students from Ardhi University and the University of Dar es Salaam who have experience and knowledge in mapping and mapping tools;
+community members who are mostly the beneficiaries of the project are trained by the students doing fieldwork;
+local government officers who facilitate the municipality, ward, sub-ward, and community members’ participation in the project;
+the Commission of Science and Technology (COSTECH);
+Dar es Salaam City Council;
+Global Facility for Disaster Reduction and Recovery (GFDRR);
+the Red Cross
+Results and impacts
+Since 2015, the project has mapped 49/90 wards in Dar es Salaam which is equivalent to approximately 50% of the city, comprising about 450,000 buildings and 1,700 schools.
+470 university students have been trained to work on the data collection and map production via the asset and threats project, and more than 300 Red Cross members have been involved in the mapping.
+The impact of this project can be seen geographically and is expected to expand as Ramani Huria operations spread to other areas of Dar es Salaam, and potentially to other cities in Tanzania.
+Barriers and challenges
+The major barriers faced when implementing the project and activities involve community members with political differences, some residents expect to earn money and threaten to not work if they are not paid. Other challenges are accuracy of GPS and local government officers providing minimal cooperation. Community members often expect quick results and the students are required to explain the benefits of the project to lead to a better understanding and agreement to work with collaboratively. In overcoming the problem of GPS accuracy, the technical staff of Ramani Huria helped students to set yup GPS apps on their smart phone.
+Lessons learned and transferability
+Ramani Huria is a project that is proving to be very helpful to the residents of Dar es Salaam.  The data collected is reliable as it uses the participatory approach including utilizing local knowledge. The project is suitable to be replicated in other cities that are facing floods, and they can use the same technology due to the open source platform being used.
+References
+Msilanga, M. Community Mapping for Flood Resilience. (2018). University of Turku/Department of Geography and Geology Available at:
+https://agile-online.org/conference_paper/cds/agile_2018/posters/155%20Fina_AGILE_2018_Msilanga.pdf
+http://ramanihuria.org/community-mapping-for-flood-modeling-2-0/
+http://ramanihuria.org/students-complete-industrial-training-228-mapped-subwards-and-action-maps-for-disaster-management-of-dar-es-salaam/
+Categories
+Climate adaptation
+Informal settlements and poverty alleviation
+Resilience and risk-management
+Smart city and technology
+Citizen engagement
+Education and training
+Sustainable Water Management
+External links / documents
+Ramani Huria: Community mapping for flood modeling 2.0
+On Map
+The Map will be displayed after accepting cookie policy
+Click to change settings
+Want to know more about this project?
+Dar es Salaam, Tanzania
+Maholi Innocent
+Individual
+| Director
+More
+Dar es Salaam, Tanzania
+Maholi Innocent
+Individual
+| Director
+More
+Photo gallery
+Do you like this project?
+Share it on
+LinkedIn ›
+Share it on
+X ›
+Share it on
+Facebook ›
+Share it via
+Email ›

@@ -1,0 +1,22 @@
+{
+  "case_id": "C15",
+  "version": "L2-C15-v1.0",
+  "status": "released",
+  "generated_at": "2026-11-13",
+  "amendments": [
+    {
+      "amendment_id": "AMD-C15-001",
+      "shared_concept_id": "SC-C01-156",
+      "shared_concept_label": "问题核查与闭环处置",
+      "change_type": "add_negative_example",
+      "negative_example": "不含居民自主点单/评单的闭环处置",
+      "reason": "C15 四单制增加居民自主点单、评单和微网格角色；这些是部分映射后保留的原生语义，不应自动归入 SC-C01-156。",
+      "scope": "只增加负例，不修改定义、不修改历史映射。",
+      "decision": "researcher_confirmed_l2_g3"
+    }
+  ],
+  "release_decision": {
+    "action": "accept",
+    "released_at": "2026-11-13"
+  }
+}

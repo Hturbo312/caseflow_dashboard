@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+
+Motor City Mapping
+
+</title>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport'>
+<meta content='http://motorcitymapping.org/images/logo.png' property='og:image'>
+<meta content='Motor City Mapping' property='og:title'>
+<meta content='article' property='og:type'>
+<meta content='https://motorcitymapping.org/' property='og:url'>
+<meta content='2901636,620415163' property='fb:admins'>
+<link href='http://motorcitymapping.org/images/logo.png' rel='image_src' type='image/jpeg'>
+<link href='/images/logo.png' rel='apple-touch-icon'>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="WlVcvFWnq4ZusOzCXH1xjAyTxDs5A7+xnnt79CriWY4=" name="csrf-token" />
+<style>
+  /*<![CDATA[*/
+    @font-face {
+      font-family: 'EntypoRegular';
+      src: url('/assets/entypo.eot');
+      src: url('/assets/entypo.eot?#iefix') format('embedded-opentype'),
+           url('/assets/entypo.woff') format('woff'),
+           url('/assets/entypo.ttf') format('truetype'),
+           url('/assets/entypo.svg#EntypoRegular') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+    .entypo { font-family: 'EntypoRegular'; }
+  /*]]>*/
+</style>
+<script>
+  //<![CDATA[
+    var data = {"signed_in":false,"current_user_id":null,"dataset":"horse","ds":"2014","has_petblock":null,"has_sitecontrol":null,"sitecontrol":false,"host":"motorcitymapping.org","username":"Anonymous","env":"production","channels":["/production/notify/public"],"faye_protocol":"https","faye_host":"sage.whydontweownthis.com","faye_port":9293,"faye_enabled":false,"session_id":"647333f05e5f4bf551e140082bca43df","ds_names":["sc","2015","2014","2013","2012","2012s","2011","bundle","taxes13","taxes12","taxes11","dfc","assessment","age","blightstat","nora","sci","demo","hhf","dlba","zoning","2014s"],"ds_lookup":{"sitecontrol":"sc","sheep":"2015","horse":"2014","snake":"2013","dragonfly":"2012","dragon":"2012s","rabbit":"2011","bundle":"bundle","taxes13":"taxes13","taxes12":"taxes12","taxes11":"taxes11","dfc":"dfc","assessment":"assessment","age":"age","blightstat":"blightstat","norasold":"nora","sci":"sci","demo":"demo","hhf":"hhf","dlba":"dlba","zoning":"zoning","summer14":"2014s"}};
+    var _sf_startpt=(new Date()).getTime();
+    var gps_disabled = null; // _map expects it to be called this
+  //]]>
+</script>
+
+<link href="/assets/application-81836ceda65fc71d6e2d9730cdc92dae.css" media="all" rel="stylesheet" type="text/css" />
+<script src="/assets/application-54c515e9471f8854f980763b530d1870.js" type="text/javascript"></script>
+<!--[if lte IE 8]>
+<![endif]-->
+<script>
+  //<![CDATA[
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-47464821-1', 'auto');
+    ga('send', 'pageview');
+  //]]>
+</script>
+
+
+
+</head>
+<body class='survey root survey-dash-overview'>
+<div id='container'>
+<div id='header'>
+<nav class='navbar navbar-inverse navbar-fixed-top'>
+<div class='container'>
+<div class='navbar-header'>
+<button class='navbar-toggle' data-target='#mainNav' data-toggle='collapse' type='button'></button>
+<a href="/" class="navbar-brand tk-cubano nomobile">Motor City Mapping</a>
+<a href="/" class="navbar-brand tk-cubano mobile_only">MCM</a>
+</div>
+<div class='collapse navbar-collapse' id='mainNav'>
+<ul class='nav navbar-nav'>
+<li><a href="/about">About</a></li>
+<li><a href="/contribute">Contribute</a></li>
+<li><a href="/training"><span class="translation_missing" title="translation missing: en.nav.training">Training</span></a></li>
+<li><a href="#signinModal" data-toggle="modal">Sign In</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<div class='clear_floats'></div>
+</div>
+
+<div id='bodywrap'>
+<div class='show-all' id='mapbox'>
+<div class='wrapper'>
+<div class='map' id='map'></div>
+<div class='key'>
+<span class='key_hilite '>
+</span>
+<span class='key_zones '>
+</span>
+<span class='key_portal '>
+</span>
+<span class='key_preset1 hide'>
+<span class='item'><div class='square' style='background-color: #75B08A;'></div><span class='lbl'>Structure</span>
+</span>
+<span class='item'><div class='square' style='background-color: #FF9D84;'></div><span class='lbl'>Lot</span>
+</span>
+</span>
+<span class='key_preset2 hide'>
+<span class='item'><div class='square' style='background-color: #75B08A;'></div><span class='lbl'>Occupied</span>
+</span>
+<span class='item'><div class='square' style='background-color: #F0E797;'></div><span class='lbl'>Possibly Occupied</span>
+</span>
+<span class='item'><div class='square' style='background-color: #FF5460;'></div><span class='lbl'>Unoccupied</span>
+</span>
+</span>
+<span class='key_preset3 hide'>
+<span class='item'><div class='square' style='background-color: #FF5460;'></div><span class='lbl'>Dumping</span>
+</span>
+<span class='item'><div class='square' style='background-color: #F0E797;'></div><span class='lbl'>Needs Boarding</span>
+</span>
+<span class='item'><div class='square' style='background-color: #75B08A;'></div><span class='lbl'>Needs Boarding And Has Dumping</span>
+</span>
+</span>
+<span class='key_preset4 hide'>
+<span class='item'><div class='square' style='background-color: #20e020;'></div><span class='lbl'>Surveyed</span>
+</span>
+<span class='item'><div class='square' style='background-color: #e02020;'></div><span class='lbl'>Unsurveyed</span>
+</span>
+</span>
+</div>
+<script>
+  //<![CDATA[
+    var map = null;
+    var x = function() {
+      var m = null;
+      var baseLayers = ["satellite","street"];
+      var layers     = [{"id":"sitecontrol","name":"Ownership Info","ty":"tilejson","extent":null,"elements":null,"url":"https://a.tiles.mapbox.com/v3/loveland.vf1xajor.json","template":"<b><a href='/sc/mi/wayne/detroit/{{fid}}'>{{address}}{{proaddress}}</a></b><br/>{{ownername1}}","style":null,"style_handler":null,"key":null,"names":null,"interaction":true,"mouseover":true,"geometry_type":null,"zindex":3,"hide":true},{"id":"hilite","name":"hilite","ty":"geojson","extent":null,"elements":{"type":"FeatureCollection","features":[]},"url":null,"template":"<b>{{address}}</b>{{#image}}<br/><img src='{{thumb}}'/>{{/image}}<div class='hide' data-id='{{target_id}}'></div>","style":{"color":"#3D7585","weight":2,"fillOpacity":0.7,"opacity":1},"style_handler":null,"key":{},"names":null,"interaction":true,"mouseover":true,"geometry_type":null,"zindex":null,"hide":false},{"id":"outline","name":"Outline","ty":"geojson","extent":null,"elements":{"type":"FeatureCollection","features":[]},"url":null,"template":null,"style":{"color":"#000000","opacity":1,"weight":5,"fillColor":"none","fillOpacity":0},"style_handler":null,"key":null,"names":null,"interaction":null,"mouseover":null,"geometry_type":null,"zindex":null,"hide":null},{"id":"zones","name":"zones","ty":"geojson","extent":null,"elements":{"type":"FeatureCollection","features":[]},"url":null,"template":"<h4><a href='/sc/{{path}}'>{{name}}</a></h4>","style":{"color":"#3D7585","weight":4,"fillOpacity":0.7,"opacity":1},"style_handler":null,"key":{},"names":null,"interaction":true,"mouseover":true,"geometry_type":null,"zindex":null,"hide":null},{"id":"portal","name":"portal","ty":"geojson","extent":null,"elements":{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-83.043922,42.404443],[-83.042534,42.404443],[-83.042506,42.401453],[-83.042504,42.401278],[-83.042503,42.401102],[-83.042497,42.400503],[-83.042494,42.400186],[-83.042485,42.399273],[-83.042481,42.398766],[-83.042476,42.398297],[-83.04247,42.397639],[-83.042469,42.39752],[-83.042468,42.397474],[-83.042468,42.397427],[-83.042448,42.396664],[-83.042429,42.395928],[-83.042417,42.395192],[-83.04241,42.395098],[-83.042408,42.394631],[-83.042381,42.393923],[-83.042372,42.393859],[-83.042375,42.393127],[-83.042349,42.392594],[-83.042336,42.392041],[-83.042321,42.391283],[-83.042304,42.390571],[-83.042302,42.390214],[-83.043204,42.390198],[-83.044356,42.390181],[-83.043852,42.389474],[-83.043393,42.38883],[-83.043053,42.388256],[-83.042897,42.38794],[-83.042833,42.387798],[-83.042757,42.387678],[-83.042543,42.38733],[-83.042293,42.386838],[-83.04222,42.386761],[-83.041458,42.385931],[-83.040629,42.384769],[-83.040676,42.384687],[-83.045195,42.383052],[-83.054747,42.379595],[-83.054911,42.37988],[-83.055008,42.380066],[-83.055683,42.381145],[-83.055746,42.381245],[-83.055994,42.381641],[-83.056152,42.381902],[-83.056446,42.382318],[-83.057739,42.384248],[-83.058012,42.384644],[-83.058058,42.384693],[-83.058156,42.384838],[-83.059268,42.386485],[-83.059659,42.387058],[-83.059914,42.387431],[-83.06058,42.388413],[-83.061937,42.39041],[-83.062487,42.391243],[-83.063836,42.39074],[-83.06424,42.390589],[-83.066153,42.389875],[-83.066458,42.389762],[-83.066571,42.389894],[-83.066693,42.390148],[-83.066848,42.390453],[-83.067075,42.390844],[-83.067156,42.390953],[-83.067737,42.391728],[-83.068187,42.392183],[-83.068798,42.392704],[-83.068941,42.392876],[-83.069115,42.393099],[-83.069242,42.393277],[-83.070929,42.395254],[-83.071195,42.395598],[-83.073221,42.398085],[-83.073631,42.398594],[-83.073762,42.398757],[-83.073788,42.39879],[-83.074655,42.399875],[-83.075843,42.401316],[-83.076295,42.401882],[-83.076177,42.401924],[-83.075168,42.402282],[-83.074576,42.402498],[-83.074296,42.402602],[-83.074015,42.402705],[-83.073457,42.402908],[-83.073115,42.403012],[-83.072743,42.403177],[-83.072477,42.403296],[-83.072137,42.403446],[-83.071173,42.403799],[-83.070194,42.404161],[-83.069218,42.404518],[-83.068785,42.404678],[-83.067627,42.405105],[-83.066756,42.405425],[-83.065864,42.405753],[-83.064284,42.406334],[-83.063325,42.406688],[-83.062927,42.406834],[-83.062448,42.407008],[-83.062085,42.40714],[-83.061573,42.407329],[-83.061221,42.407462],[-83.060696,42.407651],[-83.060333,42.407784],[-83.059797,42.407982],[-83.058914,42.408304],[-83.057988,42.408644],[-83.057071,42.408981],[-83.056917,42.408752],[-83.056473,42.408094],[-83.056032,42.407434],[-83.055642,42.406855],[-83.055574,42.406754],[-83.055102,42.40605],[-83.054662,42.405394],[-83.05422,42.404733],[-83.054023,42.40444],[-83.052634,42.404427],[-83.050195,42.404429],[-83.04993,42.404429],[-83.047257,42.40446],[-83.046435,42.404456],[-83.04499,42.404448],[-83.043922,42.404443]]]},"properties":{"OGR_FID":37,"name10":"Hamtramck","slug":"hamtramck","id":37,"classes":"place city","county":"wayne","path":"/sc/mi/wayne/hamtramck","num_parcels":6879,"num_parcels_s":"6,879","centroid":[-83.0559509284891,42.395386601080205]},"id":37},{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-83.117146,42.410391],[-83.117495,42.410926],[-83.117661,42.411171],[-83.11816,42.411926],[-83.118684,42.412719],[-83.119224,42.413511],[-83.119765,42.414304],[-83.12031,42.415103],[-83.120855,42.415903],[-83.12139,42.416687],[-83.121932,42.417482],[-83.1208,42.417508],[-83.118932,42.417538],[-83.11644,42.417579],[-83.115589,42.417597],[-83.113659,42.417627],[-83.112654,42.417645],[-83.110794,42.417677],[-83.109609,42.417698],[-83.107952,42.417724],[-83.105293,42.417749],[-83.104989,42.417757],[-83.104547,42.417763],[-83.102989,42.417803],[-83.101812,42.417828],[-83.101078,42.417847],[-83.098416,42.417938],[-83.097642,42.417965],[-83.097397,42.417974],[-83.096402,42.418008],[-83.095412,42.418023],[-83.094828,42.418023],[-83.094295,42.418091],[-83.093925,42.418091],[-83.09343,42.418106],[-83.093017,42.418106],[-83.092438,42.418121],[-83.091471,42.418137],[-83.089602,42.418154],[-83.089417,42.418161],[-83.089333,42.418042],[-83.089216,42.417893],[-83.086886,42.414934],[-83.086088,42.413991],[-83.085824,42.413665],[-83.085666,42.413425],[-83.085509,42.413184],[-83.085167,42.412826],[-83.085074,42.412712],[-83.084815,42.412437],[-83.084619,42.412191],[-83.084157,42.411607],[-83.082668,42.40973],[-83.082288,42.409251],[-83.08176,42.408542],[-83.081615,42.408356],[-83.081548,42.408272],[-83.08148,42.408189],[-83.081404,42.408096],[-83.081149,42.40778],[-83.080828,42.407593],[-83.081012,42.407612],[-83.078068,42.404041],[-83.076477,42.402111],[-83.076295,42.401882],[-83.075843,42.401316],[-83.074655,42.399875],[-83.073788,42.39879],[-83.073762,42.398757],[-83.073631,42.398594],[-83.073713,42.398564],[-83.073841,42.398721],[-83.074544,42.398453],[-83.075201,42.398204],[-83.076168,42.397837],[-83.07824,42.397049],[-83.079728,42.396482],[-83.07997,42.39639],[-83.082691,42.395356],[-83.085657,42.394228],[-83.088665,42.393102],[-83.091773,42.391985],[-83.094678,42.39094],[-83.097727,42.389843],[-83.100588,42.388814],[-83.102085,42.388276],[-83.102278,42.388084],[-83.102524,42.388452],[-83.102593,42.388551],[-83.102943,42.38905],[-83.103009,42.389152],[-83.103164,42.389393],[-83.103335,42.389644],[-83.103553,42.389931],[-83.103719,42.390142],[-83.104337,42.390932],[-83.104415,42.39103],[-83.104891,42.391693],[-83.105462,42.392489],[-83.105906,42.393101],[-83.106115,42.393561],[-83.106201,42.393751],[-83.106284,42.39399],[-83.106286,42.394122],[-83.106734,42.39505],[-83.107134,42.39574],[-83.107962,42.396969],[-83.108551,42.397849],[-83.108563,42.397876],[-83.108706,42.398085],[-83.108886,42.398348],[-83.108912,42.398386],[-83.109048,42.398585],[-83.109041,42.398615],[-83.109119,42.398749],[-83.109212,42.398863],[-83.10925,42.39888],[-83.109284,42.398929],[-83.109366,42.399049],[-83.109737,42.399597],[-83.109836,42.39974],[-83.11021,42.400291],[-83.110671,42.400971],[-83.111118,42.401635],[-83.111572,42.402288],[-83.112089,42.403031],[-83.112156,42.403121],[-83.113192,42.404493],[-83.113233,42.404554],[-83.113273,42.404616],[-83.113309,42.404673],[-83.114011,42.405795],[-83.11571,42.408221],[-83.116486,42.409394],[-83.11682,42.409899],[-83.117146,42.410391]]]},"properties":{"OGR_FID":35,"name10":"Highland Park","slug":"highland-park","id":35,"classes":"place city","county":"wayne","path":"/sc/mi/wayne/highland-park","num_parcels":6428,"num_parcels_s":"6,428","centroid":[-83.09764725273449,42.40522778006011]},"id":35}]},"url":null,"template":"<h4>Motor City Mapping</h4><h3><a href='//{{slug}}.motorcitymapping.org'>{{name10}}</a></h3>","style":{"color":"#655C9E","weight":4,"fillOpacity":0.7,"opacity":1},"style_handler":null,"key":{},"names":null,"interaction":true,"mouseover":true,"geometry_type":null,"zindex":null,"hide":null},{"id":"preset1","name":"preset1","ty":"tilejson","extent":null,"elements":null,"url":"https://a.tiles.mapbox.com/v3/loveland.xggjsjor.json","template":"<a href='/sc/mi/wayne/detroit/{{OGR_FID}}{{OGC_FID}}{{ogr_fid}}'>{{address}}</a><div class='hide' data-id='{{OGR_FID}}{{OGC_FID}}{{ogr_fid}}'/>","style":null,"style_handler":null,"key":{"#75B08A":"Structure","#FF9D84":"Lot"},"names":null,"interaction":true,"mouseover":true,"geometry_type":null,"zindex":null,"hide":true},{"id":"preset2","name":"preset2","ty":"tilejson","extent":null,"elements":null,"url":"https://a.tiles.mapbox.com/v3/loveland.opxk1emi.json","template":"<a href='/sc/mi/wayne/detroit/{{OGR_FID}}{{OGC_FID}}{{ogr_fid}}'>{{address}}</a><div class='hide' data-id='{{OGR_FID}}{{OGC_FID}}{{ogr_fid}}'/>","style":null,"style_handler":null,"key":{"#75B08A":"Occupied","#F0E797":"Possibly Occupied","#FF5460":"Unoccupied"},"names":null,"interaction":true,"mouseover":true,"geometry_type":null,"zindex":null,"hide":true},{"id":"preset3","name":"preset3","ty":"tilejson","extent":null,"elements":null,"url":"https://a.tiles.mapbox.com/v3/loveland.m9sk0529.json","template":"<a href='/sc/mi/wayne/detroit/{{OGR_FID}}{{OGC_FID}}{{ogr_fid}}'>{{address}}</a><div class='hide' data-id='{{OGR_FID}}{{OGC_FID}}{{ogr_fid}}'/>","style":null,"style_handler":null,"key":{"#FF5460":"Dumping","#F0E797":"Needs Boarding","#75B08A":"Needs Boarding And Has Dumping"},"names":null,"interaction":true,"mouseover":true,"geometry_type":null,"zindex":null,"hide":true},{"id":"preset4","name":"preset4","ty":"tilejson","extent":null,"elements":null,"url":"https://a.tiles.mapbox.com/v3/loveland.p6yiizfr.json","template":"<a href='/sc/mi/wayne/detroit/{{OGR_FID}}{{OGC_FID}}{{ogr_fid}}'>{{address}}</a><div class='hide' data-id='{{OGR_FID}}{{OGC_FID}}{{ogr_fid}}'/>","style":null,"style_handler":null,"key":{"#20e020":"Surveyed","#e02020":"Unsurveyed"},"names":null,"interaction":true,"mouseover":true,"geometry_type":null,"zindex":null,"hide":true}];
+      
+      $(document).ready(function() {
+        var opts = {
+          divId:  'map',
+          center:  null,
+          extent:  [{"lon":-83.287959,"lat":42.255333},{"lon":-82.910451,"lat":42.45023}],
+          zoom:    13,
+          minZoom: 11,
+          maxZoom: 18,
+          layerControl:   null,
+          cloudmadeKey:   "194e5888480d4f9499b2f2099a793dbe",
+          cloudmadeStyle: 998,
+          geolocate: (typeof(gps_disabled) === 'undefined' || !gps_disabled) ? false : false,
+          hash: false,
+        };
+    
+        m = new Paraffin.Map(opts);    
+        m.initializeLayers(baseLayers, layers);
+        
+        m.map.on('layeradd', function(e) {
+          $('.key_' + e.layer.paraffinId, $('#map').parent()).removeClass('hide').show();
+        });
+        m.map.on('layerremove', function(e) {
+          $('.key_' + e.layer.paraffinId, $('#map').parent()).hide();
+        });
+    
+        if(opts.geolocate == 'manual') {
+          $('#gps').show();
+          $('#gps').click(function(e) {
+            m.enableGPS({
+              watch: true,
+              noLocation: function() { $.ajax({ async: true, type: 'GET', url: '/disable_gps', data: {}, cache: false, success: function(data) { } }); }
+            });
+          });
+        }
+        
+        // For backwards compat, assign the global "map" to the last one created. Most pages only have one map so this is fine.
+        // Other javascripts (app.js, sc.js) refer to the "map" var instead of allowing for multiple maps on a page
+        map = m;
+      });
+    }();
+  //]]>
+</script>
+
+</div>
+
+<div id='mapbar'>
+<div class='btn-group'>
+<div class='btn-group select'>
+<a class='btn btn-lg btn-inverse dropdown-toggle' data-toggle='dropdown' href='#' style='z-index: 2;' title='Boundaries'>
+<i class='glyphicon glyphicon-folder-open'></i>
+<span class='caret'></span>
+</a>
+<span class='dropdown-arrow dropdown-arrow-inverse'></span>
+<ul class='dropdown-menu dropdown-inverse'>
+<li><a href="/?boundaries=neighborhoods">Neighborhoods</a></li>
+<li><a href="/?boundaries=zips">Zip Codes</a></li>
+<li><a href="/?boundaries=tracts">Census Tracts</a></li>
+<li><a href="/?boundaries=council_districts">Council Districts</a></li>
+<li><a href="/?boundaries=hhf">Hardest Hit Fund Zones</a></li>
+</ul>
+</div>
+<a class='btn btn-lg btn-inverse' href='#base' title='Toggle Street / Satellite'>
+<i class='glyphicon glyphicon-globe'></i>
+</a>
+<a class='btn btn-lg btn-inverse mobile_only' href='#gps' title='Zoom to My Location'>
+<i class='glyphicon glyphicon-screenshot'></i>
+</a>
+<a class='btn btn-lg btn-inverse' href='#search' title='Search'>
+<i class='glyphicon glyphicon-search'></i>
+</a>
+</div>
+<div class='searchpop'>
+<input class="form-control typeahead" id="q" name="q" placeholder="Search for a Place" type="text" />
+<button class='btn btn-primary' id='go'>Go</button>
+</div>
+</div>
+
+<div class='hide rounded' id='legend'>
+<div class='scale'>
+<div class='segment'></div>
+<div class='segment'></div>
+<div class='segment'></div>
+<div class='segment'></div>
+<div class='segment'></div>
+<div class='segment'></div>
+<div class='segment'></div>
+<div class='segment'></div>
+<div class='segment'></div>
+<div class='segment'></div>
+</div>
+<div class='label-right'>Righty</div>
+<div class='label-left'>Lefty</div>
+</div>
+<div class='modal fade' id='alertModal' role='dialog' style='position: absolute;' tabindex='-1'>
+<div class='modal-dialog modal-sm'>
+<div class='modal-content'>
+<div class='modal-body'>
+<button aria-hidden='true' class='close' data-dismiss='modal' type='button'>&times;</button>
+<p class='message'></p>
+<div class='centered stamp'>
+Closing in
+<span class='seconds'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='show-all' id='waterfall'>
+<h2 class='nomobile' id='title'></h2>
+<div class='centered'>
+<div class='btn-toolbar nomobile' id='tabber' style='position: static; margin-bottom: 0.5em;'>
+<div class='btn-grooop' data-toggle='buttons-radio' style='margin-left: 0; margin: 0 auto;'>
+<a class='btn btn-success btn-lg active' data-size='normal' data-toggle='tab' href='#overview'>
+<i class='glyphicon glyphicon-eye-open'></i>
+&nbsp;
+Overview
+</a>
+<a class='btn btn-success btn-lg' data-size='normal' data-toggle='tab' href='#parcels'>
+<i class='glyphicon glyphicon-filter'></i>
+&nbsp;
+Explore
+</a>
+<a class='btn btn-success btn-lg' data-size='normal' data-toggle='tab' href='#feed'>
+<i class='glyphicon glyphicon-time'></i>
+&nbsp;
+Blexts
+</a>
+<a class='btn btn-success btn-lg' data-size='normal' data-toggle='tab' href='#search'>
+<i class='glyphicon glyphicon-search'></i>
+&nbsp;
+Search
+</a>
+</div>
+</div>
+</div>
+<div class='waterfall-content nomobile' style='padding-left: 0;'>
+<div class='tab-content nomobile'>
+<div class='tab-pane fade in active' id='overview'>
+
+<a class='help pull-right' data-content='&lt;p&gt;This map shows data collected via Motor City Mapping. Click part of the city to see survey data on that area. Click any of the icons or pie chart titles to see a citywide heat map of that category. You can also sort survey results by looking at All properties, just Publicy Owned (by city, state, etc) properties or Privately Owned properties.&lt;/p&gt; &lt;h4&gt;About the Boundary Sets&lt;/h4&gt; &lt;p&gt;Census tracts are small, relatively permanent geographical subdivisions for the purpose of the US decennial census. Boundaries generally follow visible and identifiable features or municipal boundaries where applicable. Population in a census tract can vary between 1200 and 8000 people. (US Census Bureau)&lt;/p&gt;&lt;p&gt;Council Districts are political boundaries within the City of Detroit that were established in 2012; each of the 7 districts are represented by a City Council member. Each district is also assigned a District Manager and Deputy District Manager through the Detroit Department of Neighborhoods, established in 2014 under Mayor Duggan.&lt;/p&gt;&lt;p&gt;Hardest Hit Fund Zones are areas designated by the Detroit Land Bank Authority for targeted investment of Hardest Hit Fund dollars for the removal of blighted structures through the acquisition, demolition and maintenance of properties.&lt;/p&gt;' data-size='lg' data-title='Navigating the Data' data-toggle='modal' href='#helpModal'>
+<i class='glyphicon glyphicon-question-sign'></i>
+</a>
+<ul class='nav nav-pills btn-xs hide' id='ownership' style='padding: 0;'>
+<li class='active'>
+<a class='filter' data-filter='all' href='#'>All</a>
+</li>
+<li>
+<a class='filter' data-filter='public' href='#'>Publicly Owned</a>
+</li>
+<li>
+<a class='filter' data-filter='private' href='#'>Privately Owned</a>
+</li>
+</ul>
+<div id='num-parcels'></div>
+<div id='info'>
+<div class='pie-container'>
+<a class='pie-title hide' data-key='structure' href='#'>Structures vs Lots</a>
+<div class='pie' data-key='structure' id='pie_structure'></div>
+</div>
+<div class='pie-container'>
+<a class='pie-title hide' data-key='condition' href='#'>Structure Condition</a>
+<div class='pie' data-key='condition' id='pie_condition'></div>
+</div>
+<div class='pie-container'>
+<a class='pie-title hide' data-key='occupancy' href='#'>Structure Occupancy</a>
+<div class='pie' data-key='occupancy' id='pie_occupancy'></div>
+</div>
+<div class='clear_floats'></div>
+</div>
+<div id='text'></div>
+<div class='clear_floats'></div>
+</div>
+<div class='tab-pane fade' id='parcels'>
+<a class='help pull-right' data-content="The Data Explorer allows you to do more complex searches of Blexting data. Choose a number of criteria to search for, and then choose the field that you would like to color code the search results.&lt;/p&gt;&lt;p&gt;For example, if you wanted to do this search: 'Show me all the residential properties in Brightmoor color coded for which are occupied vs. vacant' you would click 'Structure = Yes' + 'Use = Residential' + 'Occupancy = Color.' This means the 'Occupancy' field will be the one that is color coded on the map." data-title='Data Explorer' data-toggle='modal' href='#helpModal'>
+<i class='glyphicon glyphicon-question-sign'></i>
+</a>
+<div class='regular-filters'>
+<div class='centered' style='margin: 1em 0;'>
+<h4 style='margin-bottom: 0;'>Try these sample searches:</h4>
+<a class='btn btn-info btn-sm' data-preset='1' href='#'>Residential structures color coded for occupancy</a>
+<a class='btn btn-info btn-sm' data-preset='2' href='#'>Lots with dumping</a>
+</div>
+<div class='centered'>
+<h4 style='margin-bottom: 0;'>Or design your own:</h4>
+</div>
+<table id='filterland'>
+<tbody>
+<tr class=''>
+<td>Structure</td>
+<td class='answers'>
+<a href="#" class="btn btn-xs btn-default" data-key="structure" data-value="yes">yes</a>
+<a href="#" class="btn btn-xs btn-default" data-key="structure" data-value="no">no</a>
+</td>
+<td>
+<a href="#" class="btn btn-xs btn-default color-code" data-key="structure">color</a>
+</td>
+</tr>
+<tr class=''>
+<td>Use</td>
+<td class='answers'>
+<a href="#" class="btn btn-xs btn-default" data-key="use" data-value="residential">residential</a>
+<a href="#" class="btn btn-xs btn-default" data-key="use" data-value="commercial">commercial</a>
+<a href="#" class="btn btn-xs btn-default" data-key="use" data-value="mixed">mixed</a>
+<a href="#" class="btn btn-xs btn-default" data-key="use" data-value="industrial">industrial</a>
+<a href="#" class="btn btn-xs btn-default" data-key="use" data-value="institutional">institutional</a>
+<a href="#" class="btn btn-xs btn-default" data-key="use" data-value="unknown">unknown</a>
+<a href="#" class="btn btn-xs btn-default" data-key="use" data-value="vacant">vacant lot</a>
+<a href="#" class="btn btn-xs btn-default" data-key="use" data-value="parking">parking lot</a>
+<a href="#" class="btn btn-xs btn-default" data-key="use" data-value="park">park</a>
+<a href="#" class="btn btn-xs btn-default" data-key="use" data-value="garden">garden</a>
+<a href="#" class="btn btn-xs btn-default" data-key="use" data-value="other">other</a>
+<a href="#" class="btn btn-xs btn-default" data-key="use" data-value="attached">attached lot</a>
+</td>
+<td>
+<a href="#" class="btn btn-xs btn-default color-code" data-key="use">color</a>
+</td>
+</tr>
+<tr class=''>
+<td>Occupancy</td>
+<td class='answers'>
+<a href="#" class="btn btn-xs btn-default" data-key="occupancy" data-value="occupied">occupied</a>
+<a href="#" class="btn btn-xs btn-default" data-key="occupancy" data-value="unoccupied">unoccupied</a>
+<a href="#" class="btn btn-xs btn-default" data-key="occupancy" data-value="maybe">possibly occupied</a>
+<a href="#" class="btn btn-xs btn-default" data-key="occupancy" data-value="partial">partially occupied</a>
+</td>
+<td>
+<a href="#" class="btn btn-xs btn-default color-code" data-key="occupancy">color</a>
+</td>
+</tr>
+<tr class=''>
+<td>Condition</td>
+<td class='answers'>
+<a href="#" class="btn btn-xs btn-default" data-key="condition" data-value="good">good</a>
+<a href="#" class="btn btn-xs btn-default" data-key="condition" data-value="fair">fair</a>
+<a href="#" class="btn btn-xs btn-default" data-key="condition" data-value="poor">poor</a>
+<a href="#" class="btn btn-xs btn-default" data-key="condition" data-value="suggest demolition">suggest demolition</a>
+</td>
+<td>
+<a href="#" class="btn btn-xs btn-default color-code" data-key="condition">color</a>
+</td>
+</tr>
+<tr class='secondary hidden'>
+<td>Commercial Use</td>
+<td class='answers'>
+<a href="#" class="btn btn-xs btn-default" data-key="commercial_use" data-value="restaurant">restaurant</a>
+<a href="#" class="btn btn-xs btn-default" data-key="commercial_use" data-value="grocery">grocery</a>
+<a href="#" class="btn btn-xs btn-default" data-key="commercial_use" data-value="retail">retail</a>
+<a href="#" class="btn btn-xs btn-default" data-key="commercial_use" data-value="service">service</a>
+<a href="#" class="btn btn-xs btn-default" data-key="commercial_use" data-value="office">offices</a>
+<a href="#" class="btn btn-xs btn-default" data-key="commercial_use" data-value="entertainment">entertainment</a>
+<a href="#" class="btn btn-xs btn-default" data-key="commercial_use" data-value="multi">multi-occupant</a>
+<a href="#" class="btn btn-xs btn-default" data-key="commercial_use" data-value="other">other</a>
+</td>
+<td>
+<a href="#" class="btn btn-xs btn-default color-code" data-key="commercial_use">color</a>
+</td>
+</tr>
+<tr class='secondary hidden'>
+<td>Industrial Use</td>
+<td class='answers'>
+<a href="#" class="btn btn-xs btn-default" data-key="industrial_use" data-value="industrial">industrial</a>
+<a href="#" class="btn btn-xs btn-default" data-key="industrial_use" data-value="warehouse">warehouse</a>
+<a href="#" class="btn btn-xs btn-default" data-key="industrial_use" data-value="multi">multi-occupant</a>
+<a href="#" class="btn btn-xs btn-default" data-key="industrial_use" data-value="other">other</a>
+</td>
+<td>
+<a href="#" class="btn btn-xs btn-default color-code" data-key="industrial_use">color</a>
+</td>
+</tr>
+<tr class='secondary hidden'>
+<td>Institutional Use</td>
+<td class='answers'>
+<a href="#" class="btn btn-xs btn-default" data-key="institutional_use" data-value="school">school</a>
+<a href="#" class="btn btn-xs btn-default" data-key="institutional_use" data-value="religious">religious</a>
+<a href="#" class="btn btn-xs btn-default" data-key="institutional_use" data-value="safety">public safety</a>
+<a href="#" class="btn btn-xs btn-default" data-key="institutional_use" data-value="health">health</a>
+<a href="#" class="btn btn-xs btn-default" data-key="institutional_use" data-value="recreation">recreation</a>
+<a href="#" class="btn btn-xs btn-default" data-key="institutional_use" data-value="government">government</a>
+<a href="#" class="btn btn-xs btn-default" data-key="institutional_use" data-value="npo">non-profit / charity</a>
+<a href="#" class="btn btn-xs btn-default" data-key="institutional_use" data-value="other">other</a>
+</td>
+<td>
+<a href="#" class="btn btn-xs btn-default color-code" data-key="institutional_use">color</a>
+</td>
+</tr>
+<tr class='secondary hidden'>
+<td>Fire Damage</td>
+<td class='answers'>
+<a href="#" class="btn btn-xs btn-default" data-key="fire" data-value="yes">yes</a>
+<a href="#" class="btn btn-xs btn-default" data-key="fire" data-value="no">no</a>
+</td>
+<td>
+<a href="#" class="btn btn-xs btn-default color-code" data-key="fire">color</a>
+</td>
+</tr>
+<tr class='secondary hidden'>
+<td>Fire Severity</td>
+<td class='answers'>
+<a href="#" class="btn btn-xs btn-default" data-key="fire_damage" data-value="minor">minor</a>
+<a href="#" class="btn btn-xs btn-default" data-key="fire_damage" data-value="major">major</a>
+<a href="#" class="btn btn-xs btn-default" data-key="fire_damage" data-value="collapsed">collapsed</a>
+</td>
+<td>
+<a href="#" class="btn btn-xs btn-default color-code" data-key="fire_damage">color</a>
+</td>
+</tr>
+<tr class='secondary hidden'>
+<td>Trespassing</td>
+<td class='answers'>
+<a href="#" class="btn btn-xs btn-default" data-key="trespass" data-value="secure">secure</a>
+<a href="#" class="btn btn-xs btn-default" data-key="trespass" data-value="open">open</a>
+</td>
+<td>
+<a href="#" class="btn btn-xs btn-default color-code" data-key="trespass">color</a>
+</td>
+</tr>
+<tr class='secondary hidden'>
+<td>Maintained</td>
+<td class='answers'>
+<a href="#" class="btn btn-xs btn-default" data-key="maintained" data-value="yes">yes</a>
+<a href="#" class="btn btn-xs btn-default" data-key="maintained" data-value="no">no</a>
+</td>
+<td>
+<a href="#" class="btn btn-xs btn-default color-code" data-key="maintained">color</a>
+</td>
+</tr>
+<tr class='secondary hidden'>
+<td>Dumping</td>
+<td class='answers'>
+<a href="#" class="btn btn-xs btn-default" data-key="dumping" data-value="yes">yes</a>
+<a href="#" class="btn btn-xs btn-default" data-key="dumping" data-value="no">no</a>
+</td>
+<td>
+<a href="#" class="btn btn-xs btn-default color-code" data-key="dumping">color</a>
+</td>
+</tr>
+<tr class='secondary hidden'>
+<td>Ownership</td>
+<td class='answers'>
+<a href="#" class="btn btn-xs btn-default" data-key="public" data-value="1">public</a>
+<a href="#" class="btn btn-xs btn-default" data-key="public" data-value="0">private</a>
+</td>
+<td>
+<a href="#" class="btn btn-xs btn-default color-code" data-key="public">color</a>
+</td>
+</tr>
+<tr class='secondary hidden'>
+<td>Public Owner</td>
+<td class='answers'>
+<a href="#" class="btn btn-xs btn-default" data-key="pub_owner" data-value="city">city</a>
+<a href="#" class="btn btn-xs btn-default" data-key="pub_owner" data-value="dlba">dlba</a>
+<a href="#" class="btn btn-xs btn-default" data-key="pub_owner" data-value="dps">dps</a>
+<a href="#" class="btn btn-xs btn-default" data-key="pub_owner" data-value="wayne">wayne</a>
+<a href="#" class="btn btn-xs btn-default" data-key="pub_owner" data-value="michigan">michigan</a>
+<a href="#" class="btn btn-xs btn-default" data-key="pub_owner" data-value="mlbfta">mlbfta</a>
+<a href="#" class="btn btn-xs btn-default" data-key="pub_owner" data-value="usgov">usgov</a>
+</td>
+<td>
+<a href="#" class="btn btn-xs btn-default color-code" data-key="pub_owner">color</a>
+</td>
+</tr>
+<tr class='secondary hidden'>
+<td>2015 Tax Foreclosure</td>
+<td class='answers'>
+<a href="#" class="btn btn-xs btn-default" data-key="in2015" data-value="1">expected</a>
+</td>
+<td>
+<a href="#" class="btn btn-xs btn-default color-code" data-key="in2015">color</a>
+</td>
+</tr>
+</tbody>
+</table>
+<div class='centered' style='padding: 0.4em 0;'><a href="#" class="btn btn-xs btn-default btn-block" data-amount="more" id="more-filters">More Filters &#x25BC;</a></div>
+<a class='btn btn-success' href='#' id='generate'>Apply</a>
+<a class='btn btn-default' href='#' id='clear'>Clear</a>
+</div>
+<div class='detroit-filters centered'>
+<h4 style='margin-bottom: 0;'>Try these citywide layers:</h4>
+<a class='btn btn-info btn-sm' data-preset='1' href='#'>Publicly owned, structures vs. lots</a>
+<a class='btn btn-info btn-sm' data-preset='2' href='#'>Occupancy</a>
+<a class='btn btn-info btn-sm' data-preset='3' href='#'>Lots with dumping + houses needing boarding</a>
+<a class='btn btn-info btn-sm' data-preset='4' href='#'>Auction properties, show surveyed</a>
+<h4>...or choose a neighborhood in &quot;Overview&quot; and then &quot;Parcels&quot; to design your own!</h4>
+</div>
+<br>
+<br>
+<div id='place-stats'></div>
+</div>
+<div class='tab-pane fade' id='feed'>
+<a class='help pull-right' data-content='This is a feed of the latest Blexted properties. You can use the dropdown filters to sort properties by survey criteria. If you are logged in, you can comment on properties by clicking on a property address, image, or parcel.' data-title='Activity Feed' data-toggle='modal' href='#helpModal'>
+<i class='glyphicon glyphicon-question-sign'></i>
+</a>
+<div id='filters'>
+<a class='btn btn-xs btn-default' data-filter='all' href='#'>
+All
+</a>
+<div class='btn-group'>
+<a class='btn btn-default btn-xs dropdown-toggle' data-toggle='dropdown' href='#'>
+Structure
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a data-filter='structure-yes' href='#'>
+Yes
+</a>
+</li>
+<li>
+<a data-filter='structure-no' href='#'>
+No
+</a>
+</li>
+</ul>
+</div>
+<div class='btn-group'>
+<a class='btn btn-default btn-xs dropdown-toggle' data-toggle='dropdown' href='#'>
+Occupancy
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a data-filter='occupancy-occupied' href='#'>
+Occupied
+</a>
+</li>
+<li>
+<a data-filter='occupancy-unoccupied' href='#'>
+Unoccupied
+</a>
+</li>
+<li>
+<a data-filter='occupancy-maybe' href='#'>
+Possibly Unoccupied
+</a>
+</li>
+<li>
+<a data-filter='occupancy-partial' href='#'>
+Partially Occupied
+</a>
+</li>
+</ul>
+</div>
+<div class='btn-group'>
+<a class='btn btn-default btn-xs dropdown-toggle' data-toggle='dropdown' href='#'>
+Use
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a data-filter='use-residential' href='#'>
+Residential
+</a>
+</li>
+<li>
+<a data-filter='use-commercial' href='#'>
+Commercial
+</a>
+</li>
+<li>
+<a data-filter='use-mixed' href='#'>
+Mixed Use Residential/Commercial
+</a>
+</li>
+<li>
+<a data-filter='use-industrial' href='#'>
+Industrial
+</a>
+</li>
+<li>
+<a data-filter='use-institutional' href='#'>
+Institutional
+</a>
+</li>
+<li>
+<a data-filter='use-unknown' href='#'>
+Unknown
+</a>
+</li>
+<li>
+<a data-filter='use-vacant' href='#'>
+Vacant Lot
+</a>
+</li>
+<li>
+<a data-filter='use-parking' href='#'>
+Parking Lot
+</a>
+</li>
+<li>
+<a data-filter='use-park' href='#'>
+Park
+</a>
+</li>
+<li>
+<a data-filter='use-garden' href='#'>
+Garden
+</a>
+</li>
+<li>
+<a data-filter='use-other' href='#'>
+Other
+</a>
+</li>
+<li>
+<a data-filter='use-attached' href='#'>
+Attached Lot
+</a>
+</li>
+</ul>
+</div>
+<div class='btn-group'>
+<a class='btn btn-default btn-xs dropdown-toggle' data-toggle='dropdown' href='#'>
+Units
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a data-filter='units-garage' href='#'>
+Garage or Shed
+</a>
+</li>
+<li>
+<a data-filter='units-single' href='#'>
+Single Family
+</a>
+</li>
+<li>
+<a data-filter='units-multi' href='#'>
+Multi-Family
+</a>
+</li>
+<li>
+<a data-filter='units-apartments' href='#'>
+Apartments
+</a>
+</li>
+</ul>
+</div>
+<div class='btn-group'>
+<a class='btn btn-default btn-xs dropdown-toggle' data-toggle='dropdown' href='#'>
+Mixed Resi
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a data-filter='mixed_resi-single' href='#'>
+Single Family
+</a>
+</li>
+<li>
+<a data-filter='mixed_resi-multi' href='#'>
+Multi-Family
+</a>
+</li>
+<li>
+<a data-filter='mixed_resi-apartments' href='#'>
+Apartments
+</a>
+</li>
+</ul>
+</div>
+<div class='btn-group'>
+<a class='btn btn-default btn-xs dropdown-toggle' data-toggle='dropdown' href='#'>
+Commercial Use
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a data-filter='commercial_use-restaurant' href='#'>
+Restaurant / Bar
+</a>
+</li>
+<li>
+<a data-filter='commercial_use-grocery' href='#'>
+Grocery
+</a>
+</li>
+<li>
+<a data-filter='commercial_use-retail' href='#'>
+Retail
+</a>
+</li>
+<li>
+<a data-filter='commercial_use-service' href='#'>
+Service
+</a>
+</li>
+<li>
+<a data-filter='commercial_use-office' href='#'>
+Offices
+</a>
+</li>
+<li>
+<a data-filter='commercial_use-entertainment' href='#'>
+Entertainment
+</a>
+</li>
+<li>
+<a data-filter='commercial_use-multi' href='#'>
+Multi-Occupant
+</a>
+</li>
+<li>
+<a data-filter='commercial_use-other' href='#'>
+Other
+</a>
+</li>
+</ul>
+</div>
+<div class='btn-group'>
+<a class='btn btn-default btn-xs dropdown-toggle' data-toggle='dropdown' href='#'>
+Industrial Use
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a data-filter='industrial_use-industrial' href='#'>
+Industrial
+</a>
+</li>
+<li>
+<a data-filter='industrial_use-warehouse' href='#'>
+Warehouse
+</a>
+</li>
+<li>
+<a data-filter='industrial_use-multi' href='#'>
+Multi-Occupant
+</a>
+</li>
+<li>
+<a data-filter='industrial_use-other' href='#'>
+Other
+</a>
+</li>
+</ul>
+</div>
+<div class='btn-group'>
+<a class='btn btn-default btn-xs dropdown-toggle' data-toggle='dropdown' href='#'>
+Institutional Use
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a data-filter='institutional_use-school' href='#'>
+School
+</a>
+</li>
+<li>
+<a data-filter='institutional_use-religious' href='#'>
+Religious
+</a>
+</li>
+<li>
+<a data-filter='institutional_use-safety' href='#'>
+Public Safety
+</a>
+</li>
+<li>
+<a data-filter='institutional_use-health' href='#'>
+Health
+</a>
+</li>
+<li>
+<a data-filter='institutional_use-recreation' href='#'>
+Recreation
+</a>
+</li>
+<li>
+<a data-filter='institutional_use-government' href='#'>
+Government
+</a>
+</li>
+<li>
+<a data-filter='institutional_use-npo' href='#'>
+Non Profit / Charity
+</a>
+</li>
+<li>
+<a data-filter='institutional_use-other' href='#'>
+Other
+</a>
+</li>
+</ul>
+</div>
+<div class='btn-group'>
+<a class='btn btn-default btn-xs dropdown-toggle' data-toggle='dropdown' href='#'>
+Condition
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a data-filter='condition-good' href='#'>
+Good
+</a>
+</li>
+<li>
+<a data-filter='condition-fair' href='#'>
+Fair
+</a>
+</li>
+<li>
+<a data-filter='condition-poor' href='#'>
+Poor
+</a>
+</li>
+<li>
+<a data-filter='condition-suggest demolition' href='#'>
+Suggest Demolition
+</a>
+</li>
+</ul>
+</div>
+<div class='btn-group'>
+<a class='btn btn-default btn-xs dropdown-toggle' data-toggle='dropdown' href='#'>
+Fire
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a data-filter='fire-yes' href='#'>
+Yes
+</a>
+</li>
+<li>
+<a data-filter='fire-no' href='#'>
+No
+</a>
+</li>
+</ul>
+</div>
+<div class='btn-group'>
+<a class='btn btn-default btn-xs dropdown-toggle' data-toggle='dropdown' href='#'>
+Fire Damage
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a data-filter='fire_damage-minor' href='#'>
+Minor
+</a>
+</li>
+<li>
+<a data-filter='fire_damage-major' href='#'>
+Major
+</a>
+</li>
+<li>
+<a data-filter='fire_damage-collapsed' href='#'>
+Collapsed
+</a>
+</li>
+</ul>
+</div>
+<div class='btn-group'>
+<a class='btn btn-default btn-xs dropdown-toggle' data-toggle='dropdown' href='#'>
+Trespass
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a data-filter='trespass-secure' href='#'>
+Secured
+</a>
+</li>
+<li>
+<a data-filter='trespass-open' href='#'>
+Open to Trespass
+</a>
+</li>
+</ul>
+</div>
+<div class='btn-group'>
+<a class='btn btn-default btn-xs dropdown-toggle' data-toggle='dropdown' href='#'>
+Maintained
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a data-filter='maintained-yes' href='#'>
+Yes
+</a>
+</li>
+<li>
+<a data-filter='maintained-no' href='#'>
+No
+</a>
+</li>
+</ul>
+</div>
+<div class='btn-group'>
+<a class='btn btn-default btn-xs dropdown-toggle' data-toggle='dropdown' href='#'>
+Dumping
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a data-filter='dumping-yes' href='#'>
+Yes
+</a>
+</li>
+<li>
+<a data-filter='dumping-no' href='#'>
+No
+</a>
+</li>
+</ul>
+</div>
+<div class='btn-group'>
+<a class='btn btn-xs btn-default dropdown-toggle' data-toggle='dropdown' href='#'>
+Sort
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a data-sort='time' href='#'>Time</a>
+</li>
+<li>
+<a data-sort='address' href='#'>Address</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class='show-all' id='waterfall-items'></div>
+<div class='centered'>
+<a class='btn btn-primary disabled' href='#' id='fetch'>Loading...</a>
+</div>
+</div>
+<div class='tab-pane fade' id='changes'></div>
+<div class='tab-pane fade' id='search'>
+<div class='searchpop'>
+<input class="form-control typeahead" id="q" name="q" placeholder="Search for a Place" type="text" />
+<button class='btn btn-primary' id='go'>Go</button>
+</div>
+<div class='search-results'>
+<div class='centered' style='padding-top:70px; color: #eee;'>
+<i class='glyphicon glyphicon-search' style='font-size: 120px;'></i>
+<div class='small' style='width: 200px; max-width: 100%; color: #ccc; margin: 0 auto;'>When you search for a place, the results will appear here.</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div class='mobile_only blexting'>
+<div class='text'>
+<span class="translation_missing" title="translation missing: en.explorer.blexting_ad">Blexting Ad</span>
+</div>
+<div class='app-icon centered'>
+<a data-action='external' data-category='link' data-label='android' href='https://play.google.com/store/apps/details?id=com.makeloveland.blexting'>
+<img alt="Google-app-button" src="/assets/google-app-button-1d3c5694020578e62c6a7f41b132a389.png" />
+</a>
+</div>
+</div>
+</div>
+<div class='modal fade' id='helpModal' role='dialog' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<div class='modal-header'>
+<button aria-hidden='true' class='close' data-dismiss='modal' type='button'>&times;</button>
+<h3>TBD</h3>
+</div>
+<div class='modal-body'>
+<p>Nope.</p>
+</div>
+</div>
+</div>
+</div>
+<script id='results-template' type='text/html'>
+  {{#stats}}
+  <div class='thirds' data-key='lot-dumping'>
+    <i class='glyphicon glyphicon-trash'/><div class='small'>Lots with Dumping:</div>
+    <div class='number'>{{formatDumping}}</div>
+  </div>
+  <div class='thirds' data-key='fire'>
+    <i class='glyphicon glyphicon-fire'/><div class='small'>Structures with Fire Damage:</div>
+    <div class='number'>{{formatFire}}</div>
+  </div>
+  <div class='thirds' data-key='boarding'>
+    <i class='glyphicon glyphicon-exclamation-sign'/><div class='small'>Structures needing Boarding:</div>
+    <div class='number'>{{formatBoarding}}</div>
+  </div>
+  {{/stats}}
+</script>
+
+<script id='changes-template' type='text/html'>
+  {{#features}}{{#properties}}
+    <div class='clear_floats'>
+      <a href='{{new.path}}'><h3>{{new.address}}</h3></a>
+      <div>
+        <img src='{{old.image.small}}' style='max-width: 45%; max-height: 172px;'/>
+        <img src='{{new.image.small}}' style='max-width: 45%; max-height: 172px;'/>
+      </div>
+      {{#deltas}}
+        <div>{{key}}: {{o}} &raquo; {{n}}</div>
+      {{/deltas}}
+      <div class='stamp'>{{old.created_at_s}} &raquo; {{new.created_at_s}}</div>
+    </div>
+    <br/>
+  {{/properties}}{{/features}}
+</script>
+
+<script id='legend-template' type='text/html'>
+  <div class='key'>
+    {{#pairs}}
+      <span class='item'>
+        <div class='square' style='background-color: {{color}};'/>
+        <span class='lbl'>{{label}}</span>
+      </span>
+    {{/pairs}}
+  </div>
+</script>
+
+<script id='stats-template' type='text/html'>
+  <table class='table'>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Properties in This Area</th>
+        <th>Matches Only</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#rows}}
+        <tr>
+          <td>{{label}}</td>
+          <td>{{all}}</td>
+          <td>{{matched}}</td>
+        </tr>
+      {{/rows}}
+    </tbody>
+  </table>
+</script>
+  
+<script id='waterfall-template' type='text/html'>
+  <div class='waterfall-item {{classes}}' data-id='{{id}}' data-user='{{#user}}{{id}}{{/user}}'
+    data-target='{{#spec}}{{id}}{{/spec}}' data-created='{{created_at_i}}'>
+    {{#multi_photos}}<i class='glyphicon glyphicon-plus-sign'/>{{/multi_photos}}
+    <a href='{{path}}'>
+      {{#image}}<img src='{{thumb}}'/>{{/image}}
+      <b>{{address}}</b>
+    </a>
+    <div class='answers'>{{answers_csv}}</div>
+    <div class='notes'>
+      {{#notes}}<div class='note'>{{#user}}{{name}}: {{/user}}{{body}}</div>{{/notes}}
+      {{#history}}
+        {{#note}}
+        <div class='note'>{{#user}}{{name}}: {{/user}}{{note}}</div>
+        {{/note}}
+      {{/history}}
+    </div>
+    <div class='small'>
+      {{#user}}<a href='#' class='show-user' data-user-id='{{id}}'>{{name}}</a>&nbsp;&middot;&nbsp;{{/user}}
+      <a href='#' class='show-date' data-timestamp='{{created_at_i}}'>{{created_at_s}}</a>
+    </div>
+  </div>
+</script>
+
+<script id='popup-template' type='text/html'>
+  <div class='popup-item'>
+    {{#image}}<img src='{{medium}}'/>{{/image}}
+    <p class='small'>{{#answers}}{{key}}: {{value}}<br/>{{/answers}}</p>
+    <p class='small'>
+      {{#user}}{{name}}{{/user}}&nbsp;&middot; {{created_at_s}}
+    </p>
+  </div>
+</script>
+
+<script id='neighborhood-confirm-template' type='text/html'>
+
+  <div class='shape modal fade' data-id='{{id}}' role="dialog" tabindex='-1'>
+    <div class='modal-dialog modal-sm'>
+      <div class='modal-content'>
+        <div class='modal-body'>
+          <b>{{description}}</b>
+          <input type='text' class='form-control' name='name' placeholder='Name this area'/>
+          <textarea name='description' rows='3' class='form-control', placeholder='Enter an optional description'/>
+          <div style='text-align: right; padding-top: 0.5em;'>
+            <a href='#' class='removeShape btn btn-default' data-dismiss='modal'>Cancel</a>
+            <a href='#' class='save btn btn-primary'>Save</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</script>
+<script id='search-result-template' type='text/html'>
+  {{#results}}
+    <div class='search-result{{#exact}} exact{{/exact}}'>
+      {{#image}}<img src='{{thumbnail}}'/>{{/image}}
+      
+      {{#exact}}
+        <h4>Exact Property Match:</h4>
+        <a href='{{path}}'{{#zoom_to}} data-zoom-to='{{.}}'{{/zoom_to}}><h3>{{name}}</h3></a>
+      {{/exact}}
+      {{^exact}}
+        <a href='{{path}}'{{#zoom_to}} data-zoom-to='{{.}}'{{/zoom_to}}><h4>{{name}}</h4></a>
+      {{/exact}}
+      {{#summary}}<p class='subtle'>{{{.}}}</p>{{/summary}}
+    </div>
+  {{/results}}
+  {{^results}}
+    <p>We couldn&#x27;t find anything for that search, sorry!</p>
+  {{/results}}
+</script>
+<script>
+  //<![CDATA[
+    var ex = null, dash = null;
+    var scInfo = {"group_id":93,"level":null,"map_id":246,"map_path":"/m/survey","shortcut":"detroit","place_class":"City","humanizedQuestions":{"structure":"structure","occupancy":"occupancy","use":"use","units":"units","mixed_resi":"residence type","commercial_use":"commercial use","industrial_use":"industrial use","institutional_use":"institutional use","condition":"condition","fire":"fire damage","fire_damage":"fire severity","trespass":"trespassing","maintained":"maintained","dumping":"dumping"},"humanizedAnswers":{"structure":{"yes":"yes","no":"no"},"occupancy":{"occupied":"occupied","unoccupied":"unoccupied","maybe":"maybe","partial":"partial"},"use":{"residential":"residential","commercial":"commercial","mixed":"mixed","industrial":"industrial","institutional":"institutional","unknown":"unknown","vacant":"vacant","parking":"parking","park":"park","garden":"garden","other":"other","attached":"attached"},"units":{"garage":"garage","single":"single","multi":"multi","apartments":"apartments"},"mixed_resi":{"single":"single","multi":"multi","apartments":"apartments"},"commercial_use":{"restaurant":"restaurant","grocery":"grocery","retail":"retail","service":"service","office":"office","entertainment":"entertainment","multi":"multi","other":"other"},"industrial_use":{"industrial":"industrial","warehouse":"warehouse","multi":"multi","other":"other"},"institutional_use":{"school":"school","religious":"religious","safety":"safety","health":"health","recreation":"recreation","government":"government","npo":"npo","other":"other"},"condition":{"good":"good","fair":"fair","poor":"poor","suggest demolition":"suggest demolition"},"fire":{"yes":"yes","no":"no"},"fire_damage":{"minor":"minor","major":"major","collapsed":"collapsed"},"trespass":{"secure":"secure","open":"open"},"maintained":{"yes":"yes","no":"no"},"dumping":{"yes":"yes","no":"no"},"notes":{}}};
+    data.geo_spec = {"state":"mi","geoid":"26163","county":"wayne","city":"detroit","id":null};
+    var boundaries = "neighborhoods";
+    var filters = {"structure":["yes","no"],"occupancy":["occupied","unoccupied","maybe","partial"],"use":["residential","commercial","mixed","industrial","institutional","unknown","vacant","parking","park","garden","other","attached"],"commercial_use":["restaurant","grocery","retail","service","office","entertainment","multi","other"],"industrial_use":["industrial","warehouse","multi","other"],"institutional_use":["school","religious","safety","health","recreation","government","npo","other"],"condition":["good","fair","poor","suggest demolition"],"fire":["yes","no"],"fire_damage":["minor","major","collapsed"],"trespass":["secure","open"],"maintained":["yes","no"],"dumping":["yes","no"],"public":["1","0"],"pub_owner":["city","dlba","dps","wayne","michigan","mlbfta","usgov"],"in2015":["1"]};
+    var tNumParcels = "properties surveyed";
+    var tMoreFilters = "More Filters";
+    var tFewerFilters = "Fewer Filters";
+    
+    var answerKey = {"key":"occupancy","lot":"lot","yes":"structures","no":"lots","good":"good","fair":"fair","poor":"poor","suggest_demolition":"suggest demolition","occupied":"occupied","unoccupied":"unoccupied","maybe":"possibly occupied","partial":"partially occupied","suggest demolition":"sugg. demo"};
+    var mcmRoot = "motorcitymapping.org";
+    
+    $(document).ready(function(e) {
+      var scw = new SC.Workshop(); // For the write-a-comment functionality mostly
+      ex = new MCM.Explorer({ });
+      dash = new SC.Dash({
+        loadMap:      false,
+        loadFeed:     false, //(scInfo.place_class == 'Block') ? 'all' : 'recent',
+        loadTallies:  false,
+        publicOnly:   true,
+      });
+    });
+    
+    if(typeof(L) != 'undefined' && L.drawLocal) {
+      L.drawLocal = $.extend(L.drawLocal, {"draw":{"toolbar":{"actions":{"title":"Cancel drawing","text":"Cancel"},"undo":{"title":"Delete last point drawn","text":"Delete last point"},"buttons":{"polyline":"Draw a polyline","polygon":"Draw a polygon","rectangle":"Draw a rectangle","circle":"Draw a circle","marker":"Draw a marker"}},"handlers":{"circle":{"tooltip":{"start":"Click and drag to draw circle."}},"marker":{"tooltip":{"start":"Click map to place marker."}},"polygon":{"tooltip":{"start":"Click to start drawing shape.","cont":"Click to continue drawing shape.","end":"Click first point to close this shape."}},"polyline":{"error":"<strong>Error:</strong> shape edges cannot cross!","tooltip":{"start":"Click to start drawing line.","cont":"Click to continue drawing line.","end":"Click last point to finish line."}},"rectangle":{"tooltip":{"start":"Click and drag to draw rectangle."}},"simpleshape":{"tooltip":{"end":"Release mouse to finish drawing."}}}},"edit":{"toolbar":{"actions":{"save":{"title":"Save changes.","text":"Save"},"cancel":{"title":"Cancel editing, discards all changes.","text":"Cancel"}},"buttons":{"edit":"Edit layers.","editDisabled":"No layers to edit.","remove":"Delete layers.","removeDisabled":"No layers to delete."}},"handlers":{"edit":{"tooltip":{"text":"Drag handles, or marker to edit feature.","subtext":"Click cancel to undo changes."}},"remove":{"tooltip":{"text":"Click on a feature to remove"}}}}});
+    }
+  //]]>
+</script>
+
+<script src="/assets/explorer-9f30e7c5d3f98aa9b9e73fc5fe84812c.js" type="text/javascript"></script>
+<script src="/assets/sitecontrol-f02e0c721de094e5ce449cf28a77e2f4.js" type="text/javascript"></script>
+
+<div class='clear_floats'></div>
+<br>
+<br>
+</div>
+</div>
+<div class='modal fade' id='signinModal' role='dialog' tabindex='-1'>
+<div class='modal-dialog modal-sm'>
+<div class='modal-content'>
+<div class='modal-header'>
+<button aria-hidden='true' class='close' data-dismiss='modal' type='button'>&times;</button>
+<h3>Sign In</h3>
+</div>
+<div class='modal-body'>
+<form accept-charset="UTF-8" action="/users/sign_in" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="WlVcvFWnq4ZusOzCXH1xjAyTxDs5A7+xnnt79CriWY4=" /></div><input id="redirect" name="redirect" type="hidden" value="/" />
+<div class='form-group'>
+<input class="form-control" id="user_email" name="user[email]" placeholder="Email address" size="30" type="email" />
+</div>
+<div class='form-group'>
+<input class="form-control" id="user_password" name="user[password]" placeholder="Password" size="30" type="password" />
+<p class='small pull-right'><a href="/users/password/new" class="forgotLink" style="color: #aaa;">Forgot your password?</a></p>
+</div>
+<div class='form-group'>
+<input class="btn btn-success btn-block" name="commit" type="submit" value="Sign In" />
+</div>
+</form>
+
+<p class='centered small'>
+<a href="/users/sign_in">No account? Sign up for free!</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class='hidden' id='forgotContent'>
+<div class='modal-header'>
+<button aria-hidden='true' class='close' data-dismiss='modal' type='button'>&times;</button>
+<h3>Password Reset</h3>
+</div>
+<div class='modal-body'>
+<form accept-charset="UTF-8" action="/users/password" html="{:method=&gt;:post}" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="WlVcvFWnq4ZusOzCXH1xjAyTxDs5A7+xnnt79CriWY4=" /></div>
+<div class='form-group'>
+<input class="form-control" id="user_email" name="user[email]" placeholder="Email address" type="email" />
+</div>
+<div class='form-group'>
+<input class="btn btn-primary" name="commit" type="submit" value="Send Me Instructions" />
+<button class='btn btn-default nevermind'>Cancel</button>
+</div>
+</form>
+
+</div>
+</div>
+</body>
+<script src="/assets/footer-f3dcbdc2610f5b70b00530f797d088c0.js" type="text/javascript"></script>
+<!--
+pine
+-->
+</html>

@@ -1,0 +1,16 @@
+{
+  "packetId": "RP-C18-L2-G3-v1.0",
+  "supersedes": "RP-C18-L2-G3-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G3",
+  "caseId": "C18",
+  "decidedAt": "2026-11-13",
+  "researcherDecision": {
+    "action": "accept",
+    "rationale": "6支持增量，0改判，64活跃概念，进入G4。",
+    "modifiedContent": "接受6个支持增量与0历史改判。",
+    "allowNextGate": true
+  },
+  "frozenArtifacts": ["historical_mapping_review.md/json", "network_delta_v1.0.md/json", "RP-C18-L2-G3-v1.0"],
+  "openIssues": ["G4版本发布"]
+}

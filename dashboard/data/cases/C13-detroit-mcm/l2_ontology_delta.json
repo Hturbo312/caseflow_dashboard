@@ -1,0 +1,18 @@
+{
+  "version": "L2-C13-shared-v1.0",
+  "caseId": "C13",
+  "date": "2026-11-13",
+  "baseLayer": "L2-C01-C11-shared-v0.2 + L2-C12-shared-v1.0",
+  "baseConceptCount": 45,
+  "addedCandidates": 8,
+  "addedMappings": 14,
+  "modifiedConcepts": 0,
+  "deletedConcepts": 0,
+  "historicalReclassifications": 0,
+  "supportingCaseChanges": 0,
+  "resultingConceptNodes": 53,
+  "confirmedSharedConcepts": 45,
+  "candidates": ["SC-C13-101", "SC-C13-102", "SC-C13-103", "SC-C13-104", "SC-C13-105", "SC-C13-106", "SC-C13-107", "SC-C13-108"],
+  "deferredConcepts": ["数据基础设施的维护与衰减"],
+  "historicalReview": "6个既有概念回查；无改判、无回退、无案例重分类"
+}

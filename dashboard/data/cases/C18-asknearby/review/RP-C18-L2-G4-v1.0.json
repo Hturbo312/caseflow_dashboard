@@ -1,0 +1,29 @@
+{
+  "packetId": "RP-C18-L2-G4-v1.0",
+  "supersedes": "RP-C18-L2-G4-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G4",
+  "caseId": "C18",
+  "releasedAt": "2026-11-13",
+  "researcherDecision": {
+    "action": "accept",
+    "version": "L2-C18-v1.0",
+    "ontologyVersion": "V4",
+    "releaseScope": "file-level only",
+    "rationale": "L2-C18-v1.0，V4不变，文件级发布，完成交接。",
+    "allowRelease": true
+  },
+  "counts": {
+    "nativeConcepts": 10,
+    "mappings": 16,
+    "activeCandidates": 7,
+    "heldCandidates": 1,
+    "supportAdditions": 6,
+    "afterActiveSharedConcepts": 64,
+    "definitionChanges": 0,
+    "negativeExampleChanges": 0,
+    "historicalReclassifications": 0
+  },
+  "sqliteImported": false,
+  "handoff": "cross-case-causal-analysis"
+}

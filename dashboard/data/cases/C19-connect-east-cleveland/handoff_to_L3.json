@@ -1,0 +1,460 @@
+{
+  "case_id": "C19",
+  "to": "cross-case-causal-analysis",
+  "version": "L2-C19-v1.0",
+  "status": "ready",
+  "generated_at": "2026-11-13",
+  "layers": {
+    "shared_concepts": {
+      "updated_existing": [
+        {
+          "id": "SC-C01-102",
+          "label": "规划制度与产权治理约束",
+          "entity_type": "context",
+          "appended_native_ids": [
+            "NC-C19-18"
+          ],
+          "supporting_cases": [
+            "C02",
+            "C07",
+            "C10",
+            "C11",
+            "C19"
+          ]
+        },
+        {
+          "id": "SC-C01-111",
+          "label": "地方政府与规划治理主体",
+          "entity_type": "actor",
+          "appended_native_ids": [
+            "NC-C19-16"
+          ],
+          "supporting_cases": [
+            "C01",
+            "C02",
+            "C04",
+            "C05",
+            "C06",
+            "C07",
+            "C09",
+            "C11",
+            "C19"
+          ]
+        },
+        {
+          "id": "SC-C01-112",
+          "label": "专业研究和服务机构",
+          "entity_type": "actor",
+          "appended_native_ids": [
+            "NC-C19-21"
+          ],
+          "supporting_cases": [
+            "C01",
+            "C02",
+            "C03",
+            "C07",
+            "C08",
+            "C11",
+            "C19"
+          ]
+        },
+        {
+          "id": "SC-C01-114",
+          "label": "地方组织与运营主体",
+          "entity_type": "actor",
+          "appended_native_ids": [
+            "NC-C19-15",
+            "NC-C19-21"
+          ],
+          "supporting_cases": [
+            "C01",
+            "C04",
+            "C05",
+            "C07",
+            "C08",
+            "C09",
+            "C10",
+            "C11",
+            "C19"
+          ]
+        },
+        {
+          "id": "SC-C01-122",
+          "label": "规划设计与实施准备",
+          "entity_type": "task",
+          "appended_native_ids": [
+            "NC-C19-22"
+          ],
+          "supporting_cases": [
+            "C01",
+            "C02",
+            "C05",
+            "C07",
+            "C10",
+            "C11",
+            "C19"
+          ]
+        },
+        {
+          "id": "SC-C01-131",
+          "label": "数字参与与可视化工具",
+          "entity_type": "technology",
+          "appended_native_ids": [
+            "NC-C19-02",
+            "NC-C19-03",
+            "NC-C19-04",
+            "NC-C19-08"
+          ],
+          "supporting_cases": [
+            "C01",
+            "C02",
+            "C03",
+            "C05",
+            "C06",
+            "C07",
+            "C19"
+          ]
+        },
+        {
+          "id": "SC-C01-141",
+          "label": "参与表达与意见采集能力",
+          "entity_type": "capability",
+          "appended_native_ids": [
+            "NC-C19-24",
+            "NC-C19-25"
+          ],
+          "supporting_cases": [
+            "C01",
+            "C02",
+            "C03",
+            "C07",
+            "C19"
+          ]
+        },
+        {
+          "id": "SC-C01-151",
+          "label": "社区参与与意见收集",
+          "entity_type": "action",
+          "appended_native_ids": [
+            "NC-C19-05",
+            "NC-C19-20"
+          ],
+          "supporting_cases": [
+            "C01",
+            "C02",
+            "C03",
+            "C05",
+            "C06",
+            "C07",
+            "C08",
+            "C09",
+            "C11",
+            "C19"
+          ]
+        },
+        {
+          "id": "SC-C01-152",
+          "label": "方案共制与居民协商决策",
+          "entity_type": "action",
+          "appended_native_ids": [
+            "NC-C19-05"
+          ],
+          "supporting_cases": [
+            "C04",
+            "C05",
+            "C06",
+            "C10",
+            "C11",
+            "C19"
+          ]
+        },
+        {
+          "id": "SC-C01-155",
+          "label": "跨组织协作与信息协调",
+          "entity_type": "action",
+          "appended_native_ids": [
+            "NC-C19-19"
+          ],
+          "supporting_cases": [
+            "C01",
+            "C03",
+            "C07",
+            "C08",
+            "C19"
+          ]
+        },
+        {
+          "id": "SC-C01-161",
+          "label": "住区空间建筑与基础设施",
+          "entity_type": "target",
+          "appended_native_ids": [
+            "NC-C19-09",
+            "NC-C19-10",
+            "NC-C19-11",
+            "NC-C19-12",
+            "NC-C19-14"
+          ],
+          "supporting_cases": [
+            "C05",
+            "C06",
+            "C07",
+            "C08",
+            "C09",
+            "C10",
+            "C11",
+            "C19"
+          ]
+        },
+        {
+          "id": "SC-C01-171",
+          "label": "实体环境与能源改造成效",
+          "entity_type": "outcome",
+          "appended_native_ids": [
+            "NC-C19-17"
+          ],
+          "supporting_cases": [
+            "C03",
+            "C04",
+            "C07",
+            "C10",
+            "C11",
+            "C19"
+          ]
+        },
+        {
+          "id": "SC-C01-173",
+          "label": "参与表达与规划共制成果",
+          "entity_type": "outcome",
+          "appended_native_ids": [
+            "NC-C19-06",
+            "NC-C19-07"
+          ],
+          "supporting_cases": [
+            "C02",
+            "C03",
+            "C07",
+            "C11",
+            "C19"
+          ]
+        },
+        {
+          "id": "SC-C16-201",
+          "label": "本地数字维护者",
+          "entity_type": "actor",
+          "appended_native_ids": [
+            "NC-C19-01"
+          ],
+          "supporting_cases": [
+            "C16",
+            "C19"
+          ]
+        }
+      ],
+      "single_case_candidates": [
+        {
+          "id": "SC-C19-101",
+          "label": "本地参与协调者",
+          "entity_type": "actor",
+          "supporting_native_ids": [
+            "NC-C19-01"
+          ],
+          "status": "candidate_single_case"
+        },
+        {
+          "id": "SC-C19-102",
+          "label": "生成式 AI 参与式可视化",
+          "entity_type": "technology",
+          "supporting_native_ids": [
+            "NC-C19-02"
+          ],
+          "status": "candidate_single_case"
+        },
+        {
+          "id": "SC-C19-103",
+          "label": "公共艺术与地方叙事载体",
+          "entity_type": "target",
+          "supporting_native_ids": [
+            "NC-C19-11"
+          ],
+          "status": "candidate_single_case"
+        },
+        {
+          "id": "SC-C19-104",
+          "label": "太阳能公共设施",
+          "entity_type": "technology",
+          "supporting_native_ids": [
+            "NC-C19-13"
+          ],
+          "status": "candidate_single_case"
+        },
+        {
+          "id": "SC-C19-105",
+          "label": "社区商业锚点建筑",
+          "entity_type": "target",
+          "supporting_native_ids": [
+            "NC-C19-14"
+          ],
+          "status": "candidate_single_case"
+        },
+        {
+          "id": "SC-C19-106",
+          "label": "土地银行主导的门户再开发主体",
+          "entity_type": "actor",
+          "supporting_native_ids": [
+            "NC-C19-16"
+          ],
+          "status": "candidate_single_case"
+        },
+        {
+          "id": "SC-C19-107",
+          "label": "留居型住宅修缮资助",
+          "entity_type": "outcome",
+          "supporting_native_ids": [
+            "NC-C19-17"
+          ],
+          "status": "candidate_single_case"
+        },
+        {
+          "id": "SC-C19-108",
+          "label": "社区更新授权争议",
+          "entity_type": "context",
+          "supporting_native_ids": [
+            "NC-C19-18"
+          ],
+          "status": "candidate_single_case"
+        },
+        {
+          "id": "SC-C19-109",
+          "label": "多源公共资金拼装",
+          "entity_type": "action",
+          "supporting_native_ids": [
+            "NC-C19-19"
+          ],
+          "status": "candidate_single_case"
+        },
+        {
+          "id": "SC-C19-110",
+          "label": "项目制更新团队",
+          "entity_type": "actor",
+          "supporting_native_ids": [
+            "NC-C19-21"
+          ],
+          "status": "candidate_single_case"
+        },
+        {
+          "id": "SC-C19-111",
+          "label": "场所营造与住房再开发互补",
+          "entity_type": "task",
+          "supporting_native_ids": [
+            "NC-C19-22"
+          ],
+          "status": "candidate_single_case"
+        },
+        {
+          "id": "SC-C19-112",
+          "label": "跨市边界更新区",
+          "entity_type": "context",
+          "supporting_native_ids": [
+            "NC-C19-23"
+          ],
+          "status": "candidate_single_case"
+        },
+        {
+          "id": "SC-C19-113",
+          "label": "本地知识动员能力",
+          "entity_type": "capability",
+          "supporting_native_ids": [
+            "NC-C19-25"
+          ],
+          "status": "candidate_single_case"
+        }
+      ]
+    },
+    "native_layer": {
+      "entities": "entities.json",
+      "relations": "relations_v1.0.json",
+      "facts": "facts.json",
+      "processes": "process.json",
+      "native_concepts": "native_concepts.json"
+    },
+    "evidence_layer": {
+      "materials": "materials.json",
+      "evidence": "evidence.json",
+      "case_pack": "case_pack.json"
+    },
+    "mapping_table": "concepts/concept_mapping.json",
+    "version_record": "concepts/version_record.json",
+    "ontology_delta": "concepts/ontology_delta.json"
+  },
+  "counts": {
+    "updated_existing_concepts": 14,
+    "single_case_candidates": 13,
+    "mappings": 40,
+    "relations": 106,
+    "facts": 47,
+    "evidence": 70
+  },
+  "comparison_anchors": [
+    {
+      "shared_concept": "SC-C16-201 本地数字维护者",
+      "c19_native": "NC-C19-01 带薪本地 Street Team Leader",
+      "note": "同为本地受薪角色；任务分别为数字维护与参与协调。"
+    },
+    {
+      "shared_concept": "SC-C01-131 数字参与与可视化工具",
+      "c19_native": "NC-C19-02/03/04/08",
+      "note": "AI/AR/3D/记分卡的参与式可视化组合。"
+    },
+    {
+      "shared_concept": "SC-C01-151 社区参与与意见收集",
+      "c19_native": "NC-C19-05/20",
+      "note": "七站点开放日与青年工作坊。"
+    },
+    {
+      "shared_concept": "SC-C01-161 住区空间建筑与基础设施",
+      "c19_native": "NC-C19-09/10/11/12/14",
+      "note": "绿道、口袋公园、壁画、街道家具、商业锚点。"
+    },
+    {
+      "shared_concept": "SC-C01-102 规划制度与产权治理约束",
+      "c19_native": "NC-C19-18",
+      "note": "2025 年授权争议（单案例候选，证据有限）。"
+    },
+    {
+      "shared_concept": "SC-C01-155 跨组织协作与信息协调",
+      "c19_native": "NC-C19-19",
+      "note": "县/市/联邦/慈善多源资金拼装。"
+    },
+    {
+      "shared_concept": "SC-C19-110 项目制更新团队",
+      "c19_native": "NC-C19-21",
+      "note": "单案例候选；与 C14 多主体协同机制可比较。"
+    },
+    {
+      "shared_concept": "SC-C19-109 多源公共资金拼装",
+      "c19_native": "NC-C19-19",
+      "note": "单案例候选；与 C14/C13 的资金安排可比较。"
+    }
+  ],
+  "suggested_comparisons": [
+    "C19 vs C16：本地受薪角色（参与协调 vs 数字维护）的任务边界与能力要求。",
+    "C19 vs C14：多主体协同/项目制团队与资金拼装的差异。",
+    "C19 vs C07/C12：数字/参与工具如何进入社区更新参与过程。",
+    "C19 vs C13：可视化/数据工具在问题识别与方案表达中的位置。",
+    "C19 vs C02/C03：共制工作坊与方案选择机制的异同。"
+  ],
+  "rules": [
+    "比较走共享层；解释回原生层与证据层。",
+    "13 个 SC-C19-* 为单案例候选，不得当作已验证的跨案例概念。",
+    "Jaccard/共现只能作筛选信号，不作因果证据。",
+    "disputed/reported 关系不得升级为已实施事实。",
+    "2026 回溯关系不得用于 2025 年因果推断。"
+  ],
+  "unresolved": [
+    "C17/C18 未入库，历史回查不完整",
+    "13 个单案例候选待第二案例支持",
+    "SC-C19-108 授权争议依赖单一低可靠性来源",
+    "Dashboard DB 尚未导入 C19 与增量",
+    "30 项行动仍为汇总级关系"
+  ]
+}

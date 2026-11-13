@@ -1,0 +1,393 @@
+{
+  "caseId": "C16",
+  "version": "v1.0",
+  "status": "confirmed_by_researcher",
+  "generatedAt": "2026-11-13",
+  "processes": [
+    {
+      "processId": "C16-P01",
+      "title": "社区问题识别与外部技术引荐",
+      "timeRange": "2011 秋 – 2012 初",
+      "narrative": "2011 年秋，Red Hook Initiative（RHI）就社区无线网络合作接触 Open Technology Institute（OTI）。RHI 的目标不是一般意义上的“提供上网”，而是找到一种能联系社区中心周边居民的方式（M01-E01）。红钩被 Gowanus Expressway 与外部隔开，社区缺少集中的本地信息渠道；RHI 的媒体项目负责人 Tony Schloss 把 WiFi 视为社区发展工具，希望建立社区所有、服务本地通信的平台（M01-E03、M02-E01、M02-E02）。\n\nRHI 的调查显示，许多居民主要通过手机上网，家中少有无线路由器，不少人只有一台或没有电脑；住在 Red Hook Houses 的居民在数年前只能选择一家服务商（M02-E03、M02-E04）。这些条件构成项目的问题起点：既有宽带覆盖不足，也缺少面向本地的信息与组织渠道。\n\nOTI 最初无法直接支持，将 Schloss 引荐给当时在 Parsons 设计学院研究无线 mesh 社会激励的 Alyx Baldwin（文中写作 Jonathan Baldwin）（M01-E02、M02-E05）。RHI 的初始计划仅是为 RHI 建筑及其周边提供无线上网，并非立即覆盖整个社区（M01-E04）。RHI 的组织史与媒体/青年项目为后续“数字管家”路径提供了组织基础（M15-E01、M15-E02）。",
+      "actors": [
+        "Red Hook Initiative (RHI)",
+        "Open Technology Institute (OTI)",
+        "Tony Schloss",
+        "Alyx Baldwin",
+        "Red Hook 居民"
+      ],
+      "events": [
+        "E01 RHI 接触 OTI，提出社区无线网络合作",
+        "E02 OTI 将 Schloss 引荐给 Baldwin",
+        "E03 调查显示居民以手机上网为主、终端与路由器不足",
+        "E04 初始计划限定为 RHI 建筑及周边"
+      ],
+      "evidenceIds": [
+        "M01-E01",
+        "M01-E02",
+        "M01-E03",
+        "M01-E04",
+        "M02-E01",
+        "M02-E02",
+        "M02-E03",
+        "M02-E04",
+        "M02-E05",
+        "M15-E01",
+        "M15-E02"
+      ],
+      "status": "implemented",
+      "revision": 1
+    },
+    {
+      "processId": "C16-P02",
+      "title": "首个节点、Coffey Park 节点与本地信息原型",
+      "timeRange": "2011 末 – 2012 春",
+      "narrative": "项目以极小规模起步。2011 年秋，Baldwin 从 Amazon 订购防风雨 Nanostation；两个一包 89 美元，首节点总投入低于 300 美元（M11-E03）。The Verge 把首个测试节点的时间记为 2011-12：天线用扎带和胶带固定在三脚架与轮胎上，雨后倒塌但仍在线（M15-E03）；维基信息框则称项目于 2011-11 建立（M17-E01）。本过程把“2011 年末”作为暂定时间，具体日期留待 G4 按事件拆分。\n\n首个节点在 RHI 屋顶安装 Ubiquiti Nanostation，室内 Linksys 路由器接入中心既有调制解调器（M01-E05、M11-E03）。连接名为“Red Hook Initiative WiFi”的用户会被导向本地服务器网页，网页上有留言板“Shout Box”（M01-E06、M02-E05）。这一设计把网络从单纯的上网管道转为本地信息与评论空间。\n\n2012 年 3 月，第二个 Nanostation 安装在俯瞰 Coffey Park 的公寓楼顶；住户因与 RHI 的社会关系捐赠电力与屋顶准入（M01-E07）。Coffey Park 节点最初不接互联网，只连接 GuruPlug 本地服务器，提供本地网页与留言板（M01-E08）。网络随后采用 OTI 的 Commotion 固件运行于 Ubiquiti 路由器，支持去中心化 mesh；即使没有互联网连接，本地网络仍可运行（M01-E09、M10-E02）。",
+      "actors": [
+        "RHI",
+        "Alyx Baldwin",
+        "Tony Schloss",
+        "Coffey Park 公寓楼住户",
+        "Ubiquiti",
+        "OTI"
+      ],
+      "events": [
+        "E01 首个测试节点在 RHI 设置",
+        "E02 RHI 屋顶安装 Nanostation 并接入中心网络",
+        "E03 splash page 与 Shout Box 上线",
+        "E04 Coffey Park 第二节点安装，住户捐赠电力与屋顶",
+        "E05 Coffey Park 以 GuruPlug 提供本地网页，暂不接互联网"
+      ],
+      "evidenceIds": [
+        "M01-E05",
+        "M01-E06",
+        "M01-E07",
+        "M01-E08",
+        "M01-E09",
+        "M02-E05",
+        "M10-E02",
+        "M11-E03",
+        "M15-E03",
+        "M17-E01"
+      ],
+      "status": "implemented",
+      "revision": 1
+    },
+    {
+      "processId": "C16-P03",
+      "title": "社区工作坊、Tidepools 与首批本地应用",
+      "timeRange": "2012 春 – 2012-10",
+      "narrative": "在首节点运行后，Baldwin 与 Schloss 以 RHI 既有媒体项目参与者为基础，开展持续工作坊，识别社区需求并收集Tidepools 的设计想法（M01-E11、M02-E06）。工作坊提出的需求包括上网、可问责的社区参与、就业与技能资源、本地历史与地标信息、西班牙语/阿拉伯语/他加禄语多语言界面，以及鼓励探索的游戏化界面（M01-E12）。\n\nTidepools 被开发为开源、可定制的本地地图平台，使用 Javascript、LeafletJS、PHP 与 MongoDB，用于本地通信、地方营造，以及围绕事件、议题与社区资产的组织（M01-E11）。开发过程强调“原型—反馈—调整”，而不是把技术空投到社区（M02-E06）。\n\n在初始测试后的数月内，OTI 与 RHI 把三个应用作为重点：B61 巴士实时信息应用于 2012-10-09 上线；Stop & Frisk 调查应用于 2012-10-17 上线；RHI Radio 当时仍在开发中（M01-E14、M01-E15）。这些应用运行在本地无线网络上，构成本地信息服务的首批具体形态。",
+      "actors": [
+        "Alyx Baldwin",
+        "Tony Schloss",
+        "RHI 媒体项目参与者",
+        "社区工作坊参与者",
+        "OTI",
+        "RHI"
+      ],
+      "events": [
+        "E01 系列社区工作坊识别需求",
+        "E02 Tidepools 本地地图平台开发",
+        "E03 B61 巴士应用上线（2012-10-09）",
+        "E04 Stop & Frisk 应用上线（2012-10-17）",
+        "E05 RHI Radio 仍在开发"
+      ],
+      "evidenceIds": [
+        "M01-E10",
+        "M01-E11",
+        "M01-E12",
+        "M01-E13",
+        "M01-E14",
+        "M01-E15",
+        "M02-E05",
+        "M02-E06"
+      ],
+      "status": "implemented",
+      "revision": 1
+    },
+    {
+      "processId": "C16-P04",
+      "title": "Sandy 应急通信与 RHI 恢复据点",
+      "timeRange": "2012-10-29 – 2012-11",
+      "narrative": "2012-10-29，超级风暴 Sandy 登陆，红钩大面积停电、通信中断。RHI 建筑是少数保有电力的地点，Red Hook WiFi 因此在风暴期间继续运行；灾后数日，最多 300 人/日使用网络报平安、了解城市情况与寻求救援（M01-E16）。RHI 同时成为社区恢复据点：居民来充电、取暖、使用网络（M02-E09）。The Verge 与 Orion 分别给出 1,000 人/日与 1,200 人/日到 RHI 的数字；G2 已确认三者分别为网络连接、网络用户与到访/求助口径，不能合并（M15-E04、M11-E06）。\n\n由于短信成为灾后主要甚至唯一的通信方式，OTI 在数日内开发 RHI Status：居民把位置与需求短信发送到指定号码，系统通过 Tropo SMS API 与 Google Geocoding API 把信息映射到 Tidepools，并形成可回应的讨论（M01-E18）。Tony Schloss 把通信列为灾后社区的关键需求之一（M01-E17）。\n\n随着恢复推进，FEMA Innovation Fellow Frank Sanborn 联系 RHI，招募 NYC Mesh 与 HacDC 志愿者并协调 ITDRC；团队在 RHI 屋顶设置 FEMA 卫星链路，并在汽修店屋顶安装 Commotion 路由器（M01-E19）。汽修店店主此前不愿设点，灾后同意；该店成为 RHI 网关与 Coffey Park 节点之间的关键链路。卫星链路仅提供 30 天、带宽有限（M01-E20）。约一周半后，FEMA 卫星上行链路接入，互联网扩展到此前未联网的Coffey Park 节点（M02-E10）。\n\nBrooklyn Fiber 自愿增加网关；OTI、RHI 与 Brooklyn Fiber 在 Visitation Church Rectory 三楼安装5GHz Nanostation Loco 与 Commotion 接入点，并配 UPS 供电 12 小时（M01-E21）。但“网络幸存”应限定为部分节点与核心据点持续运行：二次汇编称许多节点断电离线、网络在风暴前并未完整部署（M18-E02）。",
+      "actors": [
+        "RHI",
+        "Tony Schloss",
+        "OTI",
+        "FEMA",
+        "Frank Sanborn",
+        "NYC Mesh",
+        "HacDC",
+        "ITDRC",
+        "Brooklyn Fiber",
+        "汽修店店主",
+        "Red Hook 居民",
+        "急救与救援人员"
+      ],
+      "events": [
+        "E01 Sandy 登陆，RHI 保有电力，网络继续运行",
+        "E02 RHI 成为恢复据点，居民充电、取暖、报平安",
+        "E03 RHI Status 短信转地图在数日内开发",
+        "E04 FEMA 卫星链路与汽修店节点接入",
+        "E05 Brooklyn Fiber 网关在 Visitation Church 安装",
+        "E06 部分节点断电离线，网络未完整部署"
+      ],
+      "evidenceIds": [
+        "M01-E16",
+        "M01-E17",
+        "M01-E18",
+        "M01-E19",
+        "M01-E20",
+        "M01-E21",
+        "M01-E22",
+        "M02-E09",
+        "M02-E10",
+        "M02-E11",
+        "M11-E06",
+        "M11-E07",
+        "M15-E04",
+        "M18-E02"
+      ],
+      "status": "implemented",
+      "revision": 1
+    },
+    {
+      "processId": "C16-P05",
+      "title": "灾后扩展与 Digital Stewards 制度化",
+      "timeRange": "2012-11 – 2013-12",
+      "narrative": "Sandy 改变了屋顶设点的社会条件。灾前学校与汽修店等关键建筑难以获得许可；灾后障碍消解，汽修店同意设点，整个过程约在一个周末内完成（M02-E11、M11-E07）。RHI 也得以在救援人员聚集的公园建立完整信号（M11-E07）。\n\n在纽约市劳动力发展资金支持下，RHI 与 OTI 于 2013-01 启动 Digital Stewards 培训，采用 OTI 与 Allied Media Projects 在底特律开发的课程，训练青年安装、维护与推广网络（M01-E23）。2013-09 时，8 名 19–24 岁红钩青年以 RHI 员工身份参加一年期 fellowship，学习技术安装、维护、社区组织与推广（M02-E14、M11-E01、M11-E08）。The Verge 记载 Robert Smith 于 2013 年高中毕业后加入项目，完成带薪青年项目并成为全职员工，后来管理整个网络（M15-E05）。\n\n到 2015 年初，Stewards 已架设近两打路由器，覆盖从公共住宅到日托中心与图书馆（M11-E02）。RHI 是网络的所有者与社区锚点；OTI 提供技术方向；Brooklyn Fiber 提供可负担的带宽（M03-E04、M02-E12、M11-E05）。项目成本保持低位：每台路由器约 50–85 美元，每站点两人 3–5 小时安装，带宽由 RHI、Brooklyn Fiber 与 FEMA 捐赠（M01-E24）。但 Red Hook Houses 仍未接入，RHI 采取“包围”策略并把一栋楼内试点作为后续设想（M02-E15）。",
+      "actors": [
+        "RHI",
+        "OTI",
+        "Digital Stewards",
+        "Robert Smith",
+        "NYC Workforce Development",
+        "Allied Media Projects",
+        "Brooklyn Fiber",
+        "NYCHA"
+      ],
+      "events": [
+        "E01 灾后屋顶准入障碍消解，汽修店等宿主同意设点",
+        "E02 Digital Stewards 培训于 2013-01 启动",
+        "E03 2013-09 有 8 名 19–24 岁 Stewards 在岗",
+        "E04 2015 年初已架设近两打路由器",
+        "E05 Red Hook Houses 未接入，采取包围策略"
+      ],
+      "evidenceIds": [
+        "M01-E23",
+        "M01-E24",
+        "M01-E25",
+        "M02-E11",
+        "M02-E12",
+        "M02-E14",
+        "M02-E15",
+        "M02-E16",
+        "M03-E04",
+        "M07-E02",
+        "M08-E02",
+        "M11-E01",
+        "M11-E02",
+        "M11-E05",
+        "M11-E07",
+        "M11-E08",
+        "M15-E05"
+      ],
+      "status": "implemented",
+      "revision": 1
+    },
+    {
+      "processId": "C16-P06",
+      "title": "日常运营、维护与本地服务（RISE 前）",
+      "timeRange": "2013 – 2015-04",
+      "narrative": "2013 年初，风暴后即使未做推广，网络每周约支撑 100 名用户；居民主要使用 Android 设备与 Apple iPod Touch（M01-E22）。网络结构以本地服务器、屋顶环形骨干与街面路由器为主，单台路由器可承载 50 个以上连接；Tidepools 在本地服务器运行，即使没有互联网连接，社区内部仍可通信（M02-E07、M02-E08）。\n\n日常维护由 Digital Stewards 承担：安装新节点、修理故障设备、向居民推广网络，并支持社区计算机实验室（M02-E14、M11-E08）。维护的难点不只是设备：住户可能搬走或拔掉路由器，建筑材质与天气影响信号；必须有本地支持结构与知识传递，否则技术人员离开后网络会崩溃（M02-E12）。RHI 被视为这一知识交换的社区锚点（M02-E12）。\n\n网络对用户免费，但运营有成本：Brooklyn Fiber 以固定费用允许 RHI 广泛共享连接（M11-E05）；RHI 曾设想 300 人每月付 5 美元以实现财务自持，但该收费模式未见实施证据（M02-E13）。2014 年 NYT 记录了 Robert Smith 在 Miccio 社区中心屋顶维护节点的场景，并称 mesh 即使不接互联网仍构成网络（M10-E01、M10-E02）。官网后来把项目概括为社区主导、提供免费可靠接入，并由小企业作为网关与接入点宿主（M05-E01、M05-E02）。",
+      "actors": [
+        "RHI",
+        "Digital Stewards",
+        "Red Hook 居民",
+        "Brooklyn Fiber",
+        "Robert Smith",
+        "本地小企业"
+      ],
+      "events": [
+        "E01 风暴后网络每周约 100 用户",
+        "E02 本地服务器与 Tidepools 支持断网通信",
+        "E03 Stewards 承担安装、维护与推广",
+        "E04 300 人 × 5 美元/月的财务自持设想",
+        "E05 2014 年 NYT 记录屋顶维护与 mesh 运行"
+      ],
+      "evidenceIds": [
+        "M01-E22",
+        "M02-E07",
+        "M02-E08",
+        "M02-E12",
+        "M02-E13",
+        "M02-E14",
+        "M05-E01",
+        "M05-E02",
+        "M10-E01",
+        "M10-E02",
+        "M10-E03",
+        "M11-E04",
+        "M11-E05",
+        "M11-E08",
+        "M11-E09",
+        "M11-E10"
+      ],
+      "status": "implemented",
+      "revision": 1
+    },
+    {
+      "processId": "C16-P07",
+      "title": "RISE:NYC 获奖与网络规模扩张",
+      "timeRange": "2015-05 – 2017-12",
+      "narrative": "2015-05-01，New America 宣布其 Resilient Mesh Wireless 项目入选 NYCEDC 的 RISE:NYC 竞赛（M03-E01）。该竞赛共有 11 项技术获奖，最高合计 3,000 万美元，27 个入围者参选；RHI 的 Red Hook WiFi 也在获奖名单中（M12-E01、M12-E02、M03-E05）。RISE:NYC 的目标是帮助 Sandy 受灾小企业准备建筑、能源系统与电信网络以应对极端天气（M16-E01、M12-E03）。\n\nThe Verge 报道，NYCEDC 在 HUD 资助下向 New America 拨款 400 万美元，用于建设六个 mesh 网络；RHI 获约 100 万美元，用于扩展青年项目与网络（M15-E06）。该单项金额目前仅有 The Verge 一个来源，G2 已标为待合同补证。New America 的项目设计包括与 Sky Packets、社区锚点机构及 60 多家小企业合作，并在六个社区开展培训（M03-E02、M03-E03）。\n\n新资金使网络扩展到约 20 个站点，部分站点配太阳能备电；早期每年约 500 用户，后来每周约 500 用户（M15-E07）。2016 年 1–6 月，网络被访问 15,624 次以上，独立用户超过 3,000 人（M13-E01）；2017 年，RHI 在商业街招募 38 家本地商户作为热点宿主，全年访问 17,901 次（M04-E03、M04-E04、M08-E01）。2016 年夏，Digital Stewards 与 MIT 博士生开展参与式行动研究，并在 MIT 与 Allied Media Conference 展示（M04-E05）。官网同时把“到 2020 年覆盖整个社区、包括 Red Hook Houses”和“40+ 接入点与 14 个韧性热点”列为目标（M06-E01、M06-E02）——这些是规划，不是已完成数量。",
+      "actors": [
+        "New America",
+        "NYCEDC",
+        "HUD",
+        "RHI",
+        "Sky Packets",
+        "Digital Stewards",
+        "本地小企业",
+        "MIT 研究者"
+      ],
+      "events": [
+        "E01 New America 的 Resilient Mesh Wireless 获 RISE:NYC 奖",
+        "E02 11 个获奖者、最高 3,000 万美元、27 个入围者",
+        "E03 RHI 获约 100 万美元扩展网络与青年项目",
+        "E04 网络扩展到约 20 个站点，部分配太阳能",
+        "E05 2017 年 38 家商户宿主、17,901 次访问",
+        "E06 2020 全覆盖与 40+ 接入点目标"
+      ],
+      "evidenceIds": [
+        "M03-E01",
+        "M03-E02",
+        "M03-E03",
+        "M03-E05",
+        "M04-E03",
+        "M04-E04",
+        "M04-E05",
+        "M06-E01",
+        "M06-E02",
+        "M08-E01",
+        "M12-E01",
+        "M12-E02",
+        "M12-E03",
+        "M13-E01",
+        "M15-E06",
+        "M15-E07",
+        "M16-E01"
+      ],
+      "status": "implemented",
+      "revision": 1
+    },
+    {
+      "processId": "C16-P08",
+      "title": "维护压力、人员流失与运营移交",
+      "timeRange": "2016 – 2019",
+      "narrative": "RISE:NYC 的资助是一次性增长资金，而非长期维护资金。NYCHA 对 Red Hook Houses 有最终决定权；Schloss 称 NYCHA 对设点持开放态度，但要求 RHI 自行承担项目费用（M15-E08）。与此同时，网络的人力资源变薄：Robert Smith 于 2016 年离开 RHI，Schloss 于 2017 年离开；此后维护这套已扩张的节点系统的人所剩无几（M15-E09）。\n\n2019 年，RISE:NYC 资助结束且没有替代资金，RHI 将网络移交给 Sky Packets；后者同意承担每月约 3,000 美元的数据与电力成本，并执行日常维护（M15-E10）。移交意味着“社区主导”的所有权/品牌与“专业公司”的日常运营开始分离；G2 已把所有权、运营、维护、资金四种角色分开记录。\n\nDigital Stewards 的培训与就业成果仍在：2017 年报告称 77% 的学员在完成项目后六个月内仍就业或继续求学（M04-E02）。但培训项目本身是 8 个月带薪培训（M04-E01、M08-E02），与早期“一年期 fellowship”不同；这提示维护能力的再生产随项目周期与资金结构变化，而不能简单视为同一制度持续运行。",
+      "actors": [
+        "RHI",
+        "NYCHA",
+        "Robert Smith",
+        "Tony Schloss",
+        "Sky Packets",
+        "Digital Stewards"
+      ],
+      "events": [
+        "E01 NYCHA 要求 RHI 自行承担 Red Hook Houses 项目费用",
+        "E02 Smith 2016 年离开、Schloss 2017 年离开",
+        "E03 2019 年网络移交 Sky Packets",
+        "E04 Sky Packets 承担每月约 3,000 美元数据与电力成本",
+        "E05 2017 年 77% 学员就业或继续求学"
+      ],
+      "evidenceIds": [
+        "M04-E01",
+        "M04-E02",
+        "M07-E02",
+        "M08-E02",
+        "M15-E08",
+        "M15-E09",
+        "M15-E10"
+      ],
+      "status": "implemented",
+      "revision": 1
+    },
+    {
+      "processId": "C16-P09",
+      "title": "疫情、施工扰动与网络收缩",
+      "timeRange": "2020 – 2023-05",
+      "narrative": "2020 年疫情使学校、医疗与大量基本服务转到线上，也使 Red Hook Houses 居民更依赖网络；但商户关闭时把节点一并撤下，居民被困在公寓内，处于网络覆盖之外（M15-E11）。Sky Packets 称曾把部分接入点移到最靠近住宅区的商户，但在无法进入住宅区安装节点的情况下作用有限（M15-E11）。\n\n即使没有疫情，网络也在失去阵地。住宅区周边施工破坏了 Houses 中部旗杆处的热门户外接入点；其他路由器因多年暴露而离线。2023 年报道时约剩 10 个活跃站点，Coffey Park 已不在其中（M15-E12）。二次汇编也称 Sandy 时许多节点断电离线、网络未完整部署（M18-E02）。\n\n2021 年，市府再次有条件同意网络进入 Houses，条件是 Sky Packets 自行筹资；该决定属于 de Blasio 政府推动普遍宽带、扶持小型本地 ISP 的计划。2022 年 Adams 政府以 Big Apple Connect 取代该计划（M15-E13）。NYC OTI 表示 Red Hook Houses 未进入 Big Apple Connect 首期，部分原因是 Sky Packets 已为户外公共区域提供免费宽带（M15-E14）。网络因此呈现一种悖论：残余覆盖足以让住宅区在市政项目排序中靠后，却不足以让居民在室内稳定接入。",
+      "actors": [
+        "Sky Packets",
+        "Red Hook Houses 居民",
+        "NYC OTI",
+        "NYCHA",
+        "de Blasio 政府",
+        "Adams 政府",
+        "本地商户"
+      ],
+      "events": [
+        "E01 疫情期间商户撤下节点，居民处于覆盖之外",
+        "E02 施工破坏旗杆节点，其他路由器离线",
+        "E03 2023 年约剩 10 个活跃站点，Coffey Park 退出",
+        "E04 2021 年有条件同意进入 Houses",
+        "E05 2022 年 Big Apple Connect 取代原计划",
+        "E06 Red Hook Houses 未进入 Big Apple Connect 首期"
+      ],
+      "evidenceIds": [
+        "M05-E01",
+        "M14-E02",
+        "M15-E11",
+        "M15-E12",
+        "M15-E13",
+        "M15-E14",
+        "M18-E02"
+      ],
+      "status": "implemented",
+      "revision": 1
+    },
+    {
+      "processId": "C16-P10",
+      "title": "农场传感器、残余服务与政策评价",
+      "timeRange": "2018 – 2023",
+      "narrative": "网络的目标在核心期后扩展。Red Hook Farms 使用 mesh 网络监测温室温度：温度传感器在停电时提醒员工抢救农产品；同样的传感器也用于保持幼苗温度（M15-E15）。随着仓库与卡车交通增加，RHI 在包括 Columbia Street Farm 在内的几个地点安装空气质量监测器，并通过 mesh 网络把数据接入全国空气质量地图（M15-E15）。\n\n到 2023 年，网络仍在提供部分本地服务：连接时出现的黄黑色 splash page 仍列有可负担住房、食品券申请信息，以及 RHI 的社区活动通知（M15-E15）。官网仍把项目描述为社区主导、提供免费可靠接入，并以小企业作为宿主（M05-E01、M05-E02）。但“社区主导”与“Sky Packets 运营”之间的权责分离，已成为必须记录的结构特征（M15-E10）。\n\n2022 年 NYC 主计长与 Urban Ocean Lab 的报告把该网络列为城市应支持的合作社区基础设施案例（M15-E17）。项目前负责人 Greta Byrum 则给出更有限的判断：不应把 mesh 网络当作服务大量人口的规模化方案，因为会产生过多所有权与维护问题；网络的价值不只在设备，还在于受过训练、能在紧急时部署网络的人（M15-E16、M15-E18）。这些评价属于观点/报道，不进入基础关系表的因果判断。",
+      "actors": [
+        "Red Hook Farms",
+        "RHI",
+        "Sky Packets",
+        "NYC 主计长",
+        "Urban Ocean Lab",
+        "Greta Byrum",
+        "Red Hook 居民"
+      ],
+      "events": [
+        "E01 Red Hook Farms 用 mesh 监测温室温度与停电",
+        "E02 空气质量监测数据接入全国地图",
+        "E03 splash page 继续提供本地住房、食品券与活动信息",
+        "E04 2022 年主计长报告把网络列为社区基础设施案例",
+        "E05 Byrum 对 mesh 规模化与“人”的价值的判断"
+      ],
+      "evidenceIds": [
+        "M05-E01",
+        "M05-E02",
+        "M07-E01",
+        "M15-E10",
+        "M15-E15",
+        "M15-E16",
+        "M15-E17",
+        "M15-E18"
+      ],
+      "status": "implemented",
+      "revision": 1
+    }
+  ],
+  "unreconstructed": [
+    "2011 年之前 RHI 媒体项目的具体活动与参与者构成。",
+    "2011–2012 年工作坊的场次、参与人数与原始需求记录。",
+    "2013–2015 年每年度的节点清单、停机记录与维护工单。",
+    "2019 年 RHI 与 Sky Packets 移交协议的条款与责任边界。",
+    "2020–2022 年市府、NYCHA 与 Sky Packets 之间的具体沟通与文件。"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "packetId": "RP-C16-G5-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G5",
+  "caseId": "C16",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher_confirmation",
+  "scope": "Red Hook WiFi 实体关系、谓词、方向、状态与限定",
+  "relationCount": 101,
+  "predicateCount": 62,
+  "factStatusCounts": {
+    "implemented": 86,
+    "planned": 3,
+    "reported_or_opinion": 11,
+    "disputed": 1,
+    "unconfirmed": 0
+  },
+  "byProcess": {
+    "C16-P01": 10, "C16-P02": 11, "C16-P03": 8, "C16-P04": 15, "C16-P05": 11,
+    "C16-P06": 5, "C16-P07": 12, "C16-P08": 8, "C16-P09": 9, "C16-P10": 12
+  },
+  "decisionPoints": [
+    "101 条关系与粒度",
+    "R030 争议关系与 R027/R038 并行",
+    "R071/R077 近重复是否合并",
+    "观点关系是否留在基础表",
+    "单一来源关系是否降级"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false,
+    "scope": "新增 C16 关系；不修改 C01–C15"
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": false,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "openIssues": [
+    "R030 三口径争议",
+    "R055 RISE 金额单一来源",
+    "R065-R067 2019 移交单一来源",
+    "R071/R077 近重复"
+  ]
+}

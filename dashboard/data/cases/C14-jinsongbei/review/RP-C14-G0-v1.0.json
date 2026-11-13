@@ -1,0 +1,39 @@
+{
+  "packet_id": "RP-C14-G0-v1.0",
+  "skill": "case-knowledge-construction",
+  "gate": "G0",
+  "case_id": "C14",
+  "scope": "Jinsongbei Community smart governance and organic renewal",
+  "generated_at": "2026-11-13",
+  "status": "confirmed",
+  "researcher_decision": {
+    "action": "accept_and_modify",
+    "rationale": "Researcher confirmed time boundary B, spatial boundary Blocks 1-2, smart governance as the primary theme, age-friendly devices as a separate category, and the five research questions.",
+    "modified_content": {
+      "case_name": "北京劲松北社区智慧治理与有机更新试点",
+      "event_type": "以智慧治理为主线的老旧小区有机更新",
+      "time_boundary": "2018-07 to 2023-12",
+      "space_boundary": "Jinsongbei Community (Jinsong Blocks 1-2)",
+      "theme_structure": "smart governance primary; organic renewal as physical carrier and condition",
+      "age_friendly_devices": "separate category, not automatically smart governance",
+      "research_questions": "five questions approved, including data/privacy/resident acceptance"
+    },
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  },
+  "frozen_artifacts": [
+    "case_scope.md v1.0",
+    "case_scope_v0.1.md",
+    "review/RP-C14-G0-v1.0-confirmed.md",
+    "review/RP-C14-G0-v1.0.json",
+    "review/decision-log.md entry 1"
+  ],
+  "unresolved": [
+    "HEDATA functions, launch time, coverage, usage, data ownership, and operator",
+    "Whether a separate government-side smart community system exists",
+    "Procurement, installation, acceptance, and usage records for smart devices",
+    "Resident awareness, use, acceptance, privacy discussion, and alternatives",
+    "Corporate investment, revenue, cost, subsidy, and payback data",
+    "The 9 stair-climbing machines and 12 wheelchairs may cover multiple Jinsong sub-communities"
+  ]
+}

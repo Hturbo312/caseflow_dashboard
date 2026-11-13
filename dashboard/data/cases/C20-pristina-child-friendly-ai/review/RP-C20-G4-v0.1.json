@@ -1,0 +1,72 @@
+{
+  "packet_id": "RP-C20-G4-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G4",
+  "case_id": "C20",
+  "scope": "普里什蒂纳儿童友好公共空间 AI 共创的实体、语义角色与原子事实",
+  "generated_at": "2026-11-13",
+  "status": "accepted",
+  "summary": {
+    "entities": 39,
+    "facts": 47,
+    "status_counts": {
+      "implemented": 17,
+      "reported_or_opinion": 27,
+      "planned": 2,
+      "disputed": 1,
+      "unconfirmed": 0
+    },
+    "groups": {
+      "context_and_needs": 6,
+      "organization_and_participation": 7,
+      "workshops_and_ai": 17,
+      "designs": 3,
+      "implementation": 7,
+      "follow_up": 6,
+      "age_conflict": 1
+    }
+  },
+  "conflicts": [
+    "F011项目方10–17岁 vs F012评估11–17岁；F047标为disputed",
+    "3份方案F025 vs 2份启动F034 vs 2个批准设计/3个地点F037 vs 1个公园更新F039",
+    "E007 Space SyntaKs与E008 UrbanistAI机构/平台边界",
+    "E010 Children Councils/Assembly of Children与E011儿童参与者边界",
+    "E025三份方案与E026/E027具体设计、E022–E024三个地点的对应未确认",
+    "F036许可/F039公园更新/F044回顾均为单源观点/报道，不能升级为建成"
+  ],
+  "gaps": [
+    "共创起点月份",
+    "9场工作坊日期/签到",
+    "AI session与4场儿童工作坊的对应",
+    "三份方案图纸/儿童选择记录",
+    "AI提示词/生成图像/模型版本",
+    "市政许可/RFQ中标/合同/施工/验收/开放",
+    "1个公园具体位置；两份设计是否全部建成",
+    "儿童直接反馈"
+  ],
+  "decisions_requested": [
+    "E001–E039的类型与角色是否成立；是否需要合并/拆分/改类",
+    "47条事实的粒度是否适当；是否需要合并或拆分",
+    "F034/F036/F039/F044的事实状态是否准确",
+    "F047年龄冲突是否保留为disputed，还是拆成两个并列事实"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_case_review": false,
+    "note": "C20与C19都使用UrbanistAI，G6后交L2判断共享概念候选"
+  },
+  "decision": {
+    "action": "accept",
+    "rationale": "研究者确认G4实体与事实，按建议方案通过",
+    "modified_content": null,
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13",
+    "adopted_options": {
+      "entities": "E001-E039_accepted",
+      "facts": "F001-F047_accepted",
+      "status_judgments": "F034_implemented_F036_F039_F044_reported",
+      "age_conflict": "F047_disputed_retained"
+    }
+  }
+}

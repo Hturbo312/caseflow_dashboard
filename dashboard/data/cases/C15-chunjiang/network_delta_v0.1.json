@@ -1,0 +1,50 @@
+{
+  "case_id": "C15",
+  "version": "L2-C15-v0.1",
+  "status": "awaiting_researcher_decision",
+  "generated_at": "2026-11-13",
+  "update_mode": "file_level_delta",
+  "db_import": false,
+  "ontology_version": "V4",
+  "proposed_case_layer_version": "L2-C15-v1.0",
+  "native_layer": {
+    "entities_added": 109,
+    "relations_added": 122,
+    "native_concepts_added": 15
+  },
+  "shared_layer": {
+    "candidates_added": 5,
+    "existing_shared_concepts_modified": 0,
+    "historical_mappings_modified": 0
+  },
+  "mapping_summary": {
+    "semantic_equivalent": 0,
+    "native_hyponym": 4,
+    "partial_or_approximate": 5,
+    "no_map": 6
+  },
+  "historical_review": {
+    "shared_concepts_reviewed": 7,
+    "historical_mappings_reviewed": 125,
+    "cases_involved": 14,
+    "definition_changes": 0,
+    "mapping_changes": 0
+  },
+  "touched_shared_concepts": [
+    {"id": "SC-C01-132", "label": "社区治理与行政平台", "historical_mappings": 19, "cases": 8},
+    {"id": "SC-C01-131", "label": "数字参与与可视化工具", "historical_mappings": 16, "cases": 6},
+    {"id": "SC-C01-156", "label": "问题核查与闭环处置", "historical_mappings": 11, "cases": 4},
+    {"id": "SC-C01-152", "label": "方案共制与居民协商决策", "historical_mappings": 8, "cases": 6},
+    {"id": "SC-C01-114", "label": "地方组织与运营主体", "historical_mappings": 15, "cases": 9},
+    {"id": "SC-C01-161", "label": "住区空间建筑与基础设施", "historical_mappings": 26, "cases": 7},
+    {"id": "SC-C01-133", "label": "传感监测与异常识别设备", "historical_mappings": 30, "cases": 8}
+  ],
+  "new_candidates": ["SC-C15-01", "SC-C15-02", "SC-C15-03", "SC-C15-04", "SC-C15-05"],
+  "unresolved": [
+    "4 hyponym mappings versus historical all-partial usage",
+    "Whether to add a negative example to SC-C01-156",
+    "5 candidates require a second case",
+    "Whether to import file-level delta into dashboard SQLite",
+    "Platform and organizational continuity gaps"
+  ]
+}

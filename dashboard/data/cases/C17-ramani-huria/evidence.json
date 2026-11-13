@@ -1,0 +1,1188 @@
+{
+ "caseId": "C17",
+  "version": "v1.0",
+  "status": "confirmed",
+ "generatedAt": "2026-11-13",
+ "total": 116,
+ "byMaterial": {
+  "M01": 43,
+  "M02": 3,
+  "M03": 4,
+  "M04": 5,
+  "M05": 4,
+  "M06": 5,
+  "M07": 5,
+  "M08": 3,
+  "M09": 8,
+  "M10": 7,
+  "M11": 4,
+  "M12": 4,
+  "M13": 2,
+  "M14": 3,
+  "M15": 5,
+  "M16": 9,
+  "M17": 2
+ },
+ "evidence": [
+  {
+   "id": "M01-E01",
+   "materialId": "M01",
+   "statement": "Ramani Huria 是达累斯萨拉姆的社区制图项目，以提升社区洪涝韧性为目标。",
+   "locator": "印刷页 05（PDF p.10）",
+   "quote": "Dar Ramani Huria (Swahili for “Dar Open Map”), is a community-based mapping project in Dar es Salaam, Tanzania that builds flood resilience in communities across Dar.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E02",
+   "materialId": "M01",
+   "statement": "达累斯萨拉姆每年雨季遭受洪水，冲毁道路与房屋，危及生命与基础设施。",
+   "locator": "印刷页 05（PDF p.10）",
+   "quote": "Every year during the rainy season, Dar is prone to suffering from devastating floods that wipe out roads and take out houses, resulting in a risk to life and infrastructure alike.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E03",
+   "materialId": "M01",
+   "statement": "项目地图与 InaSAFE 结合，用于运行自然灾害情景以支持规划与响应。",
+   "locator": "印刷页 05（PDF p.10）",
+   "quote": "The maps have been combined with InaSAFe, a free software that enables users to run realistic natural disaster scenarios for better planning and response.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E04",
+   "materialId": "M01",
+   "statement": "项目计划将地图在线公开并提供下载，同时以印刷形式交付各 ward 的基层政府。",
+   "locator": "印刷页 05（PDF p.10）",
+   "quote": "these maps will be publicly available online, available for download on the project website, and also in printed form to the local governing bodies of each ward",
+   "factStatus": "planned",
+   "confidence": "high",
+   "note": "撰写时点为计划表述；OSM 数据本身公开"
+  },
+  {
+   "id": "M01-E05",
+   "materialId": "M01",
+   "statement": "项目由世界银行、全球减灾与恢复基金（GFDRR）及红十字会支持。",
+   "locator": "印刷页 05（PDF p.10）",
+   "quote": "Dar Ramani Huria is supported by the World Bank, the World Bank’s Global Facility for Disaster Reduction and Recovery and the Red Cross.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E06",
+   "materialId": "M01",
+   "statement": "项目方法源于 2011 年在 Tandale ward 的 Ramani Tandale 试点。",
+   "locator": "印刷页 03（PDF p.8）",
+   "quote": "Using OpenStreetMap to enable community mapping in Dar es Salaam has its roots in a 2011 pilot project in the Tandale ward, known as “Ramani Tandale”.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E07",
+   "materialId": "M01",
+   "statement": "项目于 2015 年初启动。",
+   "locator": "印刷页 03（PDF p.8）",
+   "quote": "The kick-off of the Dar Ramani Huria project took place in early 2015.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E08",
+   "materialId": "M01",
+   "statement": "项目从单 ward 制图扩展到 29 个 ward，覆盖约 350 万居民。",
+   "locator": "印刷页 03（PDF p.8）",
+   "quote": "The project has moved from mapping one ward to comprehensively mapping 29 wards and covering an area home to an estimated 3.5 million people.",
+   "factStatus": "implemented",
+   "confidence": "medium-high",
+   "note": "序言表述；与正文 65 wards 口径不同"
+  },
+  {
+   "id": "M01-E09",
+   "materialId": "M01",
+   "statement": "项目引入无人机与街景 bajaj 以提高制图精度。",
+   "locator": "印刷页 03（PDF p.8）",
+   "quote": "It has incorporated Unmanned Aerial Vehicles (UAVs) and a street-view mapping bajaj to increase mapping precision.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E10",
+   "materialId": "M01",
+   "statement": "项目自称东非最大、最复杂的城市制图项目。",
+   "locator": "印刷页 03（PDF p.8）",
+   "quote": "it is the largest and most complex urban mapping project in East Africa",
+   "factStatus": "reported_or_opinion",
+   "confidence": "medium",
+   "note": "项目自评"
+  },
+  {
+   "id": "M01-E11",
+   "materialId": "M01",
+   "statement": "项目开创了依据社区历史知识生成洪泛淹没范围的方法。",
+   "locator": "印刷页 04（PDF p.9）",
+   "quote": "pioneered techniques and methods for creating flood inundation extents from the historical knowledge of the communities affected",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E12",
+   "materialId": "M01",
+   "statement": "项目与红十字会 Zuia Mafuriko 项目合作，培训急救人员与教育者使用地图。",
+   "locator": "印刷页 04（PDF p.9）",
+   "quote": "To strengthen its impact, Ramani Huria collaborated with the Red Cross on their Zuia Mafuriko “Stop Flooding” project.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E13",
+   "materialId": "M01",
+   "statement": "项目于 2015-03-26/27 在 COSTECH 举办启动工作坊。",
+   "locator": "印刷页 08（PDF p.13）",
+   "quote": "The Ramani Huria project officially kicked off with a workshop at the Tanzanian Commission for Science and Technology",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E14",
+   "materialId": "M01",
+   "statement": "项目分为试点（3 wards）、扩展（14+8）、收缩（4）、排水制图（36）与持续参与制图五个阶段。",
+   "locator": "印刷页 08（PDF p.13）",
+   "quote": "Trial phase (3 wards; Ndugumbi, Tandale, Mchikichini)",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": "同页列出五阶段"
+  },
+  {
+   "id": "M01-E15",
+   "materialId": "M01",
+   "statement": "试点期招募约 15 名 Ardhi 大学城市规划专业学生为实习生。",
+   "locator": "印刷页 08（PDF p.13）",
+   "quote": "At the start of the project, about 15 students from Ardhi University (on the Urban Planning program) were recruited as interns",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E16",
+   "materialId": "M01",
+   "statement": "扩展期有 150 余名 Ardhi 与 UDSM 学生参与项目。",
+   "locator": "印刷页 08（PDF p.13）",
+   "quote": "over 150 students from Ardhi University and UDSM the were involved in the project",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E17",
+   "materialId": "M01",
+   "statement": "2015 年 7—8 月以完整社区流程完成 14 个 ward 制图。",
+   "locator": "印刷页 08（PDF p.13）",
+   "quote": "Over the course of July and August, 14 wards were mapped with the full community process",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E18",
+   "materialId": "M01",
+   "statement": "2015 年 9 月初配合非洲开放数据会议完成市中心 8 个 ward 制图。",
+   "locator": "印刷页 08（PDF p.13）",
+   "quote": "an additional 8 wards in downtown Dar es Salaam were mapped alongside the Africa Open Data Conference in early September",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E19",
+   "materialId": "M01",
+   "statement": "扩展期于 2015-10-09 在 Manzese、Mzimuni、Kigogo、Vingunguti 的结项社区论坛结束。",
+   "locator": "印刷页 08（PDF p.13）",
+   "quote": "After the scale up period, which ended on October 9th with the closing community forums in Manzese, Mzimuni, Kigogo, and Vingunguti",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E20",
+   "materialId": "M01",
+   "statement": "收缩期制图队缩减为 20 名制图员加 2 名督导。",
+   "locator": "印刷页 08（PDF p.13）",
+   "quote": "The number of mappers was reduced to 20, plus 2 supervisors.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E21",
+   "materialId": "M01",
+   "statement": "收缩期新增 Ubungo、Tabata、Ilala、Temeke 四 ward，使社区流程 ward 达 21 个。",
+   "locator": "印刷页 08（PDF p.13）",
+   "quote": "A total number of 4 wards have been mapped since then (Ubungo, Tabata, Ilala and Temeke), bringing number the wards mapped using the community process up to 21.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E22",
+   "materialId": "M01",
+   "statement": "市中心 8 个 ward 完成全面实地测绘，累计 29 个 ward。",
+   "locator": "印刷页 08（PDF p.13）",
+   "quote": "An additional 8 wards in the downtown areas of Dar es Salaam were fully ground surveyed, meaning we’ve fully mapped 29 wards now.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E23",
+   "materialId": "M01",
+   "statement": "另有 36 个外围 ward 完成排水与水系制图，使地图改善 ward 总数达 65 个。",
+   "locator": "印刷页 08（PDF p.13）",
+   "quote": "the drainage and water systems were mapped in a further 36 peripheral wards, bringing the total number of wards for which the available maps have been improved significantly up to a total of 65",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": "21+8+36=65"
+  },
+  {
+   "id": "M01-E24",
+   "materialId": "M01",
+   "statement": "2015-03 至 2016-02，达累斯萨拉姆 65 个 ward 完成制图。",
+   "locator": "印刷页 10（PDF p.15）",
+   "quote": "From March 2015 until February 2016, 65 wards of Dar es Salaam were mapped",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E25",
+   "materialId": "M01",
+   "statement": "65 个 ward 中，21 个采用社区驱动流程。",
+   "locator": "印刷页 10（PDF p.15）",
+   "quote": "Of these 65, 21 wards were mapped using a community-driven process",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E26",
+   "materialId": "M01",
+   "statement": "8 个市中心 ward 由大学生队伍完成实地测绘，36 个 ward 仅制排水网络。",
+   "locator": "印刷页 10（PDF p.15）",
+   "quote": "A further 8 wards in the downtown area were fully field mapped by teams composed of university students, and in an additional 36 wards, the drainage networks were mapped",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E27",
+   "materialId": "M01",
+   "statement": "21 个社区制图 ward 由市议会与红十字会共同确定。",
+   "locator": "印刷页 10（PDF p.15）",
+   "quote": "These were identified in collaboration between municipal councils and the Red Cross.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E28",
+   "materialId": "M01",
+   "statement": "社区成员既提供建筑、街名、边界与洪泛区的地方知识，也承担社区内的意识提升。",
+   "locator": "印刷页 10（PDF p.15）",
+   "quote": "community members not only contribute their local knowledge on map features (buildings, street names, administrative boundaries, flood prone areas), but also work to communicate and raise awareness",
+   "factStatus": "implemented",
+   "confidence": "medium-high",
+   "note": "项目自述"
+  },
+  {
+   "id": "M01-E29",
+   "materialId": "M01",
+   "statement": "社区制图第一步是取得市议会书面许可。",
+   "locator": "印刷页 10（PDF p.15）",
+   "quote": "Obtain permission to map from the municipality, confirmed in a letter",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E30",
+   "materialId": "M01",
+   "statement": "制图流程使用 Field Papers、GPS、手机、JOSM、QGIS 与 InaSAFE 等工具。",
+   "locator": "印刷页 11（PDF p.16）",
+   "quote": "The mapping phase combines a number of tools and technologies, like the use of field papers, GPS devices, and mobile phones for data collection, JOSM",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E31",
+   "materialId": "M01",
+   "statement": "项目使用 SenseFly eBee 无人机获取高分辨率影像。",
+   "locator": "印刷页 11（PDF p.16）",
+   "quote": "Ramani Huria uses SenseFly eBee drones",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E32",
+   "materialId": "M01",
+   "statement": "无人机影像分辨率约为每像素 3—5 厘米。",
+   "locator": "印刷页 11（PDF p.16）",
+   "quote": "between 3-5 centimeters per pixel",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E33",
+   "materialId": "M01",
+   "statement": "eBee 无人机由 COSTECH 提供给项目使用。",
+   "locator": "印刷页 11（PDF p.16）",
+   "quote": "made available for the project by COSTECH",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E34",
+   "materialId": "M01",
+   "statement": "在无人机未覆盖区域，HOT 通过 MapGive 获取近期卫星影像。",
+   "locator": "印刷页 11（PDF p.16）",
+   "quote": "worked with the MapGive7 initiative from the U.S. Department of State to acquire recent satellite imagery",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": "脚注编号 7 为原文所有"
+  },
+  {
+   "id": "M01-E35",
+   "materialId": "M01",
+   "statement": "开场社区论坛中，社区成员讨论 ward 内哪些区域会淹水。",
+   "locator": "印刷页 12（PDF p.17）",
+   "quote": "During opening community forums, community members discuss which areas can flood within their wards.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E36",
+   "materialId": "M01",
+   "statement": "社区成员与学生使用 GPS 和草图在实地采集信息。",
+   "locator": "印刷页 12（PDF p.17）",
+   "quote": "community members and students use a GPS and sketches to collect information in the field",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E37",
+   "materialId": "M01",
+   "statement": "以新制地图为底图，社区用描图纸与铅笔进一步修正淹没范围。",
+   "locator": "印刷页 12（PDF p.17）",
+   "quote": "Using the newly created maps as a base layer, tracing paper and pencils further refined the inundation extent",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E38",
+   "materialId": "M01",
+   "statement": "图集洪泛范围来自社区对常年洪水与 2011 年大水的记忆与勾绘。",
+   "locator": "印刷页 12（PDF p.17）",
+   "quote": "The flood inundation extents in this atlas are based on community input from the extents of annual flooding in combination with their recollection of the extents of flooding in 2011",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": "属社区感知数据，非实测"
+  },
+  {
+   "id": "M01-E39",
+   "materialId": "M01",
+   "statement": "社区报告洪泛区淹水深度为 0.5—5 米。",
+   "locator": "印刷页 12（PDF p.17）",
+   "quote": "identified and mapped flood prone areas experience a range of between 0.5 and 5 meters level of flooding",
+   "factStatus": "reported_or_opinion",
+   "confidence": "medium",
+   "note": "来自社区讨论，非水文观测"
+  },
+  {
+   "id": "M01-E40",
+   "materialId": "M01",
+   "statement": "社区知晓洪泛风险但因经济约束、通勤与亲属关系而选择留在原地。",
+   "locator": "印刷页 12（PDF p.17）",
+   "quote": "communities know and experience the risks of living within and along flood prone areas, but opt to remain due to financial constraints",
+   "factStatus": "reported_or_opinion",
+   "confidence": "medium",
+   "note": "社区访谈归纳"
+  },
+  {
+   "id": "M01-E41",
+   "materialId": "M01",
+   "statement": "单个 ward 的排水与水系完整制图平均约需三天（两天采集、一天核验与数字化）。",
+   "locator": "印刷页 13（PDF p.18）",
+   "quote": "Fully mapping the drainage and water systems of a single ward takes around three days on average, consisting of two days of data collection and one day of verification and digitization work.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M01-E42",
+   "materialId": "M01",
+   "statement": "无人机可生成数字地形模型（DTM）与点云，用于洪水建模。",
+   "locator": "印刷页 13（PDF p.18）",
+   "quote": "The versatility of UAVs allows them to be used to create more complex datasets, such as Digital Terrain Models (DTM) and point clouds.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": "能力描述"
+  },
+  {
+   "id": "M01-E43",
+   "materialId": "M01",
+   "statement": "排水制图可四个 ward 并行开展。",
+   "locator": "印刷页 13（PDF p.18）",
+   "quote": "which meant we were able to map four wards in parallel",
+   "factStatus": "implemented",
+   "confidence": "medium-high",
+   "note": ""
+  },
+  {
+   "id": "M02-E01",
+   "materialId": "M02",
+   "statement": "项目以 OpenStreetMap 培训本地大学生与社区成员，制作高精度地图。",
+   "locator": "提取文本行 4（正文）",
+   "quote": "This project is training teams of local university students and community members from throughout Dar Es Salaam to use OpenStreetMap to create sophisticated and highly accurate maps of Dar es Salaam.",
+   "factStatus": "implemented",
+   "confidence": "medium-high",
+   "note": "项目自述"
+  },
+  {
+   "id": "M02-E02",
+   "materialId": "M02",
+   "statement": "项目属于坦桑尼亚城市韧性计划（TURP），由 DFID 与世界银行合作建立。",
+   "locator": "提取文本行 9（正文）",
+   "quote": "partnership between the United Kingdom’s Department for International Development (DFID) and the World Bank",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M02-E03",
+   "materialId": "M02",
+   "statement": "项目由 GFDRR 支持，实施由 HOT 指导。",
+   "locator": "提取文本行 9（正文）",
+   "quote": "The project is supported by the World Bank’s Global Facility for Disaster Reduction and Recovery and implementation is guided by the Humanitarian OpenStreetMap Team.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M03-E01",
+   "materialId": "M03",
+   "statement": "项目自报已制图 29 个 ward。",
+   "locator": "提取文本行 6（正文）",
+   "quote": "29 wards mapped",
+   "factStatus": "reported_or_opinion",
+   "confidence": "medium",
+   "note": "官网绩效页"
+  },
+  {
+   "id": "M03-E02",
+   "materialId": "M03",
+   "statement": "项目自报制图 1254 公里水道与 3396 公里道路。",
+   "locator": "提取文本行 7（正文）",
+   "quote": "1254 km waterways mapped",
+   "factStatus": "reported_or_opinion",
+   "confidence": "medium",
+   "note": "同页另有 3396 km roads"
+  },
+  {
+   "id": "M03-E03",
+   "materialId": "M03",
+   "statement": "项目自报培训 450 名制图员。",
+   "locator": "提取文本行 9（正文）",
+   "quote": "450 mappers trained",
+   "factStatus": "reported_or_opinion",
+   "confidence": "medium",
+   "note": "与 M10 的 800+/1000+ 口径冲突"
+  },
+  {
+   "id": "M03-E04",
+   "materialId": "M03",
+   "statement": "项目自报在 10 个洪泛社区建立了社区防灾队。",
+   "locator": "提取文本行 10（正文）",
+   "quote": "10 disaster prevention teams established",
+   "factStatus": "reported_or_opinion",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "id": "M04-E01",
+   "materialId": "M04",
+   "statement": "2015-07-06 工作坊后，项目签约 150 名学生参加制图培训。",
+   "locator": "提取文本行 7（正文）",
+   "quote": "Ramani Huria signed up one hundred fifty students for training in mapping",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M04-E02",
+   "materialId": "M04",
+   "statement": "培训由 15 名 Ardhi 学生督导承担，他们此前接受了三个月培训。",
+   "locator": "提取文本行 9（正文）",
+   "quote": "The training was conducted by fifteen student supervisors from Ardhi University",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M04-E03",
+   "materialId": "M04",
+   "statement": "新学生接受三天培训，前两天理论、第三天实地操作。",
+   "locator": "提取文本行 9（正文）",
+   "quote": "three days of training hosted at the University of Dar es Salaam",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M04-E04",
+   "materialId": "M04",
+   "statement": "培训覆盖 OSM、Field Papers、GPS eTrex 30、OSM Tracker 与 JOSM。",
+   "locator": "提取文本行 15（正文）",
+   "quote": "use of the OSM Tracker (an open-source Android phone application available in the Google Play Store)",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": "同段列出其他工具"
+  },
+  {
+   "id": "M04-E05",
+   "materialId": "M04",
+   "statement": "首批 6 个 ward 从 17 个洪泛 ward 中选出：Mabibo、Mburahati、Makurumla、Makumbusho、Msasani、Keko。",
+   "locator": "提取文本行 18（正文）",
+   "quote": "These six wards were selected from seventeen flood-prone wards and include Mabibo, Mburahati, Makurumla, Makumbusho Msasani and Keko.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M05-E01",
+   "materialId": "M05",
+   "statement": "项目有专职排水制图员，将排水、湿地与洪泛区纳入地图。",
+   "locator": "提取文本行 5（正文）",
+   "quote": "We have dedicated mappers working to ensure these, as well as wetland zones and flood-prone areas, are included accurately in our maps.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M05-E02",
+   "materialId": "M05",
+   "statement": "2015-09-28 在 Sinza ward 沿 Shekilango、Mori、Sam Nujoma 路制排水图。",
+   "locator": "提取文本行 17（正文）",
+   "quote": "In Sinza, mapping of drainage was done specifically along Shekilango Road, Mori Road, and Sam Nujoma.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M05-E03",
+   "materialId": "M05",
+   "statement": "团队观察到 Sinza Mori 有商业建筑建在溪流之上。",
+   "locator": "提取文本行 19（正文）",
+   "quote": "the construction of buildings over streams",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M05-E04",
+   "materialId": "M05",
+   "statement": "大量排水沟、沟渠与溪流被沙土和垃圾堵塞。",
+   "locator": "提取文本行 38（正文）",
+   "quote": "Many drains, ditches, and streams are blocked by sand and other accumulated rubbish",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M06-E01",
+   "materialId": "M06",
+   "statement": "Vingunguti 位于 Ilala 区，2012 年人口 106,946，属洪泛区。",
+   "locator": "提取文本行 4（正文）",
+   "quote": "Vingunguti is an administrative ward in Ilala district in western Dar Es Salaam and according to the 2012 census has a population of 106,946.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M06-E02",
+   "materialId": "M06",
+   "statement": "2015-09-11 项目在 Vingunguti 举办社区论坛启动制图。",
+   "locator": "提取文本行 6（正文）",
+   "quote": "Ramani Huria launched mapping in Vingunguti with a community forum taking place on 11th September 2015.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M06-E03",
+   "materialId": "M06",
+   "statement": "红十字志愿者分两组，每组 10 人，分别于 9/14—9/18 与 9/21—9/25 参与外业。",
+   "locator": "提取文本行 10（正文）",
+   "quote": "the Red Cross volunteer group divided into two groups, each with ten volunteers",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M06-E04",
+   "materialId": "M06",
+   "statement": "断电使数据数字化难以及时完成，ward 办公室场地变动导致活动转移到小学。",
+   "locator": "提取文本行 11（正文）",
+   "quote": "Power shortages made it difficult to digitalise the collected information",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M06-E05",
+   "materialId": "M06",
+   "statement": "团队在两周内完成整个 Vingunguti ward 的制图，并于 2015-10-09 举行结项论坛。",
+   "locator": "提取文本行 15（正文）",
+   "quote": "closed with a community forum on the 9th of October",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M07-E01",
+   "materialId": "M07",
+   "statement": "2017-09-26 在 Julius Nyerere 国际会议中心正式启动 Ramani Huria 2.0。",
+   "locator": "提取文本行 4（正文）",
+   "quote": "On September 26th, the new era of Ramani Huria 2.0 was officially launched at Julius Nyerere International Convention Center",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M07-E02",
+   "materialId": "M07",
+   "statement": "1.0 为 21 个 ward、约 130 万居民制作了地图。",
+   "locator": "提取文本行 5（正文）",
+   "quote": "a project that successfully produced maps for 21 wards of the city, home to approximately 1.3 million residents",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M07-E03",
+   "materialId": "M07",
+   "statement": "2.0 预计覆盖 300 万以上居民。",
+   "locator": "提取文本行 5（正文）",
+   "quote": "this scaled up phase is expected to reach over 3 million residents",
+   "factStatus": "planned",
+   "confidence": "medium",
+   "note": "预期值"
+  },
+  {
+   "id": "M07-E04",
+   "materialId": "M07",
+   "statement": "项目已向 400 余名学生转移灾害风险管理知识与技能。",
+   "locator": "提取文本行 6（正文）",
+   "quote": "transferred knowledge and skills in disaster risk management to over 400 students",
+   "factStatus": "reported_or_opinion",
+   "confidence": "medium",
+   "note": "官员发言"
+  },
+  {
+   "id": "M07-E05",
+   "materialId": "M07",
+   "statement": "Ardhi 大学、世界银行与 DFID 签署合作 MoU。",
+   "locator": "提取文本行 12（正文）",
+   "quote": "a Memorandum of Understanding (MoU) was signed between Ardhi University, The World Bank, and DfID",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M08-E01",
+   "materialId": "M08",
+   "statement": "2.0 对所有排水进行重测，采用详细排水模型并关注连通性。",
+   "locator": "提取文本行 6（正文）",
+   "quote": "all drains are being remapped with a detailed drainage model and with attention to connectivity",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M08-E02",
+   "materialId": "M08",
+   "statement": "2018-06 前 20 个 ward 已完成排水重测。",
+   "locator": "提取文本行 6（正文）",
+   "quote": "The first 20 wards have been mapped",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M08-E03",
+   "materialId": "M08",
+   "statement": "项目建立了排水数据模型以规范属性采集。",
+   "locator": "提取文本行 17（正文）",
+   "quote": "A drainage data model was setup",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M09-E01",
+   "materialId": "M09",
+   "statement": "Ardhi 与 UDSM 学生在 7 周内完成 228 个 subward 制图。",
+   "locator": "提取文本行 5（正文）",
+   "quote": "students from Ardhi University and the University of Dar es Salaam have completed the mapping of 228 subwards",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M09-E02",
+   "materialId": "M09",
+   "statement": "该轮产业培训有 450 余名学生参与，持续 7 周。",
+   "locator": "提取文本行 5（正文）",
+   "quote": "working with well over 450 students for the past seven weeks",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M09-E03",
+   "materialId": "M09",
+   "statement": "2015 年 1.0 详细制图 26 个 ward，另有 18 个未制图。",
+   "locator": "提取文本行 21（正文）",
+   "quote": "There were 26 wards in Dar es Salaam that were mapped in detail during RH 1 in 2015, and 18 wards that were unmapped.",
+   "factStatus": "implemented",
+   "confidence": "medium",
+   "note": "与图集 29 口径不一致"
+  },
+  {
+   "id": "M09-E04",
+   "materialId": "M09",
+   "statement": "学生用 ODK 在 44 个 ward 采集垃圾点。",
+   "locator": "提取文本行 13（正文）",
+   "quote": "Students mapped 44 wards of the city by using OpenDataKit (ODK)",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M09-E05",
+   "materialId": "M09",
+   "statement": "共采集 20,392 个垃圾点。",
+   "locator": "提取文本行 13（正文）",
+   "quote": "In total, 20,392 trash points were mapped.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M09-E06",
+   "materialId": "M09",
+   "statement": "每个 subward 的社区会议约 11 人参加，学生分三组用印刷地图与描图纸识别资产与威胁。",
+   "locator": "提取文本行 25（正文）",
+   "quote": "students arranged a meeting of about eleven participants",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M09-E07",
+   "materialId": "M09",
+   "statement": "每个 subward 产出报告与行动地图两类成果。",
+   "locator": "提取文本行 41（正文）",
+   "quote": "Two main deliverables from the process are reports and maps, produced for each subward.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M09-E08",
+   "materialId": "M09",
+   "statement": "报告与地图交由 Deltares 与 ward 领导共同制定灾害管理计划。",
+   "locator": "提取文本行 44（正文）",
+   "quote": "The reports and maps will be used for risk reduction as well as disaster management planning in the wards by Deltares",
+   "factStatus": "planned",
+   "confidence": "medium-high",
+   "note": "撰写时为计划"
+  },
+  {
+   "id": "M10-E01",
+   "materialId": "M10",
+   "statement": "2019-07-29 起，项目管理从 HOT 移交给大学联盟。",
+   "locator": "提取文本行 4（正文）",
+   "quote": "On 29th July 2019, the Ramani Huria (RH) summer industrial training project entered a new era of management and administration, shifting from the direct management by the Humanitarian OpenStreetMap Team (HOT) to being managed by universities",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M10-E02",
+   "materialId": "M10",
+   "statement": "RA 由 UDSM、Ardhi 与 SUZA 共同管理，并与芬兰 Turku 大学合作。",
+   "locator": "提取文本行 5（正文）",
+   "quote": "Tanzania Resilience Academy (RA)",
+   "factStatus": "implemented",
+   "confidence": "medium-high",
+   "note": "同段列出三校与 Turku"
+  },
+  {
+   "id": "M10-E03",
+   "materialId": "M10",
+   "statement": "项目方称自 2015 年以来培训 800 余名学生、与 6000 余名社区成员合作。",
+   "locator": "提取文本行 10（正文）",
+   "quote": "training over 800 students working with over 6000 community members",
+   "factStatus": "reported_or_opinion",
+   "confidence": "medium",
+   "note": "与下一段 1000+/300 冲突"
+  },
+  {
+   "id": "M10-E04",
+   "materialId": "M10",
+   "statement": "同文又称参与项目的学生超过 1000 名、社区成员约 300 名。",
+   "locator": "提取文本行 47（正文）",
+   "quote": "more than 1000 students and about 300 community members have been involved in the project",
+   "factStatus": "reported_or_opinion",
+   "confidence": "medium",
+   "note": "同文内部冲突"
+  },
+  {
+   "id": "M10-E05",
+   "materialId": "M10",
+   "statement": "Ramani Huria 第二阶段于 2019 年结束。",
+   "locator": "提取文本行 44（正文）",
+   "quote": "The second phase of Ramani Huria will end this year",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M10-E06",
+   "materialId": "M10",
+   "statement": "数据被红十字会与 DarMAERT 等应急响应机构使用。",
+   "locator": "提取文本行 11（正文）",
+   "quote": "The data are being used by disaster emergency response programs and organizations such as RedCross and",
+   "factStatus": "reported_or_opinion",
+   "confidence": "medium",
+   "note": "项目自述"
+  },
+  {
+   "id": "M10-E07",
+   "materialId": "M10",
+   "statement": "OMDTZ 在 Ramani Huria 影响下成立并承接项目能力。",
+   "locator": "提取文本行 55（正文）",
+   "quote": "Institutions/NGOs like OMDTZ and the amazing staff with technical capabilities and managerial skills to run projects have come into existence through the influence of RH.",
+   "factStatus": "reported_or_opinion",
+   "confidence": "medium",
+   "note": "项目自述"
+  },
+  {
+   "id": "M11-E01",
+   "materialId": "M11",
+   "statement": "2020-09 至 11 月，项目与 RA 合作培训三所大学 200 名学生。",
+   "locator": "提取文本行 11（正文）",
+   "quote": "train 200 university students from three universities between September and November 2020",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M11-E02",
+   "materialId": "M11",
+   "statement": "学生在 20 个 ward 与社区成员采集洪水范围与水深数据。",
+   "locator": "提取文本行 13（正文）",
+   "quote": "students were able to work with community members from 20 wards in Dar es Salaam to collect data on the extent and depth of water when it floods",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M11-E03",
+   "materialId": "M11",
+   "statement": "两个月内采集超过 10,000 个洪水数据点。",
+   "locator": "提取文本行 1（正文）",
+   "quote": "More than 10,000 Flood Data Points",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": "标题与正文一致"
+  },
+  {
+   "id": "M11-E04",
+   "materialId": "M11",
+   "statement": "团队使用低成本 u-blox 双频接收机以 PPP 技术采集控制点。",
+   "locator": "提取文本行 16（正文）",
+   "quote": "low-cost dual-frequency (u-blox) receiver",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M12-E01",
+   "materialId": "M12",
+   "statement": "Spatial Collective、HOT 与 OMDTZ 用五个月把社区制图扩展到 Mwanza。",
+   "locator": "提取文本行 11（正文）",
+   "quote": "spent the last five months expanding its community mapping initiatives to Mwanza City",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": "扩散观察"
+  },
+  {
+   "id": "M12-E02",
+   "materialId": "M12",
+   "statement": "项目与 IRDP 和 St. Augustine 大学 79 名学生合作。",
+   "locator": "提取文本行 11（正文）",
+   "quote": "Working with 79 students from the Institute of Rural Development Planning (IRDP) and St. Augustine University of Tanzania",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M12-E03",
+   "materialId": "M12",
+   "statement": "Mwanza 采集 1.5 万个以上洪泛点、1700 段排水（145 公里）。",
+   "locator": "提取文本行 22（正文）",
+   "quote": "More than 15,000 points on flood-prone areas using mobile phones",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": "同段另有排水数据"
+  },
+  {
+   "id": "M12-E04",
+   "materialId": "M12",
+   "statement": "社区误以为制图会导致拆迁，团队需反复解释项目目标。",
+   "locator": "提取文本行 40（正文）",
+   "quote": "communities believed that the mapping will lead to the demolition of their houses",
+   "factStatus": "implemented",
+   "confidence": "medium-high",
+   "note": "项目方转述"
+  },
+  {
+   "id": "M13-E01",
+   "materialId": "M13",
+   "statement": "社区用铅笔在描图纸上勾绘洪泛区，随后扫描并数字化为 shapefile 上传 OSM。",
+   "locator": "提取文本行 9（正文）",
+   "quote": "Thereafter, they use pencil to map flood prone areas upon tracing paper over a basemap.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M13-E02",
+   "materialId": "M13",
+   "statement": "地图完成后与 InaSAFE 结合运行洪水情景，并用于 ward 官员与社区培训。",
+   "locator": "提取文本行 10（正文）",
+   "quote": "When the maps are finished, they are combined with other data in InaSAFE to run realistic flooding scenarios.",
+   "factStatus": "implemented",
+   "confidence": "medium-high",
+   "note": ""
+  },
+  {
+   "id": "M14-E01",
+   "materialId": "M14",
+   "statement": "HOT 记录本项目周期为 2015-04-01 至 2016-12-31，状态为完成。",
+   "locator": "提取文本行 17（正文）",
+   "quote": "Dec. 31, 2016",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": "同页 Duration 与 Status: Complete"
+  },
+  {
+   "id": "M14-E02",
+   "materialId": "M14",
+   "statement": "2015 年 HOT 开始在达累斯萨拉姆制图基础设施数据。",
+   "locator": "提取文本行 7（正文）",
+   "quote": "In 2015 HOT began an initiative to mapping infrastructure data in various parts of Dar es Salaam.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M14-E03",
+   "materialId": "M14",
+   "statement": "2.0 自 2017 年开始，把暴露数据与洪水危险数据结合做风险分析。",
+   "locator": "提取文本行 7（正文）",
+   "quote": "Now in its second phase, Ramani Huria 2.0, which began in 2017, is combining exposure data and flood hazard data to conduct risk analysis of potential future disasters.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M15-E01",
+   "materialId": "M15",
+   "statement": "Metropolis 记录项目周期为 2015—2018。",
+   "locator": "提取文本行 31（正文）",
+   "quote": "2015 - 2018",
+   "factStatus": "reported_or_opinion",
+   "confidence": "medium",
+   "note": "页面 Duration 字段"
+  },
+  {
+   "id": "M15-E02",
+   "materialId": "M15",
+   "statement": "项目已制图 49/90 个 ward，约 45 万栋建筑与 1700 所学校。",
+   "locator": "提取文本行 80（正文）",
+   "quote": "Since 2015, the project has mapped 49/90 wards in Dar es Salaam which is equivalent to approximately 50% of the city, comprising about 450,000 buildings and 1,700 schools.",
+   "factStatus": "reported_or_opinion",
+   "confidence": "medium",
+   "note": "二手汇编"
+  },
+  {
+   "id": "M15-E03",
+   "materialId": "M15",
+   "statement": "470 名大学生与 300 余名红十字成员参与制图。",
+   "locator": "提取文本行 81（正文）",
+   "quote": "470 university students have been trained to work on the data collection and map production via the asset and threats project, and more than 300 Red Cross members have been involved in the mapping.",
+   "factStatus": "reported_or_opinion",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "id": "M15-E04",
+   "materialId": "M15",
+   "statement": "世界银行为主要资助方，HOT 为主要管理组织，OMDTZ 为本地执行组织。",
+   "locator": "提取文本行 70（正文）",
+   "quote": "The World Bank is the main financier of the project, and Humanitarian OpenStreetMap Team (HOT) is the primary organization managing projects. OpenMap Development Tanzania (OMDTZ) is the primary local organization",
+   "factStatus": "implemented",
+   "confidence": "medium-high",
+   "note": "二手汇编"
+  },
+  {
+   "id": "M15-E05",
+   "materialId": "M15",
+   "statement": "社区成员存在政治分歧、要求报酬、GPS 精度不足与地方政府配合有限等障碍。",
+   "locator": "提取文本行 84（正文）",
+   "quote": "some residents expect to earn money and threaten to not work if they are not paid",
+   "factStatus": "reported_or_opinion",
+   "confidence": "medium",
+   "note": "二手归纳"
+  },
+  {
+   "id": "M16-E01",
+   "materialId": "M16",
+   "statement": "社区制图数据框架分数据采集与质检、模型开发、模型实施三阶段。",
+   "locator": "提取文本行 112（正文）",
+   "quote": "The framework comprises three principal stages: data acquisition with survey design and quality assurance, model development and model implementation for flood prediction.",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M16-E02",
+   "materialId": "M16",
+   "statement": "Ramani Huria 在 2017—2019 年把制图扩展到 44 个 ward。",
+   "locator": "提取文本行 263（正文）",
+   "quote": "upscaled earlier mapping initiatives carried out at smaller and less detailed scale to cover 44 wards in Dar es Salaam between 2017 and 2019",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M16-E03",
+   "materialId": "M16",
+   "statement": "学生以两个月实习形式参与，分专业小组并领取小额补贴。",
+   "locator": "提取文本行 267（正文）",
+   "quote": "where university students in urban planning and geomatics participate in a 2-month internship that is part of their program curriculum",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M16-E04",
+   "materialId": "M16",
+   "statement": "研究使用 Kijitonyama ward 5 个 subward、约 2.3 平方公里的排水数据。",
+   "locator": "提取文本行 270（正文）",
+   "quote": "collected for five sub-wards of Kijitonyama ward in Dar es Salaam, covering approximately 2.3 km",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M16-E05",
+   "materialId": "M16",
+   "statement": "532 段排水中 12 段存在定位错误，占 2.25%。",
+   "locator": "提取文本行 464（正文）",
+   "quote": "only 12 out of 532 segments (i.e., 2.25%) had positional errors",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M16-E06",
+   "materialId": "M16",
+   "statement": "532 段排水中 36 段与相邻段断连，占 6.8%。",
+   "locator": "提取文本行 487（正文）",
+   "quote": "36 out of 532 segments, i.e., 6.8%, were disconnected from adjacent drainage segments",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M16-E07",
+   "materialId": "M16",
+   "statement": "模型验证使用 44 个观测点，对照社区记录的洪水水深。",
+   "locator": "提取文本行 410（正文）",
+   "quote": "44 observation points",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "id": "M16-E08",
+   "materialId": "M16",
+   "statement": "耦合社区排水数据的 1D—2D 模型比仅地形数据的 2D 模型更接近居民报告的淹水深度。",
+   "locator": "提取文本行 137（正文）",
+   "quote": "the simulated flood depth in a model that couples community mapped drainage data with digital terrain data (coupled 1D–2D model) corresponds better with citizen's reports on flood depth",
+   "factStatus": "implemented",
+   "confidence": "high",
+   "note": "论文结论"
+  },
+  {
+   "id": "M16-E09",
+   "materialId": "M16",
+   "statement": "排水系统尺寸等技术性属性仍需要受训制图员才能达到足够质量。",
+   "locator": "提取文本行 112（正文）",
+   "quote": "More technically advanced features such as dimensions of urban drainage system elements still require trained mappers to create data of sufficient quality.",
+   "factStatus": "reported_or_opinion",
+   "confidence": "high",
+   "note": "论文判断"
+  },
+  {
+   "id": "M17-E01",
+   "materialId": "M17",
+   "statement": "该硕士论文使用 Ramani Huria 在达累斯萨拉姆采集的排水数据。",
+   "locator": "OpenAlex 摘要（TU Delft 2019；repository 未取全文）",
+   "quote": "This thesis utilises drainage data collected by the Ramani Huria community mapping project in Dar es Salaam, Tanzania",
+   "factStatus": "implemented",
+   "confidence": "medium-high",
+   "note": "摘要级证据"
+  },
+  {
+   "id": "M17-E02",
+   "materialId": "M17",
+   "statement": "论文结论称社区制图排水数据能够提升水动力模型表现。",
+   "locator": "OpenAlex 摘要（TU Delft 2019；repository 未取全文）",
+   "quote": "The results show that community mapped drainage data indeed can enhance the performance of hydrodynamic models",
+   "factStatus": "reported_or_opinion",
+   "confidence": "medium",
+   "note": "学位论文结论，摘要级"
+  }
+ ]
+}

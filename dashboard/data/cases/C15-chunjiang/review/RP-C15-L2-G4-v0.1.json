@@ -1,0 +1,43 @@
+{
+  "packet_id": "RP-C15-L2-G4-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G4",
+  "case_id": "C15",
+  "scope": "Version number, release scope, ontology delta, mapping table and shared concept amendment for C15 concept layer",
+  "generated_at": "2026-11-13",
+  "status": "awaiting_researcher_decision",
+  "ontology_version": "V4",
+  "case_layer_version": "L2-C15-v1.0",
+  "release_mode": "file_level_delta_no_sqlite_import",
+  "active_candidates": ["SC-C15-01", "SC-C15-03", "SC-C15-06", "SC-C15-07", "SC-C15-08"],
+  "held_candidates": ["SC-C15-02", "SC-C15-04", "SC-C15-05"],
+  "mapping_version": "v1.1",
+  "amendment": "AMD-C15-001 SC-C01-156 negative example",
+  "historical_review": {
+    "shared_concepts_reviewed": 7,
+    "historical_mappings_reviewed": 125,
+    "cases_involved": 14,
+    "definition_changes": 0,
+    "mapping_changes": 0
+  },
+  "decisions_required": [
+    "Confirm ontology V4 unchanged and case concept layer L2-C15-v1.0",
+    "Accept active candidates SC-C15-01/03/06/07/08 and held candidates SC-C15-02/04/05",
+    "Accept concept_mapping_v1.1 as release mapping table",
+    "Accept SC-C01-156 negative example amendment",
+    "Release L2_pack and hand off to cross-case-causal-analysis"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": true,
+    "affects_historical_mappings": false,
+    "triggers_historical_case_review": true,
+    "note": "Only SC-C01-156 gains a negative example; definition and historical mappings unchanged."
+  },
+  "researcher_decision": {
+    "action": null,
+    "rationale": null,
+    "modified_content": null,
+    "allow_release": null,
+    "decided_at": null
+  }
+}

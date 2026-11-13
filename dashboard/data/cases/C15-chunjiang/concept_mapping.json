@@ -1,0 +1,405 @@
+{
+  "case_id": "C15",
+  "version": "v1.0",
+  "status": "confirmed",
+  "generated_at": "2026-11-13",
+  "mapping_count": 15,
+  "mapping_type_counts": {
+    "semantic_equivalent": 0,
+    "native_hyponym": 4,
+    "partial_or_approximate": 5,
+    "no_map": 6
+  },
+  "mappings": [
+    {
+      "mapping_id": "MAP-C15-001",
+      "case_id": "C15",
+      "native_concept_id": "NC-C15-01",
+      "native_label": "社区级最小管理单元",
+      "native_type": "context",
+      "shared_concept_id": null,
+      "shared_label": null,
+      "mapping_type": "no_map",
+      "basis": "现有共享概念中没有“以单个小区为对象的社区级最小治理单元”；SC-C01-132 是技术平台，SC-C01-114 是组织主体，均不覆盖治理单元语义。",
+      "scope": "保留原生概念；提出 SC-C15-01 候选，需第二案例支持。",
+      "candidate_id": "SC-C15-01",
+      "evidence_ids": [
+        "M02-E01",
+        "M02-E02",
+        "M03-E01",
+        "M03-E02",
+        "M03-E05",
+        "M04-E10"
+      ],
+      "decision": "candidate",
+      "version": "L2-C15-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C15-002",
+      "case_id": "C15",
+      "native_concept_id": "NC-C15-02",
+      "native_label": "春江专属最小管理单元智慧应用系统",
+      "native_type": "technology",
+      "shared_concept_id": "SC-C01-132",
+      "shared_label": "社区治理与行政平台",
+      "mapping_type": "partial_or_approximate",
+      "basis": "2021 年智慧应用系统具有社区治理平台成分，但仍是“最小管理单元专属试点”，未显示完整行政平台功能。",
+      "scope": "只映射“社区治理平台/事件处置”成分；保留试点性、专属单元和技术架构未明部分。",
+      "candidate_id": null,
+      "evidence_ids": [
+        "M04-E10"
+      ],
+      "decision": "candidate",
+      "version": "L2-C15-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C15-003",
+      "case_id": "C15",
+      "native_concept_id": "NC-C15-03",
+      "native_label": "智慧春江微信小程序",
+      "native_type": "technology",
+      "shared_concept_id": "SC-C01-131",
+      "shared_label": "数字参与与可视化工具",
+      "mapping_type": "partial_or_approximate",
+      "basis": "智慧春江含意见箱、线上议事等参与成分，但主体是居民服务入口和诉求工单，不是空间愿景可视化工具。",
+      "scope": "只映射“意见提交/线上议事”成分；保留 122 项服务、点单派单和养老/反诈服务。",
+      "candidate_id": null,
+      "evidence_ids": [
+        "M08-E02",
+        "M08-E04",
+        "M08-E05",
+        "M08-E06",
+        "M08-E09"
+      ],
+      "decision": "candidate",
+      "version": "L2-C15-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C15-004",
+      "case_id": "C15",
+      "native_concept_id": "NC-C15-04",
+      "native_label": "四单制",
+      "native_type": "action",
+      "shared_concept_id": "SC-C01-156",
+      "shared_label": "问题核查与闭环处置",
+      "mapping_type": "partial_or_approximate",
+      "basis": "四单制包含核查、派单、整改、评单闭环，与 SC-C01-156 的问题核查/闭环处置高度重合。",
+      "scope": "只映射“核查—派单—整改—评单”流程；保留居民点单、微网格长/员角色和社区服务入口。",
+      "candidate_id": null,
+      "evidence_ids": [
+        "M08-E02",
+        "M08-E04",
+        "M08-E11"
+      ],
+      "decision": "candidate",
+      "version": "L2-C15-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C15-005",
+      "case_id": "C15",
+      "native_concept_id": "NC-C15-05",
+      "native_label": "四张清单",
+      "native_type": "target",
+      "shared_concept_id": null,
+      "shared_label": null,
+      "mapping_type": "no_map",
+      "basis": "现有 target 类共享概念没有“问题/资源/议题/项目”四类清单；SC-C01-162 是规划项目文件，SC-C01-164 是数据记录，均不精确。",
+      "scope": "保留原生概念；提出 SC-C15-02 候选。",
+      "candidate_id": "SC-C15-02",
+      "evidence_ids": [
+        "M09-E07",
+        "M09-E08"
+      ],
+      "decision": "candidate",
+      "version": "L2-C15-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C15-006",
+      "case_id": "C15",
+      "native_concept_id": "NC-C15-06",
+      "native_label": "春江数治网",
+      "native_type": "technology",
+      "shared_concept_id": "SC-C01-132",
+      "shared_label": "社区治理与行政平台",
+      "mapping_type": "partial_or_approximate",
+      "basis": "春江数治网整合社区信息、任务、视频和告警，具有社区治理平台成分；但它强调物业与传统治理结合、人房事物情数据。",
+      "scope": "只映射“社区信息/任务/视频/告警整合”成分；保留物业融合、最小管理单元数据和 AI 设备部分。",
+      "candidate_id": null,
+      "evidence_ids": [
+        "M09-E10",
+        "M09-E11"
+      ],
+      "decision": "candidate",
+      "version": "L2-C15-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C15-007",
+      "case_id": "C15",
+      "native_concept_id": "NC-C15-07",
+      "native_label": "春江微网格",
+      "native_type": "actor",
+      "shared_concept_id": null,
+      "shared_label": null,
+      "mapping_type": "no_map",
+      "basis": "现有 actor 类共享概念没有“社区微网格治理单元”；SC-C01-114 是地方组织与运营主体，微网格是 territorial governance unit，语义不等。",
+      "scope": "保留原生概念；提出 SC-C15-03 候选。",
+      "candidate_id": "SC-C15-03",
+      "evidence_ids": [
+        "M09-E03",
+        "M09-E06",
+        "M09-E07"
+      ],
+      "decision": "candidate",
+      "version": "L2-C15-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C15-008",
+      "case_id": "C15",
+      "native_concept_id": "NC-C15-08",
+      "native_label": "格里厢家门口党群服务站",
+      "native_type": "actor",
+      "shared_concept_id": "SC-C01-114",
+      "shared_label": "地方组织与运营主体",
+      "mapping_type": "native_hyponym",
+      "basis": "格里厢是微网格内的党群服务站，属于地方组织/服务主体的一种具体形态。",
+      "scope": "保留“党群服务站/议事阵地”特征，不继承 SC-C01-114 的全部运营属性。",
+      "candidate_id": null,
+      "evidence_ids": [
+        "M09-E03",
+        "M09-E04",
+        "M09-E09"
+      ],
+      "decision": "candidate",
+      "version": "L2-C15-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C15-009",
+      "case_id": "C15",
+      "native_concept_id": "NC-C15-09",
+      "native_label": "春江自管队",
+      "native_type": "actor",
+      "shared_concept_id": "SC-C01-114",
+      "shared_label": "地方组织与运营主体",
+      "mapping_type": "native_hyponym",
+      "basis": "春江自管队是居民自我管理组织，属于地方组织的一种具体形态。",
+      "scope": "保留“居民自组织/巡逻/议事”特征，不继承商业运营属性。",
+      "candidate_id": null,
+      "evidence_ids": [
+        "M07-E07"
+      ],
+      "decision": "candidate",
+      "version": "L2-C15-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C15-010",
+      "case_id": "C15",
+      "native_concept_id": "NC-C15-10",
+      "native_label": "春江小亭",
+      "native_type": "target",
+      "shared_concept_id": "SC-C01-161",
+      "shared_label": "住区空间建筑与基础设施",
+      "mapping_type": "native_hyponym",
+      "basis": "春江小亭是住区公共空间中的小型构筑物，属于住区空间建筑与基础设施的下位类型。",
+      "scope": "保留“六角亭/居民共建/象征六方”特征，不继承道路、管线等基础设施属性。",
+      "candidate_id": null,
+      "evidence_ids": [
+        "M07-E02",
+        "M07-E04",
+        "M07-E05",
+        "M07-E06"
+      ],
+      "decision": "candidate",
+      "version": "L2-C15-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C15-011",
+      "case_id": "C15",
+      "native_concept_id": "NC-C15-11",
+      "native_label": "美丽家园一期",
+      "native_type": "task",
+      "shared_concept_id": null,
+      "shared_label": null,
+      "mapping_type": "no_map",
+      "basis": "现有 task 类共享概念没有“老旧小区分阶段实体更新”；SC-C01-122 是规划设计准备，不覆盖施工与验收。",
+      "scope": "保留原生概念；提出 SC-C15-04 候选（与二期共享）。",
+      "candidate_id": "SC-C15-04",
+      "evidence_ids": [
+        "M04-E02",
+        "M04-E03",
+        "M04-E06"
+      ],
+      "decision": "candidate",
+      "version": "L2-C15-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C15-012",
+      "case_id": "C15",
+      "native_concept_id": "NC-C15-12",
+      "native_label": "三会征询",
+      "native_type": "action",
+      "shared_concept_id": "SC-C01-152",
+      "shared_label": "方案共制与居民协商决策",
+      "mapping_type": "partial_or_approximate",
+      "basis": "三会含听证、协调、评议，具有协商决策成分；但还包括监督合议和评议人。",
+      "scope": "只映射“协商/共同决策”成分；保留监督、评议人和项目评议部分。",
+      "candidate_id": null,
+      "evidence_ids": [
+        "M04-E05",
+        "M05-E02",
+        "M05-E03",
+        "M05-E04",
+        "M05-E05",
+        "M05-E06"
+      ],
+      "decision": "candidate",
+      "version": "L2-C15-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C15-013",
+      "case_id": "C15",
+      "native_concept_id": "NC-C15-13",
+      "native_label": "高空抛物监测告警",
+      "native_type": "technology",
+      "shared_concept_id": "SC-C01-133",
+      "shared_label": "传感监测与异常识别设备",
+      "mapping_type": "native_hyponym",
+      "basis": "高空抛物监测告警是传感监测与异常识别设备的具体类型。",
+      "scope": "保留“高空抛物/物业电话提醒/一键请求城运”特征，不继承其他传感设备属性。",
+      "candidate_id": null,
+      "evidence_ids": [
+        "M03-E03"
+      ],
+      "decision": "candidate",
+      "version": "L2-C15-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C15-014",
+      "case_id": "C15",
+      "native_concept_id": "NC-C15-14",
+      "native_label": "养老数据精准匹配",
+      "native_type": "capability",
+      "shared_concept_id": null,
+      "shared_label": null,
+      "mapping_type": "no_map",
+      "basis": "现有 capability 类共享概念没有“养老数据精准匹配”；SC-C01-142 是环境监测/诊断，SC-C01-143 是信息服务/空间分析，均不覆盖养老服务匹配。",
+      "scope": "保留原生概念；提出 SC-C15-05 候选。",
+      "candidate_id": "SC-C15-05",
+      "evidence_ids": [
+        "M09-E13",
+        "M09-E14"
+      ],
+      "decision": "candidate",
+      "version": "L2-C15-v0.1"
+    },
+    {
+      "mapping_id": "MAP-C15-015",
+      "case_id": "C15",
+      "native_concept_id": "NC-C15-15",
+      "native_label": "美丽家园二期",
+      "native_type": "task",
+      "shared_concept_id": null,
+      "shared_label": null,
+      "mapping_type": "no_map",
+      "basis": "现有 task 类共享概念没有“老旧小区分阶段实体更新”；二期含道路改造和停车纾解，SC-C01-122 不覆盖。",
+      "scope": "保留原生概念；提出 SC-C15-04 候选（与一期共享）。",
+      "candidate_id": "SC-C15-04",
+      "evidence_ids": [
+        "M06-E01",
+        "M06-E03",
+        "M06-E05",
+        "M09-E12"
+      ],
+      "decision": "candidate",
+      "version": "L2-C15-v0.1"
+    }
+  ],
+  "new_shared_concept_candidates": [
+    {
+      "candidate_id": "SC-C15-01",
+      "label": "社区级最小治理单元",
+      "definition": "以单个居民小区为对象，连接城运体系、街道、物业与居民的数字治理单元。",
+      "entity_type": "context",
+      "supporting_native_ids": [
+        "NC-C15-01"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case",
+      "boundary": "不等于社区治理平台、微网格或行政组织；强调“最小管理单元”的政策/治理单元语义。"
+    },
+    {
+      "candidate_id": "SC-C15-02",
+      "label": "社区问题资源议题项目清单",
+      "definition": "通过入户走访形成的问题、资源、议题、项目四类清单，用于需求梳理和资源匹配。",
+      "entity_type": "target",
+      "supporting_native_ids": [
+        "NC-C15-05"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case",
+      "boundary": "不等于规划项目文件或运行记录；强调四类清单的结构和用途。"
+    },
+    {
+      "candidate_id": "SC-C15-03",
+      "label": "社区微网格治理单元",
+      "definition": "把单个小区或街区划分为微网格，并配置网格长、网格员、下沉力量和议事阵地的治理单元。",
+      "entity_type": "actor",
+      "supporting_native_ids": [
+        "NC-C15-07"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case",
+      "boundary": "不等于一般地方组织；强调 territorial micro-grid unit 和角色配置。"
+    },
+    {
+      "candidate_id": "SC-C15-04",
+      "label": "老旧小区分阶段实体更新",
+      "definition": "把老旧小区实体更新分为若干阶段，逐期实施楼道、道路、无障碍、停车等工程并验收。",
+      "entity_type": "task",
+      "supporting_native_ids": [
+        "NC-C15-11",
+        "NC-C15-15"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case",
+      "boundary": "不等于规划设计准备；强调分期实施、施工和验收。"
+    },
+    {
+      "candidate_id": "SC-C15-05",
+      "label": "养老服务数据匹配能力",
+      "definition": "依托养老数据库和数据分析，为老年人匹配政策、服务和个性化清单的能力。",
+      "entity_type": "capability",
+      "supporting_native_ids": [
+        "NC-C15-14"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case",
+      "boundary": "不等于环境监测或一般信息服务；强调养老对象、数据匹配和服务清单。"
+    }
+  ],
+  "researcher_decision": {
+    "action": "accept",
+    "rationale": "Accept 15 mappings and 5 new candidates; partial mappings do not expand existing shared concept scope; no_map concepts retain native knowledge; proceed to L2-G3 historical review.",
+    "modified_content": {
+      "mapping_count": 15,
+      "mapping_type_counts": {
+        "semantic_equivalent": 0,
+        "native_hyponym": 4,
+        "partial_or_approximate": 5,
+        "no_map": 6
+      },
+      "new_candidate_count": 5
+    },
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  }
+}

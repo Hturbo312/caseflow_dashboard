@@ -1,0 +1,42 @@
+{
+  "packetId": "RP-C17-L2-G2-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G2",
+  "caseId": "C17",
+  "scope": "7 个共享概念候选、19 条概念映射",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher",
+  "counts": {
+    "candidates": 7,
+    "mappings": 19,
+    "native_hyponym": 10,
+    "partial_or_approximate": 8,
+    "no_map": 1
+  },
+  "candidates": [
+    {"id":"SC-C17-01","label":"社区洪泛记忆的空间转译","type":"capability","supportingCases":["C17"]},
+    {"id":"SC-C17-02","label":"大学—社区联合外业制图","type":"action","supportingCases":["C17"]},
+    {"id":"SC-C17-03","label":"开放地理数据生产与发布","type":"task","supportingCases":["C17"]},
+    {"id":"SC-C17-04","label":"基础设施网络数据模型","type":"technology","supportingCases":["C17"]},
+    {"id":"SC-C17-05","label":"低成本移动采集工具组合","type":"technology","supportingCases":["C17"]},
+    {"id":"SC-C17-06","label":"模型验证与迭代","type":"action","supportingCases":["C17"]},
+    {"id":"SC-C17-07","label":"数据稀缺与基础地图缺失","type":"context","supportingCases":["C17"]}
+  ],
+  "conflicts": [
+    {"topic":"既有层状态","positions":["C01–C11 仍为 candidate_pending_researcher","C12/C14 已发布"],"handling":"映射标注候选复用"},
+    {"topic":"单案例支持","positions":["7 个候选仅 C17"],"handling":"保持 candidate，G3 回查"}
+  ],
+  "gaps": ["第二案例支持", "既有层确认状态"],
+  "decisionsRequired": [
+    "7 个新候选是否保留",
+    "19 条映射是否接受",
+    "NC-09 是否 no_map",
+    "NC-10 是否双映射",
+    "候选复用是否标注 pending"
+  ],
+  "historyImpact": {"affectsSharedConcepts": false, "affectsHistoricalMappings": false, "triggersHistoricalReview": true, "note": "G3 需为候选寻找第二案例支持"},
+  "researcherDecision": {"action": null, "rationale": null, "modifiedContent": null, "allowNextGate": null, "decidedAt": null},
+  "frozenArtifacts": [],
+  "version": "v0.1",
+  "openIssues": ["新候选", "映射总体", "NC-09", "NC-10", "候选复用标注"]
+}

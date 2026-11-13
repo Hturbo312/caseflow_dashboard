@@ -1,0 +1,87 @@
+{
+  "case_id": "C18",
+  "version": "v0.1",
+  "status": "confirmed",
+  "generated_at": "2026-11-13",
+  "base_layer": "L2-C15-v1.0",
+  "checked_shared_concepts": 57,
+  "affected_shared_concepts": [
+    {
+      "shared_concept_id": "SC-C01-132",
+      "label": "社区治理与行政平台",
+      "existing_file_level_mappings": ["MAP-C15-002", "MAP-C15-006"],
+      "c18_mapping_ids": ["MAP-C18-002"],
+      "proposed_change": "add_support_only",
+      "definition_change": false,
+      "historical_reclassification": false,
+      "boundary_check": "C18只增加社区信息/服务整合成分；不把LLM、RAG、社交和资源优化并入行政平台定义。"
+    },
+    {
+      "shared_concept_id": "SC-C01-143",
+      "label": "信息服务与空间分析能力",
+      "existing_file_level_mappings": ["MAP-C13-07"],
+      "c18_mapping_ids": ["MAP-C18-004", "MAP-C18-008"],
+      "proposed_change": "add_support_only",
+      "definition_change": false,
+      "historical_reclassification": false,
+      "boundary_check": "C18只增加设施查询/推荐和资源空间分析；不把LLM生成建议写成一般空间分析。"
+    },
+    {
+      "shared_concept_id": "SC-C01-141",
+      "label": "参与表达与意见采集能力",
+      "existing_file_level_mappings": [],
+      "c18_mapping_ids": ["MAP-C18-006"],
+      "proposed_change": "add_support_only",
+      "definition_change": false,
+      "historical_reclassification": false,
+      "boundary_check": "C18只增加居民讨论/评价的表达成分；不把在线社交和UGC全部并入意见采集。"
+    },
+    {
+      "shared_concept_id": "SC-C01-156",
+      "label": "问题核查与闭环处置",
+      "existing_file_level_mappings": ["MAP-C15-004"],
+      "c15_negative_example": "不含居民自主点单/评单的闭环处置",
+      "c18_mapping_ids": ["MAP-C18-011"],
+      "proposed_change": "add_support_only",
+      "definition_change": false,
+      "historical_reclassification": false,
+      "boundary_check": "C18南头网格工单/痛点处置不含居民自主点单/评单，和C15负例兼容；C18居民互助与UGC不并入本概念。"
+    },
+    {
+      "shared_concept_id": "SC-C01-151",
+      "label": "社区参与与意见收集",
+      "existing_file_level_mappings": ["MAP-C13-11"],
+      "c18_mapping_ids": ["MAP-C18-013"],
+      "proposed_change": "add_support_only",
+      "definition_change": false,
+      "historical_reclassification": false,
+      "boundary_check": "C18只增加开放日参与/打卡；不把校社互动目标写成意见收集成果。"
+    },
+    {
+      "shared_concept_id": "SC-C01-158",
+      "label": "技术试验与能力建设",
+      "existing_file_level_mappings": [],
+      "c18_mapping_ids": ["MAP-C18-009"],
+      "proposed_change": "add_support_only",
+      "definition_change": false,
+      "historical_reclassification": false,
+      "boundary_check": "C18只增加30天平台试点；不把作者报告指标并入培训/能力建设。"
+    }
+  ],
+  "summary": {
+    "support_additions": 6,
+    "definition_changes": 0,
+    "negative_example_changes": 0,
+    "historical_reclassifications": 0,
+    "mappings_reopened": 0
+  },
+  "file_level_coverage_note": "C01-C11 v0.2、C13 v1.0、C15 v1.1 的映射文件已核对；C12/C16 仅有原生概念，C19/C20 尚无 L2 映射文件。C15 版本记录中的 125 条历史映射未全部以单文件重建，本轮只对受影响的 6 个共享概念做文件级回查。",
+  "result": "proceed_with_support_delta_no_historical_rewrite",
+  "researcher_decision": {
+    "action": "accept",
+    "rationale": "6支持增量，0改判，64活跃概念，进入G4。",
+    "modified_content": "接受6个支持增量与0历史改判。",
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  }
+}

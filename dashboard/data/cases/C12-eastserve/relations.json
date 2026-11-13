@@ -1,0 +1,1429 @@
+{
+  "case_id": "C12",
+  "generated_at": "2026-11-13",
+  "status": "confirmed",
+  "relations": [
+    {
+      "relation_id": "R001",
+      "case_id": "C12",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "established_under",
+      "tail_entity": "A09",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2000; East Manchester; NDC/Beacons framework",
+      "evidence_ids": [
+        "M10-E01"
+      ],
+      "process_ids": [
+        "C12-P01"
+      ],
+      "fact_ids": [
+        "F001"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R002",
+      "case_id": "C12",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "funded_by",
+      "tail_entity": "A11",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2000-2003; DfES WUC",
+      "evidence_ids": [
+        "M10-E01"
+      ],
+      "process_ids": [
+        "C12-P01"
+      ],
+      "fact_ids": [
+        "F001"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R003",
+      "case_id": "C12",
+      "head_entity": "A09",
+      "head_type": "actor",
+      "predicate": "submitted_bid_to",
+      "tail_entity": "A11",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2000-11",
+      "evidence_ids": [
+        "M03-E02"
+      ],
+      "process_ids": [
+        "C12-P01"
+      ],
+      "fact_ids": [
+        "F002"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R004",
+      "case_id": "C12",
+      "head_entity": "A02",
+      "head_type": "actor",
+      "predicate": "targets",
+      "tail_entity": "G02",
+      "tail_type": "target",
+      "fact_status": "planned",
+      "qualifiers": "2000-2001; 450 homes",
+      "evidence_ids": [
+        "M03-E02"
+      ],
+      "process_ids": [
+        "C12-P01"
+      ],
+      "fact_ids": [
+        "F003"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R005",
+      "case_id": "C12",
+      "head_entity": "A02",
+      "head_type": "actor",
+      "predicate": "deploys",
+      "tail_entity": "T07",
+      "tail_type": "technology",
+      "fact_status": "planned",
+      "qualifiers": "2000-2001; 10 access points",
+      "evidence_ids": [
+        "M03-E02"
+      ],
+      "process_ids": [
+        "C12-P01"
+      ],
+      "fact_ids": [
+        "F003"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R006",
+      "case_id": "C12",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "launches",
+      "tail_entity": "T01",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2001-03-13",
+      "evidence_ids": [
+        "M01-E01"
+      ],
+      "process_ids": [
+        "C12-P01"
+      ],
+      "fact_ids": [
+        "F004"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R007",
+      "case_id": "C12",
+      "head_entity": "A27",
+      "head_type": "actor",
+      "predicate": "launches",
+      "tail_entity": "T01",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2001-03-13",
+      "evidence_ids": [
+        "M01-E01"
+      ],
+      "process_ids": [
+        "C12-P01"
+      ],
+      "fact_ids": [
+        "F004"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R008",
+      "case_id": "C12",
+      "head_entity": "A12",
+      "head_type": "actor",
+      "predicate": "leads_private_partnership_for",
+      "tail_entity": "A01",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2001; ClicksandLinks Ltd",
+      "evidence_ids": [
+        "M01-E02"
+      ],
+      "process_ids": [
+        "C12-P01"
+      ],
+      "fact_ids": [],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R009",
+      "case_id": "C12",
+      "head_entity": "T01",
+      "head_type": "technology",
+      "predicate": "provides",
+      "tail_entity": "C03",
+      "tail_type": "capability",
+      "fact_status": "implemented",
+      "qualifiers": "2001; housing/employment/environment/police",
+      "evidence_ids": [
+        "M01-E04"
+      ],
+      "process_ids": [
+        "C12-P01"
+      ],
+      "fact_ids": [
+        "F005"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R010",
+      "case_id": "C12",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "predicate": "targets",
+      "tail_entity": "G03",
+      "tail_type": "target",
+      "fact_status": "planned",
+      "qualifiers": "2001-2003; 4,500+ homes",
+      "evidence_ids": [
+        "M02-E01"
+      ],
+      "process_ids": [
+        "C12-P02"
+      ],
+      "fact_ids": [
+        "F008"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R011",
+      "case_id": "C12",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "predicate": "plans",
+      "tail_entity": "T06",
+      "tail_type": "technology",
+      "fact_status": "planned",
+      "qualifiers": "2001-2003; 2,500 PCs",
+      "evidence_ids": [
+        "M02-E02"
+      ],
+      "process_ids": [
+        "C12-P02"
+      ],
+      "fact_ids": [
+        "F009"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R012",
+      "case_id": "C12",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "predicate": "provides",
+      "tail_entity": "C04",
+      "tail_type": "capability",
+      "fact_status": "planned",
+      "qualifiers": "2001-2003; 4,500 trained",
+      "evidence_ids": [
+        "M02-E02"
+      ],
+      "process_ids": [
+        "C12-P02"
+      ],
+      "fact_ids": [
+        "F009"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R013",
+      "case_id": "C12",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "predicate": "offers",
+      "tail_entity": "T03",
+      "tail_type": "technology",
+      "fact_status": "planned",
+      "qualifiers": "2001-2003; set-top box option",
+      "evidence_ids": [
+        "M02-E03"
+      ],
+      "process_ids": [
+        "C12-P02"
+      ],
+      "fact_ids": [
+        "F010"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R014",
+      "case_id": "C12",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "predicate": "offers",
+      "tail_entity": "T04",
+      "tail_type": "technology",
+      "fact_status": "planned",
+      "qualifiers": "2001-2003; network computer option",
+      "evidence_ids": [
+        "M02-E03"
+      ],
+      "process_ids": [
+        "C12-P02"
+      ],
+      "fact_ids": [
+        "F010"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R015",
+      "case_id": "C12",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "predicate": "offers",
+      "tail_entity": "T05",
+      "tail_type": "technology",
+      "fact_status": "planned",
+      "qualifiers": "2001-2003; recycled PC option",
+      "evidence_ids": [
+        "M02-E03"
+      ],
+      "process_ids": [
+        "C12-P02"
+      ],
+      "fact_ids": [
+        "F010"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R016",
+      "case_id": "C12",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "predicate": "offers",
+      "tail_entity": "T06",
+      "tail_type": "technology",
+      "fact_status": "planned",
+      "qualifiers": "2001-2003; new PC option",
+      "evidence_ids": [
+        "M02-E03"
+      ],
+      "process_ids": [
+        "C12-P02"
+      ],
+      "fact_ids": [
+        "F010"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R017",
+      "case_id": "C12",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "predicate": "establishes",
+      "tail_entity": "A25",
+      "tail_type": "actor",
+      "fact_status": "planned",
+      "qualifiers": "2001; 4 learning centres",
+      "evidence_ids": [
+        "M02-E04"
+      ],
+      "process_ids": [
+        "C12-P02"
+      ],
+      "fact_ids": [
+        "F011"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R018",
+      "case_id": "C12",
+      "head_entity": "A08",
+      "head_type": "actor",
+      "predicate": "accountable_for",
+      "tail_entity": "A03",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2001; via NDC partnership",
+      "evidence_ids": [
+        "M02-E06"
+      ],
+      "process_ids": [
+        "C12-P02"
+      ],
+      "fact_ids": [
+        "F013"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R019",
+      "case_id": "C12",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "predicate": "distributes",
+      "tail_entity": "T06",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2001-2002; new PCs",
+      "evidence_ids": [
+        "M03-E08",
+        "M03-E09"
+      ],
+      "process_ids": [
+        "C12-P02"
+      ],
+      "fact_ids": [
+        "F015",
+        "F017"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R020",
+      "case_id": "C12",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "predicate": "distributes",
+      "tail_entity": "T05",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2001-2002; recycled PCs",
+      "evidence_ids": [
+        "M03-E08"
+      ],
+      "process_ids": [
+        "C12-P02"
+      ],
+      "fact_ids": [
+        "F015"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R021",
+      "case_id": "C12",
+      "head_entity": "A18",
+      "head_type": "actor",
+      "predicate": "provides_loans_for",
+      "tail_entity": "C05",
+      "tail_type": "capability",
+      "fact_status": "implemented",
+      "qualifiers": "2001-2002; low-cost loans",
+      "evidence_ids": [
+        "M03-E08",
+        "M14-E03"
+      ],
+      "process_ids": [
+        "C12-P02"
+      ],
+      "fact_ids": [
+        "F010"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R022",
+      "case_id": "C12",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "predicate": "contracts_with",
+      "tail_entity": "A19",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2002; ISP replacement",
+      "evidence_ids": [
+        "M03-E09"
+      ],
+      "process_ids": [
+        "C12-P02"
+      ],
+      "fact_ids": [
+        "F016"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R023",
+      "case_id": "C12",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "predicate": "installs",
+      "tail_entity": "T02",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2002 summer",
+      "evidence_ids": [
+        "M03-E10"
+      ],
+      "process_ids": [
+        "C12-P02"
+      ],
+      "fact_ids": [
+        "F018"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R024",
+      "case_id": "C12",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "predicate": "provides",
+      "tail_entity": "C04",
+      "tail_type": "capability",
+      "fact_status": "implemented",
+      "qualifiers": "2001-2003; 3-hour course",
+      "evidence_ids": [
+        "M02-E05",
+        "M03-E12"
+      ],
+      "process_ids": [
+        "C12-P02"
+      ],
+      "fact_ids": [
+        "F012",
+        "F021"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R025",
+      "case_id": "C12",
+      "head_entity": "A17",
+      "head_type": "actor",
+      "predicate": "trains",
+      "tail_entity": "A15",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2002-2003; 20 champions",
+      "evidence_ids": [
+        "M03-E12"
+      ],
+      "process_ids": [
+        "C12-P02"
+      ],
+      "fact_ids": [
+        "F021"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R026",
+      "case_id": "C12",
+      "head_entity": "T02",
+      "head_type": "technology",
+      "predicate": "provides",
+      "tail_entity": "C01",
+      "tail_type": "capability",
+      "fact_status": "implemented",
+      "qualifiers": "2002-2003; home broadband access",
+      "evidence_ids": [
+        "M03-E11"
+      ],
+      "process_ids": [
+        "C12-P03"
+      ],
+      "fact_ids": [
+        "F019",
+        "F020"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R027",
+      "case_id": "C12",
+      "head_entity": "T02",
+      "head_type": "technology",
+      "predicate": "provides",
+      "tail_entity": "C02",
+      "tail_type": "capability",
+      "fact_status": "implemented",
+      "qualifiers": "2002-2006; wireless coverage",
+      "evidence_ids": [
+        "M03-E10",
+        "M09-E01"
+      ],
+      "process_ids": [
+        "C12-P03",
+        "C12-P04"
+      ],
+      "fact_ids": [
+        "F018",
+        "F027"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R028",
+      "case_id": "C12",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "predicate": "prices",
+      "tail_entity": "T02",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2002-2003; GBP 15/16/6 per month",
+      "evidence_ids": [
+        "M03-E11"
+      ],
+      "process_ids": [
+        "C12-P03"
+      ],
+      "fact_ids": [
+        "F019"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R029",
+      "case_id": "C12",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "predicate": "records",
+      "tail_entity": "O03",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2002-09; ~500 residents",
+      "evidence_ids": [
+        "M03-E11"
+      ],
+      "process_ids": [
+        "C12-P03"
+      ],
+      "fact_ids": [
+        "F020"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R030",
+      "case_id": "C12",
+      "head_entity": "T01",
+      "head_type": "technology",
+      "predicate": "provides",
+      "tail_entity": "T10",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2002-02; housing and street lighting reporting",
+      "evidence_ids": [
+        "M03-E13"
+      ],
+      "process_ids": [
+        "C12-P03"
+      ],
+      "fact_ids": [
+        "F022"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R031",
+      "case_id": "C12",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "predicate": "trains",
+      "tail_entity": "G07",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2002-2003; ~2,500 attendees",
+      "evidence_ids": [
+        "M03-E12"
+      ],
+      "process_ids": [
+        "C12-P03"
+      ],
+      "fact_ids": [
+        "F021"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R032",
+      "case_id": "C12",
+      "head_entity": "A11",
+      "head_type": "actor",
+      "predicate": "ends_funding_for",
+      "tail_entity": "A03",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2003-03; WUC programme end",
+      "evidence_ids": [
+        "M06-E01"
+      ],
+      "process_ids": [
+        "C12-P03"
+      ],
+      "fact_ids": [
+        "F024"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "WUC programme funding ended; project did not necessarily stop."
+    },
+    {
+      "relation_id": "R033",
+      "case_id": "C12",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "covers",
+      "tail_entity": "G01",
+      "tail_type": "target",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2005; 9,000 households",
+      "evidence_ids": [
+        "M09-E01"
+      ],
+      "process_ids": [
+        "C12-P04"
+      ],
+      "fact_ids": [
+        "F027"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R034",
+      "case_id": "C12",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "distributes",
+      "tail_entity": "T06",
+      "tail_type": "technology",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2006; 3,500 PCs",
+      "evidence_ids": [
+        "M10-E04"
+      ],
+      "process_ids": [
+        "C12-P04"
+      ],
+      "fact_ids": [
+        "F028"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R035",
+      "case_id": "C12",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "provides",
+      "tail_entity": "C01",
+      "tail_type": "capability",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2006; 1,500 broadband households",
+      "evidence_ids": [
+        "M10-E04"
+      ],
+      "process_ids": [
+        "C12-P04"
+      ],
+      "fact_ids": [
+        "F028"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R036",
+      "case_id": "C12",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "establishes",
+      "tail_entity": "A25",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2004-2006; 9 learning centres",
+      "evidence_ids": [
+        "M14-E03"
+      ],
+      "process_ids": [
+        "C12-P04"
+      ],
+      "fact_ids": [
+        "F030"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R037",
+      "case_id": "C12",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "records",
+      "tail_entity": "O06",
+      "tail_type": "outcome",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2006; 3,500+ attendees",
+      "evidence_ids": [
+        "M18-E05"
+      ],
+      "process_ids": [
+        "C12-P04"
+      ],
+      "fact_ids": [
+        "F031"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R038",
+      "case_id": "C12",
+      "head_entity": "T01",
+      "head_type": "technology",
+      "predicate": "records",
+      "tail_entity": "O07",
+      "tail_type": "outcome",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2006; 650+ reports in 9 months",
+      "evidence_ids": [
+        "M18-E07"
+      ],
+      "process_ids": [
+        "C12-P04"
+      ],
+      "fact_ids": [
+        "F032"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R039",
+      "case_id": "C12",
+      "head_entity": "A16",
+      "head_type": "actor",
+      "predicate": "employs",
+      "tail_entity": "A23",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2002-2006; local residents in installation work",
+      "evidence_ids": [
+        "M10-E07"
+      ],
+      "process_ids": [
+        "C12-P04"
+      ],
+      "fact_ids": [],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R040",
+      "case_id": "C12",
+      "head_entity": "A14",
+      "head_type": "actor",
+      "predicate": "advises",
+      "tail_entity": "A01",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2001-2006; content recommendations",
+      "evidence_ids": [
+        "M03-E07",
+        "M10-E07"
+      ],
+      "process_ids": [
+        "C12-P04"
+      ],
+      "fact_ids": [],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R041",
+      "case_id": "C12",
+      "head_entity": "A15",
+      "head_type": "actor",
+      "predicate": "supports",
+      "tail_entity": "A23",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2002-2006; first-line ICT support",
+      "evidence_ids": [
+        "M03-E07",
+        "M03-E12"
+      ],
+      "process_ids": [
+        "C12-P04"
+      ],
+      "fact_ids": [
+        "F021"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R042",
+      "case_id": "C12",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "predicate": "states_reason",
+      "tail_entity": "X05",
+      "tail_type": "context",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2006; 'technology has caught up with us'",
+      "evidence_ids": [
+        "M18-E06"
+      ],
+      "process_ids": [
+        "C12-P04"
+      ],
+      "fact_ids": [
+        "F033"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "reported participant statement, not objective causal claim"
+    },
+    {
+      "relation_id": "R043",
+      "case_id": "C12",
+      "head_entity": "A21",
+      "head_type": "actor",
+      "predicate": "funds",
+      "tail_entity": "A01",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2006; third phase",
+      "evidence_ids": [
+        "M10-E08"
+      ],
+      "process_ids": [
+        "C12-P04"
+      ],
+      "fact_ids": [
+        "F034"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R044",
+      "case_id": "C12",
+      "head_entity": "A13",
+      "head_type": "actor",
+      "predicate": "manages",
+      "tail_entity": "T01",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2008-10; website management",
+      "evidence_ids": [
+        "M17-E01"
+      ],
+      "process_ids": [
+        "C12-P05"
+      ],
+      "fact_ids": [
+        "F035"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R045",
+      "case_id": "C12",
+      "head_entity": "A04",
+      "head_type": "actor",
+      "predicate": "operates",
+      "tail_entity": "A01",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2009; Symera partnership",
+      "evidence_ids": [
+        "M11-E01"
+      ],
+      "process_ids": [
+        "C12-P05"
+      ],
+      "fact_ids": [
+        "F036"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R046",
+      "case_id": "C12",
+      "head_entity": "A04",
+      "head_type": "actor",
+      "predicate": "targets",
+      "tail_entity": "G01",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2009; East Manchester",
+      "evidence_ids": [
+        "M11-E01",
+        "M11-E02"
+      ],
+      "process_ids": [
+        "C12-P05"
+      ],
+      "fact_ids": [
+        "F036",
+        "F037"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R047",
+      "case_id": "C12",
+      "head_entity": "A04",
+      "head_type": "actor",
+      "predicate": "provides",
+      "tail_entity": "T09",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2010-07; selected hotspots in operation; full coverage planned by end-2010",
+      "evidence_ids": [
+        "M13-E01"
+      ],
+      "process_ids": [
+        "C12-P05"
+      ],
+      "fact_ids": [
+        "F038"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R048",
+      "case_id": "C12",
+      "head_entity": "A04",
+      "head_type": "actor",
+      "predicate": "enters_liquidation",
+      "tail_entity": "O08",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2010-11-19; creditors voluntary liquidation",
+      "evidence_ids": [
+        "M19-E01"
+      ],
+      "process_ids": [
+        "C12-P05"
+      ],
+      "fact_ids": [
+        "F040"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R049",
+      "case_id": "C12",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "predicate": "shares_insolvency_practitioner_with",
+      "tail_entity": "A04",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2010-2013; Ian Michael Rose",
+      "evidence_ids": [
+        "M19-E01",
+        "M23-E01"
+      ],
+      "process_ids": [
+        "C12-P05"
+      ],
+      "fact_ids": [
+        "F040",
+        "F041"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "factual link only; successor relationship not confirmed"
+    },
+    {
+      "relation_id": "R050",
+      "case_id": "C12",
+      "head_entity": "A09",
+      "head_type": "actor",
+      "predicate": "concludes",
+      "tail_entity": "X03",
+      "tail_type": "context",
+      "fact_status": "implemented",
+      "qualifiers": "2010-03; NDC programme",
+      "evidence_ids": [
+        "M16-E01"
+      ],
+      "process_ids": [
+        "C12-P05"
+      ],
+      "fact_ids": [
+        "F039"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R051",
+      "case_id": "C12",
+      "head_entity": "A04",
+      "head_type": "actor",
+      "predicate": "records",
+      "tail_entity": "O11",
+      "tail_type": "outcome",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "c.2009; 1,500 paying users",
+      "evidence_ids": [
+        "M11-E02"
+      ],
+      "process_ids": [
+        "C12-P05"
+      ],
+      "fact_ids": [
+        "F037"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R052",
+      "case_id": "C12",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "predicate": "enters_liquidation",
+      "tail_entity": "O08",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2011-07-28",
+      "evidence_ids": [
+        "M23-E01"
+      ],
+      "process_ids": [
+        "C12-P06"
+      ],
+      "fact_ids": [
+        "F041"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R053",
+      "case_id": "C12",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "predicate": "dissolves",
+      "tail_entity": "O08",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2013-08-30",
+      "evidence_ids": [
+        "M22-E01",
+        "M23-E01"
+      ],
+      "process_ids": [
+        "C12-P06"
+      ],
+      "fact_ids": [
+        "F041"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R054",
+      "case_id": "C12",
+      "head_entity": "A07",
+      "head_type": "actor",
+      "predicate": "acquires",
+      "tail_entity": "A06",
+      "tail_type": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2014-07; 70%+ shareholding",
+      "evidence_ids": [
+        "M21-E01"
+      ],
+      "process_ids": [
+        "C12-P06"
+      ],
+      "fact_ids": [
+        "F042"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R055",
+      "case_id": "C12",
+      "head_entity": "A07",
+      "head_type": "actor",
+      "predicate": "upgrades",
+      "tail_entity": "T08",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2014-08; 36Mbps",
+      "evidence_ids": [
+        "M20-E01"
+      ],
+      "process_ids": [
+        "C12-P06"
+      ],
+      "fact_ids": [
+        "F043"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R056",
+      "case_id": "C12",
+      "head_entity": "T08",
+      "head_type": "technology",
+      "predicate": "provides",
+      "tail_entity": "C08",
+      "tail_type": "capability",
+      "fact_status": "implemented",
+      "qualifiers": "2014-08; 36Mbps",
+      "evidence_ids": [
+        "M20-E01"
+      ],
+      "process_ids": [
+        "C12-P06"
+      ],
+      "fact_ids": [
+        "F043"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R057",
+      "case_id": "C12",
+      "head_entity": "T08",
+      "head_type": "technology",
+      "predicate": "covers",
+      "tail_entity": "G04",
+      "tail_type": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2014-08; 25km2/48,000 homes/3,000 postcodes",
+      "evidence_ids": [
+        "M20-E01"
+      ],
+      "process_ids": [
+        "C12-P06"
+      ],
+      "fact_ids": [
+        "F043"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R058",
+      "case_id": "C12",
+      "head_entity": "A06",
+      "head_type": "actor",
+      "predicate": "operates",
+      "tail_entity": "T01",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2016-04; eastserve.com under Cityserve brand",
+      "evidence_ids": [
+        "M15-E01"
+      ],
+      "process_ids": [
+        "C12-P07"
+      ],
+      "fact_ids": [
+        "F044"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R059",
+      "case_id": "C12",
+      "head_entity": "A06",
+      "head_type": "actor",
+      "predicate": "provides",
+      "tail_entity": "T09",
+      "tail_type": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2016-04; hotspot tariffs",
+      "evidence_ids": [
+        "M15-E02"
+      ],
+      "process_ids": [
+        "C12-P07"
+      ],
+      "fact_ids": [
+        "F044"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R060",
+      "case_id": "C12",
+      "head_entity": "A04",
+      "head_type": "actor",
+      "predicate": "dissolves",
+      "tail_entity": "O08",
+      "tail_type": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2017-02-28",
+      "evidence_ids": [
+        "M12-E01"
+      ],
+      "process_ids": [
+        "C12-P07"
+      ],
+      "fact_ids": [
+        "F045"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R061",
+      "case_id": "C12",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "predicate": "legal_continuity_with",
+      "tail_entity": "A06",
+      "tail_type": "actor",
+      "fact_status": "unconfirmed",
+      "qualifiers": "2010-2014; same CityServe name and East Manchester area; 2014 source gives no company number",
+      "evidence_ids": [
+        "M22-E01",
+        "M21-E01"
+      ],
+      "process_ids": [
+        "C12-P06"
+      ],
+      "fact_ids": [
+        "F041",
+        "F042"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "Preserves uncertainty; not asserted as successor."
+    }
+  ],
+  "version": "v1.0",
+  "researcher_decision": {
+    "action": "accept_all",
+    "rationale": "Accept 61 relations, predicates/directions, R061 unconfirmed, and planned/reported status handling.",
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  }
+}

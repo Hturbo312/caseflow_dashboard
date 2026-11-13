@@ -1,0 +1,52 @@
+{
+  "record_id": "VR-C20-L2-001",
+  "case_id": "C20",
+  "ontology_version": "V4",
+  "case_layer_version": "L2-C20-v1.0",
+  "date": "2026-11-13",
+  "status": "candidate_release",
+  "base_layer": "L2-C18-v1.0 + L2-C19-v0.1 (DB-only)",
+  "scope": "C20原生概念接入、9条映射、7个支持增量、1个新单案候选、1个撤回候选、1个共享概念晋升；不修改八类本体。",
+  "c19_state": {
+    "native_concepts": 25,
+    "mappings": 40,
+    "shared_candidates": "SC-C19-101 to SC-C19-113",
+    "files": "missing_db_only",
+    "note": "C19在SQLite中有L2状态，但C19文件夹缺L2文件；C20版本记录将其标为DB-only基线。"
+  },
+  "changes": [
+    "新增9条映射：0 semantic_equivalent、2 native_hyponym、5 partial_or_approximate、2 no_map",
+    "新增7个既有共享概念支持：SC-C01-152/131/121/122/174/155 + SC-C19-102",
+    "新增1个单案候选SC-C20-02（儿童地方知识转译）",
+    "撤回1个重复候选SC-C20-01（AI辅助的空间想法生成与可视化）",
+    "将SC-C19-102生成式AI参与式可视化晋升为researcher_confirmed（C19+C20）",
+    "0个定义修改、0个负例修改、0条历史映射修改、0个历史改判",
+    "不覆盖C01-C19历史文件"
+  ],
+  "validation": {
+    "reference_check": "passed",
+    "mappings": 9,
+    "mapping_type_counts": {"semantic_equivalent": 0, "native_hyponym": 2, "partial_or_approximate": 5, "no_map": 2},
+    "support_additions": 7,
+    "new_candidates": 1,
+    "withdrawn_candidates": 1,
+    "promotions": 1,
+    "definition_changes": 0,
+    "negative_changes": 0,
+    "historical_mapping_changes": 0,
+    "historical_reclassifications": 0,
+    "shared_concept_records_before": 88,
+    "shared_concept_records_after": 89,
+    "confirmed_after": 47,
+    "single_candidates_after": 33,
+    "awaiting_second_case_after": 7,
+    "evidence_weak_after": 1,
+    "held_after": 1
+  },
+  "release_scope": "file-level only; dashboard SQLite import not included",
+  "release_decision": {
+    "action": "pending",
+    "rationale": "等待L2-G4研究者确认版本号、晋升与发布范围",
+    "decided_at": null
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "case_id": "C15",
+  "version": "v1.0",
+  "status": "candidate",
+  "generated_at": "2026-11-13",
+  "native_concepts": [
+    {
+      "native_concept_id": "NC-C15-01",
+      "label": "社区级最小管理单元",
+      "entity_type": "context",
+      "definition": "以单个居民小区为对象，由城运体系、街道、技术生态和社区组织共同构建的数字治理单元；在春江表现为“春江小区专属最小管理单元”。",
+      "examples": [
+        "春江小区专属最小管理单元",
+        "黄浦区最小管理单元二期居民小区场景"
+      ],
+      "source_relation_ids": [
+        "R018",
+        "R019",
+        "R032",
+        "R033",
+        "R034"
+      ],
+      "status": "candidate",
+      "case_id": "C15"
+    },
+    {
+      "native_concept_id": "NC-C15-02",
+      "label": "春江专属最小管理单元智慧应用系统",
+      "entity_type": "technology",
+      "definition": "街道在春江小区开展的专属最小管理单元智慧应用系统试点，目标是连接居民发现与物业响应。",
+      "examples": [
+        "2021-08 街道称正在开展试点"
+      ],
+      "source_relation_ids": [
+        "R032",
+        "R033",
+        "R034"
+      ],
+      "status": "candidate",
+      "case_id": "C15"
+    },
+    {
+      "native_concept_id": "NC-C15-03",
+      "label": "智慧春江微信小程序",
+      "entity_type": "technology",
+      "definition": "2023年5月上线的春江居民端微信小程序，承载点单、意见箱、反诈、七心七助、线上议事等服务入口。",
+      "examples": [
+        "居民拍照上传楼道灯",
+        "门口斜坡反映"
+      ],
+      "source_relation_ids": [
+        "R067",
+        "R072",
+        "R079",
+        "R080"
+      ],
+      "status": "candidate",
+      "case_id": "C15"
+    },
+    {
+      "native_concept_id": "NC-C15-04",
+      "label": "四单制",
+      "entity_type": "action",
+      "definition": "居民点单、微网格长派单、微网格员接单、居民评单的社区诉求处理流程。",
+      "examples": [
+        "楼道灯当天修复",
+        "建筑垃圾次日清运",
+        "斜坡一个月竣工"
+      ],
+      "source_relation_ids": [
+        "R065",
+        "R067",
+        "R068",
+        "R069",
+        "R070",
+        "R071",
+        "R081"
+      ],
+      "status": "candidate",
+      "case_id": "C15"
+    },
+    {
+      "native_concept_id": "NC-C15-05",
+      "label": "四张清单",
+      "entity_type": "target",
+      "definition": "春江微网格入户走访形成的问题、资源、议题、项目四类清单，共118项。",
+      "examples": [
+        "问题54项",
+        "资源25项",
+        "议题25项",
+        "项目14项"
+      ],
+      "source_relation_ids": [
+        "R088",
+        "R089"
+      ],
+      "status": "candidate",
+      "case_id": "C15"
+    },
+    {
+      "native_concept_id": "NC-C15-06",
+      "label": "春江数治网",
+      "entity_type": "technology",
+      "definition": "把数字治理技术与传统物业管理结合，通过人、房、事、物、情和最小管理单元数据赋能的社区数字治理网络。",
+      "examples": [
+        "AI摄像头",
+        "态势感知",
+        "非机动车棚火情/高抛/报修/垃圾落地告警"
+      ],
+      "source_relation_ids": [
+        "R090",
+        "R091",
+        "R092",
+        "R093",
+        "R095"
+      ],
+      "status": "candidate",
+      "case_id": "C15"
+    },
+    {
+      "native_concept_id": "NC-C15-07",
+      "label": "春江微网格",
+      "entity_type": "actor",
+      "definition": "五里桥街道把春江小区单独划分成的基层治理微网格，承接行政力量、服务资源和数字技术。",
+      "examples": [
+        "单独划分为一个微网格",
+        "微网格长/微网格员"
+      ],
+      "source_relation_ids": [
+        "R082",
+        "R083",
+        "R086",
+        "R087"
+      ],
+      "status": "candidate",
+      "case_id": "C15"
+    },
+    {
+      "native_concept_id": "NC-C15-08",
+      "label": "格里厢家门口党群服务站",
+      "entity_type": "actor",
+      "definition": "春江微网格内的党群服务与议事阵地，承担议题征集、资源汇聚和服务下沉。",
+      "examples": [
+        "格里厢议事平台",
+        "格里厢家门口服务阵地"
+      ],
+      "source_relation_ids": [
+        "R083",
+        "R084",
+        "R085"
+      ],
+      "status": "candidate",
+      "case_id": "C15"
+    },
+    {
+      "native_concept_id": "NC-C15-09",
+      "label": "春江自管队",
+      "entity_type": "actor",
+      "definition": "春江小亭建成后由周沪和热心居民组建的自我管理队伍，开展巡逻、意见收集和议事。",
+      "examples": [
+        "一天三巡逻",
+        "定期议事会"
+      ],
+      "source_relation_ids": [
+        "R061",
+        "R062",
+        "R063"
+      ],
+      "status": "candidate",
+      "case_id": "C15"
+    },
+    {
+      "native_concept_id": "NC-C15-10",
+      "label": "春江小亭",
+      "entity_type": "target",
+      "definition": "由居民提议、听证、审批和监工建成的六角凉亭，六角分别象征街道、党总支、居委会、业委会、物业、社区民警。",
+      "examples": [
+        "大树改凉亭",
+        "六角亭"
+      ],
+      "source_relation_ids": [
+        "R057",
+        "R059",
+        "R060"
+      ],
+      "status": "candidate",
+      "case_id": "C15"
+    },
+    {
+      "native_concept_id": "NC-C15-11",
+      "label": "美丽家园一期/二期",
+      "entity_type": "task",
+      "definition": "五里桥街道在春江实施的美丽家园实体更新：一期含楼道粉刷、道闸、无障碍通道等6个项目；二期含道路改造和停车纾解。",
+      "examples": [
+        "一期2021-08-11验收",
+        "二期2023-02开工"
+      ],
+      "source_relation_ids": [
+        "R035",
+        "R036",
+        "R037",
+        "R047",
+        "R101"
+      ],
+      "status": "candidate",
+      "case_id": "C15"
+    },
+    {
+      "native_concept_id": "NC-C15-12",
+      "label": "三会征询",
+      "entity_type": "action",
+      "definition": "通过听证会、协调会、评议会征询居民意见、监督项目实施并评议事与人。",
+      "examples": [
+        "书面征询表",
+        "杂物间改造议题",
+        "监督合议"
+      ],
+      "source_relation_ids": [
+        "R040",
+        "R041",
+        "R042",
+        "R043"
+      ],
+      "status": "candidate",
+      "case_id": "C15"
+    },
+    {
+      "native_concept_id": "NC-C15-13",
+      "label": "高空抛物监测告警",
+      "entity_type": "technology",
+      "definition": "识别高空抛物并向物业推送预警的技术；报道同时描述电话提醒和一键请求城运中心支持。",
+      "examples": [
+        "高抛实时预警",
+        "物业电话提醒"
+      ],
+      "source_relation_ids": [
+        "R021",
+        "R022",
+        "R023"
+      ],
+      "status": "candidate",
+      "case_id": "C15"
+    },
+    {
+      "native_concept_id": "NC-C15-14",
+      "label": "养老数据精准匹配",
+      "entity_type": "capability",
+      "definition": "依托街道养老服务数据库，通过大数据分析让养老顾问为老年人匹配政策、服务和个性化清单。",
+      "examples": [
+        "养老顾问",
+        "三级服务网络",
+        "七心七助七享"
+      ],
+      "source_relation_ids": [
+        "R096",
+        "R097",
+        "R098",
+        "R099",
+        "R100"
+      ],
+      "status": "candidate",
+      "case_id": "C15"
+    }
+  ],
+  "shared_concept_candidates": [
+    {
+      "candidate_id": "SC-C15-01",
+      "label": "社区级最小治理单元",
+      "definition": "以单个居民小区为对象、连接城运体系、街道、物业与居民的数字治理单元。",
+      "entity_type": "context",
+      "supporting_native_ids": [
+        "NC-C15-01",
+        "NC-C15-02"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case",
+      "note": "与 SC-C01-132 社区治理与行政平台部分相关，但不等同；需第二个案例支持。"
+    },
+    {
+      "candidate_id": "SC-C15-02",
+      "label": "居民端社区服务小程序",
+      "definition": "面向社区居民、承载诉求提交、服务入口和线上议事的轻量应用。",
+      "entity_type": "technology",
+      "supporting_native_ids": [
+        "NC-C15-03"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case",
+      "note": "与 SC-C01-131 数字参与与可视化工具部分相关，但春江更偏服务工单。"
+    },
+    {
+      "candidate_id": "SC-C15-03",
+      "label": "社区微网格治理单元",
+      "definition": "把单个小区或街区划分为微网格，并配置网格长、网格员、下沉力量和议事阵地的治理单元。",
+      "entity_type": "actor",
+      "supporting_native_ids": [
+        "NC-C15-07",
+        "NC-C15-08"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case",
+      "note": "现有共享概念无精确对应，需第二案例。"
+    },
+    {
+      "candidate_id": "SC-C15-04",
+      "label": "社区数字治理网络",
+      "definition": "把社区人、房、事、物、情数据与物业、安防、告警设备连接起来的社区级数字治理网络。",
+      "entity_type": "technology",
+      "supporting_native_ids": [
+        "NC-C15-06"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case",
+      "note": "与 SC-C01-132 社区治理与行政平台部分相关，但春江强调物业与传统治理结合。"
+    },
+    {
+      "candidate_id": "SC-C15-05",
+      "label": "社区诉求工单闭环",
+      "definition": "将居民诉求转化为点单、派单、接单、评单的工单流程，并形成核查、处置、反馈闭环。",
+      "entity_type": "action",
+      "supporting_native_ids": [
+        "NC-C15-04"
+      ],
+      "supporting_case_ids": [
+        "C15"
+      ],
+      "status": "candidate_single_case_requires_second_case",
+      "note": "与 SC-C01-156 问题核查与闭环处置、SC-C01-144 协同处置与任务流转能力高度相关，待 L2 映射。"
+    }
+  ]
+}

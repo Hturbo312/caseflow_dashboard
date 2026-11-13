@@ -1,0 +1,1417 @@
+{
+  "case_id": "C12",
+  "generated_at": "2026-11-13",
+  "status": "confirmed",
+  "entities": [
+    {
+      "entity_id": "A01",
+      "case_id": "C12",
+      "label": "Eastserve 项目/伙伴关系",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "2000–2010 年 umbrella 项目与伙伴关系，不等同于具体试点、公司或网站。",
+      "aliases": [
+        "Eastserve",
+        "Eastserve project"
+      ],
+      "source_evidence_ids": [
+        "M10-E01",
+        "M03-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A02",
+      "case_id": "C12",
+      "label": "Eastserve1 试点",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "2000–2001 年 WuC 前的试点，目标 10 个接入点/450 户。",
+      "aliases": [
+        "Eastserve1",
+        "East Serve 1"
+      ],
+      "source_evidence_ids": [
+        "M03-E01",
+        "M03-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A03",
+      "case_id": "C12",
+      "label": "EastServe2 / WuC 项目",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "2001–2003 年 DfES WuC 资助的第二阶段项目，与 NDC 办公室同址。",
+      "aliases": [
+        "EastServe2",
+        "Eastserve Phase 2"
+      ],
+      "source_evidence_ids": [
+        "M03-E03",
+        "M02-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A04",
+      "case_id": "C12",
+      "label": "Symera Eastserve Ltd",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "2009-02-10 注册、2010-11-19 进入清算、2017-02-28 解散的项目公司。",
+      "aliases": [
+        "Symera Eastserve",
+        "SYMERA EASTSERVE LIMITED"
+      ],
+      "source_evidence_ids": [
+        "M12-E01",
+        "M19-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A05",
+      "case_id": "C12",
+      "label": "CityServe (999) Ltd",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "2010-10-12 注册的后继载体，2011-07-28 清算、2013-08-30 解散。",
+      "aliases": [
+        "CityServe Ltd",
+        "CITYSERVE (999) LTD"
+      ],
+      "source_evidence_ids": [
+        "M22-E01",
+        "M23-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A06",
+      "case_id": "C12",
+      "label": "CityServe 业务（2014）",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "2014 年被 ITS 收购 70%+ 股权的 CityServe 业务；法人身份未确认。",
+      "aliases": [
+        "CityServe Limited (2014)"
+      ],
+      "source_evidence_ids": [
+        "M21-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A07",
+      "case_id": "C12",
+      "label": "ITS Technology Group",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "2014 年收购 CityServe 并升级 36Mbps 网络的电信基础设施公司。",
+      "aliases": [
+        "ITS Technology",
+        "ITS"
+      ],
+      "source_evidence_ids": [
+        "M20-E01",
+        "M21-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A08",
+      "case_id": "C12",
+      "label": "Manchester City Council",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "项目问责机构、门户与 e-government 服务提供者。",
+      "aliases": [
+        "MCC",
+        "Manchester City Council"
+      ],
+      "source_evidence_ids": [
+        "M02-E06",
+        "M01-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A09",
+      "case_id": "C12",
+      "label": "New East Manchester Ltd / NDC 伙伴关系",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "East Manchester NDC/SRB 再生计划的管理与伙伴关系主体。",
+      "aliases": [
+        "New East Manchester",
+        "NDC"
+      ],
+      "source_evidence_ids": [
+        "M03-E02",
+        "M03-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A10",
+      "case_id": "C12",
+      "label": "Beacons for a Brighter Future",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "管理 NDC 与 SRB 再生资金的计划品牌。",
+      "aliases": [
+        "Beacons"
+      ],
+      "source_evidence_ids": [
+        "M10-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A11",
+      "case_id": "C12",
+      "label": "DfES / Wired Up Communities",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "2000–2003 年 WuC 国家计划及资助方。",
+      "aliases": [
+        "DfES",
+        "Wired Up Communities",
+        "WuC"
+      ],
+      "source_evidence_ids": [
+        "M06-E01",
+        "M10-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A12",
+      "case_id": "C12",
+      "label": "ClicksandLinks Ltd",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "Eastserve 门户与试点阶段的私营部门牵头方。",
+      "aliases": [
+        "Clicks and Links"
+      ],
+      "source_evidence_ids": [
+        "M01-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A13",
+      "case_id": "C12",
+      "label": "MCIN",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "2008 年接管 eastserve.com 网站管理的机构。",
+      "aliases": [
+        "Manchester Community Information Network"
+      ],
+      "source_evidence_ids": [
+        "M17-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A14",
+      "case_id": "C12",
+      "label": "Residents' Panel",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "15 人居民小组，对网站内容等提出建议。",
+      "aliases": [
+        "Residents Panel"
+      ],
+      "source_evidence_ids": [
+        "M03-E07",
+        "M10-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A15",
+      "case_id": "C12",
+      "label": "Community champions",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "经培训的本地志愿者，提供一线 ICT 支持。",
+      "aliases": [
+        "社区冠军"
+      ],
+      "source_evidence_ids": [
+        "M03-E07",
+        "M03-E12"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A16",
+      "case_id": "C12",
+      "label": "ITEM",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "Information Technology East Manchester，提供安装与就业的 intermediate labour market 组织。",
+      "aliases": [
+        "Information Technology East Manchester"
+      ],
+      "source_evidence_ids": [
+        "M10-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A17",
+      "case_id": "C12",
+      "label": "MANCAT",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "本地技术学院，培训社区冠军。",
+      "aliases": [
+        "MANCAT"
+      ],
+      "source_evidence_ids": [
+        "M03-E12"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A18",
+      "case_id": "C12",
+      "label": "Local credit union",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "为居民购买电脑提供低息贷款的本地信用合作社。",
+      "aliases": [
+        "credit union"
+      ],
+      "source_evidence_ids": [
+        "M03-E08",
+        "M14-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A19",
+      "case_id": "C12",
+      "label": "BT",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "初始 ISP 倒闭后接替的互联网服务提供商。",
+      "aliases": [
+        "British Telecom"
+      ],
+      "source_evidence_ids": [
+        "M03-E09"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A20",
+      "case_id": "C12",
+      "label": "Cisco Systems",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "2005 年报道中提供无线电发射设备的供应商。",
+      "aliases": [
+        "Cisco"
+      ],
+      "source_evidence_ids": [
+        "M08-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A21",
+      "case_id": "C12",
+      "label": "NWDA",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "第三期资助方 North West Development Agency。",
+      "aliases": [
+        "North West Development Agency"
+      ],
+      "source_evidence_ids": [
+        "M10-E08"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A22",
+      "case_id": "C12",
+      "label": "Ian Michael Rose",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "Symera Eastserve 与 CityServe (999) 的清算人。",
+      "aliases": [
+        "liquidator"
+      ],
+      "source_evidence_ids": [
+        "M19-E01",
+        "M23-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A23",
+      "case_id": "C12",
+      "label": "East Manchester residents",
+      "entity_type": "actor",
+      "roles": [
+        "actor",
+        "target"
+      ],
+      "definition": "项目服务与参与对象；在不同事实中可为行动主体或作用对象。",
+      "aliases": [
+        "居民"
+      ],
+      "source_evidence_ids": [
+        "M03-E06",
+        "M18-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A24",
+      "case_id": "C12",
+      "label": "17 schools",
+      "entity_type": "actor",
+      "roles": [
+        "actor",
+        "target"
+      ],
+      "definition": "被网络覆盖并参与项目的学校。",
+      "aliases": [
+        "schools"
+      ],
+      "source_evidence_ids": [
+        "M07-E01",
+        "M09-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A25",
+      "case_id": "C12",
+      "label": "UK Online / online centres",
+      "entity_type": "actor",
+      "roles": [
+        "actor",
+        "target"
+      ],
+      "definition": "社区在线中心/学习中心网络。",
+      "aliases": [
+        "UK Online Centres",
+        "online centres"
+      ],
+      "source_evidence_ids": [
+        "M02-E04",
+        "M07-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A26",
+      "case_id": "C12",
+      "label": "IntelCities",
+      "entity_type": "actor",
+      "roles": [
+        "actor",
+        "context"
+      ],
+      "definition": "EU e-government 研究项目，使用 eastserve.com 进行公众参与与技术测试。",
+      "aliases": [
+        "IntelCities project"
+      ],
+      "source_evidence_ids": [
+        "M09-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A27",
+      "case_id": "C12",
+      "label": "Ian McCartney",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "2001 年发布 eastserve.com 的电子政务部长。",
+      "aliases": [
+        "Electronic Government Minister"
+      ],
+      "source_evidence_ids": [
+        "M01-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T01",
+      "case_id": "C12",
+      "label": "eastserve.com 门户",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "社区门户与本地信息/服务入口。",
+      "aliases": [
+        "eastserve.com"
+      ],
+      "source_evidence_ids": [
+        "M01-E01",
+        "M03-E13"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T02",
+      "case_id": "C12",
+      "label": "无线宽带网络（Wi-Fi）",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "2002 年起替代/补充拨号的社区无线宽带网络。",
+      "aliases": [
+        "wireless broadband",
+        "Wi-Fi"
+      ],
+      "source_evidence_ids": [
+        "M03-E10",
+        "M18-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T03",
+      "case_id": "C12",
+      "label": "set-top box",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "通过电视提供互联网/邮件的机顶盒。",
+      "aliases": [
+        "机顶盒"
+      ],
+      "source_evidence_ids": [
+        "M02-E03",
+        "M01-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T04",
+      "case_id": "C12",
+      "label": "network computer",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "无硬盘、低成本的网络电脑。",
+      "aliases": [
+        "NIC"
+      ],
+      "source_evidence_ids": [
+        "M02-E03",
+        "M03-E08"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T05",
+      "case_id": "C12",
+      "label": "recycled PC",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "翻新/回收 PC，50 英镑或更低。",
+      "aliases": [
+        "翻新电脑"
+      ],
+      "source_evidence_ids": [
+        "M02-E03",
+        "M18-E05"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T06",
+      "case_id": "C12",
+      "label": "new PC",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "补贴价约 200 英镑的新电脑。",
+      "aliases": [
+        "新电脑"
+      ],
+      "source_evidence_ids": [
+        "M02-E03",
+        "M10-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T07",
+      "case_id": "C12",
+      "label": "rooftop antenna / access point / fibre backbone",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "塔楼天线、接入点与光纤骨干组成的无线网络设施。",
+      "aliases": [
+        "access points",
+        "antennae"
+      ],
+      "source_evidence_ids": [
+        "M05-E03",
+        "M18-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T08",
+      "case_id": "C12",
+      "label": "36Mbps fixed wireless",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "ITS 2014 年升级后的固定无线服务。",
+      "aliases": [
+        "36Mbps"
+      ],
+      "source_evidence_ids": [
+        "M20-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T09",
+      "case_id": "C12",
+      "label": "PAYG hotspot system",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "按天/周/月计费的预付费 Wi-Fi 热点。",
+      "aliases": [
+        "pay as you go wi-fi"
+      ],
+      "source_evidence_ids": [
+        "M13-E01",
+        "M15-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T10",
+      "case_id": "C12",
+      "label": "online fault reporting system",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "住房报修与路灯故障在线报告系统。",
+      "aliases": [
+        "housing faults reporting",
+        "street lighting reporting"
+      ],
+      "source_evidence_ids": [
+        "M03-E13"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C01",
+      "case_id": "C12",
+      "label": "home internet access",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "家庭获得互联网接入的功能。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M01-E03",
+        "M03-E11"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C02",
+      "case_id": "C12",
+      "label": "wireless coverage",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "无线网络覆盖一定户数/面积的功能。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M09-E01",
+        "M20-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C03",
+      "case_id": "C12",
+      "label": "local content and services",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "门户提供本地信息与公共服务的能力。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M01-E04",
+        "M10-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C04",
+      "case_id": "C12",
+      "label": "ICT training",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "提供 3 小时入门与后续课程的能力。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M02-E05",
+        "M03-E12"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C05",
+      "case_id": "C12",
+      "label": "device subsidy / loan",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "补贴设备与信用合作社贷款的组合能力。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M02-E03",
+        "M07-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C06",
+      "case_id": "C12",
+      "label": "technical support / repair",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "热线、上门安装与低价维修服务。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M02-E05",
+        "M14-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C07",
+      "case_id": "C12",
+      "label": "network capacity",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "既有无线网络可支持约 10,000 用户的能力。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M03-E16"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C08",
+      "case_id": "C12",
+      "label": "36Mbps speed",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "2014 年升级后可提供 36Mbps 的能力。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M20-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "K01",
+      "case_id": "C12",
+      "label": "digital inclusion / bridge digital divide",
+      "entity_type": "task",
+      "roles": [
+        "task"
+      ],
+      "definition": "缩小 East Manchester 数字鸿沟的更新目标。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M10-E01",
+        "M18-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "K02",
+      "case_id": "C12",
+      "label": "support NDC regeneration",
+      "entity_type": "task",
+      "roles": [
+        "task"
+      ],
+      "definition": "以 ICT 支持 NDC/SRB 再生议程。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M03-E02",
+        "M16-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "K03",
+      "case_id": "C12",
+      "label": "improve public service delivery / e-government",
+      "entity_type": "task",
+      "roles": [
+        "task"
+      ],
+      "definition": "通过门户改善住房、就业、环境、警务等服务。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M01-E04",
+        "M03-E13"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "K04",
+      "case_id": "C12",
+      "label": "build sustainable enterprise",
+      "entity_type": "task",
+      "roles": [
+        "task"
+      ],
+      "definition": "使 Eastserve 在资助结束后自我维持。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M10-E08"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N01",
+      "case_id": "C12",
+      "label": "launch portal",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "2001-03-13 正式发布 eastserve.com。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M01-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N02",
+      "case_id": "C12",
+      "label": "distribute devices",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "向居民分发/销售补贴电脑、机顶盒等设备。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M02-E03",
+        "M03-E09"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N03",
+      "case_id": "C12",
+      "label": "provide training",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "提供 3 小时入门课程与后续培训。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M02-E05",
+        "M18-E05"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N04",
+      "case_id": "C12",
+      "label": "install wireless network",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "建设/部署社区无线宽带网络。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M03-E10",
+        "M18-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N05",
+      "case_id": "C12",
+      "label": "recruit champions / panel",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "建立居民小组与社区冠军网络。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M03-E07",
+        "M03-E12"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N06",
+      "case_id": "C12",
+      "label": "employ residents via ITEM",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "通过 ITEM 让本地居民参与安装并就业。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M10-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N07",
+      "case_id": "C12",
+      "label": "sign Symera",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "2009 年签约 Symera Technologies 运营 Eastserve。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M11-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N08",
+      "case_id": "C12",
+      "label": "launch PAYG",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "2010 年推出预付费 Wi-Fi。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M13-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N09",
+      "case_id": "C12",
+      "label": "liquidate",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "Symera/CityServe 进入债权人自愿清算。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M19-E01",
+        "M23-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N10",
+      "case_id": "C12",
+      "label": "acquire / upgrade network",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "ITS 收购 CityServe 并升级 36Mbps。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M20-E01",
+        "M21-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N11",
+      "case_id": "C12",
+      "label": "transfer website management",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "2008 年 MCIN 接管 eastserve.com。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M17-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N12",
+      "case_id": "C12",
+      "label": "establish learning centres",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "建立社区学习/在线中心。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M02-E04",
+        "M14-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G01",
+      "case_id": "C12",
+      "label": "Beswick / Clayton / Openshaw",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "NDC/SRB5 核心社区范围。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M02-E01",
+        "M03-E05"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G02",
+      "case_id": "C12",
+      "label": "450 pilot households",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "Eastserve1 试点约 450 户/450 名参与者。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M01-E03",
+        "M18-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G03",
+      "case_id": "C12",
+      "label": "4,500 target households",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "WuC 第二阶段计划覆盖户数。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M02-E01",
+        "M06-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G04",
+      "case_id": "C12",
+      "label": "48,000 network households",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "2014 年网络覆盖范围内户数。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M20-E01",
+        "M21-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G05",
+      "case_id": "C12",
+      "label": "social housing / hard-to-reach homes",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "社会住房与难以覆盖家庭。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M20-E02",
+        "M21-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G06",
+      "case_id": "C12",
+      "label": "SMEs",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "2014 年后扩展服务的中小企业。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M20-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G07",
+      "case_id": "C12",
+      "label": "residents' digital skills",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "居民 ICT 技能与数字能力。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M02-E05",
+        "M10-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O01",
+      "case_id": "C12",
+      "label": "~400 connected May 2001",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "试点在 2001-05 初连接约 400 户。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M02-E08"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O02",
+      "case_id": "C12",
+      "label": "~2,200 installed Sept 2002",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "2002-09 约 2,200 户安装设备，低于目标。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M03-E09",
+        "M03-E15"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O03",
+      "case_id": "C12",
+      "label": "~500 broadband Sept 2002",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "2002-09 约 500 户接入宽带。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M03-E11"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O04",
+      "case_id": "C12",
+      "label": "3,500 PCs / 1,500 broadband (2006)",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "2006 年累计 3,500 台 PC、1,500 户宽带（报道）。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M10-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O05",
+      "case_id": "C12",
+      "label": "5,500 packages / 2,000 users (2006-12)",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "2006-12 累计 5,500 套餐、2,000 常规用户（报道）。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M14-E05"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O06",
+      "case_id": "C12",
+      "label": "3,500 trained (2006)",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "2006 年累计 3,500 名居民参加课程（报道）。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M18-E05"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O07",
+      "case_id": "C12",
+      "label": "650 crime reports in 9 months",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "门户 9 个月内收到 650 多份匿名犯罪报告。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M18-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O08",
+      "case_id": "C12",
+      "label": "Symera / CityServe liquidation",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "两个组织载体先后清算/解散。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M19-E01",
+        "M22-E01",
+        "M23-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O09",
+      "case_id": "C12",
+      "label": "36Mbps upgrade",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "2014 年网络升级至 36Mbps。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M20-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O10",
+      "case_id": "C12",
+      "label": "Cityserve brand transition",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "2016 年 eastserve.com 页面转为 Cityserve。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M15-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "X01",
+      "case_id": "C12",
+      "label": "deprivation / low computer ownership",
+      "entity_type": "context",
+      "roles": [
+        "context"
+      ],
+      "definition": "区域贫困、仅 19% 家庭有电脑等起点条件。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M18-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "X02",
+      "case_id": "C12",
+      "label": "lack of cable / landline",
+      "entity_type": "context",
+      "roles": [
+        "context"
+      ],
+      "definition": "缺乏 cable 覆盖、约 25% 无固定电话。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M03-E10",
+        "M14-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "X03",
+      "case_id": "C12",
+      "label": "NDC / SRB funding",
+      "entity_type": "context",
+      "roles": [
+        "context"
+      ],
+      "definition": "NDC 与 SRB 再生资金框架。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M10-E01",
+        "M16-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "X04",
+      "case_id": "C12",
+      "label": "Wired Up Communities programme",
+      "entity_type": "context",
+      "roles": [
+        "context"
+      ],
+      "definition": "DfES 2000–2003 国家试点计划。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M06-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "X05",
+      "case_id": "C12",
+      "label": "commercial broadband competition",
+      "entity_type": "context",
+      "roles": [
+        "context"
+      ],
+      "definition": "2010 年前后商业宽带/移动网络竞争。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M11-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O11",
+      "case_id": "C12",
+      "label": "1,500 paying users (c.2009)",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "约 2009 年 Eastserve 的付费无线宽带用户数（报道）。",
+      "aliases": [],
+      "source_evidence_ids": [
+        "M11-E02"
+      ],
+      "status": "candidate"
+    }
+  ],
+  "version": "v1.0",
+  "researcher_decision": {
+    "action": "accept_all",
+    "rationale": "Accept entity registry and atomic fact granularity/statuses; confirm A01-A06 separation and F046 unconfirmed.",
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  }
+}

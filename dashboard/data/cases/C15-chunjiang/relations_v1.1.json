@@ -1,0 +1,3427 @@
+{
+  "case_id": "C15",
+  "version": "v1.1",
+  "status": "awaiting_researcher_decision",
+  "generated_at": "2026-11-13",
+  "relation_count": 122,
+  "g6_summary": {
+    "unchanged": 99,
+    "modified": 2,
+    "added": 21,
+    "deleted": 0
+  },
+  "relations": [
+    {
+      "relation_id": "R001",
+      "case_id": "C15",
+      "head_entity": "G01",
+      "head_type": "target",
+      "head_role": "target",
+      "predicate": "has_condition",
+      "predicate_label": "具有条件",
+      "tail_entity": "X02",
+      "tail_type": "context",
+      "tail_role": "context",
+      "fact_status": "implemented",
+      "qualifiers": "1980s—2021；春江小区；4.2万平方米；383户；1000余人",
+      "evidence_ids": [
+        "M01-E01",
+        "M01-E02",
+        "M05-E01",
+        "M09-E01"
+      ],
+      "process_ids": [
+        "C15-P01"
+      ],
+      "fact_ids": [
+        "F001",
+        "F002"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "整体空间与老旧小区条件",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R002",
+      "case_id": "C15",
+      "head_entity": "A04",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "conducts",
+      "predicate_label": "开展",
+      "tail_entity": "N01",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2020—2021-02；春江小区",
+      "evidence_ids": [
+        "M01-E03"
+      ],
+      "process_ids": [
+        "C15-P01"
+      ],
+      "fact_ids": [
+        "F003"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R003",
+      "case_id": "C15",
+      "head_entity": "N01",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "acts_on",
+      "predicate_label": "作用于",
+      "tail_entity": "G05",
+      "tail_type": "target",
+      "tail_role": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2020—2021-02；春江小区",
+      "evidence_ids": [
+        "M01-E03"
+      ],
+      "process_ids": [
+        "C15-P01"
+      ],
+      "fact_ids": [
+        "F003"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R004",
+      "case_id": "C15",
+      "head_entity": "A04",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "establishes",
+      "predicate_label": "成立",
+      "tail_entity": "A02",
+      "tail_type": "actor",
+      "tail_role": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2020—2021-02；春江小区",
+      "evidence_ids": [
+        "M01-E04"
+      ],
+      "process_ids": [
+        "C15-P01"
+      ],
+      "fact_ids": [
+        "F004"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R005",
+      "case_id": "C15",
+      "head_entity": "A02",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "leads",
+      "predicate_label": "牵头",
+      "tail_entity": "N03",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2020—2021-02；春江小区；十余人；约半年",
+      "evidence_ids": [
+        "M01-E06"
+      ],
+      "process_ids": [
+        "C15-P01"
+      ],
+      "fact_ids": [
+        "F006"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R006",
+      "case_id": "C15",
+      "head_entity": "A29",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "funds",
+      "predicate_label": "资助",
+      "tail_entity": "N03",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2020—2021-02；春江小区",
+      "evidence_ids": [
+        "M01-E05",
+        "M01-E06"
+      ],
+      "process_ids": [
+        "C15-P01"
+      ],
+      "fact_ids": [
+        "F005",
+        "F006"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R007",
+      "case_id": "C15",
+      "head_entity": "A30",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "designs",
+      "predicate_label": "设计",
+      "tail_entity": "N03",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2020—2021-02；春江小区",
+      "evidence_ids": [
+        "M01-E05",
+        "M01-E06"
+      ],
+      "process_ids": [
+        "C15-P01"
+      ],
+      "fact_ids": [
+        "F005",
+        "F006"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R008",
+      "case_id": "C15",
+      "head_entity": "N03",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "completes",
+      "predicate_label": "完成",
+      "tail_entity": "O01",
+      "tail_type": "outcome",
+      "tail_role": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2020—2021-02；春江小区；十余人；约半年",
+      "evidence_ids": [
+        "M01-E06"
+      ],
+      "process_ids": [
+        "C15-P01"
+      ],
+      "fact_ids": [
+        "F006"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R009",
+      "case_id": "C15",
+      "head_entity": "N03",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "renovates",
+      "predicate_label": "改造",
+      "tail_entity": "G06",
+      "tail_type": "target",
+      "tail_role": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2020—2021-02；春江小区；十余人；约半年",
+      "evidence_ids": [
+        "M01-E06"
+      ],
+      "process_ids": [
+        "C15-P01"
+      ],
+      "fact_ids": [
+        "F006"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R010",
+      "case_id": "C15",
+      "head_entity": "A02",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "conducts",
+      "predicate_label": "开展",
+      "tail_entity": "N04",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2021-02前；春江小巷",
+      "evidence_ids": [
+        "M01-E07"
+      ],
+      "process_ids": [
+        "C15-P01"
+      ],
+      "fact_ids": [
+        "F007"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R011",
+      "case_id": "C15",
+      "head_entity": "N04",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "uses",
+      "predicate_label": "使用",
+      "tail_entity": "T12",
+      "tail_type": "technology",
+      "tail_role": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2021-02前；春江小巷",
+      "evidence_ids": [
+        "M01-E07"
+      ],
+      "process_ids": [
+        "C15-P01"
+      ],
+      "fact_ids": [
+        "F007"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "探头数量与数据去向不明",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R012",
+      "case_id": "C15",
+      "head_entity": "N04",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "constitutes",
+      "predicate_label": "构成",
+      "tail_entity": "O01",
+      "tail_type": "outcome",
+      "tail_role": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2021-02前；春江小巷",
+      "evidence_ids": [
+        "M01-E07"
+      ],
+      "process_ids": [
+        "C15-P01"
+      ],
+      "fact_ids": [
+        "F007"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "公约和探头是春江小巷完成状态的一部分，不是独立的完成动作。",
+      "g6_action": "修改"
+    },
+    {
+      "relation_id": "R013",
+      "case_id": "C15",
+      "head_entity": "A13",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "releases",
+      "predicate_label": "发布",
+      "tail_entity": "N05",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2021-02-25；上海",
+      "evidence_ids": [
+        "M02-E01",
+        "M03-E01",
+        "M03-E02"
+      ],
+      "process_ids": [
+        "C15-P02"
+      ],
+      "fact_ids": [
+        "F008",
+        "F009"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R014",
+      "case_id": "C15",
+      "head_entity": "A14",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "partners_with",
+      "predicate_label": "联合",
+      "tail_entity": "A15",
+      "tail_type": "actor",
+      "tail_role": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2021-07-07；上海/黄浦区",
+      "evidence_ids": [
+        "M02-E01",
+        "M03-E02"
+      ],
+      "process_ids": [
+        "C15-P02"
+      ],
+      "fact_ids": [
+        "F009"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R015",
+      "case_id": "C15",
+      "head_entity": "A14",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "advances",
+      "predicate_label": "推进",
+      "tail_entity": "N05",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2021-07-07；上海/黄浦区",
+      "evidence_ids": [
+        "M02-E01",
+        "M03-E02"
+      ],
+      "process_ids": [
+        "C15-P02"
+      ],
+      "fact_ids": [
+        "F009"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R016",
+      "case_id": "C15",
+      "head_entity": "A15",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "provides",
+      "predicate_label": "提供",
+      "tail_entity": "T01",
+      "tail_type": "technology",
+      "tail_role": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2021-07；上海/黄浦区；10多类数据；50多家伙伴；20多种方案",
+      "evidence_ids": [
+        "M02-E03",
+        "M02-E04",
+        "M03-E06"
+      ],
+      "process_ids": [
+        "C15-P02"
+      ],
+      "fact_ids": [
+        "F011"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "技术生态合作",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R017",
+      "case_id": "C15",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "participates_in",
+      "predicate_label": "参与",
+      "tail_entity": "N05",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2021-07；五里桥街道瞿溪路；700余家商铺",
+      "evidence_ids": [
+        "M02-E02",
+        "M03-E05"
+      ],
+      "process_ids": [
+        "C15-P02"
+      ],
+      "fact_ids": [
+        "F012"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "瞿溪路商铺单元，非春江小区",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R018",
+      "case_id": "C15",
+      "head_entity": "N05",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "covers",
+      "predicate_label": "覆盖",
+      "tail_entity": "G01",
+      "tail_type": "target",
+      "tail_role": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2021-07-07；上海/黄浦区",
+      "evidence_ids": [
+        "M02-E01",
+        "M02-E02",
+        "M03-E02",
+        "M03-E05"
+      ],
+      "process_ids": [
+        "C15-P02"
+      ],
+      "fact_ids": [
+        "F009",
+        "F012"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "报道将春江列为居民小区场景之一",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R019",
+      "case_id": "C15",
+      "head_entity": "X01",
+      "head_type": "context",
+      "head_role": "context",
+      "predicate": "frames",
+      "predicate_label": "构成背景",
+      "tail_entity": "N05",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2021-02-25；上海",
+      "evidence_ids": [
+        "M02-E01",
+        "M03-E01",
+        "M03-E02"
+      ],
+      "process_ids": [
+        "C15-P02"
+      ],
+      "fact_ids": [
+        "F008",
+        "F009"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "政策背景，非因果",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R020",
+      "case_id": "C15",
+      "head_entity": "A06",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "deploys",
+      "predicate_label": "部署",
+      "tail_entity": "N06",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2021-07—08；春江小区",
+      "evidence_ids": [
+        "M03-E03",
+        "M03-E04"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F013",
+        "F014",
+        "F015"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "报道性部署",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R021",
+      "case_id": "C15",
+      "head_entity": "N06",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "uses",
+      "predicate_label": "使用",
+      "tail_entity": "T04",
+      "tail_type": "technology",
+      "tail_role": "technology",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2021-07—08；春江小区",
+      "evidence_ids": [
+        "M03-E03"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F013"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R022",
+      "case_id": "C15",
+      "head_entity": "T04",
+      "head_type": "technology",
+      "head_role": "technology",
+      "predicate": "provides",
+      "predicate_label": "提供",
+      "tail_entity": "C01",
+      "tail_type": "capability",
+      "tail_role": "capability",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2021-07—08；春江小区",
+      "evidence_ids": [
+        "M03-E03"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F013"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R023",
+      "case_id": "C15",
+      "head_entity": "C01",
+      "head_type": "capability",
+      "head_role": "capability",
+      "predicate": "applies_to",
+      "predicate_label": "面向",
+      "tail_entity": "G04",
+      "tail_type": "target",
+      "tail_role": "target",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2021-07—08；春江小区",
+      "evidence_ids": [
+        "M03-E03"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F013"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R024",
+      "case_id": "C15",
+      "head_entity": "N06",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "uses",
+      "predicate_label": "使用",
+      "tail_entity": "T05",
+      "tail_type": "technology",
+      "tail_role": "technology",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2021-07—08；春江小区",
+      "evidence_ids": [
+        "M03-E04"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F014"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R025",
+      "case_id": "C15",
+      "head_entity": "T05",
+      "head_type": "technology",
+      "head_role": "technology",
+      "predicate": "provides",
+      "predicate_label": "提供",
+      "tail_entity": "C03",
+      "tail_type": "capability",
+      "tail_role": "capability",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2021-07—08；春江小区",
+      "evidence_ids": [
+        "M03-E04"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F014"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R026",
+      "case_id": "C15",
+      "head_entity": "N06",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "uses",
+      "predicate_label": "使用",
+      "tail_entity": "T03",
+      "tail_type": "technology",
+      "tail_role": "technology",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2021-07—08；春江小区",
+      "evidence_ids": [
+        "M03-E04"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F015"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R027",
+      "case_id": "C15",
+      "head_entity": "T03",
+      "head_type": "technology",
+      "head_role": "technology",
+      "predicate": "provides",
+      "predicate_label": "提供",
+      "tail_entity": "C04",
+      "tail_type": "capability",
+      "tail_role": "capability",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2021-07—08；春江小区",
+      "evidence_ids": [
+        "M03-E04"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F015"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "与用水数据共同支撑老人关怀",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R028",
+      "case_id": "C15",
+      "head_entity": "N06",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "uses",
+      "predicate_label": "使用",
+      "tail_entity": "T06",
+      "tail_type": "technology",
+      "tail_role": "technology",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2021-07—08；春江小区",
+      "evidence_ids": [
+        "M03-E04"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F015"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R029",
+      "case_id": "C15",
+      "head_entity": "T06",
+      "head_type": "technology",
+      "head_role": "technology",
+      "predicate": "provides",
+      "predicate_label": "提供",
+      "tail_entity": "C04",
+      "tail_type": "capability",
+      "tail_role": "capability",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2021-07—08；春江小区",
+      "evidence_ids": [
+        "M03-E04"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F015"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R030",
+      "case_id": "C15",
+      "head_entity": "C04",
+      "head_type": "capability",
+      "head_role": "capability",
+      "predicate": "applies_to",
+      "predicate_label": "面向",
+      "tail_entity": "G03",
+      "tail_type": "target",
+      "tail_role": "target",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2021-07—08；春江小区",
+      "evidence_ids": [
+        "M03-E04"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F015"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R031",
+      "case_id": "C15",
+      "head_entity": "X05",
+      "head_type": "context",
+      "head_role": "context",
+      "predicate": "frames",
+      "predicate_label": "构成背景",
+      "tail_entity": "N07",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2021-08；春江小区；试点",
+      "evidence_ids": [
+        "M04-E10"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F016"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "物业薄弱与独居老人需求",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R032",
+      "case_id": "C15",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "pilots",
+      "predicate_label": "试点",
+      "tail_entity": "N07",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2021-08；春江小区；试点",
+      "evidence_ids": [
+        "M04-E10"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F016"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "仅称正在开展试点",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R033",
+      "case_id": "C15",
+      "head_entity": "N07",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "uses",
+      "predicate_label": "使用",
+      "tail_entity": "T01",
+      "tail_type": "technology",
+      "tail_role": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2021-08；春江小区；试点",
+      "evidence_ids": [
+        "M04-E10"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F016"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R034",
+      "case_id": "C15",
+      "head_entity": "N07",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "produces",
+      "predicate_label": "产生",
+      "tail_entity": "O04",
+      "tail_type": "outcome",
+      "tail_role": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2021-08；春江小区；试点",
+      "evidence_ids": [
+        "M04-E10"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F016"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R035",
+      "case_id": "C15",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "implements",
+      "predicate_label": "实施",
+      "tail_entity": "N08",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2021-08-11；春江小区",
+      "evidence_ids": [
+        "M04-E02",
+        "M04-E03",
+        "M04-E06"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F017",
+        "F019",
+        "F022"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R036",
+      "case_id": "C15",
+      "head_entity": "N08",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "produces",
+      "predicate_label": "产生",
+      "tail_entity": "O02",
+      "tail_type": "outcome",
+      "tail_role": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2021-08-11；春江小区",
+      "evidence_ids": [
+        "M04-E02"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F017"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R037",
+      "case_id": "C15",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "implements",
+      "predicate_label": "实施",
+      "tail_entity": "N09",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2021-08-04；春江小区",
+      "evidence_ids": [
+        "M04-E02",
+        "M04-E04",
+        "M04-E07"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F018",
+        "F020",
+        "F023"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R038",
+      "case_id": "C15",
+      "head_entity": "N09",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "produces",
+      "predicate_label": "产生",
+      "tail_entity": "O03",
+      "tail_type": "outcome",
+      "tail_role": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2021-08-04；春江小区",
+      "evidence_ids": [
+        "M04-E02",
+        "M04-E04"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F018",
+        "F020"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R039",
+      "case_id": "C15",
+      "head_entity": "N09",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "uses",
+      "predicate_label": "使用",
+      "tail_entity": "T11",
+      "tail_type": "technology",
+      "tail_role": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2021；五里桥街道；5个小区；7处车棚；409个充电位",
+      "evidence_ids": [
+        "M04-E04"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F020"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "409个充电位为街道合计",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R040",
+      "case_id": "C15",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "organizes",
+      "predicate_label": "组织",
+      "tail_entity": "N10",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2021；春江小区",
+      "evidence_ids": [
+        "M04-E05",
+        "M05-E02",
+        "M05-E03",
+        "M05-E04",
+        "M05-E05",
+        "M05-E06"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F021",
+        "F025"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R041",
+      "case_id": "C15",
+      "head_entity": "A04",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "organizes",
+      "predicate_label": "组织",
+      "tail_entity": "N10",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2021；春江小区",
+      "evidence_ids": [
+        "M04-E05"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F021"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R042",
+      "case_id": "C15",
+      "head_entity": "N10",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "involves",
+      "predicate_label": "涉及",
+      "tail_entity": "A01",
+      "tail_type": "actor",
+      "tail_role": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2021；春江小区",
+      "evidence_ids": [
+        "M04-E05"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F021"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "居民作为征询对象",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R043",
+      "case_id": "C15",
+      "head_entity": "N10",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "produces",
+      "predicate_label": "产生",
+      "tail_entity": "O05",
+      "tail_type": "outcome",
+      "tail_role": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2021-12；春江小区",
+      "evidence_ids": [
+        "M05-E02",
+        "M05-E03",
+        "M05-E04",
+        "M05-E05",
+        "M05-E06"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F025"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R044",
+      "case_id": "C15",
+      "head_entity": "A16",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "jointly_accepts",
+      "predicate_label": "联合验收",
+      "tail_entity": "O03",
+      "tail_type": "outcome",
+      "tail_role": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2021-08-04；春江小区",
+      "evidence_ids": [
+        "M04-E07"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F023"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R045",
+      "case_id": "C15",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "transfers_facilities_to",
+      "predicate_label": "移交设施给",
+      "tail_entity": "A06",
+      "tail_type": "actor",
+      "tail_role": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2021；春江小区",
+      "evidence_ids": [
+        "M04-E08"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F024"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R046",
+      "case_id": "C15",
+      "head_entity": "X03",
+      "head_type": "context",
+      "head_role": "context",
+      "predicate": "frames",
+      "predicate_label": "构成背景",
+      "tail_entity": "N11",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-02；春江小区",
+      "evidence_ids": [
+        "M06-E01"
+      ],
+      "process_ids": [
+        "C15-P04"
+      ],
+      "fact_ids": [
+        "F026"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "美丽家园二期背景",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R047",
+      "case_id": "C15",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "starts",
+      "predicate_label": "启动",
+      "tail_entity": "N11",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-02；春江小区",
+      "evidence_ids": [
+        "M06-E01"
+      ],
+      "process_ids": [
+        "C15-P04"
+      ],
+      "fact_ids": [
+        "F026"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R048",
+      "case_id": "C15",
+      "head_entity": "N11",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "acts_on",
+      "predicate_label": "作用于",
+      "tail_entity": "G07",
+      "tail_type": "target",
+      "tail_role": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2023-02；春江小区",
+      "evidence_ids": [
+        "M06-E01",
+        "M06-E03"
+      ],
+      "process_ids": [
+        "C15-P04"
+      ],
+      "fact_ids": [
+        "F026",
+        "F028"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R049",
+      "case_id": "C15",
+      "head_entity": "A12",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "surveys",
+      "predicate_label": "排摸",
+      "tail_entity": "G07",
+      "tail_type": "target",
+      "tail_role": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2023-02—03；五里桥街道",
+      "evidence_ids": [
+        "M06-E02"
+      ],
+      "process_ids": [
+        "C15-P04"
+      ],
+      "fact_ids": [
+        "F027"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R050",
+      "case_id": "C15",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "partners_with",
+      "predicate_label": "联建",
+      "tail_entity": "A11",
+      "tail_type": "actor",
+      "tail_role": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2023-02—03；春江小区/恒丰银行；20个车位；3个月",
+      "evidence_ids": [
+        "M06-E03"
+      ],
+      "process_ids": [
+        "C15-P04"
+      ],
+      "fact_ids": [
+        "F028"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "党建联建",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R051",
+      "case_id": "C15",
+      "head_entity": "A11",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "provides",
+      "predicate_label": "提供",
+      "tail_entity": "O06",
+      "tail_type": "outcome",
+      "tail_role": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2023-02—03；春江小区/恒丰银行；20个车位；3个月",
+      "evidence_ids": [
+        "M06-E03",
+        "M06-E05"
+      ],
+      "process_ids": [
+        "C15-P04"
+      ],
+      "fact_ids": [
+        "F028",
+        "F030"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R052",
+      "case_id": "C15",
+      "head_entity": "O06",
+      "head_type": "outcome",
+      "head_role": "outcome",
+      "predicate": "corresponds_to",
+      "predicate_label": "对应",
+      "tail_entity": "G07",
+      "tail_type": "target",
+      "tail_role": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2023-02—03；春江小区/恒丰银行；20个车位；3个月",
+      "evidence_ids": [
+        "M06-E03"
+      ],
+      "process_ids": [
+        "C15-P04"
+      ],
+      "fact_ids": [
+        "F028"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "临时车位对应停车位需求",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R053",
+      "case_id": "C15",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "organizes",
+      "predicate_label": "组织",
+      "tail_entity": "N11",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-02—03；春江小区",
+      "evidence_ids": [
+        "M06-E04"
+      ],
+      "process_ids": [
+        "C15-P04"
+      ],
+      "fact_ids": [
+        "F029"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R054",
+      "case_id": "C15",
+      "head_entity": "N11",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "produces",
+      "predicate_label": "产生",
+      "tail_entity": "O06",
+      "tail_type": "outcome",
+      "tail_role": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2023-02—03；春江小区/恒丰银行；20个车位；3个月",
+      "evidence_ids": [
+        "M06-E03",
+        "M06-E05"
+      ],
+      "process_ids": [
+        "C15-P04"
+      ],
+      "fact_ids": [
+        "F028",
+        "F030"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R055",
+      "case_id": "C15",
+      "head_entity": "A11",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "supports",
+      "predicate_label": "配套",
+      "tail_entity": "N11",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-02—03；恒丰银行",
+      "evidence_ids": [
+        "M06-E06"
+      ],
+      "process_ids": [
+        "C15-P04"
+      ],
+      "fact_ids": [
+        "F031"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "员工绿色出行、安保与指引",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R056",
+      "case_id": "C15",
+      "head_entity": "A10",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "proposes",
+      "predicate_label": "提议",
+      "tail_entity": "N12",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023年报道前；春江小区小花园",
+      "evidence_ids": [
+        "M07-E02",
+        "M07-E03"
+      ],
+      "process_ids": [
+        "C15-P05"
+      ],
+      "fact_ids": [
+        "F032",
+        "F033"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R057",
+      "case_id": "C15",
+      "head_entity": "N12",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "acts_on",
+      "predicate_label": "作用于",
+      "tail_entity": "G05",
+      "tail_type": "target",
+      "tail_role": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2023年报道前；春江小区小花园",
+      "evidence_ids": [
+        "M07-E02",
+        "M07-E04",
+        "M07-E05"
+      ],
+      "process_ids": [
+        "C15-P05"
+      ],
+      "fact_ids": [
+        "F032",
+        "F034",
+        "F035"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R058",
+      "case_id": "C15",
+      "head_entity": "A04",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "supports",
+      "predicate_label": "支持",
+      "tail_entity": "N12",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023年报道前；春江小区",
+      "evidence_ids": [
+        "M07-E03"
+      ],
+      "process_ids": [
+        "C15-P05"
+      ],
+      "fact_ids": [
+        "F033"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R059",
+      "case_id": "C15",
+      "head_entity": "N12",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "produces",
+      "predicate_label": "产生",
+      "tail_entity": "O07",
+      "tail_type": "outcome",
+      "tail_role": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2023-08—09；春江小区；六角",
+      "evidence_ids": [
+        "M07-E06"
+      ],
+      "process_ids": [
+        "C15-P05"
+      ],
+      "fact_ids": [
+        "F036"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R060",
+      "case_id": "C15",
+      "head_entity": "O07",
+      "head_type": "outcome",
+      "head_role": "outcome",
+      "predicate": "located_in",
+      "predicate_label": "位于",
+      "tail_entity": "G05",
+      "tail_type": "target",
+      "tail_role": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2023-08—09；春江小区；六角",
+      "evidence_ids": [
+        "M07-E06"
+      ],
+      "process_ids": [
+        "C15-P05"
+      ],
+      "fact_ids": [
+        "F036"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R061",
+      "case_id": "C15",
+      "head_entity": "A09",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "forms_at",
+      "predicate_label": "形成于",
+      "tail_entity": "O07",
+      "tail_type": "outcome",
+      "tail_role": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2023-08—09；春江小区；一天三巡逻",
+      "evidence_ids": [
+        "M07-E07"
+      ],
+      "process_ids": [
+        "C15-P05"
+      ],
+      "fact_ids": [
+        "F037"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "小亭建成后组建",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R062",
+      "case_id": "C15",
+      "head_entity": "A09",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "conducts",
+      "predicate_label": "开展",
+      "tail_entity": "N13",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-08—09；春江小区；一天三巡逻",
+      "evidence_ids": [
+        "M07-E07"
+      ],
+      "process_ids": [
+        "C15-P05"
+      ],
+      "fact_ids": [
+        "F037"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R063",
+      "case_id": "C15",
+      "head_entity": "N13",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "produces",
+      "predicate_label": "产生",
+      "tail_entity": "O08",
+      "tail_type": "outcome",
+      "tail_role": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2023-08—09；春江小区；一天三巡逻",
+      "evidence_ids": [
+        "M07-E07"
+      ],
+      "process_ids": [
+        "C15-P05"
+      ],
+      "fact_ids": [
+        "F037"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R064",
+      "case_id": "C15",
+      "head_entity": "N14",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "produces",
+      "predicate_label": "产生",
+      "tail_entity": "O09",
+      "tail_type": "outcome",
+      "tail_role": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2023-05；春江小区",
+      "evidence_ids": [
+        "M08-E03"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F038"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "上线行动与上线状态为同一事件的两面；保留以避免丢失平台上线节点。",
+      "g6_action": "修改"
+    },
+    {
+      "relation_id": "R065",
+      "case_id": "C15",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "operates",
+      "predicate_label": "运行",
+      "tail_entity": "N15",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-05—09；春江小区；四单",
+      "evidence_ids": [
+        "M08-E04"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F039"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R066",
+      "case_id": "C15",
+      "head_entity": "A18",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "organizes",
+      "predicate_label": "组织",
+      "tail_entity": "N15",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-05—09；春江小区；四单",
+      "evidence_ids": [
+        "M08-E04",
+        "M08-E07"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F039",
+        "F044"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R067",
+      "case_id": "C15",
+      "head_entity": "N15",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "uses",
+      "predicate_label": "使用",
+      "tail_entity": "T02",
+      "tail_type": "technology",
+      "tail_role": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2023-05—09；春江小区；四单",
+      "evidence_ids": [
+        "M08-E02",
+        "M08-E04"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F039",
+        "F040"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R068",
+      "case_id": "C15",
+      "head_entity": "N15",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "includes",
+      "predicate_label": "包含",
+      "tail_entity": "C05",
+      "tail_type": "capability",
+      "tail_role": "capability",
+      "fact_status": "implemented",
+      "qualifiers": "2023-05—09；春江小区；四单",
+      "evidence_ids": [
+        "M08-E04"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F039"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R069",
+      "case_id": "C15",
+      "head_entity": "N15",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "includes",
+      "predicate_label": "包含",
+      "tail_entity": "C06",
+      "tail_type": "capability",
+      "tail_role": "capability",
+      "fact_status": "implemented",
+      "qualifiers": "2023-05—09；春江小区；四单",
+      "evidence_ids": [
+        "M08-E04"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F039"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R070",
+      "case_id": "C15",
+      "head_entity": "N15",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "includes",
+      "predicate_label": "包含",
+      "tail_entity": "C07",
+      "tail_type": "capability",
+      "tail_role": "capability",
+      "fact_status": "implemented",
+      "qualifiers": "2023-05—09；春江小区；四单",
+      "evidence_ids": [
+        "M08-E04"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F039"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R071",
+      "case_id": "C15",
+      "head_entity": "N15",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "acts_on",
+      "predicate_label": "作用于",
+      "tail_entity": "G08",
+      "tail_type": "target",
+      "tail_role": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2023-05—09；春江小区；四单",
+      "evidence_ids": [
+        "M08-E04"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F039"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R072",
+      "case_id": "C15",
+      "head_entity": "N16",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "uses",
+      "predicate_label": "使用",
+      "tail_entity": "T02",
+      "tail_type": "technology",
+      "tail_role": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2023年报道前数日；春江小区",
+      "evidence_ids": [
+        "M08-E02",
+        "M08-E05",
+        "M08-E06"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F040",
+        "F041"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R073",
+      "case_id": "C15",
+      "head_entity": "N16",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "handles",
+      "predicate_label": "处置",
+      "tail_entity": "G04",
+      "tail_type": "target",
+      "tail_role": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2023年报道前数日；春江小区",
+      "evidence_ids": [
+        "M08-E02",
+        "M08-E05",
+        "M08-E06",
+        "M08-E10"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F040",
+        "F041",
+        "F042"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R074",
+      "case_id": "C15",
+      "head_entity": "N16",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "produces",
+      "predicate_label": "产生",
+      "tail_entity": "O10",
+      "tail_type": "outcome",
+      "tail_role": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2023年报道前数日；春江小区",
+      "evidence_ids": [
+        "M08-E02",
+        "M08-E05",
+        "M08-E06",
+        "M08-E10",
+        "M08-E11"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F040",
+        "F041",
+        "F042",
+        "F043"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R075",
+      "case_id": "C15",
+      "head_entity": "A07",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "executes",
+      "predicate_label": "执行",
+      "tail_entity": "N16",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023年报道前数日；春江小区",
+      "evidence_ids": [
+        "M08-E02",
+        "M08-E05",
+        "M08-E06"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F040",
+        "F041"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "物业经理兼微网格员",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R076",
+      "case_id": "C15",
+      "head_entity": "A21",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "participates_in",
+      "predicate_label": "参与",
+      "tail_entity": "N15",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-05—09；春江小区",
+      "evidence_ids": [
+        "M08-E07",
+        "M08-E08"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F044",
+        "F045"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R077",
+      "case_id": "C15",
+      "head_entity": "A22",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "participates_in",
+      "predicate_label": "参与",
+      "tail_entity": "N15",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-05—09；春江小区",
+      "evidence_ids": [
+        "M08-E07"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F044"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R078",
+      "case_id": "C15",
+      "head_entity": "N15",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "supports",
+      "predicate_label": "支撑",
+      "tail_entity": "C10",
+      "tail_type": "capability",
+      "tail_role": "capability",
+      "fact_status": "implemented",
+      "qualifiers": "2023-05—09；春江小区",
+      "evidence_ids": [
+        "M08-E08"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F045"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R079",
+      "case_id": "C15",
+      "head_entity": "T02",
+      "head_type": "technology",
+      "head_role": "technology",
+      "predicate": "provides",
+      "predicate_label": "提供",
+      "tail_entity": "C09",
+      "tail_type": "capability",
+      "tail_role": "capability",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2023-09；春江小区；122项",
+      "evidence_ids": [
+        "M08-E09"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F046"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "122项为平台内容清单",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R080",
+      "case_id": "C15",
+      "head_entity": "C09",
+      "head_type": "capability",
+      "head_role": "capability",
+      "predicate": "corresponds_to",
+      "predicate_label": "对应",
+      "tail_entity": "O11",
+      "tail_type": "outcome",
+      "tail_role": "outcome",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2023-09；春江小区；122项",
+      "evidence_ids": [
+        "M08-E09"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F046"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "清单不等于实际使用",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R081",
+      "case_id": "C15",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "evaluates",
+      "predicate_label": "评单",
+      "tail_entity": "N15",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-05—09；春江小区",
+      "evidence_ids": [
+        "M08-E11"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F043"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R082",
+      "case_id": "C15",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "designates",
+      "predicate_label": "划分",
+      "tail_entity": "A18",
+      "tail_type": "actor",
+      "tail_role": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区；一个微网格",
+      "evidence_ids": [
+        "M09-E03"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F047"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "单独划分为一个微网格",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R083",
+      "case_id": "C15",
+      "head_entity": "A18",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "establishes_site",
+      "predicate_label": "建立",
+      "tail_entity": "A27",
+      "tail_type": "actor",
+      "tail_role": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区；一个微网格",
+      "evidence_ids": [
+        "M09-E03"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F047"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R084",
+      "case_id": "C15",
+      "head_entity": "A27",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "undertakes",
+      "predicate_label": "承担",
+      "tail_entity": "K04",
+      "tail_type": "task",
+      "tail_role": "task",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区",
+      "evidence_ids": [
+        "M09-E04",
+        "M09-E09"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F048",
+        "F053"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "议事与服务阵地",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R085",
+      "case_id": "C15",
+      "head_entity": "A28",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "participates_in",
+      "predicate_label": "参与",
+      "tail_entity": "A27",
+      "tail_type": "actor",
+      "tail_role": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区",
+      "evidence_ids": [
+        "M09-E04"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F048"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R086",
+      "case_id": "C15",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "devolves_to",
+      "predicate_label": "下沉力量至",
+      "tail_entity": "A18",
+      "tail_type": "actor",
+      "tail_role": "actor",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区",
+      "evidence_ids": [
+        "M09-E06"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F050"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R087",
+      "case_id": "C15",
+      "head_entity": "A18",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "compiles",
+      "predicate_label": "编制",
+      "tail_entity": "N18",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区；383户；118项（54/25/25/14）",
+      "evidence_ids": [
+        "M09-E07"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F051"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R088",
+      "case_id": "C15",
+      "head_entity": "N18",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "produces",
+      "predicate_label": "产生",
+      "tail_entity": "G09",
+      "tail_type": "target",
+      "tail_role": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区；383户；118项（54/25/25/14）",
+      "evidence_ids": [
+        "M09-E07"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F051"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R089",
+      "case_id": "C15",
+      "head_entity": "N18",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "produces",
+      "predicate_label": "产生",
+      "tail_entity": "O11",
+      "tail_type": "outcome",
+      "tail_role": "outcome",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2024-02；春江小区；383户；118项（54/25/25/14）",
+      "evidence_ids": [
+        "M09-E07",
+        "M09-E08"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F051",
+        "F052"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "含96%解决率报道口径",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R090",
+      "case_id": "C15",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "builds",
+      "predicate_label": "建设",
+      "tail_entity": "T09",
+      "tail_type": "technology",
+      "tail_role": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区",
+      "evidence_ids": [
+        "M09-E10"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F054"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R091",
+      "case_id": "C15",
+      "head_entity": "T09",
+      "head_type": "technology",
+      "head_role": "technology",
+      "predicate": "integrates",
+      "predicate_label": "整合",
+      "tail_entity": "G10",
+      "tail_type": "target",
+      "tail_role": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区",
+      "evidence_ids": [
+        "M09-E10"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F054"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R092",
+      "case_id": "C15",
+      "head_entity": "T09",
+      "head_type": "technology",
+      "head_role": "technology",
+      "predicate": "uses",
+      "predicate_label": "使用",
+      "tail_entity": "T07",
+      "tail_type": "technology",
+      "tail_role": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区",
+      "evidence_ids": [
+        "M09-E11"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F055"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R093",
+      "case_id": "C15",
+      "head_entity": "T09",
+      "head_type": "technology",
+      "head_role": "technology",
+      "predicate": "uses",
+      "predicate_label": "使用",
+      "tail_entity": "T08",
+      "tail_type": "technology",
+      "tail_role": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区",
+      "evidence_ids": [
+        "M09-E11"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F055"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R094",
+      "case_id": "C15",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "promotes",
+      "predicate_label": "推进",
+      "tail_entity": "N19",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区",
+      "evidence_ids": [
+        "M09-E10",
+        "M09-E11"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F054",
+        "F055"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R095",
+      "case_id": "C15",
+      "head_entity": "N19",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "produces",
+      "predicate_label": "产生",
+      "tail_entity": "O12",
+      "tail_type": "outcome",
+      "tail_role": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区",
+      "evidence_ids": [
+        "M09-E10",
+        "M09-E11"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F054",
+        "F055"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R096",
+      "case_id": "C15",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "implements",
+      "predicate_label": "实施",
+      "tail_entity": "N20",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区；三级网络",
+      "evidence_ids": [
+        "M09-E13",
+        "M09-E14"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F057",
+        "F058"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R097",
+      "case_id": "C15",
+      "head_entity": "A24",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "executes",
+      "predicate_label": "执行",
+      "tail_entity": "N20",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区；三级网络",
+      "evidence_ids": [
+        "M09-E13",
+        "M09-E14"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F057",
+        "F058"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R098",
+      "case_id": "C15",
+      "head_entity": "T10",
+      "head_type": "technology",
+      "head_role": "technology",
+      "predicate": "supports",
+      "predicate_label": "支撑",
+      "tail_entity": "C12",
+      "tail_type": "capability",
+      "tail_role": "capability",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区；三级网络",
+      "evidence_ids": [
+        "M09-E13"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F057"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R099",
+      "case_id": "C15",
+      "head_entity": "C12",
+      "head_type": "capability",
+      "head_role": "capability",
+      "predicate": "applies_to",
+      "predicate_label": "面向",
+      "tail_entity": "G03",
+      "tail_type": "target",
+      "tail_role": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区；三级网络",
+      "evidence_ids": [
+        "M09-E13"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F057"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R100",
+      "case_id": "C15",
+      "head_entity": "N20",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "produces",
+      "predicate_label": "产生",
+      "tail_entity": "O14",
+      "tail_type": "outcome",
+      "tail_role": "outcome",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区；三级网络",
+      "evidence_ids": [
+        "M09-E13",
+        "M09-E14"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F057",
+        "F058"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R101",
+      "case_id": "C15",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "finishes",
+      "predicate_label": "完成",
+      "tail_entity": "O13",
+      "tail_type": "outcome",
+      "tail_role": "outcome",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2024-02；春江小区",
+      "evidence_ids": [
+        "M09-E12"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F056"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "报道性完成",
+      "g6_action": "保留"
+    },
+    {
+      "relation_id": "R102",
+      "case_id": "C15",
+      "head_entity": "N05",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "uses",
+      "predicate_label": "使用",
+      "tail_entity": "T01",
+      "tail_type": "technology",
+      "tail_role": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2021-07-07；上海/黄浦区",
+      "evidence_ids": [
+        "M02-E01",
+        "M02-E03",
+        "M02-E04",
+        "M03-E02",
+        "M03-E06"
+      ],
+      "process_ids": [
+        "C15-P02"
+      ],
+      "fact_ids": [
+        "F009",
+        "F011"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "二期技术平台",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R103",
+      "case_id": "C15",
+      "head_entity": "N07",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "acts_on",
+      "predicate_label": "作用于",
+      "tail_entity": "G01",
+      "tail_type": "target",
+      "tail_role": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2021-08；春江小区；试点",
+      "evidence_ids": [
+        "M04-E10"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F016"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "试点位于春江小区",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R104",
+      "case_id": "C15",
+      "head_entity": "N08",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "acts_on",
+      "predicate_label": "作用于",
+      "tail_entity": "G01",
+      "tail_type": "target",
+      "tail_role": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2021-08-11；春江小区",
+      "evidence_ids": [
+        "M04-E02",
+        "M04-E03"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F017",
+        "F019"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "一期实施于春江小区",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R105",
+      "case_id": "C15",
+      "head_entity": "N09",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "acts_on",
+      "predicate_label": "作用于",
+      "tail_entity": "G01",
+      "tail_type": "target",
+      "tail_role": "target",
+      "fact_status": "implemented",
+      "qualifiers": "2021-08-04；春江小区",
+      "evidence_ids": [
+        "M04-E02",
+        "M04-E04"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F018",
+        "F020"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "充电桩建设含春江小区",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R106",
+      "case_id": "C15",
+      "head_entity": "A06",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "participates_in",
+      "predicate_label": "参与",
+      "tail_entity": "N08",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2021；春江小区",
+      "evidence_ids": [
+        "M04-E06"
+      ],
+      "process_ids": [
+        "C15-P03"
+      ],
+      "fact_ids": [
+        "F022"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "物业参与施工沟通",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R107",
+      "case_id": "C15",
+      "head_entity": "A08",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "participates_in",
+      "predicate_label": "参与",
+      "tail_entity": "N11",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-02—03；春江小区",
+      "evidence_ids": [
+        "M06-E04"
+      ],
+      "process_ids": [
+        "C15-P04"
+      ],
+      "fact_ids": [
+        "F029"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "业委会参与停车讨论",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R108",
+      "case_id": "C15",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "participates_in",
+      "predicate_label": "参与",
+      "tail_entity": "N11",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-02—03；春江小区",
+      "evidence_ids": [
+        "M06-E04"
+      ],
+      "process_ids": [
+        "C15-P04"
+      ],
+      "fact_ids": [
+        "F029"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "居民代表参与停车讨论",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R109",
+      "case_id": "C15",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "supports",
+      "predicate_label": "支持",
+      "tail_entity": "N12",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023年报道前；春江小区",
+      "evidence_ids": [
+        "M07-E03"
+      ],
+      "process_ids": [
+        "C15-P05"
+      ],
+      "fact_ids": [
+        "F033"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "党总支支持小亭提议",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R110",
+      "case_id": "C15",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "participates_in",
+      "predicate_label": "参与",
+      "tail_entity": "N12",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023年报道前；春江小区小花园",
+      "evidence_ids": [
+        "M07-E02",
+        "M07-E05"
+      ],
+      "process_ids": [
+        "C15-P05"
+      ],
+      "fact_ids": [
+        "F032",
+        "F035"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "居民提出并参与小亭建设",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R111",
+      "case_id": "C15",
+      "head_entity": "A10",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "participates_in",
+      "predicate_label": "参与",
+      "tail_entity": "N13",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-08—09；春江小区；一天三巡逻",
+      "evidence_ids": [
+        "M07-E07"
+      ],
+      "process_ids": [
+        "C15-P05"
+      ],
+      "fact_ids": [
+        "F037"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "周沪组建自管队",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R112",
+      "case_id": "C15",
+      "head_entity": "A19",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "participates_in",
+      "predicate_label": "参与",
+      "tail_entity": "N15",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-05—09；春江小区；四单",
+      "evidence_ids": [
+        "M08-E02",
+        "M08-E04"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F039",
+        "F040"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "微网格长派单",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R113",
+      "case_id": "C15",
+      "head_entity": "A20",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "participates_in",
+      "predicate_label": "参与",
+      "tail_entity": "N15",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-05—09；春江小区；四单",
+      "evidence_ids": [
+        "M08-E02",
+        "M08-E04"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F039",
+        "F040"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "微网格员接单",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R114",
+      "case_id": "C15",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "participates_in",
+      "predicate_label": "参与",
+      "tail_entity": "N16",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023年报道前数日；春江小区",
+      "evidence_ids": [
+        "M08-E02",
+        "M08-E05",
+        "M08-E06",
+        "M08-E10"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F040",
+        "F041",
+        "F042"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "居民点单",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R115",
+      "case_id": "C15",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "participates_in",
+      "predicate_label": "参与",
+      "tail_entity": "N16",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-06；春江小区门口；约一个月",
+      "evidence_ids": [
+        "M08-E10"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F042"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "街道参与斜坡会商",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R116",
+      "case_id": "C15",
+      "head_entity": "A26",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "participates_in",
+      "predicate_label": "参与",
+      "tail_entity": "N16",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-06；春江小区门口；约一个月",
+      "evidence_ids": [
+        "M08-E10"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F042"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "路政/绿化参与斜坡会商",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R117",
+      "case_id": "C15",
+      "head_entity": "A06",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "participates_in",
+      "predicate_label": "参与",
+      "tail_entity": "N15",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-05—09；春江小区；四单",
+      "evidence_ids": [
+        "M08-E04",
+        "M08-E07"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F039",
+        "F044"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "物业进入微网格队伍",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R118",
+      "case_id": "C15",
+      "head_entity": "A08",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "participates_in",
+      "predicate_label": "参与",
+      "tail_entity": "N15",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2023-05—09；春江小区",
+      "evidence_ids": [
+        "M08-E07"
+      ],
+      "process_ids": [
+        "C15-P06"
+      ],
+      "fact_ids": [
+        "F044"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "业委会进入微网格队伍",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R119",
+      "case_id": "C15",
+      "head_entity": "N17",
+      "head_type": "action",
+      "head_role": "action",
+      "predicate": "uses",
+      "predicate_label": "使用",
+      "tail_entity": "T02",
+      "tail_type": "technology",
+      "tail_role": "technology",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区",
+      "evidence_ids": [
+        "M09-E05"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F049"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "微网格依托智慧春江",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R120",
+      "case_id": "C15",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "participates_in",
+      "predicate_label": "参与",
+      "tail_entity": "N18",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区；383户；118项（54/25/25/14）",
+      "evidence_ids": [
+        "M09-E07"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F051"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "街道组织入户走访",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R121",
+      "case_id": "C15",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "participates_in",
+      "predicate_label": "参与",
+      "tail_entity": "N18",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区；383户；118项（54/25/25/14）",
+      "evidence_ids": [
+        "M09-E07"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F051"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "居民被走访并参与清单",
+      "g6_action": "新增"
+    },
+    {
+      "relation_id": "R122",
+      "case_id": "C15",
+      "head_entity": "A06",
+      "head_type": "actor",
+      "head_role": "actor",
+      "predicate": "participates_in",
+      "predicate_label": "参与",
+      "tail_entity": "N19",
+      "tail_type": "action",
+      "tail_role": "action",
+      "fact_status": "implemented",
+      "qualifiers": "2024-02；春江小区",
+      "evidence_ids": [
+        "M09-E10"
+      ],
+      "process_ids": [
+        "C15-P07"
+      ],
+      "fact_ids": [
+        "F054"
+      ],
+      "review": "candidate",
+      "version": "v1.1",
+      "note": "物业参与数治网",
+      "g6_action": "新增"
+    }
+  ]
+}

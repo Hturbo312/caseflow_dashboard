@@ -1,0 +1,22 @@
+{
+  "packetId": "RP-C16-G3-v1.0",
+  "supersedes": "RP-C16-G3-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G3",
+  "caseId": "C16",
+  "decidedAt": "2026-11-13",
+  "researcherDecision": {
+    "action": "accept",
+    "rationale": "G3 按推荐通过",
+    "modifiedContent": null,
+    "allowNextGate": true
+  },
+  "frozenArtifacts": ["process.md v1.0", "process.json v1.0", "RP-C16-G3-v1.0"],
+  "changes": [],
+  "openIssues": [
+    "2011–2012 工作坊记录缺失",
+    "2013–2015 节点与维护记录缺失",
+    "2019 年移交协议缺失",
+    "2020–2022 市府/NYCHA 文件缺失"
+  ]
+}

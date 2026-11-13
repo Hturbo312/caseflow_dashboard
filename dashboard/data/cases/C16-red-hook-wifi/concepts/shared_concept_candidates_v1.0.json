@@ -1,0 +1,61 @@
+{
+  "case_id": "C16",
+  "version": "v1.0",
+  "status": "confirmed_candidates_single_case",
+  "generated_at": "2026-11-13",
+  "rule": "所有候选仅有 C16 一个案例支持，不得确认正式共享概念。",
+  "candidates": [
+    {
+      "candidate_id": "SC-C16-201",
+      "label": "本地数字维护者",
+      "entity_type": "actor",
+      "definition": "从本地社区招募并培训，承担数字基础设施安装、维护、推广与社区技术支持的本地人员或角色群体。",
+      "supporting_native_ids": ["NC-C16-02"],
+      "supporting_case_ids": ["C16"],
+      "status": "candidate_single_case",
+      "semantic_basis": "Digital Stewards 承担节点安装、维护、推广与社区技术支持。",
+      "boundary": "是角色群体，不是培训课程或外部工程团队；不自动继承就业成果或治理权。",
+      "negative_examples": ["外部承包商", "单次志愿者活动", "仅有培训课程无实际维护角色"],
+      "version": "L2-C16-candidates-v0.1"
+    },
+    {
+      "candidate_id": "SC-C16-202",
+      "label": "断网本地通信",
+      "entity_type": "capability",
+      "definition": "数字网络在失去互联网上行时，仍维持社区内部信息发布、留言、地图与本地服务的能力。",
+      "supporting_native_ids": ["NC-C16-03"],
+      "supporting_case_ids": ["C16"],
+      "status": "candidate_single_case",
+      "semantic_basis": "GuruPlug 本地服务器、Tidepools 本地运行、Commotion 去中心化 mesh。",
+      "boundary": "是能力，不等于实际使用；不等于一般互联网接入或局域网文件共享。",
+      "negative_examples": ["仅缓存网页", "仅有局域网文件共享", "互联网中断即全部服务不可用"],
+      "version": "L2-C16-candidates-v0.1"
+    },
+    {
+      "candidate_id": "SC-C16-203",
+      "label": "灾时通信据点",
+      "entity_type": "outcome",
+      "definition": "灾害导致停电与通信中断时，由社区组织场地与本地网络形成的集中联网、充电与信息交换状态。",
+      "supporting_native_ids": ["NC-C16-05"],
+      "supporting_case_ids": ["C16"],
+      "status": "candidate_single_case",
+      "semantic_basis": "Sandy 期间 RHI 成为居民充电、取暖、报平安与获取救援信息的据点。",
+      "boundary": "是灾害情境下的临时集中状态，不是日常热点；不表示整个网络完整幸存。",
+      "negative_examples": ["日常公共 WiFi 热点", "无网络的临时避难帐篷", "仅提供电力的充电点"],
+      "version": "L2-C16-candidates-v0.1"
+    },
+    {
+      "candidate_id": "SC-C16-204",
+      "label": "商户宿主网络",
+      "entity_type": "action",
+      "definition": "以本地商户与机构的屋顶或店内空间承载网关与接入点，扩展社区网络覆盖的组织方式。",
+      "supporting_native_ids": ["NC-C16-06"],
+      "supporting_case_ids": ["C16"],
+      "status": "candidate_single_case",
+      "semantic_basis": "灾后汽修店设点、2017 年 38 家商户宿主、2020 年商户撤点。",
+      "boundary": "是宿主组织安排，不是商户组织本身或单纯设备安装；不继承商户商业属性。",
+      "negative_examples": ["商业 ISP 基站租赁", "单一屋顶安装无持续宿主关系", "仅捐赠设备不提供空间"],
+      "version": "L2-C16-candidates-v0.1"
+    }
+  ]
+}

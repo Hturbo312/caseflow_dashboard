@@ -1,0 +1,177 @@
+{
+  "case_id": "C20",
+  "process_version": "v0.1",
+  "generated_at": "2026-11-13",
+  "status": "accepted",
+  "timeline": [
+    {"event_id": "EV-C20-001", "time": "2022", "event": "普里什蒂纳加入CEF，参考Prizren经验，围绕城市转型开展叙事倾听与集体解释", "evidence_ids": ["M09-E01"], "status": "reported"},
+    {"event_id": "EV-C20-002", "time": "2023 H1 (exact month unconfirmed)", "event": "CEF与HK2联合发起儿童友好公共空间共创；市政府公共空间与公园局支持；SpaceSyntaks、Save the Children主持工作坊", "evidence_ids": ["M01-E02", "M01-E03", "M01-E10", "M08-E01"], "status": "process_existence_confirmed_start_unconfirmed"},
+    {"event_id": "EV-C20-003", "time": "2023 H1 (date unconfirmed)", "event": "5场利益相关方工作坊，识别公园需求", "evidence_ids": ["M03-E01"], "status": "evaluator_reported"},
+    {"event_id": "EV-C20-004", "time": "2023 H1 (date unconfirmed)", "event": "4场儿童工作坊，50+名11–17岁儿童参加", "evidence_ids": ["M03-E01"], "status": "evaluator_reported"},
+    {"event_id": "EV-C20-005", "time": "mid-June 2023", "event": "儿童与青少年使用UrbanistAI的AI共创session；UNDP称其为既有过程的addendum", "evidence_ids": ["M10-E01", "M10-E02", "M11-E01", "M11-E02"], "status": "time_anchor_reliable"},
+    {"event_id": "EV-C20-006", "time": "2023 H1 to before 2023-09-14", "event": "选址、愿景、汇报、反馈、mood board、专业设计转译", "evidence_ids": ["M01-E08", "M01-E09", "M01-E10"], "status": "process_existence_confirmed_dates_unclear"},
+    {"event_id": "EV-C20-007", "time": "before 2023-09-14", "event": "最终评估工作坊；三份方案在三个地点定稿", "evidence_ids": ["M01-E10"], "status": "project_reported"},
+    {"event_id": "EV-C20-008", "time": "2023-09", "event": "UNDP Kosovo启动两份方案的实施", "evidence_ids": ["M01-E11"], "status": "project_reported"},
+    {"event_id": "EV-C20-009", "time": "2023-09-27", "event": "RFQ UNDP-KOS-00094发布，2023-10-24截止", "evidence_ids": ["M04-E01"], "status": "procurement_record"},
+    {"event_id": "EV-C20-010", "time": "2023-10-20 to 2023-12-15", "event": "终期评估访谈；评估报告称市政许可已取得、1个公园完成更新", "evidence_ids": ["M03-E02", "M03-E03", "M03-E04"], "status": "evaluator_reported"},
+    {"event_id": "EV-C20-011", "time": "2023-12-31", "event": "HK2项目期结束", "evidence_ids": ["M12-E02"], "status": "project_page"},
+    {"event_id": "EV-C20-012", "time": "2024-05", "event": "HK2终期评估报告发布", "evidence_ids": ["M03-E04"], "status": "pdf_metadata"},
+    {"event_id": "EV-C20-013", "time": "2025-02-21", "event": "UNDP区域回顾仍以两个突出想法描述项目，未报告建成", "evidence_ids": ["M06-E01", "M06-E02"], "status": "institutional_retrospective"},
+    {"event_id": "EV-C20-014", "time": "undated (captured 2026-11-13)", "event": "UTI项目页显示Active (NEW)，延续CEF实施原型", "evidence_ids": ["M05-E01", "M05-E02", "M05-E03"], "status": "project_page"},
+    {"event_id": "EV-C20-015", "time": "2026-11-13", "event": "证据截止；未检索到两份设计全部建成/开放的公开证据", "evidence_ids": [], "status": "search_boundary"}
+  ],
+  "processes": [
+    {
+      "process_id": "C20-P01",
+      "title": "背景与问题识别",
+      "time_range": "2022—2023年上半年",
+      "event_ids": ["EV-C20-001"],
+      "actor_labels": ["普里什蒂纳市政府", "City Experiment Fund (CEF)", "普里什蒂纳儿童（含10–17岁参与者）", "Agirre Lehendakaria Center"],
+      "actor_ids": [],
+      "narrative": "2022年，普里什蒂纳加入UNDP的City Experiment Fund（CEF），参考此前Prizren的经验，围绕城市转型开展叙事倾听，并在集体解释空间中验证所听到的叙事 [M09-E01]。项目方把普里什蒂纳描述为汽车优先、行人通行困难的城市，认为较大儿童（尤其是10岁以上）的公共空间需求常被忽视，能支持主动游戏、社交与探索的场所很少 [M01-E01]。在头脑风暴中，儿童一致认为缺少儿童友好公共空间；女童特别提出社交时的安全与隐私担忧 [M01-E05]。两名参与者——14岁的Anila Ajeti与13岁的Enea Kadriu——的引语分别强调学校附近没有合适空间、现有空间只服务幼儿或成人，以及开放绿地有助于社交和减少屏幕时间 [M01-E06][M01-E07]。这些引语由项目方选择与翻译，属于转述而非独立访谈。",
+      "evidence_ids": ["M09-E01", "M01-E01", "M01-E05", "M01-E06", "M01-E07"],
+      "status": "context_reconstructed",
+      "revision": "v0.1",
+      "confidence": "medium_high",
+      "source_conflicts": ["CEF加入年份只有Agirre Center一处记载", "较大儿童被忽视是项目方的问题表述，不是独立需求评估"],
+      "gaps": ["缺2022年叙事倾听的原始记录", "缺儿童需求的独立访谈/问卷"]
+    },
+    {
+      "process_id": "C20-P02",
+      "title": "项目组织与参与架构",
+      "time_range": "2023年上半年（具体起点未确认）",
+      "event_ids": ["EV-C20-002"],
+      "actor_labels": ["UNDP Kosovo", "City Experiment Fund (CEF)", "Healthier Kosovo 2 (HK2)", "普里什蒂纳市政府公共空间与公园局", "Space SyntaKs", "Save the Children", "Children Councils", "10–17岁儿童参与者"],
+      "actor_ids": [],
+      "narrative": "CEF与Healthier Kosovo 2（HK2）两个UNDP项目联合发起该共创试点，市政府公共空间与公园局全程支持；SpaceSyntaks与Save the Children主持工作坊 [M01-E02][M01-E03]。参与者为10–17岁儿童，经市政府任命的Children Councils从各学校选出，并按背景与视角多样性筛选 [M01-E03]。项目方称过程持续约6个月 [M01-E10]，供应商页面亦称“six-month process” [M08-E01]；但公开材料没有给出起始日期，不能据此推定具体月份。CEF由UNDP Kosovo与斯洛伐克财政部设立 [M01-E14][M13-E01]；HK2由UNDP、WHO、UNV实施、卢森堡政府资助，项目期至2023-12-31 [M01-E15][M12-E01][M12-E02]。",
+      "evidence_ids": ["M01-E02", "M01-E03", "M01-E10", "M08-E01", "M01-E14", "M13-E01", "M01-E15", "M12-E01", "M12-E02"],
+      "status": "process_reconstructed",
+      "revision": "v0.1",
+      "confidence": "medium_high",
+      "source_conflicts": ["Children Councils vs Assembly of Children", "SpaceSyntaks vs Space Sinteks", "6个月时长只见于项目方与供应商，起止日期未给"],
+      "gaps": ["共创合同/工作大纲", "参与者遴选标准与名单", "6个月过程的起始日期"]
+    },
+    {
+      "process_id": "C20-P03",
+      "title": "工作坊、需求识别与选址",
+      "time_range": "2023年上半年—2023-06中旬",
+      "event_ids": ["EV-C20-003", "EV-C20-004", "EV-C20-005"],
+      "actor_labels": ["普里什蒂纳市政府", "地方NGO", "Assembly of Children / Children Councils", "Save the Children", "普里什蒂纳市政府公共空间与公园局", "50+名11–17岁儿童", "Space SyntaKs", "UNDP Kosovo"],
+      "actor_ids": [],
+      "narrative": "工作坊分为两条线：5场与市政府、地方NGO等利益相关方的工作坊用于识别公园需求；另有4场与Assembly of Children、Save the Children、公共空间与公园局合作的儿童工作坊，超过50名11–17岁儿童参加，并使用Urbanist AI工具 [M03-E01]。儿童工作坊包括头脑风暴、设计圆桌与AI测试，目标是识别合适地点、形成愿景、理解环境影响、做出设计选择并理解包容性 [M01-E03][M01-E08]。2023-06中旬，SpaceSyntaks与UNDP Kosovo分别发布帖子，称“上周”儿童与青少年使用UrbanistAI进行共创；UNDP称该活动是既有共创过程的“addendum”，用于识别10+儿童在公共与绿色空间中的位置与功能 [M10-E01][M10-E02][M11-E01][M11-E02]。因此，AI工作坊不是过程起点，而是既有选址/愿景阶段的补充。",
+      "evidence_ids": ["M03-E01", "M01-E03", "M01-E08", "M10-E01", "M10-E02", "M11-E01", "M11-E02"],
+      "status": "process_reconstructed",
+      "revision": "v0.1",
+      "confidence": "medium",
+      "source_conflicts": ["M01只说一系列工作坊，M03给出5+4场", "50+是否为去重人数未知", "M03的11–17岁与M01的10–17岁并列", "4场儿童工作坊中哪一场是AI session未对应"],
+      "gaps": ["9场工作坊的日期、地点、议程、签到表", "参与者学校/性别/年龄分布", "AI session与4场儿童工作坊的对应关系"]
+    },
+    {
+      "process_id": "C20-P04",
+      "title": "AI共创与设计转译",
+      "time_range": "2023-06中旬—2023-09-14前",
+      "event_ids": ["EV-C20-005", "EV-C20-006"],
+      "actor_labels": ["10–17岁儿童参与者", "Space SyntaKs / UrbanistAI", "专业设计师（儿童中心设计与城市规划）", "Save the Children"],
+      "actor_ids": [],
+      "narrative": "在选址之后，儿童参与公共空间愿景、汇报与反馈，并用mood board、AI平台与互动共创工具把想法转成设计；项目方称儿童与儿童中心设计、城市规划专业人士密切合作 [M01-E09]。SpaceSyntaks称儿童用UrbanistAI生成并可视化想法，工具促进需求表达与协作决策 [M10-E02]；UNDP称该平台结合AI与城市设计 [M11-E01]；评估报告称其为Urbanist AI tool [M03-E01]。项目方进一步称AI把儿童愿景“增强”为可感设计，并考虑安全、环境与社会包容 [M01-E09]；这是项目方评价，公开材料没有提示词、生成图像或儿童修改记录，无法判断AI输出对最终方案的实际影响。CoPlanAI页面称该项目以UrbanistAI品牌交付 [M08-E04]，但未给法律实体或版本信息。",
+      "evidence_ids": ["M01-E09", "M10-E02", "M11-E01", "M03-E01", "M08-E04"],
+      "status": "process_reconstructed",
+      "revision": "v0.1",
+      "confidence": "medium_low",
+      "source_conflicts": ["M01未点名UrbanistAI，M03用Urbanist AI tool，LinkedIn用UrbanistAI", "AI增强愿景是项目方评价，无技术日志支持"],
+      "gaps": ["提示词/生成图像/模型版本", "儿童对AI输出的选择、修改与淘汰记录", "facilitator引导方式"]
+    },
+    {
+      "process_id": "C20-P05",
+      "title": "方案定稿与最终评估",
+      "time_range": "2023-09-14前",
+      "event_ids": ["EV-C20-006", "EV-C20-007"],
+      "actor_labels": ["10–17岁儿童参与者", "专业设计师", "UNDP Kosovo", "Space SyntaKs / UrbanistAI"],
+      "actor_ids": [],
+      "narrative": "到2023-09-14，项目方称最终评估工作坊已举行：儿童评估专业设计师根据6个月共创输入制作的方案，最终在三个不同地点形成三份儿童友好公共空间方案 [M01-E10]。Design 1包含圆形座椅、秋千和带桌座椅，强调亲密尺度 [M01-E12]；Design 2是市中心开放绿地，设想露天剧场、电影、协作音乐，靠近学校与公交站，强调安全与环保材料 [M01-E13]。2025年回顾文章把两个突出想法概括为带圆形座椅与秋千的社交枢纽、带可持续家具的开放绿地文化场地 [M06-E01]；供应商页面则补充“带模块座椅的圆形剧场”和“带秋千的游乐/座凳结构” [M08-E02]。这些设计要素来自项目方/供应商叙述，尚无完整图纸或儿童选择记录。",
+      "evidence_ids": ["M01-E10", "M01-E12", "M01-E13", "M06-E01", "M08-E02"],
+      "status": "output_reconstructed",
+      "revision": "v0.1",
+      "confidence": "medium_high",
+      "source_conflicts": ["M01说三份方案、三个地点；M03后来称两个批准设计、三个地点", "供应商的圆形剧场/秋千细节未在M01/M03中出现"],
+      "gaps": ["三份方案完整图纸/设计说明", "儿童评估标准与投票记录", "专业设计师姓名/机构"]
+    },
+    {
+      "process_id": "C20-P06",
+      "title": "实施启动、许可与采购",
+      "time_range": "2023-09—2023-12",
+      "event_ids": ["EV-C20-008", "EV-C20-009", "EV-C20-010"],
+      "actor_labels": ["UNDP Kosovo", "普里什蒂纳市政府", "普里什蒂纳市政府公共空间与公园局", "承包商/供应商（未具名）", "评估者Ilir Hoxha"],
+      "actor_ids": [],
+      "narrative": "2023-09，UNDP Kosovo称已启动其中两份方案的实施，并称两个儿童友好空间将进入城市肌理 [M01-E11]；SpaceSyntaks与UNDP的6月帖文则只说这些地点“将呈现新面貌/将经历转变” [M10-E03][M11-E03]。2023-09-27，UNDP发布RFQ UNDP-KOS-00094“Development of Child-Friendly Public Spaces in Pristina”，10-24截止 [M04-E01]。评估报告进一步称：市政许可已取得，用于在3个地点实施2个批准设计，地点为主邮局附近、City Park和Park of Taukbahce；指标1.3.d的“1个公园完成更新”被评为Fully achieved [M03-E02][M03-E03]。评估访谈在2023-10-20至12-15进行 [M03-E04]。因此，截至2023年底，可确认“启动/许可/至少1个公园更新”的层级，但不能确认两份设计全部建成，也不能确认“1个公园”具体是哪一处。",
+      "evidence_ids": ["M01-E11", "M10-E03", "M11-E03", "M04-E01", "M03-E02", "M03-E03", "M03-E04"],
+      "status": "implementation_reconstructed",
+      "revision": "v0.1",
+      "confidence": "medium",
+      "source_conflicts": ["M01说两个空间，M03说2个批准设计、3个地点", "1 park revitalised可能指三个地点之一，也可能是Parks Foundation平台下另一处公园"],
+      "gaps": ["市政许可编号/日期", "RFQ中标/合同/施工记录", "1个公园的具体位置与验收", "两份设计是否全部建成"]
+    },
+    {
+      "process_id": "C20-P07",
+      "title": "后续延续与结果观察",
+      "time_range": "2023-12—2026-11-13",
+      "event_ids": ["EV-C20-011", "EV-C20-012", "EV-C20-013", "EV-C20-014", "EV-C20-015"],
+      "actor_labels": ["UNDP Kosovo", "Urban Transformation Initiative (UTI)", "普里什蒂纳市政府", "UNDP Geneva", "评估者Ilir Hoxha"],
+      "actor_ids": [],
+      "narrative": "HK2于2023-12-31结束，终期评估报告于2024-05发布 [M12-E02][M03-E04]。UNDP Kosovo的UTI项目页称UTI延续CEF，实施portfolio co-design形成的原型，里程碑包括为10+男女童创造适龄户外空间；页面显示Active (NEW)、一年期、270,000 EUR [M05-E01][M05-E02][M05-E03]。2025-02-21的区域回顾仍以“两个突出想法”描述该项目，并称空间正从被忽视地区转变为有活力、包容的聚会场所，但未给建成日期或验收证据 [M06-E02]；2023-10-31的UNDP Geneva博客把普里什蒂纳与UrbanistAI列为AI促进公众参与的例子 [M07-E01]。截至2026-11-13，未检索到两份设计全部建成、开放或使用的公开证据；三个地点的后续状态、1个公园更新的具体位置、UTI是否完成相关里程碑，均未确认。",
+      "evidence_ids": ["M12-E02", "M03-E04", "M05-E01", "M05-E02", "M05-E03", "M06-E02", "M07-E01"],
+      "status": "result_observation",
+      "revision": "v0.1",
+      "confidence": "medium_low",
+      "source_conflicts": ["UTI页面无日期", "M06的transforming是报道性效果表述", "M07是机构观点"],
+      "gaps": ["两份设计的建成/开放/使用证据", "三个地点的后续状态", "UTI里程碑完成情况", "地方政府/媒体独立报道"]
+    }
+  ],
+  "cross_checks": {
+    "event_order": "2022加入CEF → 2023上半年共创启动 → 2023-06中旬AI工作坊 → 2023-09-14前最终评估/三份方案 → 2023-09启动实施 → 2023-09-27 RFQ → 2023-10—12评估访谈/许可/1个公园更新 → 2023-12-31 HK2结束 → 2024-05评估报告 → 2025-02回顾 → 无日期UTI",
+    "main_uncertainty": "共创启动的具体月份未知；只能放在2023年上半年且早于2023-06中旬",
+    "actor_relations": [
+      "UNDP Kosovo同时是CEF、HK2、UTI的实施方；三个项目的行动不能自动合并",
+      "市政府公共空间与公园局既是共创支持方，也是许可/实施相关方",
+      "Space SyntaKs / UrbanistAI既是facilitation方，也是工具开发/供应方",
+      "Children Councils / Assembly of Children是遴选/组织渠道，不是儿童本身",
+      "专业设计师是把儿童输入转成方案的行动主体；公开材料未给姓名/机构"
+    ],
+    "status_changes": [
+      "问题识别：儿童与项目方均提出空间稀缺/女童安全隐私",
+      "共创：5+4场工作坊、50+儿童、AI工具使用",
+      "方案：3份方案在3个地点定稿",
+      "实施启动：UNDP启动2份；RFQ发布",
+      "许可/更新：市政许可；1个公园更新",
+      "延续：UTI实施原型；10+空间里程碑"
+    ]
+  },
+  "open_questions": [
+    "共创过程的具体起始月份",
+    "9场工作坊的日期、地点、议程、签到",
+    "4场儿童工作坊中哪一场是2023-06中旬的AI session",
+    "3份方案—2个批准设计—3个地点—2个空间—1个公园更新的对应关系",
+    "1个公园完成更新的具体位置",
+    "两份设计是否全部建成/开放/使用；UTI是否完成10+空间里程碑",
+    "儿童对过程、AI工具与成品的直接反馈"
+  ],
+  "decisions_requested": [
+    "七个过程段落（P01–P07）的分段与顺序是否成立",
+    "是否同意共创起点保留为2023年上半年、具体月份未确认",
+    "是否同意P06只写启动/许可/至少1个公园更新，P07作为结果观察",
+    "是否同意儿童引语只作为项目方转述，不升级为儿童直接访谈证据"
+  ],
+  "decision": {
+    "action": "accept",
+    "rationale": "研究者确认G3过程重建，按建议方案通过",
+    "modified_content": null,
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13",
+    "adopted_options": {
+      "segmentation": "P01-P07_accepted",
+      "start_date": "2023_H1_exact_month_unconfirmed",
+      "implementation_scope": "P06_start_permit_one_park_only_P07_result_observation",
+      "child_quotes": "project_mediated_not_direct_interview"
+    }
+  }
+}

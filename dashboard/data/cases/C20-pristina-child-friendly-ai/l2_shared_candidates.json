@@ -1,0 +1,51 @@
+{
+  "case_id": "C20",
+  "layer": "L2-G2",
+  "version": "v0.1",
+  "generated_at": "2026-11-13",
+  "status": "accepted",
+  "candidates": [
+    {
+      "candidate_id": "SC-C20-01",
+      "label": "AI辅助的空间想法生成与可视化",
+      "entity_type": "action",
+      "definition": "儿童或参与者在facilitator支持下使用AI平台生成/可视化空间想法，并将其带入讨论、筛选与设计转译的行动。",
+      "scope": "只含AI生成/可视化在参与过程中的使用；不含工具本身、模型能力、生成效果或最终建成。",
+      "negative_examples": ["仅用CAD/手绘出图", "AI生成但未进入参与过程", "无儿童/居民参与的内部方案生成", "把AI输出直接当作最终方案"],
+      "supporting_case_ids": ["C20"],
+      "supporting_native_ids": ["NC-C20-007"],
+      "source_relation_ids": ["R020","R021","R029","R031","R032","R033"],
+      "evidence_ids": ["M01-E09","M03-E01","M10-E02","M11-E01"],
+      "version": "L2-C20-v0.1",
+      "review": "candidate_single_case",
+      "boundary_note": "无提示词/生成日志；不能证明AI对最终方案的影响；不能把‘使用’写成‘效果’。"
+    },
+    {
+      "candidate_id": "SC-C20-02",
+      "label": "儿童地方知识转译",
+      "entity_type": "action",
+      "definition": "把儿童对安全、隐私、绿色社交空间的地方经验与需求，转译为选址、空间要素与设计方案的行动。",
+      "scope": "只含儿童地方知识进入设计转译；不含一般社区需求识别、成人代述或未进入设计的意见收集。",
+      "negative_examples": ["一般社区需求调查未进入设计", "成人代替儿童表达", "仅收集意见未转译", "把儿童引语直接当设计依据"],
+      "supporting_case_ids": ["C20"],
+      "supporting_native_ids": ["NC-C20-002"],
+      "source_relation_ids": ["R003","R004","R056"],
+      "evidence_ids": ["M01-E05","M01-E06","M01-E07","M01-E09"],
+      "version": "L2-C20-v0.1",
+      "review": "candidate_single_case",
+      "boundary_note": "‘转译’是分析性概括；没有正式需求—设计要素对应表，不能证明每个需求都被采纳。"
+    }
+  ],
+  "held_candidates": [],
+  "no_map_native_concepts": ["NC-C20-001","NC-C20-005"],
+  "counts": {
+    "active_candidates": 2,
+    "held_candidates": 0,
+    "no_map": 2
+  },
+  "decision": {
+    "action": "accept",
+    "rationale": "研究者确认两个单案候选",
+    "decided_at": "2026-11-13"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": "L2-C13-shared-v1.0",
+  "caseId": "C13",
+  "date": "2026-11-13",
+  "baseLayer": "L2-C01-C11-shared-v0.2 + L2-C12-shared-v1.0",
+  "status": "confirmed_candidate_layer",
+  "scope": "C13 concept delta; no changes to C01-C12",
+  "changes": {
+    "addedCandidates": 8,
+    "addedMappings": 14,
+    "modifiedConcepts": 0,
+    "supportingCaseChanges": 0,
+    "deletedConcepts": 0,
+    "historicalReclassifications": 0
+  },
+  "checks": {
+    "nativeConceptSourceRelations": "10/10",
+    "mappingSharedRefs": "14/14",
+    "candidateNativeRefs": "8/8",
+    "historicalMappingsReviewed": 101,
+    "historicalReclassifications": 0
+  },
+  "openIssues": [
+    "8个候选缺第二案例支持",
+    "维护与衰减缺2016-2017证据",
+    "是否将C13追加到既有概念supporting_case_ids待定",
+    "C13尚未导入dashboard数据库"
+  ],
+  "nextVersionTriggers": ["第二案例支持任一SC-C13-10x", "2016-2017证据补齐", "研究者决定追加支持案例"]
+}

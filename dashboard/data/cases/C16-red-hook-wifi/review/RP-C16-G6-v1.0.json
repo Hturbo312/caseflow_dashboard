@@ -1,0 +1,28 @@
+{
+  "packetId": "RP-C16-G6-v1.0",
+  "supersedes": "RP-C16-G6-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G6",
+  "caseId": "C16",
+  "decidedAt": "2026-11-13",
+  "researcherDecision": {
+    "action": "accept",
+    "rationale": "G6 按推荐通过",
+    "modifiedContent": null,
+    "allowNextGate": true
+  },
+  "frozenArtifacts": ["relations_v2.0.md", "relations_v2.0.json", "RP-C16-G6-v1.0"],
+  "changes": {
+    "deleted": 0,
+    "modified": 8,
+    "added": 9,
+    "finalRelations": 110
+  },
+  "openIssues": [
+    "Sky Packets 2019 年前参与",
+    "RHI/Digital Stewards 治理关系",
+    "施工方未登记",
+    "Red Hook Houses 居民内部差异",
+    "2021-2022 市府/NYCHA 一手文件"
+  ]
+}

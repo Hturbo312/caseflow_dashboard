@@ -1,0 +1,72 @@
+{
+  "case_id": "C15",
+  "ontology_version": "V4",
+  "case_layer_version": "L2-C15-v1.0",
+  "status": "released",
+  "generated_at": "2026-11-13",
+  "native_layer": {
+    "entities_added": 109,
+    "relations_added": 122,
+    "native_concepts_added": 15
+  },
+  "shared_layer": {
+    "active_candidates_added": [
+      "SC-C15-01",
+      "SC-C15-03",
+      "SC-C15-06",
+      "SC-C15-07",
+      "SC-C15-08"
+    ],
+    "held_candidates": [
+      "SC-C15-02",
+      "SC-C15-04",
+      "SC-C15-05"
+    ],
+    "formal_shared_concepts_added": 0,
+    "negative_example_amendments": 1
+  },
+  "mapping_layer": {
+    "semantic_equivalent": 0,
+    "native_hyponym": 4,
+    "partial_or_approximate": 5,
+    "no_map": 6
+  },
+  "historical_review": {
+    "shared_concepts_reviewed": 7,
+    "historical_mappings_reviewed": 125,
+    "cases_involved": 14,
+    "definition_changes": 0,
+    "mapping_changes": 0
+  },
+  "corrections": {
+    "issue": "L1 native_concepts.json used SC-C15-02/04/05 for three different candidate labels; L2-G2 reused those IDs for new labels.",
+    "resolution": "Keep SC-C15-01 and SC-C15-03; add SC-C15-06/07/08 for new labels; hold SC-C15-02/04/05 as not carried forward.",
+    "active_candidates": [
+      "SC-C15-01",
+      "SC-C15-03",
+      "SC-C15-06",
+      "SC-C15-07",
+      "SC-C15-08"
+    ],
+    "held_candidates": [
+      "SC-C15-02",
+      "SC-C15-04",
+      "SC-C15-05"
+    ]
+  },
+  "unresolved": [
+    "5 active candidates need a second case",
+    "platform and organizational continuity",
+    "file-level delta not imported into dashboard SQLite"
+  ],
+  "resolved": [
+    "4 hyponym mappings retained; historical partial usage unchanged",
+    "SC-C01-156 negative example added"
+  ],
+  "release_decision": {
+    "action": "accept",
+    "ontology_version": "V4",
+    "case_layer_version": "L2-C15-v1.0",
+    "released_at": "2026-11-13"
+  }
+}

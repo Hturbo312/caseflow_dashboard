@@ -1,0 +1,29 @@
+{
+  "packet_id": "RP-C12-G0-v1.0",
+  "skill": "case-knowledge-construction",
+  "gate": "G0",
+  "case_id": "C12",
+  "status": "confirmed",
+  "generated_at": "2026-11-13",
+  "researcher_decision": {
+    "action": "modify_and_accept",
+    "rationale": "Confirm option B covering 2000-2017; separate core implementation 2000-2010 from service continuity and declining influence 2011-2017.",
+    "modified_content": {
+      "time_boundary": "2000-2017",
+      "core_implementation": "2000-2010",
+      "exit_and_decline_phase": "2011-2017",
+      "include_eastserve1_pilot": true,
+      "core_space": ["Beswick", "Clayton", "Openshaw"],
+      "research_questions": 4,
+      "new_hypothesis": "H-C12-01"
+    },
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  },
+  "frozen_outputs": ["case_scope.md@v1.0", "decision-log.md#1"],
+  "open_items": [
+    "Eastserve1 exact start month and funding scale",
+    "2011-2015 user, coverage and exit-decision data",
+    "H-C12-01 remains a hypothesis, not a base relation"
+  ]
+}

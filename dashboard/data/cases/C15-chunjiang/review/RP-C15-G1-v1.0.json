@@ -1,0 +1,29 @@
+{
+  "packet_id": "RP-C15-G1-v1.0",
+  "skill": "case-knowledge-construction",
+  "gate": "G1",
+  "case_id": "C15",
+  "status": "confirmed",
+  "generated_at": "2026-11-13",
+  "researcher_decision": {
+    "action": "accept",
+    "rationale": "Accept nine materials with specified roles; accept syndicated copies pending originals; treat M09 as follow-up; separate four lists and four orders; treat M01 as prehistory.",
+    "modified_content": {
+      "materials_included": ["M01", "M02", "M03", "M04", "M05", "M06", "M07", "M08", "M09"],
+      "m02_role": "policy context",
+      "m06_role": "process background",
+      "m01_role": "prehistory",
+      "m09_role": "2024-02 follow-up observation",
+      "verification_status": "verified_syndicated_copy",
+      "term_separation": true
+    },
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  },
+  "frozen_outputs": ["materials.md@v1.0", "materials.json@v1.0", "materials_v0.1.md", "materials_v0.1.json", "decision-log.md#2"],
+  "open_items": [
+    "Original pages pending",
+    "M09 96% resolution rate and 118-item list denominators",
+    "Platform developer/operator, work-order data, data governance"
+  ]
+}

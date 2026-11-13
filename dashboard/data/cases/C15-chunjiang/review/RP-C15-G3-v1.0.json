@@ -1,0 +1,27 @@
+{
+  "packet_id": "RP-C15-G3-v1.0",
+  "skill": "case-knowledge-construction",
+  "gate": "G3",
+  "case_id": "C15",
+  "status": "confirmed",
+  "generated_at": "2026-11-13",
+  "researcher_decision": {
+    "action": "accept",
+    "rationale": "Accept seven processes and 29 events; preserve P03 status difference; use May 2023 as launch; keep P05 dates before the 2023 report; defer entity IDs to G4.",
+    "modified_content": {
+      "process_baseline": 7,
+      "event_baseline": 29,
+      "p03_status_conflict": "preserved",
+      "platform_launch": "2023-05",
+      "p05_time_range": "before the 2023 report-2023-09"
+    },
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  },
+  "frozen_outputs": ["process.md@v1.0", "process.json@v1.0", "process_v0.1.md", "process_v0.1.json", "decision-log.md#4"],
+  "open_items": [
+    "2022 gap",
+    "Relationship between 2021 smart application system and 2023 Smart Chunjiang",
+    "Formal relationship among self-management team, micro-grid, Gelixiang and three meetings"
+  ]
+}

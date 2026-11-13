@@ -1,0 +1,35 @@
+{
+  "packet_id": "RP-C19-L2-G4-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G4",
+  "case_id": "C19",
+  "scope": "L2-C19-v1.0 本体增量、版本记录与发布范围",
+  "generated_at": "2026-11-13",
+  "status": "pending",
+  "counts": {
+    "version": "L2-C19-v1.0",
+    "existing_concepts_updated": 14,
+    "native_ids_appended": 25,
+    "new_single_case_candidates": 13,
+    "mappings": 40,
+    "deleted": 0,
+    "definition_changes": 0,
+    "historical_mapping_changes": 0,
+    "affected_cases": 13
+  },
+  "affected_cases": ["C01","C02","C03","C04","C05","C06","C07","C08","C09","C10","C11","C16","C19"],
+  "decisions_requested": [
+    "Release L2-C19-v1.0",
+    "Append-only + 13 single-case candidates",
+    "Do not promote SC-C19-* to formal shared concepts",
+    "C17/C18 out of scope",
+    "Defer DB import",
+    "Handoff to cross-case-causal-analysis"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": true,
+    "affects_historical_mappings": false,
+    "triggers_case_review": true,
+    "scope": "C01-C11, C16, C19"
+  }
+}

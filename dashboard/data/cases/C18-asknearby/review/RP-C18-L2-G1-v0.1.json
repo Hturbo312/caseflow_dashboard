@@ -1,0 +1,47 @@
+{
+  "packetId": "RP-C18-L2-G1-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G1",
+  "caseId": "C18",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher",
+  "baseline": "L2-C15-v1.0",
+  "counts": {
+    "nativeEntities": 83,
+    "salientConcepts": 10,
+    "coveredRelations": 74,
+    "totalRelations": 101,
+    "uncoveredRelations": 27
+  },
+  "concepts": [
+    {"id":"NC-C18-01","type":"technology","relations":16,"suggestedAction":"discuss"},
+    {"id":"NC-C18-02","type":"capability","relations":2,"suggestedAction":"accept"},
+    {"id":"NC-C18-03","type":"capability","relations":2,"suggestedAction":"accept"},
+    {"id":"NC-C18-04","type":"capability","relations":4,"suggestedAction":"accept"},
+    {"id":"NC-C18-05","type":"action","relations":12,"suggestedAction":"accept"},
+    {"id":"NC-C18-06","type":"action","relations":21,"suggestedAction":"discuss"},
+    {"id":"NC-C18-07","type":"action","relations":4,"suggestedAction":"accept"},
+    {"id":"NC-C18-08","type":"capability","relations":3,"suggestedAction":"accept"},
+    {"id":"NC-C18-09","type":"outcome","relations":11,"suggestedAction":"discuss"},
+    {"id":"NC-C18-10","type":"task","relations":2,"suggestedAction":"accept"}
+  ],
+  "decisionsRequired": [
+    "是否接受10个原生概念及类型定义",
+    "NC-C18-01是否拆分",
+    "NC-C18-06与NC-C18-09是否拆分",
+    "是否接受74/101关系覆盖"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": null,
+    "decidedAt": null
+  },
+  "version": "v0.1"
+}

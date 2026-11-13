@@ -1,0 +1,85 @@
+{
+  "packet_id": "RP-C12-G0-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G0",
+  "case_id": "C12",
+  "scope": "Eastserve (East Manchester) case boundary, inclusion/exclusion criteria, research questions",
+  "generated_at": "2026-11-13",
+  "status": "awaiting_researcher_decision",
+  "candidates": [
+    {
+      "id": "C12-SCOPE-01",
+      "content": "Case name: Eastserve community digital access and wireless broadband project, East Manchester",
+      "evidence": ["T01", "T07", "T11"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium-high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C12-SCOPE-02",
+      "content": "Core period 2000-2010; 2016-2017 exit observed as outcome, not core action chain",
+      "evidence": ["T01", "T11", "T14", "T15", "T16"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium",
+      "suggested_action": "discuss"
+    },
+    {
+      "id": "C12-SCOPE-03",
+      "content": "Core space: Beswick, Clayton, Openshaw; wider New East Manchester as diffusion/outcome",
+      "evidence": ["T02", "T11"],
+      "fact_status": "unconfirmed",
+      "confidence": "high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C12-SCOPE-04",
+      "content": "Include Eastserve1 pilot (450 homes, 10 community access points) in core process",
+      "evidence": ["T02", "T11"],
+      "fact_status": "unconfirmed",
+      "confidence": "high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C12-SCOPE-05",
+      "content": "Exclude city-wide digital strategy, IntelCities tool development, and other WuC pilots",
+      "evidence": ["boundary_decision"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium-high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C12-SCOPE-06",
+      "content": "Four research questions: combined intervention, wireless infrastructure, participation mechanisms, institutional transition",
+      "evidence": ["research_design"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium",
+      "suggested_action": "discuss"
+    }
+  ],
+  "conflicts": [
+    "Training count: ~2,500 course attendees in RR389 body vs 1,500 trained in RR389 summary",
+    "Household counts 450/4,500/9,000/2,200/3,500/1,500 refer to pilot, target, coverage, installed, reported, paying customers respectively",
+    "MEN archive pages carry a 2013-01-12 migration timestamp; Symera story content points to c.2009",
+    "Symera Eastserve Ltd dissolution in 2017 does not by itself establish the end date of Eastserve service"
+  ],
+  "decisions_required": [
+    "Time boundary: A 2000-2010 (recommended) / B 2000-2017 full lifecycle / C 2000-2006",
+    "Include Eastserve1 pilot in core process? (recommended yes)",
+    "Core space limited to Beswick, Clayton, Openshaw? (recommended yes)",
+    "Position of Symera 2009-2010, Cityserve 2016, dissolution 2017: core / outcome observation / exclude (recommended outcome observation)",
+    "Adopt the four draft research questions? Add digital inclusion and physical regeneration as a separate question?"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_historical_case_review": false,
+    "note": "C12 and C07 (Carpenters Estate) are both WuC pilots; check C07 later during cross-case comparison."
+  },
+  "researcher_decision": {
+    "action": null,
+    "rationale": null,
+    "modified_content": null,
+    "allow_next_gate": null,
+    "decided_at": null
+  }
+}

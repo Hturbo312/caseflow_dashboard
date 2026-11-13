@@ -1,0 +1,70 @@
+{
+  "packet_id": "RP-C20-G1-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G1",
+  "case_id": "C20",
+  "scope": "普里什蒂纳儿童友好公共空间 AI 共创的材料纳入、来源质量与覆盖边界",
+  "generated_at": "2026-11-13",
+  "status": "accepted",
+  "candidates": [
+    {"id": "M01", "content": "UNDP Kosovo 项目故事：10–17岁儿童、工作坊、AI平台、3份方案、2份实施启动", "evidence": ["materials/S01_undp_exposure_20230914.html"], "fact_status": "n/a", "confidence": "medium_high", "suggested_action": "accept"},
+    {"id": "M02", "content": "UNDP欧洲中亚同稿：与M01同源", "evidence": ["materials/S02_undp_eurasia_20230914.html"], "fact_status": "n/a", "confidence": "medium_high", "suggested_action": "accept"},
+    {"id": "M03", "content": "HK2终期评估：5+4场工作坊、50+儿童、11–17岁、Urbanist AI、2个批准设计/3个地点、市政许可、1个公园更新", "evidence": ["materials/S15_hk2_final_evaluation_2024.pdf", "PDF p.27"], "fact_status": "n/a", "confidence": "high", "suggested_action": "accept"},
+    {"id": "M04", "content": "UNGM RFQ UNDP-KOS-00094，2023-09-27发布、10-24截止", "evidence": ["materials/S05_ungm_rfq_20230927.html"], "fact_status": "n/a", "confidence": "high", "suggested_action": "accept"},
+    {"id": "M05", "content": "UNDP UTI项目页：延续CEF、实施原型、10+儿童户外空间目标", "evidence": ["materials/S06_undp_uti_project_page.txt"], "fact_status": "n/a", "confidence": "medium_high", "suggested_action": "accept"},
+    {"id": "M06", "content": "UNDP区域回顾：两个突出想法，未报告建成", "evidence": ["materials/S07_undp_cities_reimagined_20250221.html"], "fact_status": "n/a", "confidence": "medium", "suggested_action": "accept"},
+    {"id": "M07", "content": "UNDP Geneva博客：把普里什蒂纳+UrbanistAI列为AI参与例子", "evidence": ["materials/S08_undp_geneva_urban_resilience.txt"], "fact_status": "n/a", "confidence": "medium", "suggested_action": "accept"},
+    {"id": "M08", "content": "CoPlanAI供应商案例页：六个月、3份方案、2份启动；混合Blloku 1/建筑节", "evidence": ["materials/S09_coplanai_pristina_cluster.html"], "fact_status": "n/a", "confidence": "low_medium", "suggested_action": "discuss"},
+    {"id": "M09", "content": "Agirre Center：普里什蒂纳2022年加入CEF、叙事倾听", "evidence": ["materials/S10_agirrecenter_prishtina_20231227.txt"], "fact_status": "n/a", "confidence": "medium_high", "suggested_action": "accept"},
+    {"id": "M10", "content": "Space SyntaKs LinkedIn：2023-06-19“上周”AI工作坊", "evidence": ["materials/S03_linkedin_spacesyntaks_20230619.txt"], "fact_status": "n/a", "confidence": "medium", "suggested_action": "accept"},
+    {"id": "M11", "content": "UNDP Kosovo LinkedIn：2023-06-19 AI session是addendum", "evidence": ["materials/S04_linkedin_undp_20230619.txt"], "fact_status": "n/a", "confidence": "medium", "suggested_action": "accept"},
+    {"id": "M12", "content": "HK2项目页：周期2021-08-01—2023-12-31，Status Completed", "evidence": ["materials/S16_undp_hk2_project_page.txt"], "fact_status": "n/a", "confidence": "medium_high", "suggested_action": "accept"},
+    {"id": "M13", "content": "CEF项目页：机制与资助背景，不含个案细节", "evidence": ["materials/S12_undp_cef_page.txt"], "fact_status": "n/a", "confidence": "medium", "suggested_action": "accept"}
+  ],
+  "conflicts": [
+    "年龄：M01/M02 10–17；M03 11–17；M10/M11 10+（设计对象）",
+    "参与者数量：M01/M02未给；M03超过50名儿童",
+    "工作坊结构：M01/M02只说一系列；M03 5场利益相关方+4场儿童；M11称AI session是addendum",
+    "地点：M01/M02未命名；M03 main postal office/City Park/Park of Taukbahce",
+    "方案与实施数量：3份方案—2个批准设计—3个地点—2个空间/1个公园更新，需分层",
+    "实施状态：initiated vs permits secured vs 1 park revitalised；不能确认全部建成",
+    "工具名称：AI platform / Urbanist AI tool / UrbanistAI",
+    "机构名称：Children Councils / Assembly of Children；SpaceSyntaks / Space Sinteks；Park Foundation / Parks Foundation",
+    "M08把M07误标为Dec 2024；M07实际为2023-10-31"
+  ],
+  "gaps": [
+    "HK2 2023 Narrative Report / 2023 Annual Work Plan / Project Board Meeting records",
+    "9场工作坊的日期、地点、议程、签到表、参与者学校/性别/年龄分布",
+    "三份方案完整图纸、设计说明、儿童投票/选择记录、AI生成图像与采纳/淘汰对应关系",
+    "UrbanistAI提示词、生成次数、模型版本、facilitator引导方式、儿童对输出的修改",
+    "市政许可、两份设计的中标/合同、施工图、施工日志、验收/开放记录",
+    "“1个公园完成更新”具体指哪一处，以及是否属于两份批准设计",
+    "儿童对过程、AI工具与成品的直接反馈（评估未开展儿童焦点小组）",
+    "地方媒体/市政府对本项目的独立报道或公告"
+  ],
+  "decisions_requested": [
+    "是否确认纳入M01–M13（M13仅作背景）并确认排除清单",
+    "是否接受M03作为关键相对独立材料，同时保留M01/M02项目方口径",
+    "命名变体是否先建立“疑似同一指称”候选、不直接合并实体",
+    "研究者能否补充HK2 2023 Narrative Report、工作坊记录、市政许可或设计板；若不能是否同意以公开材料推进并标注缺口"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_case_review": false,
+    "note": "C20与C19都使用UrbanistAI辅助参与，G6后交L2判断是否形成共享概念候选；不得在G1预设"
+  },
+  "decision": {
+    "action": "accept",
+    "rationale": "研究者确认G1材料登记，按建议方案通过",
+    "modified_content": null,
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13",
+    "adopted_options": {
+      "include_materials": "M01-M13 (M13 background only)",
+      "m03_usage": "key_relatively_independent_source_with_m01_m02_project_narrative_retained",
+      "naming_variants": "candidate_same_referent_no_entity_merge",
+      "internal_materials": "not_provided_proceed_with_public_sources_and_flag_gaps"
+    }
+  }
+}

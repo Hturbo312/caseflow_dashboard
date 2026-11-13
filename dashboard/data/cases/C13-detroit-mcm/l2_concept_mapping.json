@@ -1,0 +1,51 @@
+{
+  "caseId": "C13",
+  "version": "v1.0",
+  "status": "confirmed",
+  "confirmedAt": "2026-11-13",
+  "baseLayer": "L2-C01-C11-shared-v0.2 + L2-C12-shared-v1.0",
+  "checkedSharedConcepts": 45,
+  "mappings": [
+    {"id": "MAP-C13-01", "nativeId": "NC-C13-01", "nativeLabel": "全市地块外业普查", "nativeType": "action", "sharedId": "SC-C13-101", "sharedLabel": "城市地块状况普查", "sharedType": "action", "mappingType": "native_hyponym", "basis": "本市逐地块外业是城市地块状况普查的首个实例", "scope": "只含外业采集；不含筹备、培训、拆除", "decision": "candidate_created"},
+    {"id": "MAP-C13-02", "nativeId": "NC-C13-02", "nativeLabel": "移动端地块编码", "nativeType": "technology", "sharedId": "SC-C13-102", "sharedLabel": "移动地块采集与编码工具", "sharedType": "technology", "mappingType": "native_hyponym", "basis": "Blexting是移动采集工具的首个实例", "scope": "只含采集端；不含后台平台", "decision": "candidate_created"},
+    {"id": "MAP-C13-03", "nativeId": "NC-C13-03", "nativeLabel": "地块状况字段体系", "nativeType": "capability", "sharedId": "SC-C01-142", "sharedLabel": "数据监测与环境诊断能力", "sharedType": "capability", "mappingType": "partial_or_approximate", "basis": "只映射采集、查看、解释状态成分", "scope": "不含传感监测、设备数据", "decision": "accepted_partial"},
+    {"id": "MAP-C13-04", "nativeId": "NC-C13-04", "nativeLabel": "破败十项判定", "nativeType": "task", "sharedId": "SC-C01-121", "sharedLabel": "社区问题与需求识别", "sharedType": "task", "mappingType": "partial_or_approximate", "basis": "只映射界定问题成分", "scope": "不含需求优先级、方案设计", "decision": "accepted_partial"},
+    {"id": "MAP-C13-05", "nativeId": "NC-C13-04", "nativeLabel": "破败十项判定", "nativeType": "task", "sharedId": "SC-C13-103", "sharedLabel": "破败判定规则", "sharedType": "task", "mappingType": "native_hyponym", "basis": "十项条件是破败判定规则的首个实例", "scope": "只含判定标准；不含排序与处置", "decision": "candidate_created"},
+    {"id": "MAP-C13-06", "nativeId": "NC-C13-05", "nativeLabel": "需干预地块口径", "nativeType": "outcome", "sharedId": "SC-C13-104", "sharedLabel": "地块干预需求口径", "sharedType": "outcome", "mappingType": "native_hyponym", "basis": "84,641口径是干预需求口径的首个实例", "scope": "只含统计口径；不含拆除量与资金", "decision": "candidate_created"},
+    {"id": "MAP-C13-07", "nativeId": "NC-C13-06", "nativeLabel": "临界点优先级分析", "nativeType": "capability", "sharedId": "SC-C01-143", "sharedLabel": "信息服务与空间分析能力", "sharedType": "capability", "mappingType": "native_hyponym", "basis": "优先级分析是空间分析能力的具体下位类型", "scope": "只含空间优先级分析", "decision": "accepted"},
+    {"id": "MAP-C13-08", "nativeId": "NC-C13-07", "nativeLabel": "单栋分级评估", "nativeType": "technology", "sharedId": "SC-C13-105", "sharedLabel": "单栋干预分级工具", "sharedType": "technology", "mappingType": "native_hyponym", "basis": "SATT是单栋分级工具的首个实例", "scope": "只含单栋评估；不含街区优先级", "decision": "candidate_created"},
+    {"id": "MAP-C13-09", "nativeId": "NC-C13-08", "nativeLabel": "公开地块数据平台", "nativeType": "technology", "sharedId": "SC-C01-132", "sharedLabel": "社区治理与行政平台", "sharedType": "technology", "mappingType": "partial_or_approximate", "basis": "只映射整合社区信息/数据的平台成分", "scope": "不含工单、视频、行政业务功能", "decision": "accepted_partial"},
+    {"id": "MAP-C13-10", "nativeId": "NC-C13-08", "nativeLabel": "公开地块数据平台", "nativeType": "technology", "sharedId": "SC-C13-106", "sharedLabel": "地块数据公开平台", "sharedType": "technology", "mappingType": "native_hyponym", "basis": "MCM是地块数据公开平台的首个实例", "scope": "只含公众查询/聚合/CSV", "decision": "candidate_created"},
+    {"id": "MAP-C13-11", "nativeId": "NC-C13-09", "nativeLabel": "社区复核小额资助", "nativeType": "action", "sharedId": "SC-C01-151", "sharedLabel": "社区参与与意见收集", "sharedType": "action", "mappingType": "partial_or_approximate", "basis": "只映射组织居民参与成分", "scope": "目的为数据复核，不是意见收集", "decision": "accepted_partial"},
+    {"id": "MAP-C13-12", "nativeId": "NC-C13-09", "nativeLabel": "社区复核小额资助", "nativeType": "action", "sharedId": "SC-C13-107", "sharedLabel": "社区数据复核资助", "sharedType": "action", "mappingType": "native_hyponym", "basis": "Mini-Grant是社区数据复核资助的首个实例", "scope": "只含资助复核；不含一般参与", "decision": "candidate_created"},
+    {"id": "MAP-C13-13", "nativeId": "NC-C13-10", "nativeLabel": "数据基础设施跨场景复用", "nativeType": "action", "sharedId": "SC-C01-154", "sharedLabel": "数字服务运营与迭代", "sharedType": "action", "mappingType": "partial_or_approximate", "basis": "只映射持续使用/调整成分", "scope": "不含跨场景扩散、外部城市复制", "decision": "accepted_partial"},
+    {"id": "MAP-C13-14", "nativeId": "NC-C13-10", "nativeLabel": "数据基础设施跨场景复用", "nativeType": "action", "sharedId": "SC-C13-108", "sharedLabel": "数据基础设施跨场景复用", "sharedType": "action", "mappingType": "native_hyponym", "basis": "止赎与外部城市复用是该概念的首个实例", "scope": "只含跨场景复用", "decision": "candidate_created"}
+  ],
+  "newCandidates": [
+    {"id": "SC-C13-101", "label": "城市地块状况普查", "type": "action", "definition": "对城市全域地块逐块进行外业观察、拍照与状况记录的普查行动。", "scope": "只含外业采集；不含筹备、培训、拆除实施。", "negativeExamples": ["一般社区需求座谈", "拆除施工"], "supportingNativeIds": ["NC-C13-01"], "supportingCaseIds": ["C13"], "status": "candidate_single_case", "supersedes": "SC-C13-01"},
+    {"id": "SC-C13-102", "label": "移动地块采集与编码工具", "type": "technology", "definition": "以移动设备在街道现场完成地块定位、拍照与结构化字段录入的工具。", "scope": "只含采集端；不含后台分析与治理平台。", "negativeExamples": ["后台分析平台", "单一设备采购"], "supportingNativeIds": ["NC-C13-02"], "supportingCaseIds": ["C13"], "status": "candidate_single_case", "supersedes": "SC-C13-02"},
+    {"id": "SC-C13-103", "label": "破败判定规则", "type": "task", "definition": "以法定或政策条件把物质状况转成破败/非破败判定的任务。", "scope": "只含判定标准；不含优先级排序与处置。", "negativeExamples": ["规划愿景中的破败修辞", "实际拆除"], "supportingNativeIds": ["NC-C13-04"], "supportingCaseIds": ["C13"], "status": "candidate_single_case", "supersedes": "SC-C13-03"},
+    {"id": "SC-C13-104", "label": "地块干预需求口径", "type": "outcome", "definition": "把破败与破败征兆合并为可排序、可分配的地块数量口径。", "scope": "只含统计口径；不含拆除量、资金分配。", "negativeExamples": ["实际拆除量", "资金分配额"], "supportingNativeIds": ["NC-C13-05"], "supportingCaseIds": ["C13"], "status": "candidate_single_case", "supersedes": "SC-C13-03"},
+    {"id": "SC-C13-105", "label": "单栋干预分级工具", "type": "technology", "definition": "对单栋结构按问卷或指标判断修复、清除或封板的工具。", "scope": "只含单栋评估；不含街区级优先级分析。", "negativeExamples": ["街区级优先级分析", "一般建筑检查"], "supportingNativeIds": ["NC-C13-07"], "supportingCaseIds": ["C13"], "status": "candidate_single_case"},
+    {"id": "SC-C13-106", "label": "地块数据公开平台", "type": "technology", "definition": "向公众展示地块级状况、占用与产权信息并支持查询与聚合的平台。", "scope": "只含公众查询/聚合/数据下载；不含内部工单系统。", "negativeExamples": ["内部工单系统", "单一地图展示"], "supportingNativeIds": ["NC-C13-08"], "supportingCaseIds": ["C13"], "status": "candidate_single_case", "supersedes": "SC-C13-04"},
+    {"id": "SC-C13-107", "label": "社区数据复核资助", "type": "action", "definition": "以小额资助组织居民复核本街区地块数据的行动。", "scope": "只含资助复核；不含一般意见征集或参与式预算。", "negativeExamples": ["一般意见征集", "参与式预算"], "supportingNativeIds": ["NC-C13-09"], "supportingCaseIds": ["C13"], "status": "candidate_single_case", "supersedes": "SC-C13-04"},
+    {"id": "SC-C13-108", "label": "数据基础设施跨场景复用", "type": "action", "definition": "把既有采集或调查能力应用到止赎、外部城市等新场景的行动。", "scope": "只含跨场景复用；不含日常维护与商业产品化。", "negativeExamples": ["单一服务日常维护", "商业产品化"], "supportingNativeIds": ["NC-C13-10"], "supportingCaseIds": ["C13"], "status": "candidate_single_case", "supersedes": "SC-C13-05"}
+  ],
+  "historicalReview": {
+    "affectedSharedConcepts": ["SC-C01-121", "SC-C01-132", "SC-C01-142", "SC-C01-143", "SC-C01-151", "SC-C01-154"],
+    "definitionChanges": 0,
+    "supportingCaseChanges": 0,
+    "historicalReclassifications": 0,
+    "result": "回查C01-C12既有映射，未发现需要改判或回退的记录",
+    "boundaryTensions": [
+      "SC-C01-121问题识别 vs 破败判定：只映射界定问题",
+      "SC-C01-132治理平台 vs 公开数据平台：只映射整合社区信息",
+      "SC-C01-142监测诊断 vs 字段编码：只映射采集/解释状态",
+      "SC-C01-143空间分析 vs 优先级分析：上下位",
+      "SC-C01-151参与意见 vs 数据复核：只映射组织参与",
+      "SC-C01-154运营迭代 vs 跨场景复用：只映射持续使用"
+    ]
+  },
+  "versionPlan": {"version": "L2-C13-shared-v1.0", "confirmedAt": "2026-11-13"},
+  "openIssues": ["8个新候选均缺第二案例支持", "维护与衰减概念仍无充分证据", "是否将C13加入已有概念的supporting_case_ids待定"]
+}

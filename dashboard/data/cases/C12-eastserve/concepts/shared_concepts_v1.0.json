@@ -1,0 +1,57 @@
+{
+  "case_id": "C12",
+  "version": "L2-C12-shared-v1.0",
+  "status": "released",
+  "shared_concepts": [
+    {
+      "id": "SC-C12-101",
+      "label": "家庭数字终端部署与接入",
+      "definition": "面向既有住宅区家庭部署补贴或翻新的数字终端（PC、机顶盒等），并提供接入安排的行动。",
+      "scope": "家庭数字终端部署行动；不合并设备类型，不自动继承网络基础设施属性。",
+      "supporting_case_ids": [
+        "C07",
+        "C12"
+      ],
+      "supporting_native_ids": [
+        "NC-C12-09",
+        "NC-C07-technology-005",
+        "NC-C07-action-002"
+      ],
+      "negative_examples": [
+        "仅采购未部署",
+        "仅有网络覆盖无终端"
+      ],
+      "version": "L2-C12-shared-v1.0",
+      "review": "researcher_confirmed",
+      "entity_type": "action",
+      "origin_candidate": "SC-C12-01"
+    },
+    {
+      "id": "SC-C12-102",
+      "label": "社区门户与本地公共服务入口",
+      "definition": "面向社区居民的门户或网站，整合本地信息与公共服务入口。",
+      "scope": "门户前端入口；不含后台治理平台全部功能，不自动继承内容生产/参与工具的全部属性。",
+      "supporting_case_ids": [
+        "C01",
+        "C07",
+        "C12"
+      ],
+      "supporting_native_ids": [
+        "NC-C12-08",
+        "NC-C12-11",
+        "NC-C07-technology-003",
+        "NC-C01-technology-006",
+        "NC-C01-technology-009"
+      ],
+      "negative_examples": [
+        "纯后台管理系统",
+        "单一设备"
+      ],
+      "version": "L2-C12-shared-v1.0",
+      "review": "researcher_confirmed",
+      "entity_type": "technology",
+      "origin_candidate": "SC-C12-02"
+    }
+  ],
+  "released_at": "2026-11-13"
+}

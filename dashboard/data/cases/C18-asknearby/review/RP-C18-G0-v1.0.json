@@ -1,0 +1,42 @@
+{
+  "packetId": "RP-C18-G0-v1.0",
+  "supersedes": "RP-C18-G0-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G0",
+  "caseId": "C18",
+  "decidedAt": "2026-11-13",
+  "researcherDecision": {
+    "action": "modify",
+    "rationale": "时间边界选择扩展；空间、效果定位和研究问题按候选建议通过。",
+    "modifiedContent": "核心期维持 2024 年秋季—2025 年 3 月；另设 2025-04—2026-11-13 扩展观察期。",
+    "allowNextGate": true
+  },
+  "frozenArtifacts": ["case_scope.md v1.0", "RP-C18-G0-v1.0"],
+  "changes": [
+    {
+      "decision": "时间边界",
+      "before": "2024 年秋季—2025 年 3 月",
+      "after": "核心期 2024 年秋季—2025 年 3 月；扩展观察期 2025-04—2026-11-13"
+    },
+    {
+      "decision": "空间边界",
+      "before": "两处试点为核心，其他社区作后续观察（建议）",
+      "after": "确认"
+    },
+    {
+      "decision": "效果定位",
+      "before": "作者报告/观点（建议）",
+      "after": "确认"
+    },
+    {
+      "decision": "研究问题",
+      "before": "草案 5 问",
+      "after": "确认"
+    }
+  ],
+  "openIssues": [
+    "平台研发起点与试运行结束时间未载",
+    "南头古城试运行时间窗未载",
+    "扩展观察期材料待检索"
+  ]
+}

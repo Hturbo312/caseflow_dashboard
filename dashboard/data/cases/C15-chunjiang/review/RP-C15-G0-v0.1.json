@@ -1,0 +1,111 @@
+{
+  "packet_id": "RP-C15-G0-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G0",
+  "case_id": "C15",
+  "scope": "Digital renewal of Chunjiang Community, Wuliqiao Subdistrict, Huangpu District, Shanghai: case boundary, inclusion/exclusion criteria, research questions",
+  "generated_at": "2026-11-13",
+  "status": "awaiting_researcher_decision",
+  "candidates": [
+    {
+      "id": "C15-SCOPE-01",
+      "content": "Case name: Digital Renewal of Chunjiang Community, Wuliqiao Subdistrict, Huangpu District, Shanghai; subtitle: Minimum Management Unit pilot and Smart Chunjiang within the Beautiful Homeland renewal",
+      "evidence": ["T02", "T03", "T08"],
+      "fact_status": "unconfirmed",
+      "confidence": "high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C15-SCOPE-02",
+      "content": "Period 2021-02 to 2023-12; core implementation 2021-07 to 2023-09; 2020 and earlier treated as prehistory",
+      "evidence": ["T01", "T02", "T03", "T08"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium-high",
+      "suggested_action": "accept_or_discuss"
+    },
+    {
+      "id": "C15-SCOPE-03",
+      "content": "Core space limited to Chunjiang Community and its dedicated Minimum Management Unit; Qixi Road shop unit and other communities excluded from the core",
+      "evidence": ["T01", "T02", "T03"],
+      "fact_status": "unconfirmed",
+      "confidence": "high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C15-SCOPE-04",
+      "content": "Five core processes: policy pilot entry; sensing scenarios and Beautiful Homeland phase I; phase II and self-organization; Smart Chunjiang and four-order system; normalization and reported effects",
+      "evidence": ["T01", "T02", "T03", "T04", "T05", "T06", "T07", "T08"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium-high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C15-SCOPE-05",
+      "content": "Exclude charging piles in other communities, Qixi Road shop pilot, Nanjing Building and Tianzifang, generic governance narratives, and unverified 2024-2026 operations",
+      "evidence": ["boundary_decision"],
+      "fact_status": "unconfirmed",
+      "confidence": "high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C15-SCOPE-06",
+      "content": "Six research questions: entry path; technology-capability-action inventory; four-order operation; platform and traditional self-governance; effects and sustainability; positioning of digitalization",
+      "evidence": ["research_design"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium",
+      "suggested_action": "discuss"
+    },
+    {
+      "id": "C15-SCOPE-07",
+      "content": "Treat digitalization as an embedded process of physical renewal, property service and grassroots governance rather than a standalone smart-community project",
+      "evidence": ["T02", "T03", "T08"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium",
+      "suggested_action": "discuss"
+    },
+    {
+      "id": "C15-SCOPE-08",
+      "content": "Hengfeng Bank 20 temporary parking spaces and Building 8 elevator installation are process background only, not core digital-renewal relations",
+      "evidence": ["T03", "T05"],
+      "fact_status": "unconfirmed",
+      "confidence": "medium-high",
+      "suggested_action": "accept"
+    },
+    {
+      "id": "C15-SCOPE-09",
+      "content": "T06 and T07 are duplicate syndications of the same content; T01 and T02 cover the same launch event but provide different information gain",
+      "evidence": ["material_comparison"],
+      "fact_status": "unconfirmed",
+      "confidence": "high",
+      "suggested_action": "accept"
+    }
+  ],
+  "conflicts": [
+    "Headline says 'four lists' while body says 'four orders' (resident order, grid leader dispatch, grid officer acceptance, resident evaluation); whether they are the same mechanism is unconfirmed",
+    "T03 says the smart application system was 'under pilot' in August 2021, while T02 describes active scenarios; pilot, partial use and full-community completion must be separated",
+    "T08 contains both 'in the second half of this year' and 'launched in May 2023'; Beautiful Homeland progress and platform launch must be separated",
+    "The organizational and technical boundary of the 'dedicated Minimum Management Unit' is unclear",
+    "Platform developer, technology vendor, data operator, cost bearer, usage volume, response time and closure rate are not identified",
+    "No direct materials found for October 2023 to November 2026"
+  ],
+  "decisions_required": [
+    "Time boundary: A 2021-02 to 2023-12 (recommended) / B 2020-01 to 2023-12 / C 2021-02 to 2026-11",
+    "Limit core space to Chunjiang Community and its dedicated Minimum Management Unit, with Qixi Road shops and other communities as background? (recommended yes)",
+    "Treat digital renewal as the primary case with Beautiful Homeland phases I-II embedded, rather than splitting into two cases? (recommended yes)",
+    "Treat Hengfeng Bank parking and Building 8 elevator as process background only? (recommended yes)",
+    "Adopt the six draft research questions? Split data governance/privacy and older residents/digital divide into separate questions?"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_historical_case_review": false,
+    "note": "C15 may add native instances for minimum management unit, work-order-based demand handling, and resident-facing mini-program. G5/G6 should check concept boundaries with C04 Tianlin Shiercun, C05 Fuyuanfang and C09 Changhong Road."
+  },
+  "researcher_decision": {
+    "action": null,
+    "rationale": null,
+    "modified_content": null,
+    "allow_next_gate": null,
+    "decided_at": null
+  }
+}

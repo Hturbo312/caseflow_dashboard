@@ -1,0 +1,68 @@
+{
+  "packet_id": "RP-C20-L2-G2-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G2",
+  "case_id": "C20",
+  "scope": "C20原生概念到既有共享概念的映射、残余语义候选与支持增量",
+  "generated_at": "2026-11-13",
+  "status": "accepted",
+  "summary": {
+    "mappings": 8,
+    "mapping_type_counts": {
+      "semantic_equivalent": 0,
+      "native_hyponym": 2,
+      "partial_or_approximate": 4,
+      "no_map": 2
+    },
+    "new_candidates": 2,
+    "support_additions": 6,
+    "definition_changes": 0,
+    "negative_example_changes": 0
+  },
+  "mappings": [
+    {"id": "MAP-C20-001", "native": "NC-C20-001", "shared": null, "type": "no_map"},
+    {"id": "MAP-C20-002", "native": "NC-C20-006", "shared": "SC-C01-152", "type": "native_hyponym"},
+    {"id": "MAP-C20-003", "native": "NC-C20-007", "shared": "SC-C01-131", "type": "partial_or_approximate"},
+    {"id": "MAP-C20-004", "native": "NC-C20-002", "shared": "SC-C01-121", "type": "partial_or_approximate"},
+    {"id": "MAP-C20-005", "native": "NC-C20-003", "shared": "SC-C01-122", "type": "partial_or_approximate"},
+    {"id": "MAP-C20-006", "native": "NC-C20-003", "shared": "SC-C01-174", "type": "partial_or_approximate"},
+    {"id": "MAP-C20-007", "native": "NC-C20-004", "shared": "SC-C01-155", "type": "native_hyponym"},
+    {"id": "MAP-C20-008", "native": "NC-C20-005", "shared": null, "type": "no_map"}
+  ],
+  "new_candidates": [
+    {"id": "SC-C20-01", "label": "AI辅助的空间想法生成与可视化", "entity_type": "action", "native": "NC-C20-007"},
+    {"id": "SC-C20-02", "label": "儿童地方知识转译", "entity_type": "action", "native": "NC-C20-002"}
+  ],
+  "support_additions": ["SC-C01-152","SC-C01-131","SC-C01-121","SC-C01-122","SC-C01-174","SC-C01-155"],
+  "conflicts": [
+    "MAP-C20-003 action→technology",
+    "MAP-C20-004/005 action→task",
+    "MAP-C20-006 action→outcome",
+    "C19未进入L2，不能作为第二案例"
+  ],
+  "gaps": [
+    "R038许可主体待讨论",
+    "1个公园更新位置未知",
+    "AI提示词/生成日志缺失",
+    "儿童直接反馈缺失"
+  ],
+  "decisions_requested": [
+    "是否接受8条映射",
+    "是否接受2个单案候选SC-C20-01/02",
+    "是否接受6个既有概念支持增量且0定义/负例修改",
+    "是否确认C19不作为第二案例、复合/元概念不强行映射"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": "support_only",
+    "affects_historical_mappings": "pending_G3",
+    "triggers_case_review": true,
+    "note": "G3回查6个共享概念的历史映射"
+  },
+  "decision": {
+    "action": "accept",
+    "rationale": "研究者确认L2-G2映射与候选，按建议方案通过",
+    "modified_content": null,
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  }
+}

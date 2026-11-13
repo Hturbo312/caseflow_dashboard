@@ -1,0 +1,2321 @@
+{
+  "caseId": "C16",
+  "version": "v0.1",
+  "status": "candidate_pending_researcher",
+  "generatedAt": "2026-11-13",
+  "total": 89,
+  "entities": [
+    {
+      "entityId": "X01",
+      "label": "红钩地理隔离",
+      "type": "context",
+      "aliases": [
+        "Red Hook 半岛",
+        "被高速与水域隔开"
+      ],
+      "definition": "红钩位于布鲁克林西北端，被 Gowanus Expressway 与水域隔开，缺少地铁服务，形成空间与信息上的隔离。",
+      "roles": [
+        {
+          "factId": "F001",
+          "role": "context"
+        },
+        {
+          "factId": "F003",
+          "role": "context"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E01",
+        "M01-E03",
+        "M02-E02"
+      ]
+    },
+    {
+      "entityId": "X02",
+      "label": "宽带市场集中与单一供应商",
+      "type": "context",
+      "aliases": [
+        "一家服务商",
+        "宽带垄断"
+      ],
+      "definition": "红钩居民可获得的宽带选择有限；Red Hook Houses 居民在数年前只能选择一家服务商。",
+      "roles": [
+        {
+          "factId": "F004",
+          "role": "context"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M02-E03",
+        "M02-E04"
+      ]
+    },
+    {
+      "entityId": "X03",
+      "label": "超级风暴 Sandy",
+      "type": "context",
+      "aliases": [
+        "Hurricane Sandy",
+        "Sandy"
+      ],
+      "definition": "2012-10-29 登陆纽约的超级风暴，造成红钩大面积停电、通信中断与洪水。",
+      "roles": [
+        {
+          "factId": "F015",
+          "role": "context"
+        },
+        {
+          "factId": "F017",
+          "role": "context"
+        },
+        {
+          "factId": "F021",
+          "role": "context"
+        },
+        {
+          "factId": "F022",
+          "role": "context"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E16",
+        "M02-E09",
+        "M15-E04",
+        "M11-E06",
+        "M18-E02",
+        "M02-E11",
+        "M11-E07"
+      ]
+    },
+    {
+      "entityId": "X04",
+      "label": "NYCHA 对 Red Hook Houses 的管辖",
+      "type": "context",
+      "aliases": [
+        "NYCHA 管辖",
+        "公共住宅管理"
+      ],
+      "definition": "NYCHA 对 Red Hook Houses 的屋顶与室内设点拥有最终决定权，构成网络扩展的制度条件。",
+      "roles": [
+        {
+          "factId": "F026",
+          "role": "context"
+        },
+        {
+          "factId": "F040",
+          "role": "context"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M02-E15",
+        "M15-E08"
+      ]
+    },
+    {
+      "entityId": "X05",
+      "label": "RISE:NYC 计划",
+      "type": "context",
+      "aliases": [
+        "Resiliency Innovations for a Stronger Economy"
+      ],
+      "definition": "NYCEDC 在 HUD 资助下实施的 Sandy 韧性技术竞赛与资助计划。",
+      "roles": [
+        {
+          "factId": "F033",
+          "role": "context"
+        },
+        {
+          "factId": "F034",
+          "role": "context"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M03-E01",
+        "M03-E04",
+        "M12-E02",
+        "M12-E01",
+        "M03-E05"
+      ]
+    },
+    {
+      "entityId": "X06",
+      "label": "COVID-19 疫情",
+      "type": "context",
+      "aliases": [
+        "新冠疫情",
+        "pandemic"
+      ],
+      "definition": "2020 年起影响纽约的公共卫生危机，使学校、医疗与基本服务转向线上。",
+      "roles": [
+        {
+          "factId": "F044",
+          "role": "context"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E11"
+      ]
+    },
+    {
+      "entityId": "X07",
+      "label": "数字鸿沟与手机依赖",
+      "type": "context",
+      "aliases": [
+        "digital divide",
+        "手机为主上网"
+      ],
+      "definition": "居民上网以手机为主、终端与家庭路由器不足，构成本地网络项目的需求背景。",
+      "roles": [
+        {
+          "factId": "F004",
+          "role": "context"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M02-E03",
+        "M02-E04"
+      ]
+    },
+    {
+      "entityId": "A01",
+      "label": "Red Hook Initiative (RHI)",
+      "type": "actor",
+      "aliases": [
+        "RHI",
+        "红钩倡议"
+      ],
+      "definition": "布鲁克林红钩的社区非营利组织，Red Hook WiFi 的发起者与 2019 年前的运营/所有权主体。",
+      "roles": [
+        {
+          "factId": "F001",
+          "role": "actor"
+        },
+        {
+          "factId": "F005",
+          "role": "actor"
+        },
+        {
+          "factId": "F006",
+          "role": "actor"
+        },
+        {
+          "factId": "F011",
+          "role": "actor"
+        },
+        {
+          "factId": "F013",
+          "role": "actor"
+        },
+        {
+          "factId": "F014",
+          "role": "actor"
+        },
+        {
+          "factId": "F015",
+          "role": "actor"
+        },
+        {
+          "factId": "F016",
+          "role": "actor"
+        },
+        {
+          "factId": "F023",
+          "role": "actor"
+        },
+        {
+          "factId": "F027",
+          "role": "actor"
+        },
+        {
+          "factId": "F031",
+          "role": "actor"
+        },
+        {
+          "factId": "F033",
+          "role": "actor"
+        },
+        {
+          "factId": "F035",
+          "role": "actor"
+        },
+        {
+          "factId": "F041",
+          "role": "actor"
+        },
+        {
+          "factId": "F042",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E01",
+        "M01-E04",
+        "M01-E05",
+        "M11-E03",
+        "M15-E03",
+        "M01-E11",
+        "M01-E12",
+        "M02-E06",
+        "M01-E14",
+        "M01-E15",
+        "M01-E16",
+        "M02-E09",
+        "M15-E04",
+        "M01-E23",
+        "M01-E24",
+        "M02-E13",
+        "M03-E01",
+        "M03-E04",
+        "M12-E02",
+        "M15-E06",
+        "M15-E09",
+        "M15-E10"
+      ]
+    },
+    {
+      "entityId": "A02",
+      "label": "Open Technology Institute (OTI, New America)",
+      "type": "actor",
+      "aliases": [
+        "OTI",
+        "New America OTI",
+        "开放技术研究所"
+      ],
+      "definition": "New America 旗下的技术研究与实践机构，提供 Commotion、Digital Stewards 课程与技术方向。",
+      "roles": [
+        {
+          "factId": "F001",
+          "role": "actor"
+        },
+        {
+          "factId": "F002",
+          "role": "actor"
+        },
+        {
+          "factId": "F013",
+          "role": "actor"
+        },
+        {
+          "factId": "F018",
+          "role": "actor"
+        },
+        {
+          "factId": "F023",
+          "role": "actor"
+        },
+        {
+          "factId": "F033",
+          "role": "actor"
+        },
+        {
+          "factId": "F035",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E01",
+        "M01-E02",
+        "M01-E14",
+        "M01-E18",
+        "M01-E23",
+        "M03-E01",
+        "M03-E04",
+        "M12-E02",
+        "M15-E06"
+      ]
+    },
+    {
+      "entityId": "A03",
+      "label": "Tony Schloss",
+      "type": "actor",
+      "aliases": [
+        "Anthony Schloss"
+      ],
+      "definition": "RHI 媒体项目负责人/技术主任，项目共同发起人。",
+      "roles": [
+        {
+          "factId": "F002",
+          "role": "target"
+        },
+        {
+          "factId": "F041",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E02",
+        "M15-E09"
+      ]
+    },
+    {
+      "entityId": "A04",
+      "label": "Alyx Baldwin",
+      "type": "actor",
+      "aliases": [
+        "Jonathan Baldwin",
+        "JR Baldwin"
+      ],
+      "definition": "Parsons 设计学院毕业生，mesh 网络研究者与 Tidepools 开发者，后加入 OTI。",
+      "roles": [
+        {
+          "factId": "F002",
+          "role": "target"
+        },
+        {
+          "factId": "F006",
+          "role": "actor"
+        },
+        {
+          "factId": "F008",
+          "role": "actor"
+        },
+        {
+          "factId": "F011",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E02",
+        "M01-E05",
+        "M11-E03",
+        "M15-E03",
+        "M01-E07",
+        "M01-E11",
+        "M01-E12",
+        "M02-E06"
+      ]
+    },
+    {
+      "entityId": "A05",
+      "label": "Red Hook Digital Stewards",
+      "type": "actor",
+      "aliases": [
+        "Digital Stewards",
+        "数字管家"
+      ],
+      "definition": "RHI 与 OTI 培训的本地青年维护者群体，承担网络安装、维护、推广与社区技术支持。",
+      "roles": [
+        {
+          "factId": "F024",
+          "role": "actor"
+        },
+        {
+          "factId": "F025",
+          "role": "actor"
+        },
+        {
+          "factId": "F030",
+          "role": "actor"
+        },
+        {
+          "factId": "F039",
+          "role": "actor"
+        },
+        {
+          "factId": "F043",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M02-E14",
+        "M11-E01",
+        "M11-E02",
+        "M02-E12",
+        "M04-E05",
+        "M04-E01",
+        "M04-E02",
+        "M08-E02"
+      ]
+    },
+    {
+      "entityId": "A06",
+      "label": "Robert Smith",
+      "type": "actor",
+      "aliases": [
+        "Robert Earl Smith"
+      ],
+      "definition": "2013 年加入 Digital Stewards 的红钩青年，后成为 RHI 网络系统管理员。",
+      "roles": [
+        {
+          "factId": "F032",
+          "role": "actor"
+        },
+        {
+          "factId": "F041",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M10-E01",
+        "M10-E02",
+        "M15-E09"
+      ]
+    },
+    {
+      "entityId": "A07",
+      "label": "Brooklyn Fiber",
+      "type": "actor",
+      "aliases": [
+        "本地 ISP"
+      ],
+      "definition": "红钩本地互联网服务商，为网络提供可负担的带宽与额外网关。",
+      "roles": [
+        {
+          "factId": "F020",
+          "role": "actor"
+        },
+        {
+          "factId": "F027",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E21",
+        "M01-E24"
+      ]
+    },
+    {
+      "entityId": "A08",
+      "label": "FEMA",
+      "type": "actor",
+      "aliases": [
+        "联邦应急管理署"
+      ],
+      "definition": "美国联邦应急管理署，Sandy 后提供卫星链路与 Innovation Fellow 支持。",
+      "roles": [
+        {
+          "factId": "F019",
+          "role": "actor"
+        },
+        {
+          "factId": "F027",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E19",
+        "M01-E20",
+        "M02-E10",
+        "M01-E24"
+      ]
+    },
+    {
+      "entityId": "A09",
+      "label": "Sky Packets",
+      "type": "actor",
+      "aliases": [
+        "SkyPackets"
+      ],
+      "definition": "社区 Wi-Fi 安装与运营公司，2019 年后接管 Red Hook WiFi 的日常运营与维护。",
+      "roles": [
+        {
+          "factId": "F042",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E10"
+      ]
+    },
+    {
+      "entityId": "A10",
+      "label": "NYCHA",
+      "type": "actor",
+      "aliases": [
+        "纽约市房屋局"
+      ],
+      "definition": "纽约市公共住宅管理机构，对 Red Hook Houses 的设点与准入拥有决定权。",
+      "roles": [
+        {
+          "factId": "F026",
+          "role": "actor"
+        },
+        {
+          "factId": "F040",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M02-E15",
+        "M15-E08"
+      ]
+    },
+    {
+      "entityId": "A11",
+      "label": "NYCEDC",
+      "type": "actor",
+      "aliases": [
+        "New York City Economic Development Corporation"
+      ],
+      "definition": "纽约市经济发展公司，RISE:NYC 的实施机构。",
+      "roles": [
+        {
+          "factId": "F034",
+          "role": "actor"
+        },
+        {
+          "factId": "F035",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M12-E01",
+        "M03-E05",
+        "M15-E06"
+      ]
+    },
+    {
+      "entityId": "A12",
+      "label": "U.S. Department of Housing and Urban Development (HUD)",
+      "type": "actor",
+      "aliases": [
+        "HUD"
+      ],
+      "definition": "美国住房与城市发展部，为 RISE:NYC 提供 CDBG-DR 资金。",
+      "roles": [
+        {
+          "factId": "F034",
+          "role": "actor"
+        },
+        {
+          "factId": "F035",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M12-E01",
+        "M03-E05",
+        "M15-E06"
+      ]
+    },
+    {
+      "entityId": "A13",
+      "label": "NYC Office of Technology and Innovation (NYC OTI)",
+      "type": "actor",
+      "aliases": [
+        "NYC OTI",
+        "市府 OTI"
+      ],
+      "definition": "纽约市技术与创新办公室，负责 Big Apple Connect 等市政宽带事务；不得与 New America 的 OTI 合并。",
+      "roles": [
+        {
+          "factId": "F048",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E14"
+      ]
+    },
+    {
+      "entityId": "A14",
+      "label": "de Blasio 政府",
+      "type": "actor",
+      "aliases": [
+        "Bill de Blasio 政府"
+      ],
+      "definition": "2014–2021 年纽约市政府，推动普遍宽带并支持小型本地 ISP。",
+      "roles": [
+        {
+          "factId": "F047",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E13"
+      ]
+    },
+    {
+      "entityId": "A15",
+      "label": "Adams 政府",
+      "type": "actor",
+      "aliases": [
+        "Eric Adams 政府"
+      ],
+      "definition": "2022 年起纽约市政府，以 Big Apple Connect 取代前任宽带计划。",
+      "roles": [
+        {
+          "factId": "F047",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E13"
+      ]
+    },
+    {
+      "entityId": "A16",
+      "label": "Red Hook Farms",
+      "type": "actor",
+      "aliases": [
+        "红钩农场",
+        "Columbia Street Farm"
+      ],
+      "definition": "RHI 运营的社区农场，使用 mesh 网络监测温室温度与空气质量。",
+      "roles": [
+        {
+          "factId": "F049",
+          "role": "actor"
+        },
+        {
+          "factId": "F050",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E15"
+      ]
+    },
+    {
+      "entityId": "A17",
+      "label": "本地商户宿主",
+      "type": "actor",
+      "aliases": [
+        "小企业伙伴",
+        "business partners",
+        "热点宿主"
+      ],
+      "definition": "在屋顶或店内承载网关/接入点的红钩商户与机构；2017 年报告称 38 家。",
+      "roles": [
+        {
+          "factId": "F022",
+          "role": "actor"
+        },
+        {
+          "factId": "F038",
+          "role": "actor"
+        },
+        {
+          "factId": "F044",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M02-E11",
+        "M11-E07",
+        "M04-E03",
+        "M08-E01",
+        "M15-E11"
+      ]
+    },
+    {
+      "entityId": "A18",
+      "label": "灾后技术志愿者组织",
+      "type": "actor",
+      "aliases": [
+        "NYC Mesh",
+        "HacDC",
+        "ITDRC"
+      ],
+      "definition": "Sandy 后参与红钩网络扩展的技术志愿组织集合，包括 NYC Mesh、HacDC 与 ITDRC。",
+      "roles": [
+        {
+          "factId": "F019",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E19",
+        "M01-E20",
+        "M02-E10"
+      ]
+    },
+    {
+      "entityId": "A19",
+      "label": "Greta Byrum",
+      "type": "actor",
+      "aliases": [
+        "New America Resilient Communities 前主任"
+      ],
+      "definition": "New America Resilient Communities 项目前主任，参与 RISE:NYC，后对 mesh 规模化提出反思。",
+      "roles": [
+        {
+          "factId": "F053",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E16",
+        "M15-E18"
+      ]
+    },
+    {
+      "entityId": "A20",
+      "label": "NYC 主计长与 Urban Ocean Lab",
+      "type": "actor",
+      "aliases": [
+        "Brad Lander",
+        "Urban Ocean Lab"
+      ],
+      "definition": "2022 年发布报告、把红钩 mesh 网络列为社区基础设施案例的政策机构组合。",
+      "roles": [
+        {
+          "factId": "F052",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E17"
+      ]
+    },
+    {
+      "entityId": "A21",
+      "label": "MIT 研究团队",
+      "type": "actor",
+      "aliases": [
+        "MIT 博士生",
+        "participatory action research"
+      ],
+      "definition": "2016 年夏与 Digital Stewards 合作开展参与式行动研究的研究者。",
+      "roles": [
+        {
+          "factId": "F039",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M04-E05"
+      ]
+    },
+    {
+      "entityId": "A22",
+      "label": "汽修店店主",
+      "type": "actor",
+      "aliases": [
+        "auto body shop owner"
+      ],
+      "definition": "红钩汽修店经营者，灾前不愿设点，灾后同意在屋顶安装路由器。",
+      "roles": [
+        {
+          "factId": "F019",
+          "role": "actor"
+        },
+        {
+          "factId": "F022",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E19",
+        "M01-E20",
+        "M02-E10",
+        "M02-E11",
+        "M11-E07"
+      ]
+    },
+    {
+      "entityId": "A23",
+      "label": "纽约市劳动力发展项目",
+      "type": "actor",
+      "aliases": [
+        "NYC Workforce Development"
+      ],
+      "definition": "为 2013 年 Digital Stewards 培训提供资金支持的市级就业项目。",
+      "roles": [
+        {
+          "factId": "F023",
+          "role": "actor"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E23"
+      ]
+    },
+    {
+      "entityId": "K01",
+      "label": "提供免费可靠互联网接入",
+      "type": "task",
+      "aliases": [],
+      "definition": "为红钩居民提供可负担或免费的互联网接入。",
+      "roles": [
+        {
+          "factId": "F005",
+          "role": "task"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E04"
+      ]
+    },
+    {
+      "entityId": "K02",
+      "label": "建立社区所有本地通信平台",
+      "type": "task",
+      "aliases": [],
+      "definition": "建设社区控制、服务本地信息与组织的通信基础设施。",
+      "roles": [
+        {
+          "factId": "F001",
+          "role": "task"
+        },
+        {
+          "factId": "F011",
+          "role": "task"
+        },
+        {
+          "factId": "F012",
+          "role": "task"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E01",
+        "M01-E11",
+        "M01-E12",
+        "M02-E06"
+      ]
+    },
+    {
+      "entityId": "K03",
+      "label": "灾后恢复社区通信",
+      "type": "task",
+      "aliases": [],
+      "definition": "在 Sandy 造成通信中断时恢复居民与救援机构的信息连接。",
+      "roles": [
+        {
+          "factId": "F015",
+          "role": "task"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E16",
+        "M02-E09"
+      ]
+    },
+    {
+      "entityId": "K04",
+      "label": "培养本地网络维护者",
+      "type": "task",
+      "aliases": [],
+      "definition": "培训本地青年安装、维护与推广网络，形成可再生产的维护能力。",
+      "roles": [
+        {
+          "factId": "F023",
+          "role": "task"
+        },
+        {
+          "factId": "F024",
+          "role": "task"
+        },
+        {
+          "factId": "F043",
+          "role": "task"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E23",
+        "M02-E14",
+        "M11-E01",
+        "M04-E01",
+        "M04-E02",
+        "M08-E02"
+      ]
+    },
+    {
+      "entityId": "K05",
+      "label": "扩展覆盖至 Red Hook Houses",
+      "type": "task",
+      "aliases": [],
+      "definition": "把网络覆盖扩展到 NYCHA 公共住宅区内部。",
+      "roles": [
+        {
+          "factId": "F026",
+          "role": "task"
+        },
+        {
+          "factId": "F040",
+          "role": "task"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M02-E15",
+        "M15-E08"
+      ]
+    },
+    {
+      "entityId": "K06",
+      "label": "维持网络长期运营",
+      "type": "task",
+      "aliases": [],
+      "definition": "维持节点、带宽、维护人员与资金的长期可持续。",
+      "roles": [
+        {
+          "factId": "F027",
+          "role": "task"
+        },
+        {
+          "factId": "F030",
+          "role": "task"
+        },
+        {
+          "factId": "F031",
+          "role": "task"
+        },
+        {
+          "factId": "F041",
+          "role": "task"
+        },
+        {
+          "factId": "F053",
+          "role": "task"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E24",
+        "M02-E12",
+        "M02-E13",
+        "M15-E09",
+        "M15-E16",
+        "M15-E18"
+      ]
+    },
+    {
+      "entityId": "T01",
+      "label": "Red Hook WiFi",
+      "type": "technology",
+      "aliases": [
+        "RHI WiFi",
+        "Red Hook Wi-Fi",
+        "红钩 WiFi"
+      ],
+      "definition": "红钩社区无线 mesh 网络/项目/品牌，2011 年末起建设。",
+      "roles": [
+        {
+          "factId": "F005",
+          "role": "technology"
+        },
+        {
+          "factId": "F007",
+          "role": "technology"
+        },
+        {
+          "factId": "F010",
+          "role": "technology"
+        },
+        {
+          "factId": "F015",
+          "role": "technology"
+        },
+        {
+          "factId": "F017",
+          "role": "technology"
+        },
+        {
+          "factId": "F021",
+          "role": "technology"
+        },
+        {
+          "factId": "F025",
+          "role": "technology"
+        },
+        {
+          "factId": "F028",
+          "role": "technology"
+        },
+        {
+          "factId": "F031",
+          "role": "technology"
+        },
+        {
+          "factId": "F032",
+          "role": "technology"
+        },
+        {
+          "factId": "F036",
+          "role": "technology"
+        },
+        {
+          "factId": "F037",
+          "role": "technology"
+        },
+        {
+          "factId": "F039",
+          "role": "technology"
+        },
+        {
+          "factId": "F042",
+          "role": "technology"
+        },
+        {
+          "factId": "F045",
+          "role": "technology"
+        },
+        {
+          "factId": "F046",
+          "role": "technology"
+        },
+        {
+          "factId": "F051",
+          "role": "technology"
+        },
+        {
+          "factId": "F052",
+          "role": "technology"
+        },
+        {
+          "factId": "F053",
+          "role": "technology"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E04",
+        "M01-E06",
+        "M02-E05",
+        "M01-E09",
+        "M10-E02",
+        "M01-E16",
+        "M02-E09",
+        "M15-E04",
+        "M11-E06",
+        "M18-E02",
+        "M11-E02",
+        "M01-E22",
+        "M02-E13",
+        "M10-E01",
+        "M15-E07",
+        "M13-E01",
+        "M04-E04",
+        "M04-E05",
+        "M15-E10",
+        "M15-E12",
+        "M15-E15",
+        "M05-E02",
+        "M15-E17",
+        "M15-E16",
+        "M15-E18"
+      ]
+    },
+    {
+      "entityId": "T02",
+      "label": "Ubiquiti Nanostation",
+      "type": "technology",
+      "aliases": [
+        "Nanostation",
+        "Nanostation Loco",
+        "nano station"
+      ],
+      "definition": "用于屋顶节点与无线回传的 Ubiquiti 无线设备系列。",
+      "roles": [
+        {
+          "factId": "F006",
+          "role": "technology"
+        },
+        {
+          "factId": "F008",
+          "role": "technology"
+        },
+        {
+          "factId": "F020",
+          "role": "technology"
+        },
+        {
+          "factId": "F027",
+          "role": "technology"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E05",
+        "M11-E03",
+        "M15-E03",
+        "M01-E07",
+        "M01-E21",
+        "M01-E24"
+      ]
+    },
+    {
+      "entityId": "T03",
+      "label": "Linksys 路由器",
+      "type": "technology",
+      "aliases": [],
+      "definition": "首个节点室内使用、连接中心调制解调器的路由器。",
+      "roles": [
+        {
+          "factId": "F006",
+          "role": "technology"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E05",
+        "M11-E03",
+        "M15-E03"
+      ]
+    },
+    {
+      "entityId": "T04",
+      "label": "Commotion Wireless",
+      "type": "technology",
+      "aliases": [
+        "Commotion",
+        "Commotion 固件"
+      ],
+      "definition": "OTI 开发的自由开源 mesh 固件，运行于 Ubiquiti 路由器。",
+      "roles": [
+        {
+          "factId": "F010",
+          "role": "technology"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E09",
+        "M10-E02"
+      ]
+    },
+    {
+      "entityId": "T05",
+      "label": "GuruPlug Server",
+      "type": "technology",
+      "aliases": [],
+      "definition": "Coffey Park 节点早期使用的低功耗本地服务器。",
+      "roles": [
+        {
+          "factId": "F009",
+          "role": "technology"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E08"
+      ]
+    },
+    {
+      "entityId": "T06",
+      "label": "Tidepools",
+      "type": "technology",
+      "aliases": [],
+      "definition": "开源可定制本地地图平台，用于本地通信、地方营造与社区资产组织。",
+      "roles": [
+        {
+          "factId": "F012",
+          "role": "technology"
+        },
+        {
+          "factId": "F029",
+          "role": "technology"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E11",
+        "M02-E08"
+      ]
+    },
+    {
+      "entityId": "T07",
+      "label": "Red Hook HUB",
+      "type": "technology",
+      "aliases": [],
+      "definition": "Red Hook WiFi 官网上提供本地信息获取与分享的入口。",
+      "roles": [
+        {
+          "factId": "F051",
+          "role": "technology"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E15",
+        "M05-E02"
+      ]
+    },
+    {
+      "entityId": "T08",
+      "label": "RHI Status",
+      "type": "technology",
+      "aliases": [],
+      "definition": "Sandy 后开发的短信转地图插件，把居民位置与需求映射到 Tidepools。",
+      "roles": [
+        {
+          "factId": "F018",
+          "role": "technology"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E18"
+      ]
+    },
+    {
+      "entityId": "T09",
+      "label": "Where's the B61 Bus?",
+      "type": "technology",
+      "aliases": [],
+      "definition": "使用 MTA BusTime API 的 B61 巴士实时位置与到站应用。",
+      "roles": [
+        {
+          "factId": "F013",
+          "role": "technology"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E14"
+      ]
+    },
+    {
+      "entityId": "T10",
+      "label": "Stop & Frisk Survey",
+      "type": "technology",
+      "aliases": [],
+      "definition": "记录红钩警察拦截与搜查经历的调查应用。",
+      "roles": [
+        {
+          "factId": "F013",
+          "role": "technology"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E14"
+      ]
+    },
+    {
+      "entityId": "T11",
+      "label": "RHI Radio",
+      "type": "technology",
+      "aliases": [],
+      "definition": "由 RHI 青年广播组制作内容的在线电台，2012 年时仍在开发。",
+      "roles": [
+        {
+          "factId": "F014",
+          "role": "technology"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E15"
+      ]
+    },
+    {
+      "entityId": "T12",
+      "label": "备电系统（太阳能/UPS）",
+      "type": "technology",
+      "aliases": [
+        "solar backup",
+        "UPS",
+        "resilient hotspots"
+      ],
+      "definition": "为节点提供停电时继续运行的太阳能备电与不间断电源。",
+      "roles": [
+        {
+          "factId": "F020",
+          "role": "technology"
+        },
+        {
+          "factId": "F036",
+          "role": "technology"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E21",
+        "M15-E07"
+      ]
+    },
+    {
+      "entityId": "T13",
+      "label": "FEMA 卫星链路",
+      "type": "technology",
+      "aliases": [],
+      "definition": "Sandy 后为网络提供临时互联网上行的卫星链路。",
+      "roles": [
+        {
+          "factId": "F019",
+          "role": "technology"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E19",
+        "M01-E20",
+        "M02-E10"
+      ]
+    },
+    {
+      "entityId": "T14",
+      "label": "环境传感器",
+      "type": "technology",
+      "aliases": [
+        "temperature sensors",
+        "air quality sensors",
+        "air quality monitors"
+      ],
+      "definition": "连接 mesh 网络、监测温室温度与户外空气质量的传感器。",
+      "roles": [
+        {
+          "factId": "F049",
+          "role": "technology"
+        },
+        {
+          "factId": "F050",
+          "role": "technology"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E15"
+      ]
+    },
+    {
+      "entityId": "C01",
+      "label": "断网本地通信",
+      "type": "capability",
+      "aliases": [],
+      "definition": "即使没有互联网上行，网络仍可提供社区内部通信与本地服务。",
+      "roles": [
+        {
+          "factId": "F009",
+          "role": "capability"
+        },
+        {
+          "factId": "F010",
+          "role": "capability"
+        },
+        {
+          "factId": "F029",
+          "role": "capability"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E08",
+        "M01-E09",
+        "M10-E02",
+        "M02-E08"
+      ]
+    },
+    {
+      "entityId": "C02",
+      "label": "自愈 mesh 路由",
+      "type": "capability",
+      "aliases": [],
+      "definition": "路由器故障时其他节点自动重配，维持网络覆盖。",
+      "roles": [
+        {
+          "factId": "F010",
+          "role": "capability"
+        },
+        {
+          "factId": "F032",
+          "role": "capability"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E09",
+        "M10-E02",
+        "M10-E01"
+      ]
+    },
+    {
+      "entityId": "C03",
+      "label": "本地信息发布与留言",
+      "type": "capability",
+      "aliases": [],
+      "definition": "通过 splash page、留言板与本地页面发布社区信息并收集回应。",
+      "roles": [
+        {
+          "factId": "F007",
+          "role": "capability"
+        },
+        {
+          "factId": "F012",
+          "role": "capability"
+        },
+        {
+          "factId": "F051",
+          "role": "capability"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E06",
+        "M02-E05",
+        "M01-E11",
+        "M15-E15",
+        "M05-E02"
+      ]
+    },
+    {
+      "entityId": "C04",
+      "label": "短信位置/需求映射",
+      "type": "capability",
+      "aliases": [],
+      "definition": "把居民短信中的位置与需求自动映射到本地地图并形成讨论。",
+      "roles": [
+        {
+          "factId": "F018",
+          "role": "capability"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E18"
+      ]
+    },
+    {
+      "entityId": "C05",
+      "label": "环境监测",
+      "type": "capability",
+      "aliases": [],
+      "definition": "通过联网传感器监测温室温度、停电与空气质量。",
+      "roles": [
+        {
+          "factId": "F049",
+          "role": "capability"
+        },
+        {
+          "factId": "F050",
+          "role": "capability"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E15"
+      ]
+    },
+    {
+      "entityId": "AC01",
+      "label": "接触 OTI 并建立合作",
+      "type": "action",
+      "aliases": [],
+      "definition": "RHI 于 2011 年秋接触 OTI，并经引荐与 Baldwin 合作。",
+      "roles": [
+        {
+          "factId": "F002",
+          "role": "action"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E02"
+      ]
+    },
+    {
+      "entityId": "AC02",
+      "label": "安装试验节点",
+      "type": "action",
+      "aliases": [],
+      "definition": "2011 年末至 2012 年春在 RHI 与 Coffey Park 安装首批节点。",
+      "roles": [
+        {
+          "factId": "F006",
+          "role": "action"
+        },
+        {
+          "factId": "F007",
+          "role": "action"
+        },
+        {
+          "factId": "F008",
+          "role": "action"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E05",
+        "M11-E03",
+        "M15-E03",
+        "M01-E06",
+        "M02-E05",
+        "M01-E07"
+      ]
+    },
+    {
+      "entityId": "AC03",
+      "label": "开展工作坊与需求识别",
+      "type": "action",
+      "aliases": [],
+      "definition": "与社区成员举办工作坊，识别本地需求并收集设计想法。",
+      "roles": [
+        {
+          "factId": "F011",
+          "role": "action"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E11",
+        "M01-E12",
+        "M02-E06"
+      ]
+    },
+    {
+      "entityId": "AC04",
+      "label": "开发 Tidepools",
+      "type": "action",
+      "aliases": [],
+      "definition": "开发并试点本地地图平台 Tidepools。",
+      "roles": [
+        {
+          "factId": "F012",
+          "role": "action"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E11"
+      ]
+    },
+    {
+      "entityId": "AC05",
+      "label": "上线本地应用",
+      "type": "action",
+      "aliases": [],
+      "definition": "上线 B61 巴士与 Stop & Frisk 应用，开发 RHI Radio。",
+      "roles": [
+        {
+          "factId": "F013",
+          "role": "action"
+        },
+        {
+          "factId": "F014",
+          "role": "action"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E14",
+        "M01-E15"
+      ]
+    },
+    {
+      "entityId": "AC06",
+      "label": "Sandy 期间维持 RHI 通信据点",
+      "type": "action",
+      "aliases": [],
+      "definition": "在风暴期间维持 RHI 的网络与电力，接待居民充电与联网。",
+      "roles": [
+        {
+          "factId": "F015",
+          "role": "action"
+        },
+        {
+          "factId": "F016",
+          "role": "action"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E16",
+        "M02-E09",
+        "M15-E04"
+      ]
+    },
+    {
+      "entityId": "AC07",
+      "label": "开发 RHI Status",
+      "type": "action",
+      "aliases": [],
+      "definition": "灾后数日内开发短信转地图工具。",
+      "roles": [
+        {
+          "factId": "F018",
+          "role": "action"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E18"
+      ]
+    },
+    {
+      "entityId": "AC08",
+      "label": "灾后扩展网络",
+      "type": "action",
+      "aliases": [],
+      "definition": "借助 FEMA 卫星、志愿者与汽修店等新宿主扩展网络。",
+      "roles": [
+        {
+          "factId": "F019",
+          "role": "action"
+        },
+        {
+          "factId": "F022",
+          "role": "action"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E19",
+        "M01-E20",
+        "M02-E10",
+        "M02-E11",
+        "M11-E07"
+      ]
+    },
+    {
+      "entityId": "AC09",
+      "label": "安装 Brooklyn Fiber 网关",
+      "type": "action",
+      "aliases": [],
+      "definition": "在 Visitation Church Rectory 安装光纤接收与接入设备。",
+      "roles": [
+        {
+          "factId": "F020",
+          "role": "action"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E21"
+      ]
+    },
+    {
+      "entityId": "AC10",
+      "label": "启动 Digital Stewards",
+      "type": "action",
+      "aliases": [],
+      "definition": "2013 年 1 月启动本地青年网络维护培训。",
+      "roles": [
+        {
+          "factId": "F023",
+          "role": "action"
+        },
+        {
+          "factId": "F024",
+          "role": "action"
+        },
+        {
+          "factId": "F043",
+          "role": "action"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E23",
+        "M02-E14",
+        "M11-E01",
+        "M04-E01",
+        "M04-E02",
+        "M08-E02"
+      ]
+    },
+    {
+      "entityId": "AC11",
+      "label": "维护与扩展网络",
+      "type": "action",
+      "aliases": [],
+      "definition": "持续安装节点、维护设备、招募宿主与推广网络。",
+      "roles": [
+        {
+          "factId": "F025",
+          "role": "action"
+        },
+        {
+          "factId": "F026",
+          "role": "action"
+        },
+        {
+          "factId": "F038",
+          "role": "action"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M11-E02",
+        "M02-E15",
+        "M04-E03",
+        "M08-E01"
+      ]
+    },
+    {
+      "entityId": "AC12",
+      "label": "申请并获 RISE:NYC",
+      "type": "action",
+      "aliases": [],
+      "definition": "New America 与 RHI 的 Red Hook 网络获得 RISE:NYC 资助。",
+      "roles": [
+        {
+          "factId": "F033",
+          "role": "action"
+        },
+        {
+          "factId": "F036",
+          "role": "action"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M03-E01",
+        "M03-E04",
+        "M12-E02",
+        "M15-E07"
+      ]
+    },
+    {
+      "entityId": "AC13",
+      "label": "移交 Sky Packets",
+      "type": "action",
+      "aliases": [],
+      "definition": "2019 年 RHI 把网络运营移交给 Sky Packets。",
+      "roles": [
+        {
+          "factId": "F042",
+          "role": "action"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E10"
+      ]
+    },
+    {
+      "entityId": "AC14",
+      "label": "疫情撤点与网络收缩",
+      "type": "action",
+      "aliases": [],
+      "definition": "2020 年商户撤下节点，施工与设备老化导致站点减少。",
+      "roles": [
+        {
+          "factId": "F044",
+          "role": "action"
+        },
+        {
+          "factId": "F045",
+          "role": "action"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E11",
+        "M15-E12"
+      ]
+    },
+    {
+      "entityId": "AC15",
+      "label": "安装农场环境传感器",
+      "type": "action",
+      "aliases": [],
+      "definition": "在 Red Hook Farms 安装温度与空气质量传感器并接入 mesh。",
+      "roles": [
+        {
+          "factId": "F049",
+          "role": "action"
+        },
+        {
+          "factId": "F050",
+          "role": "action"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E15"
+      ]
+    },
+    {
+      "entityId": "AC16",
+      "label": "市府政策替代（Big Apple Connect）",
+      "type": "action",
+      "aliases": [],
+      "definition": "2022 年 Adams 政府以 Big Apple Connect 取代原宽带计划。",
+      "roles": [
+        {
+          "factId": "F047",
+          "role": "action"
+        },
+        {
+          "factId": "F048",
+          "role": "action"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E13",
+        "M15-E14"
+      ]
+    },
+    {
+      "entityId": "G01",
+      "label": "Red Hook 社区",
+      "type": "target",
+      "aliases": [
+        "红钩社区",
+        "Red Hook neighborhood"
+      ],
+      "definition": "布鲁克林红钩半岛及其居民、商户与公共空间。",
+      "roles": [
+        {
+          "factId": "F003",
+          "role": "target"
+        },
+        {
+          "factId": "F025",
+          "role": "target"
+        },
+        {
+          "factId": "F030",
+          "role": "target"
+        },
+        {
+          "factId": "F036",
+          "role": "target"
+        },
+        {
+          "factId": "F039",
+          "role": "target"
+        },
+        {
+          "factId": "F046",
+          "role": "target"
+        },
+        {
+          "factId": "F052",
+          "role": "target"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E03",
+        "M02-E02",
+        "M11-E02",
+        "M02-E12",
+        "M15-E07",
+        "M04-E05",
+        "M15-E12",
+        "M15-E17"
+      ]
+    },
+    {
+      "entityId": "G02",
+      "label": "Red Hook Houses",
+      "type": "target",
+      "aliases": [
+        "NYCHA Red Hook Houses",
+        "红钩公共住宅"
+      ],
+      "definition": "布鲁克林最大的公共住宅区之一，网络长期希望覆盖但未能进入室内。",
+      "roles": [
+        {
+          "factId": "F026",
+          "role": "target"
+        },
+        {
+          "factId": "F040",
+          "role": "target"
+        },
+        {
+          "factId": "F045",
+          "role": "target"
+        },
+        {
+          "factId": "F047",
+          "role": "target"
+        },
+        {
+          "factId": "F048",
+          "role": "target"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M02-E15",
+        "M15-E08",
+        "M15-E12",
+        "M15-E13",
+        "M15-E14"
+      ]
+    },
+    {
+      "entityId": "G03",
+      "label": "Red Hook 居民",
+      "type": "target",
+      "aliases": [
+        "居民",
+        "residents",
+        "社区成员"
+      ],
+      "definition": "红钩居民，网络的用户、参与者与服务对象。",
+      "roles": [
+        {
+          "factId": "F003",
+          "role": "target"
+        },
+        {
+          "factId": "F004",
+          "role": "target"
+        },
+        {
+          "factId": "F007",
+          "role": "target"
+        },
+        {
+          "factId": "F008",
+          "role": "target"
+        },
+        {
+          "factId": "F011",
+          "role": "target"
+        },
+        {
+          "factId": "F013",
+          "role": "target"
+        },
+        {
+          "factId": "F016",
+          "role": "target"
+        },
+        {
+          "factId": "F017",
+          "role": "target"
+        },
+        {
+          "factId": "F018",
+          "role": "target"
+        },
+        {
+          "factId": "F024",
+          "role": "target"
+        },
+        {
+          "factId": "F028",
+          "role": "target"
+        },
+        {
+          "factId": "F029",
+          "role": "target"
+        },
+        {
+          "factId": "F037",
+          "role": "target"
+        },
+        {
+          "factId": "F044",
+          "role": "target"
+        },
+        {
+          "factId": "F051",
+          "role": "target"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E03",
+        "M02-E02",
+        "M02-E03",
+        "M02-E04",
+        "M01-E06",
+        "M02-E05",
+        "M01-E07",
+        "M01-E11",
+        "M01-E12",
+        "M02-E06",
+        "M01-E14",
+        "M02-E09",
+        "M15-E04",
+        "M01-E16",
+        "M11-E06",
+        "M01-E18",
+        "M02-E14",
+        "M11-E01",
+        "M01-E22",
+        "M02-E08",
+        "M13-E01",
+        "M04-E04",
+        "M15-E11",
+        "M15-E15",
+        "M05-E02"
+      ]
+    },
+    {
+      "entityId": "G04",
+      "label": "本地商户",
+      "type": "target",
+      "aliases": [
+        "小企业",
+        "local businesses"
+      ],
+      "definition": "红钩商业街廊的商户，作为网络宿主、服务对象与培训合作方。",
+      "roles": [
+        {
+          "factId": "F019",
+          "role": "target"
+        },
+        {
+          "factId": "F022",
+          "role": "target"
+        },
+        {
+          "factId": "F038",
+          "role": "target"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E19",
+        "M01-E20",
+        "M02-E10",
+        "M02-E11",
+        "M11-E07",
+        "M04-E03",
+        "M08-E01"
+      ]
+    },
+    {
+      "entityId": "G05",
+      "label": "屋顶/建筑",
+      "type": "target",
+      "aliases": [
+        "屋顶",
+        "rooftops",
+        "buildings"
+      ],
+      "definition": "承载路由器、天线与网关的屋顶与建筑。",
+      "roles": [
+        {
+          "factId": "F005",
+          "role": "target"
+        },
+        {
+          "factId": "F006",
+          "role": "target"
+        },
+        {
+          "factId": "F008",
+          "role": "target"
+        },
+        {
+          "factId": "F009",
+          "role": "target"
+        },
+        {
+          "factId": "F020",
+          "role": "target"
+        },
+        {
+          "factId": "F032",
+          "role": "target"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E04",
+        "M01-E05",
+        "M11-E03",
+        "M15-E03",
+        "M01-E07",
+        "M01-E08",
+        "M01-E21",
+        "M10-E01",
+        "M10-E02"
+      ]
+    },
+    {
+      "entityId": "G06",
+      "label": "农场/温室",
+      "type": "target",
+      "aliases": [
+        "Red Hook Farms 温室",
+        "greenhouses"
+      ],
+      "definition": "Red Hook Farms 的温室与农产品冷藏设施。",
+      "roles": [
+        {
+          "factId": "F049",
+          "role": "target"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E15"
+      ]
+    },
+    {
+      "entityId": "G07",
+      "label": "空气质量数据",
+      "type": "target",
+      "aliases": [
+        "air quality readings",
+        "pollution data"
+      ],
+      "definition": "由传感器采集并上传到全国空气质量地图的污染读数。",
+      "roles": [
+        {
+          "factId": "F050",
+          "role": "target"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E15"
+      ]
+    },
+    {
+      "entityId": "O01",
+      "label": "Sandy 期间核心据点持续联网",
+      "type": "outcome",
+      "aliases": [],
+      "definition": "RHI 与部分节点在风暴期间维持网络，成为居民联网与报平安的据点。",
+      "roles": [
+        {
+          "factId": "F015",
+          "role": "outcome"
+        },
+        {
+          "factId": "F016",
+          "role": "outcome"
+        },
+        {
+          "factId": "F021",
+          "role": "outcome"
+        },
+        {
+          "factId": "F053",
+          "role": "outcome"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E16",
+        "M02-E09",
+        "M15-E04",
+        "M18-E02",
+        "M15-E16",
+        "M15-E18"
+      ]
+    },
+    {
+      "entityId": "O02",
+      "label": "灾后使用量激增",
+      "type": "outcome",
+      "aliases": [],
+      "definition": "Sandy 后网络使用量显著上升，现有材料给出 300/1,000/1,200 人/日三种口径。",
+      "roles": [
+        {
+          "factId": "F017",
+          "role": "outcome"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E16",
+        "M15-E04",
+        "M11-E06"
+      ]
+    },
+    {
+      "entityId": "O03",
+      "label": "网络峰值约 20 站点",
+      "type": "outcome",
+      "aliases": [],
+      "definition": "RISE:NYC 扩张后网络覆盖约 20 个站点（另有约 40 节点的冲突口径）。",
+      "roles": [
+        {
+          "factId": "F025",
+          "role": "outcome"
+        },
+        {
+          "factId": "F036",
+          "role": "outcome"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M11-E02",
+        "M15-E07"
+      ]
+    },
+    {
+      "entityId": "O04",
+      "label": "2023 年约 10 个活跃站点",
+      "type": "outcome",
+      "aliases": [],
+      "definition": "2023 年报道时约剩 10 个活跃 Wi-Fi 位置，Coffey Park 已退出。",
+      "roles": [
+        {
+          "factId": "F045",
+          "role": "outcome"
+        },
+        {
+          "factId": "F046",
+          "role": "outcome"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E12"
+      ]
+    },
+    {
+      "entityId": "O05",
+      "label": "访问量统计",
+      "type": "outcome",
+      "aliases": [],
+      "definition": "2016 年上半年 15,624 次访问/3,000+ 用户；2017 年 17,901 次访问。",
+      "roles": [
+        {
+          "factId": "F028",
+          "role": "outcome"
+        },
+        {
+          "factId": "F037",
+          "role": "outcome"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M01-E22",
+        "M13-E01",
+        "M04-E04"
+      ]
+    },
+    {
+      "entityId": "O06",
+      "label": "2017 年 38 家商户宿主",
+      "type": "outcome",
+      "aliases": [],
+      "definition": "2017 年 Red Hook WIFI 招募 38 家本地商户作为热点宿主。",
+      "roles": [
+        {
+          "factId": "F038",
+          "role": "outcome"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M04-E03",
+        "M08-E01"
+      ]
+    },
+    {
+      "entityId": "O07",
+      "label": "Stewards 就业/教育成果",
+      "type": "outcome",
+      "aliases": [],
+      "definition": "2017 年报告中 77% 的 Digital Stewards 在六个月内就业或继续求学。",
+      "roles": [
+        {
+          "factId": "F043",
+          "role": "outcome"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M04-E01",
+        "M04-E02",
+        "M08-E02"
+      ]
+    },
+    {
+      "entityId": "O08",
+      "label": "Red Hook Houses 室内未覆盖",
+      "type": "outcome",
+      "aliases": [],
+      "definition": "尽管有户外覆盖与政策讨论，Red Hook Houses 居民室内接入仍未实现。",
+      "roles": [
+        {
+          "factId": "F048",
+          "role": "outcome"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E14"
+      ]
+    },
+    {
+      "entityId": "O09",
+      "label": "移交后 Sky Packets 运营与月成本",
+      "type": "outcome",
+      "aliases": [],
+      "definition": "2019 年后 Sky Packets 承担约 3,000 美元/月的数据与电力成本及日常维护。",
+      "roles": [
+        {
+          "factId": "F042",
+          "role": "outcome"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E10"
+      ]
+    },
+    {
+      "entityId": "O10",
+      "label": "2022 年政策报告认可",
+      "type": "outcome",
+      "aliases": [],
+      "definition": "NYC 主计长与 Urban Ocean Lab 报告把该网络列为城市应支持的社区基础设施案例。",
+      "roles": [
+        {
+          "factId": "F052",
+          "role": "outcome"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E17"
+      ]
+    },
+    {
+      "entityId": "O11",
+      "label": "农场传感与空气质量监测",
+      "type": "outcome",
+      "aliases": [],
+      "definition": "Red Hook Farms 通过 mesh 监测温室温度、停电与空气质量。",
+      "roles": [
+        {
+          "factId": "F049",
+          "role": "outcome"
+        },
+        {
+          "factId": "F050",
+          "role": "outcome"
+        }
+      ],
+      "sourceEvidenceIds": [
+        "M15-E15"
+      ]
+    }
+  ]
+}

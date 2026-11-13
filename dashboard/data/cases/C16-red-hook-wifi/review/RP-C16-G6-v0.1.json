@@ -1,0 +1,45 @@
+{
+  "packetId": "RP-C16-G6-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G6",
+  "caseId": "C16",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher_confirmation",
+  "scope": "关系去重、补漏、矛盾、方向与状态审校",
+  "baselineRelations": 101,
+  "candidateRelations": 110,
+  "deleted": 0,
+  "modified": 8,
+  "added": 9,
+  "predicateCount": 67,
+  "factCoverage": "53/53",
+  "entityCoverage": "89/89",
+  "decisionPoints": [
+    "接受 8 项修改",
+    "接受 9 项新增",
+    "同意 0 删除与近重复保留",
+    "5 项遗漏留作未决",
+    "以 110 条冻结为 v2.0"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false,
+    "scope": "新增 C16 冻结关系与案例包；不修改 C01–C15"
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": false,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "openIssues": [
+    "Sky Packets 2019 年前参与",
+    "RHI/Digital Stewards 治理关系",
+    "施工方未登记",
+    "居民内部差异",
+    "2021-2022 政策过程缺一手文件"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "packetId": "L2-C20-shared-v1.0",
+  "caseId": "C20",
+  "version": "L2-C20-v1.0",
+  "status": "released",
+  "generatedAt": "2026-11-13",
+  "baseLayer": "L2-C18-v1.0 + L2-C19-v0.1 (DB-only)",
+  "promoted": [
+    {
+      "id": "SC-C19-102",
+      "label": "生成式AI参与式可视化",
+      "entity_type": "technology",
+      "definition": "以参与者口述或文本提示驱动生成式AI，实时生成场所营造图像并支持反复修改。",
+      "scope": "生成式图像工具/实践；不含传统GIS、3D建模或预设图库。",
+      "negative_examples": ["仅展示预设图、无参与者提示"],
+      "supporting_case_ids": ["C19","C20"],
+      "supporting_native_ids": ["NC-C19-02","NC-C20-007"],
+      "version": "L2-C20-v1.0",
+      "review": "researcher_confirmed",
+      "previous_review": "candidate_single_case",
+      "promotion_basis": "C19+C20两案例均出现生成式AI参与式可视化；定义/负例不变。"
+    }
+  ],
+  "new_candidates": [
+    {
+      "id": "SC-C20-02",
+      "label": "儿童地方知识转译",
+      "entity_type": "action",
+      "definition": "把儿童对安全、隐私、绿色社交空间的地方经验与需求，转译为选址、空间要素与设计方案的行动。",
+      "scope": "只含儿童地方知识进入设计转译；不含一般社区需求识别、成人代述或未进入设计的意见收集。",
+      "negative_examples": ["一般社区需求调查未进入设计","成人代替儿童表达","仅收集意见未转译","把儿童引语直接当设计依据"],
+      "supporting_case_ids": ["C20"],
+      "supporting_native_ids": ["NC-C20-002"],
+      "version": "L2-C20-v1.0",
+      "review": "candidate_single_case"
+    }
+  ],
+  "withdrawn_candidates": [
+    {
+      "id": "SC-C20-01",
+      "label": "AI辅助的空间想法生成与可视化",
+      "reason": "与SC-C19-102生成式AI参与式可视化近重复；C19已提供第一案例",
+      "replacement_mapping": "MAP-C20-009"
+    }
+  ],
+  "support_additions": [
+    {"shared_concept_id": "SC-C01-152", "add_case_id": "C20", "add_native_ids": ["NC-C20-006"], "scope": "儿童主导的公共空间共制"},
+    {"shared_concept_id": "SC-C01-131", "add_case_id": "C20", "add_native_ids": ["NC-C20-007"], "scope": "AI可视化工具/媒介成分"},
+    {"shared_concept_id": "SC-C01-121", "add_case_id": "C20", "add_native_ids": ["NC-C20-002"], "scope": "儿童安全/隐私/绿色社交需求识别"},
+    {"shared_concept_id": "SC-C01-122", "add_case_id": "C20", "add_native_ids": ["NC-C20-003"], "scope": "方案定稿/启动/采购准备"},
+    {"shared_concept_id": "SC-C01-174", "add_case_id": "C20", "add_native_ids": ["NC-C20-003"], "scope": "市政许可/审批进展"},
+    {"shared_concept_id": "SC-C01-155", "add_case_id": "C20", "add_native_ids": ["NC-C20-004"], "scope": "多机构共创安排"}
+  ],
+  "counts": {
+    "shared_concept_records_before": 101,
+    "shared_concept_records_after": 102,
+    "confirmed_before": 47,
+    "confirmed_after": 48,
+    "single_candidates_after": 45,
+    "awaiting_second_case_after": 7,
+    "evidence_weak_after": 1,
+    "held_after": 1,
+    "mappings": 9,
+    "support_additions": 7,
+    "new_candidates": 1,
+    "withdrawn_candidates": 1,
+    "promotions": 1,
+    "definition_changes": 0,
+    "negative_changes": 0,
+    "historical_mapping_changes": 0,
+    "historical_reclassifications": 0
+  },
+  "note": "只提交C20增量与文件级发布；不覆盖C19或既有共享概念文件。发布文件计数已按导入前实际库状态校正：C19的13个候选与SC-C16-201晋升已计入101条基线。",
+  "release_decision": {
+    "action": "accept",
+    "version": "L2-C20-v1.0",
+    "release_scope": "file-level only",
+    "released_at": "2026-11-13"
+  }
+}

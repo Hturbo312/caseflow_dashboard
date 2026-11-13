@@ -1,0 +1,508 @@
+Title: ITS Bring 36Mbps Fixed Wireless Broadband to East Manchester
+
+URL Source: https://www.ispreview.co.uk/index.php/2014/08/bring-36mbps-fixed-wireless-broadband-east-manchester.html
+
+Published Time: 2014-08-20T12:43:47+00:00
+
+Markdown Content:
+Mobile Menu
+
+ - [x] 
+
+[Home](https://www.ispreview.co.uk/)[ISP List and Comparison](https://www.ispreview.co.uk/list.shtml)[Speedtest](https://www.ispreview.co.uk/speed/)[Reader Reviews](https://www.ispreview.co.uk/review)[Top 10 UK ISPs](https://www.ispreview.co.uk/review/top10.php)[Discussion Forum](https://www.ispreview.co.uk/talk)[Broadband Technology](https://www.ispreview.co.uk/broadband.shtml)[Complaints Advice](https://www.ispreview.co.uk/new/complain/complain.shtml)[Editorial Articles](https://www.ispreview.co.uk/articles.shtml)[Contact Us](https://www.ispreview.co.uk/contact.shtml)
+
+*   [Home](https://www.ispreview.co.uk/ "ISPreview.co.uk Home Page")
+*   [Articles](https://www.ispreview.co.uk/articles.shtml "Special Editorial Articles")
+*   [ISP List](https://www.ispreview.co.uk/list.shtml "UK ISP List and Comparisons")
+*   [Reviews](https://www.ispreview.co.uk/review "Reader ISP Reviews")
+*   [Top 10](https://www.ispreview.co.uk/review/top10.php "Top 10 UK Broadband ISPs")
+*   [Forum](https://www.ispreview.co.uk/talk "Broadband ISP Discussion Forum")
+*   [Speedtest](https://www.ispreview.co.uk/speed/ "Broadband ISP Speedtest")
+*   [Broadband](https://www.ispreview.co.uk/broadband.shtml "Broadband Connection Technologies")
+*   [Complaints](https://www.ispreview.co.uk/new/complain/complain.shtml "Consumer UK ISP Complaints and Advice")
+*   [Contact](https://www.ispreview.co.uk/contact.shtml "ISPreview.co.uk Staff Contacts")
+
+[Home](https://www.ispreview.co.uk/ "Back to Homepage")
+
+**»**[ISP News](https://www.ispreview.co.uk/index.php/category/uk_isp_news)**»**
+
+# ITS Bring 36Mbps Fixed Wireless Broadband to East Manchester
+
+Wednesday, Aug 20th, 2014 (1:43 pm) - Score 1,071 
+
+[Email](mailto:?subject=A%20Useful%20Page%20on%20ISPreview.co.uk&body=I%20recommend%20this%20page%20-%20https://www.ispreview.co.uk/index.php/2014/08/bring-36mbps-fixed-wireless-broadband-east-manchester.html "Email this page to a friend") | [Link News](https://www.ispreview.co.uk/index.php/2014/08/bring-36mbps-fixed-wireless-broadband-east-manchester.html "ITS Bring 36Mbps Fixed Wireless Broadband to East Manchester")
+
+[1 Comment](https://www.ispreview.co.uk/index.php/2014/08/bring-36mbps-fixed-wireless-broadband-east-manchester.html#respond)
+
+[ITS Technology](http://www.itstechnologygroup.com/), which very recently gobbled wireless broadband ISP CityServe Ltd. in East Manchester ([here](https://www.ispreview.co.uk/index.php/2014/07/technology-gobbles-uk-wireless-broadband-isp-cityserve.html)), has completed its overhaul of the aforementioned network and today announced the launch of their “_faster [and] more reliable_” 36Mbps (Megabits per second) capable business and home broadband service in the same area.
+
+The network previously specialised in delivering Internet access and other services to social housing and hard to reach homes in the area, although as well as being upgraded the new service has also been expanded to deliver a business-grade service to nearby SMEs. Prices for the business products are expected to start from **£29.99 per month**, although it’s not clear what you get for that.
+
+Advertisement
+
+Discover more
+
+Compare ISPs
+
+ISPs
+
+ISP
+
+> **Roy Shelton, CEO of [ITS Technology](https://www.ispreview.co.uk/index.php/link/itstechnology), said:**
+> 
+> 
+> “_Manchester is the largest city outside of London in terms of output, and although there are pockets of superfast broadband speeds available, the average is a paltry 2Mbps. The wireless network we have acquired and upgraded services a fairly deprived area where many residents and businesses are digitally excluded with little or no connectivity._
+> 
+> 
+> _This facility will give residents access to a superfast service that they will be able to pay for as they go; and SMEs can access low cost business-grade services, making it affordable as well as an attractive proposition that will entice businesses to establish themselves in this area_.”
+
+The network covers a 25km² area of East Manchester, which includes **48,000 homes** in 3,000 postcodes (e.g. M40, M18 and M11). Local businesses can also benefit from the Government’s Broadband Connection Voucher scheme, of which ITS is a member.
+
+**Tags:**[Building Digital UK](https://www.ispreview.co.uk/index.php/tag/bduk) , [ITS Technology](https://www.ispreview.co.uk/index.php/tag/its-technology) , [Wireless Internet](https://www.ispreview.co.uk/index.php/tag/wifi)
+
+![Image 1: Mark-Jackson](https://www.ispreview.co.uk/wp-content/uploads/2023/01/nggallery_import/Mark-Jackson-100x100.jpg)
+
+**By [Mark Jackson](https://www.ispreview.co.uk/contact.shtml)**  
+ Mark is a professional technology writer, IT consultant and computer engineer from Dorset (England), he also founded ISPreview in 1999 and enjoys analysing the latest telecoms and broadband developments. Find me on [X (Twitter)](https://twitter.com/ispreview), [Mastodon](https://mastodon.social/@ispreview), [Facebook](https://www.facebook.com/ispreview), [BlueSky](https://bsky.app/profile/ispreview.bsky.social), [Threads.net](https://www.threads.net/@ispreview) and [Linkedin](https://www.linkedin.com/in/mjack/).
+
+**Latest UK ISP News:**
+
+![Image 2: Grand-Theft-Auto-6](https://www.ispreview.co.uk/wp-content/uploads/2026/07/nggallery_import/Grand-Theft-Auto-6-150x150.webp)
+
+[Openreach details UK broadband traffic impact from GTA 6 pre-loading](https://www.ispreview.co.uk/index.php/2026/11/openreach-details-uk-broadband-traffic-impact-from-gta-6-pre-loading.html "UK ISP News Article for Friday, November 13th, 2026")
+
+![Image 3: Streetwave-South-Yorkshire-Survey-Area](https://www.ispreview.co.uk/wp-content/uploads/2025/05/nggallery_import/Streetwave-South-Yorkshire-Survey-Area-150x150.webp)
+
+[EE UK comes top in updated map of South Yorkshire 4G and 5G mobile speeds](https://www.ispreview.co.uk/index.php/2026/11/ee-uk-comes-top-in-updated-map-of-south-yorkshire-4g-and-5g-mobile-speeds.html "UK ISP News Article for Thursday, November 12th, 2026")
+
+![Image 4: VOXI Mobile UK black on white text](https://www.ispreview.co.uk/wp-content/uploads/2024/12/nggallery_import/VOXI-Mobile-UK-black-on-white-text-150x150.webp)
+
+[VOXI launches Black Friday sales across UK 5G mobile plans](https://www.ispreview.co.uk/index.php/2026/11/voxi-launches-black-friday-sales-across-uk-5g-mobile-plans.html "UK ISP News Article for Thursday, November 12th, 2026")
+
+![Image 5: Squirrel Internet for ISPReview](https://www.ispreview.co.uk/wp-content/uploads/2026/08/nggallery_import/Squirrel-Internet-for-ISPReview-150x150.webp)
+
+[Broadband ISP Squirrel Internet boosts UK network capacity for GTA VI](https://www.ispreview.co.uk/index.php/2026/11/broadband-isp-squirrel-internet-boosts-uk-network-capacity-for-gta-vi.html "UK ISP News Article for Thursday, November 12th, 2026")
+
+![Image 6: Hyperoptic UK Engineers Training Near Truck 2022](https://www.ispreview.co.uk/wp-content/uploads/2022/10/nggallery_import/Hyperoptic-UK-Engineers-Training-Near-Truck-2022-150x150.jpg)
+
+[Xmas redundancies to strike UK broadband altnet Hyperoptic in strategy update](https://www.ispreview.co.uk/index.php/2026/11/xmas-redundancies-to-strike-uk-broadband-altnet-hyperoptic-in-strategy-shift.html "UK ISP News Article for Thursday, November 12th, 2026")
+
+![Image 7: WhatsApp Green SVG](https://www.ispreview.co.uk/wp-content/uploads/2026/01/nggallery_import/WhatsApp-Logo-Basic-SVG-150x150.webp)
+
+[Ofcom UK fine Meta £450,000 over WhatsApp information request failings](https://www.ispreview.co.uk/index.php/2026/11/ofcom-uk-fine-meta-450000-over-whatsapp-information-request-failings.html "UK ISP News Article for Thursday, November 12th, 2026")
+
+**Top News of the Week:**
+
+[![Image 8: Openreach external wall box - Customer Service Point](https://www.ispreview.co.uk/wp-content/uploads/wordpress-popular-posts/48648-featured-100x100.webp)](https://www.ispreview.co.uk/index.php/2026/11/openreach-trial-to-prep-uk-homes-for-fttp-broadband-during-copper-repairs.html)
+
+[Openreach trial could prep UK homes for FTTP broadband during copper repairs](https://www.ispreview.co.uk/index.php/2026/11/openreach-trial-to-prep-uk-homes-for-fttp-broadband-during-copper-repairs.html)
+
+November 9, 2026
+
+[![Image 9: virgin_media_hub4_official](https://www.ispreview.co.uk/wp-content/uploads/wordpress-popular-posts/48699-featured-100x100.jpg)](https://www.ispreview.co.uk/index.php/2026/11/broadband-isp-virgin-media-uk-restrict-hub-4-router-access-over-security-fears.html)
+
+[Broadband ISP Virgin Media UK restrict Hub 4 router access over security fears UPDATE](https://www.ispreview.co.uk/index.php/2026/11/broadband-isp-virgin-media-uk-restrict-hub-4-router-access-over-security-fears.html)
+
+November 10, 2026
+
+[![Image 10: Sky Stream Box and TV Set](https://www.ispreview.co.uk/wp-content/uploads/wordpress-popular-posts/48714-featured-100x100.jpg)](https://www.ispreview.co.uk/index.php/2026/11/sky-uk-start-rolling-out-os-2-0-update-to-sky-glass-and-stream-tv-users.html)
+
+[Sky UK start rolling out OS 2.0 update to Sky Glass and Stream TV users](https://www.ispreview.co.uk/index.php/2026/11/sky-uk-start-rolling-out-os-2-0-update-to-sky-glass-and-stream-tv-users.html)
+
+November 10, 2026
+
+[![Image 11: BT Wholesale uk 2019 blue on white](https://www.ispreview.co.uk/wp-content/uploads/wordpress-popular-posts/48688-featured-100x100.jpg)](https://www.ispreview.co.uk/index.php/2026/11/bt-wholesale-finally-make-1-8gbps-fttp-broadband-available-to-uk-isps.html)
+
+[BT Wholesale FINALLY make 1.8Gbps FTTP broadband available to UK ISPs](https://www.ispreview.co.uk/index.php/2026/11/bt-wholesale-finally-make-1-8gbps-fttp-broadband-available-to-uk-isps.html)
+
+November 8, 2026
+
+[![Image 12: Sky Glass Gen 2 TV in a Living Room PR 110225](https://www.ispreview.co.uk/wp-content/uploads/wordpress-popular-posts/48687-featured-100x100.webp)](https://www.ispreview.co.uk/index.php/2026/11/sky-uk-cuts-real-time-live-tv-sport-streaming-latency-for-more-channels.html)
+
+[Sky UK cuts Real Time live TV sport streaming latency for more channels](https://www.ispreview.co.uk/index.php/2026/11/sky-uk-cuts-real-time-live-tv-sport-streaming-latency-for-more-channels.html)
+
+November 8, 2026
+
+**Cheapest Big ISPs for 100Mbps+:**
+
+[![Image 13: Fibrus UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/fibrus_isp_logo_001.jpg)](https://www.ispreview.co.uk/index.php/link/fibrus)
+
+[Fibrus](https://www.ispreview.co.uk/index.php/link/fibrus "Cheapest Fibrus UK Ultrafast Broadband Package") £17.99
+
+159Mbps (31Mbps up)
+
+[![Image 14: Community Fibre UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/community-fibre-uk-isp-2023-branding-jpg.webp)](https://www.ispreview.co.uk/index.php/go/communityfibreultra)
+
+[Community Fibre](https://www.ispreview.co.uk/index.php/go/communityfibreultra "Cheapest Community Fibre UK Ultrafast Broadband Package") £19.00
+
+150Mbps (150Mbps up)
+
+[![Image 15: Plusnet UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/plusnet-logo-jpg.webp)](https://www.ispreview.co.uk/index.php/go/plusnetff2)
+
+[Plusnet](https://www.ispreview.co.uk/index.php/go/plusnetff2 "Cheapest Plusnet UK Ultrafast Broadband Package") £21.99
+
+145Mbps (30Mbps up)
+
+[![Image 16: Virgin Media UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/virgin-media-o2-2021-red-and-blue-logo-jpg.webp)](https://www.ispreview.co.uk/index.php/go/vmsolo)
+
+[Virgin Media](https://www.ispreview.co.uk/index.php/go/vmsolo "Cheapest Virgin Media UK Ultrafast Broadband Package") £21.99
+
+264Mbps (25Mbps up)
+
+[![Image 17: Youfibre UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/youfibre-green-logo-2024_001.webp)](https://www.ispreview.co.uk/index.php/go/youfibre)
+
+[Youfibre](https://www.ispreview.co.uk/index.php/go/youfibre "Cheapest Youfibre UK Ultrafast Broadband Package") £22.00
+
+200Mbps (200Mbps up)
+
+[![Image 18: Sky UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/sky-uk-brand-for-2025.webp)](https://www.ispreview.co.uk/index.php/go/skyultrafast)
+
+[Sky](https://www.ispreview.co.uk/index.php/go/skyultrafast "Cheapest Sky UK Ultrafast Broadband Package") £22.00
+
+150Mbps (20 - 150Mbps up)
+
+**Previous Article**  
+**«**[375 Leeds and Bradford Firms Gobble Broadband Connection Vouchers](https://www.ispreview.co.uk/index.php/2014/08/375-leeds-bradford-firms-gobble-broadband-connection-vouchers.html)
+
+**Next Article**  
+[UPDATE Fluidata Complain of BT Openreach UK Fibre Leased Line Delay](https://www.ispreview.co.uk/index.php/2014/08/fluidata-complain-long-bt-openreach-uk-fibre-leased-line-delays.html)**»**
+
+Search ISP News
+
+[×](javascript:void(0) "Clear search box")
+
+Search ISP Listings
+
+Search ISP Reviews
+
+**Comments are closed**
+
+## Latest UK ISP News
+
+[![Image 19: Grand-Theft-Auto-6](https://www.ispreview.co.uk/wp-content/uploads/2026/07/nggallery_import/Grand-Theft-Auto-6-150x150.webp)](https://www.ispreview.co.uk/index.php/2026/11/openreach-details-uk-broadband-traffic-impact-from-gta-6-pre-loading.html "UK ISP News Article for Friday, November 13th, 2026")
+
+[Openreach details UK broadband traffic impact from GTA 6 pre-loading](https://www.ispreview.co.uk/index.php/2026/11/openreach-details-uk-broadband-traffic-impact-from-gta-6-pre-loading.html "UK ISP News Article for Friday, November 13th, 2026")
+
+[![Image 20: Streetwave-South-Yorkshire-Survey-Area](https://www.ispreview.co.uk/wp-content/uploads/2025/05/nggallery_import/Streetwave-South-Yorkshire-Survey-Area-150x150.webp)](https://www.ispreview.co.uk/index.php/2026/11/ee-uk-comes-top-in-updated-map-of-south-yorkshire-4g-and-5g-mobile-speeds.html "UK ISP News Article for Thursday, November 12th, 2026")
+
+[EE UK comes top in updated map of South Yorkshire 4G and 5G mobile speeds](https://www.ispreview.co.uk/index.php/2026/11/ee-uk-comes-top-in-updated-map-of-south-yorkshire-4g-and-5g-mobile-speeds.html "UK ISP News Article for Thursday, November 12th, 2026")
+
+[![Image 21: VOXI Mobile UK black on white text](https://www.ispreview.co.uk/wp-content/uploads/2024/12/nggallery_import/VOXI-Mobile-UK-black-on-white-text-150x150.webp)](https://www.ispreview.co.uk/index.php/2026/11/voxi-launches-black-friday-sales-across-uk-5g-mobile-plans.html "UK ISP News Article for Thursday, November 12th, 2026")
+
+[VOXI launches Black Friday sales across UK 5G mobile plans](https://www.ispreview.co.uk/index.php/2026/11/voxi-launches-black-friday-sales-across-uk-5g-mobile-plans.html "UK ISP News Article for Thursday, November 12th, 2026")
+
+[![Image 22: Squirrel Internet for ISPReview](https://www.ispreview.co.uk/wp-content/uploads/2026/08/nggallery_import/Squirrel-Internet-for-ISPReview-150x150.webp)](https://www.ispreview.co.uk/index.php/2026/11/broadband-isp-squirrel-internet-boosts-uk-network-capacity-for-gta-vi.html "UK ISP News Article for Thursday, November 12th, 2026")
+
+[Broadband ISP Squirrel Internet boosts UK network capacity for GTA VI](https://www.ispreview.co.uk/index.php/2026/11/broadband-isp-squirrel-internet-boosts-uk-network-capacity-for-gta-vi.html "UK ISP News Article for Thursday, November 12th, 2026")
+
+[![Image 23: Hyperoptic UK Engineers Training Near Truck 2022](https://www.ispreview.co.uk/wp-content/uploads/2022/10/nggallery_import/Hyperoptic-UK-Engineers-Training-Near-Truck-2022-150x150.jpg)](https://www.ispreview.co.uk/index.php/2026/11/xmas-redundancies-to-strike-uk-broadband-altnet-hyperoptic-in-strategy-shift.html "UK ISP News Article for Thursday, November 12th, 2026")
+
+[Xmas redundancies to strike UK broadband altnet Hyperoptic in strategy update](https://www.ispreview.co.uk/index.php/2026/11/xmas-redundancies-to-strike-uk-broadband-altnet-hyperoptic-in-strategy-shift.html "UK ISP News Article for Thursday, November 12th, 2026")
+
+[**RSS**](https://www.ispreview.co.uk/index.php/feed "Latest UK ISP News RSS Feed") | [**Twitter**](https://www.twitter.com/ispreview "ISPreview.co.uk Twitter Page") | [**News Archive**](https://www.ispreview.co.uk/index.php/news-archive/ "UK ISP News Archives")
+
+Cheap BIG ISPs for 100Mbps+
+
+[![Image 24: Fibrus UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/fibrus_isp_logo_001.jpg)](https://www.ispreview.co.uk/index.php/link/fibrus)
+
+[Fibrus](https://www.ispreview.co.uk/index.php/link/fibrus "Cheapest Fibrus UK Ultrafast Broadband Package") £17.99
+
+159Mbps
+
+Gift: None
+
+[![Image 25: Community Fibre UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/community-fibre-uk-isp-2023-branding-jpg.webp)](https://www.ispreview.co.uk/index.php/go/communityfibreultra)
+
+[Community Fibre](https://www.ispreview.co.uk/index.php/go/communityfibreultra "Cheapest Community Fibre UK Ultrafast Broadband Package") £19.00
+
+150Mbps
+
+Gift: None
+
+[![Image 26: Plusnet UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/plusnet-logo-jpg.webp)](https://www.ispreview.co.uk/index.php/go/plusnetff2)
+
+[Plusnet](https://www.ispreview.co.uk/index.php/go/plusnetff2 "Cheapest Plusnet UK Ultrafast Broadband Package") £21.99
+
+145Mbps
+
+Gift: £125 Reward Card
+
+[![Image 27: Virgin Media UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/virgin-media-o2-2021-red-and-blue-logo-jpg.webp)](https://www.ispreview.co.uk/index.php/go/vmsolo)
+
+[Virgin Media](https://www.ispreview.co.uk/index.php/go/vmsolo "Cheapest Virgin Media UK Ultrafast Broadband Package") £21.99
+
+264Mbps
+
+Gift: None
+
+[![Image 28: NOW UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/now-broadband.webp)](https://www.ispreview.co.uk/index.php/go/nowfullfibre)
+
+[NOW](https://www.ispreview.co.uk/index.php/go/nowfullfibre "Cheapest NOW UK Ultrafast Broadband Package") £22.00
+
+100Mbps
+
+Gift: None
+
+Large Availability | [**View All**](https://www.ispreview.co.uk/isp_list/ISP_List_Ultrafast_Broadband.php "List of the cheapest ultrafast broadband ISPs")
+
+Promotion
+
+Cheap Unlimited Mobile SIMs
+
+[![Image 29: Utility Warehouse UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/utility_warehouse_uk_isp_logo_2020.jpg)](https://www.utilitywarehouse.co.uk/)
+
+[Utility Warehouse](https://www.utilitywarehouse.co.uk/ "Cheapest Utility Warehouse Unlimited SIM Only Mobile Plan") £13.00
+
+Contract: 1 Month
+
+Data: Unlimited
+
+[![Image 30: iD Mobile UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/id_mobile_small.png)](https://www.ispreview.co.uk/index.php/go/idmobile)
+
+[iD Mobile](https://www.ispreview.co.uk/index.php/go/idmobile "Cheapest iD Mobile Unlimited SIM Only Mobile Plan") £15.00
+
+Contract: 1 Month
+
+Data: Unlimited
+
+[![Image 31: Talkmobile UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/talkmobile_logo_001.jpg)](https://www.ispreview.co.uk/index.php/go/talkmobile)
+
+[Talkmobile](https://www.ispreview.co.uk/index.php/go/talkmobile "Cheapest Talkmobile Unlimited SIM Only Mobile Plan") £16.95
+
+Contract: 1 Month
+
+Data: Unlimited
+
+[![Image 32: Smarty UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/smarty_logo_001.jpg)](https://www.ispreview.co.uk/index.php/go/smarty)
+
+[Smarty](https://www.ispreview.co.uk/index.php/go/smarty "Cheapest Smarty Unlimited SIM Only Mobile Plan") £17.00
+
+Contract: 1 Month
+
+Data: Unlimited
+
+[![Image 33: Sky UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/sky-uk-brand-for-2025.webp)](https://www.ispreview.co.uk/index.php/go/skymobile)
+
+[Sky](https://www.ispreview.co.uk/index.php/go/skymobile "Cheapest Sky Unlimited SIM Only Mobile Plan") £18.00
+
+Contract: 12 Months
+
+Data: Unlimited
+
+[**View All**](https://www.ispreview.co.uk/isp_list/ISP_List_Mobile_Sim_Only.php "List of the cheapest unlimited SIM Only mobile plans")
+
+New Forum Topics
+
+[![Image 34](https://www.ispreview.co.uk/talk/xenforo_fa_comments_green.svg)](https://www.ispreview.co.uk/talk/threads/black-friday-deals-2026.45123/)
+
+[Black Friday Deals (2026)](https://www.ispreview.co.uk/talk/threads/black-friday-deals-2026.45123/ "Forum topic updated on 13 November, 2026")
+
+By: The Wee Bear
+
+[![Image 35](https://www.ispreview.co.uk/talk/xenforo_fa_comments_green.svg)](https://www.ispreview.co.uk/talk/threads/vanishing-phone-mast-in-tenby-no-signal-since-january.44388/)
+
+[Vanishing Phone Mast in Tenby - no signal since January!](https://www.ispreview.co.uk/talk/threads/vanishing-phone-mast-in-tenby-no-signal-since-january.44388/ "Forum topic updated on 13 November, 2026")
+
+By: hellomoto
+
+[![Image 36](https://www.ispreview.co.uk/talk/xenforo_fa_comments_green.svg)](https://www.ispreview.co.uk/talk/threads/almost-about-to-get-full-fibre.44986/)
+
+[Almost about to get full fibre](https://www.ispreview.co.uk/talk/threads/almost-about-to-get-full-fibre.44986/ "Forum topic updated on 12 November, 2026")
+
+By: Some Edinburgh Guy
+
+[![Image 37](https://www.ispreview.co.uk/talk/xenforo_fa_comments_green.svg)](https://www.ispreview.co.uk/talk/threads/save-our-landlines.44745/)
+
+[Save Our Landlines!](https://www.ispreview.co.uk/talk/threads/save-our-landlines.44745/ "Forum topic updated on 12 November, 2026")
+
+By: ifuhaveto
+
+[![Image 38](https://www.ispreview.co.uk/talk/xenforo_fa_comments_green.svg)](https://www.ispreview.co.uk/talk/threads/ring-doorbells.44954/)
+
+[Ring doorbells](https://www.ispreview.co.uk/talk/threads/ring-doorbells.44954/ "Forum topic updated on 12 November, 2026")
+
+By: ABC123
+
+[**View Public Forum**](https://www.ispreview.co.uk/talk "ISPreview Public Forum") | [**Register**](https://www.ispreview.co.uk/talk/register/ "ISPreview Public Forum Registration")
+
+Cheapest ISPs for 100Mbps+
+
+[![Image 39: Fibrus UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/fibrus_isp_logo_001.jpg)](https://www.ispreview.co.uk/index.php/link/fibrus)
+
+[Fibrus](https://www.ispreview.co.uk/index.php/link/fibrus "Cheapest Fibrus UK Ultrafast Broadband Package") £17.99
+
+159Mbps
+
+Gift: None
+
+[![Image 40: Grain Connect UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/grain_connect_isp_logo_001.jpg)](https://www.ispreview.co.uk/index.php/go/grain)
+
+[Grain Connect](https://www.ispreview.co.uk/index.php/go/grain "Cheapest Grain Connect UK Ultrafast Broadband Package") £17.99
+
+250Mbps
+
+Gift: None
+
+[![Image 41: toob UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/toob_logo.jpg)](https://www.ispreview.co.uk/index.php/go/toob)
+
+[toob](https://www.ispreview.co.uk/index.php/go/toob "Cheapest toob UK Ultrafast Broadband Package") £18.00
+
+300Mbps
+
+Gift: None
+
+[![Image 42: Community Fibre UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/community-fibre-uk-isp-2023-branding-jpg.webp)](https://www.ispreview.co.uk/index.php/go/communityfibreultra)
+
+[Community Fibre](https://www.ispreview.co.uk/index.php/go/communityfibreultra "Cheapest Community Fibre UK Ultrafast Broadband Package") £19.00
+
+150Mbps
+
+Gift: None
+
+[![Image 43: Gigaclear UK ISP Logo](https://www.ispreview.co.uk/isp_list/system/uploads/thumb/gigaclear-isp-uk-logo-for-2024-jpg.webp)](https://www.ispreview.co.uk/index.php/go/gigaclear)
+
+[Gigaclear](https://www.ispreview.co.uk/index.php/go/gigaclear "Cheapest Gigaclear UK Ultrafast Broadband Package") £19.00
+
+300Mbps
+
+Gift: 
+
+Large Availability | [**View All**](https://www.ispreview.co.uk/isp_list/ISP_List_Ultrafast_Broadband.php "List of the cheapest ultrafast broadband ISPs")
+
+## Helpful ISP Guides and Tips
+
+[![Image 44: optical_fibre_black_broadband_cable_illustration](https://www.ispreview.co.uk/wp-content/uploads/3_optical_fibre_black_broadband_cable_illustration-150x150.jpg)](https://www.ispreview.co.uk/index.php/2020/04/summary-of-full-fibre-build-progress-across-uk-broadband-isps.html "UK ISP Guides and Tips Article for Thursday, April 30th, 2020")
+
+[Summary of UK FTTP Broadband Build Progress by ISP UPDATE429](https://www.ispreview.co.uk/index.php/2020/04/summary-of-full-fibre-build-progress-across-uk-broadband-isps.html "UK ISP Tips and Guides Article for Thursday, April 30th, 2020")
+
+[![Image 45: United Kingdom of Great Britain and Northern Ireland map outline.](https://www.ispreview.co.uk/wp-content/uploads/2023/01/nggallery_import/United-Kingdom-Digital-Connectivity-Map-150x150.jpg)](https://www.ispreview.co.uk/index.php/2025/12/consolidation-tracker-for-alternative-uk-gigabit-broadband-networks.html "UK ISP Guides and Tips Article for Monday, December 29th, 2025")
+
+[Consolidation Tracker for Alternative UK Gigabit Broadband Networks UPDATE Aug 2026](https://www.ispreview.co.uk/index.php/2025/12/consolidation-tracker-for-alternative-uk-gigabit-broadband-networks.html "UK ISP Tips and Guides Article for Monday, December 29th, 2025")
+
+[![Image 46: money for broadband in uk homes](https://www.ispreview.co.uk/wp-content/uploads/2021/04/nggallery_import/money_for_broadband_in_uk_homes-150x150.jpg)](https://www.ispreview.co.uk/index.php/2022/08/a-quick-guide-to-uk-social-tariffs-getting-broadband-for-15.html "UK ISP Guides and Tips Article for Monday, August 29th, 2022")
+
+[A Quick Guide to UK Social Tariffs – Get Broadband from £12 – UPDATE Aug 2026](https://www.ispreview.co.uk/index.php/2022/08/a-quick-guide-to-uk-social-tariffs-getting-broadband-for-15.html "UK ISP Tips and Guides Article for Monday, August 29th, 2022")
+
+[![Image 47: Fibre optic broadband cables connecting to a house by CoPilot AI for MJ - 210524](https://www.ispreview.co.uk/wp-content/uploads/2024/05/nggallery_import/Fibre-optic-broadband-cables-connecting-to-a-house-by-CoPilot-AI-for-MJ-210524-150x150.webp)](https://www.ispreview.co.uk/index.php/2026/08/the-largest-17-uk-full-fibre-broadband-networks-by-coverage-for-h1-2026.html "UK ISP Guides and Tips Article for Saturday, August 1st, 2026")
+
+[The Largest 17 UK Full Fibre Broadband Networks by Coverage for H1 2026 UPDATE](https://www.ispreview.co.uk/index.php/2026/08/the-largest-17-uk-full-fibre-broadband-networks-by-coverage-for-h1-2026.html "UK ISP Tips and Guides Article for Saturday, August 1st, 2026")
+
+[![Image 48: UK-Map-in-3D-for-telecoms-123RF-200676543](https://www.ispreview.co.uk/wp-content/uploads/2024/07/nggallery_import/UK-Map-in-3D-for-telecoms-123RF-200676543-150x150.webp)](https://www.ispreview.co.uk/index.php/2026/07/gigabit-broadband-coverage-tops-percent-of-the-uk-in-h1-2026.html "UK ISP Guides and Tips Article for Tuesday, July 7th, 2026")
+
+[Gigabit Broadband Coverage Reaches 91 Percent of the UK in H1 2026](https://www.ispreview.co.uk/index.php/2026/07/gigabit-broadband-coverage-tops-percent-of-the-uk-in-h1-2026.html "UK ISP Tips and Guides Article for Tuesday, July 7th, 2026")
+
+[![Image 49: Download and upload speed by CoPilot for MJ 210725](https://www.ispreview.co.uk/wp-content/uploads/2025/07/nggallery_import/Download-and-upload-speed-by-CoPilot-for-MJ-210725-150x150.webp)](https://www.ispreview.co.uk/index.php/2026/06/h1-2026-study-names-top-uk-fastest-mobile-and-home-broadband-isps.html "UK ISP Guides and Tips Article for Monday, June 15th, 2026")
+
+[H1 2026 Study Names Top UK Fastest Mobile and Home Broadband ISPs](https://www.ispreview.co.uk/index.php/2026/06/h1-2026-study-names-top-uk-fastest-mobile-and-home-broadband-isps.html "UK ISP Tips and Guides Article for Monday, June 15th, 2026")
+
+[![Image 50: eSim on a Smartphone by 123rf](https://www.ispreview.co.uk/wp-content/uploads/2024/02/nggallery_import/eSim-on-a-Smartphone-150x150.webp)](https://www.ispreview.co.uk/index.php/2026/04/summary-of-global-mobile-esims-for-cheap-roaming-data-when-outside-the-uk.html "UK ISP Guides and Tips Article for Thursday, April 9th, 2026")
+
+[Summary of Mobile Travel eSIMs for Cheap Data Roaming Outside UK](https://www.ispreview.co.uk/index.php/2026/04/summary-of-global-mobile-esims-for-cheap-roaming-data-when-outside-the-uk.html "UK ISP Tips and Guides Article for Thursday, April 9th, 2026")
+
+[![Image 51: Openreach engineers at work outside van](https://www.ispreview.co.uk/wp-content/uploads/2025/09/nggallery_import/2025-Openreach-engineers-at-work-outside-van-150x150.webp)](https://www.ispreview.co.uk/index.php/2026/04/comparing-isp-prices-for-1gbps-broadband-on-openreachs-uk-network-2026-vs-2024.html "UK ISP Guides and Tips Article for Tuesday, April 7th, 2026")
+
+[Comparing 1Gbps Broadband ISP Packages on Openreach’s UK Network – 2026](https://www.ispreview.co.uk/index.php/2026/04/comparing-isp-prices-for-1gbps-broadband-on-openreachs-uk-network-2026-vs-2024.html "UK ISP Tips and Guides Article for Tuesday, April 7th, 2026")
+
+[![Image 52: uk map green broadband telecoms britain](https://www.ispreview.co.uk/wp-content/uploads/uk_map_green_broadband_telecoms_britain-150x150.png)](https://www.ispreview.co.uk/index.php/2026/01/gigabit-broadband-coverage-reaches-of-uk-premises-in-h2-2025.html "UK ISP Guides and Tips Article for Friday, January 2nd, 2026")
+
+[Gigabit Broadband Cover Reaches Nearly 90 Percent of the UK in H2 2025](https://www.ispreview.co.uk/index.php/2026/01/gigabit-broadband-coverage-reaches-of-uk-premises-in-h2-2025.html "UK ISP Tips and Guides Article for Friday, January 2nd, 2026")
+
+[![Image 53: fibre optic broadband for the home](https://www.ispreview.co.uk/wp-content/uploads/2020/10/nggallery_import/house_gigabit_fibre_broadband_uk-150x150.jpg)](https://www.ispreview.co.uk/index.php/2025/07/top-10-uk-full-fibre-providers-by-share-of-new-build-homes-2025.html "UK ISP Guides and Tips Article for Thursday, July 3rd, 2025")
+
+[Top 10 UK Full Fibre Providers by Share of New Build Homes – 2025](https://www.ispreview.co.uk/index.php/2025/07/top-10-uk-full-fibre-providers-by-share-of-new-build-homes-2025.html "UK ISP Tips and Guides Article for Thursday, July 3rd, 2025")
+
+[![Image 54: Pricing and cost of uk home services by 123rf](https://www.ispreview.co.uk/wp-content/uploads/2022/08/nggallery_import/Money-Saving-on-Broadband-and-UK-Homes-150x150.jpg)](https://www.ispreview.co.uk/index.php/2025/04/summary-of-the-cash-switching-incentives-offered-by-uk-broadband-isps.html "UK ISP Guides and Tips Article for Tuesday, April 22nd, 2025")
+
+[Summary of the Switching £ Credits Offered by UK Broadband ISPs](https://www.ispreview.co.uk/index.php/2025/04/summary-of-the-cash-switching-incentives-offered-by-uk-broadband-isps.html "UK ISP Tips and Guides Article for Tuesday, April 22nd, 2025")
+
+[![Image 55: Internet Download High Speed Concept Illustration. 1 Gbps in Focus. Global Broadband Networks Speed 3D.](https://www.ispreview.co.uk/wp-content/uploads/gigabit_broadband_isp_speed-150x150.jpg)](https://www.ispreview.co.uk/index.php/2020/12/why-buying-gigabit-broadband-doesnt-always-deliver-1gbps.html "UK ISP Guides and Tips Article for Sunday, December 27th, 2020")
+
+[Why Buying Gigabit Broadband Doesn’t Always Deliver 1Gbps UPDATED](https://www.ispreview.co.uk/index.php/2020/12/why-buying-gigabit-broadband-doesnt-always-deliver-1gbps.html "UK ISP Tips and Guides Article for Sunday, December 27th, 2020")
+
+[![Image 56: IP Address Illustration](https://www.ispreview.co.uk/wp-content/uploads/ip_address_ipv4_ipv6-150x150.jpg)](https://www.ispreview.co.uk/index.php/2024/04/ipv6-and-cgnat-support-survey-of-uk-altnet-fttp-broadband-isps.html "UK ISP Guides and Tips Article for Monday, April 8th, 2024")
+
+[IPv6 and CGNAT Support Survey of UK AltNet FTTP Broadband ISPs UPDATE7](https://www.ispreview.co.uk/index.php/2024/04/ipv6-and-cgnat-support-survey-of-uk-altnet-fttp-broadband-isps.html "UK ISP Tips and Guides Article for Monday, April 8th, 2024")
+
+[![Image 57: Gigabit-Broadband-Speed-Sign-in-Black](https://www.ispreview.co.uk/wp-content/uploads/2021/08/nggallery_import/Gigabit-Broadband-Speed-Sign-in-Black-150x150.jpg)](https://www.ispreview.co.uk/index.php/2025/04/comparing-prices-for-1gbps-uk-home-broadband-2022-vs-2025.html "UK ISP Guides and Tips Article for Saturday, April 19th, 2025")
+
+[Comparing ISP Prices for 1Gbps UK Home Broadband – 2025 vs 2022](https://www.ispreview.co.uk/index.php/2025/04/comparing-prices-for-1gbps-uk-home-broadband-2022-vs-2025.html "UK ISP Tips and Guides Article for Saturday, April 19th, 2025")
+
+[![Image 58: smartphone apple iphone unsplash free image](https://www.ispreview.co.uk/wp-content/uploads/2020/10/nggallery_import/smartphone_apple_iphone-unsplash-150x150.jpg)](https://www.ispreview.co.uk/index.php/2024/12/the-cheapest-uk-4g-and-5g-unlimited-mobile-broadband-plans-for-2025.html "UK ISP Guides and Tips Article for Monday, December 30th, 2024")
+
+[The Cheapest UK 4G and 5G Unlimited Mobile Data Plans for 2024 vs 2022](https://www.ispreview.co.uk/index.php/2024/12/the-cheapest-uk-4g-and-5g-unlimited-mobile-broadband-plans-for-2025.html "UK ISP Tips and Guides Article for Monday, December 30th, 2024")
+
+[![Image 59: Home Phone and UK Broadband VoIP Services](https://www.ispreview.co.uk/wp-content/uploads/2022/02/nggallery_import/Home-Phone-and-UK-Broadband-VoIP-Services-150x150.jpg)](https://www.ispreview.co.uk/index.php/2022/12/summary-of-dedicated-home-voip-providers-for-uk-consumers.html "UK ISP Guides and Tips Article for Friday, December 30th, 2022")
+
+[Summary of Dedicated Home VoIP Providers for UK Consumers](https://www.ispreview.co.uk/index.php/2022/12/summary-of-dedicated-home-voip-providers-for-uk-consumers.html "UK ISP Tips and Guides Article for Friday, December 30th, 2022")
+
+[![Image 60: consumer switching uk broadband and phone](https://www.ispreview.co.uk/wp-content/uploads/consumer_switching_uk_broadband_and_phone-150x150.jpg)](https://www.ispreview.co.uk/index.php/2024/09/ofcom-launch-easier-one-touch-switching-for-uk-broadband-isps.html "UK ISP Guides and Tips Article for Thursday, September 12th, 2024")
+
+[Ofcom Launch Easier UK One Touch Broadband ISP Switching UPDATE](https://www.ispreview.co.uk/index.php/2024/09/ofcom-launch-easier-one-touch-switching-for-uk-broadband-isps.html "UK ISP Tips and Guides Article for Thursday, September 12th, 2024")
+
+[![Image 61: Battery charging icon](https://www.ispreview.co.uk/wp-content/uploads/2021/08/nggallery_import/Battery-Charge-150x150.jpg)](https://www.ispreview.co.uk/index.php/2021/12/solutions-for-battery-backup-of-fibre-broadband-and-voip-phone.html "UK ISP Guides and Tips Article for Wednesday, December 29th, 2021")
+
+[Solutions for Battery Backup of Fibre Broadband and VoIP Phone](https://www.ispreview.co.uk/index.php/2021/12/solutions-for-battery-backup-of-fibre-broadband-and-voip-phone.html "UK ISP Tips and Guides Article for Wednesday, December 29th, 2021")
+
+[![Image 62: router_broadband_connected via 123rf](https://www.ispreview.co.uk/wp-content/uploads/2020/12/nggallery_import/router_broadband_connected-150x150.jpg)](https://www.ispreview.co.uk/index.php/2024/03/the-2024-electricity-costs-of-big-uk-isp-home-broadband-routers.html "UK ISP Guides and Tips Article for Saturday, March 30th, 2024")
+
+[The 2024 Electricity Costs of Big UK ISP Home Broadband Routers UPDATE](https://www.ispreview.co.uk/index.php/2024/03/the-2024-electricity-costs-of-big-uk-isp-home-broadband-routers.html "UK ISP Tips and Guides Article for Saturday, March 30th, 2024")
+
+[**Tips and Guides Index**](https://www.ispreview.co.uk/articles_guides.shtml "Index for UK ISP Tips and Guides Articles")
+
+Promotion
+
+Discover more
+
+Broadband comparison tool
+
+ISP provider reviews
+
+Top 10 ISPs
+
+ISP discussion forum
+
+Speedtest service
+
+Broadband technology guide
+
+Broadband complaints advice
+
+Compare Broadband
+
+## Latest Interviews
+
+[![Image 63: Colin Hutchinson of Fibrus](https://www.ispreview.co.uk/wp-content/uploads/2026/04/nggallery_import/Colin-Hutchinson-of-Fibrus-150x150.webp)](https://www.ispreview.co.uk/index.php/2026/05/fibrus-md-warns-ofcom-may-have-killed-private-investment-in-rural-uk-broadband.html "UK ISP Interview Article for Tuesday, May 5th, 2026")
+
+[Fibrus MD Warns Ofcom May Have Killed Private Investment in Rural UK Broadband](https://www.ispreview.co.uk/index.php/2026/05/fibrus-md-warns-ofcom-may-have-killed-private-investment-in-rural-uk-broadband.html "Interview News Article for Tuesday, May 5th, 2026")
+
+[![Image 64: CEO of Wessex Internet, Hector Gibson Fleming](https://www.ispreview.co.uk/wp-content/uploads/2021/04/nggallery_import/wessex_internet_van_and_ceo_2021-150x150.jpg)](https://www.ispreview.co.uk/index.php/2026/04/wessex-internet-interview-2026.html "UK ISP Interview Article for Wednesday, April 8th, 2026")
+
+[CEO of Broadband ISP Wessex Internet Talks UK Competition and Consolidation](https://www.ispreview.co.uk/index.php/2026/04/wessex-internet-interview-2026.html "Interview News Article for Wednesday, April 8th, 2026")
+
+[![Image 65: Peter Merz - Head of Standards at Nokia Technologies](https://www.ispreview.co.uk/wp-content/uploads/2025/11/nggallery_import/Peter-Merz-Head-of-Standards-at-Nokia-Technologies-150x150.webp)](https://www.ispreview.co.uk/index.php/2025/11/nokia-interview-6g-to-focus-on-efficiency-more-than-mobile-broadband-speed.html "UK ISP Interview Article for Monday, November 17th, 2025")
+
+[Nokia Interview – 6G to Focus on Efficiency More than Mobile Broadband Speed](https://www.ispreview.co.uk/index.php/2025/11/nokia-interview-6g-to-focus-on-efficiency-more-than-mobile-broadband-speed.html "Interview News Article for Monday, November 17th, 2025")
+
+[![Image 66: Rob Bradley, Managing Partner of the Bradley Strategy Group consultancy](https://www.ispreview.co.uk/wp-content/uploads/2025/07/nggallery_import/Rob-Bradley-the-Managing-Partner-of-Bradley-Strategy-Group-150x150.webp)](https://www.ispreview.co.uk/index.php/2025/08/rob-bradley-on-consolidation-and-fixing-the-turbulent-uk-fibre-broadband-market.html "UK ISP Interview Article for Saturday, August 23rd, 2025")
+
+[Rob Bradley on Consolidation and Fixing the Turbulent UK Fibre Broadband Market](https://www.ispreview.co.uk/index.php/2025/08/rob-bradley-on-consolidation-and-fixing-the-turbulent-uk-fibre-broadband-market.html "Interview News Article for Saturday, August 23rd, 2025")
+
+[![Image 67: Fibre-and-Wireless-Networks-Engineer-in-UK-Street](https://www.ispreview.co.uk/wp-content/uploads/2025/03/nggallery_import/Fibre-and-Wireless-Networks-Engineer-in-UK-Street-150x150.webp)](https://www.ispreview.co.uk/index.php/2025/04/fw-networks-interview.html "UK ISP Interview Article for Wednesday, April 23rd, 2025")
+
+[CEO of Broadband Operator F&W Networks Eyes Return to FTTP Build](https://www.ispreview.co.uk/index.php/2025/04/fw-networks-interview.html "Interview News Article for Wednesday, April 23rd, 2025")
+
+[**Interview Index**](https://www.ispreview.co.uk/articles_interviews.shtml "Index for UK ISP Interview Articles")
+
+Sponsored  
+
+Discover more
+
+Internet
+
+internet
+
+Shop Telecom Gear
+
+  
+
+Copyright © 1999 to Present - [ISPreview.co.uk](https://www.ispreview.co.uk/) - All Rights Reserved - [Terms](https://www.ispreview.co.uk/terms.shtml),[Privacy and Cookie Policy](https://www.ispreview.co.uk/policy.shtml),[Links](https://www.ispreview.co.uk/links.shtml),[Website Rules](https://www.ispreview.co.uk/rules.shtml),[Contact](https://www.ispreview.co.uk/contact.shtml)

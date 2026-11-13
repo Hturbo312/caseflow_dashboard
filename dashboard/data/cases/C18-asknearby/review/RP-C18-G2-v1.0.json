@@ -1,0 +1,21 @@
+{
+  "packetId": "RP-C18-G2-v1.0",
+  "supersedes": "RP-C18-G2-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G2",
+  "caseId": "C18",
+  "decidedAt": "2026-11-13",
+  "researcherDecision": {
+    "action": "accept",
+    "rationale": "G2同意；51条全收，效果记报告，资助保留争议，E35到G4合并。",
+    "modifiedContent": "M01-E35保留至G4合并；M05-E03/M06-E03/M07-E01维持disputed。",
+    "allowNextGate": true
+  },
+  "frozenArtifacts": ["evidence.md v1.0", "evidence.json v1.0", "RP-C18-G2-v1.0"],
+  "openIssues": [
+    "E23/E35在G4的事实合并方式",
+    "APP/小程序载体关系",
+    "资助受助组合",
+    "南头古城时间窗"
+  ]
+}

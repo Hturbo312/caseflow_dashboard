@@ -1,0 +1,16 @@
+{
+  "packetId": "RP-C18-L2-G1-v1.0",
+  "supersedes": "RP-C18-L2-G1-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G1",
+  "caseId": "C18",
+  "decidedAt": "2026-11-13",
+  "researcherDecision": {
+    "action": "accept",
+    "rationale": "10概念，NC01整体，NC06/NC09复合，74/101覆盖。",
+    "modifiedContent": "接受10个原生概念与关系覆盖边界。",
+    "allowNextGate": true
+  },
+  "frozenArtifacts": ["native_concept_inventory.md v1.0", "native_concept_inventory.json v1.0", "RP-C18-L2-G1-v1.0"],
+  "openIssues": ["共享概念映射", "候选编号", "历史回查"]
+}

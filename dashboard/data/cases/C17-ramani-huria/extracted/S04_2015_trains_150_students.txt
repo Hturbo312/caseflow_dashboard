@@ -1,0 +1,36 @@
+Ramani Huria Trains 150 Students in OpenStreetMap Tools – Ramani Huria
+Skip to the content
+Close Menu
+PHOTO CREDIT: Ramani Huria
+Following the
+community mapping  for flood resilience scale up workshop
+that took place on Monday 6th July, 2015 many students in attendance were inspired and motivated to join the Ramani Huria project, using maps to help reduce the effects of yearly seasonal floods. Ramani Huria signed up one hundred fifty students for training in mapping, including final year students from University of Dar es Salaam and internship students from Ardhi University.
+Example of JOSM in use. PHOTO CREDIT: Ramani Huria
+The students who signed up following the workshop participated in three days of training hosted at the University of Dar es Salaam. The training was conducted by fifteen student supervisors from Ardhi University, who prior to leading the training received three months of instruction with Ramani Huria. The three days of training for new students included an introduction to
+OpenStreetMap
+(a free editable map of the world) and mapping tools such as field papers (including their use and how one can create his/her own) and the
+GPS Unit
+(
+eTrex 30
+), used to record tracks and waypoints. In addition to the learning curriculum, the training included use of the OSM Tracker (an open-source Android phone application available in the Google Play Store) which does the same work as the GPS Unit for data collection but has a more user-friendly interface. Lastly, training was given in JOSM software, an open-source offline editing tool of OpenStreetMap. A variety of editing techniques and skills were taught to the students during the training.
+Training Students on Field Data Collection. PHOTO CREDIT: Ramani Huria
+The first two days of training were theory based on the third and final day being fully practical and hands-on. Students applied their newly gained knowledge to map with areas across the University of Dar es Salaam campus.
+Following the training session, Ramani Huria successfully activated one hundred fifty new active OpenStreetMap users from the two universities. These students will be part of the community mapping of six wards across Dar es Salaam. These six wards were selected from seventeen flood-prone wards and include Mabibo, Mburahati, Makurumla, Makumbusho Msasani and Keko.
+At a later stage, the data collected and edited in OpenStreetMap will be used in InaSAFE (an open-source software used in QGIS) to help model disaster scenarios and will provide information to assist in allowing for better planning and response to floods by government authorities/offices.
+PHOTO CREDIT: Ramani Huria
+Through participating in this training the students have receiving skills not taught within their school curriculum, giving them an advantage in future employment. In addition, Ramani Huria aims to have active mappers even after the project has accomplished its goals. One way this is already being put into practice is through monthly mapping parties. These are open to all members of the community, in addition to students, and we invite enthusiastic and new mappers to help edit areas that need maps with the use of the HOT Tasking Manager. Stay tuned for updates on the next mapping party and additional ways of how you too can be involved in community mapping!
+Share this:
+Share on X (Opens in new window)
+X
+Share on Facebook (Opens in new window)
+Facebook
+Like
+Loading…
+Leave a Reply
+Cancel reply
+Name
+Email
+Website
+Δ
+Our Partners
+%d

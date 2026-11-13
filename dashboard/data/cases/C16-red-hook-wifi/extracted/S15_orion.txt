@@ -1,0 +1,365 @@
+Orion Magazine | Red Hook's Digital Stewards Program
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Skip to content
+ 
+ 
+Orion Magazine
+ 
+ 
+Subscribe
+Current Issue
+Donate
+Shop
+ 
+ 
+Search
+ 
+ 
+ 
+ 
+Cart
+ 
+ 
+ 
+ 
+Account Dashboard
+ 
+ 
+ 
+ 
+Search for:
+ 
+ 
+ 
+Search
+ 
+ 
+Close Search
+ 
+ 
+ 
+ 
+Essays
+Poetry
+Visual Art
+Fiction
+Reviews
+Conversations
+All Content
+Subscribe
+Current Issue
+All Issues
+Events & Workshops
+Donate
+Our Team
+Mission and History
+Contributors
+Support Orion
+Connect
+Shop
+Follow Us
+ BlueSky
+ Facebook
+ Instagram
+Elenia Beretta
+Meredith Nemirov
+Lisk Feng
+Rebekka Dunlap
+Photograph. 
+Wolfgang Hasselmann
+ / 
+Unsplash
+Expand image caption
+Katherine Ortiz installs a router on a roof in Red Hook. Photograph courtesy the Red Hook Initiative
+Expand image caption
+Katherine Ortiz installs a router on a roof in Red Hook. Photograph courtesy the Red Hook Initiative
+ 
+Groundswell
+Getting Connected
+ Communities take internet access into their own hands
+ 
+By
+ 
+Nancy Scola
+ 
+from
+ 
+ January/February 2015 
+January 5, 2015
+RED HOOK’S
+ Digital Stewards program isn’t for everyone. “If you are afraid of heights,” the organization warns in its training material, “these sessions may pose a challenge for you.” It’s a useful heads-up, because for a year participants learn every aspect of wireless networking: scampering around on rooftops, running cables, and configuring nodes. The stewards, all between the ages of nineteen and twenty-four and residents of Brooklyn’s Red Hook neighborhood, are intent on using their digital skills to knit the community together. They’ve put up nearly two dozen breadbox-shaped plastic routers to create a network of coverage called Red Hook WiFi, which extends throughout the neighborhood, from housing projects to daycare centers to the local library.
+Twenty-three-year-old Katherine Ortiz works on the Red Hook WiFi network. / Photograph courtesy of the Red Hook Initiative.
+In a place where there’s little history of digital connectivity, its abundance now is sparking new signs of life. At the Red Hook Initiative, a warehouse turned community center, heaps of young people gather, many of them pulled in by the magnet of a free internet connection. On any given day, it’s not uncommon to see them hanging out in the center’s main gathering space, checking e-mails, doing homework, and writing college application essays on laptops borrowed from the center.
+According to Katherine Ortiz, a twenty-three-year-old former digital steward, the network has allowed people in the community to apply for jobs as well as college, both of which often require online applications. “It’s been a big help,” she says. Red Hook’s wireless access also helps young people to participate in the churn of online discussion and sharing as they develop a marketable skill set.
+Red Hook WiFi began in 2011 out of necessity, as a community-based solution to the long-struggling, somewhat isolated neighborhood’s difficulties getting online. As internet service has made its way across the country, it has hardly been universal, and Red Hook is one of the many communities left behind by service providers. Some areas are too sparsely populated to be profitable, broadband providers often argue. Some poorer communities have also been bypassed by providers in their build-outs. And in many parts of the country, it’s not uncommon to have only one choice of bandwidth provider. As with any product on the market, the lack of competition leaves little incentive for major internet service providers (ISPs) to lower prices or offer best service, let alone provide universal access. Cable providers are routinely rated the most disliked companies in the country.
+In the 1930s, President Franklin D. Roosevelt brought electricity to rural America through the creation of the Tennessee Valley Authority. In 1956, Dwight D. Eisenhower authorized the construction of the Interstate Highway System, which now consists of nearly fifty thousand miles of roads crisscrossing the nation. Although many of us are accustomed to thinking of infrastructure as bridges and roads, sewers and power grids, the internet is as much a form of infrastructure as any of these. Access, with its accompanying benefits of connectivity, is similarly a key issue.
+In 2010, President Obama launched what he called his “National Broadband Plan,” intended to guide the build-out of high-speed broadband throughout the United States, particularly in places that otherwise lack good internet options. Some hoped the president’s plan would mark the start of a New Deal for the internet age, a bringing of connectivity to the countryside. “In a country where we expect free WiFi with our coffee,” Obama has asked, “why shouldn’t we have it in our schools?” But while the president helped direct billions in funding for internet build-out, the impact of the plan has been limited—2 percent of Americans still have no internet access, and a full 20 percent of Americans still aren’t online, many because of high costs and poor service.
+In the last few years there’s been a shift toward a grassroots form of internet connectivity, where communities come together to figure out how to best connect to the internet in a way that makes the most sense for them. In Red Hook, this has been through a community wireless technology called “mesh.”
+RED HOOK,
+ population eleven thousand, is a predominantly low-income neighborhood that was ravaged by the crack epidemic in the 1980s and 1990s. Located across New York Harbor from the Statue of Liberty on a spit of land that was once a prosperous shipping port, Red Hook was cut off from the rest of Brooklyn by the six-lane Gowanus Expressway, completed in 1964. In recent years, the neighborhood has seen an influx of people who have moved from elsewhere in the city, attracted to its waterfront charms, industrial architecture, and affordable rents. Together, this blended community is working to pull the internet into Red Hook in a way that is affordable and sustainable.
+Digital Stewards at work in their Red Hook Initiative office in Brooklyn. / photograph by Chang W. Lee, courtesy The New York Times / Redux
+Until recently, many Red Hook residents had few good ways to get online. Home broadband internet access typically costs about forty dollars a month, which can be a daunting bill to pay for those who live in the community housing projects that make up much of the neighborhood. Laptops are hard to come by, and while cell phones are prevalent, data plans can be prohibitively expensive, especially for young people who dominate this neighborhood.
+The Red Hook Initiative opened its doors in 2002, originally as a health center. Now a vibrant community organization with a million-dollar budget, RHI embraces the notion that fixing what ails society starts with empowered youth. Anthony Schloss, RHI’s media coordinator, enlisted the help of JR Baldwin of the Open Technology Institute, a DC-based nonprofit, to get the wireless program running. In the fall of 2011, Baldwin ordered a handful of weatherproof nanostations from Amazon. It wasn’t a major expense, Baldwin says: “They came two to a pack for just eighty-nine dollars.” Baldwin and Schloss headed up to the Red Hook Initiative’s roof and attached one of the routers to a mast. They then ran a cable back inside the center and connected it to the nonprofit’s existing internet connection, provided by Verizon. All told, they spent less than three hundred dollars—and Red Hook WiFi was born.
+During their yearlong service, the digital stewards are trained by the Red Hook Initiative and the Open Technology Institute to build a network by hand. It’s a first job for many of them. Rather than working at the local deli or babysitting, they’re running cables down the sides of buildings, designing network layouts, and learning to code.
+Katherine Ortiz, who graduated from the Digital Stewards program in February of 2014, lives in the Red Hook Houses with her mom and four-year-old son. Ortiz says of her job as a steward: “It gave me another way to think about what I could do for a career. Technology wasn’t something I thought I could do.”
+The wireless mesh network in Red Hook is different from the WiFi that most users are familiar with. Mesh uses a style of digital networking where wireless routers communicate with each other to pass the signal around. Mesh networks grow by bringing more and more access points online to extend the digital blanket. Anyone willing to put up a router on his or her rooftop or, with the help of a suction cup, a window, can play a role in helping the network thrive.
+These networks have considerable advantages over wired connections. If you think of a traditional internet connection like owning a car, mesh communities are a bit like carpooling. Mesh can work with one connection to the internet, or several for redundancy, or none at all, in which case data can still be used locally until the internet is back up. Mesh can be grown organically bit by bit—even cell phones can be commandeered to ferry a signal along. And mesh is self-healing: if one router goes out of service, other routers automatically reconfigure themselves to help cover the gap. Finally, because it is handcrafted, mesh can be adapted to fit the unique contours of a community. Mesh networks can be challenging to build, as the people of Red Hook are learning, but in some ways, they are a reflection of communities themselves: the pieces that make up a network are stronger in their interdependence than when acting alone.
+Digital Stewards Ali Abdussabur (middle) and Smith (right) installing a WiFi device. / photographs by Chang W. Lee, courtesy The New York Times / Redux
+Three years after its modest beginnings, the Red Hook network is robust. The wireless signal begins on the top of the Fairway Building, an iconic waterside structure that holds what is perhaps Brooklyn’s most famous grocery store. From there the signal is passed, in the form of radio waves, like a three-dimensional game of telephone, hopping from router to router across the rooftops of the neighborhood’s tallest buildings. It gets pushed closer to the ground by access points, or small pieces of equipment capable of catching and sending wireless signals. The resulting digital streams jump down to cell phones, tablets, or laptops forming a digital network that allows residents of this remote slice of New York City to access the intersnet for free. Or free for now. The Red Hook Initiative is working on getting additional funding to keep it that way.
+The Verizon connection, which was never intended to be shared by so many users, has been replaced by a local ISP. Brooklyn Fiber is the creation of two tech-savvy brothers who grew frustrated with a national cable provider that seemingly showed little interest in servicing Red Hook. This local resource is largely what makes Red Hook WiFi possible at this scale. Brooklyn Fiber allows the Red Hook Initiative to share its internet connection as far and as wide as it wants for a flat fee.
+Red Hook’s mesh network got its first big test of community support when Hurricane Sandy struck in October 2012. The lights went out, phone lines stopped working, and internet in much of the neighborhood went down. The water stopped its disastrous rise just across the street from RHI, and the center became the hub of neighborhood life. At the height of the crisis, some twelve hundred people a day were coming in to find assistance. What most people wanted was internet, whether it was to reach out for help, let friends and family know that they were okay, or just check sports scores while trying to reestablish a sense of normalcy. A rooftop satellite dish, brought in by FEMA, temporarily served as the source feed for the neighborhood’s homegrown WiFi network. Communications, it seems, are as important to restore as just about anything else; being able to communicate helps give people a sense of agency, a way to get back on their feet.
+Before the storm, some in the community had resisted letting RHI trudge up to their rooftops to set up routers. After Sandy, doors opened and RHI was able to establish a full-strength signal covering the park where the Red Cross and other aid workers were gathered. Although the network was small at the time, it was just about the only internet access in town.
+RED HOOK WIFI
+ is one of at least thirty community WiFi projects across the country. In Kansas City, where Google rolled out its supposedly “citywide” Google Fiber in 2012, many citizens and internet activists were disappointed when fiber connections ultimately turned out to be limited to those neighborhoods that could afford the upgrade—not the 17 percent of the city that was entirely without internet access to begin with.
+Digital Stewards trainer Jaebi Bussey (left) with Laurenzo Reed (middle) and Robert Earl Smith (right), updating firmware on WiFi devices at Visitation Rectory in Red Hook. / photographs by Chang W. Lee, courtesy The New York Times / Redux
+As a response, the KC Freedom Network was created as a community-owned wireless internet co-op that installs and maintains a grassroots mesh network. Organized by six different community entities, from musicians to the Black Economic Union, the network now provides internet to three of the city’s housing projects, filling the gaps that Google left behind and teaching the community to build and maintain its own networks. The service is currently free, and is supported through crowdfunding and donations, but the network hopes to eventually provide internet for just twenty dollars a year.
+To Michael Liimatta, a former Lutheran minister and member of KC Freedom Network, the sharing model makes perfect sense because he’s used it to build community infrastructure before. Recalls Liimatta, “Twenty years ago, I lived in a place that had septic tanks. Everybody said, ‘Let’s build a sewer system.’ So we got together, formed an association, and borrowed money to get all the pipes laid to connect to the main Kansas City sewer district. If we can do that with sewers, why can’t we do that with the internet?”
+In Detroit, a community wireless project has been underway since 2010, when a nonprofit called the Allied Media Projects came together with several other Detroit-based organizations to provide low-cost internet to underserved areas of the city and to foster community-owned and stewarded communications infrastructure that supported existing social networks. The Open Technology Institute collaborated with the coalition to develop the original Digital Stewards curriculum—the prototype for what’s used in Red Hook.
+The program in Detroit now has seven networks up and running with stewards ranging in age from nineteen to eighty-two, though presumably not all of them are climbing around on rooftops. The networks in Detroit are autonomous, and depend on community organizers already embedded in their own neighborhoods to spearhead digital initiatives after being trained as stewards.
+Greta Byrum, an OTI field technologist who helped develop the curriculum and train early groups of stewards in Detroit, says that the group is not just focused on providing internet. Part of the philosophy is to create a healthy digital ecology. “The goal,” Byrum says, “is to design projects so they’re addressing multiple interlocking needs of the community,” from improving communications between small businesses, to installing sensors in the neighborhood that measure air quality.
+For cities that have the resources and political will, municipally owned networks with wired connections can be a fast and reliable alternative to commercial broadband. The city of Chattanooga, Tennessee, took a top-down approach to addressing its lack of affordable broadband access. It built its own municipal fiber network by piggybacking off the communications capabilities already built into its municipal electrical grid. Fiber networks, in which a lightwave passes through glass, are immensely fast compared to traditional copper wires used by cable companies—one fiber connection could carry the phone traffic of the entire United States.
+The “Where’s the B61 Bus?” app gives users in Red Hook real-time public transportation information. / Photographs by JR Baldwin
+Chattanooga invested $330 million dollars in the network, receiving over $100 million in federal stimulus money for the project, which extends across 600 square miles. The city-owned electric company became the public ISP, providing gigabit service for $70 a month, relatively cheap for that speed. Developing such a network is not without risk. As of yet, only 4,000 households have signed up for the plan, but the city has recreated itself as a tech hub, and is steadily attracting programmers and entrepreneurs. Other cities, including Santa Monica, California; Lafayette, Louisiana; and Bristol, Virgina, have also created municipal fiber networks. Many other states, however, have passed legislation, supported by private telecom companies, to prohibit these municipal networks altogether.
+Rural areas require a different model. In western Massachusetts, the WiredWest Cooperative is working to bring together rural towns underserved by the state’s existing broadband infrastructure, and build out a collectively owned fiber network to individual homes. This fiber network, also known as the “last mile” of internet connectivity, will run from existing telephone and electrical poles.
+“Larger municipalities are generally self-sufficient. But if you’re a small town, it’s a lot harder,” says Monica Webb, chair of WiredWest. WiredWest has encouraged towns to pool resources and political leverage to create economies of scale. The total cost of the project is $110 million dollars, with the forty-two member towns contributing $65 million and the state contributing the rest (much of the initial work has been provided by volunteers). But despite the upfront cost, towns see it as a critical investment. Fiber networks can last a generation, are potentially cheaper to maintain than a wireless network, and prices for access are expected to be very affordable compared to current options. Many see this fiber network as critical to the long-term viability of small towns in Massachusetts, which are already contending with an aging demographic and population loss. It is hoped that the high-speed connection will draw new businesses to the area, bringing much-needed jobs.
+Tidepools is a digital platform, developed alongside Red Hook WiFi, that enables greater information sharing in the community. / Photographs by Becky Kazansky
+THE RED HOOK INITIATIVE
+ team has worked with the Open Technology Institute to build out a suite of online applications meant to make the homegrown wireless network especially attractive to local users. One app builds upon the fact that all of Red Hook is served by just one city bus; “Where’s the B61 Bus?” strips away all the extraneous information provided by other New York City transit apps, leaving locals with only the travel updates that they need in order to get in, out of, and around Red Hook. The team also built an app for collecting detailed data on the New York City Police Department’s so-called “stop-and-frisk” encounters that particularly plague young men of color in the neighborhood. And another app provides updates on what’s happening only in Red Hook, from news of a local business opening to specifics on upcoming educational events. All three apps pop up as soon as anyone signs on to Red Hook WiFi.
+After Katherine Ortiz finished her year as a digital steward, she won a four-month fellowship to study coding at Code for Progress in Washington DC. Now she’s back in Red Hook and brimming with ideas for apps that would improve daily life in her community. Ortiz has long understood the need for the neighborhood to come together to get its basic needs met. When the sink in her apartment in the Red Hook Houses broke, the New York Housing Authority removed it—but took four months to bring her family a new one. She wants to take on such maintenance issues in the projects (the New York Housing Authority, she says, is “doing it way too old school”) by creating an app to encourage transparency and accountability for NYHA workers, so that the citizens of Red Hook can be sure to get basic services. Says Ortiz, “We need to be treated like regular people despite the fact that we live in the projects.”
+Red Hook WiFi is an integral part of improving quality of life in the neighborhood, and it’s one that citizens have taken on themselves. Ortiz adds, “Having it here has given us a better understanding of how we can work together to help one another.” In the process, she says, “we’ve become a better community for it.”
+Topics
+Built Environments
+Energy
+Justice
+Solutions
+Read More
+ 
+ 
+Groundswell
+ 
+Printed in Place
+ 
+By
+ 
+Caleb Dean
+ 
+ 
+Habitats
+ 
+Architects of the Earth
+ 
+By
+ 
+Michael O. Snyder
+ 
+ 
+Animalia
+ 
+On Living Collections
+ 
+By
+ 
+Charlotte Wyatt
+ 
+ 
+Groundswell
+ 
+Wages of Solidarity
+ 
+By
+ 
+Naomi R Williams
+, 
+Sarah Schulman
+ and 
+Emma Pattee
+ 
+ 
+Poetry
+ 
+Tenderness We May Later Exchange
+ 
+By
+ 
+Marcus Jackson
+ 
+ 
+Lay of the Land
+ 
+Goats on the Fire Line
+ 
+By
+ 
+Dan Hass
+Join Our Mailing List
+Please enable JavaScript in your browser to complete this form.
+ 
+Email
+ 
+Email 
+*
+Sign Up
+About
+Mission & History
+Our Team
+Support Orion
+Careers
+Financial Information
+Submission Guidelines
+Help Center
+Contact Us
+Follow Us
+ BlueSky
+ Facebook
+ Instagram
+email hidden; JavaScript is required
+email hidden; JavaScript is required
+ 
+Orion Magazine
+ 
+© 2026 Orion Magazine
+Privacy Policy
+Terms of Service
+Cookie Policy
+Change Privacy Settings
+Site Credits
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

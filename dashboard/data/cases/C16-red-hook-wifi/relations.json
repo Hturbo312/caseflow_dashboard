@@ -1,0 +1,2583 @@
+{
+  "case_id": "C16",
+  "version": "v1.0",
+  "status": "confirmed_by_researcher_g5_baseline",
+  "generated_at": "2026-11-13",
+  "total": 101,
+  "relations": [
+    {
+      "relation_id": "R001",
+      "case_id": "C16",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_label": "Red Hook Initiative (RHI)",
+      "predicate": "接触",
+      "tail_entity": "A02",
+      "tail_type": "actor",
+      "tail_label": "Open Technology Institute (OTI, New America)",
+      "fact_status": "implemented",
+      "qualifiers": "2011 秋；Red Hook, Brooklyn",
+      "evidence_ids": [
+        "M01-E01"
+      ],
+      "process_ids": [
+        "C16-P01"
+      ],
+      "fact_ids": [
+        "F001"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R002",
+      "case_id": "C16",
+      "head_entity": "A02",
+      "head_type": "actor",
+      "head_label": "Open Technology Institute (OTI, New America)",
+      "predicate": "引荐",
+      "tail_entity": "A03",
+      "tail_type": "actor",
+      "tail_label": "Tony Schloss",
+      "fact_status": "implemented",
+      "qualifiers": "2011 秋；New York City",
+      "evidence_ids": [
+        "M01-E02"
+      ],
+      "process_ids": [
+        "C16-P01"
+      ],
+      "fact_ids": [
+        "F002"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R003",
+      "case_id": "C16",
+      "head_entity": "A02",
+      "head_type": "actor",
+      "head_label": "Open Technology Institute (OTI, New America)",
+      "predicate": "引荐",
+      "tail_entity": "A04",
+      "tail_type": "actor",
+      "tail_label": "Alyx Baldwin",
+      "fact_status": "implemented",
+      "qualifiers": "2011 秋；New York City",
+      "evidence_ids": [
+        "M01-E02"
+      ],
+      "process_ids": [
+        "C16-P01"
+      ],
+      "fact_ids": [
+        "F002"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R004",
+      "case_id": "C16",
+      "head_entity": "X01",
+      "head_type": "context",
+      "head_label": "红钩地理隔离",
+      "predicate": "构成情境",
+      "tail_entity": "K02",
+      "tail_type": "task",
+      "tail_label": "建立社区所有本地通信平台",
+      "fact_status": "implemented",
+      "qualifiers": "2011–2012；Red Hook, Brooklyn",
+      "evidence_ids": [
+        "M01-E03",
+        "M02-E02"
+      ],
+      "process_ids": [
+        "C16-P01"
+      ],
+      "fact_ids": [
+        "F003"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R005",
+      "case_id": "C16",
+      "head_entity": "G03",
+      "head_type": "target",
+      "head_label": "Red Hook 居民",
+      "predicate": "面临",
+      "tail_entity": "X02",
+      "tail_type": "context",
+      "tail_label": "宽带市场集中与单一供应商",
+      "fact_status": "implemented",
+      "qualifiers": "2011 前后；Red Hook, Brooklyn",
+      "evidence_ids": [
+        "M02-E03",
+        "M02-E04"
+      ],
+      "process_ids": [
+        "C16-P01"
+      ],
+      "fact_ids": [
+        "F004"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R006",
+      "case_id": "C16",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_label": "Red Hook Initiative (RHI)",
+      "predicate": "规划",
+      "tail_entity": "K01",
+      "tail_type": "task",
+      "tail_label": "提供免费可靠互联网接入",
+      "fact_status": "planned",
+      "qualifiers": "2011；RHI 建筑周边",
+      "evidence_ids": [
+        "M01-E04"
+      ],
+      "process_ids": [
+        "C16-P01"
+      ],
+      "fact_ids": [
+        "F005"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R007",
+      "case_id": "C16",
+      "head_entity": "K01",
+      "head_type": "task",
+      "head_label": "提供免费可靠互联网接入",
+      "predicate": "初始作用于",
+      "tail_entity": "G05",
+      "tail_type": "target",
+      "tail_label": "屋顶/建筑",
+      "fact_status": "planned",
+      "qualifiers": "2011；RHI 建筑周边",
+      "evidence_ids": [
+        "M01-E04"
+      ],
+      "process_ids": [
+        "C16-P01"
+      ],
+      "fact_ids": [
+        "F005"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R008",
+      "case_id": "C16",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_label": "Red Hook Initiative (RHI)",
+      "predicate": "提出",
+      "tail_entity": "K02",
+      "tail_type": "task",
+      "tail_label": "建立社区所有本地通信平台",
+      "fact_status": "implemented",
+      "qualifiers": "2011 秋；Red Hook, Brooklyn",
+      "evidence_ids": [
+        "M01-E01"
+      ],
+      "process_ids": [
+        "C16-P01"
+      ],
+      "fact_ids": [
+        "F001"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R009",
+      "case_id": "C16",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_label": "Red Hook Initiative (RHI)",
+      "predicate": "安装",
+      "tail_entity": "T02",
+      "tail_type": "technology",
+      "tail_label": "Ubiquiti Nanostation",
+      "fact_status": "implemented",
+      "qualifiers": "2011 末；RHI 屋顶；设备投入低于 US$300；RHI 屋顶首节点",
+      "evidence_ids": [
+        "M01-E05",
+        "M11-E03",
+        "M15-E03"
+      ],
+      "process_ids": [
+        "C16-P02"
+      ],
+      "fact_ids": [
+        "F006"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "RHI 屋顶首节点"
+    },
+    {
+      "relation_id": "R010",
+      "case_id": "C16",
+      "head_entity": "A04",
+      "head_type": "actor",
+      "head_label": "Alyx Baldwin",
+      "predicate": "安装",
+      "tail_entity": "T03",
+      "tail_type": "technology",
+      "tail_label": "Linksys 路由器",
+      "fact_status": "implemented",
+      "qualifiers": "2011 末；RHI 屋顶；设备投入低于 US$300",
+      "evidence_ids": [
+        "M01-E05",
+        "M11-E03",
+        "M15-E03"
+      ],
+      "process_ids": [
+        "C16-P02"
+      ],
+      "fact_ids": [
+        "F006"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R011",
+      "case_id": "C16",
+      "head_entity": "T02",
+      "head_type": "technology",
+      "head_label": "Ubiquiti Nanostation",
+      "predicate": "连接",
+      "tail_entity": "T03",
+      "tail_type": "technology",
+      "tail_label": "Linksys 路由器",
+      "fact_status": "implemented",
+      "qualifiers": "2011 末；RHI 屋顶；设备投入低于 US$300；设备连接关系，非完整拓扑",
+      "evidence_ids": [
+        "M01-E05",
+        "M11-E03",
+        "M15-E03"
+      ],
+      "process_ids": [
+        "C16-P02"
+      ],
+      "fact_ids": [
+        "F006"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "设备连接关系，非完整拓扑"
+    },
+    {
+      "relation_id": "R012",
+      "case_id": "C16",
+      "head_entity": "T01",
+      "head_type": "technology",
+      "head_label": "Red Hook WiFi",
+      "predicate": "提供",
+      "tail_entity": "C03",
+      "tail_type": "capability",
+      "tail_label": "本地信息发布与留言",
+      "fact_status": "implemented",
+      "qualifiers": "2011–2012；RHI 建筑",
+      "evidence_ids": [
+        "M01-E06",
+        "M02-E05"
+      ],
+      "process_ids": [
+        "C16-P02"
+      ],
+      "fact_ids": [
+        "F007"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R013",
+      "case_id": "C16",
+      "head_entity": "C03",
+      "head_type": "capability",
+      "head_label": "本地信息发布与留言",
+      "predicate": "服务",
+      "tail_entity": "G03",
+      "tail_type": "target",
+      "tail_label": "Red Hook 居民",
+      "fact_status": "implemented",
+      "qualifiers": "2011–2012；RHI 建筑",
+      "evidence_ids": [
+        "M01-E06",
+        "M02-E05"
+      ],
+      "process_ids": [
+        "C16-P02"
+      ],
+      "fact_ids": [
+        "F007"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R014",
+      "case_id": "C16",
+      "head_entity": "A04",
+      "head_type": "actor",
+      "head_label": "Alyx Baldwin",
+      "predicate": "安装",
+      "tail_entity": "T02",
+      "tail_type": "technology",
+      "tail_label": "Ubiquiti Nanostation",
+      "fact_status": "implemented",
+      "qualifiers": "2012-03；Coffey Park 周边公寓楼；1 个节点；Coffey Park 第二节点",
+      "evidence_ids": [
+        "M01-E07"
+      ],
+      "process_ids": [
+        "C16-P02"
+      ],
+      "fact_ids": [
+        "F008"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "Coffey Park 第二节点"
+    },
+    {
+      "relation_id": "R015",
+      "case_id": "C16",
+      "head_entity": "G03",
+      "head_type": "target",
+      "head_label": "Red Hook 居民",
+      "predicate": "捐赠",
+      "tail_entity": "AC02",
+      "tail_type": "action",
+      "tail_label": "安装试验节点",
+      "fact_status": "implemented",
+      "qualifiers": "2012-03；Coffey Park 周边公寓楼；1 个节点；住户捐赠电力与屋顶准入",
+      "evidence_ids": [
+        "M01-E07"
+      ],
+      "process_ids": [
+        "C16-P02"
+      ],
+      "fact_ids": [
+        "F008"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "住户捐赠电力与屋顶准入"
+    },
+    {
+      "relation_id": "R016",
+      "case_id": "C16",
+      "head_entity": "T05",
+      "head_type": "technology",
+      "head_label": "GuruPlug Server",
+      "predicate": "提供",
+      "tail_entity": "C01",
+      "tail_type": "capability",
+      "tail_label": "断网本地通信",
+      "fact_status": "implemented",
+      "qualifiers": "2012-03 起；Coffey Park",
+      "evidence_ids": [
+        "M01-E08"
+      ],
+      "process_ids": [
+        "C16-P02"
+      ],
+      "fact_ids": [
+        "F009"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R017",
+      "case_id": "C16",
+      "head_entity": "T01",
+      "head_type": "technology",
+      "head_label": "Red Hook WiFi",
+      "predicate": "采用",
+      "tail_entity": "T04",
+      "tail_type": "technology",
+      "tail_label": "Commotion Wireless",
+      "fact_status": "implemented",
+      "qualifiers": "2012 起；Red Hook",
+      "evidence_ids": [
+        "M01-E09",
+        "M10-E02"
+      ],
+      "process_ids": [
+        "C16-P02"
+      ],
+      "fact_ids": [
+        "F010"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R018",
+      "case_id": "C16",
+      "head_entity": "T04",
+      "head_type": "technology",
+      "head_label": "Commotion Wireless",
+      "predicate": "提供",
+      "tail_entity": "C02",
+      "tail_type": "capability",
+      "tail_label": "自愈 mesh 路由",
+      "fact_status": "implemented",
+      "qualifiers": "2012 起；Red Hook",
+      "evidence_ids": [
+        "M01-E09",
+        "M10-E02"
+      ],
+      "process_ids": [
+        "C16-P02"
+      ],
+      "fact_ids": [
+        "F010"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R019",
+      "case_id": "C16",
+      "head_entity": "T04",
+      "head_type": "technology",
+      "head_label": "Commotion Wireless",
+      "predicate": "支持",
+      "tail_entity": "C01",
+      "tail_type": "capability",
+      "tail_label": "断网本地通信",
+      "fact_status": "implemented",
+      "qualifiers": "2012 起；Red Hook",
+      "evidence_ids": [
+        "M01-E09",
+        "M10-E02"
+      ],
+      "process_ids": [
+        "C16-P02"
+      ],
+      "fact_ids": [
+        "F010"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R020",
+      "case_id": "C16",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_label": "Red Hook Initiative (RHI)",
+      "predicate": "开展",
+      "tail_entity": "AC03",
+      "tail_type": "action",
+      "tail_label": "开展工作坊与需求识别",
+      "fact_status": "implemented",
+      "qualifiers": "2011–2012；RHI；6 类需求",
+      "evidence_ids": [
+        "M01-E11",
+        "M01-E12",
+        "M02-E06"
+      ],
+      "process_ids": [
+        "C16-P03"
+      ],
+      "fact_ids": [
+        "F011"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R021",
+      "case_id": "C16",
+      "head_entity": "A04",
+      "head_type": "actor",
+      "head_label": "Alyx Baldwin",
+      "predicate": "开发",
+      "tail_entity": "T06",
+      "tail_type": "technology",
+      "tail_label": "Tidepools",
+      "fact_status": "implemented",
+      "qualifiers": "2012；Red Hook",
+      "evidence_ids": [
+        "M01-E11"
+      ],
+      "process_ids": [
+        "C16-P03"
+      ],
+      "fact_ids": [
+        "F012"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R022",
+      "case_id": "C16",
+      "head_entity": "T06",
+      "head_type": "technology",
+      "head_label": "Tidepools",
+      "predicate": "提供",
+      "tail_entity": "C03",
+      "tail_type": "capability",
+      "tail_label": "本地信息发布与留言",
+      "fact_status": "implemented",
+      "qualifiers": "2012；Red Hook",
+      "evidence_ids": [
+        "M01-E11"
+      ],
+      "process_ids": [
+        "C16-P03"
+      ],
+      "fact_ids": [
+        "F012"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R023",
+      "case_id": "C16",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_label": "Red Hook Initiative (RHI)",
+      "predicate": "上线",
+      "tail_entity": "T09",
+      "tail_type": "technology",
+      "tail_label": "Where's the B61 Bus?",
+      "fact_status": "implemented",
+      "qualifiers": "2012-10-09 / 2012-10-17；Red Hook；2 个应用",
+      "evidence_ids": [
+        "M01-E14"
+      ],
+      "process_ids": [
+        "C16-P03"
+      ],
+      "fact_ids": [
+        "F013"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R024",
+      "case_id": "C16",
+      "head_entity": "A02",
+      "head_type": "actor",
+      "head_label": "Open Technology Institute (OTI, New America)",
+      "predicate": "上线",
+      "tail_entity": "T10",
+      "tail_type": "technology",
+      "tail_label": "Stop & Frisk Survey",
+      "fact_status": "implemented",
+      "qualifiers": "2012-10-09 / 2012-10-17；Red Hook；2 个应用",
+      "evidence_ids": [
+        "M01-E14"
+      ],
+      "process_ids": [
+        "C16-P03"
+      ],
+      "fact_ids": [
+        "F013"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R025",
+      "case_id": "C16",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_label": "Red Hook Initiative (RHI)",
+      "predicate": "开发",
+      "tail_entity": "T11",
+      "tail_type": "technology",
+      "tail_label": "RHI Radio",
+      "fact_status": "planned",
+      "qualifiers": "2013-02；RHI",
+      "evidence_ids": [
+        "M01-E15"
+      ],
+      "process_ids": [
+        "C16-P03"
+      ],
+      "fact_ids": [
+        "F014"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R026",
+      "case_id": "C16",
+      "head_entity": "X03",
+      "head_type": "context",
+      "head_label": "超级风暴 Sandy",
+      "predicate": "冲击",
+      "tail_entity": "A01",
+      "tail_type": "actor",
+      "tail_label": "Red Hook Initiative (RHI)",
+      "fact_status": "implemented",
+      "qualifiers": "2012-10-29 起；RHI",
+      "evidence_ids": [
+        "M01-E16",
+        "M02-E09"
+      ],
+      "process_ids": [
+        "C16-P04"
+      ],
+      "fact_ids": [
+        "F015"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R027",
+      "case_id": "C16",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_label": "Red Hook Initiative (RHI)",
+      "predicate": "维持",
+      "tail_entity": "O01",
+      "tail_type": "outcome",
+      "tail_label": "Sandy 期间核心据点持续联网",
+      "fact_status": "implemented",
+      "qualifiers": "2012-10-29 起；RHI",
+      "evidence_ids": [
+        "M01-E16",
+        "M02-E09"
+      ],
+      "process_ids": [
+        "C16-P04"
+      ],
+      "fact_ids": [
+        "F015"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R028",
+      "case_id": "C16",
+      "head_entity": "AC06",
+      "head_type": "action",
+      "head_label": "Sandy 期间维持 RHI 通信据点",
+      "predicate": "实现",
+      "tail_entity": "O01",
+      "tail_type": "outcome",
+      "tail_label": "Sandy 期间核心据点持续联网",
+      "fact_status": "implemented",
+      "qualifiers": "2012-10-29 起；RHI",
+      "evidence_ids": [
+        "M01-E16",
+        "M02-E09"
+      ],
+      "process_ids": [
+        "C16-P04"
+      ],
+      "fact_ids": [
+        "F015"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R029",
+      "case_id": "C16",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_label": "Red Hook Initiative (RHI)",
+      "predicate": "接待",
+      "tail_entity": "G03",
+      "tail_type": "target",
+      "tail_label": "Red Hook 居民",
+      "fact_status": "implemented",
+      "qualifiers": "2012-10–11；RHI / Coffey Park",
+      "evidence_ids": [
+        "M02-E09",
+        "M15-E04"
+      ],
+      "process_ids": [
+        "C16-P04"
+      ],
+      "fact_ids": [
+        "F016"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R030",
+      "case_id": "C16",
+      "head_entity": "X03",
+      "head_type": "context",
+      "head_label": "超级风暴 Sandy",
+      "predicate": "之后出现",
+      "tail_entity": "O02",
+      "tail_type": "outcome",
+      "tail_label": "灾后使用量激增",
+      "fact_status": "disputed",
+      "qualifiers": "2012-10–11；Red Hook；300 / 1,000 / 1,200 人/日；300/1,000/1,200 三口径并列",
+      "evidence_ids": [
+        "M01-E16",
+        "M15-E04",
+        "M11-E06"
+      ],
+      "process_ids": [
+        "C16-P04"
+      ],
+      "fact_ids": [
+        "F017"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "300/1,000/1,200 三口径并列"
+    },
+    {
+      "relation_id": "R031",
+      "case_id": "C16",
+      "head_entity": "A02",
+      "head_type": "actor",
+      "head_label": "Open Technology Institute (OTI, New America)",
+      "predicate": "开发",
+      "tail_entity": "T08",
+      "tail_type": "technology",
+      "tail_label": "RHI Status",
+      "fact_status": "implemented",
+      "qualifiers": "2012-11；Red Hook",
+      "evidence_ids": [
+        "M01-E18"
+      ],
+      "process_ids": [
+        "C16-P04"
+      ],
+      "fact_ids": [
+        "F018"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R032",
+      "case_id": "C16",
+      "head_entity": "T08",
+      "head_type": "technology",
+      "head_label": "RHI Status",
+      "predicate": "提供",
+      "tail_entity": "C04",
+      "tail_type": "capability",
+      "tail_label": "短信位置/需求映射",
+      "fact_status": "implemented",
+      "qualifiers": "2012-11；Red Hook",
+      "evidence_ids": [
+        "M01-E18"
+      ],
+      "process_ids": [
+        "C16-P04"
+      ],
+      "fact_ids": [
+        "F018"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R033",
+      "case_id": "C16",
+      "head_entity": "A08",
+      "head_type": "actor",
+      "head_label": "FEMA",
+      "predicate": "提供",
+      "tail_entity": "T13",
+      "tail_type": "technology",
+      "tail_label": "FEMA 卫星链路",
+      "fact_status": "implemented",
+      "qualifiers": "2012-11；RHI 与汽修店屋顶；30 天；带宽有限",
+      "evidence_ids": [
+        "M01-E19",
+        "M01-E20",
+        "M02-E10"
+      ],
+      "process_ids": [
+        "C16-P04"
+      ],
+      "fact_ids": [
+        "F019"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R034",
+      "case_id": "C16",
+      "head_entity": "A18",
+      "head_type": "actor",
+      "head_label": "灾后技术志愿者组织",
+      "predicate": "参与",
+      "tail_entity": "AC08",
+      "tail_type": "action",
+      "tail_label": "灾后扩展网络",
+      "fact_status": "implemented",
+      "qualifiers": "2012-11；RHI 与汽修店屋顶；30 天；带宽有限",
+      "evidence_ids": [
+        "M01-E19",
+        "M01-E20",
+        "M02-E10"
+      ],
+      "process_ids": [
+        "C16-P04"
+      ],
+      "fact_ids": [
+        "F019"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R035",
+      "case_id": "C16",
+      "head_entity": "A22",
+      "head_type": "actor",
+      "head_label": "汽修店店主",
+      "predicate": "提供",
+      "tail_entity": "G05",
+      "tail_type": "target",
+      "tail_label": "屋顶/建筑",
+      "fact_status": "implemented",
+      "qualifiers": "2012-11；RHI 与汽修店屋顶；30 天；带宽有限；汽修店屋顶",
+      "evidence_ids": [
+        "M01-E19",
+        "M01-E20",
+        "M02-E10"
+      ],
+      "process_ids": [
+        "C16-P04"
+      ],
+      "fact_ids": [
+        "F019"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "汽修店屋顶"
+    },
+    {
+      "relation_id": "R036",
+      "case_id": "C16",
+      "head_entity": "A07",
+      "head_type": "actor",
+      "head_label": "Brooklyn Fiber",
+      "predicate": "安装",
+      "tail_entity": "AC09",
+      "tail_type": "action",
+      "tail_label": "安装 Brooklyn Fiber 网关",
+      "fact_status": "implemented",
+      "qualifiers": "2012-11–12；Visitation Church Rectory；12 小时备电",
+      "evidence_ids": [
+        "M01-E21"
+      ],
+      "process_ids": [
+        "C16-P04"
+      ],
+      "fact_ids": [
+        "F020"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R037",
+      "case_id": "C16",
+      "head_entity": "T12",
+      "head_type": "technology",
+      "head_label": "备电系统（太阳能/UPS）",
+      "predicate": "支持",
+      "tail_entity": "T02",
+      "tail_type": "technology",
+      "tail_label": "Ubiquiti Nanostation",
+      "fact_status": "implemented",
+      "qualifiers": "2012-11–12；Visitation Church Rectory；12 小时备电",
+      "evidence_ids": [
+        "M01-E21"
+      ],
+      "process_ids": [
+        "C16-P04"
+      ],
+      "fact_ids": [
+        "F020"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R038",
+      "case_id": "C16",
+      "head_entity": "T01",
+      "head_type": "technology",
+      "head_label": "Red Hook WiFi",
+      "predicate": "部分失效",
+      "tail_entity": "O01",
+      "tail_type": "outcome",
+      "tail_label": "Sandy 期间核心据点持续联网",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2012-10；Red Hook；低可靠性二次汇编",
+      "evidence_ids": [
+        "M18-E02"
+      ],
+      "process_ids": [
+        "C16-P04"
+      ],
+      "fact_ids": [
+        "F021"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "低可靠性二次汇编"
+    },
+    {
+      "relation_id": "R039",
+      "case_id": "C16",
+      "head_entity": "A17",
+      "head_type": "actor",
+      "head_label": "本地商户宿主",
+      "predicate": "参与",
+      "tail_entity": "AC08",
+      "tail_type": "action",
+      "tail_label": "灾后扩展网络",
+      "fact_status": "implemented",
+      "qualifiers": "2012-11 起；Red Hook",
+      "evidence_ids": [
+        "M02-E11",
+        "M11-E07"
+      ],
+      "process_ids": [
+        "C16-P05"
+      ],
+      "fact_ids": [
+        "F022"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R040",
+      "case_id": "C16",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_label": "Red Hook Initiative (RHI)",
+      "predicate": "启动",
+      "tail_entity": "AC10",
+      "tail_type": "action",
+      "tail_label": "启动 Digital Stewards",
+      "fact_status": "implemented",
+      "qualifiers": "2013-01；RHI",
+      "evidence_ids": [
+        "M01-E23"
+      ],
+      "process_ids": [
+        "C16-P05"
+      ],
+      "fact_ids": [
+        "F023"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R041",
+      "case_id": "C16",
+      "head_entity": "A23",
+      "head_type": "actor",
+      "head_label": "纽约市劳动力发展项目",
+      "predicate": "资助",
+      "tail_entity": "AC10",
+      "tail_type": "action",
+      "tail_label": "启动 Digital Stewards",
+      "fact_status": "implemented",
+      "qualifiers": "2013-01；RHI",
+      "evidence_ids": [
+        "M01-E23"
+      ],
+      "process_ids": [
+        "C16-P05"
+      ],
+      "fact_ids": [
+        "F023"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R042",
+      "case_id": "C16",
+      "head_entity": "AC10",
+      "head_type": "action",
+      "head_label": "启动 Digital Stewards",
+      "predicate": "培训",
+      "tail_entity": "A05",
+      "tail_type": "actor",
+      "tail_label": "Red Hook Digital Stewards",
+      "fact_status": "implemented",
+      "qualifiers": "2013-09；Red Hook；8 人；19–24 岁；一年",
+      "evidence_ids": [
+        "M02-E14",
+        "M11-E01"
+      ],
+      "process_ids": [
+        "C16-P05"
+      ],
+      "fact_ids": [
+        "F024"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R043",
+      "case_id": "C16",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "head_label": "Red Hook Digital Stewards",
+      "predicate": "维护",
+      "tail_entity": "T01",
+      "tail_type": "technology",
+      "tail_label": "Red Hook WiFi",
+      "fact_status": "implemented",
+      "qualifiers": "2015-01；Red Hook；近 24 台路由器",
+      "evidence_ids": [
+        "M11-E02"
+      ],
+      "process_ids": [
+        "C16-P05"
+      ],
+      "fact_ids": [
+        "F025"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R044",
+      "case_id": "C16",
+      "head_entity": "T01",
+      "head_type": "technology",
+      "head_label": "Red Hook WiFi",
+      "predicate": "覆盖",
+      "tail_entity": "G01",
+      "tail_type": "target",
+      "tail_label": "Red Hook 社区",
+      "fact_status": "implemented",
+      "qualifiers": "2015-01；Red Hook；近 24 台路由器",
+      "evidence_ids": [
+        "M11-E02"
+      ],
+      "process_ids": [
+        "C16-P05"
+      ],
+      "fact_ids": [
+        "F025"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R045",
+      "case_id": "C16",
+      "head_entity": "A10",
+      "head_type": "actor",
+      "head_label": "NYCHA",
+      "predicate": "管辖",
+      "tail_entity": "G02",
+      "tail_type": "target",
+      "tail_label": "Red Hook Houses",
+      "fact_status": "implemented",
+      "qualifiers": "2013；Red Hook Houses 周边",
+      "evidence_ids": [
+        "M02-E15"
+      ],
+      "process_ids": [
+        "C16-P05"
+      ],
+      "fact_ids": [
+        "F026"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R046",
+      "case_id": "C16",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_label": "Red Hook Initiative (RHI)",
+      "predicate": "采取",
+      "tail_entity": "AC11",
+      "tail_type": "action",
+      "tail_label": "维护与扩展网络",
+      "fact_status": "implemented",
+      "qualifiers": "2013；Red Hook Houses 周边；包围 Red Hook Houses 的过渡策略",
+      "evidence_ids": [
+        "M02-E15"
+      ],
+      "process_ids": [
+        "C16-P05"
+      ],
+      "fact_ids": [
+        "F026"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "包围 Red Hook Houses 的过渡策略"
+    },
+    {
+      "relation_id": "R047",
+      "case_id": "C16",
+      "head_entity": "K05",
+      "head_type": "task",
+      "head_label": "扩展覆盖至 Red Hook Houses",
+      "predicate": "目标",
+      "tail_entity": "G02",
+      "tail_type": "target",
+      "tail_label": "Red Hook Houses",
+      "fact_status": "implemented",
+      "qualifiers": "2013；Red Hook Houses 周边",
+      "evidence_ids": [
+        "M02-E15"
+      ],
+      "process_ids": [
+        "C16-P05"
+      ],
+      "fact_ids": [
+        "F026"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R048",
+      "case_id": "C16",
+      "head_entity": "T01",
+      "head_type": "technology",
+      "head_label": "Red Hook WiFi",
+      "predicate": "服务",
+      "tail_entity": "G03",
+      "tail_type": "target",
+      "tail_label": "Red Hook 居民",
+      "fact_status": "implemented",
+      "qualifiers": "2013 初；Red Hook；约 100 用户/周",
+      "evidence_ids": [
+        "M01-E22"
+      ],
+      "process_ids": [
+        "C16-P06"
+      ],
+      "fact_ids": [
+        "F028"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R049",
+      "case_id": "C16",
+      "head_entity": "T06",
+      "head_type": "technology",
+      "head_label": "Tidepools",
+      "predicate": "支持",
+      "tail_entity": "C01",
+      "tail_type": "capability",
+      "tail_label": "断网本地通信",
+      "fact_status": "implemented",
+      "qualifiers": "2013；Red Hook",
+      "evidence_ids": [
+        "M02-E08"
+      ],
+      "process_ids": [
+        "C16-P06"
+      ],
+      "fact_ids": [
+        "F029"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R050",
+      "case_id": "C16",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "head_label": "Red Hook Digital Stewards",
+      "predicate": "维护",
+      "tail_entity": "T01",
+      "tail_type": "technology",
+      "tail_label": "Red Hook WiFi",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2013；Red Hook",
+      "evidence_ids": [
+        "M02-E12"
+      ],
+      "process_ids": [
+        "C16-P06"
+      ],
+      "fact_ids": [
+        "F030"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R051",
+      "case_id": "C16",
+      "head_entity": "A06",
+      "head_type": "actor",
+      "head_label": "Robert Smith",
+      "predicate": "维护",
+      "tail_entity": "T01",
+      "tail_type": "technology",
+      "tail_label": "Red Hook WiFi",
+      "fact_status": "implemented",
+      "qualifiers": "2014-08；Miccio Community Center",
+      "evidence_ids": [
+        "M10-E01",
+        "M10-E02"
+      ],
+      "process_ids": [
+        "C16-P06"
+      ],
+      "fact_ids": [
+        "F032"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R052",
+      "case_id": "C16",
+      "head_entity": "A05",
+      "head_type": "actor",
+      "head_label": "Red Hook Digital Stewards",
+      "predicate": "承担",
+      "tail_entity": "K06",
+      "tail_type": "task",
+      "tail_label": "维持网络长期运营",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2013；Red Hook",
+      "evidence_ids": [
+        "M02-E12"
+      ],
+      "process_ids": [
+        "C16-P06"
+      ],
+      "fact_ids": [
+        "F030"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R053",
+      "case_id": "C16",
+      "head_entity": "A02",
+      "head_type": "actor",
+      "head_label": "Open Technology Institute (OTI, New America)",
+      "predicate": "获得",
+      "tail_entity": "AC12",
+      "tail_type": "action",
+      "tail_label": "申请并获 RISE:NYC",
+      "fact_status": "implemented",
+      "qualifiers": "2015-05；New York City",
+      "evidence_ids": [
+        "M03-E01",
+        "M03-E04",
+        "M12-E02"
+      ],
+      "process_ids": [
+        "C16-P07"
+      ],
+      "fact_ids": [
+        "F033"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R054",
+      "case_id": "C16",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_label": "Red Hook Initiative (RHI)",
+      "predicate": "获得",
+      "tail_entity": "AC12",
+      "tail_type": "action",
+      "tail_label": "申请并获 RISE:NYC",
+      "fact_status": "implemented",
+      "qualifiers": "2015-05；New York City",
+      "evidence_ids": [
+        "M03-E01",
+        "M03-E04",
+        "M12-E02"
+      ],
+      "process_ids": [
+        "C16-P07"
+      ],
+      "fact_ids": [
+        "F033"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R055",
+      "case_id": "C16",
+      "head_entity": "X05",
+      "head_type": "context",
+      "head_label": "RISE:NYC 计划",
+      "predicate": "资助",
+      "tail_entity": "A01",
+      "tail_type": "actor",
+      "tail_label": "Red Hook Initiative (RHI)",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2015；New York City；US$4M / 约 US$1M；单项金额为单一来源",
+      "evidence_ids": [
+        "M15-E06"
+      ],
+      "process_ids": [
+        "C16-P07"
+      ],
+      "fact_ids": [
+        "F035"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "单项金额为单一来源"
+    },
+    {
+      "relation_id": "R056",
+      "case_id": "C16",
+      "head_entity": "AC12",
+      "head_type": "action",
+      "head_label": "申请并获 RISE:NYC",
+      "predicate": "扩展",
+      "tail_entity": "T01",
+      "tail_type": "technology",
+      "tail_label": "Red Hook WiFi",
+      "fact_status": "implemented",
+      "qualifiers": "2015–2017；Red Hook；约 20 站点",
+      "evidence_ids": [
+        "M15-E07"
+      ],
+      "process_ids": [
+        "C16-P07"
+      ],
+      "fact_ids": [
+        "F036"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R057",
+      "case_id": "C16",
+      "head_entity": "T01",
+      "head_type": "technology",
+      "head_label": "Red Hook WiFi",
+      "predicate": "达到",
+      "tail_entity": "O03",
+      "tail_type": "outcome",
+      "tail_label": "网络峰值约 20 站点",
+      "fact_status": "implemented",
+      "qualifiers": "2015–2017；Red Hook；约 20 站点",
+      "evidence_ids": [
+        "M15-E07"
+      ],
+      "process_ids": [
+        "C16-P07"
+      ],
+      "fact_ids": [
+        "F036"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R058",
+      "case_id": "C16",
+      "head_entity": "T01",
+      "head_type": "technology",
+      "head_label": "Red Hook WiFi",
+      "predicate": "产生",
+      "tail_entity": "O05",
+      "tail_type": "outcome",
+      "tail_label": "访问量统计",
+      "fact_status": "implemented",
+      "qualifiers": "2016 H1；2017；Red Hook；15,624 次/3,000+ 用户；17,901 次",
+      "evidence_ids": [
+        "M13-E01",
+        "M04-E04"
+      ],
+      "process_ids": [
+        "C16-P07"
+      ],
+      "fact_ids": [
+        "F037"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R059",
+      "case_id": "C16",
+      "head_entity": "A17",
+      "head_type": "actor",
+      "head_label": "本地商户宿主",
+      "predicate": "形成",
+      "tail_entity": "O06",
+      "tail_type": "outcome",
+      "tail_label": "2017 年 38 家商户宿主",
+      "fact_status": "implemented",
+      "qualifiers": "2017；Red Hook 商业街；38 家",
+      "evidence_ids": [
+        "M04-E03",
+        "M08-E01"
+      ],
+      "process_ids": [
+        "C16-P07"
+      ],
+      "fact_ids": [
+        "F038"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R060",
+      "case_id": "C16",
+      "head_entity": "A21",
+      "head_type": "actor",
+      "head_label": "MIT 研究团队",
+      "predicate": "合作",
+      "tail_entity": "A05",
+      "tail_type": "actor",
+      "tail_label": "Red Hook Digital Stewards",
+      "fact_status": "implemented",
+      "qualifiers": "2016 夏；Red Hook / MIT / Detroit",
+      "evidence_ids": [
+        "M04-E05"
+      ],
+      "process_ids": [
+        "C16-P07"
+      ],
+      "fact_ids": [
+        "F039"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R061",
+      "case_id": "C16",
+      "head_entity": "T01",
+      "head_type": "technology",
+      "head_label": "Red Hook WiFi",
+      "predicate": "依赖",
+      "tail_entity": "A17",
+      "tail_type": "actor",
+      "tail_label": "本地商户宿主",
+      "fact_status": "implemented",
+      "qualifiers": "2017；Red Hook 商业街；38 家；网络依赖商户宿主，非单向因果",
+      "evidence_ids": [
+        "M04-E03",
+        "M08-E01"
+      ],
+      "process_ids": [
+        "C16-P07"
+      ],
+      "fact_ids": [
+        "F038"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "网络依赖商户宿主，非单向因果"
+    },
+    {
+      "relation_id": "R062",
+      "case_id": "C16",
+      "head_entity": "A10",
+      "head_type": "actor",
+      "head_label": "NYCHA",
+      "predicate": "要求",
+      "tail_entity": "A01",
+      "tail_type": "actor",
+      "tail_label": "Red Hook Initiative (RHI)",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2015–2019；Red Hook Houses",
+      "evidence_ids": [
+        "M15-E08"
+      ],
+      "process_ids": [
+        "C16-P08"
+      ],
+      "fact_ids": [
+        "F040"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R063",
+      "case_id": "C16",
+      "head_entity": "A06",
+      "head_type": "actor",
+      "head_label": "Robert Smith",
+      "predicate": "离开",
+      "tail_entity": "A01",
+      "tail_type": "actor",
+      "tail_label": "Red Hook Initiative (RHI)",
+      "fact_status": "implemented",
+      "qualifiers": "2016 / 2017；RHI；2 名关键人员",
+      "evidence_ids": [
+        "M15-E09"
+      ],
+      "process_ids": [
+        "C16-P08"
+      ],
+      "fact_ids": [
+        "F041"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R064",
+      "case_id": "C16",
+      "head_entity": "A03",
+      "head_type": "actor",
+      "head_label": "Tony Schloss",
+      "predicate": "离开",
+      "tail_entity": "A01",
+      "tail_type": "actor",
+      "tail_label": "Red Hook Initiative (RHI)",
+      "fact_status": "implemented",
+      "qualifiers": "2016 / 2017；RHI；2 名关键人员",
+      "evidence_ids": [
+        "M15-E09"
+      ],
+      "process_ids": [
+        "C16-P08"
+      ],
+      "fact_ids": [
+        "F041"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R065",
+      "case_id": "C16",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_label": "Red Hook Initiative (RHI)",
+      "predicate": "移交",
+      "tail_entity": "A09",
+      "tail_type": "actor",
+      "tail_label": "Sky Packets",
+      "fact_status": "implemented",
+      "qualifiers": "2019；Red Hook；约 US$3,000/月",
+      "evidence_ids": [
+        "M15-E10"
+      ],
+      "process_ids": [
+        "C16-P08"
+      ],
+      "fact_ids": [
+        "F042"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R066",
+      "case_id": "C16",
+      "head_entity": "A09",
+      "head_type": "actor",
+      "head_label": "Sky Packets",
+      "predicate": "运营",
+      "tail_entity": "T01",
+      "tail_type": "technology",
+      "tail_label": "Red Hook WiFi",
+      "fact_status": "implemented",
+      "qualifiers": "2019；Red Hook；约 US$3,000/月",
+      "evidence_ids": [
+        "M15-E10"
+      ],
+      "process_ids": [
+        "C16-P08"
+      ],
+      "fact_ids": [
+        "F042"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R067",
+      "case_id": "C16",
+      "head_entity": "A09",
+      "head_type": "actor",
+      "head_label": "Sky Packets",
+      "predicate": "承担",
+      "tail_entity": "O09",
+      "tail_type": "outcome",
+      "tail_label": "移交后 Sky Packets 运营与月成本",
+      "fact_status": "implemented",
+      "qualifiers": "2019；Red Hook；约 US$3,000/月",
+      "evidence_ids": [
+        "M15-E10"
+      ],
+      "process_ids": [
+        "C16-P08"
+      ],
+      "fact_ids": [
+        "F042"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R068",
+      "case_id": "C16",
+      "head_entity": "AC10",
+      "head_type": "action",
+      "head_label": "启动 Digital Stewards",
+      "predicate": "产生",
+      "tail_entity": "O07",
+      "tail_type": "outcome",
+      "tail_label": "Stewards 就业/教育成果",
+      "fact_status": "implemented",
+      "qualifiers": "2017；Red Hook；8 个月；77%",
+      "evidence_ids": [
+        "M04-E01",
+        "M04-E02",
+        "M08-E02"
+      ],
+      "process_ids": [
+        "C16-P08"
+      ],
+      "fact_ids": [
+        "F043"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R069",
+      "case_id": "C16",
+      "head_entity": "X06",
+      "head_type": "context",
+      "head_label": "COVID-19 疫情",
+      "predicate": "伴随",
+      "tail_entity": "AC14",
+      "tail_type": "action",
+      "tail_label": "疫情撤点与网络收缩",
+      "fact_status": "implemented",
+      "qualifiers": "2020；Red Hook",
+      "evidence_ids": [
+        "M15-E11"
+      ],
+      "process_ids": [
+        "C16-P09"
+      ],
+      "fact_ids": [
+        "F044"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R070",
+      "case_id": "C16",
+      "head_entity": "A17",
+      "head_type": "actor",
+      "head_label": "本地商户宿主",
+      "predicate": "撤下",
+      "tail_entity": "T02",
+      "tail_type": "technology",
+      "tail_label": "Ubiquiti Nanostation",
+      "fact_status": "implemented",
+      "qualifiers": "2020；Red Hook",
+      "evidence_ids": [
+        "M15-E11"
+      ],
+      "process_ids": [
+        "C16-P09"
+      ],
+      "fact_ids": [
+        "F044"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R071",
+      "case_id": "C16",
+      "head_entity": "G02",
+      "head_type": "target",
+      "head_label": "Red Hook Houses",
+      "predicate": "未被覆盖",
+      "tail_entity": "T01",
+      "tail_type": "technology",
+      "tail_label": "Red Hook WiFi",
+      "fact_status": "implemented",
+      "qualifiers": "2020；Red Hook",
+      "evidence_ids": [
+        "M15-E11"
+      ],
+      "process_ids": [
+        "C16-P09"
+      ],
+      "fact_ids": [
+        "F044"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R072",
+      "case_id": "C16",
+      "head_entity": "T01",
+      "head_type": "technology",
+      "head_label": "Red Hook WiFi",
+      "predicate": "受施工扰动",
+      "tail_entity": "G02",
+      "tail_type": "target",
+      "tail_label": "Red Hook Houses",
+      "fact_status": "implemented",
+      "qualifiers": "2020–2023；Red Hook Houses",
+      "evidence_ids": [
+        "M15-E12"
+      ],
+      "process_ids": [
+        "C16-P09"
+      ],
+      "fact_ids": [
+        "F045"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R073",
+      "case_id": "C16",
+      "head_entity": "T01",
+      "head_type": "technology",
+      "head_label": "Red Hook WiFi",
+      "predicate": "收缩至",
+      "tail_entity": "O04",
+      "tail_type": "outcome",
+      "tail_label": "2023 年约 10 个活跃站点",
+      "fact_status": "implemented",
+      "qualifiers": "2023-05；Red Hook；约 10 个站点",
+      "evidence_ids": [
+        "M15-E12"
+      ],
+      "process_ids": [
+        "C16-P09"
+      ],
+      "fact_ids": [
+        "F046"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R074",
+      "case_id": "C16",
+      "head_entity": "A14",
+      "head_type": "actor",
+      "head_label": "de Blasio 政府",
+      "predicate": "有条件批准",
+      "tail_entity": "K05",
+      "tail_type": "task",
+      "tail_label": "扩展覆盖至 Red Hook Houses",
+      "fact_status": "implemented",
+      "qualifiers": "2021–2022；New York City / Red Hook Houses；2021 年批准，未实施",
+      "evidence_ids": [
+        "M15-E13"
+      ],
+      "process_ids": [
+        "C16-P09"
+      ],
+      "fact_ids": [
+        "F047"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "2021 年批准，未实施"
+    },
+    {
+      "relation_id": "R075",
+      "case_id": "C16",
+      "head_entity": "A15",
+      "head_type": "actor",
+      "head_label": "Adams 政府",
+      "predicate": "替代",
+      "tail_entity": "AC16",
+      "tail_type": "action",
+      "tail_label": "市府政策替代（Big Apple Connect）",
+      "fact_status": "implemented",
+      "qualifiers": "2021–2022；New York City / Red Hook Houses",
+      "evidence_ids": [
+        "M15-E13"
+      ],
+      "process_ids": [
+        "C16-P09"
+      ],
+      "fact_ids": [
+        "F047"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R076",
+      "case_id": "C16",
+      "head_entity": "A13",
+      "head_type": "actor",
+      "head_label": "NYC Office of Technology and Innovation (NYC OTI)",
+      "predicate": "未纳入首期",
+      "tail_entity": "G02",
+      "tail_type": "target",
+      "tail_label": "Red Hook Houses",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2022–2023；Red Hook Houses",
+      "evidence_ids": [
+        "M15-E14"
+      ],
+      "process_ids": [
+        "C16-P09"
+      ],
+      "fact_ids": [
+        "F048"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R077",
+      "case_id": "C16",
+      "head_entity": "G02",
+      "head_type": "target",
+      "head_label": "Red Hook Houses",
+      "predicate": "处于",
+      "tail_entity": "O08",
+      "tail_type": "outcome",
+      "tail_label": "Red Hook Houses 室内未覆盖",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2022–2023；Red Hook Houses",
+      "evidence_ids": [
+        "M15-E14"
+      ],
+      "process_ids": [
+        "C16-P09"
+      ],
+      "fact_ids": [
+        "F048"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R078",
+      "case_id": "C16",
+      "head_entity": "A16",
+      "head_type": "actor",
+      "head_label": "Red Hook Farms",
+      "predicate": "使用",
+      "tail_entity": "T14",
+      "tail_type": "technology",
+      "tail_label": "环境传感器",
+      "fact_status": "implemented",
+      "qualifiers": "2018 后；Red Hook Farms",
+      "evidence_ids": [
+        "M15-E15"
+      ],
+      "process_ids": [
+        "C16-P10"
+      ],
+      "fact_ids": [
+        "F049"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R079",
+      "case_id": "C16",
+      "head_entity": "T14",
+      "head_type": "technology",
+      "head_label": "环境传感器",
+      "predicate": "监测",
+      "tail_entity": "G06",
+      "tail_type": "target",
+      "tail_label": "农场/温室",
+      "fact_status": "implemented",
+      "qualifiers": "2018 后；Red Hook Farms",
+      "evidence_ids": [
+        "M15-E15"
+      ],
+      "process_ids": [
+        "C16-P10"
+      ],
+      "fact_ids": [
+        "F049"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R080",
+      "case_id": "C16",
+      "head_entity": "T14",
+      "head_type": "technology",
+      "head_label": "环境传感器",
+      "predicate": "监测",
+      "tail_entity": "G07",
+      "tail_type": "target",
+      "tail_label": "空气质量数据",
+      "fact_status": "implemented",
+      "qualifiers": "2018 后；Red Hook / Columbia Street Farm",
+      "evidence_ids": [
+        "M15-E15"
+      ],
+      "process_ids": [
+        "C16-P10"
+      ],
+      "fact_ids": [
+        "F050"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R081",
+      "case_id": "C16",
+      "head_entity": "T14",
+      "head_type": "technology",
+      "head_label": "环境传感器",
+      "predicate": "提供",
+      "tail_entity": "C05",
+      "tail_type": "capability",
+      "tail_label": "环境监测",
+      "fact_status": "implemented",
+      "qualifiers": "2018 后；Red Hook Farms",
+      "evidence_ids": [
+        "M15-E15"
+      ],
+      "process_ids": [
+        "C16-P10"
+      ],
+      "fact_ids": [
+        "F049"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R082",
+      "case_id": "C16",
+      "head_entity": "T01",
+      "head_type": "technology",
+      "head_label": "Red Hook WiFi",
+      "predicate": "承载",
+      "tail_entity": "C03",
+      "tail_type": "capability",
+      "tail_label": "本地信息发布与留言",
+      "fact_status": "implemented",
+      "qualifiers": "2023；Red Hook",
+      "evidence_ids": [
+        "M15-E15",
+        "M05-E02"
+      ],
+      "process_ids": [
+        "C16-P10"
+      ],
+      "fact_ids": [
+        "F051"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R083",
+      "case_id": "C16",
+      "head_entity": "A20",
+      "head_type": "actor",
+      "head_label": "NYC 主计长与 Urban Ocean Lab",
+      "predicate": "产生",
+      "tail_entity": "O10",
+      "tail_type": "outcome",
+      "tail_label": "2022 年政策报告认可",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2022；New York City",
+      "evidence_ids": [
+        "M15-E17"
+      ],
+      "process_ids": [
+        "C16-P10"
+      ],
+      "fact_ids": [
+        "F052"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R084",
+      "case_id": "C16",
+      "head_entity": "O10",
+      "head_type": "outcome",
+      "head_label": "2022 年政策报告认可",
+      "predicate": "指向",
+      "tail_entity": "T01",
+      "tail_type": "technology",
+      "tail_label": "Red Hook WiFi",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2022；New York City",
+      "evidence_ids": [
+        "M15-E17"
+      ],
+      "process_ids": [
+        "C16-P10"
+      ],
+      "fact_ids": [
+        "F052"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R085",
+      "case_id": "C16",
+      "head_entity": "A19",
+      "head_type": "actor",
+      "head_label": "Greta Byrum",
+      "predicate": "评价",
+      "tail_entity": "T01",
+      "tail_type": "technology",
+      "tail_label": "Red Hook WiFi",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2023；Red Hook；认为不适合作为规模化方案",
+      "evidence_ids": [
+        "M15-E16",
+        "M15-E18"
+      ],
+      "process_ids": [
+        "C16-P10"
+      ],
+      "fact_ids": [
+        "F053"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "认为不适合作为规模化方案"
+    },
+    {
+      "relation_id": "R086",
+      "case_id": "C16",
+      "head_entity": "A19",
+      "head_type": "actor",
+      "head_label": "Greta Byrum",
+      "predicate": "强调",
+      "tail_entity": "A05",
+      "tail_type": "actor",
+      "tail_label": "Red Hook Digital Stewards",
+      "fact_status": "reported_or_opinion",
+      "qualifiers": "2023；Red Hook；强调受训人员的价值",
+      "evidence_ids": [
+        "M15-E16",
+        "M15-E18"
+      ],
+      "process_ids": [
+        "C16-P10"
+      ],
+      "fact_ids": [
+        "F053"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": "强调受训人员的价值"
+    },
+    {
+      "relation_id": "R087",
+      "case_id": "C16",
+      "head_entity": "A11",
+      "head_type": "actor",
+      "head_label": "NYCEDC",
+      "predicate": "实施",
+      "tail_entity": "X05",
+      "tail_type": "context",
+      "tail_label": "RISE:NYC 计划",
+      "fact_status": "implemented",
+      "qualifiers": "2015-04/05；New York City；11 项；最高 US$30M；27 个入围",
+      "evidence_ids": [
+        "M12-E01",
+        "M03-E05"
+      ],
+      "process_ids": [
+        "C16-P07"
+      ],
+      "fact_ids": [
+        "F034"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R088",
+      "case_id": "C16",
+      "head_entity": "A12",
+      "head_type": "actor",
+      "head_label": "U.S. Department of Housing and Urban Development (HUD)",
+      "predicate": "资助",
+      "tail_entity": "X05",
+      "tail_type": "context",
+      "tail_label": "RISE:NYC 计划",
+      "fact_status": "implemented",
+      "qualifiers": "2015-04/05；New York City；11 项；最高 US$30M；27 个入围",
+      "evidence_ids": [
+        "M12-E01",
+        "M03-E05"
+      ],
+      "process_ids": [
+        "C16-P07"
+      ],
+      "fact_ids": [
+        "F034"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R089",
+      "case_id": "C16",
+      "head_entity": "AC06",
+      "head_type": "action",
+      "head_label": "Sandy 期间维持 RHI 通信据点",
+      "predicate": "服务",
+      "tail_entity": "K03",
+      "tail_type": "task",
+      "tail_label": "灾后恢复社区通信",
+      "fact_status": "implemented",
+      "qualifiers": "2012-10-29 起；RHI",
+      "evidence_ids": [
+        "M01-E16",
+        "M02-E09"
+      ],
+      "process_ids": [
+        "C16-P04"
+      ],
+      "fact_ids": [
+        "F015"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R090",
+      "case_id": "C16",
+      "head_entity": "AC10",
+      "head_type": "action",
+      "head_label": "启动 Digital Stewards",
+      "predicate": "实现",
+      "tail_entity": "K04",
+      "tail_type": "task",
+      "tail_label": "培养本地网络维护者",
+      "fact_status": "implemented",
+      "qualifiers": "2013-09；Red Hook；8 人；19–24 岁；一年",
+      "evidence_ids": [
+        "M02-E14",
+        "M11-E01"
+      ],
+      "process_ids": [
+        "C16-P05"
+      ],
+      "fact_ids": [
+        "F024"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R091",
+      "case_id": "C16",
+      "head_entity": "T01",
+      "head_type": "technology",
+      "head_label": "Red Hook WiFi",
+      "predicate": "包含",
+      "tail_entity": "T07",
+      "tail_type": "technology",
+      "tail_label": "Red Hook HUB",
+      "fact_status": "implemented",
+      "qualifiers": "2023；Red Hook",
+      "evidence_ids": [
+        "M15-E15",
+        "M05-E02"
+      ],
+      "process_ids": [
+        "C16-P10"
+      ],
+      "fact_ids": [
+        "F051"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R092",
+      "case_id": "C16",
+      "head_entity": "A17",
+      "head_type": "actor",
+      "head_label": "本地商户宿主",
+      "predicate": "服务",
+      "tail_entity": "G04",
+      "tail_type": "target",
+      "tail_label": "本地商户",
+      "fact_status": "implemented",
+      "qualifiers": "2017；Red Hook 商业街；38 家",
+      "evidence_ids": [
+        "M04-E03",
+        "M08-E01"
+      ],
+      "process_ids": [
+        "C16-P07"
+      ],
+      "fact_ids": [
+        "F038"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R093",
+      "case_id": "C16",
+      "head_entity": "T14",
+      "head_type": "technology",
+      "head_label": "环境传感器",
+      "predicate": "产生",
+      "tail_entity": "O11",
+      "tail_type": "outcome",
+      "tail_label": "农场传感与空气质量监测",
+      "fact_status": "implemented",
+      "qualifiers": "2018 后；Red Hook Farms",
+      "evidence_ids": [
+        "M15-E15"
+      ],
+      "process_ids": [
+        "C16-P10"
+      ],
+      "fact_ids": [
+        "F049"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R094",
+      "case_id": "C16",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_label": "Red Hook Initiative (RHI)",
+      "predicate": "开展",
+      "tail_entity": "AC01",
+      "tail_type": "action",
+      "tail_label": "接触 OTI 并建立合作",
+      "fact_status": "implemented",
+      "qualifiers": "2011 秋；Red Hook, Brooklyn",
+      "evidence_ids": [
+        "M01-E01"
+      ],
+      "process_ids": [
+        "C16-P01"
+      ],
+      "fact_ids": [
+        "F001"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R095",
+      "case_id": "C16",
+      "head_entity": "A04",
+      "head_type": "actor",
+      "head_label": "Alyx Baldwin",
+      "predicate": "开展",
+      "tail_entity": "AC04",
+      "tail_type": "action",
+      "tail_label": "开发 Tidepools",
+      "fact_status": "implemented",
+      "qualifiers": "2012；Red Hook",
+      "evidence_ids": [
+        "M01-E11"
+      ],
+      "process_ids": [
+        "C16-P03"
+      ],
+      "fact_ids": [
+        "F012"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R096",
+      "case_id": "C16",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_label": "Red Hook Initiative (RHI)",
+      "predicate": "开展",
+      "tail_entity": "AC05",
+      "tail_type": "action",
+      "tail_label": "上线本地应用",
+      "fact_status": "implemented",
+      "qualifiers": "2012-10-09 / 2012-10-17；Red Hook；2 个应用",
+      "evidence_ids": [
+        "M01-E14"
+      ],
+      "process_ids": [
+        "C16-P03"
+      ],
+      "fact_ids": [
+        "F013"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R097",
+      "case_id": "C16",
+      "head_entity": "A02",
+      "head_type": "actor",
+      "head_label": "Open Technology Institute (OTI, New America)",
+      "predicate": "开展",
+      "tail_entity": "AC07",
+      "tail_type": "action",
+      "tail_label": "开发 RHI Status",
+      "fact_status": "implemented",
+      "qualifiers": "2012-11；Red Hook",
+      "evidence_ids": [
+        "M01-E18"
+      ],
+      "process_ids": [
+        "C16-P04"
+      ],
+      "fact_ids": [
+        "F018"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R098",
+      "case_id": "C16",
+      "head_entity": "A01",
+      "head_type": "actor",
+      "head_label": "Red Hook Initiative (RHI)",
+      "predicate": "开展",
+      "tail_entity": "AC13",
+      "tail_type": "action",
+      "tail_label": "移交 Sky Packets",
+      "fact_status": "implemented",
+      "qualifiers": "2019；Red Hook；约 US$3,000/月",
+      "evidence_ids": [
+        "M15-E10"
+      ],
+      "process_ids": [
+        "C16-P08"
+      ],
+      "fact_ids": [
+        "F042"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R099",
+      "case_id": "C16",
+      "head_entity": "A16",
+      "head_type": "actor",
+      "head_label": "Red Hook Farms",
+      "predicate": "开展",
+      "tail_entity": "AC15",
+      "tail_type": "action",
+      "tail_label": "安装农场环境传感器",
+      "fact_status": "implemented",
+      "qualifiers": "2018 后；Red Hook Farms",
+      "evidence_ids": [
+        "M15-E15"
+      ],
+      "process_ids": [
+        "C16-P10"
+      ],
+      "fact_ids": [
+        "F049"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R100",
+      "case_id": "C16",
+      "head_entity": "X04",
+      "head_type": "context",
+      "head_label": "NYCHA 对 Red Hook Houses 的管辖",
+      "predicate": "限定",
+      "tail_entity": "K05",
+      "tail_type": "task",
+      "tail_label": "扩展覆盖至 Red Hook Houses",
+      "fact_status": "implemented",
+      "qualifiers": "2013；Red Hook Houses 周边",
+      "evidence_ids": [
+        "M02-E15"
+      ],
+      "process_ids": [
+        "C16-P05"
+      ],
+      "fact_ids": [
+        "F026"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    },
+    {
+      "relation_id": "R101",
+      "case_id": "C16",
+      "head_entity": "X07",
+      "head_type": "context",
+      "head_label": "数字鸿沟与手机依赖",
+      "predicate": "构成情境",
+      "tail_entity": "K01",
+      "tail_type": "task",
+      "tail_label": "提供免费可靠互联网接入",
+      "fact_status": "implemented",
+      "qualifiers": "2011 前后；Red Hook, Brooklyn",
+      "evidence_ids": [
+        "M02-E03",
+        "M02-E04"
+      ],
+      "process_ids": [
+        "C16-P01"
+      ],
+      "fact_ids": [
+        "F004"
+      ],
+      "review": "candidate",
+      "version": "v0.1",
+      "note": ""
+    }
+  ]
+}

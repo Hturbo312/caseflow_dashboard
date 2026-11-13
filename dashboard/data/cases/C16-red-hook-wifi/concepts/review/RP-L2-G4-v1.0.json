@@ -1,0 +1,42 @@
+{
+  "packetId": "RP-L2-G4-v1.0",
+  "supersedes": "RP-L2-G4-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "G4",
+  "caseId": "C16",
+  "version": "L2-C16-concepts-v1.0",
+  "releasedAt": "2026-11-13",
+  "status": "released",
+  "researcherDecision": {
+    "action": "release",
+    "rationale": "L2-G3 按推荐通过（按当前待确认 G4 发布解释）",
+    "modifiedContent": null,
+    "release": true,
+    "decidedAt": "2026-11-13"
+  },
+  "releaseScope": {
+    "nativeConcepts": 9,
+    "candidateConcepts": 4,
+    "mappings": 9,
+    "networkNodes": 18,
+    "networkEdges": 18,
+    "formalSharedConcepts": 0,
+    "fileLayerOnly": true,
+    "sqliteWrite": false
+  },
+  "frozenArtifacts": [
+    "native_concept_inventory_v1.0",
+    "shared_concept_candidates_v1.0",
+    "concept_mappings_v1.0",
+    "concept_network_v1.0",
+    "ontology_delta_v1.0",
+    "version_record.md",
+    "RP-L2-G4-v1.0"
+  ],
+  "openIssues": [
+    "4 个候选单案例",
+    "NC-C16-08 反向机制",
+    "PC-C16-01/02 未提升",
+    "dashboard 导入未执行"
+  ]
+}

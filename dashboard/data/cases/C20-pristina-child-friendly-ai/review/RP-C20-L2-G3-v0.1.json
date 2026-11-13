@@ -1,0 +1,52 @@
+{
+  "packet_id": "RP-C20-L2-G3-v0.1",
+  "skill": "scalable-concept-framework",
+  "gate": "L2-G3",
+  "case_id": "C20",
+  "scope": "C20映射的增量更新、历史映射回查、重复候选撤回与候选晋升",
+  "generated_at": "2026-11-13",
+  "status": "accepted",
+  "summary": {
+    "mappings": 9,
+    "mapping_type_counts": {"semantic_equivalent": 0, "native_hyponym": 2, "partial_or_approximate": 5, "no_map": 2},
+    "support_additions": 7,
+    "new_candidates": 1,
+    "withdrawn_candidates": 1,
+    "promotions_proposed": 1,
+    "definition_changes": 0,
+    "negative_changes": 0,
+    "historical_mapping_changes": 0,
+    "historical_reclassifications": 0
+  },
+  "baseline_correction": {
+    "c19_native_concepts": 25,
+    "c19_mappings": 40,
+    "c19_shared_candidates": "SC-C19-101 to SC-C19-113",
+    "c19_files": "missing_db_only",
+    "impact": "C19 can support SC-C19-102 as second case"
+  },
+  "changes": {
+    "withdrawn": ["SC-C20-01"],
+    "retained": ["SC-C20-02"],
+    "promotion": [{"id": "SC-C19-102", "from": "candidate_single_case", "to": "researcher_confirmed", "cases": ["C19","C20"]}],
+    "new_mapping": "MAP-C20-009"
+  },
+  "decisions_requested": [
+    "是否接受C19 DB-only基线更正",
+    "是否撤回SC-C20-01并新增MAP-C20-009到SC-C19-102",
+    "是否接受7个支持增量与保留SC-C20-02",
+    "是否同意G4将SC-C19-102晋升为researcher_confirmed"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": "support_only",
+    "affects_historical_mappings": false,
+    "triggers_case_review": true,
+    "note": "C19 DB-only状态需在G4版本记录中说明"
+  },
+  "decision": {
+    "action": "accept",
+    "rationale": "研究者确认L2-G3历史回查与增量方案",
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  }
+}

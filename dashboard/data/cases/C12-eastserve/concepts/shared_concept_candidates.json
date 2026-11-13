@@ -1,0 +1,146 @@
+{
+  "case_id": "C12",
+  "generated_at": "2026-11-13",
+  "status": "confirmed",
+  "candidates": [
+    {
+      "candidate_id": "SC-C12-01",
+      "label": "家庭数字终端部署与接入",
+      "entity_type": "action",
+      "definition": "面向既有住宅区家庭部署补贴或翻新的数字终端（PC、机顶盒等），并提供接入安排的行动。",
+      "supporting_native_ids": [
+        "NC-C12-09",
+        "NC-C07-technology-005",
+        "NC-C07-action-002",
+        "NC-C07-outcome-001"
+      ],
+      "supporting_case_ids": [
+        "C07",
+        "C12"
+      ],
+      "status": "candidate_two_cases",
+      "semantic_basis": "C07 有机顶盒/家庭数字设备部署，C12 有 PC/机顶盒补贴分发；共同语义是家庭终端部署。",
+      "boundary": "C07 以机顶盒/电视为主，C12 以 PC/无线为主；共享在“终端部署”层，不合并设备类型。",
+      "negative_examples": [
+        "仅采购未部署",
+        "仅有网络覆盖无终端"
+      ],
+      "version": "L2-C12-candidates-v0.1"
+    },
+    {
+      "candidate_id": "SC-C12-02",
+      "label": "社区门户与本地公共服务入口",
+      "entity_type": "technology",
+      "definition": "面向社区居民的门户或网站，整合本地信息与公共服务入口。",
+      "supporting_native_ids": [
+        "NC-C12-08",
+        "NC-C12-11",
+        "NC-C07-technology-003",
+        "NC-C01-technology-006",
+        "NC-C01-technology-009"
+      ],
+      "supporting_case_ids": [
+        "C01",
+        "C07",
+        "C12"
+      ],
+      "status": "candidate_three_cases",
+      "semantic_basis": "C01 虚拟社区门户、C07 Carpenters Connect、C12 eastserve.com 都承担本地信息/服务入口功能。",
+      "boundary": "门户前端入口，不包含后台治理平台的全部功能；C12 的 eastserve.com 还包含报修/犯罪报告等具体服务。",
+      "negative_examples": [
+        "纯后台管理系统",
+        "单一设备"
+      ],
+      "version": "L2-C12-candidates-v0.1"
+    },
+    {
+      "candidate_id": "SC-C12-03",
+      "label": "公共数字项目运营转换",
+      "entity_type": "action",
+      "definition": "公共资助的数字或网络项目从公共项目/NDC 模式转向私营、社会企业或商业运营者的过程。",
+      "supporting_native_ids": [
+        "NC-C12-06",
+        "NC-C01-action-004",
+        "NC-C01-action-002"
+      ],
+      "supporting_case_ids": [
+        "C01",
+        "C12"
+      ],
+      "status": "candidate_partial_support",
+      "semantic_basis": "C12 有 Symera/CityServe/ITS 的运营转换；C01 有 Sonera 前期网络运营合作与虚拟社区服务运营，属部分支持。",
+      "boundary": "强调运营权/运营模式转换，不是单次采购或外包；C01 只是部分支持，不是清算/承接。",
+      "negative_examples": [
+        "单次外包",
+        "没有运营权转移"
+      ],
+      "version": "L2-C12-candidates-v0.1"
+    },
+    {
+      "candidate_id": "SC-C12-04",
+      "label": "本地安装就业链",
+      "entity_type": "action",
+      "definition": "通过 intermediate labour market 或社区企业，让本地居民参与设备安装、维护并获得就业/培训的机制。",
+      "supporting_native_ids": [
+        "NC-C12-04"
+      ],
+      "supporting_case_ids": [
+        "C12"
+      ],
+      "status": "candidate_single_case",
+      "semantic_basis": "C12 通过 ITEM 让本地居民参与安装并就业。",
+      "boundary": "本地安装就业，不是一般培训或外部承包安装。",
+      "negative_examples": [
+        "外部承包商安装",
+        "仅培训无就业"
+      ],
+      "version": "L2-C12-candidates-v0.1"
+    },
+    {
+      "candidate_id": "SC-C12-05",
+      "label": "设备补贴与低息贷款",
+      "entity_type": "capability",
+      "definition": "以补贴价设备叠加本地信用合作社或低息贷款，降低家庭一次性支付门槛的能力。",
+      "supporting_native_ids": [
+        "NC-C12-05"
+      ],
+      "supporting_case_ids": [
+        "C12"
+      ],
+      "status": "candidate_single_case",
+      "semantic_basis": "C12 以 200 英镑新 PC/50 英镑翻新 PC 叠加信用合作社贷款。",
+      "boundary": "affordability 机制，不是设备分发本身。",
+      "negative_examples": [
+        "全价销售",
+        "无融资安排"
+      ],
+      "version": "L2-C12-candidates-v0.1"
+    },
+    {
+      "candidate_id": "SC-C12-06",
+      "label": "组织退出与基础设施延续分离",
+      "entity_type": "outcome",
+      "definition": "项目公司或运营载体退出、清算或解散，但网络/基础设施被收购、升级并继续服务的结果模式。",
+      "supporting_native_ids": [
+        "NC-C12-07"
+      ],
+      "supporting_case_ids": [
+        "C12"
+      ],
+      "status": "candidate_single_case",
+      "semantic_basis": "Symera/CityServe (999) 清算后，ITS 2014 收购并升级网络。",
+      "boundary": "需要基础设施连续性的证据；不是所有组织退出都导致基础设施延续。",
+      "negative_examples": [
+        "组织退出且服务/基础设施终止"
+      ],
+      "version": "L2-C12-candidates-v0.1"
+    }
+  ],
+  "version": "v1.0",
+  "researcher_decision": {
+    "action": "accept_all",
+    "rationale": "Accept 12 mappings; promote SC-C12-01/02 to G3; keep SC-C12-03 partial; keep SC-C12-04/05/06 single-case.",
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  }
+}

@@ -1,0 +1,511 @@
+
+
+Red Hook Wi-Fi - Wikipedia
+
+Jump to content
+
+Main menu
+
+Main menu
+
+move to sidebar
+
+hide
+
+		Navigation
+	
+
+Main page
+Contents
+Current events
+Random article
+About Wikipedia
+Contact us
+
+		Contribute
+	
+
+Help
+Learn to edit
+Community portal
+Recent changes
+Upload file
+Special pages
+
+Search
+
+Search
+
+Appearance
+
+Donate
+
+Create account
+
+Log in
+
+Personal tools
+
+Donate
+
+Create account
+
+Log in
+
+Contents
+
+move to sidebar
+
+hide
+
+(Top)
+
+1
+
+Background
+
+2
+
+Hurricane Sandy
+
+3
+
+References
+
+4
+
+External links
+
+Toggle the table of contents
+
+Red Hook Wi-Fi
+
+Add languages
+
+Add links
+
+Article
+
+Talk
+
+English
+
+Read
+
+Edit
+
+View history
+
+Save
+
+Tools
+
+Tools
+
+move to sidebar
+
+hide
+
+		Actions
+	
+
+Read
+
+Edit
+
+View history
+
+Save
+
+		General
+	
+
+What links here
+Related changes
+Upload file
+Permanent link
+Page information
+Cite this page
+Get shortened URL
+Switch to legacy parser
+
+		Print/export
+	
+
+Download as PDF
+Printable version
+
+		In other projects
+	
+
+Wikidata item
+
+Appearance
+
+move to sidebar
+
+hide
+
+From Wikipedia, the free encyclopedia
+
+Red-Hook Wi-Fi
+Mission statement
+Resilience, Opportunity, Community and Social Justice.
+Type of project
+Non Commercial
+Products
+Mesh Networking
+Location
+Red Hook, Brooklyn
+. United States of America.
+Owner
+Red Hook Initiative
+Established
+November 2011
+Status
+Active
+Website
+redhookwifi
+.org
+
+Red Hook Wi-Fi
+ is a free-to-use, Wi-Fi 
+mesh network
+ that provides internet access to the Red Hook neighborhood of 
+Brooklyn, New York
+.
+[
+1
+]
+ It is operated by the Red Hook Initiative.
+
+Background
+[
+edit
+]
+
+Further information: 
+Mesh networking
+ and 
+Red Hook, Brooklyn
+
+Due to the location of 
+Red Hook, Brooklyn
+, between the 
+Red Hook Channel
+ and the 
+Buttermilk Channel
+, many of its residents face various challenges in accessing broadband service.
+[
+2
+]
+ A survey found out that many people in the area accessed the internet primarily through mobile phones and that over 30% of the population did not have broadband access at home.
+[
+2
+]
+[
+3
+]
+
+First Red Hook WiFi mesh network node (Ubiquiti Nanostation) installation on the Red Hook Initiative rooftop
+
+Running (PoE) Ethernet cable to install a mesh network node on the roof of apartment building north of Coffey Park
+
+Beginning in Fall 2011, the Red Hook Initiative (RHI), a Brooklyn-based 
+501(c)(3)
+ 
+nonprofit organization
+,
+[
+4
+]
+ approached the 
+Open Technology Institute
+ about collaborating on a community wireless network. RHI wanted a way to communicate with the residents immediately around its community center.
+[
+citation needed
+]
+
+When the network was initially launched, it had support for up to 150 simultaneous users and ran on an open-software platform called 
+Commotion
+.
+[
+5
+]
+
+Repairing Red Hook WiFi mesh network node after Superstorm Sandy
+
+Hurricane Sandy
+[
+edit
+]
+
+In 2012, after 
+Hurricane Sandy
+ struck the area, and many internet and communication systems were down throughout much of the city,
+[
+6
+]
+ Red Hook remained connected through its mesh network and the headquarters of the Red Hook Initiative became a hub for volunteer coordination, donation collections food distribution as residents came to the Red Hook Initiative's office to charge their devices and connect to the internet.
+[
+7
+]
+[
+8
+]
+ Shortly afterwards, the 
+Federal Emergency Management Agency
+ (FEMA) connected Red Hook Wi-Fi to its satellite system,
+[
+9
+]
+ linking itself, the residents and the Red Cross into a communication matrix that could be used to find out about emergency relief, food banks as well as shelter locations.
+[
+10
+]
+[
+11
+]
+[
+7
+]
+ After the relief efforts had finished, a team led by the Red Hook Initiative continued to make improvements to the mesh network by installing nano stations powered by solar panels on rooftops around the Red Hook neighborhood.
+[
+12
+]
+
+Though the Red Hook Wi-Fi project was already in the works before 
+Hurricane Sandy
+ struck, it gained additional media attention after the storm.
+[
+13
+]
+
+In 2015, Red Hook Wi-Fi was selected to be part of the city's resiliency initiative from a group of 27 finalists competing in the Resiliency Innovations for a Stronger Economy.
+[
+14
+]
+[
+15
+]
+
+References
+[
+edit
+]
+
+↑
+ 
+Kasakove, Sophie; Williams, Tracie (29 January 2019). 
+"Is New York City's Public Housing Ready for the Next Storm?"
+. Retrieved 
+16 April
+ 2019
+.
+
+1
+ 
+2
+ 
+Staff (25 September 2013). 
+"Local Connections: The Red Hook WiFi Project"
+. 
+Urban Omnibus
+. Retrieved 
+15 April
+ 2019
+.
+
+↑
+ 
+Burrington, Ingrid (31 October 2017). 
+"What Happens to the Internet After a Disaster?"
+. 
+Intelligencer
+. Retrieved 
+15 April
+ 2019
+.
+
+↑
+ 
+"
+Red Hook Initiative
+". 
+Tax Exempt Organization Search
+. 
+Internal Revenue Service
+. Retrieved April 2, 2025.
+
+↑
+ 
+"Do-It-Yourself Internet in Brooklyn"
+. 
+The Washington Post
+. Retrieved 
+15 April
+ 2019
+.
+
+↑
+ 
+"Rising to the Challenge: Red Hook Initiative"
+. 
+NYCEDC
+.
+
+1
+ 
+2
+ 
+Kazansky, Becky (6 November 2020). 
+"In Red Hook, Mesh Network Connects Sandy Survivors Still Without Power"
+. 
+TechPresident
+.
+
+↑
+ 
+Zandt, Deanna. 
+"What Sandy Has Taught Us About Technology, Relief and Resilience"
+. 
+Forbes
+.
+
+↑
+ 
+Masterson, Andrew (15 May 2014). 
+"Meshnets serve communities when internet fails"
+. 
+The Sydney Morning Herald
+.
+
+↑
+ 
+Cohen, Noam (22 August 2014). 
+"Red Hook's Cutting-Edge Wireless Network"
+. 
+The New York Times
+.
+
+↑
+ 
+Robbins, Liz (1 March 2016). 
+"New Weapon in Day Laborers' Fight Against Wage Theft: A Smartphone App"
+. 
+The New York Times
+.
+
+↑
+ 
+Dodd, Justin (22 July 2018). 
+"After Superstorm Sandy, This Brooklyn Neighborhood Reinvented Community Wifi"
+. 
+Inverse
+. Retrieved 
+15 April
+ 2019
+.
+
+↑
+ 
+"United States of America Global Information Society Watch"
+. 
+www.giswatch.org
+. Retrieved 
+15 April
+ 2019
+.
+
+↑
+ 
+"Mayor De Blasio Announces Selection Of RISE
+ 
+: NYC Technologies To Be Deployed At Sandy-Impacted Small Businesses Across New York City"
+. 
+NYCEDC
+.
+
+↑
+ 
+Melendez, Steven (5 May 2015). 
+"This Mesh We're In: Why Communities Are Building An Internet That's More Local"
+. 
+Fast Company
+. Retrieved 
+15 April
+ 2019
+.
+
+External links
+[
+edit
+]
+
+Official website
+
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Red_Hook_Wi-Fi&oldid=1354064880
+"
+
+Categories
+: 
+Mesh networking
+Red Hook, Brooklyn
+Community networks
+Hidden categories: 
+All articles with unsourced statements
+Articles with unsourced statements from July 2019
+Official website not in Wikidata
+
+ This page was last edited on 14 May 2026, at 02:44
+ (UTC)
+.
+
+Page was rendered with 
+Parsoid
+.
+
+Text is available under the 
+Creative Commons Attribution-ShareAlike 4.0 License
+;
+additional terms may apply. By using this site, you agree to the 
+Terms of Use
+ and 
+Privacy Policy
+. Wikipedia® is a registered trademark of the 
+Wikimedia Foundation, Inc.
+, a non-profit organization.
+
+Privacy policy
+
+About Wikipedia
+
+Disclaimers
+
+Contact Wikipedia
+
+Legal & safety contacts
+
+Code of Conduct
+
+Developers
+
+Statistics
+
+Cookie statement
+
+Mobile view
+
+Search
+
+Search
+
+Toggle the table of contents
+
+Red Hook Wi-Fi
+
+Add languages
+
+Add topic
+

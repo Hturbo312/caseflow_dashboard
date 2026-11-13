@@ -1,0 +1,23 @@
+{
+  "packetId": "RP-C13-G0-v1.0",
+  "supersedes": "RP-C13-G0-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G0",
+  "caseId": "C13",
+  "decidedAt": "2026-11-13",
+  "researcherDecision": {
+    "action": "modify",
+    "rationale": "时间边界需要考虑技术的影响；第 2-4 项按推荐通过；研究问题增加数据基础设施维护与衰减。",
+    "modifiedContent": "维持 2013-09–2015-12；另设 2016-01–2017-12 技术影响观察期；新增研究问题 5。",
+    "allowNextGate": true
+  },
+  "frozenArtifacts": ["case_scope.md v1.0", "RP-C13-G0-v1.0"],
+  "changes": [
+    {"decision": "时间边界", "before": "2013-09–2015-12 核心 2013-09–2014-12", "after": "维持 2013-09–2015-12；另设 2016-01–2017-12 技术影响观察期"},
+    {"decision": "拆除工程", "before": "结果观察（建议）", "after": "结果观察（确认）"},
+    {"decision": "空间边界", "before": "底特律市域；外部城市作结果观察（建议）", "after": "确认"},
+    {"decision": "2009 普查", "before": "情境与输入材料（建议）", "after": "确认"},
+    {"decision": "研究问题", "before": "4 问", "after": "4 问 + 技术影响的持续性与衰减"}
+  ],
+  "openIssues": ["2016-2017 年连续证据不足"]
+}

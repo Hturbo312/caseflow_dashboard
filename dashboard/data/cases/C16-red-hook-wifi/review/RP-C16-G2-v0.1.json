@@ -1,0 +1,53 @@
+{
+  "packetId": "RP-C16-G2-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G2",
+  "caseId": "C16",
+  "generatedAt": "2026-11-13",
+  "status": "candidate_pending_researcher_confirmation",
+  "scope": "Red Hook WiFi 证据陈述、原文定位、暂定事实状态与冲突记录",
+  "totalEvidence": 100,
+  "byMaterial": {
+    "M01": 25, "M02": 16, "M03": 5, "M04": 5,
+    "M05": 2, "M06": 2, "M07": 2, "M08": 2,
+    "M10": 3, "M11": 10, "M12": 3, "M13": 1, "M14": 2,
+    "M15": 18, "M16": 1, "M17": 1, "M18": 2
+  },
+  "conflictGroups": 8,
+  "candidates": [
+    {"id": "C16-EV-01", "content": "M01–M04 项目方/合作机构证据 51 条", "factStatus": "mixed", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "C16-EV-02", "content": "M05–M08 官网运营证据 8 条", "factStatus": "mixed", "confidence": "medium-high", "suggestedAction": "accept"},
+    {"id": "C16-EV-03", "content": "M10–M14 独立/地方媒体证据 19 条", "factStatus": "mixed", "confidence": "medium-high", "suggestedAction": "accept"},
+    {"id": "C16-EV-04", "content": "M15 The Verge 回顾证据 18 条", "factStatus": "mixed", "confidence": "medium-high", "suggestedAction": "accept"},
+    {"id": "C16-EV-05", "content": "M16–M18 政府/三级/二次材料证据 4 条", "factStatus": "mixed", "confidence": "medium-low", "suggestedAction": "discuss"},
+    {"id": "C16-EV-06", "content": "8 组冲突记录", "factStatus": "disputed", "confidence": "high", "suggestedAction": "accept"},
+    {"id": "C16-EV-07", "content": "M09 仅索引，未提取独立证据", "factStatus": "unconfirmed", "confidence": "high", "suggestedAction": "accept"}
+  ],
+  "decisionPoints": [
+    "确认 100 条证据整体纳入或指出具体修改",
+    "M10 NYT 部分可读是否保留 3 条",
+    "M17/M18 低可靠性证据去留",
+    "Sandy 用户数三口径并列或择一",
+    "2019 年移交暂按已实施还是报道"
+  ],
+  "historyImpact": {
+    "affectsSharedConcepts": false,
+    "affectsHistoricalMappings": false,
+    "triggersHistoricalReview": false,
+    "scope": "新增 C16 证据索引；不修改 C01–C15"
+  },
+  "researcherDecision": {
+    "action": null,
+    "rationale": null,
+    "modifiedContent": null,
+    "allowNextGate": false,
+    "decidedAt": null
+  },
+  "frozenArtifacts": [],
+  "openIssues": [
+    "RISE:NYC 单项金额仅单一来源",
+    "2019 年移交仅单一来源",
+    "NYT 2014 全文缺失",
+    "2018–2023 节点与访问数据缺失"
+  ]
+}

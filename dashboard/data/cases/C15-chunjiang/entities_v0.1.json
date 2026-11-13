@@ -1,0 +1,2151 @@
+{
+  "case_id": "C15",
+  "version": "v0.1",
+  "status": "awaiting_researcher_decision",
+  "generated_at": "2026-11-13",
+  "entities": [
+    {
+      "entity_id": "X01",
+      "case_id": "C15",
+      "label": "上海“一网统管”/最小管理单元政策",
+      "entity_type": "context",
+      "roles": [
+        "context"
+      ],
+      "definition": "2021年上海推进的城市最小管理单元数字治理政策与二期试点框架。",
+      "aliases": [
+        "一网统管",
+        "最小管理单元"
+      ],
+      "source_evidence_ids": [
+        "M02-E01",
+        "M02-E03",
+        "M02-E04",
+        "M03-E01",
+        "M03-E02",
+        "M03-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "X02",
+      "case_id": "C15",
+      "label": "春江小区老旧小区条件",
+      "entity_type": "context",
+      "roles": [
+        "context"
+      ],
+      "definition": "春江小区建于20世纪80年代、老年与流动人口多、设施陈旧的居住条件。",
+      "aliases": [
+        "高龄小区",
+        "售后公房"
+      ],
+      "source_evidence_ids": [
+        "M01-E01",
+        "M01-E02",
+        "M05-E01",
+        "M09-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "X03",
+      "case_id": "C15",
+      "label": "美丽家园城市更新计划",
+      "entity_type": "context",
+      "roles": [
+        "context"
+      ],
+      "definition": "五里桥街道“由东向西、成片推进”的美丽家园建设计划。",
+      "aliases": [
+        "美丽家园",
+        "打浦路以西片区"
+      ],
+      "source_evidence_ids": [
+        "M06-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "X04",
+      "case_id": "C15",
+      "label": "五里桥街道基层治理与三会传统",
+      "entity_type": "context",
+      "roles": [
+        "context"
+      ],
+      "definition": "龙华居民区以党总支、居委会、业委会、物业和居民协商为基础的治理传统。",
+      "aliases": [
+        "三会",
+        "四治一体"
+      ],
+      "source_evidence_ids": [
+        "M04-E05",
+        "M05-E02",
+        "M05-E03",
+        "M05-E04",
+        "M05-E05",
+        "M05-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "X05",
+      "case_id": "C15",
+      "label": "物业管理薄弱与独居老人居家安全需求",
+      "entity_type": "context",
+      "roles": [
+        "context"
+      ],
+      "definition": "春江小区物业管理能力较弱、独居老人居家安全需要技术和服务支持的条件。",
+      "aliases": [
+        "物业薄弱",
+        "独居老人"
+      ],
+      "source_evidence_ids": [
+        "M04-E10"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A01",
+      "case_id": "C15",
+      "label": "春江小区居民",
+      "entity_type": "actor",
+      "roles": [
+        "actor",
+        "target"
+      ],
+      "definition": "春江小区383户、1000余名居民；在不同事实中可为行动主体、服务对象或评价主体。",
+      "aliases": [
+        "居民",
+        "业主"
+      ],
+      "source_evidence_ids": [
+        "M01-E03",
+        "M04-E05",
+        "M04-E06",
+        "M06-E04",
+        "M07-E02",
+        "M07-E05",
+        "M07-E07",
+        "M08-E02",
+        "M08-E05",
+        "M08-E06",
+        "M08-E08",
+        "M08-E10",
+        "M08-E11",
+        "M09-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A02",
+      "case_id": "C15",
+      "label": "春江自治团队",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "2021年春节前由居委走访和招募令成立、牵头春江小巷改造的居民自治团队。",
+      "aliases": [
+        "自治团队"
+      ],
+      "source_evidence_ids": [
+        "M01-E04",
+        "M01-E05",
+        "M01-E06",
+        "M01-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A03",
+      "case_id": "C15",
+      "label": "龙华居民区党总支",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "春江小区所属居民区党组织，牵头三会、微网格和资源协调。",
+      "aliases": [
+        "居民区党总支"
+      ],
+      "source_evidence_ids": [
+        "M04-E05",
+        "M04-E06",
+        "M05-E02",
+        "M05-E03",
+        "M05-E04",
+        "M05-E05",
+        "M05-E06",
+        "M06-E02",
+        "M06-E03",
+        "M06-E04",
+        "M06-E05",
+        "M07-E03",
+        "M07-E06",
+        "M08-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A04",
+      "case_id": "C15",
+      "label": "龙华居民区居委会",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "春江小区所属基层群众性自治组织，承担议题征询、项目组织和居民沟通。",
+      "aliases": [
+        "居委会"
+      ],
+      "source_evidence_ids": [
+        "M01-E03",
+        "M01-E04",
+        "M01-E05",
+        "M04-E05",
+        "M04-E06",
+        "M04-E07",
+        "M05-E02",
+        "M05-E03",
+        "M05-E04",
+        "M05-E05",
+        "M05-E06",
+        "M06-E04",
+        "M07-E03",
+        "M07-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A05",
+      "case_id": "C15",
+      "label": "五里桥街道",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "春江小区所属街道，推进美丽家园、最小管理单元和微网格治理。",
+      "aliases": [
+        "街道"
+      ],
+      "source_evidence_ids": [
+        "M02-E02",
+        "M03-E05",
+        "M04-E02",
+        "M04-E03",
+        "M04-E04",
+        "M04-E08",
+        "M04-E10",
+        "M06-E01",
+        "M07-E06",
+        "M08-E10",
+        "M09-E03",
+        "M09-E06",
+        "M09-E07",
+        "M09-E08",
+        "M09-E09",
+        "M09-E10",
+        "M09-E11",
+        "M09-E12",
+        "M09-E13",
+        "M09-E14"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A06",
+      "case_id": "C15",
+      "label": "永理置业（春江小区物业）",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "春江小区物业服务企业；报道中物业经理岳阳为微网格员。",
+      "aliases": [
+        "永理置业",
+        "春江物业"
+      ],
+      "source_evidence_ids": [
+        "M03-E03",
+        "M03-E04",
+        "M04-E06",
+        "M04-E07",
+        "M04-E08",
+        "M06-E04",
+        "M06-E05",
+        "M07-E06",
+        "M08-E07",
+        "M09-E04",
+        "M09-E10"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A07",
+      "case_id": "C15",
+      "label": "岳阳",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "永理置业物业经理，春江小区微网格员，参与楼道灯、建筑垃圾等事件处置。",
+      "aliases": [
+        "物业经理"
+      ],
+      "source_evidence_ids": [
+        "M08-E02",
+        "M08-E05",
+        "M08-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A08",
+      "case_id": "C15",
+      "label": "春江小区业委会",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "春江小区业主委员会，参与三会、停车讨论和微网格议事。",
+      "aliases": [
+        "业委会"
+      ],
+      "source_evidence_ids": [
+        "M04-E06",
+        "M06-E04",
+        "M07-E06",
+        "M08-E07",
+        "M09-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A09",
+      "case_id": "C15",
+      "label": "春江自管队",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "春江小亭建成后由周沪和热心居民组建的自我管理队伍。",
+      "aliases": [
+        "自管队"
+      ],
+      "source_evidence_ids": [
+        "M07-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A10",
+      "case_id": "C15",
+      "label": "周沪",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "春江小区居民，提议并推动大树改凉亭，组建春江自管队。",
+      "aliases": [
+        "小周"
+      ],
+      "source_evidence_ids": [
+        "M07-E02",
+        "M07-E03",
+        "M07-E04",
+        "M07-E05",
+        "M07-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A11",
+      "case_id": "C15",
+      "label": "恒丰银行资金运营中心党支部",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "与龙华居民区党总支党建联建、提供20个临时车位的单位党组织。",
+      "aliases": [
+        "恒丰银行"
+      ],
+      "source_evidence_ids": [
+        "M06-E03",
+        "M06-E05",
+        "M06-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A12",
+      "case_id": "C15",
+      "label": "张丞俊",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "龙华居民区党总支书记，排摸停车资源并推动车位共享。",
+      "aliases": [
+        "党总支书记"
+      ],
+      "source_evidence_ids": [
+        "M06-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A13",
+      "case_id": "C15",
+      "label": "上海市城运中心",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "上海市城市运行管理中心，推动最小管理单元数字治理。",
+      "aliases": [
+        "市城运中心"
+      ],
+      "source_evidence_ids": [
+        "M02-E01",
+        "M03-E01",
+        "M03-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A14",
+      "case_id": "C15",
+      "label": "黄浦区政府",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "黄浦区人民政府，联合华为推进最小管理单元二期。",
+      "aliases": [
+        "黄浦区"
+      ],
+      "source_evidence_ids": [
+        "M02-E01",
+        "M03-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A15",
+      "case_id": "C15",
+      "label": "华为",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "最小管理单元二期的技术生态合作方。",
+      "aliases": [
+        "华为生态"
+      ],
+      "source_evidence_ids": [
+        "M02-E01",
+        "M02-E03",
+        "M02-E04",
+        "M03-E02",
+        "M03-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A16",
+      "case_id": "C15",
+      "label": "区房管局、区消防支队等联合验收部门",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "参与春江充电桩点位联合检查验收的区级部门。",
+      "aliases": [
+        "区房管局",
+        "区消防支队"
+      ],
+      "source_evidence_ids": [
+        "M04-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A17",
+      "case_id": "C15",
+      "label": "施工/监理单位",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "春江美丽家园和小亭等工程的施工与监理主体。",
+      "aliases": [
+        "施工方",
+        "监理"
+      ],
+      "source_evidence_ids": [
+        "M04-E06",
+        "M04-E07",
+        "M06-E04",
+        "M07-E05"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A18",
+      "case_id": "C15",
+      "label": "春江小区微网格",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "春江小区单独划分的基层治理微网格，承接资源、服务和管理。",
+      "aliases": [
+        "春江微网格"
+      ],
+      "source_evidence_ids": [
+        "M08-E02",
+        "M08-E04",
+        "M08-E07",
+        "M08-E10",
+        "M08-E11",
+        "M09-E03",
+        "M09-E04",
+        "M09-E05",
+        "M09-E06",
+        "M09-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A19",
+      "case_id": "C15",
+      "label": "微网格长",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "负责核实居民点单并向微网格员派单的微网格角色。",
+      "aliases": [
+        "网格长"
+      ],
+      "source_evidence_ids": [
+        "M08-E02",
+        "M08-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A20",
+      "case_id": "C15",
+      "label": "微网格员",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "承接微网格派单并协调处置的网格工作人员。",
+      "aliases": [
+        "网格员"
+      ],
+      "source_evidence_ids": [
+        "M08-E02",
+        "M08-E04",
+        "M08-E08"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A21",
+      "case_id": "C15",
+      "label": "新就业群体/快递小哥",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "被纳入春江微网格的快递小哥等新就业群体。",
+      "aliases": [
+        "快递小哥",
+        "移动哨兵"
+      ],
+      "source_evidence_ids": [
+        "M08-E07",
+        "M08-E08",
+        "M09-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A22",
+      "case_id": "C15",
+      "label": "商铺联盟与共建单位",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "参与春江微网格和格里厢议事的商铺联盟、共建单位。",
+      "aliases": [
+        "商铺联盟",
+        "共建单位"
+      ],
+      "source_evidence_ids": [
+        "M08-E07",
+        "M09-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A23",
+      "case_id": "C15",
+      "label": "社区民警",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "春江小亭六方结构中的社区民警。",
+      "aliases": [
+        "民警"
+      ],
+      "source_evidence_ids": [
+        "M07-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A24",
+      "case_id": "C15",
+      "label": "街道养老顾问",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "依托街道养老服务数据库为老年人匹配服务的养老顾问。",
+      "aliases": [
+        "养老顾问"
+      ],
+      "source_evidence_ids": [
+        "M09-E13",
+        "M09-E14"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A25",
+      "case_id": "C15",
+      "label": "清运公司",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "负责春江小区建筑垃圾清运的单位。",
+      "aliases": [
+        "清运"
+      ],
+      "source_evidence_ids": [
+        "M08-E05",
+        "M08-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A26",
+      "case_id": "C15",
+      "label": "路政/绿化部门",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "参与门口斜坡改造会商的路政、绿化部门。",
+      "aliases": [
+        "路政",
+        "绿化"
+      ],
+      "source_evidence_ids": [
+        "M08-E10"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A27",
+      "case_id": "C15",
+      "label": "格里厢家门口党群服务站",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "春江微网格内的党群服务与议事阵地。",
+      "aliases": [
+        "格里厢"
+      ],
+      "source_evidence_ids": [
+        "M09-E03",
+        "M09-E04",
+        "M09-E09"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A28",
+      "case_id": "C15",
+      "label": "社区骨干群体",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "党员志愿者、楼组长、自治能人、道德模范等参与春江治理的社区骨干。",
+      "aliases": [
+        "楼组长",
+        "党员志愿者",
+        "自治能人"
+      ],
+      "source_evidence_ids": [
+        "M08-E07",
+        "M09-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A29",
+      "case_id": "C15",
+      "label": "久禄国际贸易有限公司",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "春江小巷改造中提供资金支持的企业。",
+      "aliases": [
+        "久禄国际"
+      ],
+      "source_evidence_ids": [
+        "M01-E05",
+        "M01-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "A30",
+      "case_id": "C15",
+      "label": "迪古里拉涂料有限公司",
+      "entity_type": "actor",
+      "roles": [
+        "actor"
+      ],
+      "definition": "春江小巷改造中负责方案设计的企业。",
+      "aliases": [
+        "迪古里拉"
+      ],
+      "source_evidence_ids": [
+        "M01-E05",
+        "M01-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "K01",
+      "case_id": "C15",
+      "label": "老旧小区综合更新（美丽家园）",
+      "entity_type": "task",
+      "roles": [
+        "task"
+      ],
+      "definition": "通过美丽家园一期、二期改善春江小区硬件和人居环境。",
+      "aliases": [
+        "美丽家园建设"
+      ],
+      "source_evidence_ids": [
+        "M04-E02",
+        "M04-E03",
+        "M04-E04",
+        "M04-E06",
+        "M04-E07",
+        "M04-E08",
+        "M06-E01",
+        "M06-E02",
+        "M06-E03",
+        "M06-E04",
+        "M06-E05",
+        "M06-E06",
+        "M09-E12"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "K02",
+      "case_id": "C15",
+      "label": "社区安全风险识别与处置",
+      "entity_type": "task",
+      "roles": [
+        "task"
+      ],
+      "definition": "识别和处置高空抛物、电梯安全、非机动车进楼道、火情等风险。",
+      "aliases": [
+        "安全治理"
+      ],
+      "source_evidence_ids": [
+        "M03-E03",
+        "M03-E04",
+        "M09-E11"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "K03",
+      "case_id": "C15",
+      "label": "居民诉求受理与事件闭环",
+      "entity_type": "task",
+      "roles": [
+        "task"
+      ],
+      "definition": "通过智慧春江和四单制受理、分派、处置、评价居民诉求。",
+      "aliases": [
+        "四单制",
+        "事件闭环"
+      ],
+      "source_evidence_ids": [
+        "M08-E02",
+        "M08-E04",
+        "M08-E05",
+        "M08-E06",
+        "M08-E08",
+        "M08-E09",
+        "M08-E10",
+        "M08-E11"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "K04",
+      "case_id": "C15",
+      "label": "微网格治理与资源下沉",
+      "entity_type": "task",
+      "roles": [
+        "task"
+      ],
+      "definition": "以春江微网格承接行政力量、服务资源和数字技术。",
+      "aliases": [
+        "微网格治理"
+      ],
+      "source_evidence_ids": [
+        "M08-E07",
+        "M09-E03",
+        "M09-E04",
+        "M09-E05",
+        "M09-E06",
+        "M09-E07",
+        "M09-E09",
+        "M09-E10"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "K05",
+      "case_id": "C15",
+      "label": "养老服务精准匹配",
+      "entity_type": "task",
+      "roles": [
+        "task"
+      ],
+      "definition": "利用养老数据为春江老年人匹配服务和政策。",
+      "aliases": [
+        "原居颐养"
+      ],
+      "source_evidence_ids": [
+        "M09-E13",
+        "M09-E14"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "K06",
+      "case_id": "C15",
+      "label": "居民自治与公共空间更新",
+      "entity_type": "task",
+      "roles": [
+        "task"
+      ],
+      "definition": "通过议题征询、自治团队、三会和自管队更新公共空间。",
+      "aliases": [
+        "自治共治"
+      ],
+      "source_evidence_ids": [
+        "M01-E03",
+        "M01-E04",
+        "M01-E05",
+        "M01-E06",
+        "M01-E07",
+        "M04-E05",
+        "M05-E02",
+        "M05-E03",
+        "M05-E04",
+        "M05-E05",
+        "M05-E06",
+        "M07-E02",
+        "M07-E03",
+        "M07-E04",
+        "M07-E05",
+        "M07-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "K07",
+      "case_id": "C15",
+      "label": "数字治理试点/最小管理单元建设",
+      "entity_type": "task",
+      "roles": [
+        "task"
+      ],
+      "definition": "在春江推进最小管理单元和智慧春江数字治理试点。",
+      "aliases": [
+        "数字治理"
+      ],
+      "source_evidence_ids": [
+        "M02-E01",
+        "M02-E02",
+        "M03-E01",
+        "M03-E02",
+        "M03-E05",
+        "M04-E10",
+        "M08-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T01",
+      "case_id": "C15",
+      "label": "最小管理单元数字孪生/城市智能体平台",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "上海/黄浦最小管理单元的数字孪生与城市智能体技术平台。",
+      "aliases": [
+        "数字孪生",
+        "城市智能体"
+      ],
+      "source_evidence_ids": [
+        "M02-E01",
+        "M02-E02",
+        "M02-E03",
+        "M02-E04",
+        "M03-E01",
+        "M03-E02",
+        "M03-E05",
+        "M03-E06",
+        "M04-E10"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T02",
+      "case_id": "C15",
+      "label": "智慧春江微信小程序",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "2023年5月上线的春江居民端微信小程序。",
+      "aliases": [
+        "智慧春江"
+      ],
+      "source_evidence_ids": [
+        "M08-E02",
+        "M08-E03",
+        "M08-E05",
+        "M08-E06",
+        "M08-E08",
+        "M08-E09",
+        "M09-E05"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T03",
+      "case_id": "C15",
+      "label": "智能门禁",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "春江小区用于出入管理的智能门禁设备。",
+      "aliases": [
+        "门禁"
+      ],
+      "source_evidence_ids": [
+        "M03-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T04",
+      "case_id": "C15",
+      "label": "高空抛物监测告警",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "识别高空抛物并向物业推送预警的技术。",
+      "aliases": [
+        "高抛监测"
+      ],
+      "source_evidence_ids": [
+        "M03-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T05",
+      "case_id": "C15",
+      "label": "电梯安全/非机动车进楼道识别",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "识别非机动车进入楼道等电梯安全风险的技术。",
+      "aliases": [
+        "电梯安全识别"
+      ],
+      "source_evidence_ids": [
+        "M03-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T06",
+      "case_id": "C15",
+      "label": "居家用水监测数据",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "用于观察特殊老人居家状态的用水数据。",
+      "aliases": [
+        "用水数据"
+      ],
+      "source_evidence_ids": [
+        "M03-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T07",
+      "case_id": "C15",
+      "label": "AI摄像头",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "春江数治网增设的各角度AI摄像头。",
+      "aliases": [
+        "智能摄像头"
+      ],
+      "source_evidence_ids": [
+        "M09-E11"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T08",
+      "case_id": "C15",
+      "label": "态势感知设备",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "春江数治网用于感知社区状态的设备。",
+      "aliases": [
+        "态势感知"
+      ],
+      "source_evidence_ids": [
+        "M09-E11"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T09",
+      "case_id": "C15",
+      "label": "春江数治网",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "将数字治理技术与传统物业管理结合的社区数字治理网络。",
+      "aliases": [
+        "数治网"
+      ],
+      "source_evidence_ids": [
+        "M09-E10"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T10",
+      "case_id": "C15",
+      "label": "街道养老服务数据库",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "街道历年养老服务数据及分析基础。",
+      "aliases": [
+        "养老数据库"
+      ],
+      "source_evidence_ids": [
+        "M09-E13"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T11",
+      "case_id": "C15",
+      "label": "非机动车充电桩",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "春江及街道其他小区车棚建设的非机动车充电设备。",
+      "aliases": [
+        "充电桩"
+      ],
+      "source_evidence_ids": [
+        "M04-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "T12",
+      "case_id": "C15",
+      "label": "春江小巷监控探头",
+      "entity_type": "technology",
+      "roles": [
+        "technology"
+      ],
+      "definition": "春江自治团队在小巷设置的早期监控探头。",
+      "aliases": [
+        "探头"
+      ],
+      "source_evidence_ids": [
+        "M01-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C01",
+      "case_id": "C15",
+      "label": "高空抛物实时预警与电话提醒",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "发现高抛后向物业推送预警并由物业电话提醒居民的能力。",
+      "aliases": [
+        "高抛预警"
+      ],
+      "source_evidence_ids": [
+        "M03-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C02",
+      "case_id": "C15",
+      "label": "一键请求城运中心支持",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "造成人员伤亡时可一键上传请求城运中心支持的能力。",
+      "aliases": [
+        "一键上传"
+      ],
+      "source_evidence_ids": [
+        "M03-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C03",
+      "case_id": "C15",
+      "label": "非机动车进楼道识别",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "识别非机动车进入楼道并消除隐患的能力。",
+      "aliases": [
+        "楼道识别"
+      ],
+      "source_evidence_ids": [
+        "M03-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C04",
+      "case_id": "C15",
+      "label": "特殊老人用水异常关怀",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "结合智能门禁、居家用水数据关怀特殊老人的能力。",
+      "aliases": [
+        "老人关怀"
+      ],
+      "source_evidence_ids": [
+        "M03-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C05",
+      "case_id": "C15",
+      "label": "拍照上传/居民点单",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "居民通过小程序拍照上传诉求、形成点单的能力。",
+      "aliases": [
+        "点单"
+      ],
+      "source_evidence_ids": [
+        "M08-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C06",
+      "case_id": "C15",
+      "label": "派单/接单",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "微网格长派单、微网格员接单的能力。",
+      "aliases": [
+        "派单",
+        "接单"
+      ],
+      "source_evidence_ids": [
+        "M08-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C07",
+      "case_id": "C15",
+      "label": "评单与闭环",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "居民评单、微网格队伍整改并形成闭环的能力。",
+      "aliases": [
+        "评单",
+        "闭环"
+      ],
+      "source_evidence_ids": [
+        "M08-E04",
+        "M08-E11"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C08",
+      "case_id": "C15",
+      "label": "跨部门会商处置",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "街道联合路政、绿化等部门会商处置问题的能力。",
+      "aliases": [
+        "跨部门会商"
+      ],
+      "source_evidence_ids": [
+        "M08-E10"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C09",
+      "case_id": "C15",
+      "label": "服务清单（122项）",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "智慧春江平台承载的122项服务内容。",
+      "aliases": [
+        "122项服务"
+      ],
+      "source_evidence_ids": [
+        "M08-E09"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C10",
+      "case_id": "C15",
+      "label": "代配药/送餐",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "快递小哥代配药、网格员送餐的能力。",
+      "aliases": [
+        "代配药",
+        "送餐"
+      ],
+      "source_evidence_ids": [
+        "M08-E08"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C11",
+      "case_id": "C15",
+      "label": "四张清单需求梳理",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "通过入户走访形成问题、资源、议题、项目清单的能力。",
+      "aliases": [
+        "四张清单"
+      ],
+      "source_evidence_ids": [
+        "M09-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "C12",
+      "case_id": "C15",
+      "label": "养老顾问精准匹配",
+      "entity_type": "capability",
+      "roles": [
+        "capability"
+      ],
+      "definition": "利用养老数据让养老顾问为老年人匹配服务的能力。",
+      "aliases": [
+        "精准匹配"
+      ],
+      "source_evidence_ids": [
+        "M09-E13"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N01",
+      "case_id": "C15",
+      "label": "议题征询与投票筛选",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "居委发放议题征询表、居民投票筛选公共空间议题。",
+      "aliases": [
+        "议题征询"
+      ],
+      "source_evidence_ids": [
+        "M01-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N02",
+      "case_id": "C15",
+      "label": "成立春江自治团队",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "居委以走访和招募令成立居民自治团队。",
+      "aliases": [
+        "成立自治团队"
+      ],
+      "source_evidence_ids": [
+        "M01-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N03",
+      "case_id": "C15",
+      "label": "三方合作改建春江小巷",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "自治团队、久禄国际、迪古里拉合作改建春江小巷。",
+      "aliases": [
+        "春江小巷改造"
+      ],
+      "source_evidence_ids": [
+        "M01-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N04",
+      "case_id": "C15",
+      "label": "设立小巷公约和探头",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "自治团队设立小巷公约并安装探头。",
+      "aliases": [
+        "小巷公约"
+      ],
+      "source_evidence_ids": [
+        "M01-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N05",
+      "case_id": "C15",
+      "label": "发布/扩展最小管理单元试点",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "上海发布一期成果并将二期扩展到景区、商铺、居民小区。",
+      "aliases": [
+        "二期扩展"
+      ],
+      "source_evidence_ids": [
+        "M02-E01",
+        "M02-E02",
+        "M03-E02",
+        "M03-E05"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N06",
+      "case_id": "C15",
+      "label": "部署春江智能场景",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "在春江部署高抛、电梯、门禁、用水等智能场景。",
+      "aliases": [
+        "智能场景"
+      ],
+      "source_evidence_ids": [
+        "M03-E03",
+        "M03-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N07",
+      "case_id": "C15",
+      "label": "开展智慧应用系统试点",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "街道开展春江专属最小管理单元智慧应用系统试点。",
+      "aliases": [
+        "智慧应用系统试点"
+      ],
+      "source_evidence_ids": [
+        "M04-E10"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N08",
+      "case_id": "C15",
+      "label": "实施美丽家园一期6个项目",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "在春江实施楼道粉刷、道闸、无障碍通道等6个项目。",
+      "aliases": [
+        "一期6个项目"
+      ],
+      "source_evidence_ids": [
+        "M04-E02",
+        "M04-E03",
+        "M04-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N09",
+      "case_id": "C15",
+      "label": "建设非机动车充电桩",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "在春江及街道其他小区车棚建设充电桩。",
+      "aliases": [
+        "充电桩建设"
+      ],
+      "source_evidence_ids": [
+        "M04-E02",
+        "M04-E04",
+        "M04-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N10",
+      "case_id": "C15",
+      "label": "三会征询与监督评议",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "通过听证会、协调会、评议会征询、监督和评议。",
+      "aliases": [
+        "三会"
+      ],
+      "source_evidence_ids": [
+        "M04-E05",
+        "M05-E02",
+        "M05-E03",
+        "M05-E04",
+        "M05-E05",
+        "M05-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N11",
+      "case_id": "C15",
+      "label": "美丽家园二期开工与停车纾解",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "二期道路改造期间排摸停车资源、党建联建提供临时车位。",
+      "aliases": [
+        "停车纾解"
+      ],
+      "source_evidence_ids": [
+        "M06-E01",
+        "M06-E02",
+        "M06-E03",
+        "M06-E04",
+        "M06-E05",
+        "M06-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N12",
+      "case_id": "C15",
+      "label": "建设春江小亭",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "提议、听证、审批、施工、监工并建成春江小亭。",
+      "aliases": [
+        "小亭建设"
+      ],
+      "source_evidence_ids": [
+        "M07-E02",
+        "M07-E03",
+        "M07-E04",
+        "M07-E05"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N13",
+      "case_id": "C15",
+      "label": "组建春江自管队",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "居民组建自管队开展巡逻和议事。",
+      "aliases": [
+        "自管队"
+      ],
+      "source_evidence_ids": [
+        "M07-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N14",
+      "case_id": "C15",
+      "label": "上线智慧春江",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "2023年5月上线智慧春江微信小程序。",
+      "aliases": [
+        "小程序上线"
+      ],
+      "source_evidence_ids": [
+        "M08-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N15",
+      "case_id": "C15",
+      "label": "运行四单制",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "运行居民点单、微网格长派单、微网格员接单、居民评单。",
+      "aliases": [
+        "四单制"
+      ],
+      "source_evidence_ids": [
+        "M08-E04",
+        "M08-E07",
+        "M08-E11"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N16",
+      "case_id": "C15",
+      "label": "事件处置（楼道灯/建筑垃圾/斜坡）",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "通过智慧春江处置楼道灯、建筑垃圾和门口斜坡。",
+      "aliases": [
+        "事件处置"
+      ],
+      "source_evidence_ids": [
+        "M08-E02",
+        "M08-E05",
+        "M08-E06",
+        "M08-E10"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N17",
+      "case_id": "C15",
+      "label": "划分春江微网格/建立格里厢",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "将春江单独划为微网格并建立格里厢党群服务站。",
+      "aliases": [
+        "微网格建设"
+      ],
+      "source_evidence_ids": [
+        "M09-E03",
+        "M09-E04",
+        "M09-E05",
+        "M09-E06",
+        "M09-E09"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N18",
+      "case_id": "C15",
+      "label": "入户走访/编制四张清单",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "对383户入户走访，编制问题、资源、议题、项目清单。",
+      "aliases": [
+        "入户走访"
+      ],
+      "source_evidence_ids": [
+        "M09-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N19",
+      "case_id": "C15",
+      "label": "建设春江数治网/增设AI设备",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "建设春江数治网并增设AI摄像头、态势感知设备。",
+      "aliases": [
+        "数治网建设"
+      ],
+      "source_evidence_ids": [
+        "M09-E10",
+        "M09-E11"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "N20",
+      "case_id": "C15",
+      "label": "养老数据匹配与服务",
+      "entity_type": "action",
+      "roles": [
+        "action"
+      ],
+      "definition": "依托养老数据库由养老顾问匹配服务，推进七心七助七享。",
+      "aliases": [
+        "养老服务"
+      ],
+      "source_evidence_ids": [
+        "M09-E13",
+        "M09-E14"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G01",
+      "case_id": "C15",
+      "label": "春江小区",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "五里桥街道龙华居民区内的春江小区空间。",
+      "aliases": [
+        "小区"
+      ],
+      "source_evidence_ids": [
+        "M01-E01",
+        "M01-E02",
+        "M04-E02",
+        "M04-E03",
+        "M04-E08",
+        "M04-E10",
+        "M05-E01",
+        "M09-E01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G03",
+      "case_id": "C15",
+      "label": "特殊老人/独居老人",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "春江小区需要居家安全与养老服务关怀的老年人。",
+      "aliases": [
+        "老人"
+      ],
+      "source_evidence_ids": [
+        "M03-E04",
+        "M09-E13"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G04",
+      "case_id": "C15",
+      "label": "楼道、电梯、非机动车棚、垃圾箱房、门口斜坡",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "春江小区中被监测、处置或改造的具体空间节点。",
+      "aliases": [
+        "社区空间节点"
+      ],
+      "source_evidence_ids": [
+        "M03-E03",
+        "M03-E04",
+        "M08-E02",
+        "M08-E05",
+        "M08-E06",
+        "M08-E10",
+        "M09-E11"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G05",
+      "case_id": "C15",
+      "label": "公共空间/小花园/大树",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "春江小区小花园、大树及周边公共空间。",
+      "aliases": [
+        "小花园"
+      ],
+      "source_evidence_ids": [
+        "M01-E03",
+        "M05-E02",
+        "M05-E03",
+        "M05-E04",
+        "M05-E05",
+        "M05-E06",
+        "M07-E02",
+        "M07-E03",
+        "M07-E04",
+        "M07-E05",
+        "M07-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G06",
+      "case_id": "C15",
+      "label": "春江小巷/春江小亭",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "春江小区内由居民自治改造的小巷和凉亭。",
+      "aliases": [
+        "小巷",
+        "小亭"
+      ],
+      "source_evidence_ids": [
+        "M01-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G07",
+      "case_id": "C15",
+      "label": "停车位/恒丰银行地下车库",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "春江小区停车位及邻近恒丰银行地下车库。",
+      "aliases": [
+        "车位"
+      ],
+      "source_evidence_ids": [
+        "M06-E01",
+        "M06-E02",
+        "M06-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G08",
+      "case_id": "C15",
+      "label": "居民诉求/工单",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "居民通过智慧春江提交的诉求和形成的工单。",
+      "aliases": [
+        "工单"
+      ],
+      "source_evidence_ids": [
+        "M08-E04"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G09",
+      "case_id": "C15",
+      "label": "四张清单（问题/资源/议题/项目）",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "春江微网格入户走访形成的问题、资源、议题、项目清单。",
+      "aliases": [
+        "四张清单"
+      ],
+      "source_evidence_ids": [
+        "M09-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "G10",
+      "case_id": "C15",
+      "label": "人房事物情数据",
+      "entity_type": "target",
+      "roles": [
+        "target"
+      ],
+      "definition": "春江数治网中的人、房、事、物、情数据。",
+      "aliases": [
+        "社区数据"
+      ],
+      "source_evidence_ids": [
+        "M09-E10"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O01",
+      "case_id": "C15",
+      "label": "春江小巷完成",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "春江小巷完成改造并揭牌，设公约和探头。",
+      "aliases": [
+        "小巷建成"
+      ],
+      "source_evidence_ids": [
+        "M01-E06",
+        "M01-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O02",
+      "case_id": "C15",
+      "label": "美丽家园一期验收",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "春江美丽家园一期于2021-08-11验收。",
+      "aliases": [
+        "一期验收"
+      ],
+      "source_evidence_ids": [
+        "M04-E02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O03",
+      "case_id": "C15",
+      "label": "充电桩验收/409个充电位",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "春江充电桩项目验收；街道5小区7处车棚新增409个充电位。",
+      "aliases": [
+        "充电桩验收"
+      ],
+      "source_evidence_ids": [
+        "M04-E02",
+        "M04-E04",
+        "M04-E07",
+        "M04-E08"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O04",
+      "case_id": "C15",
+      "label": "智慧应用系统试点开展",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "春江专属最小管理单元智慧应用系统进入试点。",
+      "aliases": [
+        "系统试点"
+      ],
+      "source_evidence_ids": [
+        "M04-E10"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O05",
+      "case_id": "C15",
+      "label": "三会/监督机制运行",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "春江项目通过三会征询、监督合议和评议会运行。",
+      "aliases": [
+        "三会运行"
+      ],
+      "source_evidence_ids": [
+        "M05-E02",
+        "M05-E03",
+        "M05-E04",
+        "M05-E05",
+        "M05-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O06",
+      "case_id": "C15",
+      "label": "20个临时车位/3个月",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "恒丰银行提供20个临时车位，约定3个月。",
+      "aliases": [
+        "共享车位"
+      ],
+      "source_evidence_ids": [
+        "M06-E03",
+        "M06-E05"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O07",
+      "case_id": "C15",
+      "label": "春江小亭建成",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "六角春江小亭建成并挂匾。",
+      "aliases": [
+        "小亭建成"
+      ],
+      "source_evidence_ids": [
+        "M07-E06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O08",
+      "case_id": "C15",
+      "label": "春江自管队成立",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "居民组建春江自管队，开展巡逻和议事。",
+      "aliases": [
+        "自管队成立"
+      ],
+      "source_evidence_ids": [
+        "M07-E07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O09",
+      "case_id": "C15",
+      "label": "智慧春江上线",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "智慧春江微信小程序于2023年5月上线。",
+      "aliases": [
+        "小程序上线"
+      ],
+      "source_evidence_ids": [
+        "M08-E03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O10",
+      "case_id": "C15",
+      "label": "事件闭环（灯/垃圾/斜坡）",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "楼道灯、建筑垃圾、门口斜坡等事件形成处置闭环。",
+      "aliases": [
+        "事件闭环"
+      ],
+      "source_evidence_ids": [
+        "M08-E02",
+        "M08-E05",
+        "M08-E06",
+        "M08-E08",
+        "M08-E10",
+        "M08-E11"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O11",
+      "case_id": "C15",
+      "label": "122项服务/四张清单/96%",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "平台服务清单、四张清单和问题解决率等来源方产出与统计。",
+      "aliases": [
+        "服务与统计"
+      ],
+      "source_evidence_ids": [
+        "M08-E09",
+        "M09-E07",
+        "M09-E08"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O12",
+      "case_id": "C15",
+      "label": "春江数治网/AI设备部署",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "春江数治网和AI摄像头、态势感知设备部署。",
+      "aliases": [
+        "数治网部署"
+      ],
+      "source_evidence_ids": [
+        "M09-E10",
+        "M09-E11"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O13",
+      "case_id": "C15",
+      "label": "美丽家园二期完成（报道）",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "报道称春江美丽家园二期改造完成。",
+      "aliases": [
+        "二期完成"
+      ],
+      "source_evidence_ids": [
+        "M09-E12"
+      ],
+      "status": "candidate"
+    },
+    {
+      "entity_id": "O14",
+      "case_id": "C15",
+      "label": "养老服务网络/七心七助",
+      "entity_type": "outcome",
+      "roles": [
+        "outcome"
+      ],
+      "definition": "养老数据匹配、个性化清单、三级网络和七心七助七享。",
+      "aliases": [
+        "养老服务网络"
+      ],
+      "source_evidence_ids": [
+        "M09-E13",
+        "M09-E14"
+      ],
+      "status": "candidate"
+    }
+  ]
+}

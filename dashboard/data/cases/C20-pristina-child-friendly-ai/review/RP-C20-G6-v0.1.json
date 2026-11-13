@@ -1,0 +1,62 @@
+{
+  "packet_id": "RP-C20-G6-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G6",
+  "case_id": "C20",
+  "scope": "普里什蒂纳儿童友好公共空间 AI 共创关系的重复、遗漏、矛盾、方向与状态审校",
+  "generated_at": "2026-11-13",
+  "status": "accepted_with_open_item",
+  "summary": {
+    "base_relations": 51,
+    "final_candidate_relations": 55,
+    "predicates": 36,
+    "status_counts": {
+      "implemented": 24,
+      "reported_or_opinion": 28,
+      "planned": 3,
+      "disputed": 0,
+      "unconfirmed": 0
+    },
+    "actions": {
+      "modify": ["R001", "R027", "R028", "R033", "R039", "R040", "R041", "R042", "R045"],
+      "delete": ["R034"],
+      "supplement": ["R052", "R053", "R054", "R055", "R056"],
+      "discuss": ["R038"],
+      "keep_separate": ["R007", "R008", "R009", "R014", "R015"]
+    }
+  },
+  "conflicts": [
+    "R034主体误置：品牌交付主体为CoPlanAI，非Space SyntaKs",
+    "R040–R042把三份方案逐一对应三地点，超出证据，改为实施地点包括",
+    "R027/R028整体—部分关系未确认，改为涉及（部分）",
+    "R033开发/运营关系未明确，改为关联",
+    "R038许可主体未明确，保留待讨论"
+  ],
+  "gaps": [
+    "3份方案—2个批准设计—2个空间—1个公园更新的设计—地点对应",
+    "1个公园更新具体位置",
+    "儿童对AI输出的选择/修改记录",
+    "儿童直接反馈（评估未开展焦点小组）"
+  ],
+  "decisions_requested": [
+    "是否接受9条修改（R001、R027、R028、R033、R039、R040–R042、R045）",
+    "是否接受删除R034",
+    "是否接受补充R052–R056",
+    "是否接受R038待讨论，并同意R007–R009/R014–R015保持分开、冻结为55条关系"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_case_review": false,
+    "note": "C20与C19都使用UrbanistAI，G6后交L2判断共享概念候选"
+  },
+  "decision": {
+    "action": "accept_and_freeze",
+    "rationale": "研究者确认G6审校结果并冻结；R038因许可主体未明确，按契约不纳入冻结集合",
+    "modified_content": "接受9条修改、删除R034、补充R052-R056",
+    "allow_freeze": true,
+    "decided_at": "2026-11-13",
+    "frozen_count": 54,
+    "open_relation_ids": ["R038"]
+  }
+}

@@ -1,0 +1,953 @@
+{
+  "case_id": "C20",
+  "fact_version": "v0.1",
+  "generated_at": "2026-11-13",
+  "status": "accepted",
+  "facts": [
+    {
+      "fact_id": "F001",
+      "statement": "2022年，普里什蒂纳加入City Experiment Fund（CEF）。",
+      "entity_roles": [
+        "E001:actor",
+        "E005:actor"
+      ],
+      "evidence_ids": [
+        "M09-E01"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2022",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "high",
+      "process_id": "C20-P01",
+      "review": "pending_G4_researcher_review",
+      "notes": "仅Agirre Center一处记载；未找到CEF官方加入文件"
+    },
+    {
+      "fact_id": "F002",
+      "statement": "项目方称普里什蒂纳街道汽车优先，较大儿童（尤其10岁以上）的公共空间需求常被忽视。",
+      "entity_roles": [
+        "E001:context",
+        "E011:target"
+      ],
+      "evidence_ids": [
+        "M01-E01"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023-09-14报道时",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "medium",
+      "process_id": "C20-P01",
+      "review": "pending_G4_researcher_review",
+      "notes": "项目方的问题表述，不是独立需求评估"
+    },
+    {
+      "fact_id": "F003",
+      "statement": "儿童在头脑风暴中一致认为缺少儿童友好公共空间。",
+      "entity_roles": [
+        "E011:actor",
+        "E021:target"
+      ],
+      "evidence_ids": [
+        "M01-E05"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023年上半年",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "medium",
+      "process_id": "C20-P01",
+      "review": "pending_G4_researcher_review",
+      "notes": "项目方对儿童共识的转述"
+    },
+    {
+      "fact_id": "F004",
+      "statement": "女童在头脑风暴中提出社交时的安全与隐私担忧。",
+      "entity_roles": [
+        "E037:actor",
+        "E021:target"
+      ],
+      "evidence_ids": [
+        "M01-E05"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023年上半年",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "medium",
+      "process_id": "C20-P01",
+      "review": "pending_G4_researcher_review",
+      "notes": "项目方转述；未见女童访谈原始记录"
+    },
+    {
+      "fact_id": "F005",
+      "statement": "一名14岁参与者称学校附近没有适合与朋友社交或做小组作业的公共空间，现有空间只服务幼儿或成人。",
+      "entity_roles": [
+        "E011:actor",
+        "E038:target"
+      ],
+      "evidence_ids": [
+        "M01-E06"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023-09-14报道时",
+      "space_scope": "Hajvalia/Ajvalija的Shkendija学校周边（受访者学校位置，非干预地点）",
+      "quantity_scope": "1名参与者",
+      "confidence": "medium",
+      "process_id": "C20-P01",
+      "review": "pending_G4_researcher_review",
+      "notes": "项目方选择、翻译、编辑的引语；不能推定干预地点"
+    },
+    {
+      "fact_id": "F006",
+      "statement": "一名13岁参与者称开放绿地有助于社交并减少屏幕时间，自然环境能提升学习动力与效率。",
+      "entity_roles": [
+        "E011:actor",
+        "E021:target"
+      ],
+      "evidence_ids": [
+        "M01-E07"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023-09-14报道时",
+      "space_scope": "Kolovica/Kojlovica的Xhavit Ahmeti学校（受访者学校位置）",
+      "quantity_scope": "1名参与者",
+      "confidence": "medium",
+      "process_id": "C20-P01",
+      "review": "pending_G4_researcher_review",
+      "notes": "项目方选择、翻译、编辑的引语"
+    },
+    {
+      "fact_id": "F007",
+      "statement": "CEF由UNDP Kosovo与斯洛伐克财政部设立。",
+      "entity_roles": [
+        "E005:actor",
+        "E004:actor",
+        "E017:actor"
+      ],
+      "evidence_ids": [
+        "M01-E14",
+        "M13-E01"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "未限定（CEF设立时）",
+      "space_scope": "欧洲与中亚区域",
+      "quantity_scope": "未限定",
+      "confidence": "high",
+      "process_id": "C20-P02",
+      "review": "pending_G4_researcher_review",
+      "notes": "项目方与CEF页面互证"
+    },
+    {
+      "fact_id": "F008",
+      "statement": "Healthier Kosovo 2（HK2）由UNDP、WHO、UNV共同实施，卢森堡政府资助。",
+      "entity_roles": [
+        "E006:actor",
+        "E004:actor",
+        "E019:actor",
+        "E020:actor",
+        "E018:actor"
+      ],
+      "evidence_ids": [
+        "M01-E15",
+        "M12-E02"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2021-08-01—2023-12-31",
+      "space_scope": "科索沃",
+      "quantity_scope": "未限定",
+      "confidence": "high",
+      "process_id": "C20-P02",
+      "review": "pending_G4_researcher_review",
+      "notes": "项目方与HK2项目页互证"
+    },
+    {
+      "fact_id": "F009",
+      "statement": "普里什蒂纳市政府公共空间与公园局支持整个共创过程。",
+      "entity_roles": [
+        "E003:actor",
+        "E032:action"
+      ],
+      "evidence_ids": [
+        "M01-E02"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023年上半年—09-14前",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "medium_high",
+      "process_id": "C20-P02",
+      "review": "pending_G4_researcher_review",
+      "notes": "项目方叙述；未见部门签署文件"
+    },
+    {
+      "fact_id": "F010",
+      "statement": "Space SyntaKs与Save the Children主持儿童工作坊。",
+      "entity_roles": [
+        "E007:actor",
+        "E009:actor",
+        "E033:action",
+        "E034:action"
+      ],
+      "evidence_ids": [
+        "M01-E03",
+        "M03-E01"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2023年上半年",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定场次",
+      "confidence": "high",
+      "process_id": "C20-P02",
+      "review": "pending_G4_researcher_review",
+      "notes": "M01称facilitated；M03称合作；具体分工未给"
+    },
+    {
+      "fact_id": "F011",
+      "statement": "参与者为10–17岁儿童，经市政府任命的Children Councils从各学校选出，并按背景与视角多样性筛选。",
+      "entity_roles": [
+        "E011:actor",
+        "E010:actor"
+      ],
+      "evidence_ids": [
+        "M01-E03"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023年上半年",
+      "space_scope": "普里什蒂纳各学校",
+      "quantity_scope": "未给人数",
+      "confidence": "medium_high",
+      "process_id": "C20-P02",
+      "review": "pending_G4_researcher_review",
+      "notes": "与M03的11–17岁、50+人存在口径差异"
+    },
+    {
+      "fact_id": "F012",
+      "statement": "评估报告称参加4场儿童工作坊的儿童为11–17岁。",
+      "entity_roles": [
+        "E011:actor",
+        "E034:action"
+      ],
+      "evidence_ids": [
+        "M03-E01"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023年上半年",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "超过50名儿童",
+      "confidence": "medium",
+      "process_id": "C20-P03",
+      "review": "pending_G4_researcher_review",
+      "notes": "与M01的10–17岁并列；不合并"
+    },
+    {
+      "fact_id": "F013",
+      "statement": "共创过程持续约6个月。",
+      "entity_roles": [
+        "E032:action"
+      ],
+      "evidence_ids": [
+        "M01-E10",
+        "M08-E01"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "约6个月；起止月份未确认",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "约6个月",
+      "confidence": "medium",
+      "process_id": "C20-P02",
+      "review": "pending_G4_researcher_review",
+      "notes": "M01为项目方叙述；M08可能转述M01"
+    },
+    {
+      "fact_id": "F014",
+      "statement": "评估报告称举办了5场与市政府、地方NGO等利益相关方的工作坊，用于识别公园需求。",
+      "entity_roles": [
+        "E033:action",
+        "E002:actor",
+        "E013:actor"
+      ],
+      "evidence_ids": [
+        "M03-E01"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023年上半年",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "5场",
+      "confidence": "medium",
+      "process_id": "C20-P03",
+      "review": "pending_G4_researcher_review",
+      "notes": "只有评估报告给出5场；日期/议程未给"
+    },
+    {
+      "fact_id": "F015",
+      "statement": "评估报告称举办了4场儿童工作坊，超过50名11–17岁儿童参加。",
+      "entity_roles": [
+        "E034:action",
+        "E011:actor"
+      ],
+      "evidence_ids": [
+        "M03-E01"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023年上半年",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "4场；50+名儿童",
+      "confidence": "medium",
+      "process_id": "C20-P03",
+      "review": "pending_G4_researcher_review",
+      "notes": "50+是否去重未知；未见签到表"
+    },
+    {
+      "fact_id": "F016",
+      "statement": "2023年6月中旬，普里什蒂纳儿童与青少年参加了一次使用UrbanistAI的AI共创session。",
+      "entity_roles": [
+        "E035:action",
+        "E011:actor",
+        "E007:actor",
+        "E008:technology"
+      ],
+      "evidence_ids": [
+        "M10-E01",
+        "M11-E01"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2023-06中旬",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未给人数",
+      "confidence": "high",
+      "process_id": "C20-P03",
+      "review": "pending_G4_researcher_review",
+      "notes": "帖文2023-06-19发布，称“上周”"
+    },
+    {
+      "fact_id": "F017",
+      "statement": "UNDP Kosovo称该AI session是既有共创过程的“addendum”，用于为10岁以上儿童识别公共与绿色空间中的位置与功能。",
+      "entity_roles": [
+        "E035:action",
+        "E032:context",
+        "E038:target"
+      ],
+      "evidence_ids": [
+        "M11-E02"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023-06",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "medium_high",
+      "process_id": "C20-P03",
+      "review": "pending_G4_researcher_review",
+      "notes": "证明AI session之前已有共创过程，但未给起始日期"
+    },
+    {
+      "fact_id": "F018",
+      "statement": "儿童工作坊包括头脑风暴、设计圆桌和AI测试。",
+      "entity_roles": [
+        "E034:action",
+        "E011:actor"
+      ],
+      "evidence_ids": [
+        "M01-E03"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2023年上半年",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定场次",
+      "confidence": "high",
+      "process_id": "C20-P03",
+      "review": "pending_G4_researcher_review",
+      "notes": "项目方列举的活动类型；与M03的4场儿童工作坊未逐场对应"
+    },
+    {
+      "fact_id": "F019",
+      "statement": "工作坊目标包括识别合适地点、形成愿景、理解环境影响、做出设计选择并理解包容性空间。",
+      "entity_roles": [
+        "E034:action",
+        "E011:actor"
+      ],
+      "evidence_ids": [
+        "M01-E08"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023年上半年",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "medium",
+      "process_id": "C20-P03",
+      "review": "pending_G4_researcher_review",
+      "notes": "设计意图，不是每次工作坊实际内容"
+    },
+    {
+      "fact_id": "F020",
+      "statement": "选址后，儿童参与了公共空间愿景、汇报与反馈环节。",
+      "entity_roles": [
+        "E011:actor",
+        "E032:action"
+      ],
+      "evidence_ids": [
+        "M01-E09"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2023年上半年—09-14前",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "medium_high",
+      "process_id": "C20-P03",
+      "review": "pending_G4_researcher_review",
+      "notes": "项目方叙述；未给具体日期/场次"
+    },
+    {
+      "fact_id": "F021",
+      "statement": "儿童使用mood board、AI平台和互动共创工具把空间想法转成设计。",
+      "entity_roles": [
+        "E011:actor",
+        "E008:technology",
+        "E031:capability"
+      ],
+      "evidence_ids": [
+        "M01-E09"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2023年上半年—09-14前",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "medium_high",
+      "process_id": "C20-P04",
+      "review": "pending_G4_researcher_review",
+      "notes": "项目方未点名UrbanistAI；M03/M10/M11补充工具名"
+    },
+    {
+      "fact_id": "F022",
+      "statement": "儿童与儿童中心设计、城市规划专业设计师合作，把愿景转成设计。",
+      "entity_roles": [
+        "E011:actor",
+        "E012:actor"
+      ],
+      "evidence_ids": [
+        "M01-E09"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2023年上半年—09-14前",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "medium",
+      "process_id": "C20-P04",
+      "review": "pending_G4_researcher_review",
+      "notes": "专业设计师姓名/机构未公开"
+    },
+    {
+      "fact_id": "F023",
+      "statement": "专业设计师根据6个月共创输入制作了三份设计提案。",
+      "entity_roles": [
+        "E012:actor",
+        "E025:target"
+      ],
+      "evidence_ids": [
+        "M01-E10"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2023-09-14前",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "3份提案",
+      "confidence": "medium_high",
+      "process_id": "C20-P04",
+      "review": "pending_G4_researcher_review",
+      "notes": "项目方叙述；三份提案由设计师制作"
+    },
+    {
+      "fact_id": "F024",
+      "statement": "在最终评估工作坊上，儿童评估了专业设计师制作的方案。",
+      "entity_roles": [
+        "E011:actor",
+        "E036:action",
+        "E012:actor"
+      ],
+      "evidence_ids": [
+        "M01-E10"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2023-09-14前",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "medium_high",
+      "process_id": "C20-P05",
+      "review": "pending_G4_researcher_review",
+      "notes": "未给评估标准、投票结果与日期"
+    },
+    {
+      "fact_id": "F025",
+      "statement": "三份儿童友好公共空间方案在普里什蒂纳三个不同地点定稿。",
+      "entity_roles": [
+        "E025:target"
+      ],
+      "evidence_ids": [
+        "M01-E10"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2023-09-14前",
+      "space_scope": "普里什蒂纳三个不同地点（M01未命名）",
+      "quantity_scope": "3份方案/3个地点",
+      "confidence": "high",
+      "process_id": "C20-P05",
+      "review": "pending_G4_researcher_review",
+      "notes": "M03后来说2个批准设计/3个地点；本事实只记录方案定稿"
+    },
+    {
+      "fact_id": "F026",
+      "statement": "儿童在共创过程中使用了UrbanistAI/AI平台。",
+      "entity_roles": [
+        "E008:technology",
+        "E011:actor",
+        "E035:action"
+      ],
+      "evidence_ids": [
+        "M01-E09",
+        "M03-E01",
+        "M10-E01",
+        "M11-E01"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2023年上半年—06中旬",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "high",
+      "process_id": "C20-P04",
+      "review": "pending_G4_researcher_review",
+      "notes": "M01未点名，M03/M10/M11点名UrbanistAI；暂按同一工具处理"
+    },
+    {
+      "fact_id": "F027",
+      "statement": "UrbanistAI被描述为结合AI与城市设计的平台。",
+      "entity_roles": [
+        "E008:technology",
+        "E031:capability"
+      ],
+      "evidence_ids": [
+        "M11-E01"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023-06-19",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "medium",
+      "process_id": "C20-P04",
+      "review": "pending_G4_researcher_review",
+      "notes": "UNDP Kosovo帖文的平台描述"
+    },
+    {
+      "fact_id": "F028",
+      "statement": "儿童用UrbanistAI生成并可视化了空间想法。",
+      "entity_roles": [
+        "E011:actor",
+        "E008:technology",
+        "E031:capability"
+      ],
+      "evidence_ids": [
+        "M10-E02"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023-06中旬",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "medium",
+      "process_id": "C20-P04",
+      "review": "pending_G4_researcher_review",
+      "notes": "合作方自述；无生成图像/日志"
+    },
+    {
+      "fact_id": "F029",
+      "statement": "项目方称AI把儿童愿景“增强”为可感设计，并考虑安全、环境与社会包容。",
+      "entity_roles": [
+        "E008:technology",
+        "E011:actor",
+        "E031:capability"
+      ],
+      "evidence_ids": [
+        "M01-E09"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023-09-14报道时",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "medium_low",
+      "process_id": "C20-P04",
+      "review": "pending_G4_researcher_review",
+      "notes": "项目方评价；不能作为技术效果结论"
+    },
+    {
+      "fact_id": "F030",
+      "statement": "CoPlanAI称该项目“以UrbanistAI品牌”在其此前的合作中交付。",
+      "entity_roles": [
+        "E007:actor",
+        "E008:technology"
+      ],
+      "evidence_ids": [
+        "M08-E04"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "未注明",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "medium_low",
+      "process_id": "C20-P04",
+      "review": "pending_G4_researcher_review",
+      "notes": "供应商品牌说明；不证明法律实体/版本同一"
+    },
+    {
+      "fact_id": "F031",
+      "statement": "Design 1包含圆形座椅（游戏/聚会）、秋千（游戏互动）和带桌座椅（小组学习/社交）。",
+      "entity_roles": [
+        "E026:outcome"
+      ],
+      "evidence_ids": [
+        "M01-E12"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023-09-14报道时",
+      "space_scope": "未命名地点",
+      "quantity_scope": "1个设计",
+      "confidence": "medium",
+      "process_id": "C20-P05",
+      "review": "pending_G4_researcher_review",
+      "notes": "项目方文字描述；无图纸"
+    },
+    {
+      "fact_id": "F032",
+      "statement": "Design 2是普里什蒂纳中心的一处开放绿地，设想露天剧场、电影放映与协作音乐，靠近学校与本地公交站。",
+      "entity_roles": [
+        "E027:outcome",
+        "E001:context"
+      ],
+      "evidence_ids": [
+        "M01-E13"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023-09-14报道时",
+      "space_scope": "普里什蒂纳中心（未给具体地名）",
+      "quantity_scope": "1个设计",
+      "confidence": "medium",
+      "process_id": "C20-P05",
+      "review": "pending_G4_researcher_review",
+      "notes": "项目方文字描述；无图纸"
+    },
+    {
+      "fact_id": "F033",
+      "statement": "供应商页面称方案包括带模块座椅的圆形剧场和带秋千的游乐/座凳结构。",
+      "entity_roles": [
+        "E025:target",
+        "E007:actor"
+      ],
+      "evidence_ids": [
+        "M08-E02"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "未注明",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "2类结构",
+      "confidence": "low_medium",
+      "process_id": "C20-P05",
+      "review": "pending_G4_researcher_review",
+      "notes": "供应商补充细节；M01/M03未出现"
+    },
+    {
+      "fact_id": "F034",
+      "statement": "UNDP Kosovo启动了其中两份最终方案的实施。",
+      "entity_roles": [
+        "E004:actor",
+        "E025:target"
+      ],
+      "evidence_ids": [
+        "M01-E11"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2023-09",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "2份方案（共3份）",
+      "confidence": "high",
+      "process_id": "C20-P06",
+      "review": "pending_G4_researcher_review",
+      "notes": "initiated不等于建成；与M03的许可/更新分层"
+    },
+    {
+      "fact_id": "F035",
+      "statement": "UNDP Kosovo于2023-09-27发布RFQ UNDP-KOS-00094“Development of Child-Friendly Public Spaces in Pristina”，10-24截止。",
+      "entity_roles": [
+        "E028:action",
+        "E004:actor"
+      ],
+      "evidence_ids": [
+        "M04-E01"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2023-09-27—2023-10-24",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "1个RFQ",
+      "confidence": "high",
+      "process_id": "C20-P06",
+      "review": "pending_G4_researcher_review",
+      "notes": "只证明采购启动；无中标/合同"
+    },
+    {
+      "fact_id": "F036",
+      "statement": "评估报告称市政许可已取得，用于实施儿童友好空间。",
+      "entity_roles": [
+        "E029:outcome",
+        "E002:actor",
+        "E003:actor"
+      ],
+      "evidence_ids": [
+        "M03-E02"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023-10—12评估期",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未给许可数量",
+      "confidence": "medium",
+      "process_id": "C20-P06",
+      "review": "pending_G4_researcher_review",
+      "notes": "未见许可文件；不能推出建成"
+    },
+    {
+      "fact_id": "F037",
+      "statement": "评估报告称有2个批准设计将在3个地点实施。",
+      "entity_roles": [
+        "E025:target",
+        "E022:target",
+        "E023:target",
+        "E024:target"
+      ],
+      "evidence_ids": [
+        "M03-E02"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023-10—12评估期",
+      "space_scope": "普里什蒂纳三个地点",
+      "quantity_scope": "2个设计/3个地点",
+      "confidence": "medium",
+      "process_id": "C20-P06",
+      "review": "pending_G4_researcher_review",
+      "notes": "与M01的2个空间/3份方案需分层对应"
+    },
+    {
+      "fact_id": "F038",
+      "statement": "评估报告列出三个地点：主邮局附近、City Park、Park of Taukbahce。",
+      "entity_roles": [
+        "E022:target",
+        "E023:target",
+        "E024:target"
+      ],
+      "evidence_ids": [
+        "M03-E02"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023-10—12评估期",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "3个地点",
+      "confidence": "medium",
+      "process_id": "C20-P06",
+      "review": "pending_G4_researcher_review",
+      "notes": "地名拼写与行政归属待核"
+    },
+    {
+      "fact_id": "F039",
+      "statement": "评估报告称1个公园因Parks Foundation平台完成更新，指标1.3.d评级为Fully achieved。",
+      "entity_roles": [
+        "E030:outcome"
+      ],
+      "evidence_ids": [
+        "M03-E03"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "截至2023-12评估",
+      "space_scope": "普里什蒂纳（具体公园未说明）",
+      "quantity_scope": "1个公园",
+      "confidence": "medium_low",
+      "process_id": "C20-P06",
+      "review": "pending_G4_researcher_review",
+      "notes": "未说明是哪一处；不能推定3个地点全部建成"
+    },
+    {
+      "fact_id": "F040",
+      "statement": "HK2终期评估于2023-10-20至12-15进行，采用23次性别平衡的关键知情人访谈；原计划焦点小组被重新考虑。",
+      "entity_roles": [
+        "E039:actor"
+      ],
+      "evidence_ids": [
+        "M03-E04",
+        "M03-E05"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2023-10-20—2023-12-15",
+      "space_scope": "科索沃",
+      "quantity_scope": "23次访谈",
+      "confidence": "high",
+      "process_id": "C20-P06",
+      "review": "pending_G4_researcher_review",
+      "notes": "评估方法；未见儿童焦点小组"
+    },
+    {
+      "fact_id": "F041",
+      "statement": "HK2项目期于2023-12-31结束。",
+      "entity_roles": [
+        "E006:actor"
+      ],
+      "evidence_ids": [
+        "M12-E02"
+      ],
+      "fact_status": "implemented",
+      "time_scope": "2023-12-31",
+      "space_scope": "科索沃",
+      "quantity_scope": "未限定",
+      "confidence": "high",
+      "process_id": "C20-P07",
+      "review": "pending_G4_researcher_review",
+      "notes": "项目页与评估报告一致"
+    },
+    {
+      "fact_id": "F042",
+      "statement": "UTI是CEF的延伸，目标是实施CEF portfolio co-design阶段形成的原型。",
+      "entity_roles": [
+        "E016:actor",
+        "E005:context",
+        "E025:target"
+      ],
+      "evidence_ids": [
+        "M05-E01"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "页面无日期",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "medium",
+      "process_id": "C20-P07",
+      "review": "pending_G4_researcher_review",
+      "notes": "项目页叙述；不能确认UTI就是本案三地点的实施主体"
+    },
+    {
+      "fact_id": "F043",
+      "statement": "UTI的里程碑包括为10岁以上男女童创造适龄公共户外空间。",
+      "entity_roles": [
+        "E016:actor",
+        "E038:target"
+      ],
+      "evidence_ids": [
+        "M05-E02"
+      ],
+      "fact_status": "planned",
+      "time_scope": "页面无日期",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "medium_low",
+      "process_id": "C20-P07",
+      "review": "pending_G4_researcher_review",
+      "notes": "目标/里程碑，不代表已完成"
+    },
+    {
+      "fact_id": "F044",
+      "statement": "2025年UNDP区域回顾称这些空间“正从被忽视地区转变为有活力、包容的聚会场所”。",
+      "entity_roles": [
+        "E004:actor",
+        "E021:target"
+      ],
+      "evidence_ids": [
+        "M06-E02"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2025-02-21",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "medium_low",
+      "process_id": "C20-P07",
+      "review": "pending_G4_researcher_review",
+      "notes": "报道性效果表述；无建成/验收日期"
+    },
+    {
+      "fact_id": "F045",
+      "statement": "UNDP Geneva博客把普里什蒂纳与UrbanistAI的合作列为AI促进公众参与城市规划的例子。",
+      "entity_roles": [
+        "E015:actor",
+        "E001:context",
+        "E008:technology"
+      ],
+      "evidence_ids": [
+        "M07-E01"
+      ],
+      "fact_status": "reported_or_opinion",
+      "time_scope": "2023-10-31",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "medium",
+      "process_id": "C20-P07",
+      "review": "pending_G4_researcher_review",
+      "notes": "机构观点；不提供项目细节"
+    },
+    {
+      "fact_id": "F046",
+      "statement": "Space SyntaKs与UNDP Kosovo在2023-06的帖文中称这些地点“将呈现新面貌/将经历转变”。",
+      "entity_roles": [
+        "E007:actor",
+        "E004:actor",
+        "E021:target"
+      ],
+      "evidence_ids": [
+        "M10-E03",
+        "M11-E03"
+      ],
+      "fact_status": "planned",
+      "time_scope": "2023-06",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "未限定",
+      "confidence": "medium",
+      "process_id": "C20-P06",
+      "review": "pending_G4_researcher_review",
+      "notes": "未来导向表述，不证明完成"
+    },
+    {
+      "fact_id": "F047",
+      "statement": "关于参与者年龄，项目方报道为10–17岁，评估报告为11–17岁；两种口径尚未裁定。",
+      "entity_roles": [
+        "E011:target"
+      ],
+      "evidence_ids": [
+        "M01-E03",
+        "M03-E01"
+      ],
+      "fact_status": "disputed",
+      "time_scope": "2023年上半年",
+      "space_scope": "普里什蒂纳",
+      "quantity_scope": "两个年龄口径",
+      "confidence": "medium",
+      "process_id": "C20-P03",
+      "review": "pending_G4_researcher_review",
+      "notes": "可能是参与者范围/实际参与者/设计对象差异；G6复核"
+    }
+  ],
+  "status_counts": {
+    "implemented": 17,
+    "reported_or_opinion": 27,
+    "planned": 2,
+    "disputed": 1,
+    "unconfirmed": 0
+  },
+  "decisions_requested": [
+    "实体表E001–E039的类型与角色是否成立",
+    "47条原子事实的粒度是否适当；是否有需要合并/拆分/删除的条目",
+    "事实状态（implemented/reported_or_opinion/planned/disputed）是否准确",
+    "年龄口径冲突F047是否保留为disputed，还是拆成两个并列事实"
+  ],
+  "decision": {
+    "action": "accept",
+    "rationale": "研究者确认G4实体与事实，按建议方案通过",
+    "modified_content": null,
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13",
+    "adopted_options": {
+      "entities": "E001-E039_accepted",
+      "facts": "F001-F047_accepted",
+      "status_judgments": "F034_implemented_F036_F039_F044_reported",
+      "age_conflict": "F047_disputed_retained"
+    }
+  }
+}

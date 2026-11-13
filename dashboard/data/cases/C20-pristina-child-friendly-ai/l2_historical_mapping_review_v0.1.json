@@ -1,0 +1,49 @@
+{
+  "case_id": "C20",
+  "layer": "L2-G3",
+  "version": "v0.1",
+  "generated_at": "2026-11-13",
+  "status": "pending_researcher_confirmation",
+  "baseline_correction": {
+    "c19_native_concepts": 25,
+    "c19_mappings": 40,
+    "c19_shared_candidates": "SC-C19-101 to SC-C19-113",
+    "c19_mapping_version": "L2-C19-v0.1",
+    "c19_concept_version": "L2-C19-v1.0",
+    "c19_files": "missing_db_only",
+    "impact": "C19 can serve as second case for SC-C19-102"
+  },
+  "reviews": [
+    {"shared_concept_id": "SC-C01-152", "existing_cases": ["C04","C05","C06","C10","C11","C14","C15","C19"], "mappings": 10, "types": {"partial_or_approximate": 10}, "c20_support": true, "definition_change": 0, "negative_change": 0, "historical_reclassification": 0},
+    {"shared_concept_id": "SC-C01-131", "existing_cases": ["C01","C02","C03","C05","C06","C07","C15","C19"], "mappings": 21, "types": {"partial_or_approximate": 17, "native_hyponym": 4}, "c20_support": true, "definition_change": 0, "negative_change": 0, "historical_reclassification": 0},
+    {"shared_concept_id": "SC-C01-121", "existing_cases": ["C02","C04","C05","C06","C07","C08","C09","C13"], "mappings": 20, "types": {"partial_or_approximate": 20}, "c20_support": true, "definition_change": 0, "negative_change": 0, "historical_reclassification": 0},
+    {"shared_concept_id": "SC-C01-122", "existing_cases": ["C01","C02","C05","C07","C10","C11","C19"], "mappings": 10, "types": {"partial_or_approximate": 10}, "c20_support": true, "definition_change": 0, "negative_change": 0, "historical_reclassification": 0},
+    {"shared_concept_id": "SC-C01-174", "existing_cases": ["C02","C09","C11"], "mappings": 7, "types": {"partial_or_approximate": 7}, "c20_support": true, "definition_change": 0, "negative_change": 0, "historical_reclassification": 0},
+    {"shared_concept_id": "SC-C01-155", "existing_cases": ["C01","C03","C07","C08","C12","C14","C19"], "mappings": 12, "types": {"partial_or_approximate": 12}, "c20_support": true, "definition_change": 0, "negative_change": 0, "historical_reclassification": 0},
+    {"shared_concept_id": "SC-C19-102", "existing_cases": ["C19"], "mappings": 1, "types": {"native_hyponym": 1}, "c20_support": true, "definition_change": 0, "negative_change": 0, "historical_reclassification": 0}
+  ],
+  "duplicate_candidate": {
+    "withdrawn": "SC-C20-01",
+    "reason": "语义与SC-C19-102生成式AI参与式可视化近重复；C19已提供第一案例",
+    "replacement_mapping": {"native_concept_id": "NC-C20-007", "shared_concept_id": "SC-C19-102", "mapping_type": "partial_or_approximate"},
+    "retained_mapping": {"native_concept_id": "NC-C20-007", "shared_concept_id": "SC-C01-131", "mapping_type": "partial_or_approximate"}
+  },
+  "retained_candidate": "SC-C20-02",
+  "promotion_proposal": {"shared_concept_id": "SC-C19-102", "from": "candidate_single_case", "to": "researcher_confirmed", "supporting_cases": ["C19","C20"]},
+  "counts": {
+    "definition_changes": 0,
+    "negative_changes": 0,
+    "historical_mapping_changes": 0,
+    "historical_reclassifications": 0,
+    "support_additions": 7,
+    "new_candidates": 1,
+    "withdrawn_candidates": 1,
+    "promotions_proposed": 1
+  },
+  "decisions_requested": [
+    "是否接受C19 DB-only基线更正",
+    "是否撤回SC-C20-01并改映射到SC-C19-102",
+    "是否给6个既有概念+SC-C19-102增加C20支持，且0定义/负例/历史修改",
+    "是否同意G4将SC-C19-102晋升为researcher_confirmed"
+  ]
+}

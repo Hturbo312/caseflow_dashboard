@@ -1,0 +1,1504 @@
+
+===== PAGE 1 =====
+WiirreeddW      uupp CoC ommmmuunniittiieess PPrrooggrraammmmee
+
+             2000 – 2003
+
+
+
+
+
+         FFiinnalal ReeportR port ttoo tthhee
+  DeeppaarrtmentD    tment forfor EdduuccaattiioonnE
+               aanndd SSkkiillllss
+
+               DeecceemD    mbbeerr 22000033
+===== PAGE 2 =====
+                 Table of Contents
+
+Table of Contents .............................................................................. 2
+
+Introduction ........................................................................ .. . ........... 3
+
+Summary ............................................................................ .. . ........... 4
+
+Background ........................................................................ .. . ........... 5
+
+Project Objectives .............................................................. .... . ........... 8
+
+Putting WuC into Context.................................................. .... . ......... 12
+
+Evaluation and impacts................................................................... 20
+
+Practicalities: key learning points .................................................... 25
+
+The WuC model............................................................................... 29
+
+What next?...................................................................................... 31
+
+Halcyon Consultants ....................................................................... 32
+
+
+
+
+
+                           2
+===== PAGE 3 =====
+                     Introduction
+
+This report summarises the Wired up Communities (WuC) programme
+that the DfES ran from September 2000 until March 2003. The WuC
+programme was funded with £10m from the Capital Modernisation
+Fund.
+
+The report sets out to describe the context, key landma rks and
+learning points from the programme, and includes some outputs from
+the work undertaken by Halcyon Consultants in support of the
+programme in the period August 2000 until November 2003.
+
+The contribution of the individuals and groups in the seven
+communities that formed the WuC programme, and the many
+advisors to them, including officials from the Department for
+Education and Skills, and academic, private and third sector workers,
+is freely acknowledged.
+
+
+
+
+
+                           3
+===== PAGE 4 =====
+                Summary
+
+The WuC programme came at a time of intense activity to identify and
+deal with the issues of social exclusion. Set up to challenge the
+rhetoric of the inclusive information society, its purpose was to test
+the transformational outcomes of supported and largely free access to
+the Internet in deprived neighbourhoods.
+
+The Department of Education and Skills, tasked by the Treasury with
+piloting wired up communities, set an ambitious progra mme that
+sought to harness local talents and actions. It ensured that the
+selected pilot projects were fully supported by its own staff and
+outside consultants, and that they were properly funded to meet
+emerging situations – whilst unusually for a government department
+maintaining a hands off approach.
+
+An range of objectives were set by both the DfES and the projects
+themselves, and throughout the programme monitoring, feedback,
+research and current awareness were set at a premium.
+
+Government policy advanced during the lifetime of the progra mme,
+and the pilot projects evolved in the light of this and local
+circumstances. The model for them was tested in different managerial
+contexts. Not all projects found the technical, motivational and
+forward planning implications easy, and each provided a test bed that
+has been recorded in a web based practitioners toolkit that serves as a
+resource for those that follow.
+
+The costs and effort associated with the pilots means that they are not
+the forerunners of a national programme – to a large extent market
+forces are driving the move towards universal access for all those that
+want it. What the programme has done is begin to demonstrate the
+efforts needed to promote an inclusive network society, and as such
+they will have made a difference locally and to the national agenda.
+
+
+
+
+
+                           4
+===== PAGE 5 =====
+                 Background
+
+WuC Programme scope
+
+News of the WuC programme emerged in the summer of 2000 from
+the Department for Education and Employment (DfEE, subsequently
+renamed DfES) as a Capital Modernisation Fund initiative of the
+Treasury. The Chancellor, Gordon Brown, formally la unched it on 11th
+October 2000 at the UK Internet Summit on the premis e that a
+computer and a range of online services and online learning
+opportunities was on offer to all those who wanted it. The WuC
+programme would target people in deprived neighbourhoods and
+reach up to 12 000 residents across as many as ten pilot areas,
+although this was reduced to seven by March 2001.
+
+The WuC programme was constructed as a test bed to ‘see how and
+what’ and the projects were pilots with licence to experiment. The
+expectation was that this experimental nature might give rise to some
+degree of failure by some of the pilot projects in meeting some WuC
+programme objectives.
+
+Nevertheless, by ‘testing the rhetoric’, DfES hoped to provide a
+showcase for the evidential base of the transformational effec t of ICTs
+on some of the most disadvantaged communities and the ir ‘hard to
+reach’ residents. By ‘saturating’ take-up in concentrated localities it
+hoped to make a significant difference to building capacity and
+creating some progression routes to education and employment. This
+included examining the role of parents in support of their child’s
+learning with the introduction of the school curriculum online.
+
+DfES expected that the private sector would use the WuC programme
+to demonstrate the ‘commercial proposition’ of working in partnership
+with a major government department to create a number of wired up
+communities – a laudable aim given the belief that the test- bed pilots
+might pave the w ay for some form of national roll-out. The private
+sector could buy in by cross subsidising the pilot projects and then
+benefit from future large scale contracts, although this might not
+necessarily be in harmony with the community development approach
+taken by the projects and DfES’s aim that the projects enjoy a large
+degree of autonomy.
+
+It was considered that innovative thinking, a variety of local
+circumstances and a reliance on existing community capacity were all
+critical to the success of the programme. It was important to
+understand relative costs and to reveal measurable outcomes.
+
+
+
+
+
+                           5
+===== PAGE 6 =====
+Early stages
+
+From the date of the announcement in October 2000, it was important
+for DfES to move quickly to consolidate thinking around the
+programme methodology to provide the framework for the formal
+research programme. At the same time, DfES was looking to set up
+two preliminary pilots after sifting through the applications received
+via the Government Office in every region in England. It set a
+timetable that would see competitive tenders received at the end of
+November 2000, with up to eight additional contracts running from
+early 2001 until March 2002 – in retrospect, an over ambitious target
+but clearly driven by the need to kick-start activity and yield some
+early feedback on the viability of the WuC programme.
+
+With projects likely to cost around £1 million each, DfES needed to
+ensure that it could evidence a satisfactory audit trail and so
+‘accountable bodies’ became the recipients, under contract, of DfES
+capital grants.
+
+For the duration of the WuC programme, DfES aimed to provide arms
+length support to individual projects via the Wired up Communities
+and it’s appointed consultants. Halcyon Consultants was awarded the
+contract to provide project development, while technical consultancy
+(including a cost evaluation of projected pilot projects plans) was
+separated out. In the event, the technical support consultancy was not
+used directly for the individual projects and is therefore not reported
+on here.
+
+Preliminary modelling
+
+Halcyon Consultants was invited to provide project management
+support to the first two pilots. Halcyon’s proposals inc luded the
+creation of a project methodology that took into account two linked
+strands. First, the preparation required to bring technology to low-
+income neighbourhoods, with the involvement of local people , public
+agencies and the private sector. Second, a series of actions that would
+meet DfES objectives and act as a template for further pilots.
+
+Initially, Halcyon Consultants spent time establishing its model in the
+first pilot in Kensington, Liverpool. A policy level decision had already
+been taken to use recycled computers supplied via the national
+Computers Within Reach scheme. Halcyon negotiated a new contract
+with a supplier and the free recycled PCs were eagerly taken up by
+local residents in the L7 postcode area, although in other parts of the
+city, in particular L6, they had to pay a £60 charge under the
+Computers Within Reach scheme.
+
+
+
+                           6
+===== PAGE 7 =====
+Around September 2000, Halcyon set about establishing another pilot
+in Framlingham Suffolk, work that continued through to the middle of
+2001. Both of these projects were supported in this way in order to
+learn early lessons, and in effect ensure ‘quick wins’. The Ken sington
+project succeeded in its delivery of 2000 recycled PCs by Spring 2001,
+but the Suffolk project took longer to negotiate into being and this
+finally came on stream in October 2001, broadly using the model
+established in Liverpool but amended to local conditions.
+
+In late 2000, DfES organised tenders through the issue of invitations
+to 30 projects pre-selected by Government Offices. A cross-
+departmental Project Board had been established, and after internal
+and external review, five more pilots were agreed in early 2001 –
+making with the S uffolk project six ‘second stage’ projects in all.
+
+Support for projects
+
+Projects continued to be supported throughout this time and on into
+the delivery phases by other private sector consultants such as HOP
+Associates (Alston Cyber Moor), Clicks and Links (Eastserve) and IS
+Communications (Blackburn East). These acted variously in planning,
+bid writing, managerial and research capacities. Projects also
+developed their own partnerships.
+
+DfES itself established a programme of management and support
+t hroughout the programme in the following ways:
+
+     Negotiations with private sector suppliers - for an intelligent
+      portal and a generic WuC ISP, for example
+     An active role for DfES staff on pilot project management groups
+     Special funding – for example for special needs equipment.
+
+DfES also funded Halcyon Consultants to provide general consultancy
+support on project planning and development, funding and
+troubleshooting in the following ways:
+
+     Four major project conferences- see the website
+     www.thewiredupcommunity.org.uk
+     A series of project focus groups and seminars
+     A monthly email newsletter
+     Three rounds of interviews with WuC project managers
+     Development of the Wired up Communities Practitioner’s Toolkit
+      www.intelligentcommunites.org.uk
+
+
+
+
+
+                           7
+===== PAGE 8 =====
+                  Project Objectives
+
+DfES Objectives
+
+The overall objective of the WuC programme
+
+      “…to assess how individual access to the Internet can transform
+       opportunities for people living in the most disadvantaged communities
+      by developing new ways of using education, work and leisure services”
+
+was examined in the context of the following key determinants:
+
+      impact - the impact of new technologies on different types of
+     community
+      integration - how best to complement existing programme s in the
+     most disadvantage d communities
+      technology - the most appropriate technological approach es
+      public private sec tor partnerships - how best to involve and work
+      with the private sector
+      services - what facilities, services and support should be offered to
+       the communitie s
+     sustainability - ensuring communities take up the technologies as
+       their own and foster long-term development.
+
+Moving goal posts
+
+As a major government department, the DfES is subject to policy
+variations and Ministerial reshuffles and the original six DfES aims
+were augmented by a new focus on social cohesion and an emphasis
+on ‘home-school links’ (after the introduction of £5m further funding
+for the creation of e-learning foundations and technology for schools
+in the chosen WuC areas). These moving goal posts caused some
+difficulties for programme managers and those interpreting the scope
+and purpose of the projects – especially the researchers from the
+Policy Resource Institute at Leeds Metropolitan University.
+
+DfES was particularly interested in projects that use ICT to:
+
+• Test the accessibility and usability of government resou rces,
+   especially in relation to employment and education
+• Help people find work
+• Encourage lifelong learning
+• Deliver government and co mmunity information and services in
+  innovative ways
+• Support the work of government programmes (e.g. Employment
+  Zones, New Deal for Communities, Sure Start, Education Action
+  Zones, Job Action Teams)
+• Encourage bottom-up community regeneration
+• Improve community cohesion.
+
+
+                           8
+===== PAGE 9 =====
+Evaluation
+The Policy Research Institute, Leeds Metropolitan University was
+selected to carry out a research evaluation. It characteris ed the
+projects as being about access, education (learning), work, and
+social cohesion and drew up a table that showed the timescale
+against which these might impact:
+
+               Access                    Immediate
+                Learning                    Short term intermediate
+              Employment prospects     Medium term intermediate
+                 Social cohesion             Ultimate
+
+
+Assessing the WuC Bids - the projects’ views
+
+The pilot projects submitted their final bids to DfES for approval,
+having had the opportunity to present some initial drafts . In the case
+of those submitted by Liverpool and Suffolk, bids were prepared with
+help from Halcyon Consultants. Blackburn East was assis ted by IS
+Communications, Eastserve used Clicks and Links and Newham
+Carpenters Estate had Newham.net. Alston CyberMoor had the
+support of Voluntary Action Cumbria, while Brampton Pit2Net had
+Rotherham Metropolitan Borough Council. The following analysis of
+the submitted bids reveals the projects’ own interpretation of their
+priorities.
+
+                    Pit2Net (now Com2Net)
+
+Objective: improving skills, employability and job prospects to unlock
+the energies of the local people themselves and let them determine the
+extent to which being online im proves life in their community, and
+test key elements of the Rotherham Council’s strategy to tackle social
+exclusion and promote neighbourhood renewal.
+Targets: A whole community of about 1500 households.
+How: through community groups, training through an enterprise
+company, support from the Council.
+What: Set top box, re-purposed content from Granada Learning.
+
+                           Eastserve
+
+Objective: provision of a comprehensive service of access and
+supported learning to develop community consultation and
+participation, capacity within the community and voluntary sector,
+ICT skill levels, employment and economic inactivity, the development
+of a Learning Culture throughout a resident’s lifetime, locally focussed
+content, and to underpin the development and delivery of UK Online
+Centres and improved delivery of public services.
+Targets: 4500 homes in the NDC area.
+
+
+
+                           9
+===== PAGE 10 =====
+How: structured partnerships involving residents and volunteers, a
+community mentor network and community based online centres.
+What: An ‘Internet access device’ of choice (including re-cycled
+computers) with a web portal accessed through wireless broadband
+and ADSL.
+
+                       Alston CyberMoor
+
+Objective: public access places, test and deliver Government and
+community information and services in innovative ways espe cially in
+relation to employment and education, support the work of national
+and European programmes (SRB, Objective 2, LEADER+ Programme,
+Rural Development Programme) and encourage bottom- up community
+regeneration and community cohesion.
+Targets: 1000 homes and businesses and community buildings
+How: Making local people aware of what the Internet can offer – public
+services, jobs information, local community news and activ ities,
+provide accessible training in IT and other subjects, and br inging jobs
+into th e area through teleworking. Through 70 community IT
+animateurs, community groups, online learning materials (PLATO).
+What: Satellite and ADSL network to new PCS and a web portal for
+services.
+
+                          Suffolk Online
+
+Objective: reduction in rural isolation and exclusion, economic
+strengthening, promotion of self-help and lifelong learning, testing e-
+government services, school-home links, support for childcare.
+Targets: People (in one third of 4500 households) who want to work or
+learn, or overcome barriers to ICT, who volunteer or have children at
+home, businesses, parish councils and community groups.
+How: public access points, 50 champions, using local training
+providers, establishment of Community Development Trust.
+What: new and recycled PCs on dial-up access, prototype wireless
+village, web portal and ISP.
+
+                     Carpenters Connect
+
+Objective: to demonstrate how individual access to the Internet can
+transform opportunities for people living on the Carpenters Estate by
+supporting new ways of accessing education, work, leisure and other
+services.
+Targets: Carpenters Estate and its multi-cultural population.
+How: via connections, content and services – online learning materials
+(including PLATO) and digital TV, working through tenants
+organisation, college and other partners (including private sector),
+LearnDirect training.
+What: CAT 5 and ADSL cabling to Internet and local extranet, and
+provision of PC / TV/ video services.
+
+
+                           10
+===== PAGE 11 =====
+              Kensington Wired up Community
+
+Objective: to contribute to the ICT strategy that would unde rpin the
+delivery of the 10-year NDC programme – crime and safety, housing,
+employment and enterprise, learning and health.
+Targets: 2000 household in the L7 area of Liverpool and people who
+wish to improve their employability prospects; achieve a degree of
+educational attainment; or contribute to the regeneration of t heir local
+community, and people wanting to improve their self-confidence or
+basic skills levels and in g eneral, not feel excluded by the technology.
+How: 5 public access points, local training provision, network of 50
+champions and a user group.
+What: Recycled PCs and dial-up access, and a web portal.
+
+                         BeOnline
+
+Objective: Enhancing school home links and supporting online pupil
+learning from home, building a culture of lifelong learning, piloting
+and develop electronic service delivery, helping people into
+employment, and most importantly, enhancing local social capital by
+using new technology to strengthen and extend existing s ocial
+networks.
+Targets: All in geographic area.
+How: Through a community web site, online curriculum material,
+working with schools and community and service partners, and a
+Council-lead training programme.
+What: Dial-up PC (re-cycled through CWR), web portal.
+
+Comment
+
+Overall and between the projects a range of objectiv es were to be
+tested. In effect though, all were testing the future – what would it be
+like, and how would people behave if all that wanted to be were online
+and able to make use of networked services? The emphasis was on
+themes compatible with the agenda being set for neighbourhood
+renewal, but with a slant towards both learning and social
+development.
+
+
+
+
+
+                           11
+===== PAGE 12 =====
+              Putting WuC into Context
+
+The WuC programme needs to be seen in context.
+
+Why is ICT important?
+
+Its impact maybe arguable, but ICT is here to stay and people need to
+know what to make of it. The importance of familiarity with ICT is
+threefold.
+
+First, there is the belief that exclusion and poverty should not be
+reinforced by lack of access to and knowledge of something new and
+important that has the potential transform social and economic
+behaviour. This is coupled with a view that the very newness of the
+technology means that everyone has an equal opportunity to learn,
+unfettered by previous experiences.
+
+Second, there is a view that the ‘network society’ offers a means of
+building the strength of communities and overcoming isolation – both
+of individual and groups. From the inception of Freenets in the USA,
+via the creation of telecottages to the development of the community
+networking movement in the UK, there had been a sustained debate
+and experimentation on access, skills and content.
+
+Third, and this has emerged more recently, is the recognition that
+those who most need access to support services are those who are
+most likely not to have the means to do so – especially if those services
+are available online.
+
+Strategies and Policies for inclusion
+
+The report of Policy Action Team 15 and the national strategy for
+neighbourhood renewal sought to deal with the ‘digital divide’. Within
+this, DfES emphasised lifelong learning and oversaw the cre ation of
+the UK online centres programme and Computers Within Re ach.
+
+The Social Exclusion Unit aimed to develop joined up solutions to
+exclusion, and the Neighbourhood Renewal Unit developed
+programmes including New Deal for Communities that targeted low-
+income neighbourhoods. Thus it was that WuC emerged at a time of
+multiple interventions on an area wide basis and during a time of
+systemic change in education, local government, community planning
+and so on. A number of issues have proved to be of primary
+importance:
+
+     Community engagement
+     Partnership development
+     Involvement of minority communities
+
+
+                           12
+===== PAGE 13 =====
+     Long term strategic planning
+     The skills needed for regeneration
+     Developing and measuring multiple outcomes.
+
+Questions about new forms of delivery have surrounded the formation
+of Local Strategic Partnerships and the relationships between New
+Deals and local authorities 1.
+
+None of this paints a picture of a stable environment into which to
+place a short timescale and innovative project that had an apparently
+simple objective – wire up some disadvantaged communities.
+
+The Internet
+
+As it progressed, the WuC programme was increasingly frame d by a
+government Internet access policy 2 to ensure that all those who
+wanted it could access the Internet by 2005, and by its then target for
+e-government services in the same year. The government was also
+committed to an Internet access strategy as set out in the 2002 UK
+online Annual Report 3. The strategy focuses on encouraging take-up
+amongst ‘digitally divided’ groups by overcoming four key barriers to
+Internet use:
+
+      Motivation – encouraging people to want to use the Internet by
+       increasing awareness about the benefits of online services, w here they
+      can be accessed and sources of support.
+      Access – investing in a network of public Internet access points for
+      those who cannot afford or do not have home or work Int ernet
+      connections and promoting access via a variety of different channels.
+     Skills – embedding ICT skills in schools, further and higher
+      education, and lifelong lea rning.
+      Trust – advising citizens about safe Internet use and supporting a
+       light-touch, flexible regulatory framework.
+
+UK online
+The UK online campaign aims to:
+
+     Draw together the individual government projects that embrace
+      the new digital communication technologies available, to help
+     make the UK a leading knowledge economy
+     Present government services in a consumer-focused way
+     Change people's attitudes towards the internet, so that people
+     use the Internet more in their everyday lives, in their business
+      transactions and in their dealings with loca l and national
+     government
+
+1 New Deal for Communities: the national evaluation  Annual Report 2002/03. NRU
+Research Report 7, October 2003
+
+2 http://www.e-envoy.gov.uk
+3 http://www.e-envoy.gov.uk/Resources/AnnualReport2002/fs/en
+
+
+                           13
+===== PAGE 14 =====
+     The UK online initiative aims to benefit the entire population,
+     both those people who are not yet connected and those already
+      online.
+
+For those who do not currently use the Internet, UK online aims to
+help people:
+
+     Learn where and how to gain access
+     Learn how to use a PC or the Internet
+     Get help with using technology
+     Find out about what's available online
+     Recognise that the Internet has something to offer them.
+
+The major delivery agent of this is the network of UK online centres.
+The original vision for these was based to some extent on th e view that
+people need a variety of locations and facilities where they feel
+comfortable in which to engage in learning, and that although there
+are barriers to their use, ICTs do offer a new chance to develop the
+confidence to take on a learning challenge.
+
+Government services
+
+The policy actions resulting from the 2002 e-government strategy 4
+remain the dominant driver. This in itself may conflict between the
+desire to increase democratic participation, inclusiveness or indeed
+the concept of the online community as a force for community
+regeneration, if it creates a new gap between those who do and those
+who do not access services online.
+
+The Office of the E-Envoy in 2002/3 has suggested that onlin e centres
+and libraries are natural places for people to go to access e-
+government, and a range of pilot studies are now testing out this
+premise. However, aside from the ease of home access to ICT, ICT will
+not necessarily of itself improve the way information and services are
+offered – and the standards driven climate makes it more difficult to
+‘get right’.
+
+eLearning
+
+eLearning has been another driver that has developed through the
+period of the WuC programme. For adults there is the opportunity to
+learn remotely, and for families the opportunity to engage in the
+school curriculum at home. The establishment of the eLearning
+Foundation and its inception in the WuC project areas had the
+potential to link the strands of policy development at local level 5.
+
+
+
+4 see http://www.localegov.gov.uk/
+5 http://www.elearningfoundation.org.uk/default.cfm?fuseaction=contacts.wupintro
+
+
+                           14
+===== PAGE 15 =====
+Skills for Life
+
+Another policy strand has been the recognition of the need for
+improvements in adult basic skills, and the development of a strategy
+to deal with this. This has grown in importance though it appears not
+to have been fully recognised as an essential element at the inception
+of the WuC programme. ICT skills are both part of the ne ed, and a
+new means of overcoming literacy, numeracy and language skills
+deficiencies.
+
+Policy in action: the take-up of ICT
+
+During the period of the programme, ownership of PCs and access to
+the Internet has grown. Arguably, the power of advertising and the
+growth-cycle of new products have lead to an inevitable rise of ICT use
+as demonstrated by the table below.
+
+
+
+
+
+  % adults that have used the Internet (in the three months prior to intervie w)
+                            2000 to 2003
+
+By July 2003, 56 per cent of adults in Britain had used the Internet in
+the three months prior to interview 6. Sixty-one per cent of adults in
+Britain had used the Internet at some time. Sixty-one percent of UK
+homes have a PC and fifty percent of UK homes have Internet access7.
+However, in areas of high deprivation (six percent of adult population)
+only forty-seven percent of households have a PC and only thirty-
+seven percent have Internet access. Unpublished research s uggests
+that Internet use in the 2000 most deprived wards has risen more
+slowly than elsewhere and that the proportion of ‘digitally excluded’
+resident in those wards is rising.
+
+Over the three year timeframe of Wired up Communities from the
+summer of 2000, it is apparent that that PC ownership and Internet
+
+6 Individuals accessing the Internet – National Statistics Omnibus Survey
+Access to Internet from Home – Source - Family Expenditure Survey (April 1998 to
+March 2001); Expenditure and Food Survey (April 2001 onwards)
+7 Oftel October 27th 2003 http://www.oftel.gov.uk/whats_new/publications.htm
+
+
+                           15
+===== PAGE 16 =====
+access are now understood to be commonplace, with broadband the
+latest ‘must-have’. This made the job of ‘selling’ the concept of wired
+up communities easier as time passed, aided largely by the
+effectiveness of commercial PC marketing. This has lea d to PCs being
+the overwhelming majority choice rather than other devices (as
+evidenced in Manchester where residents had a choice of a new or
+recycled PC, a set top box or a network served computer).
+
+Nevertheless, there is evidence that for some, PC use and the Internet
+is just not for them, although again there is evidence that where UK
+online centres have been set up, the figures for this diminish –
+suggesting that an interventionist approach to support people in
+accessing ICT has some tangible impact.
+
+
+
+
+
+                           16
+===== PAGE 17 =====
+                Testing the Outcomes
+
+Programme research
+
+The overall research evaluation was carried out by Leeds Metropolitan
+University. Overall the aim was to assess the impact of the WuC
+programme and identify which approaches work best. It took
+considerable effort to define the scope for the research, particularly
+when the WuC programme was still unfolding. One of the issues was
+always the way in which impact could be determined over the
+timescale of the programme. In the event the problem was to match
+the research contract timetable with the actual implementation of the
+projects. Because of the planned time for the programme to be rolled
+out, DfES never intended to carry out an extended longitudinal
+research exercise, although the research plan included a baseline and
+follow-up survey nine months later, plus comparisons with other non-
+WuC areas. This has meant that there was not time within the
+programme to determine any longer term impacts or outcomes,
+certainly in terms of transformational effects.
+
+Monitoring data
+
+Several other methods were planned for collecting data. Each project
+submitted monthly reports to DfES that conformed to their contract
+arrangements. These were used in part to report to the WuC Board
+and monitor emerging issues, and they did cover the major themes –
+community involvement, links with other initiatives, content
+development and so on.
+
+DfES also considered and spent some time attempting to develop an
+online portal that would be used by all projects and would be used as
+a mine of data about project recipients’ Internet use. In the end this
+was not found to be practicable on a number of levels (particularly as
+the projects developed their own sense of identity through their
+community portals), and was abandoned.
+
+Other methods
+
+Five other methods were used to assist the determination of outcomes
+from the projects.
+
+    WuC conferences
+    WuC Project Manager interviews
+     Focus groups and seminars
+      Project activities
+       Projects’ own research.
+
+
+
+
+                           17
+===== PAGE 18 =====
+WuC conferences
+Organised primarily by Research and Innovation Services under the
+Halcyon contract with DfES, four conferences were held that had the
+aim of sharing progress, problems and practice amongst the WuC
+projects, and in the fourth one in January 2003, to sha re this to a
+larger audience. They were successful in dealing with emergi ng
+themes. They included feedback from the manager interviews carried
+out by Halcyon Consultants. Full details of the conferences are held
+on web pages at http://www.thewiredupcommunity.org.uk/.
+
+Project Manager interviews
+Although the formal LMU research was covering a good deal of
+ground, a series of three project manager interviews were carried and
+reports published in October 2001, May 2002 and September 2003.
+
+These concentrated on the DfES objectives and looked at the i ssues
+and progress over time from the managers’ viewpoints. The project
+manager interviews were particularly useful for obtaining a snapshot
+across all seven projects on progress and some commonality on issues
+faced. In response, Halcyon was able to offer project development
+consultancy support to address some of these – in particular,
+problems with private sector suppliers and the need to work on the
+‘business case’ in the development of sustainability strategies.
+
+The last report brings the state of the projects up to date until August
+2003, and includes additional information about planned
+developments, sustainability and financial viability. Copies of the
+reports are on the research section of the Practitioner’s Toolki t.
+
+Focus groups and seminars
+These concen trated in the main on the issues of content development
+for the WuC portals and sustainability, two of the DfES objectives that
+were to be tested. A final seminar looked at outcomes as perceived by
+project staff and stakeholders.
+
+Project activities
+Part of the programme design was to initiate two pilots with full
+support from Halcyon Consultants and DfES specifically to deliver
+meaningful information about DfES objectives and the general WuC
+programme. The two pilots in Liverpool and Suffolk carrie d out a
+number of activities to meet this need.
+
+Both recruited and worked with project champions in order to engage
+with the community. In the first case an extranet was set up to
+improve communication and sharing, and local people in a workshop
+themselves identified a number of ICT based community-focussed
+activities, then developed two of them with private and academic
+sector help.
+
+
+
+                           18
+===== PAGE 19 =====
+In the second case, the champions developed into a succ essful
+volunteer team that took on many tasks, including continuing to
+produce web content. They did not however develop ICT bas ed
+community projects that would have acted as a focus for the project.
+In Newham, ICT activities based on media production were always and
+continue to be built into the project, engaging residents although
+arguably the relationship between making films and using other
+network services may not have been not a clear one for residents.
+
+Both projects established special groups of partners – calle d theme
+groups in Suffolk. These covered funding for sustainability (in
+Suffolk), involvement of and support to the private sector (business
+development), e-government, and training and learning (including
+home-school links that became subsumed into the work of the e-
+learning foundation). They were seen as a way of partnership building
+over a fixed timescale, and as a way of both setting out what could be
+achieved with the project in place, and suggesting a model that others
+could follow.
+
+In both cases they had limited initial success, and the e-government
+group in Suffolk was the foundation of experimental e-democracy
+work by the Hansard Society. The funding group failed to materialise
+effectively in Suffolk despite the ostensible support of a number of
+partners, and arguably lead to the late attention paid to sustainability
+by the project.
+
+No other projects formally organised such groups in such a way that
+issues and outcomes could be made overt. Nevertheless they did work
+with volunteers and local agencies usually within the context of
+existing organisations and partnerships.
+
+Projects’ own research
+Most of the projects had carried out community consultations, and
+analysed existing research before submitting their bids for funding,
+and baseline data was largely available where other funded
+interventions were in place. Some proposed to carry out further
+evaluative research as they progressed. Many use panels of residents
+to provide feedback.
+
+
+
+
+
+                           19
+===== PAGE 20 =====
+               Evaluation and impacts
+
+
+LMU research
+
+The final report was completed in November 2002, and showed that
+some people did not use the Internet despite the projects, not everyone
+was trained, and many recipients used their computer for supporting
+schoolwork. Impacts on employment prospects and social cohesion
+were not significant. The impact of broadband was not measurable
+within the timeframe. Despite the fact the ‘saturation’ was not usually
+reached in terms of take-up, more people took up training
+opportunities and used the Internet than might otherwise have been
+the case. The research yielded useful appendices on good practice,
+and a critical case study (once agreed locally) of each project. The
+report and appendices can be downloaded from
+http://www.intelligentcommunities.org.uk/research/.
+
+Seminar workshop
+
+At the final seminar in September 2003, staff from four of the pilots
+summarised outcomes from the projects. It was proposed that it takes
+time to see any measurable effects, and as there had not been recent
+programme or longitudinal research, projects were asked to
+brainstorm the sort of outcomes that they perceived in their
+communities. These are in part anecdotal and variable across
+communities, but they do indicate those things that were researched,
+noticed by or impacted on project s taff and residents.
+
+Personal impacts – improved self-confidence and capability, jobs and
+better skills, improved involvement and engagement, entry into further
+learning, and families keeping in touch.
+
+Community impact – take up of education and learning
+opportunities; improved cohesion through communication and cross-
+generational links; increased capacity through people taking on and
+developing the model, and increased involvement in consultation
+processes.
+
+Organisational impact – projects were stimulation to Council
+thinking and a link to new strategies through a bottom up approach
+and they integrated with community and interest groups. There was
+poor recognition by some organisations – Councils, LSC, and schools
+to some extent. This impacted for example on lack of funding support,
+development of basic skills provision and online curriculum support.
+Some schools have played a new role in family learning and access.
+
+
+
+
+                           20
+===== PAGE 21 =====
+Positive outcomes – better communication; lessening of fear of ICT,
+allowance of self education at ones’ own pace and improving
+confidence; learning the value of the Internet and how to use it for ‘life
+transactions’ including shopping and bill paying.
+
+Negative outcomes  - unrealistic expectations of what broa dband can
+deliver (is it over-hyped?); people being turned off by the tec hnology
+and not using it, and the possible creation of a further digital divide
+between those that embrace it and those who can’t, won’t, or simply
+did not.
+
+Unforeseen outcomes – reluctance by residents to take up the offer
+through suspicion or wanting more ‘free’ services, and the ne ed for
+more human resource to sell the benefits and engage residents; poor
+quality from suppliers and the difficulties in regaining residents’ trust
+imposed on projects after major supplier failures; and the nature of a
+‘free’ offer being undervalued by people.
+
+Project’s Own Research
+
+                       Alston CyberMoor
+
+As of early December 2003, research is currently underway by HOP
+Associates to evaluate the project for eventual publication in early
+2004. It is using data from LMU (about which it has a number of
+questions as to its overall validity), data collected as part of the
+project, and some new data. In an interim report in August 2003 a
+number of points emerged:
+
+     There is a correlation between the WuCs that used new PCs and
+      those that had the highest uptake of Internet use.
+     Other WuCs where training was a requirement of receiving the
+     equipment did not fare so well in terms of use of the equipment.
+     So perhaps the approach of encouraging rather insisting on
+      training is a better approach, particularly amongst communities
+     where there has historically been a low uptake of training
+      courses.
+     People used the internet more, and in particular to access
+      information on events, government services, for children’s
+      learning, and for sending information to school
+     The project has had a positive economic impact in terms of its
+     purchasing activity in the local community, in addition to the 8
+      jobs created within the project. Some 44 people can be
+       identified as having to a greater or lesser extent their
+     employment supported by the CyberMoor project
+     Three businesses have been identified that have relocated into
+      the area, including two artists working in new media, where the
+       availability of broadband was an important factor
+
+
+
+                           21
+===== PAGE 22 =====
+     Seven volunteers on the project can be identified who have
+      subsequently moved into employment.
+
+The final report is planned to cover
+
+    How households and household members are now using their
+     computers and the Internet
+     What Internet-enabled activities household members are
+      engaging in now and what they would like / expect to be
+      engaging in over the next 12 months
+     What activity there is in creating community and family
+      websites?
+    How useful CyberMoor web site is proving to be? How do local
+      people value it?
+    How the Internet is being used to support household economies
+      – teleworking, supplementary employment, job sea rch, etc.?
+     What, if any impact the Internet is having on travel patterns?
+
+HOP Associates plan to use forms of questioning consistent with
+aspects of the LMU surveys, (in effect to provide a two year
+longitudinal research), analyse community engagement through
+unstructured and anecdotal re sponses, launch a survey of business
+premises, and explore the data available through the schools and, if
+appropriate, launch a survey exploring increased IT and internet
+awareness amongst schoolchildren.
+
+All databases – current and new - (anonymised and protected as
+necessary) should be available online to allow segmented data
+searches and analyses to be carried out, for example by age, gender,
+role and status.
+
+                         BeOnline
+
+Staff in Blackburn carried out a survey of all recipients during
+November 2002 and February 2003. Replies were received from 1211
+people, or 50.45% of the total number of members of the WuC
+scheme. There were some issues concerning the number of
+unanswered questions, people’s understanding of the questions and
+the routing of them that make the interpretation of the results
+problematic. Nevertheless, project staff drew the following conclusions
+(amended):
+
+       Overall the survey provided some interesting insights into how the
+       project has progressed and the impact that it has had. On the plus
+       side, there is a high incidence of PC usage even in those cases where
+      households claimed not to be using the Internet. The various forms of
+     PC usage also showed a strong bias toward education of all kinds,
+      ranging  from  user  purchased  preschool  software  through  to
+      schoolwork and on to University and LearnDirect courses. The WUC
+     PCs are so frequently used for a variety of applications that the
+
+
+                           22
+===== PAGE 23 =====
+project  truly  seems  to  have  embedded  itself  within  the
+community.
+
+On the negative side, there are two main issues. The first o f these is
+that many respondents found that they had technical problems and
+claimed that  calls to the help desk had  left these unres olved.  It
+appears that if people’s problems are not resolved in the initial stages,
+they quickly lose interest and thus cease to benefit. For any future
+project the area of technical help/support will need restructu ring.
+
+The second issue seems to be that there is still a core of pe ople who
+do not use the PC at all, and some 32% of respondents sai d they no
+longer use the Internet.  It may be that the proliferation of offers
+available simply confuses or discourages those who have become used
+to a free service, so that they disconnect once the free trial i s over. It
+may be that all the training/support in the world will neve r change
+this, and cost appears as a major factor in the lack of Inte rnet use.
+Whilst their may be an assumed level of “apathy “ toward th e project
+within t he community, the data available does not highlight this as a
+major issue, and indeed the prospects for the project’s continuity
+seem positive if it can be handed over to community activists to
+maintain.
+
+If we look at the five overall objectives for the project, then we can see
+that some of th ese objectives were met whilst others proved more
+difficult.
+
+Enhancing  School/Home  links  and  supporting  onlin e  pupil
+learning from home
+
+There has certainly been a positive benefit to schoolchildren
+from the WUC project and this has probably been one of the
+major successes of the project.
+
+Building a culture of life long learning
+
+It would  be im prudent  to  argue  that  this  objective has  been
+completely achieved and maybe  it was unrealistic in such a short
+timescale. What can b e said  is that the survey indicates that a
+significant number of users have taken advantage of the WUC project
+to explore educational opportunities that previously they mi ght have
+been excluded from.
+
+Working  with  local  service  providers  to  pilot and  develop
+electronic service delivery
+
+By providing a gateway the BeOnline web site has facilitated the
+ability of its members to avail themselves of electronic provision of
+services where available. This aspect of the project is still developing
+particularly in relation to the electronic provision of council services.
+
+Providing  information  and  support  to  help  people  into
+employment
+
+
+
+                      23
+===== PAGE 24 =====
+      This  objective has been  the most  difficult  to meet due  to  the
+       previously  mentioned  reluctance  on  behalf  of  the  co mmunity
+     members to reveal information that they regard as sensitiv e.  There
+      are however other avenues whereby the BeOnline web site can be
+      used  to help people  into  local employment and these are being
+      explored at the moment.
+
+      Strengthening local social capital by using new technology to
+      strengthen and extend existing social networks
+
+      This  is anoth er  difficult  objective  to measure however anecdotal
+      evidence seems to suggest that the WUC has helped to strengthen
+       existing networks.
+
+
+                           Eastserve
+
+Staff at Eastserve carried out an extensive 100-question interview
+survey with residents who have received a computer or a broadband
+service. The report on this research will be available in December
+2003 on the research pages of Wired up Communities Practitioners
+Toolkit.
+
+                        SuffolkOnline
+
+Staff at SOL has carried out a survey of recipients. To date no
+information has been provided about this.
+
+
+                     Carpenters Connect
+
+Data on local research is expected early in 2004.
+
+
+
+
+
+                           24
+===== PAGE 25 =====
+            Practicalities: key learning points
+
+The practicalities of setting up and running a Wired up Communities
+type project are many and varied, but can be described in terms of the
+particular stages – each of which is described in fuller detail on the
+Wired up Communities Practitioner’s Toolkit.
+
+The toolkit was developed to encapsulate the feedback a nd experience
+from the WuC projects (via a series of interviews with the project
+managers, a series of themed workshops/seminars) into a good
+practice guide.
+
+A number of key learning points on particular issues are noted below:
+
+Project Set up
+
+Prior to setting the project up in terms of physical space and
+recruitment of staff, there is a pre-planning stage that involv es
+partnership building (the ‘buy-in’), securing funding streams
+(particularly revenue in support of large capital grants) and ensuring
+that the project is assimilated into local ICT strategies for community
+learning or regeneration.
+
+It is important not to overlook the location of the project office (if it is
+to be accessible to the public) on order to promote its ‘offer’ to the
+community. The marketing materials that are developed need to be
+clear and unambiguous, with particular care taken on the use of ‘free’
+and how that is defined in relation to a charging policy.
+
+The staff recruited need to have a particular skills set reflecting
+specialist areas of experience. Community development work using
+ICTs in deprived communities requires prior experience of com munity
+work – especially for targeting the most ‘difficult to reach’ residents
+and groups.
+
+On the technical side, the project management team needs to be able
+deal with a range of issues such as technical support of the PCs in the
+community, community portal software and, for example, wireless
+networks. It also needs to be able to respond to both those w ho lack
+knowledge in the community and hard-nosed commercial interests.
+
+Community engagement
+
+As well as being clear about what is on offer from the project itself in
+regard to ICT equipment, some work must be undertaken locally with
+community ICT champions to provide a vision of what a wired up
+community is, and how it has the potential to promote the ‘network
+society’ via e-democracy initiatives, access to a range of government
+
+
+                           25
+===== PAGE 26 =====
+services online and ICT related initiatives that build commun ity
+capacity and improve social cohesion. Such champions deserve a full
+range of support within a developed volunteer policy.
+
+In order to avoid rejection of the initiative through the ‘parachuted in’
+or ‘not invented here’ argument, the project must build on existing
+community infrastructure – the local groups, regeneration schemes,
+co-ordinating committees - and aim to work with and not in place of
+them.
+
+Learning and training
+
+Linking ICT training with the offer of a PC reinforces the concept of
+providing ‘progression routes to learning’ – from informal drop-in
+taster sessions at the local ICT centre through to the accredited
+courses. However, making ICT training courses a pre-re quisite of the
+‘offer’ of a free or cost subsidised PC impacts upon the training
+providers and their capacity to deliver training to a large number of
+residents keen to get hold of their PC. The timing of the offer of
+training is critical. At home training is too resource intensive.
+Providing training as a pre-requisite to being able use the equipment
+will work if it is timed properly. Training is best provided a t a range of
+locations and circumstances.
+
+Any delays or frustrations over the delivery of the training will also
+have an adverse knock-on effect on the planned roll out of ICT
+equipment into the community. The reputation of the project is
+damaged if the community’s perception is of a project unable to
+deliver.
+
+Technology
+
+The offer of a recycled PC with a basic 56k modem dial-up is a
+rudimentary approach to providing access to ICT in deprived
+communities. Using a recycled PC platform can lead to false
+economies – with the cost of technical support for older PCs, and
+replacement parts that are more difficult to source and may be more
+expensive than newer components.
+
+This is also true of software in that new software packages are heavily
+discounted and older platforms such as Windows 98 become
+unsupported and as expensive as the newer software platforms. Also,
+most new software packages and PC games require a minimum
+specification not met by an older recycled PC. Educational discounts
+help, but again these are geared towards newer software packages.
+
+Well supported community broadband initiatives help to address the
+market failure exacerbated by the slowness in ‘unbundling the loop’
+
+
+
+                           26
+===== PAGE 27 =====
+and digitally enabling BT exchanges. The success of the digital TV
+platform in Newham will only be measured after further research.
+
+Partnerships
+
+Building a partnership with a range of agencies takes time and the
+project must already be clear about what it is offering and its wider
+vision on how to create a wired up community. Otherwise, there is
+confusion on how the project fits locally, and indeed why it should.
+
+If the partnership is predicated upon a large capital grant to put
+technology infrastructure in place, the project potentially arrives at
+the partnership table as a player with little or no track record –
+another reason why an organisation already active in the area with a
+profile helps to smooth the introduction of the large community ICT
+project. At the same time, if the project is hosted within an existing
+organisation, it can take on the baggage associated with it – and in a
+low-income neighbourhood this can be a critical issue.
+
+In early negotiations, especially bid preparation, a number of agencies,
+organisations and indeed the private sector will make promises of
+funding and/or deployed resources such as staff time. This is difficult
+for the project to enforce at the time of project implementation. Added
+to this, the project can be held to its side of the bargain on project
+delivery before the partnership regards it as a viable and worthwhile
+undertaking. This can lead to project atrophy at the critical time when
+it needs the nurturing support of other partners. A tripartite
+partnership needs to be rigorously developed between public and
+private sector agencies and the community based ICT pro ject, bringing
+together economic power, regulatory and administrative impact and
+social capital.
+
+Policy Action Team 17 drew out seven principles for effective joint
+working in deprived areas that are largely relevant to the experiences
+of the pilot wired up communities projects:
+
+     Empowerment is essential
+     Leadership and commitment are essential
+     Prevention is better than cure
+     A radical change of public service culture is needed
+     All levels of government need to be involved
+     Mainstream services are the key: sustainable change cannot be
+      effected through area-based initiatives alone
+     Central government should be a facilitator 8.
+
+
+
+
+
+8
+http://www.socialexclusionunit.gov.uk/publications/reports/html/compendium/1
+7.htm
+
+
+                           27
+===== PAGE 28 =====
+The private sector
+
+Ostensibly, a large-scale initiative such as Wired up Communities
+offers the private sector the opportunity to test out innovativ e
+products in a controlled environment and receive feedback on usage.
+The private sector can also develop new markets as well as making a
+tangible and lasting contribution to deprived communities to help
+them overcome social exclusion barriers.
+
+However, without the prospect of a full regional or national roll out,
+the private sector is more likely to treat the ICT initiative as a pet
+project than a truly viable business proposition.
+
+There are also latent fears that large private sector providers operate
+to their own commercial agenda rather than the wider social agenda of
+residents in the deprived community. This is compounded by the fact
+that the vast majority of residents in the deprived area will have a
+limited disposable income that reduces the scope for the involvement
+of private sector providers with products to sell direct to the
+consumer, online or otherwise.
+
+There are also issues around ‘skills transfer’ to local residents,
+especially where the private sector contractor is needed initially to
+provide all of its expertise and experience while the project staff and
+volunteers get up to speed.
+
+Nevertheless, businesses can and do benefit from low-risk product
+and ser vice development as evidenced in a number of the pilot
+projects, and local firms can and do benefit from the opportunities
+presented by a better-skilled potential and actual workforce, by
+benefits of broadband services, and by contracts for supplies and
+services.
+
+What worked best
+
+The critical success factors are four: taking time to prepare and
+develop all phases of the project; having leadership and vision shared
+by employed staff, volunteers and local people; devolving responsibility
+properly to local managers and the community they serve; and having
+the project represented physically in the community in buildings and
+on the street.
+
+
+
+
+
+                           28
+===== PAGE 29 =====
+                The WuC model
+
+The essence of what became known as the WuC model deve loped over
+time, but had its inception when Halcyon Consultants w as awarded
+the contract to provide consultancy support to the first two WuC
+projects from August 2000.
+
+Part of the consultant’s brief was to advise DfES as the WuC
+programme developed, and also operate in a project development
+support capacity. Discussions focused on the practicalities, which
+became the framework for the development of a WuC model with the
+following strands:
+
+     A community portal as the way of providing the project with a
+       local identity and keeping people connected to online sources of
+       (local) information
+
+     A dedicated WuC Internet Service Provider to make e-mail
+      addresses available to residents via the community portal
+
+     Creative digital media technologies to get people interested in
+      the projects and see ICT as a way of adding a new aspect to a
+     hobby – digital photography, community video, online history
+
+     Use of ICT ‘community champions’ as a focus of the project,
+      helping to build the vision of the project a s it develops and
+      acting as facilitators and experts
+
+     A positive marketing and publicity strategy to establish some
+     branding and making the offer clear to residents
+
+     Using a high street location and ‘shop’ model to raise the profile
+       of the project locally and to allow drop-in people to try out the
+     ICT equipment
+
+    Online purchases and bank accounts for people in low income
+      areas (this recently became a policy objective)
+
+     Developing a test bed area for government services online given
+      the concentration of people online via the ‘saturation’ of PC roll-
+      out
+
+     E-democracy initiatives via the community portal – online polls,
+      voting
+
+     Specialist staff for the job - community engagement achieved
+     through community networkers in a community development
+       role
+
+
+                           29
+===== PAGE 30 =====
+     An ICT training suite and other locations to provi de formal and
+      informal courses – the latter to hook people in via le isure
+      hobbies or interests and then provide a progression route to
+      further lifelong learning
+
+     Examining the business case for the project as a ‘social
+      enterprise’ - business planning and potential sustainability from
+      undertaking a cost benefit analysis of the core services provided.
+
+Sustainability models
+
+As part of the WuC programme exit strategy from Autumn 2002
+onwards it was felt that the seven projects should put forward the
+case for sustainability. Halcyon Consultants provided the development
+support to all six phase two projects via its associates, and ran two
+focus groups on the topic.
+
+One of the issues for sustainability is whether the projects can be
+replicated elsewhere, or otherwise sustain themselves by selling their
+skills and knowledge as a resource, or whether they should be
+mainstreamed. Mainstreaming has been defined as
+
+     Changing policies to deploy resources more effectively in
+      deprived areas
+     Redistributing or ‘bending’ resources
+     Reshaping services to make them more responsive and
+      accessible to local communities
+      Incorporating innovations and lessons from special initiatives
+      into mainstream practice 9.
+
+There are many suggested barriers to mainstreaming, including short-
+termism, issues of flexibility and ownership, culture and community
+leadership. It has been said that the absence of adequate evaluation
+means that it is as yet generally unclear what works and why, and it
+is difficult to persuade mainstream organisations to take on initiatives
+where there is no proof that they work better than what has been tried
+in the past.
+
+
+
+
+
+9 New Deal for Communities
+The National Evaluation Annual Report 2002/03. Research Report 7. NRU 2003
+
+
+                           30
+===== PAGE 31 =====
+                 What next?
+
+           If the Wired Up Communities programme is to prove of any value it can only
+      be if the level of expenditure and effort needed to produce worthwhile results
+       stands any chance of being replicated on a national scale.
+
+       This is the context in which we have to judge the Government's initia tives,
+       apparently designed to address the availability of the hardware fo r poorer
+       households, access to infrastructure where there is no commercial case for it,
+       spreading  (not  only among  the young)  the knowledge and  confidence
+       necessary to make use of electronic communications, and seeking to ensure
+       that there is content of some relevance to such users. Some programmes
+     seem to be designed to make a real difference. Others are evidently a
+      drop in the ocean; they are either pilots which seek to prove that
+       further expenditure is justified, or futile gestures”. 10
+
+Clearly there is not to be any kind of government follow-through.
+Nevertheless the WuC programme has excited considerable interest
+nationwide, and there is one question that people will be interested in.
+
+At the time of its inception, neither the Internet nor broadba nd
+provision had mad e the impact currently being seen. Through the
+concept of ‘saturation’, the WuC programme was set to model a future
+where everyone (who wanted to be) was connected and competent to
+use online networks.
+
+What would that be like? What issues would it raise? How would
+agencies from government to private sector to community behave in
+the network society? What would be the impact on individuals, on
+service delivery, on spatial and virtual communities?
+
+The WuC pilots started to answer these questions, and for some of
+them at least, the answers were sufficiently positive to ensure that
+they will be replicated. Elsewhere too, others will use the WuC
+experience to plan their own versions of managed community
+networks. They will also see the gaps – for example the proper
+management of community-focussed content – and take s teps to
+remedy these. They will also further consider that digital exclusion will
+continue to present a challenge that will not be resolved over the short
+term.
+
+The people in the wired up communities however will not see their
+efforts as futile gestures.
+
+
+
+
+10 Select Committee on Trade and Industry 8th Report
+http://www.parliament.the-stationery-office.co.uk/pa/cm200001/cmselect/cmtrdind/66/6602.htm
+
+
+                           31
+===== PAGE 32 =====
+              Halcyon Consultants
+
+The following people and organisations worked throughou t the WuC
+programme in support of the programme and individual projects:
+
+Rob Campbell                    Halcyon Consultants
+Martin Dudley                   Halcyon Consultants
+                                Research and Innovation Services
+
+
+The following people an d o rganisations worked at v arious times in
+support of the WuC progr amm e and individual projects:
+
+Drew Mackie, D avid Wilc ox        Making the Net W ork
+Simon Berry, Ray Reynolds        Rural|Net
+Steve Farrell                     Business in the Community
+Chris Baxter                    Knowledge Base UK Ltd
+John Fisher                         Citizens Online
+Chris Drew                       Northern Informatics
+Kevin Harris               Community Development
+                                Foundation
+Rick Smith                       Consultant
+Bruce Wright                    Funding Matters
+Steve Tolfrey                      Consultant
+
+
+
+
+
+Halcyon Consultants
+December 2003
+
+www.halcyonconsultants.co.uk
+
+For further information call Halcyon on 0776 444 9094 or Research
+and Innovation Services on 01904 706557.
+
+
+
+
+
+                           32

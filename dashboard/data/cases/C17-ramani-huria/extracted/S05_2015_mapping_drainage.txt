@@ -1,0 +1,61 @@
+Mapping drainage in Dar es Salaam – Ramani Huria
+Skip to the content
+Close Menu
+Collection of waterways and drainage of Dar es Salaam in progress IMAGE CREDIT: Mapbox/OpenStreetMap (markiliffe)
+Every year during the rainy season, Dar suffers from devastating floods that wipe out roads, destroy houses, and result in deaths, sickness, and millions of dollars worth of damages. By helping communities to map their wards, Ramani Huria is able to support disaster prevention and response to areas that were previously off the map, literally. One key element of these maps is drainage systems. We have dedicated mappers working to ensure these, as well as wetland zones and flood-prone areas, are included accurately in our maps.
+Some areas of Dar es Salaam are known to be flood-prone due to their physical features, however, in certain cases, it is difficult to differentiate between areas which are affected by floods and those that are not. Changeable factors such as drainage also contribute to how an area is affected by flooding. However, some areas such as the Msimbazi valley are consistently affected by floods. In this area residential, industrial and agricultural activities are affected every year by flooding.
+The Ramani Huria drainage team is working to add these details to OpenStreetMap and all the maps we create, below is a snapshot of their drainage mapping activities from September 17 to October 6 2015.
+Drainage mapping diary
+17
+th
+September 2015
+We observed that many roads do not have open drains running alongside them. In Msasani ward, especially Masaki and Oysterbay sub-wards, we found no drains at all by the roads. However, this does not mean that drains do not exist, or that there is no flowing rainwater and flooding during the rainy season.
+Example of a road without drains next to them in Msasani ward PHOTO CREDIT: Ramani Huria
+28
+th
+September, 2015
+This week drainage mapping was done in Sinza ward and along University Road around Ardhi University and University of Dar es salaam. In Sinza, mapping of drainage was done specifically along Shekilango Road, Mori Road, and Sam Nujoma. The key issues we observed were that drains were blocked by solid waste and many areas lacked drains, especially the gravel roads.
+Dumping of solid waste in drains at Africa Sanaa along Shekilango Road PHOTO CREDIT: Ramani Huria
+We also saw the construction of buildings over streams, for example at Sinza Mori near Big Bon filling station there are commercial buildings (a bar and saloon) built above a stream.
+Construction over streams in Sinza Mori PHOTO CREDIT: Ramani Huria
+29
+th
+September-1
+st
+October 2015
+We focused on mapping drainage systems along with trunk wards, including Kilwa Road, New Bagamoyo Road, Morogoro Road and Mandela Road. These roads are key in connecting the city to other regions of the country; therefore it is vital to know how these areas may be affected by flooding and water flow. Mandela Road specifically is a key road as it is connected to the Dar es Salaam port, affecting the flow of goods and people as all cargo vehicles from the port must pass via this road.
+Part of Morogoro Road in Mzimuni showing drainage system and existing situation PHOTO CREDIT: Ramani Huria
+1
+st
+October 2015
+In Kijitonyama ward we observed that many buildings are built over water streams or very close to the waterways. We have seen residential buildings being built close to streams as a common problem in unplanned settlements across the city. These structures result in the water not being free to flow and can lead to the buildup of water, increasing the effects of flooding.
+Residential buildings in Kijitonyama ward built close to streams PHOTO CREDIT: Ramani Huria
+2
+nd
+October – 6
+th
+October 2015
+Many drains, ditches, and streams are blocked by sand and other accumulated rubbish, restricting the flow of water. In some areas this may be also be due to drains and ditches being used as dumping sites, with road users not properly disposing of garbage. During the rainy season, these blockages are likely to lead to flooding – the blocked drainage system cannot allow for rainwater to flow out of the city.
+Blocked drains in Kijitonyama ward  PHOTO CREDIT: Ramani Huria
+In addition, to build up of sand and other solid materials in the drainage system, we observed along New Bagamoyo Road that dirt from natural vegetation has also built up in the ditches, drains, and streams, adding to the debris that can block the flow of water.
+Natural vegetation in drains along New Bagamoyo Road PHOTO CREDIT: Ramani Huria
+Without efforts to keep drains clear of debris, through management and maintenance activities, flooding is likely to occur, or be more severe, even in areas which are not in the flood-prone zones of the city.
+Drainage mapping data
+Data collected through our drainage mapping activities are uploaded onto OpenStreetMap and will continue to be updated as the Ramani Huria project continues. You can explore the
+drainage specific map
+Mapping of the drainage system and waterways within the city will continue throughout the Ramani Huria project. It is done with the aim that this data will be useful in city planning and sanitation activities.
+Share this:
+Share on X (Opens in new window)
+X
+Share on Facebook (Opens in new window)
+Facebook
+Like
+Loading…
+Leave a Reply
+Cancel reply
+Name
+Email
+Website
+Δ
+Our Partners
+%d

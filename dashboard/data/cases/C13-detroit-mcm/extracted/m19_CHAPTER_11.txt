@@ -1,0 +1,900 @@
+ 
+ 
+CHAPTER  11
+RECOMMENDATIONS
+SUMMARY
+
+Detroit Future City’s land use policies and the Mayors 10-Point Plan provide 
+the framework for the Task Force recommendations. In addition, this plan relies 
+on an approach to community engagement that will continually gather the 
+best possible insights into blight removal from residents, and will apply that 
+information to shape the best possible interventions for all Detroiters. 
+RECOMMENDATION 2-1.  Build and maintain digital communication tools.  
+The Task Force recommends the Detroit Land Bank Authority implement the 
+following:
+•	Information portal. Leverage Motor City Mapping (MCM) to implement an 
+ongoing, open, parcel-level information portal, available on-line at all times 
+to all residents; 
+•	Website.  Design and maintain a regularly updated website that provides 
+real-time information related to the blight removal strategy implementation; 
+and
+•	Social Media.  Deploy an active and aggressive e-mail and social media 
+strategies. 
+RECOMMENDATION 2-2. Leverage neighborhood points of contact.
+•	District Manager. Continue to leverage the Department of Neighborhoods 
+District Manager as the consistent points of contact.
+CHAPTER 2: 
+WHAT IS THE CONTEXT FOR
+OUR WORK?
+267
+CHAPTER 11: RECOMMENDATIONS SUMMARY
+266
+[ BLIGHT REMOVAL TASK FORCE PLAN ] 
+
+40,077 structures clearly meet the Task Force definition of “blight” and are recommended 
+for immediate removal. 38,429 structures have “Blight Indicators” and need further 
+evaluation. At least 6,135 vacant lots showed evidence of dumping and need immediate 
+attention. 
+CHAPTER 3: 
+WHAT DO WE KNOW?
+The Task Force recommends the following actions to assure more robust, 
+reliable, integrated, and updatable shared property information for Detroit.
+RECOMMENDATION 3-1. Implement Motor City Mapping Phase II and 
+Phase III.  Phase II of Motor City Mapping is the creation of a centralized, 
+public database. This database will contain information from Motor City 
+Mapping Phase I, plus data from a wide variety of sources, including numerous 
+municipal departments. The project is planned for launch in spring 2014 and 
+scheduled to be completed in fall 2014. 
+Phase II has four deliverables:
+•	Public Dashboard
+•	Mobile App
+•	Land Bank Tool
+•	Data Management Team
+Phase III delivers an expanded site control dashboard and connects all 
+municipal departments whose functions and responsibilities are associated with 
+real property. 
+RECOMMENDATION 3-2. Annual survey of all 380,000 parcels. Keeping the 
+data and the MCM current is paramount to the viability of the entire system. 
+The Task Force recommends that all 380,000 parcels in the City of Detroit be 
+surveyed annually. The more effective way of surveying the entire city would 
+be to allocate the parcels over a 12 month schedule requiring significantly 
+fewer resources to accomplish the goal of annually updating information on 
+each property. There is nothing that compels the simultaneous surveying of all 
+properties during a short period of time. It would be very short sighted to not 
+allocate the relatively inexpensive amount of resources needed to keep the 
+information current. 
+269
+CHAPTER 11: RECOMMENDATIONS SUMMARY
+268
+[ BLIGHT REMOVAL TASK FORCE PLAN ] 
+
+RECOMMENDATION 3-3. “Blexting Boot Camps”. The Task Force 
+recommends conducting public training sessions (Blexting Boot Camps), led 
+by DDD and Loveland Technologies, which would be integrated into regular 
+community meetings attended by the city’s new District Managers. 
+Participants will be trained to use the Public Dashboard and the Blexting 
+application.  The training will enable participants to read and interpret the 
+Public Dashboard and contribute information to the MCM. Residents who do 
+not own a computer or smart phone will always have the ability to work directly 
+with their District Manager to obtain information from the Public Dashboard 
+and provide information to the MCM. 
+These blexting boot camps should rotate between districts during the next 
+three to six months. Special, additional boot camps should also be held 
+for community leaders interested in becoming “Blexting captains.” These 
+leaders will be trained to conduct their own classes on Blexting and the Public 
+Dashboard.
+RECOMMENDATION 3-4. Neighborhood Reports. Phase II of MCM will 
+allow District Managers to generate in depth parcel and neighborhood related 
+activity reports. The Task Force recommends that reporting be communicated 
+by the District Managers at neighborhood and community meetings on a 
+monthly basis. 
+RECOMMENDATION 3-5. Open Data Policy. Blight is a shared problem 
+among all city stakeholders: city agencies, organizations, private companies, 
+and citizens. The Task Force strongly encourages all stakeholders to share 
+and collaborate non-private information in a visible, open, and real-time 
+environment. 
+It is imperative the city make a strategic investment in technology and create 
+a philosophy of open and enthusiastic sharing of information among city 
+employees, departments, and citizens.
+This mission critical element must be supported from the city’s top leadership 
+on down to not only realize the success of the blight removal initiative but also 
+to achieve a bright future for every neighborhood. 
+271
+CHAPTER 11: RECOMMENDATIONS SUMMARY
+270
+[ BLIGHT REMOVAL TASK FORCE PLAN ] 
+
+273
+CHAPTER 11: RECOMMENDATIONS SUMMARY
+  
+In
+te
+rv
+e
+nt
+io
+n
+s
+No
+ in
+ter
+ve
+nti
+on
+s
+Tipping Point
+Total population within highest and 
+elevated threat areas.
+RECOMMENDATION 4-1. The Detroit Land Bank Authority (DLBA) should use 
+the Maximizing Community Input (MCI) to identify initial areas of prioritization 
+and work directly with community groups within those geographies to refine 
+intervention strategies. 
+The Task Force believes utilizing a tool like MCI to identify tipping point 
+neighborhoods is a key element in prioritizing blight intervention. With that 
+said, the Task Force also realizes that the output of the algorithms needs to 
+be enhanced by the analysis of unique factors, conditions and needs of each 
+neighborhood. In addition, community engagement throughout the process 
+assures that all of these more intangible factors receive full consideration. 
+The outcome of the MCI is not to prescribe a specific type of investment or 
+intervention, nor to make recommendations parcel by parcel.  Rather, it is to 
+guide prioritization and intervention. Once specific geographies are identified 
+using the MCI and these other factors, the Motor City Mapping tool can 
+provide information regarding specific structures within those areas meeting the 
+definition of blight and those with blight indicators. This becomes the start of the 
+blight intervention road map and a place for the City of Detroit and the DLBA 
+to start discussions with impacted communities, neighborhoods, and the historic 
+designation community. 
+RECOMMENDATION 4-2. The Task Force recommends that the DLBA 
+continue to collaborate with the Michigan Historic Preservation Network and 
+Preservation Detroit to inform the parcel-by-parcel decision making process.
+RECOMMENDATION 4-3. The MCI should be revisited and refined annually to 
+reflect current conditions. 
+The MCI was created to identify strategic areas of intervention in the face 
+of Detroit’s currently overwhelming vacancy and constrained funds. These 
+conditions will change over time, and the MCI should be modified and updated 
+to reflect the new conditions.
+Built on the Motor City Mapping platform, the MCI serves as an example of the 
+tremendous potential for high-quality, detailed data to support public policy and 
+investment decisions. Given that much of the data will be publicly available, the 
+opportunities for other analytical tools to be developed are limitless.
+CHAPTER 4: 
+HOW DOES THIS 
+INFORMATION GUIDE US?
+272
+[ BLIGHT REMOVAL TASK FORCE PLAN ] 
+193,384
+
+NEARLY 1 IN 3
+LEGAL TITLE & LEGAL AUTHORITY
+The city is working to create or strengthen its codes, ordinances, and laws that 
+support a proactive approach to parcel level intervention. 
+In addition, the city should continue to take aggressive action to attain title 
+and remove blight in abandoned and vacant properties that have been known 
+community nuisances.  There are currently three options the City and the 
+Detroit Land Bank Authority (DLBA) can take:
+•	Voluntary deed transfer by the title holder
+•	Nuisance abatement
+•	Demolition judgment liens and foreclosure
+Recommendations to improve legal authority: 
+RECOMMENDATION 5-1.  Take aggressive action to gain title to blighted 
+properties through voluntary deed transfer, nuisance abatement, or demolition 
+judgment liens and foreclosures.
+RECOMMENDATION 5-2.  Improve the current hearing process. The city 
+should act decisively to enforce stricter adherence and enforcement of existing 
+deferral requirements in 290-H. The current notification process should be 
+enhanced to identify and communicate the minimum requirements for a 
+property owner to be granted a deferral. These requirements should include the 
+establishment of a demolition escrow account in which the owner contributes a 
+minimum amount to be used toward permits or property improvements. 
+RECOMMENDATION 5-3. Establish a New Demolition Review Board. The 
+city should revise Ordinance 290-H to support City Council’s creation of a 
+demolition review board dedicated to hearing complaints. Members of the 
+board should consist of three appointees, one by the council and two by the 
+mayor.  The entire job and function of this board would be to review dangerous 
+building demolition requests.
+RECOMMENDATION 5-4.  Make changes to protect communities. 
+Ordinance 290-H should be revised to include boarded-up properties in the 
+definition of “dangerous properties.” It should also narrow the definition of 
+“occupied” to rightful owners or tenants and exclude squatters. 
+RECOMMENDATION 5-5.  Streamline the deferral process. Ordinance 290-
+H should be revised to reduce the number of deferrals BSEED may issue from 
+three to one. Deferral time-lines should be shortened from six-months to 90 
+days. This does not remove BSEED’s ability to extend an active deferral, as long 
+as the property owner is clearly making progress on removing blight.
+CHAPTER 5: 
+WHAT IS THE BEST
+INTERVENTION?
+275
+274
+[ BLIGHT REMOVAL TASK FORCE PLAN ] 
+CHAPTER 11: RECOMMENDATIONS SUMMARY
+
+RECOMMENDATION 5-6.  Issue demolition orders earlier. The city should 
+have a demolition order in place before the first deferral can be granted. 
+This will communicate the urgency of remedy to the owner, and offer the city 
+leverage to proceed if the owner does not act. 
+RECOMMENDATION 5-7.  Add capacity for hearings and inspections. 
+The city Clerk’s office should add significant capacity until the vast majority of 
+Detroit blight has been removed. 
+Examples include:
+•	Automate or outsource the hearing notice process,
+•	Invest in training and support current inspectors to ensure consistency, and
+•	Expand building inspector capacity through local hiring and training 
+programs or partnering with Detroit-based businesses.
+RECOMMENDATION 5-8.  The city should assume responsibility for 
+demolition billing to owners. The city (specifically BSEED) should send the bill 
+for demolition directly to the title holder instead of handing off this task to the 
+county tax assessor’s office.  The current process is an unnecessary bureaucratic 
+additional layer that provides no value, creates inefficiencies and adds to costs.
+Recommendations to improve title transfer:
+RECOMMENDATION 5-9.  Take full advantage of the new state blight ticketing 
+law (MCL 117.4Q sub-section 3, PA192) to gain title to blighted properties. The city 
+should enforce foreclosure on properties with unpaid blight tickets.
+RECOMMENDATION 5-10.  The State should amend MCL 600.2819 to allow 
+for the city to create its own ordinance related to the foreclosure of a demolition 
+judgment lien.  The State of Michigan and the City of Detroit should also craft an 
+agreement to allow the DLBA to perform all demolition judgment lien and blight 
+ticket lien foreclosures.
+RECOMMENDATION 5-11.  With this new authority granted by the state, 
+the Task Force recommends that Detroit create a new city ordinance to allow 
+a streamlined process to foreclose on the blight tickets and demolition judgment 
+liens. This ordinance should be written to transfer title for these properties to the 
+DLBA.
+RECOMMENDATION 5-12.  The State of Michigan should pass a state law 
+that eliminates or allows the rejection of back taxes when title is transferred to the 
+DLBA. (Georgia law provides a model for this.)
+RECOMMENDATION 5-13.  The city should work with the American Land Title 
+Association to create a modified title insurance form that addresses the specific 
+situations of foreclosure and nuisance abatement cases.
+RECOMMENDATION 5-14.  Buildings, Safety Engineering, and Environmental 
+Department should file Lis Pendens (notice of default) immediately after 
+demolition order.
+STRATEGIC ASSESSMENT TRIAGE TOOL (SATT)
+The Task Force believes that it is critical that the DLBA create a tool to provide 
+standardized guidance in its parcel intervention decisions. The Task Force 
+recommends a Strategic Assessment Triage Tool (SATT). 
+The SATT is designed to objectively evaluate and analyze the data on 
+individual structures. As soon as a property is approved for demolition or 
+its title is transferred to the DLBA, a team composed of a DLBA-selected 
+environmental surveyor and a construction contractor should visit the site 
+and survey the property together to ascertain the property condition and the 
+potential environmental hazards associated with demolition. Data collected by 
+the contractors can then immediately be transmitted to the DLBA for overall 
+analysis. Outcomes of the SATT analysis could include removing the blight 
+(structure or debris/trash), rehabilitating or repairing the structure, or securing 
+the structure for intervention at a future date. If the parcel is a vacant lot, the 
+team can immediately put that into the category of blight removal/clearing. 
+Of course engagement with the local community is also essential, along with 
+evaluation of the neighborhood context before any final decisions can be 
+reached.  This process not only informs the type of intervention (in this case 
+of removal), but also provides input into the environmental, deconstruction, 
+demolition and recycling processes.
+The Task Force recommends the following guideposts for decision making:
+RECOMMENDATION 5-15.  The DLBA should leverage the SATT to provide 
+standardized guidance in its parcel intervention decisions. 
+The SATT is designed to objectively evaluate and analyze data on individual 
+structures. Deploying SATT should occur as soon as DLBA has legal authority to 
+do so.  
+RECOMMENDATION 5-16.  Adopt clear and transparent guidelines for 
+decisions on each structure.  The SATT information, along with the previous 
+information collected (Detroit Future City future land use map, Motor City 
+Mapping data, community input, geographic predictive analysis, etc), provides 
+the necessary information to determine the appropriate intervention method.
+277
+276
+[ BLIGHT REMOVAL TASK FORCE PLAN ] 
+CHAPTER 11: RECOMMENDATIONS SUMMARY
+
+CHAPTER 6: 
+WHAT IS THE BEST WAY
+RESIDENTIAL 
+COMMERCIAL
+VACANT LOTS
+INDUSTRIAL
+WITHIN 5 YEARS
+STRUCTURES WITH BLIGHT
+INDICATORS
+TYPES OF BLIGHT
+TO REMOVE BLIGHT?
+REMOVAL OF STRUCTURES
+Because neighborhood structures make up 99.3 percent of the total blighted 
+structures in Detroit, the Task Force spent most of its time examining this 
+category. Neighborhood structures include all residential structures and 
+commercial structures that are less than 25,000 square feet in lot size.  Although 
+the Task Force acknowledges many opportunities to stabilize or rehabilitate 
+structures rather than remove them, we assume the majority of the 78,506 
+structures with blight indicators will likely need to be removed. Due to this, and 
+to the complexities and many considerations around demolition and structural 
+removal, the Task Force focused more of its attention on four major areas of 
+activity:
+•	environmental measures,
+•	deconstruction opportunities,
+•	demolition needs, and
+•	recycling potential.
+1. ENVIRONMENTAL MEASURES
+RECOMMENDATION 6-1. The city and the Detroit Land Bank Authority 
+(DLBA) should continue to require “wet/wet” demolition practices for dust 
+mitigation in the permitting process.
+RECOMMENDATION 6-2. The city and the DLBA should engage with the 
+U.S. Environmental Protection Agency (EPA), and other regulatory agencies 
+involved in contractor safety, to use Detroit’s large scale blight removal effort 
+as an opportunity to research and develop enhanced air quality monitoring 
+devices that monitor lead (expanding on the current asbestos air quality 
+technology). The scale and speed of demolition in Detroit is unprecedented and 
+can provide the platform for solutions that can be used across the country. 
+RECOMMENDATION 6-3. The city and the DLBA should engage with 
+the U.S. EPA to explore resources and opportunities to assist smaller 
+contractors with barriers they face acquiring air quality monitoring devices, 
+including solutions for financial barriers. 
+RECOMMENDATION 6-4. The DLBA should continually work to enhance the 
+MCI predictive prioritization tool (discussed in chapter 4) to include lead level 
+indices, as they are collected in the field. This could lead to the establishment of 
+a high health risk building removal indicator. 
+RECOMMENDATION 6-5. The DLBA should consider additional allocation of 
+field liaisons as building removal activities continue to scale. 
+279
+278
+[ BLIGHT REMOVAL TASK FORCE PLAN ] 
+CHAPTER 11: RECOMMENDATIONS SUMMARY
+
+2. DECONSTRUCTION
+RECOMMENDATION 6-6. At present capacity, the Task Force recommends 
+starting with the “skim” model of deconstruction, where the property is 
+appropriate and a market exists. The Task Force also recommends continually 
+monitoring and expanding the envelope on this promising area of practice, as 
+cost-effectiveness improves and markets change.
+3. DEMOLITION
+The Task Force identified several recommendations for the city to implement, 
+resulting in expedited demolition more promptly once approved, reducing 
+health impacts, and removing bottlenecks in the process. 
+RECOMMENDATION 6-7. The Task Force recommends that the DLBA 
+schedule all utility disconnections as soon as the contractors complete data 
+gathering via the Strategic Assessment Triage Tool. The greatest practical 
+challenge to prompt demolition in Detroit has been disconnecting the gas, 
+electricity, and water lines to the property. Disconnecting utilities involves 
+communication and timing issues among two different utilities and the city. 
+After working directly with DTE Energy and the Detroit Water and Sewer 
+Department (DWSD), the Task Force identified several efficiency opportunities 
+for collaboration and cost savings between the DLBA, DTE and DWSD that 
+should be implemented (some of these have already been implemented by the 
+city and the DLBA):
+•	Leverage the Motor City Mapping dataset to understand where disconnects 
+have already occurred.
+•	Reduce demolition costs by identifying properties they have already been 
+targeted for disconnect by DTE and/or DWSD.
+•	Schedule demolition for all structures on a block at the same time, which 
+could result in one disconnect for the block instead of parcel by parcel 
+disconnects, also reducing costs.
+•	Create joint action teams to disconnect utilities and water at the same time. 
+Cross-training team members can result in greater efficiency, increasing 
+overall capacity, and reducing overall costs.
+•	Qualify contractors to “cut & cap” the water line on site with proof that the 
+job was done correctly, versus DWSD doing all the work themselves.
+•	Create a billing system that bills contractors on a time and materials basis 
+versus a flat fee.
+•	For demolition work contracted by the DLBA, DWSD should allow 
+contractors to proceed with disconnects and demolition BEFORE past due 
+water bills on the property are paid. 
+RECOMMENDATION 6-8. The city should continue to charge a discounted 
+rate for demolition permits in light of the scale of need. The city’s Buildings, 
+Safety Engineering and Environmental (BSEED) should remove the demolition 
+permit fee. 
+RECOMMENDATION 6-9. The DLBA should continue to use community 
+meetings to engage community groups throughout the entire scope of 
+planning and activation of demolition (or other interventions), in order to 
+discuss and respond to community observations and concerns.
+4. RECYCLING
+RECOMMENDATION 6-10. The city should establish two new construction 
+and demolition (C&D) recycling centers inside Detroit city limits; ideally, 
+one on the east side and one on the west side of town. The Task Force sub-
+committee talked to three potential recycling center candidates, all with 
+plausible business plans. All three candidates bring slightly different options and 
+expertise, but may not represent the entire population of interested parties. 
+RECOMMENDATION 6-11. The Task Force recommends that the city’s 
+Jobs & Economy team, with assistance from the Detroit Economic Growth 
+Corporation, evaluate potential solutions and prioritize the selection, 
+zoning, and economic support of at least two C&D recycling facilities in 
+the city. Additional support from the state DEQ in delivering time sensitive 
+support to navigating the regulatory and licensing requirements associated with 
+opening this type of facility will add great value.
+LARGE-SCALE COMMERCIAL STRUCTURES
+RECOMMENDATION 6-12. Immediately address most blighted large 
+commercial structures in the tipping point geographies. The results of the 
+Motor City Mapping survey reveal that twelve large-scale industrial and 
+commercial structures fall within the “tipping point neighborhoods” identified 
+in Chapter 4. Among those dozen structures, five fall within the group of “Poor 
+Condition, Suggested for Demolition” (four commercial and one industrial). The 
+Task Force recommends prioritizing these five structures for deconstruction and 
+demolition, whichever is the most economically viable method based on the 
+building content. The remaining seven have blight indicators and need further 
+analysis.
+RECOMMENDATION 6-13. Use Motor City Mapping data and geographic 
+priority-setting to support Detroit Future City and the Detroit Economic 
+Growth Corporation’s work in targeted primary and secondary employment 
+districts. The Task Force suggests that the DFC/DEGC team incorporate the 
+following prioritization process within those zones:
+281
+280
+[ BLIGHT REMOVAL TASK FORCE PLAN ] 
+CHAPTER 11: RECOMMENDATIONS SUMMARY
+
+•	Determination of job creation candidates that fall within the targeted 
+geographic zones outlined in Chapter 4 (win/win scenarios); and
+•	Use of Motor City Mapping to reveal how many of the city’s 559 large-scale 
+industrial structures and commercial structures are located within the overlay 
+districts (see map on opposite page) and are high target candidates for job 
+creation opportunities. 
+RECOMMENDATION 6-14. Review and, if needed, change existing 
+laws regarding property owners’ responsibility for the financial costs of 
+environmental site contamination. Laws may need modifications to improve 
+enforcement. The City of Detroit’s Law Department should take aggressive 
+action in leveraging these laws to recoup any and all costs associated with 
+environmental contamination of these sites.
+REQUEST FOR PROPOSALS (RFPs)
+From a process efficiency perspective, the current process for issuing Requests 
+for Proposals (RFPs) is not well suited to large-scale activity and innovation of the 
+type that Detroit now needs. In addition, this process will be the driving force 
+behind setting the expectations for hiring Detroiters and using Detroit based 
+firms. The Task Force recommends the following changes to the Request for 
+Proposal process:
+RECOMMENDATION 6-15. DLBA should require deconstruction companies 
+and demolition companies to submit combined proposals (potentially through 
+a joint-venture), working together to maximize coordinated timing and hand-
+off between deconstruction and demolition activities, where deconstruction is a 
+viable option. 
+RECOMMENDATION 6-16. DLBA should continue to package mechanical 
+demolition RFPs in two ways: by size of job and size of contractor. This method 
+allows larger contractors to secure larger jobs, which should improve the ability to 
+recognize cost savings, process efficiencies, innovation and job creation. Smaller 
+contractors typically do not have the financial capacity to secure the necessary 
+bonds, the experience, nor the resource bandwidth for these larger projects. 
+Some RFPs of notably smaller size should be dedicated to the smaller contractors. 
+The Task Force recommends RFPs in this small pool to represent approximately 
+10 to 50 properties each. 
+RECOMMENDATION 6-17. The Task Force calls on local banks and other 
+financial institutions to grow Detroit based businesses by extending the DLBA 
+lines of credit at three percent interest or below to aid in cash flow to contractors. 
+These funds  provide the necessary working capital for the DLBA to hire local 
+contractors to revitalize Detroit neighborhoods.  Banks should explore programs 
+such as the Community Reinvestment Act (CRA) for this purpose.  These funds 
+should be backed by the Federal and State funding programs to allow the DLBA 
+to pay contractors within 30-45 days of project deliverables and billing. This 
+addresses major cash flow challenges that contractors face once they win RFPs. 
+Since many Federal and State funding programs are on a reimbursement basis, 
+they do not forward funding to DLBA to pay the contractors until the work is 
+completed, which usually requires at least a 30-day turnaround. For many of the 
+contractors, especially the smaller ones, the delayed cash flow makes it almost 
+impossible to meet payroll.
+RECOMMENDATION 6-18. DLBA should continue to prioritize Detroit 
+based businesses when awarding RFPs. If firms outside of Detroit are needed 
+to achieve targeted volumes they should be required to hire qualified Detroit 
+residents to perform the work. Contracted firms should be required to work 
+directly with the job training agencies listed in the Job Creation section of 
+this chapter to refine employment candidate training requirements and offer 
+employment opportunities for graduates. 
+CLEARING AND MAINTAINING VACANT LOTS
+The Mayor should communicate an urgent call to action to all Detroit 
+stakeholders—including businesses, churches and residents—to focus their 
+philanthropic funding and volunteer resource programming on clearing and 
+shared maintenance of vacant lots in the city.
+RECOMMENDATION 6-19. Working with the communities through 
+community meetings, the DLBA should develop a directory of the vacant 
+lots to be cleared. Once the MCI geographic prioritization is defined, the 
+DLBA should be able to identify blighted vacant lots which have the greatest 
+impact from clearing. 
+RECOMMENDATION 6-20. Once priorities for vacant lot clearance have 
+been finalized, the DLBA should immediately work with local nonprofits 
+to begin fundraising. Once funds have been raised, the DLBA should work 
+directly with DPW and Department of Recreation to issue notices and RFPs to 
+begin lot clearing.
+RECOMMENDATION 6-21. Deploy the model for lot clearance created by 
+the Blight Authority across the entire city in coordination with the structural 
+intervention work of the DLBA. Neighborhood engagement for vacant lot 
+clearing should be a joint effort between the DLBA and the City of Detroit 
+District Managers. 
+RECOMMENDATION 6-22. After demolition or vacant lot clearing, the city 
+should fully implement its plan to grade and seed newly vacant sites with 
+specialized low-growth seed after demolition. This can either be in the form 
+of slow-growing grass or clover, depending on the sites’ intended future use. 
+Although these slow growing forms of seed cut down on the need for mowing, 
+283
+282
+[ BLIGHT REMOVAL TASK FORCE PLAN ] 
+CHAPTER 11: RECOMMENDATIONS SUMMARY
+
+they also require more intense watering and initial care to take root than 
+traditional grasses. Therefore, a process needs to be in place as to who will tend 
+to these sites immediately after blight removal. 
+RECOMMENDATION 6-23. The city (Department of Neighborhoods) 
+and the DLBA should work with philanthropic and nonprofit community 
+partners to expand the existing Vacant Property Coalition of Detroit and 
+the toolbox program at Michigan Community Resources (MCR). MCR is 
+currently supported by the Kresge Foundation which is part of the collaborative 
+effort to remove blight and improve Detroit neighborhoods. Since 2007, MCR 
+has used their planning, community organizing, legal and policy expertise 
+to inform and directly assist communities with vacant property issues. They 
+are now focusing their vacant property-related services to decrease blight 
+affecting residential vacant properties. This program is poised to be the central 
+coordination for vacant property maintenance for the city. To further enhance 
+this program, MCR should work with Detroit Future City to incorporate their 
+vacant property management concepts. 
+MCR, with the support of the city and strategic partners, should create a 
+framework for a citywide care plan for vacant lots to include:
+•	Defined community leaders in every neighborhood in Detroit.
+•	Defined corporate and religious group sponsors to coordinate philanthropic 
+funding and employee/member community service programs.
+•	Neighborhood by neighborhood vacant lot maintenance programs 
+(including initial care of the lot post blight removal, mowing (3x’s a year), 
+raking, shoveling, etc.)
+•	Integrated citywide maintenance calendar that maximizes the use of the 
+toolbox program, local business/religious group volunteers, and community 
+volunteers (integrated into the District Managers’ regular meetings with the 
+community).
+•	Neighborhood toolboxes consisting of a lawn mower, rakes, shovels, extra 
+seed (to fill in washed out areas), hedge clippers, wheel barrow, etc.
+•	An interactive website that provides public access to vacant lot maintenance 
+schedules and the ability for residents to provide information about activity 
+that escalates attention to specific areas of the city.
+•	Interaction with greening groups and university agriculture and state 
+agricultural extension offices to assist with noxious weed and native planting 
+work, re-treeing and blue green infrastructure.
+RECOMMENDATION 6-24. The City of Detroit and DLBA should also 
+immediately implement its new side lot sale program to actively provide 
+property owners the opportunity to purchase adjacent lots at low cost. 
+In addition to this program, the Task Force also recommends that the DLBA 
+immediately implement its new side lot program to actively provide property 
+owners the opportunity to purchase adjacent lots at low cost. 
+285
+284
+[ BLIGHT REMOVAL TASK FORCE PLAN ] 
+CHAPTER 11: RECOMMENDATIONS SUMMARY
+
+CHAPTER 7: 
+HOW DO WE GET AHEAD
+OF FUTURE BLIGHT?
+Fair
+Good
+Suggest Demolition
+Poor
+40%
+31% 
+18%
+11%
+EXTERNAL 
+CONDITIONS 
+OF PUBLICLY 
+OWNED 
+STRUCTURES
+Even the swiftest and most sweeping fight against today’s blight will accomplish 
+very little if we don’t address the conditions that led to it.  Detroit’s collapsing 
+structures and vacant lots didn’t just “happen.” They are the physical result of 
+dire economic and social forces that pulled apart the city over many decades. 
+Issues such as uneven economic opportunity, poor workforce development, 
+crime, education and spotty public lighting contribute to blight and must be 
+addressed. While these issues clearly fall outside the scope of our report, we 
+will address two specific focus areas which will help the city “stay ahead” in its 
+fight against blight—property tax reform and legislative policy.
+PROPERTY TAX REFORM
+RECOMMENDATION 7-1: Promote a property tax policy that encourages 
+participation. Fewer than half of Detroit property owners are paying property 
+taxes today. The Task Force believes it is more valuable right now to collect 
+something in property taxes from everyone, and encourage participation, than 
+to collect more from a smaller number of owners and allow 18 percent interest 
+to accrue on the rest, swelling a collection gap that will never close.
+The Task Force urges the city to act boldly to level the playing field for property 
+assessments over the next two years. The city’s tax reform must provide clearly 
+stated expectations for property owners, and must improve payment systems 
+to make them far easier to use than the clunky online interfaces and antiquated 
+in-person payment processes that exist now. Alongside this effort, to prevent 
+history repeating itself, state legislation should be passed that reduces the 
+18 percent interest rate on unpaid property taxes to six percent in distressed 
+Michigan communities like Detroit.
+RECOMMENDATION 7-2. Address the properties at risk of foreclosure. 
+Even if property taxes are reduced moving forward, there are still 118,000 
+properties citywide that are on track for tax foreclosure. Detroit cannot afford 
+to put more than a quarter of the city on the auction block. Collectively, these 
+properties carry more than $500 million in unpaid taxes. There has to be a 
+better way. 
+The Task Force urges the city to take the following steps to stem the tide of 
+future foreclosures:
+“Bundle” vacant lots and vacant structures (the properties most vulnerable 
+to speculation and zero maintenance by predatory, private owners if auctioned 
+off). This tool is available to the County Treasurer to make properties 
+unattractive for sale. If one property in a bundle is purchased, all of them must 
+be purchased.
+287
+CHAPTER 11: RECOMMENDATIONS SUMMARY
+286
+[ BLIGHT REMOVAL TASK FORCE PLAN ] 
+
+Once protected from speculators at auction, bundled properties can be 
+transferred to the Detroit Land Bank Authority (DLBA), where better disposition 
+strategies can lead to removal or sale with “reverter clauses” that demand 
+improvement and tax payment, or call for a return to public ownership if this 
+requirement is not met. The DLBA should be funded to monitor the upkeep of 
+these properties and act on “reverter clauses” if the buyer is out of compliance.
+FINES AND PENALTIES FOR BLIGHT
+RECOMMENDATION 7-3: Use and strengthen existing fines and penalties 
+for blight. Until recently, Michigan’s treatment of blight offenders was among 
+the softest in the country. That changed in March 2014 with a series of laws that 
+empowered local blight courts with additional powers to impose penalties and 
+punitive action. 
+The new legislation enables blight courts in Michigan to act against property 
+owners that have incurred civil fines and costs of $1,000 or more, and have 
+not paid within 30 days. The courts can now impose additional penalties, 
+including misdemeanors punishable by jail time. The legislation also allows 
+cities to render blight violators ineligible for zoning changes, building permits, 
+or certificates of occupancy. The courts are permitted to garnish these property 
+owners for unpaid fines. Last but not least, the new law makes it easier for cities 
+to impose liens against properties involved in blight violation. 
+This legislation is an important step, but does not go far enough. The extra 
+misdemeanors cited above, and the zoning and permitting provisions, do not 
+apply to buildings taken by banks in foreclosure. The number of such buildings 
+is significant. A blighted property taken by a bank in foreclosure is no less of 
+a nuisance to the community than any other property. The city should push to 
+remove this “carve out” for banks.
+SCRAP METAL LEGISLATION
+RECOMMENDATION 7-4. Strengthen the new scrap metal legislation. 
+Stripping and theft of valuable metals and items from buildings is one of 
+Detroit’s most corrosive contributors to the deterioration of properties. Earlier 
+this year, Michigan approved a much-debated reform to its law on scrap metal 
+purchases, taking the teeth out of this illegal practice. The centerpiece of the 
+law is the requirement that scrap metal businesses mail payments to the sellers 
+of certain frequently stolen types of scrap items to a verifiable address if the 
+purchases are more than $25. This will help create a paper trail between scrap 
+sellers and purchasers. 
+Although the legislation is an important step, the city should remain vigilant and 
+continue to push forward for two additional reforms:
+1.	Eliminate the $25 threshold entirely. The legislation still allows for on-the-
+spot payments via electronic payment cards on items under $25. This is an 
+easy loophole for thieves to exploit, because they can go from scrap dealer 
+to scrap dealer getting multiple payouts of $25 via electronic payment card, 
+which are easily convertible to cash. In a sense, the legislation encourages 
+them to do so. Sellers are still going to want instant cash, and because of 
+the $25 limit, they may actually steal more items to get the same amount 
+of cash they are currently allowed. The city should consider at some point 
+renewing its push to eliminate the $25 threshold entirely. 
+2.	Enforcement. A law is ineffective without concerted enforcement that 
+sends a “zero-tolerance” message. The city should be diligent in policing to 
+enforce the new law.
+REPURCHASE OF TAX FORECLOSED PROPERTIES AT 
+AUCTION
+RECOMMENDATION 7-5. Crack down on real estate “buy-backs” by 
+speculators. Michigan is currently considering SB 0295 to discourage real estate 
+speculation and predatory purchases of tax-foreclosed property. Under current 
+law, a land speculator may buy a house at auction for $500 and never pay taxes 
+on it. Then, when the municipality forecloses on the property, the speculator 
+can simply buy it back for another $500, and not have to pay the taxes owed. 
+Allowing speculators such free rein keeps property vacant and contributes to 
+blight in urban areas. 
+The proposed law would prevent a bidder from bidding on foreclosed property 
+if the bidder had unpaid fines for violating local blight or nuisance ordinances. 
+This legislation should be supported, with appropriate provisions to close 
+loopholes made possible by the fact that most property owners own their 
+properties in distinct single-purpose entities over which they retain complete 
+control. At the same time, the legislation should not inadvertently ensnare 
+legitimate homeowners who have lost their primary residences due to unpaid 
+property taxes, and are now trying to buy another home as their primary 
+residence.
+289
+CHAPTER 11: RECOMMENDATIONS SUMMARY
+288
+[ BLIGHT REMOVAL TASK FORCE PLAN ] 
+
+FIRE INSURANCE ESCROW FUND
+RECOMMENDATION 7-6. Broaden and strengthen the applicability of fire 
+insurance escrow fund. Michigan’s current Fire Insurance Withholding Program 
+(also known as the Fire Insurance Escrow Fund, or simply the Fire Escrow 
+Fund) has required insurance companies to give municipalities 25 percent of 
+the insurance proceeds for each burned-out house within their boundaries, 
+but only up to $6,000. If an owner razes a fire-damaged house, the owner can 
+access that money. But if the owner fails to raze the house, the city can access 
+the money to do so. The $6,000 cap, however, is rarely enough for demolition, 
+so the money remains in the account and fire-damaged structures remain 
+blighted. About $20M was sitting in the Fire Escrow Fund unused until April 
+2014, when the city began to use those funds to supplement the demolition of 
+their designated structures. 
+The Task Force recommends that the State of Michigan take two actions to 
+remedy this bottleneck:
+1.	Reallocate funds. Michigan should amend its Fire Escrow laws to provide 
+that when an eligible structure has been demolished but funds deposited 
+for it remain in the Fire Escrow Fund, the escrow funds should be 
+reallocated to a general fire demolition fund, to be used to demolish other 
+fire-damaged structures. 
+2.	Increase the amount to be withheld. Michigan should amend the current 
+program to increase the amount withheld from the insured to $15,000, or 
+an amount sufficient to actually cover the cost of demolishing a residential 
+structure, including the costs of environmental abatement. If the actual 
+cost is below $15,000, then any remaining funds should be released to the 
+insured only after renovation or proper demolition of the structure, as well 
+as grading and seeding of the lot. 
+RECOMMENDATION 7-7.  Although the city can and should take actions to 
+streamline utility disconnects to abandoned properties, as described in Chapter 
+6, the State has a potentially supportive role. The Task Force recommends 
+that the State, through the Michigan Public Service Commission, allow DTE 
+Energy and other regulated utilities to amend their tariffs to include free utility 
+disconnects for blight removal. 
+RECOMMENDATION 7-8. In addition, Detroit needs stronger anti-dumping 
+laws. The dumping of trash and large objects such as cars and boats is 
+a major source of blight throughout Detroit. Clearing of such dumped 
+materials becomes an exercise in futility if people are allowed to dump 
+without repercussion. The laws against dumping need to be reviewed and 
+strengthened, and enforcement of such laws must become a priority.
+The responsibility for blight, and the consequences of its persistence, rest 
+ultimately with the City of Detroit. The Mayor’s office, in collaboration with the 
+Emergency Manager’s office, must lead within the framework of the settled 
+bankruptcy terms to address blight head-on. The centerpiece of this work will 
+be the newly enhanced Detroit Land Bank Authority, working in concert with the 
+Mayor’s office. 
+See the complete listing of roles and responsibilities see Chapter 8. 
+291
+CHAPTER 11: RECOMMENDATIONS SUMMARY
+CHAPTER 8: 
+WHO IS LEADING THE FIGHT 
+ON BLIGHT?
+290
+[ BLIGHT REMOVAL TASK FORCE PLAN ] 
+
+$850 MILLION JUST TO ADDRESS 
+NEIGHBORHOOD BLIGHT IN THE 
+NEXT FEW YEARS
+Detroit will need as much as $850 million just to address neighborhood blight 
+in the next few years.  Addressing the larger-scale industrial sites across the 
+city could add an additional $500m - $1B because of the sheer scale in size 
+and their potential for greater environmental issues, and there may be cost 
+escalation over time.  
+RECOMMENDATION 9-1. The City of Detroit should allocate at least $8 
+million of CDBG funds annually to the Detroit Land Bank Authority (DLBA)
+for use on demolition activity.
+RECOMMENDATION 9-2. Maximize the impact of the Plan of Adjustment 
+blight-focused Reinvestment Funds by deploying them in ways that increase 
+the potential for future revenue, and by expanding their range of uses, 
+including elimination of blight for commercial structures, vacant lot clearing, 
+and rehabilitation in neighborhoods. 
+The contingencies associated with blight funding from the Plan of Adjustment 
+further reinforce the need to prioritize blight removal in geographic areas 
+where there is an opportunity to improve reinvestment and stabilization of 
+the neighborhood (see chapter 4 for more information about the Maximizing 
+Community Impact tool). This methodology directly prioritizes the preservation, 
+and potential increase, of the tax base in these neighborhoods to better 
+position the city to allocate the maximum level of funding. 
+In order to fully transform Detroit’s neighborhoods, these funds must be 
+used in a way that offers a full range of interventions, not just residential 
+demolition. Neighborhood-level commercial structures in dangerous condition 
+have a significant impact on a neighborhood’s viability for economic recovery, 
+neighborhood stabilization, and quality of life for its residents. Structures that 
+can be saved and reoccupied must also have solutions to address the deferred 
+maintenance and rehabilitation needs. Private-sector funding for rehabilitation 
+cannot sufficiently address this need, and is often inaccessible due to the low 
+value of properties. The Plan of Adjustment Reinvestment Funds offer a rare 
+opportunity to reduce the barriers to financing rehabilitation and to significantly 
+open up private-sector financing. Rehabilitation assistance could be structured 
+in a number of different ways, such as a loan loss reserve, forgivable loans, or 
+low-interest loans. 
+RECOMMENDATION 9-3. The DLBA should require a $15,000 cash payment 
+per structure from banks that transfer title of properties for the necessary 
+intervention required to rehabilitate or remove the structure. Further, if an 
+individual owner has stopped making mortgage payments and has abandoned 
+a property, the city should work with partners like banks and the National 
+Community Stabilization Trust to expedite the transition of that property, 
+accompanied by $15,000 in funding, to the DLBA. 
+293
+CHAPTER 11: RECOMMENDATIONS SUMMARY
+CHAPTER 9: 
+HOW DO WE FUND THIS
+MISSION?
+292
+[ BLIGHT REMOVAL TASK FORCE PLAN ] 
+
+RECOMMENDATION 9-4. The city and DLBA should advocate for more 
+flexible Fire Escrow funding. Recommended changes to existing legislation 
+are discussed in Chapter 7. 
+RECOMMENDATION 9-5. 
+The DLBA should advocate for the allocation of additional HHF funds to 
+Detroit, after demonstrating success in deploying current Hardest Hit Funds. 
+In addition to State of Michigan requests, our congressional delegation 
+should propose that Detroit be able to apply for any unused program dollars, 
+not already assigned to Michigan. Beyond additional funding, HHF-eligible 
+uses should also be expanded to allow the city to address the full spectrum 
+of blighting influences that continue to destabilize neighborhood markets, 
+specifically nonstructural and commercial blight. 
+RECOMMENDATION 9-6. 
+The Michigan Economic Development Corporation, in partnership with the 
+Michigan Department of Environmental Quality should contribute the $6 
+million needed to attract and build the two recycling facilities in the City of 
+Detroit. 
+RECOMMENDATION 9-7. Incorporate the funding for Phase III of Motor 
+City Mapping into the City of Detroit’s Chief Information Officer’s new 
+information technology strategy and transition plan. As such, this strategy 
+should include funding for the $2.5 million needed to build the citywide, 
+comprehensive parcel management dashboard and database. 
+RECOMMENDATION 9-8. The city should strengthen the enforcement of 
+the Vacant Property Registration Ordinance, particularly targeting absentee 
+owners. Not only does the city need stronger enforcement to assist in dealing 
+with the blight pipeline, any revenues resulting from this effort can immediately 
+be used to support operational needs. 
+RECOMMENDATION 9-9. The challenge of capacity building presents an 
+important opportunity for partners of all kinds to step up to the plate 
+and support Detroit’s renewal. Private donors, in-kind contributions, and 
+especially bank and corporate foundations engaged in workforce development 
+opportunities should identify and support their part of the ramp-up effort. 
+RECOMMENDATION 9-10. The city should aggressively pursue possible 
+funding, resources and partnership opportunities with the Department 
+of Homeland Security (including Federal Emergency Management Agency), 
+U.S. Environmental Protection Agency, and other federal agencies, as well as 
+Michigan Department of Environmental Quality, and the Southeast Michigan 
+Council of Governments and Detroit Water and Sewerage Department, to 
+remove blight and create sustainable green infrastructure. 
+With the scale of structure removal needed, the city will significantly increase 
+the amount of permeable surface in the city. This will allow for more natural 
+stormwater infiltration and will reduce some burden on the city storm sewers, 
+with the added benefit of increasing the amount of open and green space. 
+Additionally, with the elimination of structures in areas with repetitive flooding, 
+the city is reducing the risk of future flood damage and claims. All of these 
+factors open up the potential for new, creative sources of funding for demolition 
+and site treatment. 
+RECOMMENDATION 9-11. A central fund should be established to receive 
+both corporate and private monetary donations to support blight removal 
+work. This fund could use incentives like philanthropic or public matching to 
+generate additional funding and should be well coordinated with nonprofit blight 
+elimination work.
+RECOMMENDATION 9-12. Nonprofit organizations should continue to 
+play a vital role in bringing resources and manpower to the removal of 
+neighborhood blight, including clearing and maintaining vacant lots, and 
+securing open properties. These organizations can more easily leverage private 
+and philanthropic donations and volunteer resources for these activities. 
+The corporate sector should be tapped to provide funding, donations, and 
+volunteers to address blight affecting the communities in which they operate. 
+Businesses throughout Detroit already have existing traditions of supporting their 
+neighborhoods, or would be very motivated new supporters in the fight against 
+blight. In addition to working with large employers headquartered in the city’s 
+core, who may support blight elimination or capacity-building efforts through 
+their philanthropy, the city should pursue partnerships with the many companies 
+and firms in the various employment districts throughout Detroit, to engage their 
+support through cash, in-kind contributions, and employee volunteers. 
+RECOMMENDATION 9-13. The city should identify strategic blight 
+elimination opportunities that will result in future revenue sources, for 
+example through increased property tax revenue, which could be leveraged to 
+mobilize local bond financing. 
+Although significant funding is currently dedicated or budgeted to support blight 
+elimination, many of these sources are available only on a reimbursement basis. If 
+the entity does not have cash on hand or an accessible line of credit, payment to 
+contractors is delayed which impedes the pace of demolition activity. Additionally, 
+many sources are not immediately available, as they are allocated over a period 
+of time. In order to achieve the aggressive timeline outlined in this report, funding 
+must become available immediately. 
+Bank financing--and municipal bonds, as Detroit’s economy recovers—can play 
+a role in blight removal and subsequent redevelopment efforts. 
+295
+CHAPTER 11: RECOMMENDATIONS SUMMARY
+294
+[ BLIGHT REMOVAL TASK FORCE PLAN ] 
+
+The DLBA is a source of local bonds that should be explored. Beyond local 
+bonds, the city could advocate for the County or State to float a bond to cover 
+portions of blight elimination. Bonds at the County or State-level could cover 
+additional jurisdictions and allow for more cross collateralization, thereby 
+reducing the risk in repayment.
+RECOMMENDATION 9-14. The city should bolster and coordinate with a 
+CDFI investment in neighborhood-based redevelopment. Creation of a Real 
+Estate Investment Trust for strategic blight elimination and rehabilitation should 
+also be explored as an opportunity to bring additional capital to neighborhood-
+based redevelopment. 
+RECOMMENDATION 9-15. In addition to receiving donated property and 
+associated demolition funding, the city should appeal to banks to use their 
+Community Reinvestment Act funding to support blight elimination work, 
+particularly for projects that also have an investment component as with 
+rehabilitation or redevelopment. 
+RECOMMENDATION 9-16. Creative investment strategies should 
+also be explored particularly to support residential rehabilitation and 
+development. Structure removal alone will not be enough to fully transform 
+Detroit’s neighborhoods. There must be a concentrated reinvestment in 
+Detroit’s neighborhoods, which will allow for the rebuilding of value. Access to 
+traditional financing sources is seriously constrained. As previously mentioned, 
+public and philanthropic sources of funding should be used to open up and or 
+supplement private financing through loan loss reserves and forgivable or low-
+interest loans. 
+297
+CHAPTER 11: RECOMMENDATIONS SUMMARY
+296
+[ BLIGHT REMOVAL TASK FORCE PLAN ] 

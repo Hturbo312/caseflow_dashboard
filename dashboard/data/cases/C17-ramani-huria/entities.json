@@ -1,0 +1,1632 @@
+{
+ "caseId": "C17",
+  "version": "v1.0",
+  "status": "confirmed",
+ "entities": [
+  {
+   "id": "E-A01",
+   "label": "HOT（人道主义 OpenStreetMap 团队）",
+   "labelEn": "Humanitarian OpenStreetMap Team (HOT)",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "项目的实施与指导机构；2019 年后转为支持角色。",
+   "aliases": [
+    "HOT"
+   ],
+   "factIds": [
+    "F001",
+    "F003",
+    "F006",
+    "F007",
+    "F032",
+    "F040",
+    "F059",
+    "F070"
+   ]
+  },
+  {
+   "id": "E-A02",
+   "label": "世界银行",
+   "labelEn": "World Bank",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "项目主要资助与支持机构，TURP 合作方。",
+   "aliases": [],
+   "factIds": [
+    "F004",
+    "F005",
+    "F044",
+    "F048"
+   ]
+  },
+  {
+   "id": "E-A03",
+   "label": "英国国际发展部（DFID）",
+   "labelEn": "UK Department for International Development (DFID)",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "TURP 合作方与 UK Aid 资助方。",
+   "aliases": [
+    "UK Aid"
+   ],
+   "factIds": [
+    "F004",
+    "F048"
+   ]
+  },
+  {
+   "id": "E-A04",
+   "label": "全球减灾与恢复基金（GFDRR）",
+   "labelEn": "Global Facility for Disaster Reduction and Recovery (GFDRR)",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "世界银行下属减灾基金，项目支持方。",
+   "aliases": [],
+   "factIds": [
+    "F005"
+   ]
+  },
+  {
+   "id": "E-A05",
+   "label": "红十字会（坦桑尼亚/美国/丹麦）",
+   "labelEn": "Red Cross (TRCS / American / Danish)",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "项目支持方与社区动员伙伴；Zuia Mafuriko 项目执行方。",
+   "aliases": [
+    "TRCS",
+    "Tanzania Red Cross Society"
+   ],
+   "factIds": [
+    "F005",
+    "F028",
+    "F063"
+   ]
+  },
+  {
+   "id": "E-A06",
+   "label": "Ardhi 大学",
+   "labelEn": "Ardhi University (ARU)",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "达累斯萨拉姆公立大学，提供城市规划学生与督导。",
+   "aliases": [
+    "ARU",
+    "Ardhi University"
+   ],
+   "factIds": [
+    "F008",
+    "F010",
+    "F012",
+    "F044",
+    "F048",
+    "F060"
+   ]
+  },
+  {
+   "id": "E-A07",
+   "label": "达累斯萨拉姆大学（UDSM）",
+   "labelEn": "University of Dar es Salaam (UDSM)",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "提供学生制图员与培训场地。",
+   "aliases": [
+    "UDSM"
+   ],
+   "factIds": [
+    "F011",
+    "F060"
+   ]
+  },
+  {
+   "id": "E-A08",
+   "label": "坦桑尼亚科学技术委员会（COSTECH）",
+   "labelEn": "Tanzania Commission for Science and Technology (COSTECH)",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "启动工作坊举办地；向项目提供 eBee 无人机。",
+   "aliases": [
+    "COSTECH"
+   ],
+   "factIds": [
+    "F007",
+    "F031"
+   ]
+  },
+  {
+   "id": "E-A09",
+   "label": "达累斯萨拉姆市议会",
+   "labelEn": "Dar es Salaam City Council",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "市级政府，项目合作与地图接收方。",
+   "aliases": [],
+   "factIds": []
+  },
+  {
+   "id": "E-A10",
+   "label": "市辖区议会（Ilala/Kinondoni/Temeke）",
+   "labelEn": "Municipal councils (Ilala, Kinondoni, Temeke)",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "签发制图许可、参与 ward 选择与地图接收。",
+   "aliases": [],
+   "factIds": [
+    "F028",
+    "F029",
+    "F039"
+   ]
+  },
+  {
+   "id": "E-A11",
+   "label": "坦桑尼亚开放数据倡议（TODI）",
+   "labelEn": "Tanzania Open Data Initiative (TODI)",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "开放数据与开放治理合作方。",
+   "aliases": [
+    "TODI"
+   ],
+   "factIds": []
+  },
+  {
+   "id": "E-A12",
+   "label": "BUNI Hub",
+   "labelEn": "BUNI Hub",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "达累斯萨拉姆创新中心，承办制图活动。",
+   "aliases": [
+    "Buni Innovation Hub"
+   ],
+   "factIds": []
+  },
+  {
+   "id": "E-A13",
+   "label": "坦桑尼亚韧性学院（RA）",
+   "labelEn": "Tanzania Resilience Academy (RA)",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "2019 年起由 UDSM、Ardhi、SUZA 共管的承接机构。",
+   "aliases": [
+    "RA",
+    "Resilience Academy"
+   ],
+   "factIds": [
+    "F059",
+    "F060",
+    "F066"
+   ]
+  },
+  {
+   "id": "E-A14",
+   "label": "桑给巴尔国立大学（SUZA）",
+   "labelEn": "State University of Zanzibar (SUZA)",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "RA 成员大学。",
+   "aliases": [
+    "SUZA"
+   ],
+   "factIds": [
+    "F060"
+   ]
+  },
+  {
+   "id": "E-A15",
+   "label": "芬兰图尔库大学",
+   "labelEn": "University of Turku",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "RA 国际合作大学。",
+   "aliases": [],
+   "factIds": [
+    "F060"
+   ]
+  },
+  {
+   "id": "E-A16",
+   "label": "OpenMap Development Tanzania（OMDTZ）",
+   "labelEn": "OpenMap Development Tanzania (OMDTZ)",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "由项目能力衍生的本地执行机构。",
+   "aliases": [
+    "OMDTZ"
+   ],
+   "factIds": [
+    "F062",
+    "F070"
+   ]
+  },
+  {
+   "id": "E-A17",
+   "label": "Spatial Collective",
+   "labelEn": "Spatial Collective",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "Mwanza 扩展的合作机构。",
+   "aliases": [],
+   "factIds": [
+    "F070"
+   ]
+  },
+  {
+   "id": "E-A18",
+   "label": "Deltares",
+   "labelEn": "Deltares",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "独立洪水风险研究机构，使用 subward 报告与地图制定灾害管理计划。",
+   "aliases": [],
+   "factIds": [
+    "F057"
+   ]
+  },
+  {
+   "id": "E-A19",
+   "label": "Nipe Fagio",
+   "labelEn": "Nipe Fagio",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "垃圾制图活动的本地合作伙伴。",
+   "aliases": [],
+   "factIds": []
+  },
+  {
+   "id": "E-A20",
+   "label": "达累斯萨拉姆多机构应急响应队（DarMAERT）",
+   "labelEn": "Dar es Salaam Multi-Agency Emergency Response Team (DarMAERT)",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "应急响应机构，数据使用方。",
+   "aliases": [
+    "DarMAERT"
+   ],
+   "factIds": [
+    "F063"
+   ]
+  },
+  {
+   "id": "E-A21",
+   "label": "农村发展规划研究所（IRDP）",
+   "labelEn": "Institute of Rural Development Planning (IRDP)",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "Mwanza 学生培训合作院校。",
+   "aliases": [
+    "IRDP"
+   ],
+   "factIds": [
+    "F071"
+   ]
+  },
+  {
+   "id": "E-A22",
+   "label": "圣奥古斯丁坦桑尼亚大学",
+   "labelEn": "St. Augustine University of Tanzania",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "Mwanza 学生培训合作院校。",
+   "aliases": [],
+   "factIds": [
+    "F071"
+   ]
+  },
+  {
+   "id": "E-A23",
+   "label": "大学生制图员",
+   "labelEn": "University students",
+   "type": "actor",
+   "roles": [
+    "actor",
+    "target"
+   ],
+   "definition": "参与培训、外业采集、数字化与质检的学生群体。",
+   "aliases": [
+    "students",
+    "mappers"
+   ],
+   "factIds": [
+    "F001",
+    "F008",
+    "F010",
+    "F011",
+    "F012",
+    "F042",
+    "F047",
+    "F053",
+    "F066",
+    "F071",
+    "F076"
+   ]
+  },
+  {
+   "id": "E-A24",
+   "label": "社区成员",
+   "labelEn": "Community members",
+   "type": "actor",
+   "roles": [
+    "actor",
+    "target"
+   ],
+   "definition": "提供地方知识、参与论坛与洪泛范围勾绘，也是项目服务对象。",
+   "aliases": [
+    "residents",
+    "community"
+   ],
+   "factIds": [
+    "F001",
+    "F016",
+    "F018",
+    "F033",
+    "F035",
+    "F036",
+    "F043",
+    "F055",
+    "F064",
+    "F065",
+    "F067",
+    "F073"
+   ]
+  },
+  {
+   "id": "E-A25",
+   "label": "红十字志愿者",
+   "labelEn": "Red Cross volunteers",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "随学生制图员参与 ward 外业的志愿者。",
+   "aliases": [],
+   "factIds": [
+    "F019",
+    "F020"
+   ]
+  },
+  {
+   "id": "E-A26",
+   "label": "ward 官员与地方政府人员",
+   "labelEn": "Ward officials and local government officers",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "签发许可、组织社区论坛、接收地图。",
+   "aliases": [
+    "ward officer",
+    "WEO"
+   ],
+   "factIds": [
+    "F016",
+    "F018"
+   ]
+  },
+  {
+   "id": "E-A27",
+   "label": "核心制图队（20 名制图员 + 2 名督导）",
+   "labelEn": "Core mapping team (20 mappers + 2 supervisors)",
+   "type": "actor",
+   "roles": [
+    "actor"
+   ],
+   "definition": "收缩期保留的专职制图与督导队伍。",
+   "aliases": [
+    "20 mappers"
+   ],
+   "factIds": [
+    "F023",
+    "F030"
+   ]
+  },
+  {
+   "id": "E-X01",
+   "label": "达累斯萨拉姆年度洪涝风险",
+   "labelEn": "Annual flood risk in Dar es Salaam",
+   "type": "context",
+   "roles": [
+    "context"
+   ],
+   "definition": "每年雨季洪水冲毁道路与房屋，危及生命与基础设施。",
+   "aliases": [],
+   "factIds": [
+    "F002",
+    "F017",
+    "F022"
+   ]
+  },
+  {
+   "id": "E-X02",
+   "label": "非正规与未规划住区",
+   "labelEn": "Informal and unplanned settlements",
+   "type": "context",
+   "roles": [
+    "context"
+   ],
+   "definition": "城市大量住区缺乏规划，基础设施与地图覆盖不足。",
+   "aliases": [
+    "informal settlements"
+   ],
+   "factIds": [
+    "F022",
+    "F036"
+   ]
+  },
+  {
+   "id": "E-X03",
+   "label": "基础地图老化与数据稀缺",
+   "labelEn": "Outdated base maps and data scarcity",
+   "type": "context",
+   "roles": [
+    "context"
+   ],
+   "definition": "既有地图陈旧、排水与地形数据缺失，制约规划与洪水建模。",
+   "aliases": [],
+   "factIds": []
+  },
+  {
+   "id": "E-X04",
+   "label": "坦桑尼亚城市韧性计划（TURP）",
+   "labelEn": "Tanzania Urban Resilience Programme (TURP)",
+   "type": "context",
+   "roles": [
+    "context"
+   ],
+   "definition": "DFID 与世界银行共建的制度框架，项目嵌入其中。",
+   "aliases": [
+    "TURP"
+   ],
+   "factIds": [
+    "F004",
+    "F061"
+   ]
+  },
+  {
+   "id": "E-X05",
+   "label": "2011 年洪水记忆",
+   "labelEn": "2011 flood memory",
+   "type": "context",
+   "roles": [
+    "context"
+   ],
+   "definition": "社区以 2011 年大水的淹没范围作为洪泛勾绘参照。",
+   "aliases": [],
+   "factIds": [
+    "F034"
+   ]
+  },
+  {
+   "id": "E-X06",
+   "label": "ward/subward 行政结构",
+   "labelEn": "Ward and subward administrative structure",
+   "type": "context",
+   "roles": [
+    "context"
+   ],
+   "definition": "制图、许可、社区动员与成果交付的行政单元。",
+   "aliases": [],
+   "factIds": [
+    "F009"
+   ]
+  },
+  {
+   "id": "E-T01",
+   "label": "提升社区洪涝韧性",
+   "labelEn": "Improve community flood resilience",
+   "type": "task",
+   "roles": [
+    "task"
+   ],
+   "definition": "项目的总体任务目标。",
+   "aliases": [],
+   "factIds": [
+    "F003",
+    "F046"
+   ]
+  },
+  {
+   "id": "E-T02",
+   "label": "为洪泛 ward 建立高精度地图",
+   "labelEn": "Map flood-prone wards",
+   "type": "task",
+   "roles": [
+    "task"
+   ],
+   "definition": "以社区参与方式制作建筑、道路、水系与洪泛区地图。",
+   "aliases": [],
+   "factIds": [
+    "F006",
+    "F029"
+   ]
+  },
+  {
+   "id": "E-T03",
+   "label": "生产可公开使用的城市地理数据",
+   "labelEn": "Produce public geodata",
+   "type": "task",
+   "roles": [
+    "task"
+   ],
+   "definition": "把采集数据放入 OSM 并以开放许可发布。",
+   "aliases": [],
+   "factIds": [
+    "F039"
+   ]
+  },
+  {
+   "id": "E-T04",
+   "label": "开展洪水风险分析与建模",
+   "labelEn": "Flood risk analysis and modelling",
+   "type": "task",
+   "roles": [
+    "task"
+   ],
+   "definition": "用 InaSAFE 情景与水动力模型评估洪水风险。",
+   "aliases": [],
+   "factIds": [
+    "F049"
+   ]
+  },
+  {
+   "id": "E-T05",
+   "label": "培训大学生与社区成员",
+   "labelEn": "Train students and community members",
+   "type": "task",
+   "roles": [
+    "task"
+   ],
+   "definition": "通过产业实习与社区培训转移制图与数字技能。",
+   "aliases": [],
+   "factIds": [
+    "F008",
+    "F010"
+   ]
+  },
+  {
+   "id": "E-T06",
+   "label": "支持 ward 灾害管理计划",
+   "labelEn": "Support ward disaster management planning",
+   "type": "task",
+   "roles": [
+    "task"
+   ],
+   "definition": "以行动地图与报告支持 ward 级灾害管理。",
+   "aliases": [],
+   "factIds": [
+    "F057"
+   ]
+  },
+  {
+   "id": "E-T07",
+   "label": "移交与机构化",
+   "labelEn": "Hand over and institutionalize",
+   "type": "task",
+   "roles": [
+    "task"
+   ],
+   "definition": "把项目能力移交大学联盟与本地机构。",
+   "aliases": [],
+   "factIds": [
+    "F061"
+   ]
+  },
+  {
+   "id": "E-H01",
+   "label": "OpenStreetMap",
+   "labelEn": "OpenStreetMap (OSM)",
+   "type": "technology",
+   "roles": [
+    "technology",
+    "target"
+   ],
+   "definition": "开放、可编辑的全球地图平台，项目数据的主要存储与发布载体。",
+   "aliases": [
+    "OSM"
+   ],
+   "factIds": [
+    "F006",
+    "F013"
+   ]
+  },
+  {
+   "id": "E-H02",
+   "label": "JOSM",
+   "labelEn": "Java OpenStreetMap Editor (JOSM)",
+   "type": "technology",
+   "roles": [
+    "technology"
+   ],
+   "definition": "离线 OSM 编辑器，用于数字化与建筑更新。",
+   "aliases": [
+    "JOSM"
+   ],
+   "factIds": [
+    "F013"
+   ]
+  },
+  {
+   "id": "E-H03",
+   "label": "QGIS",
+   "labelEn": "QGIS",
+   "type": "technology",
+   "roles": [
+    "technology"
+   ],
+   "definition": "开源 GIS 软件，用于分析与制图。",
+   "aliases": [],
+   "factIds": []
+  },
+  {
+   "id": "E-H04",
+   "label": "InaSAFE",
+   "labelEn": "InaSAFE",
+   "type": "technology",
+   "roles": [
+    "technology"
+   ],
+   "definition": "QGIS 插件，用于自然灾害影响情景分析。",
+   "aliases": [],
+   "factIds": [
+    "F038"
+   ]
+  },
+  {
+   "id": "E-H05",
+   "label": "Field Papers",
+   "labelEn": "Field Papers",
+   "type": "technology",
+   "roles": [
+    "technology"
+   ],
+   "definition": "纸质地图采集工具，用于外业标注。",
+   "aliases": [],
+   "factIds": [
+    "F013"
+   ]
+  },
+  {
+   "id": "E-H06",
+   "label": "GPS 设备（eTrex 30）",
+   "labelEn": "GPS device (eTrex 30)",
+   "type": "technology",
+   "roles": [
+    "technology"
+   ],
+   "definition": "记录轨迹与航点的手持 GPS。",
+   "aliases": [
+    "eTrex 30"
+   ],
+   "factIds": [
+    "F013"
+   ]
+  },
+  {
+   "id": "E-H07",
+   "label": "OSM Tracker",
+   "labelEn": "OSM Tracker",
+   "type": "technology",
+   "roles": [
+    "technology"
+   ],
+   "definition": "开源 Android 采集应用，功能类似 GPS 设备。",
+   "aliases": [],
+   "factIds": [
+    "F013"
+   ]
+  },
+  {
+   "id": "E-H08",
+   "label": "ODK Collect",
+   "labelEn": "OpenDataKit (ODK) Collect",
+   "type": "technology",
+   "roles": [
+    "technology"
+   ],
+   "definition": "Android 结构化问卷与地理数据采集应用。",
+   "aliases": [
+    "ODK"
+   ],
+   "factIds": [
+    "F054"
+   ]
+  },
+  {
+   "id": "E-H09",
+   "label": "SenseFly eBee 无人机",
+   "labelEn": "SenseFly eBee UAV",
+   "type": "technology",
+   "roles": [
+    "technology"
+   ],
+   "definition": "由 COSTECH 提供的固定翼无人机，用于高分辨率影像。",
+   "aliases": [
+    "eBee",
+    "UAV"
+   ],
+   "factIds": [
+    "F031"
+   ]
+  },
+  {
+   "id": "E-H10",
+   "label": "MapGive 卫星影像",
+   "labelEn": "MapGive satellite imagery",
+   "type": "technology",
+   "roles": [
+    "technology"
+   ],
+   "definition": "美国国务院 MapGive 计划提供的近期卫星影像。",
+   "aliases": [
+    "MapGive"
+   ],
+   "factIds": [
+    "F032"
+   ]
+  },
+  {
+   "id": "E-H11",
+   "label": "街景 bajaj",
+   "labelEn": "Street-view bajaj",
+   "type": "technology",
+   "roles": [
+    "technology"
+   ],
+   "definition": "装载街景采集设备的机动三轮车。",
+   "aliases": [
+    "bajaj"
+   ],
+   "factIds": []
+  },
+  {
+   "id": "E-H12",
+   "label": "u-blox 双频接收机",
+   "labelEn": "u-blox dual-frequency GNSS receiver",
+   "type": "technology",
+   "roles": [
+    "technology"
+   ],
+   "definition": "低成本双频 GNSS 接收机，用于 PPP 控制点采集。",
+   "aliases": [
+    "u-blox"
+   ],
+   "factIds": [
+    "F069"
+   ]
+  },
+  {
+   "id": "E-H13",
+   "label": "排水数据模型",
+   "labelEn": "Drainage data model",
+   "type": "technology",
+   "roles": [
+    "technology"
+   ],
+   "definition": "规范排水段属性、连接与拓扑的数据模型。",
+   "aliases": [],
+   "factIds": [
+    "F050"
+   ]
+  },
+  {
+   "id": "E-H14",
+   "label": "描图纸与铅笔",
+   "labelEn": "Tracing paper and pencil",
+   "type": "technology",
+   "roles": [
+    "technology"
+   ],
+   "definition": "社区在印刷底图上勾绘洪泛范围的低技术工具。",
+   "aliases": [
+    "tracing paper"
+   ],
+   "factIds": [
+    "F055"
+   ]
+  },
+  {
+   "id": "E-C01",
+   "label": "高分辨率影像获取能力",
+   "labelEn": "High-resolution imagery capture",
+   "type": "capability",
+   "roles": [
+    "capability"
+   ],
+   "definition": "eBee 可获取 3—5 厘米/像素的影像。",
+   "aliases": [],
+   "factIds": [
+    "F031"
+   ]
+  },
+  {
+   "id": "E-C02",
+   "label": "GPS 轨迹与航点记录能力",
+   "labelEn": "GPS track and waypoint recording",
+   "type": "capability",
+   "roles": [
+    "capability"
+   ],
+   "definition": "记录外业路径与点位。",
+   "aliases": [],
+   "factIds": []
+  },
+  {
+   "id": "E-C03",
+   "label": "移动端结构化数据采集能力",
+   "labelEn": "Mobile structured data collection",
+   "type": "capability",
+   "roles": [
+    "capability"
+   ],
+   "definition": "用 ODK/OSM Tracker 在手机上采集结构化问卷与地理点。",
+   "aliases": [],
+   "factIds": []
+  },
+  {
+   "id": "E-C04",
+   "label": "OSM 编辑与开放发布能力",
+   "labelEn": "OSM editing and open publishing",
+   "type": "capability",
+   "roles": [
+    "capability"
+   ],
+   "definition": "把外业数据数字化、上传并以开放许可共享。",
+   "aliases": [],
+   "factIds": []
+  },
+  {
+   "id": "E-C05",
+   "label": "灾害情景分析能力",
+   "labelEn": "Hazard scenario analysis",
+   "type": "capability",
+   "roles": [
+    "capability"
+   ],
+   "definition": "用 InaSAFE 运行洪水影响情景。",
+   "aliases": [],
+   "factIds": [
+    "F038",
+    "F049"
+   ]
+  },
+  {
+   "id": "E-C06",
+   "label": "排水网络拓扑建模能力",
+   "labelEn": "Drainage topology modelling",
+   "type": "capability",
+   "roles": [
+    "capability"
+   ],
+   "definition": "按数据模型建立连通、可检查的排水网络。",
+   "aliases": [],
+   "factIds": [
+    "F030",
+    "F050"
+   ]
+  },
+  {
+   "id": "E-C07",
+   "label": "1D—2D 水动力模拟能力",
+   "labelEn": "1D-2D hydrodynamic modelling",
+   "type": "capability",
+   "roles": [
+    "capability"
+   ],
+   "definition": "耦合排水管网与地表漫流的洪水模拟。",
+   "aliases": [],
+   "factIds": [
+    "F074",
+    "F075",
+    "F077",
+    "F078"
+   ]
+  },
+  {
+   "id": "E-C08",
+   "label": "地方知识转译为空间数据的能力",
+   "labelEn": "Translating local knowledge into spatial data",
+   "type": "capability",
+   "roles": [
+    "capability"
+   ],
+   "definition": "把社区对洪泛范围与深度的记忆转成可入库的几何与属性。",
+   "aliases": [],
+   "factIds": [
+    "F033",
+    "F034"
+   ]
+  },
+  {
+   "id": "E-C09",
+   "label": "大学—社区联合外业组织能力",
+   "labelEn": "University-community field organization",
+   "type": "capability",
+   "roles": [
+    "capability"
+   ],
+   "definition": "组织学生、督导、志愿者与 ward 官员共同完成外业。",
+   "aliases": [],
+   "factIds": []
+  },
+  {
+   "id": "E-C10",
+   "label": "数据质量核验能力",
+   "labelEn": "Data quality assurance",
+   "type": "capability",
+   "roles": [
+    "capability"
+   ],
+   "definition": "检查定位误差、属性完整性与拓扑连通性。",
+   "aliases": [],
+   "factIds": [
+    "F058",
+    "F074",
+    "F076"
+   ]
+  },
+  {
+   "id": "E-C11",
+   "label": "低成本控制点采集能力",
+   "labelEn": "Low-cost control point survey",
+   "type": "capability",
+   "roles": [
+    "capability"
+   ],
+   "definition": "用 u-blox 与 PPP 获取可校正影像的控制点。",
+   "aliases": [],
+   "factIds": [
+    "F069"
+   ]
+  },
+  {
+   "id": "E-G01",
+   "label": "21 个社区流程 ward",
+   "labelEn": "21 community-mapped wards",
+   "type": "target",
+   "roles": [
+    "target"
+   ],
+   "definition": "采用完整社区参与流程制图的核心 ward 集合。",
+   "aliases": [],
+   "factIds": [
+    "F009",
+    "F014",
+    "F017",
+    "F018",
+    "F021",
+    "F022",
+    "F024",
+    "F028",
+    "F045"
+   ]
+  },
+  {
+   "id": "E-G02",
+   "label": "65 个地图改善 ward",
+   "labelEn": "65 wards with improved maps",
+   "type": "target",
+   "roles": [
+    "target"
+   ],
+   "definition": "1.0 结束时地图得到实质改善的 ward 总数。",
+   "aliases": [],
+   "factIds": [
+    "F025",
+    "F026",
+    "F027",
+    "F041",
+    "F052"
+   ]
+  },
+  {
+   "id": "E-G03",
+   "label": "8 个市中心 ward",
+   "labelEn": "8 downtown wards",
+   "type": "target",
+   "roles": [
+    "target"
+   ],
+   "definition": "由大学生队伍完成全面实地测绘的市中心 ward。",
+   "aliases": [],
+   "factIds": [
+    "F015",
+    "F025"
+   ]
+  },
+  {
+   "id": "E-G04",
+   "label": "36 个排水制图 ward",
+   "labelEn": "36 drainage-mapped wards",
+   "type": "target",
+   "roles": [
+    "target"
+   ],
+   "definition": "仅完成排水与水系制图的外围 ward。",
+   "aliases": [],
+   "factIds": [
+    "F026"
+   ]
+  },
+  {
+   "id": "E-G05",
+   "label": "228 个 subward",
+   "labelEn": "228 subwards",
+   "type": "target",
+   "roles": [
+    "target"
+   ],
+   "definition": "2018 年完成资产—威胁制图的 subward。",
+   "aliases": [],
+   "factIds": [
+    "F053"
+   ]
+  },
+  {
+   "id": "E-G06",
+   "label": "建筑物",
+   "labelEn": "Buildings",
+   "type": "target",
+   "roles": [
+    "target"
+   ],
+   "definition": "被采集与数字化的建筑对象。",
+   "aliases": [],
+   "factIds": [
+    "F002"
+   ]
+  },
+  {
+   "id": "E-G07",
+   "label": "道路",
+   "labelEn": "Roads",
+   "type": "target",
+   "roles": [
+    "target"
+   ],
+   "definition": "被采集与数字化的道路对象。",
+   "aliases": [],
+   "factIds": [
+    "F002"
+   ]
+  },
+  {
+   "id": "E-G08",
+   "label": "排水沟与水系",
+   "labelEn": "Drains and waterways",
+   "type": "target",
+   "roles": [
+    "target"
+   ],
+   "definition": "被采集的渠道、涵洞、沟渠与河流。",
+   "aliases": [
+    "drainage"
+   ],
+   "factIds": [
+    "F051",
+    "F058",
+    "F072"
+   ]
+  },
+  {
+   "id": "E-G09",
+   "label": "洪泛区与淹没范围",
+   "labelEn": "Flood-prone areas and inundation extent",
+   "type": "target",
+   "roles": [
+    "target"
+   ],
+   "definition": "社区勾绘或调查得到的洪泛范围。",
+   "aliases": [],
+   "factIds": [
+    "F034",
+    "F035",
+    "F072"
+   ]
+  },
+  {
+   "id": "E-G10",
+   "label": "社区参与者",
+   "labelEn": "Community participants",
+   "type": "target",
+   "roles": [
+    "target"
+   ],
+   "definition": "参与论坛、勾绘与数据采集的居民。",
+   "aliases": [],
+   "factIds": [
+    "F046"
+   ]
+  },
+  {
+   "id": "E-G11",
+   "label": "受训学生",
+   "labelEn": "Trained students",
+   "type": "target",
+   "roles": [
+    "target"
+   ],
+   "definition": "接受制图、GIS 与建模培训的大学生。",
+   "aliases": [],
+   "factIds": []
+  },
+  {
+   "id": "E-G12",
+   "label": "图集与印刷地图",
+   "labelEn": "Atlas and printed maps",
+   "type": "target",
+   "roles": [
+    "target"
+   ],
+   "definition": "交付 ward 政府与公众的地图产品。",
+   "aliases": [],
+   "factIds": [
+    "F021",
+    "F037",
+    "F039"
+   ]
+  },
+  {
+   "id": "E-G13",
+   "label": "OSM 数据集",
+   "labelEn": "OSM datasets",
+   "type": "target",
+   "roles": [
+    "target"
+   ],
+   "definition": "上传至 OpenStreetMap 的开放数据。",
+   "aliases": [],
+   "factIds": []
+  },
+  {
+   "id": "E-G14",
+   "label": "洪水数据点",
+   "labelEn": "Flood data points",
+   "type": "target",
+   "roles": [
+    "target"
+   ],
+   "definition": "2020 年采集的洪水范围与水深点位。",
+   "aliases": [],
+   "factIds": [
+    "F067",
+    "F068",
+    "F074"
+   ]
+  },
+  {
+   "id": "E-G15",
+   "label": "行动地图与报告",
+   "labelEn": "Action maps and reports",
+   "type": "target",
+   "roles": [
+    "target"
+   ],
+   "definition": "每个 subward 产出的灾害管理材料。",
+   "aliases": [],
+   "factIds": [
+    "F056",
+    "F057"
+   ]
+  },
+  {
+   "id": "E-G16",
+   "label": "垃圾点",
+   "labelEn": "Trash points",
+   "type": "target",
+   "roles": [
+    "target"
+   ],
+   "definition": "2018 年用 ODK 在 44 个 ward 采集的垃圾堆放点位。",
+   "aliases": [],
+   "factIds": [
+    "F054"
+   ]
+  },
+  {
+   "id": "E-O01",
+   "label": "洪水韧性图集发布",
+   "labelEn": "Flood resilience atlas published",
+   "type": "outcome",
+   "roles": [
+    "outcome"
+   ],
+   "definition": "2016-03 发布 126 页图集。",
+   "aliases": [],
+   "factIds": [
+    "F037",
+    "F040",
+    "F041",
+    "F045"
+   ]
+  },
+  {
+   "id": "E-O02",
+   "label": "社区洪泛范围进入 OSM",
+   "labelEn": "Community flood extents in OSM",
+   "type": "outcome",
+   "roles": [
+    "outcome"
+   ],
+   "definition": "21 个社区 ward 的洪泛勾绘被数字化并公开。",
+   "aliases": [],
+   "factIds": []
+  },
+  {
+   "id": "E-O03",
+   "label": "532 段排水数据与模型改进",
+   "labelEn": "532-segment drainage dataset and model improvement",
+   "type": "outcome",
+   "roles": [
+    "outcome"
+   ],
+   "definition": "Kijitonyama 的排水数据支撑 1D—2D 模型并提升模拟吻合度。",
+   "aliases": [],
+   "factIds": [
+    "F075",
+    "F077",
+    "F078"
+   ]
+  },
+  {
+   "id": "E-O04",
+   "label": "10 支社区防灾队",
+   "labelEn": "10 community disaster prevention teams",
+   "type": "outcome",
+   "roles": [
+    "outcome"
+   ],
+   "definition": "项目自报在洪泛社区建立的防灾队伍。",
+   "aliases": [],
+   "factIds": [
+    "F043"
+   ]
+  },
+  {
+   "id": "E-O05",
+   "label": "受训制图员队伍",
+   "labelEn": "Trained mapper pool",
+   "type": "outcome",
+   "roles": [
+    "outcome"
+   ],
+   "definition": "450/800/1000+ 等不同口径的学生与制图员队伍。",
+   "aliases": [],
+   "factIds": [
+    "F042",
+    "F047",
+    "F064",
+    "F065"
+   ]
+  },
+  {
+   "id": "E-O06",
+   "label": "RA 承接项目能力",
+   "labelEn": "Resilience Academy takes over",
+   "type": "outcome",
+   "roles": [
+    "outcome"
+   ],
+   "definition": "2019 年大学联盟接管培训与数据。",
+   "aliases": [],
+   "factIds": []
+  },
+  {
+   "id": "E-O07",
+   "label": "OMDTZ 成立",
+   "labelEn": "OMDTZ established",
+   "type": "outcome",
+   "roles": [
+    "outcome"
+   ],
+   "definition": "本地执行机构由项目能力衍生。",
+   "aliases": [],
+   "factIds": [
+    "F062"
+   ]
+  },
+  {
+   "id": "E-O08",
+   "label": "Mwanza 方法复制",
+   "labelEn": "Mwanza replication",
+   "type": "outcome",
+   "roles": [
+    "outcome"
+   ],
+   "definition": "同一方法在 Mwanza 采集多灾种数据。",
+   "aliases": [],
+   "factIds": []
+  },
+  {
+   "id": "E-O09",
+   "label": "数据被应急机构使用",
+   "labelEn": "Data used by emergency agencies",
+   "type": "outcome",
+   "roles": [
+    "outcome"
+   ],
+   "definition": "项目自报红十字会与 DarMAERT 使用数据。",
+   "aliases": [],
+   "factIds": [
+    "F063"
+   ]
+  },
+  {
+   "id": "E-P01",
+   "label": "2011 年 Ramani Tandale 试点",
+   "labelEn": "2011 Ramani Tandale pilot",
+   "type": "action",
+   "roles": [
+    "action"
+   ],
+   "definition": "在 Tandale 开展的社区制图试点。",
+   "aliases": [],
+   "factIds": [
+    "F001"
+   ]
+  },
+  {
+   "id": "E-P02",
+   "label": "COSTECH 启动工作坊",
+   "labelEn": "COSTECH kickoff workshop",
+   "type": "action",
+   "roles": [
+    "action"
+   ],
+   "definition": "2015-03-26/27 的项目启动工作坊。",
+   "aliases": [],
+   "factIds": [
+    "F007"
+   ]
+  },
+  {
+   "id": "E-P03",
+   "label": "三 ward 试点",
+   "labelEn": "Three-ward pilot",
+   "type": "action",
+   "roles": [
+    "action"
+   ],
+   "definition": "Ndugumbi、Tandale、Mchikichini 的方法试验。",
+   "aliases": [],
+   "factIds": [
+    "F009"
+   ]
+  },
+  {
+   "id": "E-P04",
+   "label": "扩展期学生培训",
+   "labelEn": "Scale-up training",
+   "type": "action",
+   "roles": [
+    "action"
+   ],
+   "definition": "2015-07 起对 150 名学生的三天培训与督导制。",
+   "aliases": [],
+   "factIds": [
+    "F011",
+    "F012",
+    "F013"
+   ]
+  },
+  {
+   "id": "E-P05",
+   "label": "社区论坛",
+   "labelEn": "Community forum",
+   "type": "action",
+   "roles": [
+    "action"
+   ],
+   "definition": "开场与结项社区会议，讨论洪泛、确认范围、交付地图。",
+   "aliases": [],
+   "factIds": [
+    "F016",
+    "F018",
+    "F021",
+    "F029",
+    "F055"
+   ]
+  },
+  {
+   "id": "E-P06",
+   "label": "外业制图",
+   "labelEn": "Field mapping",
+   "type": "action",
+   "roles": [
+    "action"
+   ],
+   "definition": "学生、社区成员与志愿者用 GPS/纸质地图采集。",
+   "aliases": [],
+   "factIds": [
+    "F014",
+    "F015",
+    "F019",
+    "F020",
+    "F021",
+    "F024",
+    "F025",
+    "F027"
+   ]
+  },
+  {
+   "id": "E-P07",
+   "label": "数字化与 OSM 上传",
+   "labelEn": "Digitization and OSM upload",
+   "type": "action",
+   "roles": [
+    "action"
+   ],
+   "definition": "把外业数据编辑入 OSM 并制图。",
+   "aliases": [],
+   "factIds": []
+  },
+  {
+   "id": "E-P08",
+   "label": "排水制图",
+   "labelEn": "Drainage mapping",
+   "type": "action",
+   "roles": [
+    "action"
+   ],
+   "definition": "对排水、沟渠与水系进行专项采集。",
+   "aliases": [],
+   "factIds": [
+    "F026",
+    "F030"
+   ]
+  },
+  {
+   "id": "E-P09",
+   "label": "图集编制",
+   "labelEn": "Atlas compilation",
+   "type": "action",
+   "roles": [
+    "action"
+   ],
+   "definition": "把 ward 地图、洪泛范围与排水图汇编成图集。",
+   "aliases": [],
+   "factIds": [
+    "F037",
+    "F038"
+   ]
+  },
+  {
+   "id": "E-P10",
+   "label": "2.0 启动",
+   "labelEn": "Ramani Huria 2.0 launch",
+   "type": "action",
+   "roles": [
+    "action"
+   ],
+   "definition": "2017-09-26 的启动与 MoU 签署。",
+   "aliases": [],
+   "factIds": [
+    "F044"
+   ]
+  },
+  {
+   "id": "E-P11",
+   "label": "排水重测",
+   "labelEn": "Drainage remapping",
+   "type": "action",
+   "roles": [
+    "action"
+   ],
+   "definition": "按数据模型重测全部排水并检查连通性。",
+   "aliases": [],
+   "factIds": [
+    "F050",
+    "F051",
+    "F052",
+    "F058",
+    "F077"
+   ]
+  },
+  {
+   "id": "E-P12",
+   "label": "228 subward 资产—威胁制图",
+   "labelEn": "228-subward asset and threat mapping",
+   "type": "action",
+   "roles": [
+    "action"
+   ],
+   "definition": "2018 年暑期社区会议与行动地图生产。",
+   "aliases": [],
+   "factIds": [
+    "F053",
+    "F054",
+    "F056"
+   ]
+  },
+  {
+   "id": "E-P13",
+   "label": "移交 RA",
+   "labelEn": "Handover to Resilience Academy",
+   "type": "action",
+   "roles": [
+    "action"
+   ],
+   "definition": "2019-07-29 管理权转交大学联盟。",
+   "aliases": [],
+   "factIds": [
+    "F059"
+   ]
+  },
+  {
+   "id": "E-P14",
+   "label": "2020 年洪水数据采集",
+   "labelEn": "2020 flood data collection",
+   "type": "action",
+   "roles": [
+    "action"
+   ],
+   "definition": "在 20 个 ward 采集洪水范围与水深。",
+   "aliases": [],
+   "factIds": [
+    "F066",
+    "F067",
+    "F068"
+   ]
+  },
+  {
+   "id": "E-P15",
+   "label": "Mwanza 扩展",
+   "labelEn": "Mwanza expansion",
+   "type": "action",
+   "roles": [
+    "action"
+   ],
+   "definition": "2020-2021 年把方法复制到 Mwanza。",
+   "aliases": [],
+   "factIds": [
+    "F070",
+    "F071",
+    "F072",
+    "F073"
+   ]
+  }
+ ]
+}

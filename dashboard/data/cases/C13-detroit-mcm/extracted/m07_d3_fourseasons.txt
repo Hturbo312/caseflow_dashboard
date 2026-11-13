@@ -1,0 +1,79 @@
+Four Seasons of Data: Celebrating 15 Months of Motor City Mapping | Data Driven Detroit
+About
+Who We Are
+Our Team
+Careers
+Media Tools
+Contact Us
+Data
+Toolbox
+Open Data Portal
+Products
+Intro to Data
+Request Data
+Blog
+AskD3
+Ask a Question
+FAQ
+Select Page
+Four Seasons of Data: Celebrating 15 Months of Motor City Mapping
+Jan 12, 2015
+|
+Motor City Mapping
+Since October 2013, Data Driven Detroit (D3) has had the pleasure of collaborating on Motor City Mapping, a massive project that has included hundreds of people devoting thousands of hours to data collection, cleaning, and analysis. It’s the culmination of a process that involved federal, state, and local government officials, Fortune 500 companies, nonprofit organizations, and charitable foundations, a process that has, in ways both large and small, touched every corner of the city of Detroit.
+Along with our partners – the
+Michigan Nonprofit Association
+,
+LOVELAND Technologies
+, and Rock Ventures, LLC, among others – we accomplished a set of dizzying tasks. In the first few months of the project,
+we assembled a team of 200 resident surveyors
+, drivers, and quality-control associates; cataloged information for all 380,000 properties (
+during the snowiest winter in Detroit’s recorded history
+); and leveraged relationships to acquire more than 30 datasets, compiling the largest, most comprehensive property database ever for Detroit.
+As spring bloomed in Detroit, we worked with the Detroit Blight Removal Task Force to use the power of our data to inform its
+report released in May 2014
+. You’ll recognize D3’s analytical work throughout the report, especially in
+Chapter 4: “How Does This Information Guide Us?
+” Focusing on two primary goals – improving quality of life for the greatest number of people and improving opportunities for reinvestment and stabilization in Detroit’s neighborhoods – we created the Maximizing Community Impact tool, which identifies “tipping point” neighborhoods. Tipping point neighborhoods are areas that would see the greatest impact from immediate intervention, be it demolition, rehabilitation, or economic intervention.
+Since May, D3 and LOVELAND Technologies worked to make all of the data we collected in the winter available to the public. Together we launched the
+Motor City Mapping website
+in July, which displays survey data on use, condition, and occupancy for every parcel in the city. Helpful features also include neighborhood and geographic aggregations that allow the public to see survey results at a glance.
+D3 also strengthened our
+Open Data Portal
+, where we uploaded essential datasets that we collected as part of the Motor City Mapping project. There you’ll find downloadable data not only for the
+Motor City Mapping survey
+, but also for many other datasets, including
+Likely Public Ownership, 2013-14
+and
+Designated and Eligible Historic Districts and Structures, Winter 2013
+.
+The Detroit Land Bank Authority (DLBA) serves as an incredible partner, using the Motor City Mapping data to make real strides toward blight elimination. Residents now have a clear way to provide feedback on how properties change, channeling that feedback directly into DLBA’s decision-making process.
+Most importantly, Motor City Mapping allowed D3 to reach out to more people than ever before. Since August, we have conducted more than 40 trainings and workshops, speaking to about 1,000 residents in every corner of the city about the power of using data for decision-making. We have also expanded Motor City Mapping into
+Highland Park and Hamtramck
+, allowing those two cities to better understand the scope of blight within their boundaries and to successfully secure almost
+$6 million in federal funds for blight elimination
+.
+Along with the Michigan Nonprofit Association, D3 has also administered a powerful Mini-Grant Program, which allocated small grants to 15 community organizations that hired neighbors to resurvey their community. Together they surveyed more than 76,000 parcels in a span of eight weeks.
+As we find ourselves in the midst of winter again, I want to thank everyone involved in the project, whether you attended a workshop, helped to resurvey your community, or advocated for better, more accessible data (
+I’m looking at you, Mayor Duggan
+). We are so grateful to all our partners and for the generous support of
+The Kresge Foundation
+,
+The Skillman Foundation
+,
+the JP Morgan Chase Foundation
+,
+the Michigan State Housing Development Authority
+, and Rock Ventures, LLC.
+Diana Flora serves as the project manager for Motor City Mapping at D3.
+For more blog posts on Motor City Mapping, check out our
+City of Change series
+and our coverage of the
+successful close of the Mini-Grant Program
+.
+Facebook
+LinkedIn
+Copyright © 2024 Data Driven Detroit. All Rights Reserved.
+TERMS OF USE
+PRIVACY POLICY
+CONTACT US

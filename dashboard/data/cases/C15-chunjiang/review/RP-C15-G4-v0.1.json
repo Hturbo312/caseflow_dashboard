@@ -1,0 +1,63 @@
+{
+  "packet_id": "RP-C15-G4-v0.1",
+  "skill": "case-knowledge-construction",
+  "gate": "G4",
+  "case_id": "C15",
+  "scope": "Entity inventory, atomic facts and semantic roles for Chunjiang digital renewal",
+  "generated_at": "2026-11-13",
+  "status": "awaiting_researcher_decision",
+  "entity_count": 109,
+  "fact_count": 58,
+  "entities_by_type": {
+    "context": 5,
+    "actor": 30,
+    "task": 7,
+    "technology": 12,
+    "capability": 12,
+    "action": 20,
+    "target": 9,
+    "outcome": 14
+  },
+  "facts_by_status": {
+    "implemented": 52,
+    "planned": 0,
+    "reported_or_opinion": 6,
+    "disputed": 0,
+    "unconfirmed": 0
+  },
+  "key_boundaries": [
+    "A01 residents has both actor and target roles; no separate G02 residents target",
+    "A02 autonomous team, A09 self-management team and A18 micro-grid are separate entities",
+    "A06 property company and A07 Yue Yang are separate entities",
+    "G01 community, G04 specific spatial nodes and G05 public space are separate",
+    "T04 monitoring, C01 alert/call capability and N06 deployment action are separate",
+    "T02 mini-program, C05-C07 order/dispatch/evaluate capabilities and N15 four-order operation are separate"
+  ],
+  "conflicts": [
+    "F013-F015 are media-reported scenarios and M04 says pilot; coded as reported_or_opinion",
+    "F046 122 services, F051 118 lists, F052 96% and F056 phase II completion are source claims/statistics",
+    "Formal relationship among autonomous team, self-management team, micro-grid and Gelixiang is unknown",
+    "Residents act as both actor and target; roles must be checked per fact",
+    "M01 prehistory and M09 2024-02 follow-up remain outside the core 2021-2023 action chain"
+  ],
+  "decisions_required": [
+    "Accept 109 entities and 58 facts as the G4 baseline",
+    "Confirm A01 residents holds both actor and target roles, without separate G02",
+    "Confirm technology-capability-action separation",
+    "Confirm F013-F015, F046, F052 and F056 as reported_or_opinion, and F016 as implemented pilot",
+    "Confirm A02/A09/A18, A06/A07 and G01/G04/G05 remain separate pending G5 relations"
+  ],
+  "history_impact": {
+    "affects_shared_concepts": false,
+    "affects_historical_mappings": false,
+    "triggers_historical_case_review": false,
+    "note": "Check micro-grid, platform and event-handling concept boundaries with C04, C05 and C09 after G5/G6."
+  },
+  "researcher_decision": {
+    "action": null,
+    "rationale": null,
+    "modified_content": null,
+    "allow_next_gate": null,
+    "decided_at": null
+  }
+}

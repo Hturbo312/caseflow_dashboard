@@ -1,0 +1,172 @@
+{
+  "case_id": "C18",
+  "version": "v0.1",
+  "status": "candidate_pending_researcher",
+  "generated_at": "2026-11-13",
+  "baseline": {
+    "current_l2_floor": "L2-C15-v1.0",
+    "notes": [
+      "C01-C11 shared v0.2 remains a candidate packet",
+      "C13 has L2 candidates v1.0",
+      "C12/C16 native concepts remain pending L2",
+      "C19/C20 have no L2 concept inventory yet"
+    ]
+  },
+  "native_node_count": 83,
+  "salient_concept_count": 10,
+  "relation_coverage": {
+    "covered": 74,
+    "total": 101,
+    "uncovered": 27,
+    "uncovered_note": "未覆盖关系主要是研究者、社区情境、开放日组织和团队身份等主体/情境连线，不构成新的显著概念。"
+  },
+  "concepts": [
+    {
+      "native_concept_id": "NC-C18-01",
+      "label": "LLM+RAG+时空知识图谱社区信息平台",
+      "entity_type": "technology",
+      "definition": "以四层架构整合时空知识图谱、地理邻近性多模态RAG、垂域大模型和时空分析引擎的社区信息服务平台。",
+      "examples": ["方元问问APP", "感知—传输—平台—应用架构"],
+      "source_relation_ids": ["R017","R018","R019","R020","R021","R022","R023","R025","R026","R027","R028","R029","R030","R031","R036","R100"],
+      "relation_count": 16,
+      "fact_count": 7,
+      "evidence_count": 7,
+      "process_ids": ["C18-P02"],
+      "status": "candidate",
+      "boundary_note": "复合技术概念：保留平台整体性；时空知识图谱、RAG、垂域大模型等作为内部组成，不再拆成同名共享概念。"
+    },
+    {
+      "native_concept_id": "NC-C18-02",
+      "label": "设施信息检索与主动推送",
+      "entity_type": "capability",
+      "definition": "围绕公共服务设施信息，以检索与情境推送双模式提供设施查询和推荐的能力。",
+      "examples": ["检索+推送", "附近急诊医院", "亲子图书馆"],
+      "source_relation_ids": ["R009","R012"],
+      "relation_count": 2,
+      "fact_count": 2,
+      "evidence_count": 1,
+      "process_ids": ["C18-P01"],
+      "status": "candidate",
+      "boundary_note": "能力，不是设施助手任务或APP本身；不把“可检索”写成已发生的全部使用。"
+    },
+    {
+      "native_concept_id": "NC-C18-03",
+      "label": "邻里UGC与在线社交",
+      "entity_type": "capability",
+      "definition": "支持居民以文本、语音、图片发布内容、评价设施、讨论社区议题并沉淀用户生成内容的能力。",
+      "examples": ["设施评价", "社区舆情", "UGC在地知识"],
+      "source_relation_ids": ["R010","R013"],
+      "relation_count": 2,
+      "fact_count": 3,
+      "evidence_count": 1,
+      "process_ids": ["C18-P01"],
+      "status": "candidate",
+      "boundary_note": "能力，不包含线下邻里互助本身；UGC数量是结果指标，不并入概念。"
+    },
+    {
+      "native_concept_id": "NC-C18-04",
+      "label": "社区资源供需评估与优化建议",
+      "entity_type": "capability",
+      "definition": "监测社区资源供需、聚合居民反馈并生成设施调度或空间优化建议的能力。",
+      "examples": ["资源缺口反馈", "交通与停车调度", "绿地/商业配置建议"],
+      "source_relation_ids": ["R011","R014","R016","R033"],
+      "relation_count": 4,
+      "fact_count": 4,
+      "evidence_count": 3,
+      "process_ids": ["C18-P01","C18-P02"],
+      "status": "candidate",
+      "boundary_note": "能力，不把“自动生成方案”写成已实际采用的方案；效果指标单独保留。"
+    },
+    {
+      "native_concept_id": "NC-C18-05",
+      "label": "高校新生30天平台试点",
+      "entity_type": "action",
+      "definition": "2024年秋季在北京大学深圳研究生院面向新生开展的约30天平台试运行。",
+      "examples": ["新生渗透率46%", "活跃峰值1500", "信息获取15→3分钟"],
+      "source_relation_ids": ["R037","R038","R039","R040","R041","R042","R043","R044","R045","R046","R047","R048"],
+      "relation_count": 12,
+      "fact_count": 8,
+      "evidence_count": 7,
+      "process_ids": ["C18-P03"],
+      "status": "candidate",
+      "boundary_note": "行动概念；作者报告指标作为结果实体保留，不自动成为概念属性。"
+    },
+    {
+      "native_concept_id": "NC-C18-06",
+      "label": "高密度混合社区网格化治理试点",
+      "entity_type": "action",
+      "definition": "南头古城试运行中以管理端网格化系统处理工单、识别痛点、更新导视并支持居民互助的行动。",
+      "examples": ["工单响应提升67%", "23项高频痛点", "1472次线下交互"],
+      "source_relation_ids": ["R049","R050","R051","R052","R053","R054","R055","R056","R057","R058","R059","R060","R061","R062","R063","R064","R065","R066","R067","R068","R101"],
+      "relation_count": 21,
+      "fact_count": 9,
+      "evidence_count": 6,
+      "process_ids": ["C18-P04"],
+      "status": "candidate",
+      "boundary_note": "试点级复合行动：包含网格化工单、导视更新和居民互助；映射时只取有依据的子成分，不继承全部属性。"
+    },
+    {
+      "native_concept_id": "NC-C18-07",
+      "label": "开放日小程序打卡分享",
+      "entity_type": "action",
+      "definition": "2025年WE社区开放日中使用方元问问小程序进行线上打卡、体验分享和校社互动的行动。",
+      "examples": ["线上打卡", "分享体验", "社区主理人"],
+      "source_relation_ids": ["R093","R094","R095","R096"],
+      "relation_count": 4,
+      "fact_count": 2,
+      "evidence_count": 3,
+      "process_ids": ["C18-P07"],
+      "status": "candidate",
+      "boundary_note": "行动，不是小程序技术实体；使用陈述是团队/媒体报告，不写成持续运行。"
+    },
+    {
+      "native_concept_id": "NC-C18-08",
+      "label": "大模型答案验证与幻觉抑制",
+      "entity_type": "capability",
+      "definition": "通过知识图谱实体比对、来源交叉验证、分类器筛选、人工复核和专家审核提高大模型回答可靠性的能力。",
+      "examples": ["答案验证机制", "人工复核", "专家审核"],
+      "source_relation_ids": ["R030","R031","R084"],
+      "relation_count": 3,
+      "fact_count": 2,
+      "evidence_count": 2,
+      "process_ids": ["C18-P02","C18-P06"],
+      "status": "candidate",
+      "boundary_note": "能力/机制描述；具体部署与使用频率未证，不能写成完全消除幻觉。"
+    },
+    {
+      "native_concept_id": "NC-C18-09",
+      "label": "社会创新项目获奖与慈善资助",
+      "entity_type": "outcome",
+      "definition": "方元问问项目在益创星·2024获赛道金奖，并出现总资助、特别奖和受助组合的多口径报道。",
+      "examples": ["赛道金奖", "40万元总资助", "20万元特别奖争议"],
+      "source_relation_ids": ["R069","R070","R071","R072","R073","R074","R075","R076","R077","R078","R079"],
+      "relation_count": 11,
+      "fact_count": 7,
+      "evidence_count": 8,
+      "process_ids": ["C18-P05"],
+      "status": "candidate",
+      "boundary_note": "复合结果概念；金奖、总资助、特别奖和受助组合分列，争议不得通过概念合并消失。"
+    },
+    {
+      "native_concept_id": "NC-C18-10",
+      "label": "校社联动与居民学生互助",
+      "entity_type": "task",
+      "definition": "2025年开放日中以小程序为媒介，试图加强高校学生与社区居民互动、促进彼此联结的任务。",
+      "examples": ["校社联结", "居民与学生互助"],
+      "source_relation_ids": ["R096","R097"],
+      "relation_count": 2,
+      "fact_count": 1,
+      "evidence_count": 3,
+      "process_ids": ["C18-P07"],
+      "status": "candidate",
+      "boundary_note": "任务/目标，不是已实现的关系变化；没有使用量或关系网络变化数据。"
+    }
+  ],
+  "boundary_questions": [
+    "NC-C18-01是否应保持为平台整体概念，而不是拆成四个技术组件概念？",
+    "NC-C18-06是否应保持试点级复合行动，还是拆成网格工单、导视更新、居民互助三个概念？",
+    "NC-C18-09是否应保持复合结果，还是拆成金奖、总资助、特别奖三个原生概念？",
+    "27条未覆盖关系是否同意保留为主体/情境/过程连线，不强行生成显著概念？"
+  ],
+  "review": "pending_researcher"
+}

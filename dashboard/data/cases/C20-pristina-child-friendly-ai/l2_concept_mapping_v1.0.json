@@ -1,0 +1,111 @@
+{
+  "case_id": "C20",
+  "layer": "L2-G4",
+  "version": "L2-C20-v1.0",
+  "generated_at": "2026-11-13",
+  "status": "released",
+  "base_layer": "L2-C18-v1.0 + L2-C19-v0.1 (DB-only)",
+  "mappings": [
+    {
+      "mapping_id": "MAP-C20-001",
+      "native_concept_id": "NC-C20-001",
+      "shared_concept_id": null,
+      "mapping_type": "no_map",
+      "basis": "复合伞概念，含儿童参与、AI使用、设计转译；整体映射会丢失语义。",
+      "scope": "由NC-C20-006/007分别处理。",
+      "evidence_ids": ["M01-E09","M03-E01","M10-E02"],
+      "decision": "accepted_no_map"
+    },
+    {
+      "mapping_id": "MAP-C20-002",
+      "native_concept_id": "NC-C20-006",
+      "shared_concept_id": "SC-C01-152",
+      "mapping_type": "native_hyponym",
+      "basis": "儿童作为特定参与者，围绕公共空间选址—愿景—方案评估的共制行动，属于方案共制的下位。",
+      "scope": "只覆盖儿童与公共空间设计；不含成人社区共制/施工。",
+      "evidence_ids": ["M01-E03","M01-E04","M01-E08","M01-E10","M03-E01"],
+      "decision": "accepted"
+    },
+    {
+      "mapping_id": "MAP-C20-003",
+      "native_concept_id": "NC-C20-007",
+      "shared_concept_id": "SC-C01-131",
+      "mapping_type": "partial_or_approximate",
+      "basis": "C20包含使用数字工具进行空间表达/可视化成分；原生为行动，共享为工具类别。",
+      "scope": "只映射工具/媒介成分；生成效果与行动过程保留原生。",
+      "evidence_ids": ["M01-E09","M03-E01","M10-E02","M11-E01"],
+      "decision": "accepted_partial"
+    },
+    {
+      "mapping_id": "MAP-C20-004",
+      "native_concept_id": "NC-C20-002",
+      "shared_concept_id": "SC-C01-121",
+      "mapping_type": "partial_or_approximate",
+      "basis": "C20包含识别儿童安全、隐私、绿色社交需求；SC-C01-121不覆盖设计转译。",
+      "scope": "只映射需求识别成分；儿童地方知识与设计转译保留原生。",
+      "evidence_ids": ["M01-E05","M01-E06","M01-E07","M01-E09"],
+      "decision": "accepted_partial"
+    },
+    {
+      "mapping_id": "MAP-C20-005",
+      "native_concept_id": "NC-C20-003",
+      "shared_concept_id": "SC-C01-122",
+      "mapping_type": "partial_or_approximate",
+      "basis": "C20包含方案定稿、启动实施、采购准备；属于规划设计与实施准备的一部分。",
+      "scope": "只映射设计与实施准备成分；许可主体/公园位置/建成状态保留未决。",
+      "evidence_ids": ["M01-E11","M03-E02","M04-E01"],
+      "decision": "accepted_partial"
+    },
+    {
+      "mapping_id": "MAP-C20-006",
+      "native_concept_id": "NC-C20-003",
+      "shared_concept_id": "SC-C01-174",
+      "mapping_type": "partial_or_approximate",
+      "basis": "C20包含市政许可/审批进展；属于正式决定、审批与项目阶段进展的一部分。",
+      "scope": "只映射许可/审批进展成分；不证明建成。",
+      "evidence_ids": ["M03-E02"],
+      "decision": "accepted_partial"
+    },
+    {
+      "mapping_id": "MAP-C20-007",
+      "native_concept_id": "NC-C20-004",
+      "shared_concept_id": "SC-C01-155",
+      "mapping_type": "native_hyponym",
+      "basis": "UNDP、市政府部门、NGO、供应商与儿童代表机构共同推进的具体安排；属于跨组织协作的下位。",
+      "scope": "只覆盖共创阶段；不覆盖采购合同或建成后的运营。",
+      "evidence_ids": ["M01-E02","M01-E03","M01-E14","M01-E15","M03-E01"],
+      "decision": "accepted"
+    },
+    {
+      "mapping_id": "MAP-C20-008",
+      "native_concept_id": "NC-C20-005",
+      "shared_concept_id": null,
+      "mapping_type": "no_map",
+      "basis": "实体消歧与数据质量说明，不是可比较技术概念。",
+      "scope": "保留为实体备注，不进入共享概念层。",
+      "evidence_ids": ["M03-E01","M08-E04","M10-E01","M11-E01"],
+      "decision": "accepted_no_map"
+    },
+    {
+      "mapping_id": "MAP-C20-009",
+      "native_concept_id": "NC-C20-007",
+      "shared_concept_id": "SC-C19-102",
+      "mapping_type": "partial_or_approximate",
+      "basis": "C20使用UrbanistAI生成/可视化空间想法；与C19的生成式AI参与式可视化共享技术/实践成分。",
+      "scope": "只映射生成式AI参与式可视化成分；原生行动属性与C20具体过程保留原生。",
+      "evidence_ids": ["M01-E09","M03-E01","M10-E02","M11-E01"],
+      "decision": "accepted_partial"
+    }
+  ],
+  "mapping_type_counts": {
+    "semantic_equivalent": 0,
+    "native_hyponym": 2,
+    "partial_or_approximate": 5,
+    "no_map": 2
+  },
+  "counts": {
+    "mappings": 9,
+    "native_concepts": 7,
+    "shared_concepts_referenced": 7
+  }
+}

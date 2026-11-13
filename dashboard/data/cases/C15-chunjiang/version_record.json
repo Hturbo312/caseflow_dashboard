@@ -1,0 +1,29 @@
+{
+  "record_id": "VR-C15-L2-001",
+  "case_id": "C15",
+  "ontology_version": "V4",
+  "case_layer_version": "L2-C15-v1.0",
+  "date": "2026-11-13",
+  "status": "released",
+  "scope": "C15 原生知识接入、15 条映射、5 个活跃共享概念候选、1 条共享概念负例修订；不修改八类本体。",
+  "changes": [
+    "新增 109 个原生实体、122 条关系、15 个原生概念",
+    "新增 15 条映射：5 partial、4 hyponym、6 no_map",
+    "新增 5 个活跃共享概念候选 SC-C15-01/03/06/07/08",
+    "SC-C15-02/04/05 作为 L1 候选保留但不进入活跃候选集",
+    "SC-C01-156 增加负例：不含居民自主点单/评单的闭环处置",
+    "回查 125 条历史映射、14 个案例；0 修改"
+  ],
+  "validation": {
+    "reference_check": "passed",
+    "mapping_count": 15,
+    "candidate_count": 5,
+    "historical_changes": 0
+  },
+  "release_scope": "C15 案例概念层；文件级，不写 dashboard SQLite。",
+  "release_decision": {
+    "action": "accept",
+    "rationale": "Confirm V4 unchanged and L2-C15-v1.0; accept candidate reconciliation, mapping v1.1 and SC-C01-156 negative example; release and hand off.",
+    "released_at": "2026-11-13"
+  }
+}

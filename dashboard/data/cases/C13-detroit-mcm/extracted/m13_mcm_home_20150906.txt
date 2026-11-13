@@ -1,0 +1,317 @@
+Motor City Mapping
+Motor City Mapping
+MCM
+About
+Blog
+Contribute
+Training
+Sign In
+'#'} ? -->
+Structure
+Lot
+Occupied
+Possibly Occupied
+Unoccupied
+Dumping
+Needs Boarding
+Needs Boarding And Has Dumping
+Surveyed
+Unsurveyed
+Neighborhoods
+Zip Codes
+Census Tracts
+Council Districts
+Hardest Hit Fund Zones
+City of Detroit Neighborhoods
+Historic Districts
+Go
+Righty
+Lefty
+×
+Closing in
+Overview
+Explore
+Blexts
+Search
+All
+Publicly Owned
+Privately Owned
+Structures vs Lots
+Structure Condition
+Structure Occupancy
+Motor City Mapping is powered by Site Control from LOVELAND Technologies.
+Learn More
+Try these sample searches:
+Residential structures color coded for occupancy
+Lots with dumping
+Or design your own:
+Structure
+yes
+no
+color
+Use
+residential
+commercial
+mixed
+industrial
+institutional
+unknown
+vacant lot
+parking lot
+park
+garden
+other
+attached lot
+color
+Occupancy
+occupied
+unoccupied
+possibly occupied
+partially occupied
+color
+Condition
+good
+fair
+poor
+suggest demolition
+color
+Commercial Use
+restaurant
+grocery
+retail
+service
+offices
+entertainment
+multi-occupant
+other
+color
+Industrial Use
+industrial
+warehouse
+multi-occupant
+other
+color
+Institutional Use
+school
+religious
+public safety
+health
+recreation
+government
+non-profit / charity
+other
+color
+Fire Damage
+yes
+no
+color
+Fire Severity
+minor
+moderate
+major
+collapsed
+color
+Trespassing
+secure
+open
+color
+Maintained
+yes
+no
+color
+Dumping
+yes
+no
+color
+Ownership
+public
+private
+color
+Public Owner
+City
+Dlba
+Dps
+Wayne
+Michigan
+Mlbfta
+Usgov
+color
+2015 Tax Foreclosure
+expected
+color
+Brownfield Site
+true
+color
+Historic Resource Survey
+Important
+Less Important
+Not Historic
+Very Important
+color
+Dlba Program Sales
+Auction Closings
+Direct Sales
+Side Lot Sales
+color
+Demolitions
+true
+color
+Demo Contractor
+1 Way Service, Inc.
+Abc Demolition Compa
+Abc Demolition Company, Inc.
+Able Demolition Inc
+Able Demolition Inc.
+Adamo Demolition Co
+Adamo Demolition Company
+Dmc Consultants, Inc.
+Farrow Group, Inc.
+Glo Wrecking Company
+Homrich Wrecking
+Mcm Management Corp.
+color
+Vacancy Index
+0
+0.5
+1
+1.5
+2
+2.5+
+color
+Principal Residential Exemption
+yes
+color
+Building Permit Activity
+Show All
+color
+Permit Legal Use
+Cell Tower
+Multi Family Dwelling
+Multiple Dwelling
+One Family
+One Family Dwelling
+Res
+Retail
+Retail Store
+Single Family
+Single Family Dwelling
+Two Family
+Two Family Dwelling
+color
+Permit Description
+Additions
+Alterations
+Alterations Revised
+Change Of Use
+Dismantle
+Erection Of Signs
+Modification
+Modification Of Service
+New
+Plumbing Only
+Repair Fire
+Repairs
+color
+More Filters ▼
+Apply
+Clear
+Download CSV
+Try these citywide layers:
+Publicly owned, structures vs. lots
+Occupancy
+Lots with dumping + houses needing boarding
+Auction properties, show surveyed
+...or choose a neighborhood in "Overview" and then "Explore" to design your own!
+All
+Structure
+Yes
+No
+Occupancy
+Occupied
+Unoccupied
+Possibly Unoccupied
+Partially Occupied
+Use
+Residential
+Commercial
+Mixed Use Residential/Commercial
+Industrial
+Institutional
+Unknown
+Vacant Lot
+Parking Lot
+Park
+Garden
+Other
+Attached Lot
+Units
+Single Family
+Multi-Family
+Apartments
+Garage or Shed
+Mixed Resi
+Single Family
+Multi-Family
+Apartments
+Commercial Use
+Restaurant / Bar
+Grocery
+Retail
+Service
+Offices
+Entertainment
+Multi-Occupant
+Other
+Industrial Use
+Industrial
+Warehouse
+Multi-Occupant
+Other
+Institutional Use
+School
+Religious
+Public Safety
+Health
+Recreation
+Government
+Non Profit / Charity
+Other
+Condition
+Good
+Fair
+Poor
+Suggest Demolition
+Fire
+Yes
+No
+Fire Damage
+Minor
+Moderate
+Major
+Collapsed
+Trespass
+Secured
+Open to Trespass
+Maintained
+Yes
+No
+Dumping
+Yes
+No
+Sort
+Time
+Address
+Loading...
+Go
+When you search for a place, the results will appear here.
+Blexting Ad
+×
+TBD
+Nope.
+×
+Sign In
+Forgot your password?
+No account? Sign up for free!
+×
+Password Reset
+Cancel

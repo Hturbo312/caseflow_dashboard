@@ -1,0 +1,1075 @@
+
+===== PAGE 1 =====
+Chapter 11
+Manchester as a Digital Powerhouse:
+Governing the ICT-Related Developments
+
+
+Mark Deakin, Fiona Campbell, and Alasdair Reid
+
+
+
+
+
+Abstract The drive to establish Manchester as a forerunner in the digital economy
+means the city is now considered the “powerhouse” of the North of England, with
+salaries for city workers at the highest in the UK outside of London. Despite this,
+Manchester remains home to some of the most socially and economically deprived
+communities in the UK: just as those who work in the city earn the highest salaries
+outside London, those who live in the city earn the lowest salaries of the UK’s Core
+Cities. Responding to the particular challenge widespread deprivation poses for a
+city experiencing economic growth, the administration has deployed an entrepre-
+neurial model of urban development, characterized by close partnerships with
+private organizations and local actors. This chapter explores the governance of
+the ICT-related developments responsible for transforming Manchester into a
+“digital powerhouse” and challenges the city’s recently announced “Next Generation
+Digital Strategy” poses.
+
+
+
+11.1  Introduction
+
+
+This chapter is drawn from the case study ﬁndings of the city governance project
+funded by the European Commission’s (EC’s) Institute for Prospective Technological
+Studies (IPTS) and EUROCITIES.
+  Along with Barcelona, Berlin, and Tallinn, Manchester is one of the four emer-
+gent city governance systems IPTS and EUROCITES have sought to explore as a
+
+
+M. Deakin (*)
+School of Engineering and Built Environment, Edinburgh Napier University,
+Merchiston Campus, 10 Colinton Road, Edinburgh, Scotland, UK
+e-mail: m.deakin@napier.ac.uk
+
+F. Campbell • A. Reid
+Institute for Sustainable Construction, Edinburgh Napier University, Edinburgh, Scotland, UK
+e-mail: fh.campbell@napier.ac.uk; al.reid@napier.ac.uk
+
+
+M.P. Rodríguez-Bolívar (ed.), Measuring E-government Efﬁ ciency,                     191
+Public Administration and Information Technology 5, DOI 10.1007/978-1-4614-9982-4_11,
+© Springer Science+Business Media New York 2014
+===== PAGE 2 =====
+192                                                      M. Deakin et al.
+
+
+set of ICT-related developments (Misuraca and Esteve 2010; Misuraca et al. 2011).
+Setting out Manchester’s socioeconomic structure, this chapter outlines the gover-
+nance system within the city and addresses the challenges these ICT-related devel-
+opments pose for their emerging digitally inclusive regeneration strategy (Carter
+2009; Deakin 2007, 2009). Having done this, the chapter captures the views and
+opinions of those with a stake in such ICT-related developments and who are
+affected by the emerging system of governance within the City of Manchester.
+These insights are drawn from a series of semi-structured interviews, designed by
+IPTS and conducted by Edinburgh Napier University, with the City of Manchester’s
+academic, industrial, and administrative communities. The interviews in question
+were undertaken between December 2010 and January 2011.
+  From here the chapter reﬂects upon how Manchester proposes to draw upon this
+governance system as a means to establish itself as a “Next Generation Digital City”
+(Mycio and Carter 2008). After reﬂecting on the impacts this latest phase of ICT-
+related developments are having upon the City of Manchester, the chapter goes on
+to set out the key ﬁndings of this investigation.
+
+
+
+11.2  The City of Manchester
+
+
+The City of Manchester covers approximately 117 km 2; the population density is
+over seven times the average for the region and almost ten times the national aver-
+age. Migration in and out of the city is signiﬁcant and the city is committed to
+increasing the number of residents. The population has been increasing at twice the
+average rate of growth for England and Wales between 2001 and 2007 and at a
+slightly slower rate in recent years (Manchester Partnership 2007). The 2008-based
+subnational population projections show that the population of the city will con-
+tinue to rise to an estimated 519,000 residents by 2015 and 561,800 by 2025
+(Manchester Partnership 2009).
+  Many of Manchester’s residents experience signiﬁcant social and economic
+deprivation. In 2007, the city was ranked the fourth most deprived local authority in
+England (Manchester Partnership 2008). Sixty percent of the city’s population
+(234,000) lives in the 10 % most deprived communities in England. Socioeconomic
+deprivation is described as “widespread across the city” (Manchester Partnership
+2009). In 2004, the year the previous English Index of Deprivation (EID) was pub-
+lished, the estimated number of residents living in the most deprived 1 % was
+78,599, almost one in ﬁ ve. There has been an improvement in relative terms since
+2004, with 2007 ﬁgures detailing one in ten Manchester residents living within the
+1 % most deprived, approximately 51,155 people (Talukder and Frost 2007).
+   In terms of the city’s geography, the most deprived areas are to the north and the
+east of the city, but similar patterns of deprivation can be identiﬁed using other data-
+sets, such as out-of-work beneﬁt claimants (Manchester Partnership 2008). It is
+worth noting that the city center continues to improve in terms of its position within
+===== PAGE 3 =====
+11  Manchester as a Digital Powerhouse: Governing the ICT-Related Developments       193
+
+
+the EID ranking: on the relative scale from 1 to 32,482,1 the city center moved 7,911
+positions between 2004 and 2007, making it the area showing greatest (relative)
+improvement within the city.
+
+
+
+11.3  Governance System
+
+
+Manchester is represented by three tiers of government: Manchester City Council
+(“local”), UK Parliament (“national”), and European Parliament (“Europe”). The
+Greater Manchester County Council administration was abolished in 1986 so the
+city council  is,  effectively, a unitary  authority. Since  its inception in 1995,
+Manchester has been a member of the English Core Cities Group which, among
+other things, serves to promote the social, cultural, and economic status of the city
+at an international level.
+  Under the leadership of the mayor, one third of Manchester City Council is
+elected each year for three consecutive years, followed by a fourth year without any
+elections. The Labour Party has had political control in Manchester since 1973. To
+meet the challenges which the city’s commitments to social inclusion and economic
+competitiveness pose for Manchester, the administration has deployed an entrepre-
+neurial model of urban development, characterized by close partnerships with pri-
+vate organizations and  local  actors. These partnerships promote interagency
+working arrangements and funding agreements key to their success. Nowhere is this
+model  better exempliﬁ ed than  in the ICT-related developments the City of
+Manchester has instigated to underpin their urban regeneration strategy and support
+this program’s social, environmental, and economic aspirations. In terms of their
+strict chronology, these ICT-related developments can be subdivided into three
+phases. In line with their underlying technologies, these approximate to online and
+web-based infrastructures and service platforms supported by next-generation
+broadband developments.
+
+
+
+11.3.1  Phase 1: Online Services
+
+
+In the ﬁrst phase (1989–1993), Manchester sought to emulate Germany, Holland,
+and several Scandinavian countries in their use of ICTs as a means to underpin
+policy developments and support urban regeneration. This resulted in two initia-
+tives: Manchester Host as the ﬁrst representation of Manchester as a virtual city and
+Electronic Village Halls (EVHs) (Digital Cities 2010). These initiatives were aimed
+
+
+1 The geographical unit of measurement in the English Indices of Deprivation is the Lower Super
+Output Area (LSOA); a unit spanning from 1,000 to 1,500 households. There are 32,482 LSOAs
+in England; therefore, relative deprivation is ranked on a scale from 1 (the most deprived) to 32,482
+(the least deprived).
+===== PAGE 4 =====
+194                                                      M. Deakin et al.
+
+
+at offering the citizens of Manchester free access to a platform of city services.
+Entrepreneurial in nature and driven by a consortia of IT consultancies and media
+companies, Manchester Host did not prove successful. In the ﬁrst instance, the
+city’s infrastructure was seen as being too heavily dependent on short-term ﬁnance
+and not inclusive enough in terms of the communities it served. While the infra-
+structure was seen to support the citizens of Manchester, as a service platform, Host
+failed to include the city’s business sector.
+
+
+
+11.3.2  Phase 2: Web Services
+
+
+The second phase, from 1994 to 2002, saw the launch of Virtual Manchester,
+Manchester online, Virtual Town Hall (VTH), MyManchester, MAD for IT, and
+Manchester Virtual City. These developments did much to be more inclusive and
+exploit the opportunities the Internet offered to deliver online services. In reviewing
+the successes of these developments, Fourkas ( 2002 ) singles out the infrastructure
+underlying the VTH initiative and singles this platform out for particular praise,
+noting that
+
+ … we should acknowledge the advances [this particular initiative makes] on the delivery of
+   community services through an increasing number of relevant websites and interactive ser-
+   vices such as online application forms, email communication with ofﬁ cers, online informa-
+    tion, advice, services etc. The ‘community’ thematic category comes second in online
+   presence rate. (pp. 48–49)
+
+   Furthermore, the VTH initiative attracted attention for other reasons: it also
+provided the infrastructure underpinning the development of Eastserve, a social
+enterprise project. Local community organizations and third-sector businesses
+collaborated to recycle and distribute 350 PCs across ten free Internet access
+points within New East Manchester. The Wired Up Communities initiative went
+on to distribute a further 3,500 computers. These new or recycled PCs were avail-
+able at a cost of either £200 or £50, respectively: installation, delivery, and 3 months’
+dial-up connection were included free, along with 3 h of introductory training. The
+local credit union provided immediate low-cost loans, and a total of nine local ICT
+Learning Centers were set up together with a low-cost computer repair service.
+   Since 25 % of local residents did not have a landline telephone, a wireless broad-
+band network was developed to offer affordable broadband access from £6 per
+month, without any contract or hidden costs. During this phase, network coverage
+more than doubled and a further 1,700 PC packages were supplied. Support for the
+disabled and elderly was added into the residents’ service bundles, while wireless
+networks linked homes, schools, and ICT Learning Centers. With over 5,500 PC
+packages distributed and over 2,000 regular broadband customers by December
+2006, Eastserve had developed into the largest wireless network in Europe.
+===== PAGE 5 =====
+11  Manchester as a Digital Powerhouse: Governing the ICT-Related Developments       195
+
+
+  Reﬂecting upon the ﬁrst two phases of ICT development in Manchester, Fourkas
+(2002) suggests that any future governance strategy in the City of Manchester should:
+
+•  Promote such developments under the widest possible partnership between local
+   agencies directly associated with Manchester’s urban regeneration strategy.
+•  Establish a special ofﬁce that will be in charge of Manchester’s Virtual City
+   development, with this agency acting as a coordinating body for the various
+   partners.
+•  Ensure any developments bridge the digital divide in Manchester by: (a) advancing
+   the infrastructure needed to ‘close the gap’ between the information-rich and -poor
+   (b) promote awareness of the service platforms capable of bridging this gap, and
+   offer citizens the training needed to make use of the platforms; (c) encouraging the
+   participation of citizens and businesses from the widest possible cross-section of
+   the community; (d) drawing on national and European Union programs as a way
+   of funding such developments, and (e) securing their long-term ﬁnancial viability.
+•  Form a clear, scheduled development plan in terms of aims, priority areas
+  and corresponding actions. Here, priority should be given to the development
+   of small-scale, thematic or district-based projects, which would be integrated
+   (pp. 51–52).
+
+van den Berg and van Winden ( 2002) and van der Meer and van Winden ( 2003)
+detect a policy shift from the 1990s entrepreneurial approach and toward a model of
+local government-led actions. While many ICT-related developments in Europe
+during the 1990s were predominately entrepreneurial, they propose VVH and VTH
+infrastructures are not platforms for servicing the market but for governing them on
+behalf of the community. In this phase, there is instead a withering away of the
+market’s hold over such infrastructures and emergence of an electronically enhanced
+government, with the potential for communities to engage with the city’s infrastruc-
+tures and service platforms they offer. According to van der Meer and van Winden
+( 2003), the emerging policy framework is not a clean break from the entrepreneurial
+approach, but a way for local administrations to begin taking the lead in managing
+the relationship between what the market wants from them and the community in
+turn needs.
+   For van den Berg and van Winden (2002) and van der Meer and van Winden
+(2003), there are three components key to the successful management of this rela-
+tionship; these are: access, infrastructures, and services. In reviewing the success of
+their developments in Manchester, they draw particular attention to signiﬁcant
+achievements this administration made in delivering user-friendly access to city ser-
+vices and the underlying infrastructure. For unlike the top-down entrepreneurial
+drive of the ﬁrst phase, here the infrastructures underpinning these service platforms
+support what is referred to as a “bottom-up transformation of communities.” That is,
+a bottom-up transformation successful in:
+
+•  Targeting the social need of communities
+•  Allowing communities to form a wide range of stakeholder groups from which
+   they can not only develop their own contributions but also learn from studies of
+   successful ventures that are taking place elsewhere in Europe
+===== PAGE 6 =====
+196                                                      M. Deakin et al.
+
+
+•  Setting up a single agency to oversee the city’s ICT developments and manage
+   the underlying infrastructures supporting city service platforms
+•  Progressively building on the capacity these infrastructures have to develop a
+  more extensive platform of web-based services, capable of closing the gap
+   between what the market offers and communities need in terms of employment
+   opportunities, education, housing, and crime prevention
+•  Getting these infrastructures to support the delivery of such service platforms to
+   the neighborhoods of New East Manchester
+•  Closing the gap between the levels of service provision within neighborhoods
+  and across the City of Manchester by basing them on standards of equal
+   measure
+•  Bridging the “digital divide” by matching the actions taken to meet the social,
+   environmental, and economic objectives with the dividends available to sustain
+   the development of such bottom-up transformations
+
+
+
+11.3.3  Phase 3: Next-Generation Broadband
+
+
+Acting on the success of this bottom-up transformation, the City of Manchester took
+the decision to consolidate this governance model under the third (post-2004) phase.
+As they state in the Manchester Digital Strategy Progress Report (Mycio and
+Carter 2008).
+
+   In January 2007 Manchester City Council submitted the ONE-Manchester Partnership
+    Digital Challenge proposal to Government with plans for developing: “universal, affordable
+   next generation broadband access” which “is essential to connect all residents and busi-
+   nesses of the Manchester City-region to the social, educational, informational and eco-
+   nomic opportunities they deserve.” (p. 5)
+
+   This established the foundation for the creation of a Manchester Digital Strategy
+offering
+
+   the most advanced ‘next generation’ connectivity in the UK, providing a sustainable base
+    for high growth business, innovation, transformational public services and an inclusive
+   knowledge society. (p. 5)
+
+  The main aim of the project was to provide accessible and affordable broadband,
+based upon proven state-of-the-art capabilities of ﬁber and advanced wireless, as is
+currently being demonstrated across continental Europe. In cities such as Amsterdam
+and Paris, ﬁber connectivity is available to all at 100–1,000 times the speed of cur-
+rent UK broadband and at a fraction of the cost.
+  ONE-Manchester’s idea of turning the digital divide into a digital dividend has
+been about enabling everyone in the community, no matter how excluded and
+disadvantaged, to gain a stake in the knowledge economy and to use this as a
+means to provide themselves with a better life, particularly in terms of work,
+skills, and health.
+===== PAGE 7 =====
+11  Manchester as a Digital Powerhouse: Governing the ICT-Related Developments       197
+
+
+  The ﬁrst stage of ONE-Manchester’s journey of transformation began by
+focusing on local communities. Examples from New East Manchester (Eastserve)
+and eTameside demonstrated the potential of community-led ICT programs, the
+achievements of which can be attributed to user-generated online content. The
+ONE-Manchester project would therefore draw upon the successes of these local
+projects to develop a new set of services designed both by and for the user commu-
+nity of citizens and businesses.
+  The next stage saw the development of a new tool, aimed at providing everyone
+with the digital technologies able to transform their lives. ONE-Manchester was,
+therefore, about building on the city’s experiences and using the partners’ proven
+track records in delivering projects which transform lives. This started by taking
+people’s real experiences of both the challenges and the beneﬁts of using technolo-
+gies in this way, illustrated through a series of user journeys based on archetypes
+developed through community engagement and consultations.
+
+
+
+11.3.4  Stakeholder Accounts of the Emerging
+       Governance Structure
+
+
+Here, the comments of the key stakeholders involved in these ICT-related develop-
+ments and affected by the emerging system of governance are reported on. These
+are drawn from a series of structured interviews with 30 members of Manchester’s
+academic,  industrial, and administrative communities undertaken  in between
+December 2010 and January 2011. All questions were set in advance by IPPT, with
+interviews conducted by Edinburgh Napier University. Responses to the question-
+naire are grouped according to the sector of the community represented. The inter-
+views were designed to capture the experiences of those within the said communities
+who had been involved in the ICT-related developments, so as to solicit their views
+and opinions on the emerging system of governance. The stakeholders were sent
+the loosely structured and open-ended questionnaires prior to the interviews and
+asked for their comments on the questions posed. Given the strategic nature of the
+developments, the interviewees were encouraged to offer a “high-level” account of
+their experiences.
+  Reﬂ ective in nature, the objective of the interviews was to track what might be
+best referred to as the discursive elements of the ICT-related developments and to
+generate critical insights into the emerging governance systems. It was anticipated
+the insights gleamed from this exploration would not only complement the wider
+comparable study but also make a constructive contribution to the formation of
+policy on the development of such systems across Europe. How the questionnaire,
+loosely structured interviews, high- level accounts, discourse, and critical insights
+both complement the wider study and also make a constructive contribution to
+European policy on the development of such governance systems is reported in
+===== PAGE 8 =====
+198                                                      M. Deakin et al.
+
+
+Misuraca et al. ( 2011 ). What follows restricts this account of the developments and
+emerging governance systems to the City of Manchester.
+  The questionnaire is formative in nature, designed to review the developing sys-
+tems from the perspectives of the key stakeholders, cross-reference their accounts,
+and authenticate them as part of a triangulation of the underlying discourse on ICT-
+related city governance. Unlike most questionnaires, it focuses on the experience of
+the intermediatory stakeholders responsible for developing the city governance sys-
+tems rather than the user community consuming the services in question. This is
+because the underlying purpose of the questionnaire is to offer a discursive analysis
+of the developments and contribute to the ongoing review of the city governance
+systems emerging across Europe (EUROCITIES 2011).
+   In view of this, what follows does not attempt to offer a detailed account of the
+questionnaire, the views, opinions, and comments received from the interviews as
+some kind of verbatim account of the exchanges. Instead it follows the logic of the
+exercise by offering excerpts of the responses that manage to both draw attention
+to and also analyze the discourse as part of an emerging semantic on the city gov-
+ernance system(s). The questionnaire used for the interviews  is  set out in
+Appendix.
+
+
+
+11.3.5  The Academic Community
+
+
+Representatives from the academic community cited the obvious advantages of ICT
+in enhancing the services Manchester offers the city. They acknowledged changes
+to the internal machinery of governance, such as the committee meetings, planning
+applications, where online document repositories, e-mail document circulation, and
+shared databases have led to increased efﬁciency and transparency. Interviewees
+also noted that many of the city’s services now offer online information and support
+and commented on what they saw as the city’s attempts to engage residents via ICT-
+enabled resources. However, all of the academic interviewees commented on digital
+exclusion in Manchester as a key barrier to the city using ICTs to engage the com-
+munity in decision-making. One respondent commented that, due to the extent of
+the “digital divide” in Manchester, “online isn’t going to replace paper any time
+soon.” It was generally expressed that digital exclusion is part of a far wider prob-
+lem facing the governance of Manchester, namely, the continued socioeconomic
+deprivation experienced by a large proportion of city residents.
+   All of the academic respondents commented on the “pockets of good practice”
+in digital skills initiatives across the city, mentioning Eastserve, EVHs, and the
+work of MDDA in supporting business-related IT developments. The coordination
+of these small projects was questioned, in that the respondents were unclear as to the
+city’s overall strategic direction in terms of rolling out some of the piloted services
+to the rest of the city, with one respondent suggesting that the “profound lack of
+coordination” (at senior management level) was to blame.
+===== PAGE 9 =====
+11  Manchester as a Digital Powerhouse: Governing the ICT-Related Developments       199
+
+
+   All respondents agreed that Manchester has responded well to “the Internet
+revolution” and that the city has been successful in attracting new investment.
+Indeed, the growth of “media-based activities” was seen as pivotal to the evolution
+of Manchester as a postindustrial city. One respondent commented on the impor-
+tance of the city’s investment in the broadband infrastructure, noting that it contrib-
+utes toward making the city more competitive. Communities were also highlighted
+as beneﬁ ciaries of new digitally enabled services, in that such organizations are
+able to function more efﬁ ciently using technology. However, one respondent noted
+that, to their knowledge, evidence suggests that community organizations only
+make use of basic technologies to function more coherently rather than more
+complex applications.
+  The academics did not, in general, feel that there was much evidence of enhanced
+citizen engagement using ICTs. One felt there is a problem with participation in
+general, in that it is currently difﬁ cult for citizens to become involved in local stra-
+tegic partnerships, but did feel that ICTs could make a difference by enabling intel-
+ligent, informed conversation among all kinds of stakeholders. Another commented
+that, despite the city’s attempts to tackle the digital divide, “the impact [in terms of]
+increasing skills and reducing unemployment are not apparent.” It was suggested
+that the city needs to work on building residents’ capacity to be involved in the
+management of their neighborhood rather than simply developing ICT-enabled gov-
+ernance services.
+
+
+
+11.3.6  Industry and Local SME Sector in Particular
+
+
+Representatives from local SMEs made little comment upon the impact of ICTs on
+regulatory and legal frameworks, but did note that they felt further work needed to
+be done on this front. One interviewee felt that Manchester could use legislation to
+enforce sections of the city’s digital plan, such as on the issue of inclusion, suggest-
+ing that any business wishing to build, for example, a wireless network in the city
+could be encouraged to implement something similar in another, perhaps in a less
+“digitally enabled” part of the city, to create a more balanced approach.
+   In general, the SMEs saw the British model of “siloed” governance as a barrier
+to the “radical” transformation they thought ICTs could offer. They agreed that cit-
+ies have the potential to play a signiﬁcant role in the “information society,” but felt
+the City of Manchester to be relatively slow in developing and implementing its
+digital strategy. The SMEs interviewed had all been engaged in collaborative work
+with the city, largely in delivering social inclusion projects. All were very support-
+ive of the MDDA and its role in driving innovation, particularly in the work it under-
+takes to support the city’s SMEs in acquiring the skills they need to survive in the
+“digital age.”
+  The interviewees recognized the successes the MDDA has achieved in pilot proj-
+ects, such as Eastserve, but were keen to point out that innovative ICT projects tend
+===== PAGE 10 =====
+200                                                      M. Deakin et al.
+
+
+to be localized and that Manchester does not appear to be coordinating the rollout
+of ICT-driven services across the city. Again, this was seen to be the responsibility
+of senior management within the city who, the interviewees felt, ought to ﬁrmly
+embed the digital agenda within the city’s main development strategy and to “drive
+change from the top.”
+
+
+
+11.3.7  The City’s Administration
+
+
+Interviewees from the City of Manchester’s administration felt that ICTs had sig-
+niﬁcantly impacted upon the day-to-day running of the city administration. In par-
+ticular,  the  city  representatives  highlighted  the  increased  efﬁciency  of  the
+organization, in that ICTs have allowed the city to reduce its workforce over the last
+20 years and automate formerly resource-intensive procedures. The new “self-
+service” web channels, enabling residents to interact with the city online, were cited
+as “quicker and more efﬁ cient and get the job done more easily,” as opposed to the
+high cost attached to face-to-face work. One representative noted that the savings
+made in automating certain city services enabled the administration to use these
+savings in engaging with those residents who require the most support. All the city
+representatives felt that ICTs offer the potential for the city to make fundamental
+changes to service delivery, but cautioned that a large number of the city’s residents
+are “still digitally excluded.” One representative mentioned a study undertaken by
+the University of Manchester where approximately two thirds of the residents
+approached stated that they still preferred telephone or face-to-face interaction with
+the city, suggesting that there are issues other than lack of Internet access behind the
+poor take-up of online services.
+   In addition to ICTs enabling more efﬁ cient customer services, city representa-
+tives discussed the changes to the back-ofﬁ ce structure and working practices of
+the administration. In 2009 the city appointed an acting CIO from the private sec-
+tor; under their leadership, Manchester’s IT Service was moved from within the
+Department of Finance to the Department of Transformation and the city’s digital
+strategy was devised. This digital strategy explicitly connected the issues of back-
+ofﬁ ce systems/front-ofﬁ ce online service delivery with digital exclusion, clarify-
+ing the key role of MDDA as the driver of social and economic regeneration by
+way of and through the use of digital technologies. All of the interviewees men-
+tioned the ICT problems the city has experienced in recent years, namely, the
+Conﬁ cker virus attack of 2008/2009 which was costly and time-consuming to
+rectify.
+  Mobile working was cited as a good example of the advantages of ICT imple-
+mentation. City staff whose work is based within a speciﬁ c neighborhood are now
+able to work within that neighborhood rather than working from a desk in the town hall.
+One interviewee mentioned the refurbishment of the town hall, which is currently
+underway, and cited  it a good example of the city taking the opportunity to
+===== PAGE 11 =====
+11  Manchester as a Digital Powerhouse: Governing the ICT-Related Developments       201
+
+
+modernize the working environment. Staff have been moved into a new building for
+the duration of the refurbishment, and this new building is designed for a mobile
+workforce: it is open-plan and all desk space is available for any staff member to
+use. The city’s ICT setup allows any staff member to log in to any of the PCs, and,
+crucially, there are fewer desk spaces than there are staff “on the basis that most
+people are out-and-about delivering services.” Staff working outside of the ofﬁce
+use mobile phone and smartphone technologies to connect to the documents they
+require. The promotion of mobile working has resulted in signiﬁcant savings, and
+the newly refurbished town hall will be designed and equipped to support this mod-
+ernized working environment.
+  The advantages ICT-enabled services bring to citizens are largely related to
+their ability to access information online. The interviewees felt that the city’s role
+is “to keep people informed … ensuring that our citizens have access to informa-
+tion.” One respondent mentioned that key committee documents are now posted
+online, such as agendas and minutes, thus opening up the decision-making pro-
+cess to greater public scrutiny. Another mentioned that some city services now
+make use of social networking tools to keep in touch with customers and to get
+feedback on services, citing the Library Service and their use of Twitter and
+Facebook as an example. All interviewees mentioned the Leader’s Blog as an
+example of the city harnessing social networking to open up a “direct communica-
+tion link” to the top of the council. Through his blog, the Leader is open to ques-
+tions and  criticisms, which  city representatives  felt contributes toward the
+increased transparency of the organization. There does not seem to be much inter-
+est in using ICTs to enhance public consultations. Representatives mentioned that
+pilots had very limited take-up and that, “rightly or wrongly, politicians regard
+[this] as tokenistic.” Interviewees felt that the city has strong governance struc-
+tures in place for public consultation and that it was more important to ﬁ nd the
+most appropriate ways of engaging with people, in a wider sense, than simply
+looking at ICT-enabled options.
+
+
+
+11.4  Focus on the Next Generation Digital City
+
+
+Acting on the success of this policy framework, the City of Manchester took the
+decision in 2007 to consolidate their governance model. They stated, in Mycio and
+Carter (2008), that
+
+   In January 2007 Manchester City Council submitted the ONE-Manchester Partnership
+    Digital Challenge proposal to Government with plans for developing: “universal, affordable
+   next generation broadband access” which “is essential to connect all residents and busi-
+   nesses of the Manchester City-region to the social, educational, informational and eco-
+   nomic opportunities they deserve.” (p. 5)
+===== PAGE 12 =====
+202                                                      M. Deakin et al.
+
+
+  ONE-Manchester did not win the Digital Challenge competition,2 instead taking
+the “highly commended” runner-up place, but preparation for the bid included the
+creation of a Manchester Digital Strategy with a vision of creating the city region as
+
+   the most advanced ‘next generation’ connectivity in the UK, providing a sustainable base
+    for high growth business, innovation, transformational public services and an inclusive
+   knowledge society. (p. 5)
+
+  The digital strategy and its proposals for a “Next Generation Digital City”
+(Mycio and Carter 2008 ) aim to provide accessible and affordable broadband
+which is based on the proven state-of-the-art capabilities of ﬁ ber and advanced
+wireless, as is currently being rolled out across continental Europe. The strategy
+continues to underline the “ONE-Manchester” notion of “turning the digital divide
+into a digital dividend,” enabling everyone in the community, no matter how
+excluded and disadvantaged, to gain a stake in the knowledge economy and to use
+it to provide themselves with a better life, particularly in terms of work, skills, and
+health (Carter 2009 ).
+  The Digital City proposal is aimed at transforming Manchester into a “world-
+class exemplar” of how digital technologies can be used to support economic
+growth, continue the transformation of public services, tackle the digital divide, and
+create “inclusive sustainability.” The key driver behind the project is investment in
+next-generation Internet connectivity, namely, ﬁber to the premises (FTTP) and
+advanced wireless. These technologies, particularly FTTP, are currently utilized by
+cities across Europe, providing the city with a number of case studies in the use of
+the technology and emerging business models: knowledge and experience the city
+intends to harness in its analysis of the technological options available.
+  The creation of “digitally inclusive sustainable communities” remains at the core
+of the Digital City project. The digital strategy (Mycio and Carter 2008) states that
+the project
+
+ … includes enhancing the ‘sense of place’ with digital technologies, being proactive in
+   determining what a particular place, both individual neighborhoods and the city as a whole,
+   needs and what kind of infrastructure and investment is required to meet those needs. We
+   want to ensure that next generation connectivity is, on the one hand as advanced and future-
+   proofed as possible based on the ‘open network’ principle, and on the other as accessible,
+   affordable and inclusive as possible. (p. 7)
+
+  The city’s initial objective is to develop the new high-speed Internet network in
+phases starting in the Oxford Road Corridor and its wider area of beneﬁt, the Central
+Manchester Regeneration Partnership area. This will deliver next-generation con-
+nectivity to residents, businesses, and institutions to support job creation, skill
+development, business growth, and transform service provision. Further develop-
+ment to expand the network, starting with East Manchester, including the creation
+of a major Internet Hub, supporting a creative industries cluster at Central Park, will
+be planned concurrently with the Oxford Road Corridor program in order to maximize
+local beneﬁt.
+
+
+2 Sponsored by the national government’s Department for Communities and Local Government.
+===== PAGE 13 =====
+11  Manchester as a Digital Powerhouse: Governing the ICT-Related Developments      203
+
+
+  The city continues to work at national level within the DC10plus network,
+founded from the ten local authorities involved in the 2007 Digital Challenge
+competition. The network’s vision is to promote technology and innovation as an
+agent for empowering people and connecting communities. Manchester coordi-
+nates the network’s next-generation connectivity work-stream, focusing on devel-
+oping a Living Lab model as a test bed for the development of a “Broadband
+Atlas” (ONE- Manchester 2007 ). The Atlas represents an effort to map out broad-
+band supply issues and to stimulate feedback regarding the needs and desires of a
+broad user community.
+
+
+
+11.4.1   Activities and Results
+
+
+The digital strategy also sets out to enhance the achievements made in the trans-
+formation of the city’s physical infrastructure over the past decade. This includes
+adding  value  to  achievements made  with  inward  investment,  including
+MediaCityUK, but also allowing for very rapid expansion for other development
+sites within Manchester itself, especially in key regeneration areas such as East
+Manchester. In addition the Next Generation Digital City proposals focus on ways
+that digital inclusion would support the development of sustainable communities,
+including new intelligent “eco-solutions” that would have a positive impact in
+areas such as energy management, more sustainable mobility, teleworking, and
+telecare applications.
+  The delivery of next-generation ﬁ ber broadband to the regeneration program is
+of fundamental importance. The rollout is phased, with initial installation to 1,500
+homes and businesses in 2010. The immediate impact for the resident and busi-
+ness community is speed of Internet connectivity: the ﬁ ber-optic infrastructure
+promises a minimum of 100 MB per second for both downloading and uploading.
+The services are available from different providers—in developing an open-access
+network, this digital infrastructure known as “Corridor Manchester” enables all
+service providers to lease the optical ﬁ ber to provide services to their customers,
+including TV, telephone, and other data services. In addition to paid services,
+Corridor Manchester anticipates that some services and applications can be free
+and intend to deliver innovative public services over the network, such as telecare
+which would allow patients to connect to their healthcare provider via video link,
+allowing patients to monitor their health and notify results via the phone line
+(Corridor Manchester 2010a , b ).
+  The infrastructure itself is intended to encourage innovation by allowing any user
+to experiment and test content, in a manner likened to income-generating iPhone
+apps. MDDA currently offers free events on using digital technologies for the vol-
+untary and community sectors.
+===== PAGE 14 =====
+204                                                      M. Deakin et al.
+
+11.4.2  Impacts on City Governance Developments
+
+
+From the interviews undertaken, urban regeneration was cited by a number of inter-
+viewees in terms of exemplifying Manchester’s strong partnerships with the private
+sector. One city representative spoke of the city as a hub of intelligence and infor-
+mation and that the city’s approach is to view everyone as a stakeholder, with the
+duty to work together “for the good of the whole city.” An interviewee from the
+business sector in Manchester echoed this, reporting on their own involvement in
+local collaborative projects. These include delivering “digital inclusion projects” in
+the more deprived neighborhoods, such as social media workshops.
+   Representatives from the City of Manchester reiterated their commitment to the
+development of a strong working relationship between the business sector, university,
+and community organizations. One example provided of this was the Academies
+program, where the city recognized the skills and experiences of the private sector in
+delivering education and sought their inﬂuence in the design of the Manchester
+Academies model. The transformation of secondary education marks a strategic
+response to the pattern of low educational attainment and lack of skills across
+Manchester’s population and reﬂects the city’s efforts to prepare young people for the
+“knowledge-intensive” employment opportunities available within the city center.
+   Five new academies have now been built as a result of the £146 m investment.
+Each academy is sponsored by an industrial partner, from sectors the city describes
+as, “reﬂecting future growth.” One of the representatives from the private sector (an
+SME) also highlighted the new Academies model as being “progressive” in terms
+of the investment in, and deployment of, new technologies. These include a system
+whereby parents can monitor their child’s progress and a cashless biometric thumb
+print scanner for school lunch payments, in addition to investment in mobile com-
+puting technology such as palmtops, pocket PCs, and netbooks. The Academies
+model is to be rolled out across all the city’s secondary schools, with each extending
+its opening hours enabling community-wide access to the facilities on offer. The key
+objective in opening the newly refurbished schools to the parents and wider com-
+munity is to reach people who may not have access to, or knowledge of, ICTs and
+to enable them to use online city services.
+  The city’s commitment to partnership with its neighboring local authorities is
+now formalized: the unitary area of Greater Manchester, also known as the
+Manchester City Region (coordinated through the Association of Greater Manchester
+Authorities), became a formal administered combined authority in April 2011.
+Essentially, this constitutes a devolution of powers from the national government to
+the new authority, including transport, housing, skills, and regeneration. One city
+representative explained that working as a combined authority, the local authorities
+could pool their resources “for the common good”: pilot projects are currently
+underway in neighborhoods across Greater Manchester, trialing new methods of
+delivering public services to families experiencing worklessness.
+===== PAGE 15 =====
+11  Manchester as a Digital Powerhouse: Governing the ICT-Related Developments      205
+
+11.5  Key Findings
+
+
+In line with the recommendations made by Fourkas (2002 ), the governance model
+adopted by the City of Manchester has sought to:
+   Build upon the success of the 2007 Digital Strategy by providing accessible and
+affordable broadband, based on the proven state-of-the-art capabilities currently
+being rolled out across Amsterdam and Paris.
+  The Digital Strategy continues to underline the ONE-Manchester notion of turn-
+ing the digital divide into a digital dividend; enabling everyone in the community,
+no matter how excluded and disadvantaged, to gain a stake in the knowledge econ-
+omy and use it as a means to provide themselves with a better life, particularly in
+terms of work, skills and health.
+  The recent Digital City proposal is aimed at transforming Manchester into a
+“world-class exemplar” of digital technologies supporting economic growth, trans-
+forming public services, tackling the digital divide and creating “inclusive sustain-
+ability”. The key driver behind the project is investment in next-generation internet
+connectivity, namely ﬁber-to-the-premises (FTTP) and advanced wireless. These
+technologies, particularly FTTP, are currently utilized by cities across Europe,
+thereby providing the City with a number of case studies in the use of the technol-
+ogy and emerging business models; knowledge and experience it intends to harness
+in its analysis of the technological options available.
+  The strategy adopted further enhances the achievements made in the transforma-
+tion of the city’s physical infrastructure. This includes adding value to achievements
+made with inward investment, including MediaCityUK, but also allowing for very
+rapid expansion for other development sites within Manchester itself, especially in
+key regeneration areas such as East Manchester. In addition to this, the strategy also
+focuses attention on how digital inclusion can support the development of sustainable
+communities, including new intelligent ‘eco-solutions’ themed around: energy
+management, mobility, teleworking and telecare applications.
+   These developments are of particular interest for the reason they signal a policy
+shift from the entrepreneurial approaches driving developments embarked upon dur-
+ing the 1990s and towards a model of local government-led actions. For with the
+latest phase of development (2004 onwards) the City begins to see the emergence of
+infrastructures not as platforms servicing the market but for governing them on
+behalf of the community. Here, the market’s hold over the development starts to
+wither away as part of the transition to an electronically-enhanced governance model
+with the capacity to coordinate, steer and assemble the means needed for communi-
+ties to access such infrastructures and platform of services they offer. The City of
+Manchester’s experience of these developments suggests there are three components
+key to their success. These are: access, infrastructures and services and, in particular,
+user-friendly access to the underlying infrastructures and platform of services.
+   These bottom-up developments have been successful in targeting the speciﬁc
+social requirements of communities. Community stakeholders are invited into part-
+nerships whereby they can coordinate and steer delivery of the available services
+===== PAGE 16 =====
+206                                                      M. Deakin et al.
+
+
+and at the same time learn from similar case studies from across Europe. The suc-
+cess of these community-level interventions has led to the development of a more
+extensive platform of web services, representing an attempt to close the gap between
+what the market offers and what the community needs, particularly in terms of
+employment opportunities, education, housing, and crime prevention. Efforts were
+made to close the gap between the levels of service provision both within neighbor-
+hoods and across the city, by basing them on the same set of standards.
+  While these developments have been embodied in the digital strategy’s proposal
+to turn Manchester into “digitally inclusive sustainable communities,” it is evident
+that changes to the governance system and anticipated socioeconomic changes they
+are having  are  not  universally accepted  across  the  stakeholder community.
+Representatives from the academic community suggested there was too little evi-
+dence to suggest that the city’s digital inclusion agenda has had any real impact
+upon socioeconomic deprivation, or community empowerment, with one inter-
+viewee commenting
+
+  My own feeling is that most technologies reproduce and perhaps even magnify the kinds of
+    inequalities that already exist in society, and the transformative power of ICTs … is not
+   empirically obvious, and I would be skeptical.
+
+   Another commented that
+
+ … despite all the speciﬁc policies the actual impact, in terms of increasing skills and reduc-
+   ing unemployment, is not apparent.
+
+  The academics expressed concern at the enduring socioeconomic deprivation in
+the city, referring to the “doughnut of decay” surrounding the (largely regenerated)
+city center. It was suggested that
+
+ … ICTs can become a palliative and the real problem is poverty … palliatives may have
+   some effect but they don’t get to the root of the problem and they certainly don’t “solve” the
+   problems that they are touted as being part of the solution for.
+
+  Some representatives from the business community remained skeptical of the
+city’s commitment to its digital strategy. One interviewee felt that the city viewed
+technology as a “threat” and that “they will only [use ICT] to improve public ser-
+vices as long as it doesn’t impinge on their own power and authority,” going on to
+make the point that
+
+ … by engaging with ICT infrastructure what you’re actually saying is “we’re prepared to
+   govern in a different way”. I don’t think we have a civic leadership that is prepared to accept
+    that.
+
+   Another interviewee from the business community envisaged a more transac-
+tional model of governance, commenting
+
+    I’d like to see much more information made available so people can start to make decisions
+   about how their communities are run and organized. If they succeed, maybe the Council
+    will trade something.
+===== PAGE 17 =====
+11  Manchester as a Digital Powerhouse: Governing the ICT-Related Developments      207
+
+
+   Manchester’s deployment of ICTs has met with considerable success. The ICT-
+related governance of the city is in many respects exemplary. Over the past 15 years,
+the city has pioneered the shift from an entrepreneurial model of ICT-related gov-
+ernance to a community-based solution able to support Manchester’s high-proﬁ le
+urban regeneration strategy. Targeting the city’s social, environmental, and eco-
+nomic aspirations, the growth, competitiveness, and cohesive qualities of this
+community- based governance model are at the forefront of the drive toward digital
+inclusion.
+  MDDA has been key in developing the platforms servicing this ICT-related gov-
+ernance model and innovative features this brings to the city. Nowhere is this cur-
+rently better exempliﬁed than in the Next Generation Digital City Strategy adopted
+by the administration to transform the city into a “world-class” exemplar of digital
+technology with the capacities and physical infrastructure developments needed to
+meet Manchester’s social, environmental, and economic aspirations. Examples of
+this transformation are found in the development of New East Manchester and
+MediaCityUK and the Oxford Road Corridor, now forming  part of Central
+Manchester’s Regeneration Partnership.
+
+
+
+11.6  Conclusions
+
+
+Given the highly innovative nature of these infrastructural developments, research
+clearly needs to continue and provide the means to support the signiﬁcant foresight
+developments of the kind outlined in this chapter exemplify.
+   Cutting across all aspects of infrastructure development, the research challenges
+they posses are notable. Encompassing ﬁ ber broadband rollout, platform develop-
+ment and service provision, shall require a multitude of hardware developments,
+supported by middleware service platforms and software supporting their delivery.
+It is therefore important to properly theme the research effort and package it so the
+technical and managerial expertise of the city can be harnessed alongside the major
+consultancies in the ﬁeld. This shall require a further consolidation of the efforts
+made to draw funding from national and international sources and mainstream them
+into the EU’s IST programs in particular.
+  From the interviews conducted, the stakeholders question how best to integrate
+these developments into the city’s own service platforms. For while many of the
+interviewees noted the considerable progress Manchester is making to establish
+itself globally as a Digital City, the existing rollout and distribution of the technolo-
+gies across the administration is patchy. This suggests there is a need to redress
+the current balance between the more outward-facing components of the Next
+Generation Digital City Strategy and use them as a means to support the integration
+of the administration’s public service into this platform. For while some examples
+of how this is to be done with the likes of healthcare are available, many of the
+===== PAGE 18 =====
+208                                                      M. Deakin et al.
+
+
+representatives interviewed were of the opinion that this integration should be main-
+streamed across all areas of service provision and therefore include health, educa-
+tion, and housing.
+   This suggests the challenge which the legacy system poses for Manchester’s
+Next Generation Digital City Strategy should be prioritized as a research challenge,
+so that claims about their digital inclusivity can be substantiated, not so much in
+terms of leading edge innovation, but in their diffusion and systematic integration
+into the emerging infrastructure.
+  Some of these research challenges include:
+
+•  Back-ofﬁce integration of services, provided across the administration by way of
+  and through a platform able to augment existing provision in line with the techni-
+   cal standards and semantic deﬁ nitions emerging to support the next-generation
+  ﬁber broadband infrastructure.
+•  Use of the said infrastructure to bundle the city’s service provision around recog-
+   nized themes, themselves related to user needs.
+•  Augmentation of these service bundles via appropriate middleware supporting
+   multichanneled access and packaged to users situated at the front end.
+•  The development of the city portal as a “single destination point” for service
+   provision across the public domain.
+•  Use of the portal to develop the city’s current level of service maturity, focus-
+   ing on the augmentation of provision from the level 3 (transactional) to 4 and
+  5  (the transformational-government stage of development). Those ICT-
+   related developments needed for Manchester to materialize the efﬁ ciency
+   gains any mainstreaming of such e-democracy-based service models offer
+   administrations.
+•  The formation of an action plan for rolling out this digitization of the city’s ser-
+   vices and diffusion of the technology to support this.
+•  The need to baseline these developments and use such proﬁles of service
+   provision as a means to monitor and evaluate what regeneration actions, like
+   those exempliﬁed by the Oxford Road Corridor, contribute to the city.
+•  The selection of indicators able to measure the performance of such develop-
+   ments in social, environmental, and economic terms and capable of assessing
+  what they contribute to growth, competitiveness, and cohesion.
+•  The types of partnership agreements best suited to manage such developments
+   across the city and knowledge infrastructures able to sustain the improvements
+   they offer Manchester.
+
+  From the strength of the comments received on the experiences of Manchester as
+a Digital City, it would seem appropriate to apply the innovations embodied in these
+developments to create a policy commitment that is shared across the administra-
+tion. In particular, that is shared in terms of an agreed development plan, program
+of work, set of tasks, and resource base which can be made available to fund their
+implementation.
+===== PAGE 19 =====
+11  Manchester as a Digital Powerhouse: Governing the ICT-Related Developments      209
+
+Appendix: Interview Questions
+
+
+Section 1: General
+
+
+ 1. What do you consider to be the main challenges those responsible for govern-
+    ing Manchester face?
+ 2. What are the main social and economic challenges Manchester currently faces?
+ 3. How is the city responding to them?
+ 4. What particular action is Manchester taking? Please give examples.
+ 5. What is your organization doing to meet these challenges?
+ 6. What guidelines do you follow in taking in acting on these challenges?
+ 7. What are the aims and objectives of any such actions?
+ 8. What main tasks are you currently involved with?
+ 9. How will completing these tasks change the perception of the Manchester?
+10. How shall they improve the image of the city?
+11. How will these improvements promote a positive image of the city?
+12. How does all of this lead to the perception of Manchester as a “well-governed”
+     city?
+
+
+
+Section 2: ICT Developments Within the City
+
+
+ 1. What role can cities play in “information society”?
+ 2. How can ICTs enhance life in the city? In Manchester in particular?
+ 3. Have there been any changes to the governance structure of the city (resulting
+    from ICT developments)? If so, how have these changes affected:
+
+     (a) Businesses
+     (b) Citizens
+     (c) Community organizations
+
+ 4.  [If there haven’t been any noticeable changes to date, what changes can you
+     predict, and how might they affect the above groups?]
+ 5. How have these changes affected the quality of service delivery, and what evi-
+    dence is there to support this (if available)?
+ 6. Have these changes affected residents’ satisfaction in service delivery, and what
+    evidence is there to support this (if available)?
+
+     (a) Can you give an example of any opportunities and challenges that can be
+        identiﬁed as a consequence?
+     (b) What should the city do to respond to these?
+     (c) What is it currently doing?
+===== PAGE 20 =====
+210                                                      M. Deakin et al.
+
+
+ 7. Does the city have an ICT action strategy? Can you provide any further infor-
+    mation on the development of this?
+ 8. How is ICT used within the city administration?
+
+     (a) How has this evolved?
+
+ 9. What is your opinion of the current ICT setup within the administration of the
+     city?
+10. Has there been a change to the decision-making process within the city? If so,
+    can you provide an example?
+
+     (a) How has this affected your work?
+
+11. How do you keep yourself informed, with regard to the impact of ICTs on the
+    administration of the city?
+12. Which topics do you feel well informed on, and which would you like to know
+   more about?
+13. How has the city/your department worked to train employees on new ICT
+    developments?
+
+     (a) Do you have any feedback on this?
+
+
+
+Section 3: ICT-Enabled Changes in the City Governance System
+
+
+ 1. What changes have ICTs contributed to the current governance model in
+    Manchester and in what respect have these changes been made apparent? Please
+    give reference to speciﬁc procedures and tasks that have been affected by such
+    changes.
+ 2. Would you expect subsequent ICT systems to further impact upon governance
+    processes in Manchester?
+ 3. In the last 5 years, what have been the main ICT developments that have led to
+    the current model of governance used in the administration of Manchester
+    today?
+ 4. With respect to the impact that ICTs have had on the administration of
+    government processes, which individuals/groups are driving this change and
+    making the key decisions?
+ 5. In your own role, what capacity do you have to inﬂuence the uptake of ICTs and
+    subsequently shape the governance model in Manchester?
+ 6. In making such decisions, which other individuals and groups are consulted?
+ 7. What would you say are the main problems experienced by the current model
+    of governance used in the administration of Manchester today?
+ 8. With reference to ICT developments, please outline the extent to which citizens
+    currently participate in the current model of governance in Manchester today?
+ 9. What could be done to improve such citizen participation?
+===== PAGE 21 =====
+11  Manchester as a Digital Powerhouse: Governing the ICT-Related Developments       211
+
+
+10. With reference to the current model of governance in Manchester, have there
+    been any notable developments that have been primarily driven by the emer-
+    gence of ICT?
+11. What do you think are the opportunities and challenges that exist for the further
+    application of ICT-enabled governance in Manchester?
+12. How do you see yourself participating in the future ICT-enabled model of
+    governance in Manchester?
+13. In the short term, what improvements to the current model of governance in
+    Manchester could be initiated (primarily) with the support of ICTs?
+
+
+
+Section 4: Socioeconomic Implications
+
+
+1. How is the city’s use of ICTs helping to regenerate Manchester?
+2. What are the main drivers behind this ICT-related regeneration?
+3. What do you think is making such a regeneration of the city possible?
+4. What do you consider to be any possible barriers to Manchester’s regeneration?
+5. What do you consider to be the main risks in the actions the city is taking to
+   regenerate Manchester?
+6. How is the city making sure the regeneration of Manchester is well governed?
+7. Do you think what Manchester is doing can be said to be a model of “good gov-
+   ernance” and other cities would be wise to follow?
+
+
+
+References
+
+
+Carter D (2009) eGovernment: turning the digital divide into the digital dividend in Manchester
+   (UK). In: Geyer H (ed) International handbook of urban policy, vol 2. Edward Elgar,
+   Cheltenham. doi:10.4337/9781849802024.00018
+Corridor Manchester  (2010a) Annual  review 2009–2010.  Retrieved 2010 from  Corridor
+   Manchester.   http://www.corridormanchester.com/_ﬁlestore/corridormanchester/cm-annual-
+   review-09-10-pdf/original/CM_annual_review_09_10.pdf
+Corridor Manchester (2010b) Review of strategic vision to 2020. Retrieved 2010 from Corridor
+   Manchester.  http://www.corridormanchester.com/_ﬁlestore/corridormanchester/cm-strategic-
+   vision-2020-pdf/original/CM_strategic_vision_2020.pdf
+Deakin M (2007) From the City of Bits to e-Topia: taking the thesis on digitally inclusive regenera-
+    tion full circle. J Urban Technol 14(3):131–143
+Deakin M (2009) The IntelCities community of practice: the eGov services model for socially
+    inclusive and participatory urban regeneration programs. In: Reddick C (eds) Handbook of
+   research on strategies for local eGovernment adoption and implementation: comparative stud-
+    ies. IGI Global: Hershey, p 83–104. doi: 10.4018/978-1-60566-282-4.ch005
+Digital Cities (2010) Manchester: where did we want to go. Digital Cities Portal. http://www.dc-
+   portal.eu/web/guest/manchester-where-did-we-want-to-go
+EUROCITIES (2011) Exploring ICT-enabled governance models  in EU  cities. European
+   Commission, Joint Research Centre (EC, JRC)
+===== PAGE 22 =====
+212                                                      M. Deakin et al.
+
+
+Fourkas V (2002) The development and operation of virtual Manchester(s) 1989–2001. Online
+   Planning Journal. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.15.742&rep=rep
+   1&type=pdf
+Manchester Partnership (2007) Manchester’s state of the city report 2006/07. Manchester City
+   Council, Manchester
+Manchester Partnership (2008) Manchester’s state of the city report 2007/08. Manchester City
+   Council, Manchester
+Manchester Partnership (2009) Manchester’s state of the city report 2008/09. Manchester City
+   Council, Manchester
+Misuraca G,& Esteve O (2010) Exploring ICT-enabled governance models in European cities:
+   a preliminary analysis towards developing a conceptual and measurement policy impact frame-
+   work. 10th European Conference on e-Government. University of Limerick, Limerick
+Misuraca G, Reid A, Deakin M (2011) Exploring emerging ICT-enabled governance models in
+   European cities. JRC-IPTS, Brussels
+Mycio M, Carter D (2008) Implementing the Manchester digital strategy. Manchester City
+   Council, Manchester
+ONE-Manchester. (2007). ONE-Manchester digital challenge bid. Retrieved 12/2010 from
+   Ofcom. http://stakeholders.ofcom.org.uk/binaries/consultations/pspnewapproach/responses/
+   mddads.pdf
+Talukder R, Frost L (2007) Index of multiple deprivation, 2007. Economic Development Unit,
+   Manchester City Council, Manchester
+van den Berg L, van Winden W (2002) Should cities help their citizens to adopt ICTs? On ICT-
+   adoption policies in European cities. Environ Plann C Govern Pol 20(2):263–279. doi:10.1068/
+   c0068
+van der Meer A, van Winden W (2003) E-governance in cities: a comparison of urban informa-
+    tion  and  communication  technology  policies. Reg  Stud  37(4):407–419.  doi: 10.1080/
+   0034340032000074433

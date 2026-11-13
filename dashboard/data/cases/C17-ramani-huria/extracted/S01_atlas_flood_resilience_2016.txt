@@ -1,0 +1,2312 @@
+
+===== PDFPAGE 1 =====
+Public Disclosure Authorized
+Public Disclosure Authorized
+Public Disclosure Authorized
+Public Disclosure Authorized
+
+===== PDFPAGE 2 =====
+
+===== PDFPAGE 3 =====
+
+===== PDFPAGE 4 =====
+Ramani Huria
+The Atlas of Flood Resilience 
+in Dar es Salaam
+
+===== PDFPAGE 5 =====
+
+===== PDFPAGE 6 =====
+Forewords .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 2
+Introduction .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  5
+Project partners and Sponsors .  .  .  .  .  .  . 6
+Project Summary .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 8
+Mapping Approach and Processes .  .  10
+	 Community mapping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+	 Use of UAVs to capture high resolution imagery . . . . . . . . . . . . . . . . . . 11
+ Participatory Flood Prone Inundation Extent Identification . . . . . . . . . . 11
+	 Drainage mapping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+	 Towards Data Driven Inundation Models . . . . . . . . . . . . . . . . . . . . . . . . . 13
+	 Street view mapping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+Maps Section .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 17
+Ward Maps: Ilala .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 18
+	 Buguruni . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+	 Ilala . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+	 Mchikichini . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+	 Tabata . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+	 Vingunguti . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+Ward Maps: Kinondoni .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  38
+	 Hananasif . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+	 Kigogo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+	 Magomeni . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46
+	 Makumbusho . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50
+	 Msasani . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54
+	 Mwananyamala . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58
+	 Mzimuni . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 62
+	 Ndugumbi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66
+	 Tandale . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70
+Ward Maps: Temeke .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 74
+	 Keko . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74
+	 Temeke . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78
+Ward Maps: Ubungo .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  82
+	 Mburahati . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 82
+	 Mabibo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 86
+	 Manzese . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 90
+	 Ubungo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94
+	 Makurumla . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98
+Downtown Mapping: 8 Wards .  .  .  .  .  .  . 102
+Drainage Mapping: 36 Wards .  .  .  .  .  .  .  . 105
+	 Northwestern Area . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 106
+	 Western Area . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 108
+	 Southwestern Area . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 110
+	 Southern Area . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 112
+	 Eastern Area . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 114
+Contributors and Licensing .  .  .  .  .  .  .  .  .  .  117
+Table of 
+Contents
+
+===== PDFPAGE 7 =====
+As head of Urban Planning for Kinondoni Municipal Council – I know how much 
+we need up-to-date maps. Up-to-date maps are valuable tools because, through 
+them, we can identify different opportunities and challenges within the area and 
+the community. Before this project, our base maps were over 20 years old. Since 
+then, a lot of development has happened – and working with those basemaps, we 
+waste more time while even more development is taking place. Most importantly, 
+outdated maps have made it very difficult to educate the people of our city on 
+planning. 
+With this project, with community mapping, we grow with the community step 
+by step – they see their role, we talk to them, we identify the problem together 
+with them and it becomes easier for them to understand. The map is a simplified 
+way of providing open data, where everybody can see and learn. It’s an easier 
+way of communication, especially to the people at community level who come 
+from varying levels of education. The maps can help us to improve accessibility 
+and, through accessibility, other services will come automatically. For instance, 
+improving the water supply will improve solid waste management also improving 
+the overall health condition of the area. 
+With this map, I feel empowered that now if I want to work in our city, I’m working 
+with the already existing situation, and an up to date map. This data is authoritative. 
+This is the best map made of this area, and it belongs to the community. In order 
+to succeed in a community you have to work with the community, they have to 
+understand you and appreciate you. This is what will take them there.
+Going forward, if we can have maps like this for the whole of Kinondoni, we’ll be 
+maybe 20 steps ahead.
+Juliana Letara
+Head of Department of Urban Planning, Kinondoni Municipal Council
+Mussa Natty
+Senior Technical Advisor, Dar es Salaam Regional Commissioner’s Office
+I do a lot of work in Tandale to see it develop in a good way, a planned way. As the 
+head of the ward, the main thing I do to make sure that Tandale is planned is to 
+collaborate with the Department of Planning, to see how we can develop Tandale 
+with a structure. Tandale is currently an unplanned settlement and the hygiene 
+situation is not good – so we need to set a new plan for the new Tandale; we want 
+to see drainage, we want to see new infrastructure in the ward. 
+For planning, we need a lot of things – but firstly, we need maps. Until this project, 
+Tandale hasn’t had a map. People build whatever they want, wherever they want – 
+often in areas that experience flooding. Ever since this project began, I have seen 
+flashes of the new Tandale. Now we have a map and a map is something to start 
+with. We can identify different areas to restructure and improve. It is a roadmap for 
+us to set up new plans, to organize ourselves while involving the community. And 
+the community can have a sense of ownership over our new plan for development. 
+These maps have already helped me to request funding from the Municipal Director 
+to improve on drainage systems in the areas most affected by flooding. Beyond 
+flooding, the maps have also helped us improve the ward’s health and sanitation 
+– allowing us to identify areas where there has been an outbreak of cholera, 
+directing us to the locations of patients.  Since we don’t have a water system 
+in Tandale, cholera outbreaks are associated with well water. With these maps, 
+we can collaborate with DAWASCO to establish pipes and develop a public water 
+system. There are also many social issues that they can address – like identifying 
+areas where we can put schools. In Tandale, we don’t have a secondary school. 
+These maps can help us direct us in placing a secondary school.
+The basic thing is that we want to improve the living standards of the people of 
+this ward because the area seems to be getting worse. Tandale is a forgotten 
+place. There are no roads, no feeder roads, no planning for households, so the 
+best thing to do is to properly plan the settlement of Tandale and to do what we 
+can to improve the living standards for those inhabiting this area. And let’s not end 
+here, because this is just the beginning. We can start with Tandale, but we need to 
+see the whole municipality of Kinondoni. This is the time to change things, and the 
+way to change is to accept this and start.
+Osiligi Lossai
+Executive Officer, Tandale Ward 
+02   Flood Resilience in Dar es Salaam
+ForeworDS
+
+===== PDFPAGE 8 =====
+Using OpenStreetMap to enable community mapping in Dar es Salaam has its 
+roots in a 2011 pilot project in the Tandale ward, known as “Ramani Tandale”. The 
+project demonstrated that a few dedicated individuals – both students and Tandale 
+community members – could generate and manage data about their community 
+well beyond what was previously available to any “expert” inside or outside of 
+Tanzania. It was unclear at the time what the future would bring. With Africa being 
+the fastest urbanizing continent on earth, and Dar es Salaam its fastest growing 
+city, new and innovative approaches would be needed for urban planning and 
+disaster management data to keep pace.
+The kick-off of the Dar Ramani Huria project took place in early 2015. Dar Ramani 
+Huria is groundbreaking in many ways. It expands on the Tandale pilot to not only 
+include over 200 students and community, but truly rely upon their skills to carry 
+out the mapping process. The project has moved from mapping one ward to 
+comprehensively mapping 29 wards and covering an area home to an estimated 
+3.5 million people. It has incorporated Unmanned Aerial Vehicles (UAVs) and a 
+street-view mapping bajaj to increase mapping precision. In summary, it is the 
+largest and most complex urban mapping project in East Africa while being driven 
+almost entirely by students and community members serving as HOT staff and 
+volunteers. Each team member’s desire to put the city or neighborhood they call 
+home “on the map” was multi-faceted. One important, yet little-publicized moti-
+vating factor was that several HOT team members are disaster survivors them-
+selves, having been severely affected by flooding in their family homes. Working to 
+map their city was a powerful way to make the invisible visible and contribute real 
+data for government-led urban planning and disaster management. Dar Ramani 
+Huria not only generated near real-time, comprehensive and detailed flood data 
+and maps. It also transformed residents from victims of disaster to survivors 
+having the capacity and ability to advocate for and affect positive social change.
+Moving forward, an incredible wealth of data now exists on some of the previously 
+least-mapped areas in the country. This data has incredible potential to be used not 
+only for improved urban planning and disaster risk reduction, but also to contribute 
+to achieving the Sustainable Development Goals. Each day, Dar Ramani Huria team 
+members are working to update OpenStreetMap with water, sanitation, and hygiene 
+related map features and add data for more sectors, such as bicycle routes and 
+other sustainable transportation. HOT congratulates the Ramani Huria team on 
+the work to date and looks forward to the many potential uses of the map data 
+in improving life in Dar es Salaam.
+Tyler Radford, Paul Uithol and Innocent Maholi
+The Humanitarian OpenStreetMap Team
+The Tanzania Commission for Science and Technology is the main government 
+advisor on science, technology, and innovation, so the Ramani Huria project is very 
+important to us. It demonstrates the value of science, technology, and innovation 
+in solving community problems. 
+Firstly, Ramani Huria has contributed to the open government initiative and open 
+data, making all collected data available in the public domain. This means that 
+the data can be used by all people to develop their areas and establish necessary 
+socioeconomic programs. We can already see this in its ability to highlight areas 
+of focus for projects in sanitation, health, education, and infrastructure, and there 
+is great potential for this to stimulate job creation on many fronts.
+It is clear to me that demand is rapidly increasing for the services that Ramani Huria 
+has provided. Zanzibar is the best evidence of this - with the request for mapping 
+coming directly from the government. We now also have a request from the 
+Ministry of Works, Transport, and Communication to assist in the mapping of the 
+Kilimanjaro International Airport and a request from the Regional Commissioner 
+of Songwe who is keen to map the area of Tunduma. Within the land sector, the 
+value of these services are being noted by the Land Tenure Program. 
+These requests keep coming in - and the spillover effect is enormous. With this 
+being the first time that state of the art technology like drones have been used 
+in Tanzania - we were quite anxious about how people were going to react. But it 
+has been so well-received, and the presence of this technology has triggered the 
+creation of a large group who have interest in using it in other sectors to provide 
+many different services to our people. 
+I think what is the most important is that we have demonstrated proof of concept 
+for how these things can be done. The demand is there, the question is how can we 
+scale up and how can we integrate these aspects in our normal routine activities. 
+The approach has been very successful - and COSTECH is very keen to use this 
+approach in different parts of the country. We must now share our lessons with 
+other local authorities so that it can take off in a rapid way.
+Hassan Mshinda 
+Director General, Tanzania Commission for Science and Technology (COSTECH)
+Flood Resilience in Dar es Salaam   03
+
+===== PDFPAGE 9 =====
+The American, Danish and Tanzanian Red Cross Societies and Red Cross Red Cres-
+cent Climate Centre have collaborated with the Ramani Huria project through 
+Zuia Mafuriko, Swahili for “Stop Flooding”. Our aim with Zuia Mafuriko has been 
+to support the building of flood preparedness and response planning in Dar es 
+Salaam, understanding how the flood impacts in detail and how municipalities and 
+communities fail to act based on forecasted warnings. From here we can utilize 
+better the available weather forecast information and effectively contribute to 
+preparedness action planning.
+Working closely with municipal councils and communities, networks of community 
+volunteers (Community Disaster Preparedness and Response Teams) have been 
+established. The volunteers are capacitated to equip the communities with knowl-
+edge that builds public awareness of the risks of flooding and assist in response 
+if it should happen. Community members and stakeholder consultations identified 
+flood preparedness actions that have developed Standard Operating Procedures 
+(SOPs) for Forecast Based Financing in flood prone communities, while identifying 
+safe/evacuation areas. The SOPs stipulates specific flood preparedness actions 
+to be taken in response to specific weather forecast.
+We have established connections and collaborations amongst resilience stake-
+holders, and connecting between communities and stakeholders such as Tanzania 
+Meteorological Agency (TMA), Tanzania Meteorological Agency and Dar es Salaam 
+Multi Agency Response Team (DARMAET), Prime Minister’s Office – Disaster 
+Management Department, Scouts, Fire and Rescue Forces and Police Forces 
+resulting in improved information flow, quicker response and improved coordi-
+nation of disasters
+From this foundation of information and response teams, local and city govern-
+ment with community leaders can identify actions that mitigate impact of 
+flooding whether this be through the supplying of pumps or through outreach 
+that empowers and educates on flood resilience.
+Nyambiri Kimacha
+Tanzanian Red Cross Society
+Julie Arrighi
+American Red Cross
+The participatory approach of Ramani Huria across the flood prone communities 
+of Dar es Salaam has collected important and scarce data on the infrastruc-
+ture, schools and other facilities exposed to a risk of flooding. Additionally, it has 
+pioneered techniques and methods for creating flood inundation extents from the 
+historical knowledge of the communities affected.
+By pairing local wisdom with scientific knowledge, Ramani Huria has created 
+different risk scenarios, particularly those related to flooding, that allow for a 
+thorough and accurate assessment - enabling communities, disaster managers, 
+and planners to produce realistic measures for a range of natural events. 
+To strengthen its impact, Ramani Huria collaborated with the Red Cross on their 
+Zuia Mafuriko “Stop Flooding” project. This trained first responders and educators 
+how to use the maps to make positive changes in their community  - by identifying 
+and cleaning drains, establishing new solid waste collection points, and educating 
+communities on the need for flood resilience.
+Ultimately, this project is driving resilience to natural hazards in communities 
+across Dar es Salaam by connecting community members and local knowledge 
+to professionals at local universities and city administration.
+Mark Iliffe and Edward Anderson
+The World Bank
+04   Flood Resilience in Dar es Salaam
+
+===== PDFPAGE 10 =====
+Flood Resilience in Dar es Salaam   05
+Dar Ramani Huria (Swahili for “Dar Open Map”), is a community-based mapping 
+project in Dar es Salaam, Tanzania that builds flood resilience in communities across 
+Dar. This project has trained teams of local university students and community 
+members from throughout Dar es Salaam to create highly detailed local area maps 
+of the most flood-prone areas of the city.
+Every year during the rainy season, Dar is prone to suffering from devastating floods 
+that wipe out roads and take out houses, resulting in a risk to life and infrastructure 
+alike. By collaborating with communities to map residential areas, roads, streams, 
+floodplains, and other relevant features, Ramani Huria is stimulating greater aware-
+ness and engagement in disaster prevention. 
+The maps have been combined with InaSAFe, a free software that enables users to 
+run realistic natural disaster scenarios for better planning and response. As an added 
+benefit, these maps will be publicly available online, available for download on the 
+project website, and also in printed form to the local governing bodies of each ward1.
+Dar Ramani Huria is supported by the World Bank, the World Bank’s Global Facility 
+for Disaster Reduction and Recovery and the Red Cross. The project website, showing 
+current mapping progress and updates on the blog, is at http://www.ramanihuria.org.
+1	 A general map: http://www.openstreetmap.org/#map=15/-6.8105/39.2533. 
+A drainage map: https://api.mapbox.com/v4/hot.683fcd43/page.
+html?access_token=pk.eyJ1I- joiaG90IiwiYSI6IlBtUmNiR1kifQ.
+dCS1Eu9DIRNZGktc24IwtA#14/-6.8015/39.2403
+Introduction
+
+===== PDFPAGE 11 =====
+06   Flood Resilience in Dar es Salaam
+Project partners and sponsors
+Ramani Huria is supported by a broad consortium of both international and Tanzanian 
+supporters, including:
+Ardhi University
+Ardhi University (formerly University College of Lands and Architectural Studies) 
+is a public university in Dar es Salaam, Tanzania. It was established 28 March 
+2007, though it has been offering training for more than 60 years in different 
+status. It provides education in Architecture and Design, Construction Economics 
+and Management, Environmental Sciences and Technology, Geospatial Science 
+and Technology, Urban and Regional Planning, Real Estates Studies, Housing and 
+Information Systems Management.
+Dar es Salaam City Council 
+Dar es Salaam City Council governs Tanzania’s economic capital. According to the 
+2012 National Tanzania Census, Dar es Salaam was home to 4,364,541 inhabitants 
+at that time, growing at a rate of 5.6% per year in the period from 2002 to 2012.
+Ilala Municipal Council
+The Ilala Municipal Council heads Ilala district, one of three districts in Dar es 
+Salaam. The 2012 National Tanzania Census states the population for Ilala as 
+1,220,611 (doubling from the 2002 census). The area is 273 km². Ilala contains 
+the area commonly referred to as ‘downtown’ with Kivukoni, Kisutu and Kariakoo, 
+where much of the commerce, trade, banking, and government offices are located, 
+but also extends further west to flood prone wards Ilala and Mchikichini and wards 
+further west like Kinyerezi.
+Kinondoni Municipal Council
+The Kinondoni Municipal Council heads Kinondoni district, the northernmost of 
+three municipalities in Dar es Salaam. The 2012 Tanzania National Census reports 
+the population of Kinondoni to be 1,775,049. The area of Kinondoni is 531 km². 
+Kinondoni contains a number the wards hardest hit by flooding, like Magomeni, 
+Mzimuni and Tandale, but also Ubungo (home to UDSM and Ardhi University) and 
+wards on the coast such as Msasani and Kawe.
+Temeke Municipal Council
+The Temeke Municipal Council heads Temeke district, the southernmost of three 
+districts in Dar es Salaam with flood prone wards like Keko, Sandali and Temeke, 
+but also extends south and east, like Kigamboni ward. The 2012 Tanzania National 
+Census reports the population of Temeke District as 1,368,881. The area of Temeke 
+is 787 km².
+Tanzania Open Data Initiative (TODI)
+The Tanzania Open Data Initiative (TODI) promotes open data and open governance 
+by helping and sensitizing policy makers in the Government of Tanzania to the 
+importance of digitizing high value datasets, and supplying these as open data 
+sets to citizens, businesses and government agencies.
+BUNI Hub
+Buni is a technology Hub which foster innovation and technology entrepreneurship 
+through capacity building, mentoring programs and community empowerment. 
+Founded in 2011, Buni Innovation Hub focus is to discover, nurture and mentor 
+youths with innovative technological solutions to problems facing Tanzania.
+Tanzania Commission of Science and Technology (COSTECH)
+COSTECH is a parastatal organization with the responsibility of coordinating and 
+promoting research and technology development activities in the country. It is the 
+
+===== PDFPAGE 12 =====
+Flood Resilience in Dar es Salaam   07
+chief advisor to the Government on all matters pertaining to science and tech-
+nology and their application to the socio-economic development of the country.
+Tanzania Red Cross Society (TRCS)
+The Tanzania Red Cross Society (TRCS) is a voluntary and independent humani-
+tarian organization that joined the worldwide network of Red Cross and Red Cres-
+cent Societies in 1963. TRCS aims to mobilize resources through the power of 
+humanity towards improving the situation of the most vulnerable in Tanzania. The 
+Zuia Mafuriko project aims to improve flood resilience in Dar es Salaam, utilizing 
+data collected together with Ramani Huria.
+World Bank
+The World Bank is an international financial institution that provides loans to devel-
+oping countries for capital programs. It comprises two institutions: the Interna-
+tional Bank for Reconstruction and Development (IBRD), and the International 
+Development Association (IDA).
+The Department for International Development
+The Department for International Development leads the UK’s work to end extreme 
+poverty, building a safer, healthier, more prosperous world. Through Ramani Huria, 
+DfID has provided UK AID funding for open data, open government and climate 
+resilience.
+GFDRR
+The World Bank’s Global Facility for Disaster Reduction and Recovery (GFDRR) is a 
+global partnership that helps developing countries better understand and reduce 
+their vulnerabilities to natural hazards and adapt to climate change.
+American Red Cross
+The American Red Cross (ARC) is a humanitarian organization that provides emer-
+gency assistance, disaster relief and education. In addition to domestic disaster 
+relief, the American Red Cross assists in international relief and development 
+programs, such as Ramani Huria and the TRCS’ Zuia Mafuriko project
+Danish Red Cross
+The Danish Red Cross was founded in 1876. The Danish RC operates in the fields of 
+humanitarian assistance, relief work and education, either alone or in co-operation 
+with state bodies or other organisations. The Danish RC and the government also 
+co-operate in the area of asylum seekers and international humanitarian aid and 
+rehabilitation.
+Humanitarian OpenStreetMap Team (HOT)
+The Humanitarian OpenStreetMap Team (HOT) applies the principles of open source 
+and open data sharing for humanitarian response and economic development. Free, 
+up-to-date maps are a critical resource when relief organizations are responding 
+to disasters or political crises. HOT creates and provides those maps.
+University of Dar es Salaam (UDSM)
+The University of Dar es salaam is the oldest and biggest public university in 
+Tanzania. It is situated on the western side of the city of Dar es salaam. It was 
+established on 1st July 1970. Prior to that, the university college, Dar es Salaam 
+had started on 1st July 1961 as an affiliate college of the University of London.
+
+===== PDFPAGE 13 =====
+08   Flood Resilience in Dar es Salaam
+The Ramani Huria project officially kicked off with a workshop at the Tanzanian 
+Commission for Science and Technology (popularly known by its abbreviation 
+“COSTECH”) on March 26th and 27th 2015 Over the following year, Ramani Huria 
+has gone through several phases:
+›› Trial phase (3 wards; Ndugumbi, Tandale, Mchikichini)
+›› Scale up (14 wards, and an additional 8 downtown)
+›› Scale down (4 wards)
+›› Drainage mapping and reviewing (36 wards)
+›› Continued participatory mapping (in the 21 community mapped wards)
+At the start of the project, about 15 students from Ardhi University (on the Urban 
+Planning program) were recruited as interns to trial and refine the community 
+mapping approach to the conditions and circumstances in Dar es Salaam. The first 
+ward to be mapped was Ndugumbi, followed by Tandale and Mchikichini. Gradually, 
+the students were given more responsibility, until several were placed in charge 
+of mapping subwards in Mchikichini in June.
+During the scale up phase, starting on July 6th with a workshop at Nkrumah Hall 
+at University of Dar es Salaam (commonly known as UDSM), over 150 students 
+from Ardhi University and UDSM the were involved in the project. The best of the 
+original Ardhi students were promoted to supervise mapping in these wards, and 
+were also in charge of training these 150 students. Volunteers from the Tanzania 
+Red Cross Society helped out in a number of wards as community members. Over 
+the course of July and August, 14 wards were mapped with the full community 
+process, with up to six wards being mapped in parallel, and an additional 8 wards 
+in downtown Dar es Salaam were mapped alongside the Africa Open Data Confer-
+ence in early September.
+After the scale up period, which ended on October 9th with the closing commu-
+nity forums in Manzese, Mzimuni, Kigogo, and Vingunguti, Ramani Huria entered a 
+calmer phase, with a focus on data quality and expanding coverage of the drainage 
+system outside of the centre of Dar es Salaam. The number of mappers was 
+reduced to 20, plus 2 supervisors. Of these, 10 are graduates from Ardhi University 
+and 12 are graduates from the University of Dar es Salaam. Selecting the best 20 
+mappers out of 60 reduced the average time to completion of mapping a ward 
+from three weeks to only two weeks. A total number of 4 wards have been mapped 
+since then (Ubungo, Tabata, Ilala and Temeke), bringing number the wards mapped 
+using the community process up to 21. An additional 8 wards in the downtown 
+areas of Dar es Salaam were fully ground surveyed, meaning we’ve fully mapped 
+29 wards now. Our mappers have been asked to participate in a number of other 
+tasks during this period (all with a geospatial component), benefitting their overall 
+experience, knowledge and improving their ability to successfully execute future 
+geospatial assignments.
+To expand the area available for hydrological analysis, the drainage and water 
+systems were mapped in a further 36 peripheral wards, bringing the total number 
+of wards for which the available maps have been improved significantly up to a 
+total of 65.
+To put the scale of the mapping operation in perspective, the Dar es Salaam area 
+on OpenStreetMap contained 1254 km of waterways as of May 2016 (compared 
+to 173 km at the start of 2015), 3396 km of roads (compared to 1720 km at the 
+start of the year), and the amount of school buildings has increased from 3 to 
+over 1700. In the same timeframe, the size of the OpenStreetMap dataset for 
+Tanzania (in ‘pbf’ format) has grown from 11 MB to 45 MB, quadrupling in size. The 
+waterways mapped include:
+›› 5917 ‘drain’ sections, at a total length of 790 km
+›› 779 ‘ditch’ sections, at a total length of 94 km
+›› 448 ‘river’, ‘stream’ or ‘canal’ sections, at a total length of 339 km.
+According to the 2012 census data, the area we’ve fully mapped (including all build-
+ings) so far is home to around 1.17 million people. As Dar es Salaam is the fastest 
+growing city in Africa1 , more people will be living in these wards now; 1.34 million 
+people when using the growth rate estimated in the African Development Bank 
+report (5% per year). Including the wards where drainage and water systems has 
+been mapped, this amount rises to 3.05 million people (in 2012 census figures), 
+and 3.51 million people when including estimated growth since then.
+1	 According to figures from the African Development Bank
+Project summary
+
+===== PDFPAGE 14 =====
+Flood Resilience in Dar es Salaam   09
+MapPED Wards
+
+===== PDFPAGE 15 =====
+10   Flood Resilience in Dar es Salaam
+From March 2015 until February 2016, 65 wards of Dar es Salaam were mapped 
+using several different (but complementary) methodologies, tools, and technol-
+ogies. Of these 65, 21 wards were mapped using a community-driven process, 
+with community members, supported by university students and technical staff, 
+leading the mapping in the field. A further 8 wards in the downtown area were 
+fully field mapped by teams composed of university students, and in an additional 
+36 wards, the drainage networks were mapped1.
+Community mapping
+The 21 most flood prone wards of Dar es Salaam were mapped using a community 
+mapping process. These were identified in collaboration between municipal coun-
+cils and the Red Cross. Then, communities and technical experts came together 
+collect data in these wards, digitize it, and use GIS tools to assess flood risk. In 
+a community mapping approach, community members not only contribute their 
+local knowledge on map features (buildings, street names, administrative bound-
+aries, flood prone areas), but also work to communicate and raise awareness 
+within their communities about actions that could be taken to improve resilience 
+to flooding. Facilitating community members in mapping their own ward increases 
+their understanding and knowledge about their own environment; empowering 
+them to better understand the issues, potential solutions, and how to communicate 
+these most effectively to (local) authorities. 
+In order to be able to build on this data, it is important to create a positive feed-
+back loop by promoting its usage, thereby producing demand for more data and 
+affirming the influence communities have by collecting this data and communi-
+cating about their issues to begin with. To accomplish this, Ramani Huria is coop-
+erating with local authorities and other potential users of the data at different 
+(higher) levels of government, and providing hands-on workshops teaching how 
+to import, process, and analyse the generated OpenStreetMap data.
+In order to use the data most effectively, and to be able to collaborate on 
+datasets across agency boundaries, it is important to promote open data as 
+well. All OpenStreetMap data is available under the Open Database License 
+1	 This has been supported by imagery taken by Unmanned Aerial Vehicles 
+(UAVs) and street view imagery captured from a bajaj throughout the mapped 
+area.
+(ODbL), and all the produced content by Ramani Huria (maps, data and other 
+media) has been released under a Creative Commons license. Please see 
+https://github.com/hotosm/RamaniHuria for more details. 
+In the wards where we have presented the community mapping process, the 
+following steps were taken:
+1.	 Obtain permission to map from the municipality, confirmed in a letter;
+2.	Discuss the purpose, scope and objectives of mapping with the ward 
+officer. Logistics regarding workspace also need to be arranged. Identify 
+key community members to approach for the workshops, the commu-
+nity mapping, and possibly other activities. Community members can be 
+approached through ward officer contacts, existing volunteer networks, and/
+or the Tanzanian Red Cross Society;
+3.	Identify technical team members and a team leader that will be mapping 
+in the ward. This team (in our case, mostly students from local academic 
+institutions, Ardhi University and UDSM) provide continuity in terms of applied 
+mapping skills and procedures, and can train and guide community members 
+and officials;
+4.	Organize an opening community forum, establishing the collaboration with 
+the community, understanding the challenges faced by the community, final-
+ising the ultimate goal of mapping that ward and why;
+5.	Support mapping training for community members, to raise awareness of 
+concepts and workflow;
+6.	Execute mapping activities:
+a.	 Preparation (ward level)
+b.	 Mapping
+›› Preparation (daily survey level)
+›› Data collection according to the data model2
+›› Digitization
+›› Data review (daily survey level)
+c.	 Data review (ward level; may loop back to b. Mapping as spot checks are 
+done and data is corrected)
+d.	 Map production
+2	 https://github.com/hotosm/RamaniHuria/raw/master/data%20model/Data%20
+Model%20and%20Tagging.pdf
+Mapping approach and processes
+
+===== PDFPAGE 16 =====
+Flood Resilience in Dar es Salaam   11
+7.	 Organize a closing community forum, presenting the printed map to the 
+wider community, soliciting feedback, and discussing uses of the map and 
+potential issues that can be addressed by using it;
+8.	Revisit the ward to help with questions and other issues, and to discuss with 
+community leaders how the maps can be improved. The mapping phase 
+combines a number of tools and technologies, like the use of field papers, 
+GPS devices, and mobile phones for data collection, JOSM3 (the Java Open-
+StreetMap editor) for digitization (adding surveyed data with data already 
+present in OpenStreetMap), QGis4 for data analysis and map production, and 
+InaSAFE5 for risk analysis.
+To spread awareness of the project and the collected data and increase sustain-
+ability of the OpenStreetMap community in Tanzania, numerous community and 
+skill building activities were deployed. This includes organizing mapping events 
+at BUNI Hub, as well as collaborating with the Tanzanian Red Cross Society and 
+its sister project, “Zuia Mafuriko” (Flood Resilience), which is developing disaster 
+preparedness and response plans. 
+In addition to this ward level focus, Ramani Huria has been working with the wider 
+Tanzanian innovation community. This has been through numerous MapTime events 
+that work with innovation hub members on mapping their hometown. Ramani Huria 
+has also provided experience in other domains, such as transport, for our mappers 
+by participating in events and activities like mapping dala dala routes and helping 
+to import Tanzanian roads data from the Medical Stores Department. The team’s 
+community service has been further expanded through assisting in the General 
+Cleanliness Day (#HapaUsafiTu), participating in the GIS Day at UDSM and in UWABA 
+cycling events, and providing workshops and lectures at local universities.
+Use of UAVs to capture high resolution imagery
+Ramani Huria uses SenseFly eBee drones6 to support its engagement in Dar es 
+Salaam, made available for the project by COSTECH. These drones (also referred to 
+as UAVs, Unmanned Aerial Vehicles) work to acquire very high resolution imagery 
+(between 3-5 centimeters per pixel, depending on flight altitude) of the most dense 
+3	 https://josm.openstreetmap.de/ 
+4	 http://qgis.org/en/site/
+5	 http://inasafe.org/
+6	 https://www.sensefly.com/drones/ebee.html
+(and flood prone) areas of Dar es Salaam. The high resolution of the imagery is 
+especially helpful in the unplanned settlements, where it is often hard to distinguish 
+where one building ends and another begins when using traditional aerial imagery. 
+To complement the UAV imagery in areas that were not covered, such as around 
+the airport and downtown, HOT worked with the MapGive7 initiative from the U.S. 
+Department of State to acquire recent satellite imagery.
+Participatory Flood Prone Inundation Extent Identification
+Generally, flooding in Dar es Salaam manifests itself through flash flooding 
+along the path of a river, during which water levels rise rapidly, or through more 
+7	 http://mapgive.state.gov/, https://blogs.state.gov/stories/2014/03/07/
+openstreetmap-diplomacy-mapgive-and-presidential-innovation-fellow
+
+===== PDFPAGE 17 =====
+12   Flood Resilience in Dar es Salaam
+prolonged flooding downstream from these areas. To capture this information, 
+Ramani Huria uses a participatory approach involving community members.
+During opening community forums, community members discuss which areas 
+can flood within their wards. Through this, a picture is established of where the 
+most affected areas are within a given ward. Following this, community members 
+and students use a GPS and sketches to collect information in the field. This maps 
+critical infrastructure, drainage, and all other data contained in this atlas. 
+In an effort to further refine and enhance the identification of flood prone areas, 
+a separate process was used in each ward as part of the mapping process with 
+the community to determine the extents of historical flooding and to collect the 
+subward boundaries. During the full mapping of the wards, ward and subward 
+boundaries were drawn and digitized into OSM with the help of ward and subward 
+officials. The same approach was employed for flood prone areas with the Ramani 
+Huria mapping teams.
+To increase the accuracy of the gathered information on flood prone areas, a 
+second phase of mapping with the wider community was made in cooperation 
+with community members, ward officers, and other local officials. Using the newly 
+created maps as a base layer, tracing paper and pencils further refined the inunda-
+tion extent, displayed on the inundation maps that are in this atlas. As a community 
+process, it is not just one voice that is heard, but many, and this is an important 
+factor as a first step to empowering communities.
+This process pulls out the community perception of flood risk, using a targeted 
+methodology to obtain uniform results across different wards. The flood inunda-
+tion extents in this atlas are based on community input from the extents of annual 
+flooding in combination with their recollection of the extents of flooding in 2011 
+(which saw the worst flooding in recent history)8.
+From discussions with the community mappers during the participatory mapping 
+process, experience shows that the identified and mapped flood prone areas expe-
+rience a range of between 0.5 and 5 meters level of flooding. Some buildings 
+along rivers, like the Msimbazi river, were affected by floods of 2 meters and 
+above. Buildings further away (50 meters from the river streams) and along drains 
+are less affected, experiencing flooding of up to 1 meter. When it rains, 0.5 - 1 
+meter level floods may rapidly occur (within 1 hour), depending on the amount 
+of precipitation. 
+Furthermore, the discussions revealed that the communities know and experience 
+the risks of living within and along flood prone areas, but opt to remain due to 
+financial constraints, commute time, and/or proximity to family and friends. 
+The data collected from the participatory mapping sessions (following the process 
+as outlined above) has been digitized into OpenStreetMap, and has been used as 
+the basis for the “Potential Inundation” maps found in this Atlas.
+Drainage mapping
+In order to improve the understanding of the water network of Dar es Salaam, and 
+increase the potential for hydrological and flow analysis in the future, coverage 
+of the drainage network has been expanded to encompass the wards surrounding 
+the areas where we performed community mapping. Features collected as part 
+of this include the length and depth of drain, construction type, and whether it 
+was covered or open. 
+Precipitation in these areas accumulates and drains through Dar es Salaam to 
+the Indian Ocean, making this part of the same catchment area and integral to 
+include in hydrological analysis. The drainage mapping has extended coverage to 
+an additional 36 wards, which act as catchments and tributaries draining into the 
+rivers and streams that cut through the informal settlements in the heart of Dar 
+es Salaam. 
+A team of sixteen mappers was dedicated to this task, mapping a ward in groups 
+8	 More information on this process can be found at http://ramanihuria.org/
+participatory-mapping-historical-flood-inundation-extents/
+
+===== PDFPAGE 18 =====
+Flood Resilience in Dar es Salaam   13
+of four (which meant we were able to map four wards in parallel). Fully mapping 
+the drainage and water systems of a single ward takes around three days on 
+average, consisting of two days of data collection and one day of verification and 
+digitization work. This should enable more thorough analysis of the complete water 
+system for Dar es Salaam.
+Towards Data Driven Inundation Models
+The versatility of UAVs allows them to be used to create more complex datasets, 
+such as Digital Terrain Models (DTM) and point clouds. A DTM is a representation of 
+heights and a point cloud is effectively a 3D model of an area. These datasets are 
+especially useful when exploring the creation of hydrologic inundation models as 
+they allow for the modelling of a city. With them, flood modelling experts can run 
+scenarios that demonstrate what happens if a certain amount of rainfall occurs, 
+a river bursts its banks, or infrastructure is constructed - like a drain. 
+The typical plethora of terrain data generated from point clouds can be used to 
+establish simple to very complex flood inundation models, each meant for a very 
+different purpose. Simple methods include GIS terrain contouring methods, which 
+can be used to highlight the elevation relative to the nearest drain. Such methods 
+do not take into account rainfall events, drainage impediments, drainage conditions, 
+or other features that relate rainfall to runoff. They can, however, be used to infer 
+which areas are likely to flood under a given water level in the nearest stream and 
+are therefore very useful to provide warning perimeters at a community level. To 
+study the genesis of rainfall events - how they may flow through a ward, what 
+drainage impediments may occur, and what event specific flooding may occur - a 
+hydrodynamic model is required. Such models can be employed for instance to 
+assess flood impacts of specific rainfall events, flood risk due to the governing 
+climate, and impact forecasting if used in combination with meteorological simu-
+lation models and a forecasting shell.
+
+===== PDFPAGE 19 =====
+14   Flood Resilience in Dar es Salaam
+Ramani Huria together with partners Deltares and the City of Cleveland9 estab-
+lished a first of its kind seamless flood inundation map from UAVs based upon the 
+Height-Above-Nearest-Drainage principle. This is a GIS terrain contouring method 
+that first establishes the height of each point in a given study area with respect 
+to the nearest point in the drainage network, and then estimates levels of inunda-
+tion in the area, given a depth within the drainage network. The 3D visual of the 
+Msimbazi Catchment demonstrates the value of OpenStreetMap data, making 
+possible a direct overlay with exposed households. This map is a first step in the 
+process of building flood inundation models from the many datasets collected by 
+Ramani Huria. In the next steps, specific conveying and blocking elements should be 
+included in a much more comprehensive and dynamic flood model that simulates 
+genesis of flooding within the drainage network and its surroundings.
+Street view mapping
+For the wards that have been community mapped in In Dar es Salaam, the process 
+is very resource intensive (and as a result, also time consuming) due to the high 
+density and large amount of features being surveyed. With a relatively large 
+mapping team based in the ward, surveying a complete ward typically takes 
+9	 With special thanks to Hessel Winsemius (Deltares) and Steve Mather (City 
+of Cleveland)
+several weeks. This works very well for densely built up urban environments, 
+but gets more difficult when larger distances need to be covered, with sparser 
+features to be mapped (like suburban or rural areas). Take for example the 
+Msasani peninsula in Dar es Salaam; this is a richer area, home to ambassadors’ 
+residences, expats and embassies. The plots of land here are much larger, with 
+compounds surrounded by gardens and walls. In these types of areas, taking a 
+different approach to the surveying can lead to similar quality results, while taking 
+less time and effort to collect. One such approach involves taking street view 
+imagery from a moving vehicle using dedicated cameras, and using this imagery 
+as an additional source of data when mapping an area remotely (which separates 
+the task of collecting data from digitizing it, negating the need to be physically 
+present in the area that is being mapped).
+To make the collected imagery easily accessible to remote mappers, the imagery 
+is uploaded to Mapillary10. This imagery can also be accessed from JOSM using a 
+plugin. To obtain this imagery, several types of equipment have been used in Dar es 
+Salaam: Garmin action cameras, regular mobile phones attached to a motorbike, 
+and also a sophisticated Trimble MX7 device.
+HOT’s contacts at Trimble have allowed us to test a prototype Trimble MX7 Mobile 
+Imaging System11. This device can be mounted on top of a vehicle, making it easy 
+to quickly and accurately collect georeferenced road and site infrastructure data. 
+The MX7 captures a 30mp, 360o panoramic image of the environment that is fully 
+calibrated and georeferenced. The system is controlled from inside a vehicle with 
+a wireless tablet. In Tanzania, the bajaj (the local name for a tuk-tuk) is a common 
+mode of transportation that can pass through traffic much faster than a full-size 
+car, making it an ideal platform for the MX7 camera. However, these vehicles don’t 
+have a roof structure that is capable of carrying weight (the MX7 with roof rack 
+weighs around 30kg). To this end, a roof structure was welded on, carrying the 
+weight down to the floor plate. Using Trimble software, the collected data can 
+be used for object positioning, measurement, data layer creation, 3D models and 
+analysis of georeferenced imagery. The open data that is generated this way can be 
+used to derive data for the current flood resilience purposes, but is subsequently 
+also available for other disaster risk management purposes. So far, Ramani Huria 
+has uploaded 20681 images, and mapped over 500 kilometers of road, according 
+to the Mapillary statistics at https://www.mapillary.com/profile/ramanihuria
+10	https://www.mapillary.com/map/im/Cv3p42g3ISCFd79x9-CLnw/map
+11	 http://infogeospatial.trimble.com/TrimbleMX7.html
+
+===== PDFPAGE 20 =====
+Flood Resilience in Dar es Salaam   15
+
+===== PDFPAGE 21 =====
+Field Mapping tools and activities
+16   Flood Resilience in Dar es Salaam
+
+===== PDFPAGE 22 =====
+MAPS SECTION
+CONTENTS
+Ward Maps: Ilala .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 18
+	 Buguruni . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+	 Ilala . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+	 Mchikichini . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+	 Tabata . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+	 Vingunguti . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+Ward Maps: Kinondoni .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  38
+	 Hananasif . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+	 Kigogo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+	 Magomeni . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46
+	 Makumbusho . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50
+	 Msasani . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54
+	 Mwananyamala . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58
+	 Mzimuni . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 62
+	 Ndugumbi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66
+	 Tandale . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70
+Ward Maps: Temeke .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 74
+	 Keko . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74
+	 Temeke . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78
+Ward Maps: Ubungo .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  82
+	 Mburahati . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 82
+	 Mabibo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 86
+	 Manzese . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 90
+	 Ubungo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94
+	 Makurumla . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98
+Downtown Mapping: 8 Wards .  .  .  .  .  .  . 102
+Drainage Mapping: 36 Wards .  .  .  .  .  .  .  . 105
+	 Northwestern Area . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 106
+	 Western Area . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 108
+	 Southwestern Area . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 110
+	 Southern Area . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 112
+	 Eastern Area . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 114
+
+===== PDFPAGE 23 =====
+18   
+Mapping period
+August 17–September 10 2016
+Surface area
+3.49 km2
+Flood prone area
+0.69 km2 (20%)
+Population (2012 census)
+70,585
+Total number of buildings
+12,315
+AT RISK OF FLOODING 
+Buildings at risk of flooding 2,937, 
+of which 10 are school and hospital 
+buildings.
+Buguruni
+Description and Recommendations
+Buguruni’s northern boundary is formed by the Msim-
+bazi river valley, which separates Buguruni from 
+Tabata and Kigogo. Within this ward, Maruzuku, Kisi-
+wani and Mivinjeni subwards are most affected by 
+flooding. Maruzuku and Kisiwani are primarily indus-
+trial areas and Mivinjeni is primarily residential.
+In Mivinjeni, the land most affected by flooding 
+from the Msimbazi is mainly used for agriculture as 
+local farmers grow vegetables and other crops. In 
+addition to the Msimbazi river valley, a man made 
+drain that cuts across Mivinjeni also causes floods 
+during rainy season, affecting the surrounding resi-
+dential buildings as the drain gets clogged with 
+waste materials (mostly plastic bags) when it rains.
+For Mnyamani subward, the central part is most 
+affected by flooding as this area is at a lower 
+elevation compared to its surroundings. Conse-
+quently, water drains into the space in the area; 
+when it rains intensely, these drains overflow.
+In Madenge and Malapa subwards, there is a large 
+and well-built drain from Ilala ward that passes 
+through. Though the drain is large and well built, 
+at periods of high intensity rainfall its capacity 
+to contain and drain water that comes from Madenge 
+and Malapa (in Buguruni) and Mafuriko (in Ilala) is 
+challenged, hence dispersing water into neighbouring 
+sections of both Buguruni and Ilala.
+Exploring how the existing drainage capacity of 
+Buguruni could be improved could alleviate the accu-
+mulation of water in this basin, while keeping water 
+contained within the drainage network.
+WARD MAPS
+ILALA
+
+===== PDFPAGE 24 =====
+Flood Resilience in Dar es Salaam   19
+Buguruni DRAINAGE Map
+
+===== PDFPAGE 25 =====
+20   Flood Resilience in Dar es Salaam
+Buguruni General Map
+
+===== PDFPAGE 26 =====
+Flood Resilience in Dar es Salaam   21
+Buguruni POTENTIAL Inundation Map
+
+===== PDFPAGE 27 =====
+22   
+Ilala
+Mapping period
+November 12th until November 27th 2015
+Surface area
+2.02 km2
+Flood prone area
+0.91 km2 (45%)
+Population (2012 census)
+31,083
+Total number of buildings
+4,544
+AT RISK OF FLOODING
+Buildings at risk of flooding 2,513, of 
+which 38 are school or hospital build-
+ings
+Description and Recommendations
+Much of the terrain of Ilala ward is flat. Although 
+it is largely planned and surveyed, it is under-
+served by a drainage network when compared to 
+surrounding wards. The existing drainage channels 
+are commonly blocked, leading to the overflow and 
+pooling of water, instead of directing water away 
+from the residential settlements.
+Additionally, there is no connection between a 
+main water body, such as the Msimbazi river, with 
+one major drainage point - the large drain in the 
+Mafuriko subward on the boundary between Ilala and 
+Buguruni.
+It is recommended to regularly clean the existing 
+drainage systems and look towards expanding the 
+drainage infrastructure to connect to a major 
+drainage point to increase drainage capacity.
+WARD MAPS
+
+===== PDFPAGE 28 =====
+Flood Resilience in Dar es Salaam   23
+Ilala Drainage Map
+
+===== PDFPAGE 29 =====
+24   Flood Resilience in Dar es Salaam
+Ilala General Map
+
+===== PDFPAGE 30 =====
+Flood Resilience in Dar es Salaam   25
+Ilala POTENTIAL Inundation Map
+
+===== PDFPAGE 31 =====
+26   
+Mchikichini
+Mapping period
+June 15th until July 1st 2015
+Surface area
+1.71 km2
+Flood prone area
+0.84 km2 (49%)
+Population (2012 census)
+25,510
+Total number of buildings
+3,551
+AT RISK OF FLOODING
+Buildings at risk of flooding 1,374, of 
+which 8 are school or hospital build-
+ings.
+Description and Recommendations
+The presence of the Msimbazi river valley makes 
+Mchikichini exceptionally prone to flooding. Of its 
+three subwards (Misheni Kota, Ilala Kota and Msim-
+bazi Bondeni), Msimbazi Bondeni is the most flood 
+prone, due to its low elevation raising the risk of 
+flooding across the subwards’ infrastructure.
+Compared to Msimbazi Bondeni, Misheni Kota and 
+Ilala Kota are comparatively less affected as they 
+are located on higher grounds, safeguarding them 
+from the consequences of heavy rainfall, which 
+flow towards the Jangwani fields through Msimbazi 
+Bondeni.
+Establishing drainage ditches could potentially 
+ameliorate this situation of overflowing water, 
+lessening the impact and risk of flooding on ward 
+residents.
+WARD MAPS
+
+===== PDFPAGE 32 =====
+Flood Resilience in Dar es Salaam   27
+Mchikichini Drainage Map
+
+===== PDFPAGE 33 =====
+28   Flood Resilience in Dar es Salaam
+Mchikichini General Map
+
+===== PDFPAGE 34 =====
+Flood Resilience in Dar es Salaam   29
+Mchikichini POTENTIAL Inundation Map
+
+===== PDFPAGE 35 =====
+30   
+Tabata
+Mapping period
+October 7th until November 6th 2015
+Surface area
+4.49 km2
+Flood prone area
+0.82 km2 (18%)
+Population (2012 census)
+74,742
+Total number of buildings
+11,485
+AT RISK OF FLOODING
+Buildings at risk of flooding 2,324, of 
+which 2 are school or hospital build-
+ings.
+Description and Recommendations
+With the Msimbazi river valley located to the south 
+of Tabata, parts of the ward, especially Msimbazi 
+Magharibi, Msimbazi Mama, Mtambani, Matumbi and 
+Mandela subwards, are affected by flooding.
+Most residential buildings along and within the 
+valley are vulnerable to the point that some have 
+been abandoned by their owners. The river over time 
+has expanded in width, placing buildings and infra-
+structure along its valley at risk. This has exac-
+erbated by local residents engaging in economic 
+activities within the river valley, such as urban 
+agriculture and sand mining for construction 
+purposes.
+Kisiwani subward in northern Tabata is also impacted 
+by flooding. Two shallow river streams that run 
+along the boundaries of the subward contribute to 
+flooding of residential buildings when extreme 
+weather events occur, raising the risk of damage 
+Tabata and Tenge subwards.
+Expanding capacity of these streams would poten-
+tially allow for a reduction of flood risk.
+WARD MAPS
+
+===== PDFPAGE 36 =====
+Flood Resilience in Dar es Salaam   31
+Tabata Drainage Map
+
+===== PDFPAGE 37 =====
+32   Flood Resilience in Dar es Salaam
+Tabata General Map
+
+===== PDFPAGE 38 =====
+Flood Resilience in Dar es Salaam   33
+Tabata POTENTIAL Inundation Map
+
+===== PDFPAGE 39 =====
+34   
+Vingunguti
+Mapping period
+September 11th until October 9th 2015
+Surface area
+4.48 km2
+Flood prone area
+1.22 km2 (27%)
+Population (2012 census)
+106,946
+Total number of buildings
+15,080
+AT RISK OF FLOODING
+Buildings at risk of flooding 5,321, of 
+which 26 are school or hospital build-
+ings.
+Description and Recommendations
+The northern boundary of Vingunguti is formed by the 
+Msimbazi river valley. Most residential buildings 
+along the river valley are affected by flooding, 
+while Majengo, Kombo and Mji Mpya subwards are 
+particulary vulnerable. The reasons are much the 
+same as for Tabata: human economic activities has 
+led to an increase of river width, reducing the 
+river valley’s holding-capacity of water. To prevent 
+damage, local residents of Vingunguti have engaged 
+in initiatives to clean the river valley.
+In addition to the areas affected by the Msim-
+bazi river, buildings located around the railway 
+line that passes through Mtakuja, Mtambani and Faru 
+subwards are often exposed to flooding. This is 
+mainly due to the drainage channel constructed along 
+the line that does not connect to a main drainage 
+channel, causing it to overflow into residential 
+properties and businesses. Connecting this channel 
+could be a first step in mitigating Vingunguti flood 
+risk.
+WARD MAPS
+
+===== PDFPAGE 40 =====
+Flood Resilience in Dar es Salaam   35
+Vingunguti Drainage Map
+
+===== PDFPAGE 41 =====
+36   Flood Resilience in Dar es Salaam
+Vingunguti General Map
+
+===== PDFPAGE 42 =====
+Flood Resilience in Dar es Salaam   37
+Vingunguti POTENTIAL Inundation Map
+
+===== PDFPAGE 43 =====
+38   
+WARD MAPS
+Hananasif
+Mapping period
+August 17th until September 10th 2015
+Surface area
+1.85 km2
+Flood prone area
+0.57 km2 (31%)
+Population (2012 census)
+37,115
+Total number of buildings
+6,528
+AT RISK OF FLOODING
+Buildings at risk of flooding 1,272, of 
+which 1 is a school building.
+KINONDONI
+Description and Recommendations
+Hananasif’s southwestern boundary is formed by 
+the river Ng’ombe and its southern and south-
+eastern parts bordering on the Msimbazi river. 
+Accordingly, the neighbouring Kawawa and Hanan-
+asif subwards are most impacted by high inten-
+sity rainfall when the river Ng’ombe overflows, 
+before it connects to the Msimbazi river.
+A drainage channel that passes through Hanan-
+asif from Tandale, Makumbusho, Ndugumbi, Mago-
+meni and Mwananyamala wards further exacerbates 
+flood risk.
+Both the Mkunguni A and Mkunguni B subwards 
+are adjacent to the Msimbazi river valley and 
+the Indian Ocean. Upstream, water has drained 
+through Vingunguti, Tabata, Kigogo, Buguruni, 
+Mchikichini, and many other wards in the basin 
+on its way through to Selander Bridge and into 
+the Indian Ocean.
+The low elevation and proximity of Mkunguni A 
+and Mkunguni B to the Mzimbazi river valley, 
+and the amount of water draining from upstream, 
+increases the flood risk in these areas. The 
+issue of solid waste carried downstream ampli-
+fies this risk as waste materials get caught in 
+the mangrove forest at the mouth of the river.
+Efforts to clean this forest could help to 
+mitigate this; however, improving solid waste 
+collection across all municipalities in Dar 
+es Salaam and educating residents to use these 
+services would allow for improved drainage 
+across the basin into the ocean, negate the need 
+for cleaning, and reduce the impact of flooding 
+on the residents of Hananasif.
+
+===== PDFPAGE 44 =====
+Flood Resilience in Dar es Salaam   39
+Hananasif Drainage Map
+
+===== PDFPAGE 45 =====
+40   Flood Resilience in Dar es Salaam
+Hananasif General Map
+
+===== PDFPAGE 46 =====
+Flood Resilience in Dar es Salaam   41
+Hananasif POTENTIAL Inundation Map
+
+===== PDFPAGE 47 =====
+42   
+Kigogo
+Mapping period
+September 11th until October 9th 2015
+Surface area
+1.91 km2
+Flood prone area
+0.92 km2 (48%)
+Population (2012 census)
+57,613
+Total number of buildings
+8,869
+School and hospital buildings
+4 school buildings/ hospital building
+AT RISK OF FLOODING
+Buildings at risk of flooding 4,450, of 
+which 4 are school or hospital build-
+ings.
+Description and Recommendations
+Kigogo is surrounded by river valleys on both sides. 
+Historically, Kigogo was not terribly affected 
+by floods, but flood prone areas are currently 
+expanding due to higher urban density and an 
+increase in population.
+Residents are developing settlements alongside the 
+river valleys without adding solid waste collection 
+points. This has led to the dumping of solid waste 
+into waterways, subsequently blocking the river. A 
+lack of drainage channels to transport water away 
+from the settlement also contributes to Kigogo’s 
+flood risk during the rainy seasons, demonstrating 
+the need to expand the current drainage infrastruc-
+ture.
+WARD MAPS
+
+===== PDFPAGE 48 =====
+Flood Resilience in Dar es Salaam   43
+Kigogo Drainage Map
+
+===== PDFPAGE 49 =====
+44   Flood Resilience in Dar es Salaam
+Kigogo General Map
+
+===== PDFPAGE 50 =====
+Flood Resilience in Dar es Salaam   45
+Kigogo POTENTIAL Inundation Map
+
+===== PDFPAGE 51 =====
+46   
+Magomeni
+Mapping period
+August 17th until September 10th 2015
+Surface area
+1.11 km2
+Flood prone area
+0.50 km2 (45%)
+Population (2012 census)
+24,400
+Total number of buildings
+4,273
+AT RISK OF FLOODING
+Buildings at risk of flooding 1,744, of 
+which none are school or hospital build-
+ings.
+Description and Recommendations
+Magomeni is at risk of flooding, with the most at 
+risk areas surrounding the river Ng’ombe and the 
+Msimbazi river. The Suna subward is most at risk due 
+to it being intersected by these two rivers in its 
+northern and eastern areas.
+Insufficient drain capacity, unprotected river 
+banks, and unplanned construction along the river 
+valley are the main contributory factors of flooding 
+in these areas. This challenge is further amplified 
+by the large amount of solid waste deposited here 
+from upstream parts of Dar es Salaam.
+Improving solid waste collection and increasing 
+depth of drainage channels could help to mitigate 
+the flood risk and improve the quality of life for 
+people living in this ward.
+WARD MAPS
+
+===== PDFPAGE 52 =====
+Flood Resilience in Dar es Salaam   47
+Magomeni Drainage Map
+
+===== PDFPAGE 53 =====
+48   Flood Resilience in Dar es Salaam
+Magomeni General Map
+
+===== PDFPAGE 54 =====
+Flood Resilience in Dar es Salaam   49
+Magomeni POTENTIAL Inundation Map
+
+===== PDFPAGE 55 =====
+50   
+Makumbusho
+Mapping period
+July 13th until August 11th 2015
+Surface area
+1.76 km2
+Flood prone area
+0.61 km2 (35%)
+Population (2012 census)
+68,093
+Total number of buildings
+7,848
+AT RISK OF FLOODING
+Buildings at risk of flooding 3,053, of 
+which 19 are school or hospital build-
+ings.
+Description and Recommendations
+With two rivers forming its western and southern 
+boundaries, Makumbusho is highly prone to flooding. 
+This is further exacerbated by a shallow stream in 
+the western part of the ward that flows through 
+Kijitonyama to the Ng’ombe river in the south.
+During instances of high rainfall, Mbuyuni subward 
+is most affected by this stream overflowing, causing 
+damage to residents and infrastructure along its 
+banks. This impact on residents and infrastruc-
+ture also occurs along the Ng’ombe river, which 
+passes through the Sindano, Kisiwani and Mchangani 
+subwards.
+A central part of the ward around Kisiwani Primary 
+School is also affected by flooding. Insufficient 
+roadside drainage and broken water pipes within this 
+area lead to an accumulation of rainwater without 
+any means of flowing out.
+The connection of the existing drainage network 
+together, augmented by new construction could begin 
+to alleviate this impact on Makumbusho ward.
+WARD MAPS
+
+===== PDFPAGE 56 =====
+Flood Resilience in Dar es Salaam   51
+Makumbusho Drainage Map
+
+===== PDFPAGE 57 =====
+52   Flood Resilience in Dar es Salaam
+Makumbusho General Map
+
+===== PDFPAGE 58 =====
+Flood Resilience in Dar es Salaam   53
+Makumbusho POTENTIAL Inundation Map
+
+===== PDFPAGE 59 =====
+54   
+Msasani
+Mapping period
+July 13th until August 11th 2015
+Surface area
+11.59 km2
+Flood prone area
+1.07 km2 (9%)
+Population (2012 census)
+48,920
+Total number of buildings
+8,020
+AT RISK OF FLOODING
+Buildings at risk of flooding 2,578, of 
+which 27 are school or hospital build-
+ings.
+Description and Recommendations
+A large portion of Msasani is composed of upmarket 
+housing, which is on slightly higher ground and thus 
+largely unaffected by flooding. However, much of the 
+western Bonde la Mpunga subward is at risk during 
+heavy rainfall. The name “Bonde la Mpunga” impli-
+cates this as well, as it translates to “valley for 
+rice cultivation”.
+The combination of construction along drains and 
+spread of solid waste in drains and streams chal-
+lenges the water network to sufficiently drain 
+the volumes of water from the Msasani when severe 
+climatic events occur.
+Expanding the drainage system within this area, 
+improving the solid waste management, and cleaning 
+the drains on a regular basis, will move towards 
+reducing the impact of flood risk in Msasani.
+WARD MAPS
+
+===== PDFPAGE 60 =====
+Flood Resilience in Dar es Salaam   55
+Msasani Drainage Map
+
+===== PDFPAGE 61 =====
+56   Flood Resilience in Dar es Salaam
+Msasani General Map
+
+===== PDFPAGE 62 =====
+Flood Resilience in Dar es Salaam   57
+Msasani POTENTIAL Inundation Map
+
+===== PDFPAGE 63 =====
+58   
+Mwananyamala
+Mapping period
+August 17th until September 10th 2015
+Surface area
+2.52 km2
+Flood prone area
+0.57 km2 (23%)
+Population (2012 census)
+50,560
+Total number of buildings
+9,914
+AT RISK OF FLOODING
+Buildings at risk of flooding 2,863, of 
+which 21 are school or hospital build-
+ings.
+Description and Recommendations
+Much of Mwananyamala is a low lying and flood prone 
+area. As a result of this, many buildings here, most 
+of which are residential, are at risk of being inun-
+dated under high rainfall. An absence of drainage 
+channels also allows the pooled water to become 
+stagnated. This poses a flood and a health risk to 
+the residents of Mwananyamala. In the southern area 
+of Mwananyamala, the river Ng’ombe can overflow into 
+the Mwinjuma subward.
+Investigating how new drainage could alleviate and 
+direct the flow of water would be a good step to 
+improve the situation for residents of Mwananyamala.
+WARD MAPS
+
+===== PDFPAGE 64 =====
+Flood Resilience in Dar es Salaam   59
+Mwananyamala Drainage Map
+
+===== PDFPAGE 65 =====
+60   Flood Resilience in Dar es Salaam
+Mwananyamala General Map
+
+===== PDFPAGE 66 =====
+Flood Resilience in Dar es Salaam   61
+Mwananyamala POTENTIAL Inundation Map
+
+===== PDFPAGE 67 =====
+62   
+Mzimuni
+Mapping period
+September 11th until October 9th 2015
+Surface area
+1.28 km2
+Flood prone area
+0.35 km2 (27%)
+Population (2012 census)
+21,486
+Total number of buildings
+4,021
+AT RISK OF FLOODING
+Buildings at risk of flooding 959, of 
+which 1 is a school building.
+Description and Recommendations
+Intersected by both the China and the Kibangu rivers 
+in the south of Mzimuni ward and bordered by Jang-
+wani Fields and Msimbazi river in the east, the 
+Mtambani and Mwinyimkuu subwards of Mzimuni are 
+prone to being inundated during heavy rainfall.
+In response to this situation, deepening the 
+surrounding rivers and enhancing capacity for plan-
+ning by ward and community leaders could begin to 
+ease the pressures of urbanisation within Mzimuni.
+WARD MAPS
+
+===== PDFPAGE 68 =====
+Flood Resilience in Dar es Salaam   63
+Mzimuni Drainage Map
+
+===== PDFPAGE 69 =====
+64   Flood Resilience in Dar es Salaam
+Mzimuni General Map
+
+===== PDFPAGE 70 =====
+Flood Resilience in Dar es Salaam   65
+Mzimuni POTENTIAL Inundation Map
+
+===== PDFPAGE 71 =====
+66   
+Ndugumbi
+Mapping period
+March 29th until April 28th 2015
+Surface area
+1.34 km2
+Flood prone area
+0.18 km2 (13%)
+Population (2012 census)
+36,841
+Total number of buildings
+5,242
+AT RISK OF FLOODING
+Buildings at risk of flooding 
+1,137, of which none are school 
+or hospital buildings.
+Description and Recommendations
+Ndugumbi’s southern border is formed by Moro-
+goro Road, alongside which large drains have been 
+constructed to support the new Bus Rapid Transit 
+system. More roadside drains are present in the 
+western parts of the ward, but these are not to the 
+capacity as those near Morogoro Road and can over-
+flow during heavy rains.
+In the north of Ndugumbi, the Ng’ombe river sepa-
+rates the ward from Tandale. The river catchment 
+can affect the Vigaeni, Mikoroshini and Makanya 
+subwards, these border Tandale.
+Exploring how the Ng’ombe River basin could alle-
+viate the pressure of flooding in Ndugumbi and 
+adjoining wards.
+WARD MAPS
+
+===== PDFPAGE 72 =====
+Flood Resilience in Dar es Salaam   67
+Ndugumbi Drainage Map
+
+===== PDFPAGE 73 =====
+68   Flood Resilience in Dar es Salaam
+Ndugumbi General Map
+
+===== PDFPAGE 74 =====
+Flood Resilience in Dar es Salaam   69
+Ndugumbi POTENTIAL Inundation Map
+
+===== PDFPAGE 75 =====
+70   
+Tandale
+Mapping period
+April 29th until May 29th 2015
+Surface area
+1.17 km2
+Flood prone area
+0.35 km2 (30%)
+Population (2012 census)
+54,781
+Total number of buildings
+9,504
+AT RISK OF FLOODING
+Buildings at risk of flooding 
+1,948, of which 12 are school or 
+hospital buildings.
+Description and Recommendations
+In the north, Tandale is bordered by the Ng’ombe 
+river, which forms its boundaries with Kijiton-
+yama and Magomeni wards. This part of the ward 
+(comprising largely of Mharitan, Mkunduge and 
+Mtogole subwards) can be inundated during heavy 
+rainfall. The low-lying grounds along the river 
+Ng’ombe are most prone to floooding.
+Pakacha subward of western Tandale is mainly 
+affected by a stream called Kiboko, which drains the 
+area to join the Ngo’mbe river.
+In the southern part of the ward, there is a stream 
+that flows from Pakacha to Sokoni and Tumbo subwards 
+to join the river Ng’ombe. The stream is man made 
+and has been reinforced by packed waste materials 
+along its walls to increase its depth. The height 
+of these materials has been breached in exceptional 
+climatic events, reducing accessibility in Tandale. 
+This can have a significant effect on Tandale Market 
+which is one of the main agricultural trading points 
+for Dar es Salaam. There have been many successful 
+initiatives by local residents to clean the stream; 
+however, these efforts have been challenged by 
+the pace of urbanisation and the severity of the 
+changing climate.
+WARD MAPS
+
+===== PDFPAGE 76 =====
+Flood Resilience in Dar es Salaam   71
+Tandale Drainage Map
+
+===== PDFPAGE 77 =====
+72   Flood Resilience in Dar es Salaam
+Tandale General Map
+
+===== PDFPAGE 78 =====
+Flood Resilience in Dar es Salaam   73
+Tandale POTENTIAL Inundation Map
+
+===== PDFPAGE 79 =====
+74   
+Keko
+Mapping period
+July 20th until August 12th 2015
+Surface area
+1.48 km2
+Flood prone area
+0.25 km2 (17%)
+Population (2012 census)
+35,163
+Total number of buildings
+4,575
+AT RISK OF FLOODING
+Buildings at risk of flooding 961, 
+of which none are school or hospital 
+buildings.
+Description and Recommendations
+The stream that drains and cuts across Keko from 
+Nyerere Road in the north to Miburani ward in the 
+south causes is prone to overflowing during heavy 
+rains, affecting residents that live along it. The 
+risk of the stream overflowing is further increased 
+due to the dumping of solid waste into its waters.
+The same applies to the stream and flood prone area 
+in the eastern part of the ward adjacent to Kurasini 
+ward. According to community members, floods in Keko 
+have minimal impact in terms of loss of life, but 
+they do often fear the destruction of property. They 
+believe that if waste materials were removed from 
+the stream and its depth increased, damages could be 
+effectively minimized.
+WARD MAPS
+Temeke
+
+===== PDFPAGE 80 =====
+Flood Resilience in Dar es Salaam   75
+Keko Drainage Map
+
+===== PDFPAGE 81 =====
+76   Flood Resilience in Dar es Salaam
+Keko General Map
+
+===== PDFPAGE 82 =====
+Flood Resilience in Dar es Salaam   77
+KEKO POTENTIAL Inundation Map
+
+===== PDFPAGE 83 =====
+78   
+Temeke
+Mapping period
+November 13th until November 27th 2015
+Surface area
+2.97 km2
+Flood prone area
+0.12 km2 (4%)
+Population (2012 census)
+26,047
+Total number of buildings
+4,246
+AT RISK OF FLOODING
+Buildings at risk of flooding 323, of 
+which 2 are school buildings.
+Description and Recommendations
+With three quarters of the ward area having been 
+planned, drains throughout the ward are mostly 
+structured and connected. This makes Temeke more 
+resilient when compared to other wards, with commu-
+nity leaders expressing a desire for their ward to 
+exemplify potential infrastructural improvements 
+across the city.
+The addition of drains in certain areas would 
+further enhance the resilience of Temeke to 
+flooding.
+WARD MAPS
+
+===== PDFPAGE 84 =====
+Flood Resilience in Dar es Salaam   79
+Temeke Drainage Map
+
+===== PDFPAGE 85 =====
+80   Flood Resilience in Dar es Salaam
+Temeke General Map
+
+===== PDFPAGE 86 =====
+Flood Resilience in Dar es Salaam   81
+Temeke POTENTIAL Inundation Map
+
+===== PDFPAGE 87 =====
+82   
+Mburahati
+Mapping period
+July 14th until August 11th 2015
+Surface area
+1.13 km2
+Flood prone area
+0.38 km2 (33%)
+Population (2012 census)
+34,123
+Total number of buildings
+5,753
+AT RISK OF FLOODING
+Buildings at risk of flooding 1,997, of 
+which 1 is a school building.
+Description and Recommendations
+In the southwestern part of the ward, the river 
+stream that forms Mburahati’s ward boundary and cuts 
+across the ward to join Kibangu river can burst its 
+banks under high rainfall . This can affect resi-
+dents along its path.
+Additionally, the Kibangu river in the south, which 
+drains from Mabibo ward and moves towards Kawawa 
+road, combined with the China river in the north-
+eastern part of the ward, together pose a flood risk 
+to the residents and infrastructure around these 
+areas. Many settlements have been developed along 
+these rivers, leaving residents vulnerable to the 
+consequences of flooding during heavy rains.
+In response to this situation, the deepening the 
+rivers and supporting enhanced planning capacity for 
+ward and community leaders could begin to ease the 
+pressure of population growth in the ward.
+WARD MAPS
+UBUNGO
+
+===== PDFPAGE 88 =====
+Flood Resilience in Dar es Salaam   83
+Mburahati Drainage Map
+
+===== PDFPAGE 89 =====
+84   Flood Resilience in Dar es Salaam
+Mburahati General Map
+
+===== PDFPAGE 90 =====
+Flood Resilience in Dar es Salaam   85
+Mburahati POTENTIAL Inundation Map
+
+===== PDFPAGE 91 =====
+86   
+Mabibo
+Mapping period
+July 14th until August 12th 2015
+Surface area
+3.93 km2
+Flood prone area
+0.51 km2 (13%)
+Population (2012 census)
+85,735
+Total number of buildings
+16,349
+AT RISK OF FLOODING
+Buildings at risk of flooding 1,519, of 
+which 2 are school or hospital build-
+ings.
+Description and Recommendations
+In Mabibo, parts of the Mabibo Relini and Mabibo 
+Farasi subwards (adjacent to Tabata) are affected 
+by the Kibangu river. The Kibangu river runs through 
+the western and southern parts of the ward, between 
+Ubungo and Mburahati wards. During high rainfall 
+the river overflows, leading to a risk of flooding 
+affecting residents in its proximity.
+In Jitegemee and Azimio subwards, two drains inter-
+sect downstream. These drains are shallow and 
+contain waste material. To mitigate this situa-
+tion, residents of these subwards have constructed 
+levees from waste material on the drainage walls. 
+While this has increased the drainage depth, the 
+health and hygiene concerns that remain suggest that 
+the construction of a deeper drain would be a more 
+sustainable solution for improving the drainage 
+capacity.
+WARD MAPS
+
+===== PDFPAGE 92 =====
+Flood Resilience in Dar es Salaam   87
+Mabibo Drainage Map
+
+===== PDFPAGE 93 =====
+88   Flood Resilience in Dar es Salaam
+Mabibo General Map
+
+===== PDFPAGE 94 =====
+Flood Resilience in Dar es Salaam   89
+Mabibo POTENTIAL Inundation Map
+
+===== PDFPAGE 95 =====
+90   
+Manzese
+Mapping period
+September 11th until October 9th 2015
+Surface area
+1.86 km2
+Flood prone area
+0.31 km2 (17%)
+Population (2012 census)
+70,507
+Total number of buildings
+9,504
+AT RISK OF FLOODING
+Buildings at risk of flooding 1,948, of 
+which 12 are school or hospital build-
+ings.
+Description and Recommendations
+Manzese is intersected by a large network of rivers 
+and streams, along with the newly constructed Bus 
+Rapid Transit system on Morogoro Road.
+In the northern area of Manzese, Chai Bora subward 
+is bordered by the Ng’ombe river, with water pooling 
+along the river banks when intense rains occur. 
+Mvuleni and Uzuri subwards are also affected by 
+this phenomenon, though the additional complication 
+of the Mbokomu stream (that later joins the Kiboko 
+river) leaves the buildings and infrastructure along 
+its banks even further prone to flooding.
+Expanding the capacity of drainage could ease the 
+flood propensity of Manzese and improve the situa-
+tion for those living within the ward.
+WARD MAPS
+
+===== PDFPAGE 96 =====
+Flood Resilience in Dar es Salaam   91
+Manzese Drainage Map
+
+===== PDFPAGE 97 =====
+92   Flood Resilience in Dar es Salaam
+Manzese General Map
+
+===== PDFPAGE 98 =====
+Flood Resilience in Dar es Salaam   93
+Manzese POTENTIAL Inundation Map
+
+===== PDFPAGE 99 =====
+94   
+Ubungo
+Mapping period
+October 8th until November 6th 2015
+Surface area
+10.17 km2
+Flood prone area
+0.58 km2 (6%)
+Population (2012 census)
+56,015
+Total number of buildings
+9,282
+AT RISK OF FLOODING
+Buildings at risk of flooding 1,102, 
+of which 12 are school or hospital 
+buildings.
+Description and Recommendations
+Most of subwards in Ubungo (except for Chuo Kikuu, 
+where the University of Dar es Salaam and Ardhi 
+University are located) have the same challenge: a 
+lack of drainage infrastructure.
+This is augmented by Ubungo’s growing population, 
+leading to an increase in demand for housing and 
+for business areas. The growing need for space has 
+led some residents to construct buildings on top of 
+waterways, contributing to the blockage of storm 
+drains and the overflowing of stormwater during 
+heavy rains. Solid waste management is a further 
+contributory factor, resulting in further blockage 
+within the drainage system.
+In response to this situation, enhancing capacity 
+for planning by ward and community leaders could 
+begin to ease the pressures of urbanisation within 
+Ubungo if supported by regular cleaning and removal 
+of solid waste within the drainage network.
+WARD MAPS
+
+===== PDFPAGE 100 =====
+Flood Resilience in Dar es Salaam   95
+Ubungo Drainage Map
+
+===== PDFPAGE 101 =====
+96   Flood Resilience in Dar es Salaam
+Ubungo General Map
+
+===== PDFPAGE 102 =====
+Flood Resilience in Dar es Salaam   97
+Ubungo POTENTIAL Inundation Map
+
+===== PDFPAGE 103 =====
+98   
+Makurumla
+Mapping period
+July 13th until August 12th 2015
+Surface area
+1.57 km2
+Flood prone area
+0.29 km2 (18%)
+Population (2012 census)
+63,352
+Total number of buildings
+8,043
+AT RISK OF FLOODING
+Buildings at risk of flooding 1669, of 
+which 1 is a school building.
+Description and Recommendations
+With the China river cutting across the ward, most 
+of the buildings along this river are in an area 
+prone to flooding. This is especially true in Kwa 
+Jongo, Mianzini, Sisi kwa sisi and Kimamba subwards.
+The main issue to be addressed to prevent flooding 
+within Makurumla is the improper dumping of waste 
+materials, causing river water blockage and the 
+redirection of water to flow into residential areas. 
+This could be achieved through expanding the network 
+of waste collection points and educating the commu-
+nity on the need for consolidated waste collection.
+WARD MAPS
+
+===== PDFPAGE 104 =====
+Flood Resilience in Dar es Salaam   99
+Makurumla Drainage Map
+
+===== PDFPAGE 105 =====
+100   Flood Resilience in Dar es Salaam
+Makurumla General Map
+
+===== PDFPAGE 106 =====
+Flood Resilience in Dar es Salaam   101
+Makurumla POTENTIAL Inundation Map
+
+===== PDFPAGE 107 =====
+The wards within Dar es Salaam’s city center include 
+Kivukoni, Kisutu, Kariakoo, Jangwani, Gerezani, 
+Mchafukoge, Upanga Mashariki and Upanga Magharibi. 
+In September 2015, the Ramani Huria team ground 
+surveyed these wards, creating detailed maps of the 
+area. The mapping included collecting details on all 
+buildings (building levels, building materials, use 
+and structural information), road networks, drainage 
+networks and other points of interest.
+Within the city center, Upanga Magharibi, Jang-
+wani, and parts of Kariakoo (which border on the 
+Msimbazi river valley in the west) are the areas 
+where floods occur most often. The remaining wards, 
+Upanga Mashariki, Gerezani , Kisutu and Kivukoni, 
+only flood when the existing ground drainage systems 
+overflow due to heavy rainfall.
+The greatest challenge for these areas is poor and 
+old infrastructure that lacks capacity to hold large 
+volumes of stormwater. This may already lead to 
+flooding when it rains heavily for just a few hours. 
+The use of data resulting from the mapping could be 
+explored by city planners and infrastructure experts 
+to improve the planning and maintenance of drainage 
+infrastructure, and be implemented as input for 
+disaster response and preparedness plans.
+Downtown Mapping
+8 Wards
+102   
+
+===== PDFPAGE 108 =====
+Flood Resilience in Dar es Salaam   103
+Downtown Drainage Map
+
+===== PDFPAGE 109 =====
+104   Flood Resilience in Dar es Salaam
+Downtown General Map
+
+===== PDFPAGE 110 =====
+In order to improve the understanding of the water 
+network of Dar es Salaam, and increase the poten-
+tial for analysis, map coverage of the drainage 
+network has been expanded to encompass the wards 
+surrounding the areas where we performed commu-
+nity mapping. Precipitation in these areas accumu-
+lates and drains through Dar es Salaam to the Indian 
+Ocean, making this part of same catchment area and 
+integral to include in hydrological analysis. The 
+drainage mapping has extended coverage to an addi-
+tional 36 wards, which act as catchments and trib-
+utaries draining into the rivers and streams that 
+cut through the informal settlements in the heart 
+of Dar es Salaam. The drainage mapping was performed 
+between December 2015 and March 2016.
+The drainage map for the 36 wards of Dar es Salaam 
+in which only drainage was mapped has been divided 
+into five maps: the northwestern, western, south-
+western, southern, and eastern areas.
+Drainage mapping
+36 Wards
+105
+
+===== PDFPAGE 111 =====
+106   Flood Resilience in Dar es Salaam
+The Northwestern area includes Kinondoni, Mbezi Juu, Kawe, Makongo, Sinza, 
+Kijitonyama and Mikocheni.
+Kinondoni: The western, northwestern and northern parts of the ward have 
+planned and connected drainage channels along the roads. This aids in the flow 
+of water into larger drains along the Bagamoyo road, which subsequently flow 
+into the Indian Ocean. The central part of the ward is an unplanned residential area 
+which is flood prone. Because of the nature of this area and the lack of planning, 
+there are no roads that serve the area apart from footways, which means there 
+are no roadside drains to drain water from the area towards bigger drains.
+Mbezi Juu: Generally, Mbezi Juu is not affected by floods. The river Mbezi runs 
+through the southern part of the ward, cutting from Makongo ward across Kawe 
+to the Indian Ocean. Most of the small rivers and streams join the river, draining 
+these areas sufficiently. In the northern part of the ward, a river carries water 
+from Goba ward before also cutting across Kawe and directing water to the Indian 
+Ocean. Bagamoyo Road (along the eastern boundary) additionally has side drains 
+that carry excess water to the river Mbezi. 
+Kawe: The rivers that drain Kawe come from Mbezi Juu and run towards the Indian 
+Ocean. Most drains, streams, and rivers are connected to lead water towards the 
+ocean. In the south, there is Mlalakuwa river; in the middle, there is Mbezi river; and 
+in the north, there are two additional rivers. Generally, Kawe is not terribly affected 
+by floods as the drainage system is effectively connected to the Indian Ocean.
+Makongo: The drainage system in Makongo is well connected to the Mbezi river 
+in the north and the Mlalakuwa river in the south. Most drainage channels in the 
+centre of the ward eventually join one of these rivers that carry water out of the 
+ward and into the Indian Ocean. This effective drainage network, combined with 
+a comparatively high elevation, puts the ward at very low risk of heavy flooding.
+Sinza: All parts of Sinza’s drainage system are connected - from side drains to the 
+rivers that cut across the ward. This makes it easy for all water to flow smoothly. 
+In the south, the ward boundary is formed by the Ng’ombe river than drains Ubungo 
+before cutting across Sinza towards Manzese, Tandale, and a number of other 
+wards before finally running into the Indian Ocean. Many buildings within the ward, 
+however, are built too close to this river, causing them to be affected when the 
+river is high during heavy rains. In the north, the Chuo Kikuu stream drains the area 
+next to Kijitonyama where it joins a bigger built drain towards the Indian Ocean. 
+Most of the roadside drains are well-built and connected, directing water to either 
+the Ng’ombe river or Chuo Kikuu stream. 
+Kijitonyama: Kijitonyama has well connected drainage systems throughout, from 
+rivers to streams, drains and ditches. However, Kijitonyama is still affected by 
+flooding due to the area being relatively flat, with most of the streets lacking 
+side drains resulting in a lot of stagnant water after rains. This tends to lead to 
+flooding in the streets until after the rains let up and enough time has passed for 
+the soil to naturally absorb the water. Usually, this process takes one to two days. 
+It is therefore recommended that more roadside drains are built in Kijitonyama to 
+combat the flooding that occurs. 
+Mikocheni: Most streams and drains in Mikocheni join the Mlalakuwa river situated 
+at the western and northern borders of the ward. The Chuo Kikuu river also cuts 
+across the ward from Kijitonyama, offering an additional path for any excess 
+water to flow into the Indian Ocean. These rivers effectively carry the majority of 
+potential flood water out of the ward.
+Northwestern area
+
+===== PDFPAGE 112 =====
+Flood Resilience in Dar es Salaam   107
+Drainage Map - NorthWestern Area
+
+===== PDFPAGE 113 =====
+108   Flood Resilience in Dar es Salaam
+The Western area includes Makuburi, Kimanga, Kimara, Segerea and Kinyerezi.
+Makuburi: The northern boundary of the ward is formed by Kibangu river, one of 
+the biggest rivers that cuts across several wards of the city. As some buildings 
+are built close to the river, these buildings are affected when the river floods. The 
+stream that borders the ward in the south also brings flooding issues, not only 
+to Makuburi ward but also to neighboring Tabata and Kimanga wards. Most of the 
+buildings affected here are residential. The streams, drains and ditches found in 
+the central part of the ward drain into the main rivers. The road side drains along 
+Mandela Road also help to drain water and direct it to Kibangu river.
+Kimanga: The streams that run along the northeastern and southeastern portions 
+of this ward tend to flood during rainy season, affecting many residential settle-
+ments. While there are many well-connected streams and drains in the east, the 
+west has no system in place. Fortunately, this area is quite high in elevation - 
+deeming it less prone to flooding.
+Kimara: Kibangu river forms Kimara’s boundary in the north, before cutting 
+across the ward towards Makuburi. Kimara’s drainage system connects to this 
+river, directing water out of the ward and through Ubungo. Morogoro Road, which 
+runs through the ward, is well-equipped with roadside drains that further help 
+to improve flood resilience within this ward. Kimara is also quite hilly in nature, 
+allowing water to run off naturally and reducing flood risk.
+Segerea: Most residential buildings within this ward are located near the Msimbazi 
+river, putting them in danger of inundation during rainy seasons. Smaller flood 
+prone areas also exist in the central and eastern parts of the ward. This is mainly 
+due to a lack of outlet drains and ditches, causing water to remain stagnant, and to 
+water that runs in from the western part of the ward that is located on higher land. 
+Kinyerezi: Kinyerezi is residential in nature, with most of the buildings concentrated 
+in the central and eastern parts of the ward. The rest of the ward does have scat-
+tered residential areas, specifically in the west and north. The central and eastern 
+parts contain streams, drains and ditches that drain water to the Msimbazi river 
+in the southwestern area of the ward. Generally speaking, Kinyerezi is not very 
+prone to flooding.
+Western area
+
+===== PDFPAGE 114 =====
+Flood Resilience in Dar es Salaam   109
+Drainage Map - Western Area
+
+===== PDFPAGE 115 =====
+110   Flood Resilience in Dar es Salaam
+The Southwestern area includes Kitunda, Kipawa and Ukonga.
+Kitunda: : This ward is residential in nature, with most of the area built up for resi-
+dential use except for the military area in the northern part. Kitunda consists of 
+flat terrain and has six streams running across to drain it. During rainy seasons, 
+water tends to flood into the residential areas. All around these streams, urban 
+agriculture for crop cultivation has been established, supporting the residents for 
+food and income, but also reducing the capacity of the streams to carry water.
+Kipawa: Julius Nyerere International Airport is located in the central and eastern 
+part of the ward. The rest of the ward area is mostly residential in nature, except 
+for the buildings along the Nyerere/Pugu Road which are a mix of commercial and 
+industrial. With the Msimbazi forming the northern boundary, residential buildings 
+along the river are affected during the rainy days as the river floods. With the 
+available roadside drains along Nyerere/Pugu road and other streams and ditches, 
+the rest of the ward is less prone to flooding.
+Ukonga: The southern part of Ukonga contains streams, roadside drains and 
+ditches that drain water from the ward to Kitunda, joining other rivers towards the 
+Indian Ocean. The Msimbazi river cuts across in the north, where urban agriculture 
+is undertaken along the banks. Barring the buildings close to Msimbazi river in the 
+north, Ukonga is not very prone to flooding.
+SouthWestern area
+
+===== PDFPAGE 116 =====
+Flood Resilience in Dar es Salaam   111
+Drainage Map - SouthWestern Area
+
+===== PDFPAGE 117 =====
+112   Flood Resilience in Dar es Salaam
+The Southern area includes Sandali, Chang’ombe, Mbagala, Mbagala Kuu, Mibu-
+rani, Azimio, Makangarawe, Kilakala, Buza, Kiburugwa, Yombo Vituka, Kiwalani 
+and Tandika.
+Sandali: The central and southern parts of Sandali are composed of informal 
+settlement, but do contain a well connected drainage system with streams, drains 
+and ditches helping to drain the ward and carry water towards rivers and ultimately 
+into the Indian Ocean. The northern part of Sandali contains two major primary 
+roads, Nyerere/Pugu Road and Mandela Road, with roadside drains that help to 
+move water away from the ward, making Sandali not very prone to flooding.
+Chang’ombe: The central and northern areas of Chang’ombe are composed of 
+industrial and commercial buildings, while the south is a mix of residential and 
+commercial buildings. The drains that run alongside Nyerere and Pugu Road in the 
+east help to drain the ward and direct stormwater to a larger drain in neighbouring 
+Keko ward. Drains in the centre and south join with Mandela roadside drains to 
+move water out of the ward. There are several unconnected drains with limited 
+capacity near Serengeti Breweries Ltd. in the southern part of the ward, causing 
+many roads to flood during rainfall.
+Mbagala: The eastern boundary of Mbagala is formed by Kilwa Road, separating 
+Mbagala from Mbagala Kuu. This road has side drains that direct water from the 
+south towards the main river running in the north. Drains in the north and streams 
+in the west help to move water from the central highland area to the lower-lying 
+land in the north through which a major river runs. Buildings along this river some-
+times experience flooding due to their close proximity to the water.
+Mbagala Kuu: Due to its well-connected drainage system, Mbagala Kuu is not 
+exceptionally flood prone. The southern part, however, is relatively flat - putting 
+some residential buildings near the river at risk of inundation.
+Miburani: Drains that run alongside the two major primary roads in this ward, 
+Mandela Road and Kilwa Road, help to move stormwater towards the Indian Ocean. 
+The rest of the drainage channels in the southern part of the ward are well-con-
+nected and join the major roadside drains.
+Azimio: Although Azimio consists mostly of informal settlements, its drainage 
+system is well distributed and connected to other larger water channels. The 
+drainage system includes rivers in the south and roadside drains and ditches all 
+over the ward. Buildings in the southern part can be affected during the rainy 
+season, since a number of these are built within the river valley.
+Makangarawe: Buildings along the river on Makangarawe’s eastern border are 
+affected by floods during rainy periods. Although the central part of the ward has 
+no drainage channels, the northern and southern borders are formed by a stream 
+and a large ditch. Most drainage systems within the ward are connected to these, 
+managing to drain the area quite thoroughly.
+Kilakala: Kilakala consists largely of informal settlements - with streams lining 
+its eastern, southern, and western boundaries, and a drain that cuts through the 
+ward in its entirety. The northern area is on higher ground, causing water to flow 
+into the south and join the stream that carries water to major rivers that lead to 
+the Indian Ocean. Kilakala is subsequently not very flood-prone.
+Buza: The western part of Buza is quite densely developed with residential build-
+ings. Fortunately, it is bordered by streams and ditches on every side, with drains 
+running along the main road through its centre. These streams and ditches connect 
+to neighbouring wards. The eastern part of Buza is affected by floods during rainy 
+periods, but the area is primarily used for urban agriculture - putting very few 
+lives at risk.
+Kiburugwa: The western and eastern boundaries of this ward are formed by 
+streams that drain water from the north and the south. The two streams cutting 
+across the centre of the ward join the main river and also help to drain the ward. 
+Informal settlements constructed along the river in the north are at high risk of 
+flooding.
+Yombo Vituka: About three-quarters of Yombo Vituka has been well-planned, but 
+the area in the south is largely comprised of informal settlement. Several streams, 
+drains, and ditches are well-distributed and connected, keeping most residents 
+living in this ward safe from flooding
+Kiwalani: The northern section of this ward is primarily commercial and industrial, 
+while the remainder is largely residential. Drains that run alongside Nyerere and 
+Pugu Road work quite effectively to drain the ward - linking up to an extensive 
+channel that spans across the ward.
+Tandika: The northern, central, and eastern parts of Tandika are well-planned, while 
+the remainder is largely unplanned. The drainage system is connected ward-wide, 
+making Tandika quite resilient to flooding.
+Southern area
+
+===== PDFPAGE 118 =====
+Flood Resilience in Dar es Salaam   113
+Drainage Map - Southern Area
+
+===== PDFPAGE 119 =====
+114   Flood Resilience in Dar es Salaam
+The Eastern area includes Kigamboni, Tungi, Vijibweni, Mjimwema, Kibada, Kijichi, 
+Mtoni and Kurasini.
+Kigamboni: The Indian Ocean forms the eastern, northern and western border of 
+Kigamboni. Kigamboni has drains along several roads, directing stormwater to 
+the Indian Ocean. There is a larger density of buildings in the centre of the ward, 
+but water can run off easily making Kigamboni not very susceptible to flooding.
+Tungi: Like Kigamboni, Tungi has a lot of coastline, with the Indian Ocean forming 
+its boundaries in the west and east. Except for a few roadside drains, there are few 
+drainage systems in Tungi, but water runs of naturally into the ocean.
+Vijibweni: Vijibweni contains several scattered informal settlements. The ward’s 
+western boundary is formed by the Indian Ocean, and roadside drains and streams 
+connect to join the Indian Ocean.
+Mjimwema: Bordered by the Indian ocean in the north, Mjimwema has some scat-
+tered settlements in the northern and western parts of the ward. Large areas in 
+the south and east are not built at all, and agriculture has prevailed here. There 
+are flood prone areas in the eastern part of Mjimwema, but these don’t do much 
+harm as the area is not inhabited.
+Kibada: The eastern part of Kibada contains scattered settlements, but its western 
+part does not contain buildings at all. This is because the western area is near a 
+river delta that enters the Indian Ocean.
+Kijichi: In the north of Kijichi, there is a river delta flowing into the Indian Ocean, 
+with its western and eastern border being formed by rivers flowing towards this 
+delta. Most buildings are found in the centre of the ward. Drains direct water to 
+the rivers, but the areas near the rivers are susceptible to flooding.
+Mtoni: The southern and eastern borders of Mtoni are formed by a river and the 
+Indian Ocean respectively, with most other drains and streams joining the river 
+before it flows into the ocean. Buildings that have been constructed along the river 
+in the south are affected by flooding in the rainy season.
+Kurasini: With the Indian Ocean forming the ward’s boundaries in the north and 
+east, Kurasini has a well connected drainage system that flows into the ocean. 
+Kurasini is also home to the Port of Dar es Salaam.
+Eastern area
+
+===== PDFPAGE 120 =====
+Flood Resilience in Dar es Salaam   115
+Drainage Map - Eastern Area
+
+===== PDFPAGE 121 =====
+116   Flood Resilience in Dar es Salaam
+All map data is © OpenStreetMap contributors. All map coordinates in 
+this document are given in Arc1960/UTM 37S, the standard in Tanzania. 
+In each ward, different students and volunteers have helped us to collect 
+the data. The map design is licensed under the Creative Commons license 
+(https://creativecommons.org/licenses/by-sa/4.0/). We would like to thank our 
+volunteers for helping us make Ramani Huria a success, and allowing us to take 
+this step towards putting Dar es Salaam on the map.
+Ndugumbi
+Ndugumbi community members: Kamal Hamis, Paulsen Angello, Pascal Charles, 
+Lucas Geoffrey, Abdallah Juma, Rose Magembe, Musa A. Geuza, Venance Chalamila.
+University of Ardhi students: Ardhi University students: Tonny John, Fanuel 
+Mtokoma, Nuru Kalulunga, Gwantwa Andrew, Cosmas Aniceth, Titus Nason, Petro 
+Johanes, Innocent Maholi, Dorica Mugusi, Evance Calist, Jasper Ringo, Dominic Elia, 
+Mlewa Benedict, Goodluck Malangwa, Twalib Salum.
+Tandale
+Tandale community members: Farida Omari. Yusuph Makamba, Mozza Mkopi, 
+Jamila Muhidini, Salum Kaponda, Obedi Hamisi, Salim Mtepetallah, Ashiru Issa, 
+Nassoro Mzee, Mwanahamisi Mohamedi, Tawfiq Ahmad Bakari
+Ardhi University students: Tonny John, Fanuel Mtokoma, Nuru Kalulunga, Gwantwa 
+Andrew, Cosmas Aniceth, Titus Nason, Petro Johanes, Innocent Maholi, Dorica 
+Mugusi, Evance Calist, Jasper Ringo, Dominic Elia, Mlewa Benedict, Goodluck 
+Malangwa, Twalib Salum.
+Mchikichini
+Mchikichini community members: Saleh Katumbo, Monday Anthony, Amina Mogelly, 
+Sudi Thabiti, Kisa Mwampulo, Sultani Hassan, Zuwena Nyansasa, Almasi Chandugu, 
+Nelson Sarafini, Ally Mansaya, Godfrey Clarence, Emilson Milanzi.
+Ardhi University students: Tonny John, Fanuel Mtokoma, Nuru Kalulunga, Gwantwa 
+Andrew, Cosmas Aniceth, Titus Nason, Petro Johanes, Innocent Maholi, Dorica 
+Mugusi, Evance Calist, Jasper Ringo, Dominic Elia, Mlewa Benedict, Goodluck 
+Malangwa, Twalib Salum, with Kamal Hamis and Baraka Phillip.
+Makumbusho
+Makumbusho community members: Selemani Mohamedi, Muhsin R Giriki, Anjela 
+S Gandi, Mwanahamisi Salum, Siasa Sultani, Scholastika Hilary and Baraka Barton.
+Ardhi University students: Christabell Alendwase, Chuwa Mary, Daniel Victoria N, 
+Emanuel Rachel, Gaudence Lucia, Gervas Godfrey, Haule Christopher, Haule Diana, 
+Hussein Godfrey, Mchomvu Jackie, Ndanzi Jonisia and Ngaluma Mwanaharusi.
+University of Dar es Salaam students: Donard Nellusigwe, Ingabire Claire, Kaserwa 
+Jacqueline, Msungu Jackline, Mtey Fadhili, Shayo Luciana, Sahila Rebeca, Nyakota 
+Wilbroad, Ng’umbi Nickson, Ngowoko Herbert, Mwandu Rachel, Nazayoeli Samwel, 
+Vicent Straton, Umulisa Aimee.
+Mabibo
+Mabibo community members: Charles Mboya, Yusuf R. Nyumbu, Fort Amri, Sharifa 
+Khalfan, Hassan Mbegu and Zulfa Rashid.
+Ardhi University students: Benjamin Kimayani, Mtima Athanas, Muyenjwa Joseph, 
+Mwanja Immaculate, Ngao Giveness, Ngowi Haikasia, Omari Ramadhani Salim, 
+Ramadhani Ibrahim, Saidi Alnoor and Suleiman Septuu.
+University of Dar es Salaam students: Mtaki John, Nyalusi Amour, Pongolela 
+Joyce, Rajab Said, Shomari Malimi, Sichone Lucy, Stephano Robert, Umutoni Sarah, 
+Umutoniwase Clementine and Zuberi Nuia.
+Mburahati Ward
+Mburahati community members: Raphael Mteka, Felister Ngapungila, Fabian Bruno, 
+Paulo Aloyce, Asha K Mvamba and Emmanuel P Msusu.
+Ardhi University students: Gisito J Mohere, Sarah Kahebo, Davidson Kiraryo, Lucy 
+Pagama, Cyprian Mdongwe, Bibiana Timothy and Sajda Mushi.
+University of Dar es Salaam students: Abubakari Hiza, Ilham Ismail, Jabir Hussein, 
+Jackson Joseph, Elizabeth Kabage, Ramadhani Kadondoro, Bhoke Kichere, Emmanuel 
+Kombe, Samwel Masanja, Mathew Mmelele, Menrado Mushi, Richard Ndosi, Faiza 
+Ngendelo.
+Makurumla
+Makurumla community members: Hanenga Said, Grace Mwaakibinga, Juma 
+Mwanguo, Fatuma Mjanaheli, Mtumwa Ally and Praygod Mushi.
+Ardhi University students: Adrian Heneritha, Bilauri Innocent Lucius, Chaugambo 
+Kassim A, Chigwele Ismail R, Gidion Salma, Juma Zuena, Khalid Sophia, Kisyombe 
+Robinson, Kitoi Juma, Kiwango Neema, Masenga Alphonce, Mponda Idd M, Musta-
+pher Asha, Nguma Emmanuel and Seme Daniel Nino.
+University of Dar es Salaam students: Albert William, Amos Alphonce, Anderson 
+Dickson, Anthony Jenester, Batenga Maryrose, Benedict Raymond, Chandid Godfrey 
+Contributors and licensing
+
+===== PDFPAGE 122 =====
+Flood Resilience in Dar es Salaam   117
+M, Charles Frank, Chazua Iddy, Constantine Deogratius, Cyarigonza Angelique and 
+Chrispine Tarisela.
+Keko
+Keko community members: Bakari Mrosa, Florian Mbena, Pili Mikaji, Kamona 
+Kassanda.
+University of Dar es Salaam students: Gosbert Nelson, Halifa Ibrahimu, Michael 
+Gabriel, David Gupta, Peter Harrison, Jovia Kiconco, Laizer Christopher, Daniel 
+Gaspin, Msanga Richard, Hawa Hassani, Msoka Rosemary, Mgaza Abdallah.
+Ardhi University students: Kimaro Amadeus, Gosbert Anita, Kessy Mary, Colman 
+Fadhila, Ndauga Daudi, Hamadi Nuru, Mlagwa Diana, Msanga Richard, Christopher 
+Christopher, Lawi Fanuel, Juma Zahara, Hamisi Salehe.
+Msasani
+Msasani community members: Khalidi Rajaba, Richard Mwambalaswa, Donald N 
+Warioba, Hilda Aloyce Mandazi, Zilpa Lucas Ngozi, Gerald Tinuga.
+Ardhi University Students: Sanze Aisha H, Sanjey Dorice E, Mwende Happiness, 
+Mpaka Devotha A, Matto Janet, Matee, Rengard R, Mapunda Erick, Mansour Warda 
+H. Malima Alice, Maingu Baraka, Machumu Beatrice W, Machenje James, Kayombe 
+Masoud, Kanuti Agnes L, Isame Judith James. University of Dar es Salaam students: 
+Niyonsaba Pascaline, Lyander Davis, Saguda Elias J, Komba Robert, Lymo Jenipher 
+P, Malila Benjamini, Mboya Mkundelida, Mkwele Jackson, Mlambalamba Kelvin K, 
+Nyinaumuntu Jeanette.
+Buguruni
+Buguruni community members: Anifa Amir, Baraka Malima, Chiku Hamis, Fatma 
+Salim, Felichian Lukelo, Filemoni M. Kunambi, Francis Chambo, Ismail A. Matola, 
+Jamila Kumbilamoto, Jenifa Jacob, Johnson Vigero, Joho Mohamedi, Justina J Mbena, 
+Khadija Abdul, Mariam Omary, Silvanus Herman, Zaina Huseni.
+Universities of Dar es Salaam and Ardhi students: Mwanja Immaculate, Ramadhani 
+Ibrahim, Saidi Alnoor, Omari Ramadhani Salim, Muyenjwa Joseph, Ngowi Haikasia, 
+Nyalusi, Amour, Kessy Mary, Pongolela Joyce, Sichone Lucy, Anitha Gosbert, Hamisi 
+Salehe, Kimaro Amadeus, Harrison Peter, Fadhla Colman, Kahebo Sarah.
+Mwananyamala
+Mwananyamala community members: Aziza Omary Urembo, Fikili Abdala, Grace 
+M.Sanga, Hadija M. Mabula, Hassan Kitambi, Mohamedi Ally Mponda, Mubaraka 
+A. Juma, Sharifa Mtandya, Tatu Abdallah Mputo, Wales MKoma, Tatu S. Mabula.
+Universities of Dar es Salaam and Ardhi students: Benedict Raymond, Musta-
+pher Asha Mohamed, Kisyombe Robinson J, Masenga Alphonse, Seme Daniel 
+Nino, Chazua Iddy, Batenga Maryrose, Anderson Dickson, Juma Kitoi Ally, Anthony 
+Jenester, Ngaluma Mwanaharusi, Chuwa Mary I, Gervas Godfrey, Daniel Victoria 
+N, Christabell Alendwase, Jovia Kiconco.
+Magomeni
+Magomeni community members: Faraji A. Msuya, Fatuma Ismary, Hamady 
+Mtakafedha, Khamisi A. Kulata, Mariam Amani Manjali, Mariam S. Hussein, Mgaya 
+Magango, Peter Kika Kanju, Pili H. Limota, Pili Rajabu, Rehema Gumbwa, Salumu 
+Hamisi, Selemani Matwanzi, Vincent J. Mirumbe, Yussuph A. Malidadi, Mariam B. 
+Sulemani, Mshame S. Kwandam, Haisa Rajabu Kailah, Masoud Saleh Rashid, J. A. 
+Maro.
+Universities of Dar es Salaam and Ardhi students: Agnes Kanuti, Mapunda Erick U, 
+Saguda Elias, Devota Mpaka, Mboya Mkundelida, Lymo Jenipher P, Mwende Happi-
+ness, Mlambalamba Kelvin K, Matto Janet, Umutoni Sarah, Hawa Hassani, Abdallah 
+Mgaza, Stephano Robert, Machenje James, Christopher Christopher.
+Hananasif
+Hananasif community members: Abbas S. Mataka, Abdalamani Salum, Abdallah 
+A Mwamba, Ally B. Membe, Blanka Ngowi, Devota Pango, Doris J. Manga, Fadhila J. 
+Millinga, Fikiria L. Lwanzali, Fredrick Linga, Godfrey Chacha, Halima Kinoge, Happi-
+ness Pius, Kristina Elisha, Mahamudu Feruzi, Martha A Kibodya, Renatus S. Kazin-
+dogo, Sara R. Ndanzi, Sikitiko Mohamed, Zuhura Mgeni.
+Universities of Dar es Salaam and Ardhi students: Ilham ismail, Ndosi Richard S, 
+Faiza Ngendelo, Elizabeth Kabage, John Mohere, Kombe Emmanuel, Mushi Menrado, 
+Sajda Mushi, Abubakari Hiza, Lucy Pagama, Sahila Rebeca W, Jonisia Ndanzi, Umulisa 
+Aimee, Ngowoko Herbert O, Mtey Fadhili M
+Vingunguti
+Vingunguti community members: Hamisi B Baruti, Sophia R Simba, Josephine Peter, 
+Ramadhani Athumani, Fatuma Ramadhani, Eva Machibya, Neema Pius, Maimuna 
+Taddey, Asha Kibwana, Ahmed Besha, Hamis S. Mtemanya, Jafar K. Ramadhan, 
+Fadhil Ayubu, Jane Lawrent, Ashura Shabani, Agnes Robert.
+Universities of Dar es Salaam and Ardhi students: Immaculate Mwanja, Alnoor 
+
+===== PDFPAGE 123 =====
+118   Flood Resilience in Dar es Salaam
+Saidi, Omari Ramadhani Salim, Joseph Muyenjwa, Mwanaharusi Ngaluma, Amour 
+Nyalusi, Mary Kessy, Joyce Pongolela, Lucy Sichone, Anitha Gosbert, Salehe Hamisi, 
+Kimaro Amadeus, Sarah Kahebo, Fadhila Colman.
+Kigogo
+Kigogo community members: Rehema Adam Mohammed, Asma Hussein 
+Mohammed, Selemani Athumani Said, Sharifa M. Mhumbira, Rehema M. Mgodi, 
+Halima Hamza Minziro, Lilian Boneventure Mtengule, Materi Andereas Doka, Meraji 
+Awazi Simba, Suzana Masombola, Aisha Ally Safary, Raymond Tryphone Mayowera, 
+Jema Manjori, Gasper Gasper Mponda, Mazoea Hussein Ling’omba, Zaharani Omary 
+Maulidi, Khadija Issa Mohamed, Hafidh Hamza Salehe, Elizabeth Anthony Milanzi, 
+Busolo Mlekwa Geofrey.
+Universities of Dar es Salaam and Ardhi students: Mapunda Erick U., Saguda Elias, 
+Devota Mpaka,Mboya Mkundelida, Lymo Jenipher P, Mwende Happiness, Mlambal-
+amba Kelvin K, Matto Janet, Umutoniwase Clementine, Hawa Hassani, Abdallah 
+Mgaza, Stephano Robert, Machenje James, Christopher Christopher, Ngowi Haikasia.
+Manzese
+Rukia Saidi Chingeza, Zainabu Azza, Mwantumu H. Ramadhani, Mrisho Ally, Fidelis 
+W. Mutashobya, Ratifa Ramadhani, Ramadhani Maneno, Mariam Mohamedi Kulunge, 
+Mastidia S.Matiko, Khadija M. Mbuguni, Fatuma K. Athumani, Yuster D. Kapilima, 
+Tatu S.Ally, Jackline Msabaha, Fadhili Omari, Isumaili Mhamedi, Anthony Nguzo, 
+Delphinus Muganyizi, Winceslaus C.Muntatina
+Universities of Dar es Salaam and Ardhi students: Benedict, Raymond, Musta-
+pher Asha Mohamed, Kisyombe Robinson J, Masenga Alphonse, Seme Daniel Nino, 
+Chazua, Iddy, Batenga, Maryrose, Anderson, Dickson, Juma Kitoi Ally, Anthony, 
+Jenester, Ngaluma Mwanaharusi, Chuwa Mary I, Gervas Godfrey, Daniel Victoria 
+N., Christabell Alendwase, Jovia Kiconco
+Mzimuni
+Mzimuni community members: Elias T. Nkini, Mamisa, Adam, Kuluthumu Ally, 
+Fatum Maulid, Salima Buki, Rehema Pinde, Mwasanga Said, Mariam Yusuph, Maya 
+Said, Mwajua Hamis, Mwanaharusi Kupa, Fatuma Jella, Mariam Hamis, Nuru Ramad-
+hani, Maliselina Walter, Husna Kupa, Ashura Omar, Habiba Yusuph, Maria Mayaya, 
+Mwanahamisi Ally.
+Universities of Dar es Salaam and Ardhi students: Ilham ismail, Ndosi Richard S, 
+Faiza Ngendelo, Elizabeth Kabage, Kombe Emmanuel, Mushi Menrado, Sajda Mushi, 
+Abubakari Hiza, Lucy Pagama, Sahila Rebeca W, Jonisia Ndanzi, Ngowoko Herbert 
+O, Mtey Fadhili M, Baraka Barton.
+Ubungo
+Ubungo community members: Yohana Omary, Hamisi Mnyamike, Sarah Kamanga, 
+Tatu A. Mketo, Safina F. Ndwambo, Alinanime P. Mwalindu, Kato G. Kyaruzi, Leonard 
+S. Mayala
+University of Dar es Salaam; Benedict Raymond,Rebeca Sahila, Mboya Mkundelida, 
+Pongolela Joyce, Hawa Adinani Hassani, Chazua Iddy, Anderson Dickson, Mush 
+Menrado .A., Nyalusi Amour, Jovia Kiconko, Abdallah Mgaza, Abubakari Hiza.
+Tabata
+Tabata community members: Amina Swalehe, Justine Mwangamila, Chitemwe 
+Hussein, Thobias, Anthony Mushi, Nista Ndosi, Pili Palasugulu.
+Universities of Dar es Salaam and Ardhi students: Nuru Kalulunga, Aniceth Cosmas, 
+Tonny John, Dorica Mugusi, Baraka Phillip, Elia Dominic, Kamal Hamis, Gwantwa 
+Andrew, Lucy Sichone, Elias Saguda, Emanuel Kombe, MaryRose Batenga.
+Ilala
+Ilala community members: Christina A. Msala, Upendo Kisangi, Amina Salum, Lilian 
+Kweka, Sakina Juma, Omary Mkumbi, Msiba Sese, Asha Mambo, Mwanaidi Dazi, 
+Ally Mshauzi .
+Universities of Dar es Salaam students: Pongolela Joyce, Nyalusi Amour, Chazua 
+Iddy, Benedict Raymond, Anderson Dickson, Mushi Menrado, Abubakari Hiza, Mboya 
+Mkundelida, Sahila Rebeca W, Abdallah Mgaza, Jovia Kiconco, Hawa Hassani.
+Temeke
+Temeke community members: Abdallah S. Kinyogoli, Abubakari Ahmada, Ibrahim 
+Yahaya, Neema Mremi, Norman Bilali Hayeshi, Ramadhan R. Kaniki, Said Ibrahim 
+Mbaya and Yusuph Ahmada.
+Universities of Dar es Salaam and Ardhi students: Aniceth Cosmas, Dorica Mugusi, 
+Elia Dominic, Elias Saguda, Emanuel Kombe, Gwantwa Andrew, Kamal Hamis, Lucy 
+Sichone, Nuru Kalulunga and Tony John.
+
+===== PDFPAGE 124 =====
+Flood Resilience in Dar es Salaam   119
+
+===== PDFPAGE 125 =====
+Published in October 2016
+ramanihuria@gmail.com
+www.ramanihuria.org
+Licensed under CC-BY-SA 2016 Ramani Huria
+Design & layout: Mkuki Bgoya, www.mkukinanyota.com
+
+===== PDFPAGE 126 =====

@@ -1,0 +1,58 @@
+{
+  "case_id": "C12",
+  "from_version": "L2-C01-C11-shared-v0.2",
+  "to_version": "L2-C12-shared-v1.0",
+  "status": "released",
+  "added_shared_concepts": [
+    "SC-C12-101",
+    "SC-C12-102"
+  ],
+  "added_mappings": [
+    "MAP-C12-001",
+    "MAP-C12-002",
+    "MAP-C12-003",
+    "MAP-C12-004",
+    "MAP-C12-005",
+    "MAP-C12-006",
+    "MAP-C12-007",
+    "MAP-C12-008",
+    "MAP-C12-009",
+    "MAP-C12-010",
+    "MAP-C12-011",
+    "MAP-C12-012",
+    "MAP-C12-013",
+    "MAP-C12-014",
+    "MAP-C12-015",
+    "MAP-C12-016",
+    "MAP-C12-017",
+    "MAP-C12-018",
+    "MAP-C12-019"
+  ],
+  "revised_mappings": [
+    {
+      "mapping_id": "MAP-C12-007",
+      "from": "no_map",
+      "to": "SC-C12-101",
+      "reason": "New shared concept for home digital terminal deployment"
+    }
+  ],
+  "deleted_mappings": [],
+  "unchanged": {
+    "shared_concepts": 43,
+    "concept_mappings": 724
+  },
+  "candidate_concepts_not_promoted": [
+    "SC-C12-03",
+    "SC-C12-04",
+    "SC-C12-05",
+    "SC-C12-06"
+  ],
+  "historical_review": {
+    "overwrites": 0,
+    "additive_mappings": 5,
+    "legacy_mapping_flags": [
+      "MAP-C07-technology-003 -> SC-C01-133"
+    ]
+  },
+  "released_at": "2026-11-13"
+}

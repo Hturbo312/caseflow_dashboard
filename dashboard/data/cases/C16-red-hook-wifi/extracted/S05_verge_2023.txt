@@ -1,0 +1,321 @@
+
+
+Brooklyn built a disaster-proof mesh Wi-Fi network just in time for Hurricane Sandy. What happened?
+
+Photo by Anthony Hamboussi
+
+Photo by Amelia Holowaty Krales / The Verge
+
+Photo by Amelia Holowaty Krales / The Verge
+
+Photo by Amelia Holowaty Krales / The Verge
+
+Photo by Amelia Holowaty Krales / The Verge
+
+The Verge homepage
+
+The Verge homepage
+
+Tech
+
+Reviews
+
+Science
+
+Entertainment
+
+Node by Node
+
+Red Hook’s mesh network survived Hurricane Sandy. Today, it’s in limbo.
+
+By 
+Justine Calma
+, a science reporter covering the environment, climate, and energy with a decade of experience. She is also the host of the Hell or High Water podcast.
+
+Photography by Anthony Hamboussi and Amelia Holowaty Krales
+
+May 22, 2023,  8:00AM
+
+World Wired
+
+Tevina Willis rode out Superstorm Sandy inside her Red Hook, Brooklyn, home. “I had been through hurricanes in the projects when I was a child,” she says. “I knew just to be calm and sit away from the windows, away from glass.” Outside her apartment, hurricane winds pushed a wall of water into the city. The storm surge swept boats from the harbor onto streets turned into rivers.
+
+Two days later, the storm subsided. But for Willis and others in Red Hook, the disaster was just the beginning. New York City’s infrastructure was mangled. Power and telecommunications lines — even cellphone networks — had gone down. Her building inside the Red Hook Houses, a public housing complex where she lived, was left without gas, electricity, or internet access. Clutching her own phone and four more from her neighbors, Willis went searching for power and a connection to the outside world. 
+
+Tevina Willis, center, Red Hook Initiative’s community organizing manager. Red Hook Initiative is a nonprofit organization serving the residents of Red Hook, Brooklyn, in New York City. 
+
+Photo by Amelia Holowaty Krales / The Verge
+
+Willis found it at a nearby community center called Red Hook Initiative. RHI’s electricity had been spared by Sandy, letting her finally plug in her surge protector and stack of phones. And just as importantly, it had internet. Willis logged on to Facebook and posted an update: she was okay, she told her friends and family. Soon, she found people sharing resources through social media — offering to drop off plates of food, keeping neighbors posted on where they could find other necessities.
+
+RHI’s Wi-Fi, Willis soon learned, wasn’t just any internet connection. It was a mesh network: a small, community-managed system of routers. In the aftermath of one of the most devastating storms to hit New York City, it kept folks online when big internet service providers couldn’t.
+
+As New Yorkers coped with the aftermath of Sandy in 2012, Red Hook’s mesh network quickly attracted funding and media attention. It became a go-to example of how communities could buck big utilities and build their own disaster-proof infrastructure. It even sparked a plan to blanket other parts of New York City with similar networks. Its founders planned more expansions, including free Wi-Fi access for the Red Hook Houses, the biggest public housing development in Brooklyn and one of the largest in the nation. At its peak, the system boasted nearly 20 locations and hundreds of users a week.
+
+Then it hit a wall.
+
+Like many swells of support after a crisis, outside aid for Red Hook’s mesh network dried up as quickly as it materialized. Today, far from blanketing the neighborhood, the network is about half its former size. Instead of being community-run, it’s operated by a single company. For residents trying to connect from their homes inside the Red Hook Houses, it remains just out of reach. 
+
+And yet the network is still helping people in ways its founders hadn’t imagined. People are using it to meet challenges that have only piled up after Sandy. And while Sandy was one of the first storms to put resilient internet services in the spotlight, it almost certainly won’t be the last.
+
+The first node
+
+Facing the Red Hook Channel from Valentino Pier in Red Hook, Brooklyn.
+
+Photo by Amelia Holowaty Krales / The Verge
+
+Red Hook is a place defined by water. The neighborhood sits on a low-lying peninsula that juts out of Brooklyn into Upper New York Bay, giving the area its eponymous “hook.” As sea levels rise worldwide, the hook is shrinking: a ferry that takes me there, across the East River, docks at a pier that will likely be swallowed by high tide within 60 years. 
+
+The neighborhood’s other piece of defining geography is artificial. More than half the area’s residents live in Red Hook Houses: a sprawling 40-acre community of red brick buildings. Red Hook Houses was constructed in 1939 primarily for dockworkers from nearby ports, making it one of the first federally funded public housing projects. Back then, city planners were building massive developments like this along its industrial coastlines — housing NYC’s most marginalized residents in areas that would ultimately become the most vulnerable to storms and rising seas. 
+
+Red Hook Initiative is a second home to many of the community’s residents. The organization started small in 2002, when its founder, Jill Eisenhard, got a grant to train 10 women living in the Houses to become reproductive health educators. In 2010, it turned a former factory building into a community center, running a range of advocacy, job training, and youth leadership programs. 
+
+It’s one of those programs, eventually dubbed “digital stewards,” that launched Red Hook Wi-Fi. Young Red Hook Houses residents produced video and audio stories about living in the neighborhood as part of the program, learning valuable technical skills along the way. “It was about the young people, giving them a voice to talk about what’s important to them,” says Tony Schloss, RHI’s technology director at the time. Schloss was looking for ways to get those stories out to more people — especially to other Red Hook residents. He bought a radio transmitter and started broadcasting them from his home at first. Then, he started hearing buzz about mesh networks.
+
+Red Hook Initiative is a nonprofit organization with a community center primarily serving public housing residents of Red Hook, Brooklyn, in New York City.
+
+Photo by Amelia Holowaty Krales / The Verge
+
+Tevina Willis, center, RHI’s community organizing manager, celebrates the Organizing Academy class graduation, the last of a 10-week course for community members. “I tell people in my classes, you are already an organizer — you just don’t realize it … If you told your neighbor where they can go to get a resource, that’s being an organizer,” says Willis, who estimates that over 300 people have participated in the program. There are plans to expand it to offer the course in Spanish and Mandarin.
+
+Photo by Amelia Holowaty Krales / The Verge
+
+Na-Lekan Masego speaks at a press conference held at Red Hook Initiative to address a police raid that resulted in the arrest of five young teens in Red Hook. Community members and supporters demanded justice for the young people affected and spoke out against police violence.
+
+Photo by Amelia Holowaty Krales / The Verge
+
+Red Hook Initiative is a nonprofit organization serving the residents of Red Hook, Brooklyn, in New York City. It runs programs out of a community center next to the neighborhood’s public housing development and at two urban farms in the neighborhood.
+
+Photo by Amelia Holowaty Krales / The Verge
+
+Wireless mesh networks are a distributed, community-oriented approach to getting internet service. A traditional Wi-Fi network is top-down: an internet service provider lets each customer hook a router to its network, and individual devices connect to that router. A mesh network, by contrast, is a connection of nodes. A service provider offers a connection to the wider internet, but each home or business installs a router and shares the connection. Together, they create a system that’s not dependent on a single point of failure. If a conventional router loses access to power or an ISP connection, the network it supports goes down. But in a mesh network, another router can pick up the slack. 
+
+This design makes mesh networks resilient in times of crisis. After the Arab Spring in 2011, when governments curtailed internet access during protests, activists believed distributed networks might keep people connected even when central institutions pulled the plug. The idea was tested successfully during the 2014 “Umbrella Revolution” in Hong Kong, where protesters used a Bluetooth-based network called Firechat to turn their cellphones into mesh nodes.
+
+Even outside of a crisis, mesh networks offer hard-to-find autonomy for broadband users. In New York and across much of the US, a few big internet service providers dominate the market. Residents are typically stuck with whichever giant company covers their area — regardless of how affordable or reliable it is.
+
+Schloss and others at RHI saw a mesh network as a community-building tool. When people connected to the Wi-Fi, he realized, they could start on a landing page that promoted the digital stewards’ radio stories — as well as other updates about local events and workshops. Red Hook even had an unusual advantage: a small, independent internet service provider called Brooklyn Fiber, which agreed to support the mesh network’s internet connection.
+
+So Schloss reached out to the Open Technology Institute, an internet access initiative from the progressive think tank New America that had worked on a similar mesh network project in 
+Detroit
+. The institute connected him with Alyx Baldwin, a graduate student at the time in Parsons’ Design and Technology program who was writing a thesis on mesh networks. In December 2011, the pair set up Red Hook WiFi’s very first test node at RHI. 
+
+The node was little more than an antenna zip-tied and taped to a tripod and tire. A couple days later, a rainstorm blew it over — but it was still online. Schloss saw the damage and sent a text to Baldwin.
+
+“The moral is, we need sandbags.”
+
+From a node to a network
+
+Water floods Van Brunt Street in the Red Hook neighborhood of the Brooklyn borough of New York during Hurricane Sandy.
+
+Photography by Matthew Leising/Bloomberg via Getty Images
+
+Over the next year, the mesh network grew slowly. Then, in October of 2012, Hurricane Sandy barreled through New York City.
+
+Sandy was one of the city’s largest disasters in decades. Over the course of two days, the superstorm killed at least 44 people and destroyed hundreds of homes. Tens of thousands more apartments sustained damage. Gas and electricity lines were severed, in some cases for weeks. And as residents frantically tried to check on loved ones or connect to the outside world, cellphone and Wi-Fi networks were going dark.
+
+Red Hook, on Brooklyn’s waterfront, bore the brunt of Sandy’s 10-foot storm surge. 
+
+Red Hook Houses resident Robert Smith was a teenager when Sandy struck. Standing on nearby Coffey Park’s manicured lawn more than a decade later, he remembers a river of water rushing down the street, turning the grass into a swamp. “The water must have been up to here,” he says, gesturing to his waist.
+
+Eventually, after the water cleared, Coffey Park became a home base for emergency services. Humvees full of emergency responders descended on the area with food and water. And when they did, they realized Coffey Park wasn’t just a disaster zone — it was the home of RHI’s second mesh node. Few people knew about the nascent network. But in the aftermath of the storm, emergency responders and visiting residents hopped onto it immediately. The network jumped to a thousand users a day, full of people coordinating disaster relief and telling loved ones they were all right. FEMA deployed a satellite dish to strengthen the network. Soon, Coffey Park and RHI were both hubs for not only physical relief but a connection to the outside world.  
+
+Red Hook was cut off from resources in other parts of New York City even before the storm. Despite being just south of Manhattan’s financial district and Brooklyn’s downtown, it’s isolated not only by water and geography but a lack of public transit to the rest of the city. Sandy only heightened this divide. In parts of the city, away from the flood zone, life was quickly returning to normal. In Red Hook, residents were still scrambling for basic necessities. Days passed without lights or gas for cooking — for Tevina Willis, it would take exactly 29 days for utilities to come back, stretching nearly to Thanksgiving.
+
+But residents were used to looking out for each other. When Willis saw doctors at RHI, she convinced them to visit neighbors in her building with asthma and bring them battery-operated albuterol nebulizers. After joining a volunteer emergency preparedness program at RHI, she eventually joined its staff to help expand the mesh network.
+
+Robert Smith at Valentino Pier, where Red Hook Initiative previously had offices. As a teen, Smith became a “digital steward” at RHI. He and other stewards in the program learned how to build a mesh network to bring free Wi-Fi to the neighborhood. After he completed the program, he became the systems administrator, installing nodes or routers for the mesh network and doing upkeep when the system needed servicing.
+
+Photo by Amelia Holowaty Krales / The Verge
+
+One of a mesh network’s benefits is that it can grow gradually, node by node — and in Red Hook’s case, person by person. In the years following the storm, RHI began adding more routers around the neighborhood. Willis connected local businesses with mesh networking company Sky Packets that helped install the equipment, taking on RHI’s digital stewards as interns. 
+
+Smith joined the digital steward program in 2013, just out of high school and looking for a job. He completed a paid youth program and became full-time staff, and soon, he’d taken on managing the whole network as its systems administrator. That meant installing new nodes, troubleshooting devices that went down, and training new classes of stewards. It also meant some tricky hands-on work — like climbing the clock tower of a century-old church, replacing an access point on the steeple that provided Wi-Fi down in Coffey Park.
+
+Red Hook WiFi wasn’t just an interesting technological experiment. Smith started hearing about the network from acquaintances who didn’t know he was behind the scenes and simply liked having a free, easy way to get online. “There were lots of people that I knew that were using it. I mostly like to stay sort of in the background,” he says. “They’ll be like, ‘Oh man, you can use Red Hook WiFi.’ I’m like, ‘Yeah, you guys should use that. I heard it’s pretty good.’”
+
+His work also helped create links across the neighborhood. Coffey Park sits smack dab in the middle of Red Hook: on one side are Red Hook Houses, and on the other is Van Brunt Street, where trendy bars and coffee shops dot recently developed luxury housing. As the network grew, RHI approached an art gallery and a business selling designer cabinetry, and both agreed to host their own nodes. 
+
+The network couldn’t solve the deep-rooted inequalities that Sandy revealed across New York City. But inside Red Hook, at least in times of crisis, it was unifying. And with broad support, it took off. The network garnered coverage in outlets 
+like 
+The New York Times
+, which praised its “cutting-edge wireless network” in 2014. Part of Smith’s job became talking to media outlets about the benefits of mesh Wi-Fi.
+
+In 2015, the network got a windfall. The New York City Economic Development Corporation, funded by the US Department of Housing and Urban Development, started a program called Rise:NYC funding “storm-hardened” broadband in the vulnerable low-lying neighborhoods of NYC. It awarded New America $4 million to create six more mesh networks across neighborhoods hit hard by Sandy, each one a partnership with a local nonprofit like RHI. RHI itself got approximately $1 million to grow its youth program and mesh network, rewarding an effort that had already earned praise from broadband access advocates.
+
+The new funding let RHI dramatically expand its ambitions. The network grew to encompass routers at some 20 locations. A handful included solar panels to provide backup power in the event of a blackout. In the network’s early days, it might get 500 users a year, Smith recalls; soon, it was serving that number every week. Its website promised over 20 more “pending & future” sites — aiming to bring Wi-Fi to all of Red Hook.
+
+Losing ground
+
+The Red Hook Houses seen from Columbia Street. Red Hook has the largest number of public housing units in the borough of Brooklyn. The flagpole was a popular gathering place to get online because there used to be a node in the area. Recent construction — part of ongoing updates after Hurricane Sandy — blocked off access.
+
+Photo by Amelia Holowaty Krales / The Verge
+
+If you visit Red Hook WiFi’s site today, it still describes that goal. But the target date is 2020 — and in the years since, the network has been losing, not gaining, ground.
+
+The network’s quick growth came with challenges. Smith remembers waking up at night to notifications about nodes going down all across Red Hook during a power outage. And while working with small businesses on Van Brunt Street was fairly easy, it was another matter dealing with the New York City Housing Authority (NYCHA) — which had the final say over the Red Hook Houses. Getting the Houses online was a dream of Smith, Willis, and Schloss, who say RHI had repeated conversations with the city about installing nodes. NYCHA was open to the idea, says Schloss — but only if RHI could pay for the project itself.
+
+Unfortunately, funds were getting hard to find. The Rise:NYC program paid for connectivity costs and salaries for the youth stewards for a few years. But it was a one-time deal meant to support the network’s growth — not maintain it for the long haul. As the immediate crisis of one storm faded, so did support for networks that could handle the next one.  
+
+The network’s human resources were also growing thin. In 2016, Smith left his job at RHI to take a residency as a technologist researching disaster preparedness at another cultural center in the neighborhood. Schloss took on some of Smith’s tasks to maintain the network, but he soon left RHI in 2017 after close to a decade working at the organization.
+
+Without them, few people were left to maintain the now-sprawling system of nodes. “There are so many layers to a network,” says Greta Byrum, who was the director of New America’s Resilient Communities program in the days of Rise:NYC. “So much of it is about business agreements …  legal parts … being able to fix things in the middle of the night,” she says. “It’s just incredibly hard.”
+
+Other neighborhoods were running into similar problems, according to Byrum. New America’s partners were already running after-school youth programs or providing other community resources, and operating a mesh network added a huge new challenge. A Staten Island nonprofit aborted its plans after realizing how difficult building and maintaining a network would be. In the Far Rockaways, Queens — a neighborhood devastated particularly hard by Sandy — new construction kept blocking communication between routers. An organization in Gowanus, Brooklyn eventually turned over maintenance of its network to an internet service provider.
+
+In 2019, RHI made the same call. Rise:NYC’s grant had dried up, with no replacement on the horizon. To keep the network going, the nonprofit handed it over to Sky Packets, which agreed to manage the roughly $3,000 monthly data and electrical costs and perform routine maintenance. Then, in 2020, another disaster hit New York: the covid-19 pandemic. 
+
+As a teen, Smith became a “digital steward” at RHI. He and other stewards in the program learned how to build a mesh network to bring free Wi-Fi to the neighborhood. After he completed the program, he became the systems administrator, installing nodes or routers for the mesh network and doing upkeep when the system needed servicing.A node or router is still mounted on the side of a building where Red Hook Initiative previously had offices. Coffey Street at Valentino Pier in Red Hook, Brooklyn.
+
+Photo by Amelia Holowaty Krales / The Verge
+
+The pandemic brought New York — and America’s — digital divide into sharp view. Schools, doctors, and countless other basic services went fully online, making internet access more important than ever. But as businesses closed up shop in an attempt to limit the virus’ spread, they took their nodes down too. Unlike during Sandy, Red Hook Housing residents couldn’t flock to public places to take advantage of the network. They were stuck in their apartments, just beyond its reach.
+
+Sky Packets tells 
+The Verge
+ it tried to bring Wi-Fi closer during the pandemic. It shifted some access points to businesses closest to Houses, so some residents might be able to step outside their units to hop online. But without being able to install nodes within the housing development, there was only so much it could do.
+
+Even without the pandemic, the network was losing ground. Construction around the housing development, part of ongoing upgrades since Hurricane Sandy, knocked out a popular outdoor access point at a flagpole in the middle of the Houses. Other routers dropped offline after being out in the elements for years. Today, there are around 10 active Wi-Fi locations left. Coffey Park, one of the network’s first access points, is no longer among them.
+
+In fact, the network may have become a bizarre victim of its own resiliency. In 2021, the city once again gave the mesh network the greenlight to expand within the Houses, as long as Sky Packets secured the funding. The approval was part of a plan backed by then-Mayor Bill de Blasio to achieve universal broadband in part by boosting smaller, locally led internet service providers. But when de Blasio’s successor Eric Adams took office the next year, he replaced the program with his own plan, 
+Big Apple Connect
+.
+
+Big Apple Connect offers public housing residents free or low-cost bundles from big telecommunications companies, including Optimum and Spectrum. It sparked 
+criticism
+ that the city was letting a few giant utilities — with little accountability to customers and a long history of complaints about poor service — continue to dominate the marketplace.
+
+NYC’s Office of Technology and Innovation (OTI) says it’s much easier to work within the existing system. “This is ultimately one of the benefits of the Big Apple Connect program: with infrastructure already in place, the City can deliver an affordable internet option quickly,” Ryan Birchmeier, deputy commissioner of Public Information, told 
+The Verge 
+in an email. 
+
+But that program hasn’t reached Red Hook Houses, and according to Birchmeier, the mesh network is one reason why. Years ago, the network couldn’t get the funds to expand inside the buildings. Yet with its remaining nodes, it’s still providing wireless access in some public outdoor areas — and that’s enough to push Red Hook down the priority list for Big Apple Connect.  
+
+“NYC OTI prioritized NYCHA developments with no version of subsidized Wi-Fi,” says Birchmeier. “Red Hook Houses was not included in the first phase [of Big Apple Connect] because of Sky Packets’ existing relationship and that the company had built out free broadband capabilities for outdoor public areas.”
+
+Birchmeier declined to comment on whether the city ever met with RHI about expanding mesh service within the Houses, saying the administration “cannot confirm” any conversations. “NYC OTI is planning to meet with community stakeholders to determine the best path forward to deliver free or low-cost broadband as quickly as possible,” he told 
+The Verge.
+
+“Clearly, the energy is more toward the legacy carriers,” says Sky Packets co-founder Steve Amarante. But he’s still holding out hope that the opportunity will eventually come for the mesh network to expand inside the Houses. “I feel like a broken record saying it all the time … But we’re hopeful, we really are. We really think we’re going to find a way to get the city to be supportive.”
+
+The network’s new purpose
+
+Brendan Parker, assistant director of Red Hook Farms at the Columbia Street Farm. Founded in 2001, the Columbia Street Farm is 2.75 acres sandwiched between recent warehouse development and a private school. The farm is committed to growing fresh produce for the community, and their farm stand serves the local residents starting in mid-June. The farm uses Red Hook’s mesh Wi-Fi network to monitor outdoor air quality and temperatures inside its greenhouses.
+
+Photo by Amelia Holowaty Krales / The Verge
+
+Red Hook has changed dramatically since 2012, and not just because of Sandy. Longtime residents face new challenges that can make it harder to live in the neighborhood they love. Some older businesses closed up shop during the pandemic, like a beloved bodega whose owner made sure local kids had something to eat even if they couldn’t pay. Warehouses — including Amazon facilities — have moved in, sending diesel trucks and delivery vehicles buzzing through the neighborhood leaving tailpipe pollution in their wake. The area near Van Brunt Street has continued to gentrify, bringing new businesses with fewer ties to the community. “When I saw the gelato place, I said, ‘Man, they got us,’” Smith jokes.
+
+But the mesh network is still a tool Red Hook Houses residents use to respond to whatever disasters may come — whether they’re sudden, like a storm, or more insidious, like industrializing residential neighborhoods.
+
+In 2018, RHI added youth programs at Red Hook Farms, a little oasis of raised garden beds that’s now in the shadow of the coastal warehouses. Sandy nearly wiped out the farm in 2012, flooding it with two feet of water. When I visit in December, a rainy day has turned a puddle into a shallow pond that spreads across the entrance. But that hasn’t discouraged Red Hook Farms assistant director Brendan Parker from showing up. He meets me in the morning, and we duck into a greenhouse — not just to escape the rain but to see one of the network’s newfound uses.
+
+Red Hook Farms is another community hub buzzing with students and other residents from the nearby Houses. People can come just to hang out and use the mesh Wi-Fi here. But anyone who helps grow the farm’s fruits and vegetables can also take some of them home. 
+
+The coolers that keep them fresh depend on electricity, and New York’s power grid isn’t always dependable — as in other parts of the country, random outages can be a recurring problem during storms and heatwaves, a problem that’s only grown as climate change intensifies. Parker recently installed temperature sensors that use the mesh network to alert staff about an outage and give them a chance to go rescue the produce. The same kinds of sensors sit inside the greenhouses, making sure their seedlings are comfortably warm.
+
+Vernice Bryant Akpan enjoys working with flowers and has been a Red Hook Farms volunteer for about seven years. On a chilly April afternoon, she plants seeds for the children’s garden in one of the farm’s greenhouses. The farm is committed to growing fresh produce for the community, and their farm stand serves the local residents starting in mid-June. The farm uses Red Hook’s mesh Wi-Fi network to monitor outdoor air quality and temperatures inside its greenhouses.
+
+Photo by Amelia Holowaty Krales / The Verge
+
+Red Hook Farms staff members plant seedlings with a group of local youth on a chilly Friday in April. The farm is committed to growing fresh produce for the community, and their farm stand serves the local residents starting in mid-June. The farm uses Red Hook’s mesh Wi-Fi network to monitor outdoor air quality and temperatures inside its greenhouses.
+
+Photo by Amelia Holowaty Krales / The Verge
+
+Red Hook Initiative has two farms under the name Red Hook Farms. Founded in 2001, the Columbia Street Farm is 2.75 acres sandwiched between recent warehouse development and a private school. The farm is committed to growing fresh produce for the community, and their farm stand serves the local residents starting in mid-June. The farm is able to host a node in Red Hook’s mesh Wi-Fi network because it has electricity from solar panels on site.
+
+Photo by Amelia Holowaty Krales / The Verge
+
+Vernice Bryant Akpan enjoys working with flowers and has been a Red Hook Farms volunteer for about seven years. On a chilly April afternoon, she plants seeds for the children’s garden in one of the farm’s greenhouses. The farm is committed to growing fresh produce for the community, and their farm stand serves the local residents starting in mid-June. The farm uses Red Hook’s mesh Wi-Fi network to monitor outdoor air quality and temperatures inside its greenhouses.
+
+Photo by Amelia Holowaty Krales / The Verge
+
+Red Hook Initiative has two farms under the name Red Hook Farms. Founded in 2001, the Columbia Street Farm is 2.75 acres sandwiched between recent warehouse development and a private school. The farm is committed to growing fresh produce for the community, and their farm stand serves the local residents starting in mid-June. The farm uses Red Hook’s mesh Wi-Fi network to monitor outdoor air quality and temperatures inside its greenhouses.
+
+Photo by Amelia Holowaty Krales / The Verge
+
+New warehouses have brought more truck traffic to Red Hook. Concerned about the impact on air quality, Red Hook Initiative has installed air quality monitors in a few locations, including the Columbia Street Farm. Thanks to the neighborhood’s mesh Wi-Fi network, the farm can add its data to a national air quality map.
+
+Photo by Amelia Holowaty Krales / The Verge
+
+The farm’s sensors aren’t just for the plants. As warehouses proliferated in Red Hook, RHI installed an air quality sensor that connects to the mesh network, adding its pollution readings to a 
+national air quality map
+. It gives residents a new way to understand their neighborhood and the ways it may be changing. 
+
+And as much as its goals have expanded over the years, the network is still serving its modest original purpose. When I fiddle with my phone to go online, I hit a yellow and black splash page, letting me connect to the mesh network.  It’s got information on how to apply for affordable housing and food stamps — plus an invitation to an RHI holiday party Willis is helping to organize.
+
+A decadelong experiment with mesh networks has revealed their limits. “One thing I would not suggest is building mesh networks as a scaled-up solution to serve lots and lots of people,” says Byrum — who has become more wary of large-scale plans after her experience with Rise:NYC. “It creates too many ownership and maintenance problems.”
+
+No matter the shape the network is in now, Schloss thinks getting it online was worth it. RHI’s program launched with the goal of giving young residents new skills, and by that metric, he believes it’s an unqualified success. Some former digital stewards took jobs with Sky Packets, where they’re still helping to maintain the network. Smith now works in internal IT support at Google. Willis is a community organizing manager at RHI. She and many of the networks’ founders still hope the mesh network might one day reach Red Hook Houses.  
+
+And the city may still need Red Hook’s unique system when disaster strikes again. While support for the mesh network has ebbed and flowed over the years, the long-term forecast for Red Hook is more flooding. Around 280 of about 400 private homes, there are at risk of a “
+major
+” flood over the next 30 years, making climate change a tangible and looming reality for huge parts of the neighborhood. In 2022, a 
+report
+ by NYC Comptroller Brad Lander and the Urban Ocean Lab touted the mesh network as an example of the kind of community-owned infrastructure that the city ought to support to make itself more resilient.
+
+Mesh networks were once touted as “cutting-edge” tech. But in the end, their value lies in more than routers. “It is the equipment and the network, but it’s also the people,” Byrum says. “There’s a huge value in people being trained so that they know how to roll something like this out when there is an emergency.”
+
+Smith hopes one day he can set up more networks like Red Hook WiFi, reaching places across the world that need resilient networks. But Red Hook is home. Walking past his old RHI office, he greets passersby on the street. “I can walk into a bar and probably know everybody in there,” he says — and sometimes he’ll find himself talking with them about mesh networks. “I love this place.”
+
+Correction:
+ A previous version of this story incorrectly said that Tevina Willis taped up her windows as Hurricane Sandy approached her home. While she did that for other storms, she did not do so for Sandy. We regret the error.
+
+More from 
+World wired
+
+Congress called Huawei a national security risk — it’s still in US networks
+
+How to hardwire your home without ethernet in the walls
+
+Why 2.4GHz Wi-Fi is both the savior and the scourge of the smart home
+
+Plugged in and logged on: a history of the internet on film and TV
+
+We’ll always have Mario Kart: the short-lived joy of console LAN parties
+
+The fight for net neutrality is forever
+A history of metaphors for the internet
+Our walled gardens
+
+Verge Homepage
+
+Terms of Use
+
+Privacy Notice
+
+Cookie Policy
+
+Do Not Sell My Personal Info
+
+Licensing FAQ
+
+Accessibility
+
+Platform Status
+
+How We Rate and Review Products
+
+Contact
+
+Tip Us
+
+Community Guidelines
+
+About
+
+Ethics Statement
+
+The Verge is a Vox Media network
+
+Advertise with us
+
+Jobs @ Vox Media
+
+      ©
+2023
+ 
+Vox Media
+, LLC. All Rights Reserved
+    
+

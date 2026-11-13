@@ -1,0 +1,33 @@
+{
+  "case_id": "C16",
+  "core_ontology_version": "0.1",
+  "layer_version": "L2-C16-concepts-v1.0",
+  "previous_versions": ["L2-C01-C11-shared-v0.2", "L2-C12-shared-v1.0"],
+  "delta_type": "additive_case_concepts",
+  "status": "released",
+  "generated_at": "2026-11-13",
+  "added": {
+    "native_concept_nodes": 9,
+    "candidate_concept_nodes": 4,
+    "shared_concept_links": 5,
+    "candidate_links": 4,
+    "network_nodes": 18,
+    "network_edges": 18
+  },
+  "modified": [],
+  "removed": [],
+  "core_entity_types_added": [],
+  "mapping_types_added": [],
+  "relation_predicates_added": [],
+  "historical_impact": {
+    "existing_shared_concepts_modified": 0,
+    "existing_mappings_modified": 0,
+    "historical_cases_reclassified": 0,
+    "candidates_second_case_support": 0
+  },
+  "release_boundary": {
+    "file_layer_only": true,
+    "sqlite_write": false,
+    "formal_shared_concepts_confirmed": 0
+  }
+}

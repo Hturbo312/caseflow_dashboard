@@ -1,0 +1,488 @@
+Downloading the app  
+The Blexting App is available for most 
+mobile devices, including Android 
+and Apple iOS. But NOT Blackberry. 
+ 
+Go to the app sore, search for the “Blexting” 
+application. Install the app on your device. 
+ 
+ 
+
+Using The Blexting App 
+ 
+To start the app, select the icon on your 
+device. 
+
+Using The Blexting App 
+A few moments after starting up, the 
+Blexting app will automatically go to your 
+current location based on your device’s 
+GPS or wireless signal. 
+ 
+ 
+ 
+The black marker indicates your current 
+location. 
+You are here. 
+
+Best Practices 
+It can sometimes be 
+difficult to pinpoint 
+exactly where the 
+parcel you’re looking 
+for is located. Use GPS 
+and the aerial view to 
+improve your accuracy.  
+
+Using The Blexting App 
+You can also touch the blue magnifying 
+glass on the bottom to enter an address 
+manually. 
+
+Using The Blexting App 
+In order to “blext” you must first sign up 
+and sign in. Click the blue circle in the 
+upper left corner to get to the sign up/in 
+page. 
+
+Using The Blexting App 
+First, create an account. Enter your email 
+address and then choose a password. 
+
+Using The Blexting App 
+ 
+Next, sign in using your email address and 
+password. 
+
+Using The Blexting App 
+Once signed in, select the Motor City 
+Mapping survey. 
+
+Using The Blexting App 
+Once signed in, and the survey selected, 
+you will be returned to the parcel map.  
+This is a parcel 
+
+Using The Blexting App 
+Select a parcel to blext. Once you have 
+selected a parcel, a sidebar with pictures 
+and information about the property will 
+appear. To update or add a new blext, 
+press the orange “Blext Property” 
+button. This will start your mobile 
+device’s camera. 
+
+Taking the picture: 
+Once the camera app is opened, 
+photograph the selected parcel... 
+ 
+Using the built-in camera on your tablet or 
+phone, you can take pictures of properties 
+and add them to the database. 
+ 
+Let’s cover some basic guidelines for taking 
+good pictures. 
+
+Things to Consider When Taking a Picture 
+●  Include the entire front 
+facade of the building 
+●  Leave some margins on 
+either side. Don’t zoom in too 
+close. 
+●  Is the picture level or 
+crooked? 
+●  Is it clear which property 
+you’re photographing? 
+
+Take multiple pictures 
+Multiple pictures of a property from different angles allows quality control to 
+see things that might not always be obvious from just one picture. 
+In this picture, the 
+house looks fine. 
+Behind the house, 
+though, is dumping 
+and indications of a 
+fire in the basement. 
+
+Consider your Perspective 
+Looks can be deceiving… 
+From the front, this looks like a 
+single family dwelling. 
+But from the side, it becomes clear that it’s 
+a multi-family dwelling. 
+If Quality Control only sees the first picture, they might come to the wrong 
+conclusion about what type of building it is. 
+
+Common Problem #1: Too Far 
+This photo was taken from too far 
+back, and has more than one property 
+visible in it. It isn’t clear which house is 
+intended to be photographed. 
+This photo is close enough to 
+show details of the house, 
+and is isolated from the 
+houses around it. 
+
+Common Problem #2: Too Close 
+This picture was taken too close. It’s 
+difficult to tell what the building is. 
+The solution is to take the picture 
+from further back and show the 
+entire building. 
+
+Common Problem #3: Ambiguity 
+This picture has a vacant lot in the 
+foreground and a building in the 
+background. It isn’t clear which 
+property is being photographed. 
+In this picture, it’s obvious that the 
+fenced lot is the subject of the 
+photograph.  
+
+Common Problem #4: Lighting 
+Sunlight in the picture will 
+sometimes trick the camera 
+into thinking that it’s too 
+bright, leaving the building 
+in the foreground too dark 
+to recognize. 
+ 
+To get around this, tap the 
+screen of your device to tell 
+it to focus on the part of the 
+image you want to expose 
+for. 
+
+Common Problem #5: Windows 
+When it is raining or snowing, 
+sometimes its tempting to just take a 
+picture through the window of your car. 
+ 
+While you may stay warmer and drier 
+with the window up, your camera won’t 
+always focus right. Windows are 
+sometimes tinted, which give the 
+pictures a strange color. 
+ 
+For best results, roll down the window 
+or step out of the car. 
+
+Answering the Survey Questions: 
+After you take a picture you are satisfied with, 
+you will be prompted to answer a series of 
+survey questions….. 
+Retake                             Use Photo︎
+
+Structure or no structure? 
+After you take the picture, the first question 
+you’ll see asks if there is a structure on the 
+site. 
+ 
+This question divides parcels into two 
+categories - ones that have something built 
+on them, and ones don’t. 
+ 
+A structure is a permanent building located on 
+the site. This includes houses, garages, 
+buildings - anything built on the land. 
+ 
+If the site is empty or has temporary 
+structures, like trailers, temporary sheds, or 
+mobile homes, then it does not have a 
+structure on site. 
+
+Structure Examples 
+Permanent Structures 
+Temporary Structures 
+
+Structure Occupancy 
+After selecting Yes, the occupancy question covers if 
+the structure is occupied. 
+ 
+Occupied: The structure shows visible activity and 
+consistent use or maintenance. Common 
+characteristics are: porch furniture, a well-kept lawn, 
+good landscaping, fences, cars in the driveway, a 
+maintained garden, or a play area. 
+ 
+Unoccupied: Common characteristics are: neglected 
+facades, eviction notices, empty interiors, substantial 
+physical or structural damages, extensive security 
+measures, uncut or tall grass, weeds, scrub trees, 
+trash or debris accumulated over time, or accumulated 
+flyers on the porch or door. 
+ 
+Possibly Unoccupied: The property displays 
+characteristics from both categories above, making it 
+difficult to assess whether there is consistent use or 
+maintenance. 
+
+Occupancy / Vacancy Indicators 
+It’s not always easy to tell if a building is 
+occupied or not, but there are indicators to 
+look out for that may offer clues: 
+ 
+Grass/Weeds/ Bushes/Landscaping 
+Cars in driveway 
+Presence of Dumping 
+Windows/Doors 
+Porch Furniture 
+Children’s toys 
+Porch lights 
+
+Structure Type 
+Residential: Includes single-family homes, duplexes, 
+apartment buildings, senior living facilities, condominiums, 
+and row houses. 
+ 
+Commercial: Includes properties used for retail, office, 
+entertainment, hotels, parking, and other services.  
+ 
+Mixed-use Residential / Commercial: Includes multi-
+level structures where the ground level supports 
+commercial uses like retail, while the top levels support 
+residential uses like apartments, condominiums, lofts, etc. 
+ 
+Industrial: Includes properties used for manufacturing, 
+storage areas, warehousing, junk yards, landfill 
+operations, and waste disposal sites. 
+ 
+Institutional: Includes all public and religious buildings, 
+including churches, schools, government offices, libraries, 
+permanent park structures, and hospitals. 
+ 
+Unknown: The use of the property cannot be determined 
+from looking at the outside alone. 
+
+Structure Type Examples 
+Residential: Includes single-family homes, duplexes, apartment buildings, senior living facilities, 
+condominiums, and row houses. 
+
+Structure Type Examples 
+Commercial: Includes properties used for retail, office, entertainment, hotels, parking, and other 
+services.  
+
+Structure Type Examples 
+Mixed-use Residential / Commercial: Includes multi-level structures where the ground level supports 
+commercial uses like retail, while the top levels support residential uses like apartments, condominiums, 
+lofts, etc. 
+
+Structure Type Examples 
+Industrial: Includes properties used for manufacturing, storage areas, warehousing, junk yards, land fill 
+operations, and waste disposal sites. 
+
+Structure Type Examples 
+Institutional: Includes all public and religious buildings, including churches, schools, governmental offices, 
+libraries, permanent park structures, and hospitals. 
+
+Structure Type Examples 
+Unknown: The use of the property cannot be determined from looking at the outside alone. These types of 
+buildings may not fit into a specific category and require further research. 
+
+Number of units 
+Residential buildings can range from garages to 
+100+ unit apartment buildings. 
+ 
+We use “units” to determine how many different 
+separate living spaces or addresses there are in a 
+specific building. 
+ 
+Garage or Shed: A detached garage or shed which is 
+the only structure on the parcel. 
+ 
+Single Family: A house designed for occupancy for 
+one family and has only one address number. 
+ 
+Multi-Family: A single building designed for 
+occupancy for one to three families with multiple 
+addresses. 
+ 
+Apartments: Individual or multiple buildings designed 
+for occupancy by 4 or more families. 
+
+Number of units Examples 
+Garage or Shed: A detached garage or shed which is the only structure on the parcel. 
+
+Number of units Examples 
+Single Family: A house designed for occupancy for one family and has only one address number.  
+(Cues: one front door or one mailbox). 
+
+Number of units Examples 
+Multi-Family: A single building designed for occupancy for one to three families with multiple addresses. 
+(Cues: two to three doors or mailboxes) 
+
+Number of units Examples 
+Apartments: Individual or multiple buildings designed for occupancy by 4 or more families. 
+
+Structure Condition 
+Structure condition is a grade given to a building based on 
+the visible exterior and interior condition. 
+ 
+The line between “good,” “fair,” and “poor” can sometimes be 
+difficult to find. Rather than use a strict criteria, building 
+condition is determined by the surveyor, using these as basic 
+guidelines: 
+ 
+Good: No obvious repairs needed. 
+ 
+Fair: Needs minor repairs. Windows and doors intact, but 
+roof may be missing shingles, exterior elements may be 
+sagging, paint / siding missing, graffiti. 
+ 
+Poor: Needs major repairs. Windows and doors are broken 
+or boarded up. Light fire damage that can be repaired. Non-
+load-bearing elements like awnings, porches collapsed. 
+Holes in roof. 
+ 
+Suggest Demolition: No longer shaped like a building. 
+Damaged beyond practical repair or renovation. Structural 
+damage including collapse of roof, walls, foundation. 
+Uninhabitable. 
+
+Structure Condition Examples 
+Good: No obvious repairs needed. 
+
+Structure Condition Examples 
+Fair: Needs minor repairs. Windows and doors intact, but roof may be missing shingles, exterior elements may be 
+sagging, paint / siding missing, graffiti. 
+
+Structure Condition Examples 
+Poor: Needs major repairs. Windows and doors are broken or boarded up. Light fire damage that can be repaired. 
+Non-load-bearing elements like awnings, porches collapsed. Holes in roof. 
+
+Structure Condition Examples 
+Suggest Demolition: No longer shaped like a building. Damaged beyond practical repair or renovation. Structural 
+damage including collapse of roof, walls, foundation. Uninhabitable. 
+
+Structure Fire Damage 
+Is the structure fire damaged? 
+ 
+Yes: Indications of fire in or around the structure that 
+caused visible damage, from as small as melted siding 
+to buildings that have burned down to the ground.  
+ 
+If yes, a second question is asked about the level of 
+damage the fire caused: 
+
+Structure Fire Damage Examples 
+Minor: Visible damage to the building that is superficial or repairable, and does not render the building 
+uninhabitable. Includes soot marks around doorways and windows. 
+
+Structure Fire Damage Examples 
+Major: Significant damage to the building that would be costly to repair and makes it uninhabitable. Major may 
+include holes in the roof, but once there is any sort of structural collapse, the damage level is considered collapsed. 
+
+Structure Fire Damage Examples 
+Collapsed: Fire that has caused partial or total structural 
+collapse, making it no longer building-shaped. This includes 
+buildings that have burned down to the foundation. Walls may 
+still be standing, but parts or all of the roof have caved in. 
+
+Secure or Open to Trespass? 
+A building is secured when all windows or doors are 
+intact or secured. This includes occupied buildings with 
+original windows / doors, and buildings that may be 
+vacant but are not open to trespass. 
+ 
+If a building has missing windows, doors or is 
+otherwise open and accessible to scrappers, squatters, 
+or vandals, it is open to trespass. 
+
+Secure or Open Examples 
+Secured 
+Open to Trespass 
+
+Is the Dumping on the Site? 
+A building or vacant lot is considered to have 
+dumping when debris has been purposely 
+left or placed on the property. 
+
+Dumping Examples 
+Unwanted trash and debris left on the lot is considered dumping. 
+Abandoned vehicles left on a lot constitute dumping. 
+
+Not Dumping Examples 
+Litter is not dumping. 
+Debris from a house fire that have spilled onto the ground are not considered dumping. 
+Debris from a demolition in progress are not dumping. 
+
+Notes 
+Notes are one of the most important things a surveyor 
+can do to help improve the accuracy of the data we 
+collect. If there are details about the building that aren’t 
+obvious from the pictures, write them out so that the 
+quality control team knows about them too. 
+ 
+At this point, you can either add extra photos, or press 
+Finish to submit the blext. 
+
+When There is No Structure 
+Selecting No at the structure question gives you a 
+different set of questions that relate to empty of vacant 
+lots. 
+ 
+Vacant Lot: A lot that is not being used.. 
+ 
+Parking Lot: Lot used for parking, can be paved or 
+unpaved. Does not include cars on lawns. 
+ 
+Park: A lot that is clearly designated or has some 
+permanent indicator of park use such as playground 
+equipment and trails. 
+ 
+Garden: Land being used for agricultural purposes, 
+includes personal gardens and larger farms. 
+ 
+Other: For when you’re unsure about what the lot is 
+being used for. 
+ 
+Attached Lot: A lot adjacent to or in between occupied 
+houses that is clearly maintained or used as an 
+extension of an existing property. Attached Lots are not 
+considered vacant lots because they are in use. 
+
+Vacant Parcel Examples 
+Vacant Lot: A lot that is not being used. 
+
+Vacant Parcel Examples 
+Parking Lot: Lot used for parking, can be paved or unpaved. Does not include cars on 
+lawns. 
+
+Vacant Parcel Examples 
+Park: A lot that is clearly designated or has some permanent indicator of park use such as 
+playground equipment and trails. 
+
+Vacant Parcel Examples 
+Garden: Land being used for agricultural purposes, includes personal gardens and larger farms. 
+
+Vacant Parcel Examples 
+Attached Lot: A lot adjacent to or in between occupied houses that is clearly maintained or used as an 
+extension of an existing property. Attached Lots are not considered vacant lots because they are in use. 
+
+Is The Lot Maintained? 
+A lot is maintained when the lot shows sign of care 
+and maintenance, regardless of what is physically on 
+the lot. Grassy lots are mowed with some regularity 
+and paved lots show signs of consistent care. 
+ 
+Characteristics of an unmaintained lot include tall 
+grass, overgrown trees or bushes, weeds in the cracks 
+of pavement, and so on. 
+
+Lot Maintenance Examples 
+Maintained 
+Not Maintained 
+
+Is There Dumping on the site? 
+This is identical to the structure dumping question, only 
+for vacant lots. 
+
+Notes Again 
+Notes are one of the most important things a surveyor 
+can do to help improve the accuracy of the data we 
+collect. If there are details about the building that aren’t 
+obvious from the pictures, write them out so that the 
+quality control team knows about them too. 
+ 
+At this point, you can either add extra photos, or press 
+Finish to submit the blext. 

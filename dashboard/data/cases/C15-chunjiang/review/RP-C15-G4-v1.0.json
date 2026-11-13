@@ -1,0 +1,26 @@
+{
+  "packet_id": "RP-C15-G4-v1.0",
+  "skill": "case-knowledge-construction",
+  "gate": "G4",
+  "case_id": "C15",
+  "status": "confirmed",
+  "generated_at": "2026-11-13",
+  "researcher_decision": {
+    "action": "accept",
+    "rationale": "Accept 109 entities and 58 facts; confirm A01 dual role; confirm technology-capability-action separation; confirm fact statuses and entity boundaries.",
+    "modified_content": {
+      "entity_baseline": 109,
+      "fact_baseline": 58,
+      "a01_roles": ["actor", "target"],
+      "reported_facts": ["F013", "F014", "F015", "F046", "F052", "F056"],
+      "pilot_fact": "F016"
+    },
+    "allow_next_gate": true,
+    "decided_at": "2026-11-13"
+  },
+  "frozen_outputs": ["entities.md@v1.0", "entities.json@v1.0", "facts.md@v1.0", "facts.json@v1.0", "entities_v0.1.*", "facts_v0.1.*", "decision-log.md#5"],
+  "open_items": [
+    "Relations pending G5",
+    "Platform developer/operator, work-order data, data governance"
+  ]
+}

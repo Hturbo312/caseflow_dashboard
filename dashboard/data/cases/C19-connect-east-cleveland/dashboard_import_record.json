@@ -1,0 +1,38 @@
+{
+  "case_id": "C19",
+  "version": "L2-C19-v1.0",
+  "imported_at": "2026-11-13",
+  "database": "dashboard/data/community-renewal.db",
+  "backup": "data/_backup/community-renewal.db.before-c19-2026-11-13T08-51-39.db",
+  "counts": {
+    "cases": 1,
+    "entities": 85,
+    "entity_roles": 89,
+    "materials": 32,
+    "evidence": 70,
+    "processes": 10,
+    "facts": 47,
+    "relations": 106,
+    "native_concepts": 25,
+    "concept_mappings": 40,
+    "search_docs": 188
+  },
+  "shared_concepts": {
+    "new_single_case_candidates": 13,
+    "updated_existing": 14,
+    "definition_changes": 0
+  },
+  "images": [
+    "public/case-media/C19-1.jpg",
+    "public/case-media/C19-2.jpg",
+    "public/case-media/C19-3.jpg",
+    "public/case-media/C19-4.jpg",
+    "public/case-media/C19-5.jpg"
+  ],
+  "verification": {
+    "build": "passed",
+    "api_case": "passed",
+    "image_http_status": "200",
+    "integrity_errors": 0
+  }
+}

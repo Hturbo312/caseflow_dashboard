@@ -1,0 +1,8038 @@
+{
+  "dataset": "caseflow-c01-c11",
+  "sourceVersion": "2026-11-13 状态补全版",
+  "generatedAt": "2026-11-13T03:00:03.664Z",
+  "summary": {
+    "cases": 11,
+    "relations": 442,
+    "rawMentions": 884,
+    "entities": 724,
+    "exactMergedNames": 1,
+    "aliasesCollapsed": 0,
+    "typeConflicts": 1,
+    "nearNameCandidates": 90,
+    "nearNameReview": 45,
+    "crossCaseRepeated": 5,
+    "crossCaseSpecific": 1,
+    "materials": 218,
+    "materialEvidence": 504,
+    "expertEvidence": 400,
+    "facts": 190,
+    "processes": 86,
+    "nativeConcepts": 724,
+    "sharedConceptCandidates": 43,
+    "conceptMappings": 724
+  },
+  "rules": [
+    "先做 NFKC、大小写、空白与标点规范化，再按“案例 + 规范名”建立实体。",
+    "同案例内规范名完全相同者合并为一个实体；原始写法差异登记为 aliases。",
+    "同案例同名但类型不同者保留一个实体，在 entity_roles 中记录多重角色，关系端保留原角色。",
+    "同案例近名、简称、包含关系不自动合并，只进入候选报告，避免把行动/结果误当成主体。",
+    "跨案例默认不合并；居民、项目团队、政府等泛称保持案例内实体。",
+    "只有明确指同一对象且具语义依据的跨案例专名才建议人工复核，不在本次自动合并。",
+    "关系保留原 relation_id、predicate、状态、证据句 ID 与过程段落 ID；语义候选不升级为确定事实。"
+  ],
+  "entityRegistry": [
+    {
+      "caseId": "C01",
+      "id": "C01-context-001",
+      "name": "赫尔辛基虚拟社区项目",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-task-001",
+      "name": "Arabianranta地区建设",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-actor-001",
+      "name": "Sonera、IBM、Symbian和Digia等企业",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-context-002",
+      "name": "虚拟社区项目",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-technology-001",
+      "name": "高速光纤与无线网络",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-actor-002",
+      "name": "Digia技术团队",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-action-001",
+      "name": "虚拟社区平台开发",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-context-003",
+      "name": "安全、隐私与用户数据管理问题",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-outcome-001",
+      "name": "虚拟社区平台上线延迟",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-actor-003",
+      "name": "ADC",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-technology-002",
+      "name": "赫尔辛基虚拟社区",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-capability-001",
+      "name": "赫尔辛基虚拟社区服务",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-action-002",
+      "name": "虚拟社区服务运营",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-actor-004",
+      "name": "Sonera",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-action-003",
+      "name": "区域网络前期合作",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-action-004",
+      "name": "Sonera前期网络运营合作",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-outcome-002",
+      "name": "预期的网络运营服务",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-actor-005",
+      "name": "Nordic LAN & WAN Communication Oy",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-task-002",
+      "name": "区域网络运营服务",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-actor-006",
+      "name": "赫尔辛基市政府",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-actor-007",
+      "name": "Arabian Palvelu Oy",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-technology-003",
+      "name": "供股东共同使用的区域信息网络",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-actor-008",
+      "name": "Helsingin Energia",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-technology-004",
+      "name": "区域物理通信网络",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-technology-005",
+      "name": "区域光纤网络",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-capability-002",
+      "name": "住宅接入地区网络的能力",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-actor-009",
+      "name": "Nordic LAN & WAN",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-target-001",
+      "name": "网络线路容量",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-capability-003",
+      "name": "互联网和电子邮件服务",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-technology-006",
+      "name": "虚拟社区门户",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-technology-007",
+      "name": "Teamware软件",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-actor-010",
+      "name": "当地小企业",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-actor-011",
+      "name": "被调查家庭",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-technology-008",
+      "name": "宽带连接",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-actor-012",
+      "name": "已有宽带连接的被调查家庭",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-capability-004",
+      "name": "本地区域运营商服务",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-context-004",
+      "name": "服务价格与居民既有运营商关系",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-action-005",
+      "name": "居民对本地区域运营商服务的选择",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-technology-009",
+      "name": "虚拟社区平台",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-capability-005",
+      "name": "地方门户、住宅公司网页及内部论坛等日常数字服务",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-actor-013",
+      "name": "居民志愿者",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-actor-014",
+      "name": "电子协调员",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-action-006",
+      "name": "楼栋居民、物业管理人员、住宅公司与ADC之间的信息协调和沟通",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-context-005",
+      "name": "ICING项目",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-target-002",
+      "name": "Arabianranta地区",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-task-003",
+      "name": "移动技术支持居民生产和记录城市信息",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-task-004",
+      "name": "居民信息进入城市决策过程的可能性",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-actor-015",
+      "name": "ADC与Stadia等主体",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-action-007",
+      "name": "虚拟社区门户重新开发",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-action-008",
+      "name": "虚拟社区门户更新",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-task-005",
+      "name": "社会媒体、地方文化表达及用户自主生产内容的服务方向",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-context-006",
+      "name": "旧门户内容组织方式存在困难",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-action-009",
+      "name": "用户界面重新设计与测试",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-context-007",
+      "name": "虚拟社区门户更新项目",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-action-010",
+      "name": "居民访谈与叙事性公共工作坊",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-task-006",
+      "name": "居民、协会、教育机构和企业自行生产地区内容",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-context-008",
+      "name": "赫尔辛基生活实验室项目",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-actor-016",
+      "name": "ADC与Forum Virium Helsinki等主体",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-actor-017",
+      "name": "高校、企业和居民",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-actor-018",
+      "name": "研究人员",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-action-011",
+      "name": "访谈、自我记录、实践映射及设计工作坊等用户研究",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-context-009",
+      "name": "生活实验室项目",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-task-007",
+      "name": "基于居民日常服务使用情况改进服务的可能性",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-capability-006",
+      "name": "地方光纤及公共显示相关服务",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-target-003",
+      "name": "Arabian Palvelu股份",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-actor-019",
+      "name": "最终土地承租人、地块所有者等股东实体",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-context-010",
+      "name": "治理权转移安排",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C01",
+      "id": "C01-task-008",
+      "name": "区域光纤网络完成",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-context-001",
+      "name": "Havukoski住宅区",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-task-001",
+      "name": "既有住宅更新与公共环境改善任务",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-target-001",
+      "name": "Koivukylä框架规划",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-task-002",
+      "name": "公共服务、步行环境、社会分异及建筑遗产保护问题",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-actor-001",
+      "name": "万塔市",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 6
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-target-002",
+      "name": "Koivukylä框架规划参与和评价方案OAS",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-target-003",
+      "name": "参与和评价方案OAS",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-action-001",
+      "name": "信息公示、居民活动、意见收集和专题研究",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-action-002",
+      "name": "HYVIÖ研究",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-action-003",
+      "name": "居民问卷和专家工作坊",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-technology-001",
+      "name": "StrateGIS空间分析方法",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-outcome-001",
+      "name": "居住环境宜居性影响因素",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-target-004",
+      "name": "框架规划相关研究材料",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-actor-002",
+      "name": "万塔市与坦佩雷大学",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-action-004",
+      "name": "Havukoski Charrette规划工作坊",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-action-005",
+      "name": "Havukoski Charrette工作坊",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-target-005",
+      "name": "参与者对地区未来发展的想法",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-actor-003",
+      "name": "工作坊参与者",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-target-006",
+      "name": "未来环境期待",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-action-006",
+      "name": "工作坊第一日活动",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-technology-002",
+      "name": "生成式AI未来场景制作",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-technology-003",
+      "name": "UrbanistAI",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-technology-004",
+      "name": "White Canvas",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-capability-001",
+      "name": "提示词编写与调整能力",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-outcome-002",
+      "name": "未来空间设想图像",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-outcome-003",
+      "name": "18人报名",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-action-007",
+      "name": "工作坊前期问卷",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-outcome-004",
+      "name": "12人回答",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-capability-002",
+      "name": "未来空间愿景可视化能力",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-target-007",
+      "name": "参与者语言描述与当地街景照片",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-target-008",
+      "name": "AI生成的未来空间设想",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-outcome-005",
+      "name": "AI生成图像",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-action-008",
+      "name": "围绕具体空间场景开展讨论",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-outcome-006",
+      "name": "正式规划决定",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-target-009",
+      "name": "Koivukylä框架规划准备材料",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-action-009",
+      "name": "在线意见征集",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-outcome-007",
+      "name": "41份回应",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-target-010",
+      "name": "Havukoski作为防止社会分异研究案例地区",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-action-010",
+      "name": "防止区域社会分异相关研究",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-outcome-008",
+      "name": "ERKKO路线图",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-actor-004",
+      "name": "万塔市环境委员会",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 4
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-task-003",
+      "name": "大型超市选址影响分析",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-action-011",
+      "name": "UrbanistAI工作坊",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-outcome-009",
+      "name": "2025年框架规划退回",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-outcome-010",
+      "name": "修订后的规划说明书和规划图",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-target-011",
+      "name": "修订后的框架规划材料",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-task-004",
+      "name": "建设、步行、服务及历史环境保护内容",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-action-012",
+      "name": "公众参与程序",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-action-013",
+      "name": "市政府委员会审议程序",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-target-012",
+      "name": "规划图中的部分说明",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C02",
+      "id": "C02-context-002",
+      "name": "正式决策程序",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-context-001",
+      "name": "Slaithwaite村庄中心",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-task-001",
+      "name": "运河恢复及空间调整任务",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-actor-001",
+      "name": "Kirklees Planning Services",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-target-001",
+      "name": "运河恢复与空间调整方案",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-actor-002",
+      "name": "Colne Valley Trust",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-action-001",
+      "name": "Shaping Slaithwaite公众参与项目",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-actor-003",
+      "name": "社区与合作机构",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-technology-001",
+      "name": "村庄三维实体模型",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-actor-004",
+      "name": "居民",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-action-002",
+      "name": "与空间位置相关的意见",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-action-003",
+      "name": "1998年实体参与活动",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-action-004",
+      "name": "数字参与系统现场测试",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-actor-005",
+      "name": "Leeds研究团队",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-technology-002",
+      "name": "Virtual Slaithwaite数字参与系统",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-technology-003",
+      "name": "Virtual Slaithwaite",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 5
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-technology-004",
+      "name": "Web-GIS",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-capability-001",
+      "name": "地图交互及空间对象查找能力",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-capability-002",
+      "name": "居民在选定地图位置输入文字意见",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-target-002",
+      "name": "居民意见与对应地图位置",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-action-005",
+      "name": "表达具体地点建议",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-actor-006",
+      "name": "工作人员",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-target-003",
+      "name": "实体模型意见",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-action-006",
+      "name": "公众参与项目",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-outcome-001",
+      "name": "44条具有空间位置关联的居民意见",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-capability-003",
+      "name": "按地点查看居民诉求",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-actor-007",
+      "name": "项目团队",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-target-004",
+      "name": "其他居民已提交评论",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-context-002",
+      "name": "Old Bank潜在墓葬问题",
+      "aliases": [],
+      "types": [
+        "context",
+        "target"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-actor-008",
+      "name": "工程方",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-action-007",
+      "name": "施工期地方沟通",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-action-008",
+      "name": "联络会议、现场协调和公众展示等线下机制",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-context-003",
+      "name": "已收集工程档案",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-action-009",
+      "name": "Virtual Slaithwaite持续用于施工协调",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-action-010",
+      "name": "运河恢复工程",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-outcome-002",
+      "name": "运河河道、替代停车场及水岸设施等实体空间更新",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-action-011",
+      "name": "地方更新活动",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-outcome-003",
+      "name": "历史建筑立面和环境",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-action-012",
+      "name": "居民意见整理过程",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-outcome-004",
+      "name": "建议方案",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C03",
+      "id": "C03-action-013",
+      "name": "施工阶段地方协调",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-context-001",
+      "name": "田林十二村",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-task-001",
+      "name": "老旧小区日常管理与基础设施改善任务",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-actor-001",
+      "name": "居民委员会、业主委员会和物业服务企业",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-action-001",
+      "name": "社区治理协作",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-actor-002",
+      "name": "徐汇区",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-technology-001",
+      "name": "区级社区信息平台",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-action-002",
+      "name": "前期社区治理协作与设施改善",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-outcome-001",
+      "name": "组织和设施基础",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-action-003",
+      "name": "社会面智能安防试点",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-action-004",
+      "name": "田林十二村智能安防建设",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-technology-002",
+      "name": "门禁、监控、消防预警与智能识别等设施",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-actor-003",
+      "name": "田林街道",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-actor-004",
+      "name": "智慧社区联合指挥中心",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-action-005",
+      "name": "智慧社区平台建设",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-technology-003",
+      "name": "田林街道智慧社区平台",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-action-006",
+      "name": "社区数字化治理过程",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-technology-004",
+      "name": "智能安防设施",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-capability-001",
+      "name": "集中管理能力",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-action-007",
+      "name": "田林十二村智能安防试点",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-technology-005",
+      "name": "10类共1680个神经元传感器",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-technology-006",
+      "name": "智慧社区平台",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-action-008",
+      "name": "事件处理流程与责任主体",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-actor-005",
+      "name": "社区民警、物业人员和党员骨干等",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-action-009",
+      "name": "信息接收与事件处置网络",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-technology-007",
+      "name": "社区智能安防系统",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-outcome-002",
+      "name": "门禁与独居老人出入异常线索",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-actor-006",
+      "name": "异常信息给基层工作人员",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-actor-007",
+      "name": "居委会及基层工作人员",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-target-001",
+      "name": "系统提示的异常情况",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-actor-008",
+      "name": "田林十二村社区",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-technology-008",
+      "name": "实名门禁系统",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-target-002",
+      "name": "居民出入记录",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-task-002",
+      "name": "身份识别与出入管理",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-target-003",
+      "name": "已有门禁出入数据",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-technology-009",
+      "name": "基于出入记录的系统判断规则",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-outcome-003",
+      "name": "住房管理与老人照护相关异常线索",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-target-004",
+      "name": "异常高频刷卡记录",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-task-003",
+      "name": "潜在群租问题",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-target-005",
+      "name": "独居老人长期无出入记录",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-task-004",
+      "name": "老人照护情况",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-actor-009",
+      "name": "社区工作人员",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-action-010",
+      "name": "上门核实",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-actor-010",
+      "name": "居委会、业主委员会和物业服务企业",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-outcome-004",
+      "name": "停车管理方案",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-actor-011",
+      "name": "业主大会",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-outcome-005",
+      "name": "停车管理规约",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-technology-010",
+      "name": "智能停车设施",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-task-005",
+      "name": "停车状态管理",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-action-011",
+      "name": "居民协商",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-outcome-006",
+      "name": "停车资源分配规则",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-technology-011",
+      "name": "既有门禁、人脸识别及出入管理系统",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-task-006",
+      "name": "疫情期间身份核验与进出管理",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-target-006",
+      "name": "既有人员身份与出入数据",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-task-007",
+      "name": "疫情期间人员排查和信息比对",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-action-012",
+      "name": "疫情期间社区管理工作",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-technology-012",
+      "name": "视频人工智能分析技术",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-target-007",
+      "name": "社区监控图像",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-technology-013",
+      "name": "视频人工智能",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-capability-002",
+      "name": "视频AI异常识别能力",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-target-008",
+      "name": "消防通道占用、大件垃圾违规放置及电动车进电梯等情形",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-technology-014",
+      "name": "视频AI事件识别系统",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-outcome-007",
+      "name": "事件记录或工单",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-technology-015",
+      "name": "视频AI事件处理系统",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-target-009",
+      "name": "事件信息",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-actor-012",
+      "name": "基层工作人员",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-action-013",
+      "name": "事件是否违规及处置措施",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-action-014",
+      "name": "现场处理",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-capability-003",
+      "name": "视频AI事件识别能力",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-action-015",
+      "name": "更多现实问题进入数字化处置流程",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-action-016",
+      "name": "田林十二村数字治理实践",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C04",
+      "id": "C04-action-017",
+      "name": "街道层面治理工作",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-actor-001",
+      "name": "复元坊社区",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 12
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-target-001",
+      "name": "违法搭建、破墙开门及公共空间侵占问题",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-context-001",
+      "name": "共治联席会议等协商机制",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-actor-002",
+      "name": "社区居民",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-task-001",
+      "name": "非机动车停放和安全充电问题",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-technology-001",
+      "name": "智能车棚",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-task-002",
+      "name": "非机动车停放和充电管理",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-action-001",
+      "name": "智能车棚引入",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-target-002",
+      "name": "停车位置、使用费用及周边环境",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-actor-003",
+      "name": "不同居民",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-target-003",
+      "name": "车棚位置、收费及通行影响",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-target-004",
+      "name": "智能车棚使用方案",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-action-002",
+      "name": "智能车棚方案居民协商",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-actor-004",
+      "name": "网格员及党员等基层力量",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-target-005",
+      "name": "车棚位置、收费及使用安排",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-outcome-001",
+      "name": "居民对智能车棚方案的同意情况",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-outcome-002",
+      "name": "据报道达到92.94%",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-context-002",
+      "name": "基层组织与居民协商机制",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-outcome-003",
+      "name": "智能车棚方案实施",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-task-003",
+      "name": "垃圾分类与湿垃圾处理工作",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-technology-002",
+      "name": "智能投放技术",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-outcome-004",
+      "name": "智能投放设备安装及补贴落实情况",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-outcome-005",
+      "name": "具体实施情况",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-actor-005",
+      "name": "芷江西路街道",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-technology-003",
+      "name": "社区垃圾投放点智能监控设备",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-action-003",
+      "name": "线上实时派单与动态处置机制",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-technology-004",
+      "name": "摄像设备",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-target-006",
+      "name": "垃圾投放点现场图像信息",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-technology-005",
+      "name": "AI图像分析",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-capability-001",
+      "name": "垃圾投放异常识别能力",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-target-007",
+      "name": "小包垃圾、垃圾满溢及混装混投等问题",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-technology-006",
+      "name": "数字治理系统",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 5
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-task-004",
+      "name": "垃圾投放异常处置任务",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-actor-006",
+      "name": "居委会或物业工作人员",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-target-008",
+      "name": "系统提示的垃圾投放异常",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-target-009",
+      "name": "垃圾投放异常问题",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-target-010",
+      "name": "整改后的现场状态",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-outcome-006",
+      "name": "异常问题处理情况",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-action-004",
+      "name": "异常处置结案流程",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-action-005",
+      "name": "双碳社区实践",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-technology-007",
+      "name": "智能回收、自动称重与积分记录等数字功能",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-technology-008",
+      "name": "AI辅助案件识别功能",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-technology-009",
+      "name": "智能回收与自动称重功能",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-capability-002",
+      "name": "回收数据记录能力",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-target-011",
+      "name": "回收物品及其重量",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-technology-010",
+      "name": "积分记录功能",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-action-006",
+      "name": "社区激励与管理活动",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-technology-011",
+      "name": "湿垃圾就地处理体系",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-task-005",
+      "name": "湿垃圾处理任务",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-task-006",
+      "name": "复元坊微更新项目",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-outcome-007",
+      "name": "项目立项",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C05",
+      "id": "C05-action-007",
+      "name": "屋面、外墙、道路及管线等实体设施修缮",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-actor-001",
+      "name": "KWMC与布里斯托尔市政府等机构",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-action-001",
+      "name": "居民问题导向的社区参与与数据收集方法",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-actor-002",
+      "name": "项目组织者",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-task-001",
+      "name": "居民日常关心的生活问题",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-actor-003",
+      "name": "项目团队",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 5
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-action-002",
+      "name": "社区居民意见收集",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-action-003",
+      "name": "社区会议、社区网络分析及非正式交流",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-actor-004",
+      "name": "艺术家",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-action-004",
+      "name": "与居民的日常非正式交流",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-actor-005",
+      "name": "社区居民",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-task-002",
+      "name": "社区生活问题",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-context-001",
+      "name": "项目资源限制",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-task-003",
+      "name": "后续技术实验范围",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-task-004",
+      "name": "可开展的技术实验议题",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-action-005",
+      "name": "避免过早引入技术术语的讨论方式",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-action-006",
+      "name": "居民讨论过程",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-task-005",
+      "name": "住房潮湿问题",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-task-006",
+      "name": "数据需求与可能用途",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-actor-006",
+      "name": "Damp Busters项目",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 5
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-action-007",
+      "name": "居民及跨专业人员共同讨论解决方案",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-actor-007",
+      "name": "方案参与者",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-technology-001",
+      "name": "damp-busting住房潮湿监测分析系统",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-technology-002",
+      "name": "damp-busting系统",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-capability-001",
+      "name": "温湿度测量与潮湿问题定位分析能力",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-action-008",
+      "name": "系统设计过程",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-task-007",
+      "name": "居民数据隐私保护",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-outcome-001",
+      "name": "系统采集的数据",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-action-009",
+      "name": "居民改善室内环境及寻求帮助",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-actor-008",
+      "name": "居民",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-target-001",
+      "name": "辅助解释环境数据的生活经验",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-actor-009",
+      "name": "专业人员",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-target-002",
+      "name": "数据可能反映的住房问题",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-context-002",
+      "name": "参与家庭网络连接条件",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-technology-003",
+      "name": "原在线数据方案",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-technology-004",
+      "name": "降低互联网依赖的设备方案",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-technology-005",
+      "name": "调整后的设备方案",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-capability-002",
+      "name": "本地存储及数据查看能力",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-technology-006",
+      "name": "Frogbox",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-target-003",
+      "name": "室内温度和湿度变化",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-outcome-002",
+      "name": "Frogbox监测数据",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-task-008",
+      "name": "住房潮湿原因",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-technology-007",
+      "name": "lily pad纸质生活记录工具",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-action-010",
+      "name": "做饭、洗澡及晾衣等生活活动",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-action-011",
+      "name": "Frogbox测量与lily pad生活记录结合",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-actor-010",
+      "name": "Easton Energy Group",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-actor-011",
+      "name": "住房潮湿问题家庭",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-target-004",
+      "name": "5户住房潮湿较严重的住宅",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-action-012",
+      "name": "Frogbox家庭测试",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-context-003",
+      "name": "每户约两周",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-actor-012",
+      "name": "16名当地居民",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-actor-013",
+      "name": "受训居民",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-actor-014",
+      "name": "community damp-busters社区协助者",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-action-013",
+      "name": "居民培训与相关活动",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-capability-003",
+      "name": "潮湿问题理解及数据工具使用能力",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-target-005",
+      "name": "设备制作、数据理解与隐私知识",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-outcome-003",
+      "name": "可继续使用的开放资源",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-outcome-004",
+      "name": "公民感知方法经验",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-action-014",
+      "name": "Bristol Approach社区参与方法",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-target-006",
+      "name": "REPLICATE等后续项目",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-action-015",
+      "name": "居民提出议题与共同确定数据需求",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C06",
+      "id": "C06-action-016",
+      "name": "社区讨论",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-context-001",
+      "name": "Carpenters弱势居民面临的数字排斥",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-task-001",
+      "name": "改善家庭互联网接入的需求",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-context-002",
+      "name": "Wired Up Communities计划",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-target-001",
+      "name": "Carpenters Estate",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-action-001",
+      "name": "Carpenters数字接入试点",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-technology-001",
+      "name": "机顶盒、视频点播和电视互联网",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-technology-002",
+      "name": "机顶盒及电视互联网技术",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-capability-001",
+      "name": "数字信息和互动服务",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-action-002",
+      "name": "机顶盒及相关网络服务部署",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-outcome-001",
+      "name": "稳定的大规模家庭覆盖",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-actor-001",
+      "name": "Newham Council",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-action-003",
+      "name": "Carpenters Estate Masterplanning",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-actor-002",
+      "name": "居民",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-target-002",
+      "name": "高层住宅渗水、虫害及窗户安全问题",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-actor-003",
+      "name": "TMO、Newham Council和Newham.net",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-technology-003",
+      "name": "Carpenters Connect",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-task-002",
+      "name": "居民规划咨询",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-capability-002",
+      "name": "互联网、电子邮件与视频点播服务",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-actor-004",
+      "name": "项目团队",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-target-003",
+      "name": "可点播的规划活动与方案信息",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-technology-004",
+      "name": "相关网站",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-capability-003",
+      "name": "居民向规划团队与地方政府提问的渠道",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-technology-005",
+      "name": "家庭数字设备",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-action-004",
+      "name": "居民远程了解规划过程",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-actor-005",
+      "name": "规划团队",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-outcome-002",
+      "name": "新的居民意见收集渠道",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-actor-006",
+      "name": "项目实施方",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-outcome-003",
+      "name": "居民信息获取和建筑师接触居民意见的条件",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-context-003",
+      "name": "政府主导更新方案争议与UCL方案退出",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-task-003",
+      "name": "社区替代规划",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-actor-007",
+      "name": "居民、当地企业及相关利益主体",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-outcome-004",
+      "name": "Carpenters Community Plan",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-actor-008",
+      "name": "社区组织与参与者",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-action-005",
+      "name": "工作坊、步行调查、展览、问卷与访谈等参与活动",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-action-006",
+      "name": "社区步行调查",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-target-004",
+      "name": "住宅与公共空间意见、地方经济、绿地与交通信息",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-task-004",
+      "name": "住宅翻新、恢复入住与社区设施改善等任务",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-actor-009",
+      "name": "居民和地方组织",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-action-007",
+      "name": "社区自主规划",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-actor-010",
+      "name": "相关规划机构",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-target-005",
+      "name": "GCNF及其Neighbourhood Area",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-context-004",
+      "name": "邻里规划制度与正式指定",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-task-005",
+      "name": "Neighbourhood Plan",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-actor-011",
+      "name": "UCL Engineering",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-target-006",
+      "name": "住宅区水和能源基础设施",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-action-008",
+      "name": "GCNF会议、开放咨询和居民调查",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-target-007",
+      "name": "技术方案与居民实际关切",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-actor-012",
+      "name": "专业机构与社区参与者",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-task-006",
+      "name": "费用、绿色空间保护和未来服务需求",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-actor-013",
+      "name": "Max Fordham",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-technology-006",
+      "name": "Sustainability Matrix",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-task-007",
+      "name": "Draft Neighbourhood Plan的完善",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-actor-014",
+      "name": "Newham",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-actor-015",
+      "name": "Populo Living",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-task-008",
+      "name": "具有实施可行性的更新方案",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-context-005",
+      "name": "住房数量、资金与规划要求",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-action-009",
+      "name": "更新方案形成",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-technology-007",
+      "name": "Commonplace平台与项目网站",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-target-008",
+      "name": "规划信息",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-technology-008",
+      "name": "数字参与工具",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-action-010",
+      "name": "居民意见收集与方案讨论",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-actor-016",
+      "name": "项目团队及独立居民顾问",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-target-009",
+      "name": "不同居民群体",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-context-006",
+      "name": "疫情期间线下活动限制",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-action-011",
+      "name": "居民参与方式调整",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-technology-009",
+      "name": "Virtual Study Tour",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-action-012",
+      "name": "居民远程查看其他住宅项目",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-actor-017",
+      "name": "项目团队与居民",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-target-010",
+      "name": "住宅类型、建筑高度、开放空间和景观设计",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-context-007",
+      "name": "项目规划安排",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-target-011",
+      "name": "后续居民投票的方案范围",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-target-012",
+      "name": "开放空间、住宅品质及建筑设计",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-action-013",
+      "name": "Carpenters Estate更新",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-action-014",
+      "name": "现场施工阶段",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-action-015",
+      "name": "James Riley Point第一阶段工程",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-action-016",
+      "name": "深度节能改造",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-action-017",
+      "name": "James Riley Point深度节能改造",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C07",
+      "id": "C07-context-008",
+      "name": "Passivhaus EnerPHit标准",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-context-001",
+      "name": "北村历史街区",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-context-002",
+      "name": "传统韩屋居住社区与旅游目的地属性",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-context-003",
+      "name": "游客增加",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-context-004",
+      "name": "噪声、停车和隐私干扰",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-task-001",
+      "name": "居民生活与街区管理",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-task-002",
+      "name": "日常生活与安全管理需求",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-actor-001",
+      "name": "当地商户",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-task-003",
+      "name": "旅游商业机会与经营环境",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-actor-002",
+      "name": "游客",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-task-004",
+      "name": "导航、旅游信息与公共服务",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-actor-003",
+      "name": "首尔市",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-task-005",
+      "name": "物联网应用探索任务",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-actor-004",
+      "name": "北村项目组织方",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-action-001",
+      "name": "专家咨询、跨部门协调和ISP",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-action-002",
+      "name": "ISP需求调查",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-target-001",
+      "name": "居民、商户和游客",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-task-006",
+      "name": "不同群体的公共空间、生活及旅游服务需求",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-action-003",
+      "name": "Open Forum与开发者座谈会",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-target-002",
+      "name": "地方问题与企业技术能力及服务开发方向",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-action-004",
+      "name": "前期调查和讨论",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-task-007",
+      "name": "安全、环境、交通、旅游和居民便利领域的问题清单",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-task-008",
+      "name": "地方问题清单",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-action-005",
+      "name": "物联网服务开发",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-technology-001",
+      "name": "不同物联网应用",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-task-009",
+      "name": "停车、垃圾清运、安全监测及旅游服务任务",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-technology-002",
+      "name": "公共数字基础设施",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-technology-003",
+      "name": "公共Wi-Fi、人流计数CCTV与信息API",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-capability-001",
+      "name": "网络接入、基础数据与信息交互能力",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-actor-005",
+      "name": "公共部门",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-capability-002",
+      "name": "基础设施与服务实证条件",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-actor-006",
+      "name": "民营与初创企业",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-technology-004",
+      "name": "面向具体社区问题的物联网服务",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-action-006",
+      "name": "项目组织工作",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-action-007",
+      "name": "物联网服务部署",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-target-003",
+      "name": "街道、建筑、学校、停车位及居民设施等",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-context-005",
+      "name": "实际使用场景",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-action-008",
+      "name": "物联网设备布设",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-technology-005",
+      "name": "不同物联网服务",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-actor-007",
+      "name": "相应管理人员或使用者",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-technology-006",
+      "name": "垃圾管理传感器",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-target-004",
+      "name": "垃圾桶装载状态",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-target-005",
+      "name": "垃圾桶装载状态信息",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-actor-008",
+      "name": "清运主体",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-actor-009",
+      "name": "清运工作人员",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-task-010",
+      "name": "垃圾清运需求",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-technology-007",
+      "name": "停车位占用感知设备",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-target-006",
+      "name": "停车位占用状态",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-technology-008",
+      "name": "停车位感知设备与移动应用",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-capability-003",
+      "name": "空闲停车位查询与共享",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-target-007",
+      "name": "停车状态信息",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-actor-010",
+      "name": "停车服务使用者",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-technology-009",
+      "name": "火灾与环境监测服务",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-target-008",
+      "name": "既有119应急体系",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-target-009",
+      "name": "现场感知与异常提醒信息",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-action-009",
+      "name": "安全管理与应急响应过程",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-technology-010",
+      "name": "儿童安全、老人安全及旅游信息服务",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-task-011",
+      "name": "儿童、老人及游客等特定群体的需求",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-context-006",
+      "name": "北村狭窄的传统街巷",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-action-010",
+      "name": "部分路侧停车设备安装",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-action-011",
+      "name": "行人通行",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-technology-011",
+      "name": "部分路侧停车设备",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-target-010",
+      "name": "北村街巷空间",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-context-007",
+      "name": "传感器成本、通信费用与宣传不足",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-action-012",
+      "name": "停车服务实施",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-task-012",
+      "name": "停车服务持续运行",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-context-008",
+      "name": "设备维护、网络通信与居民推广成本",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-technology-012",
+      "name": "部分物联网服务",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-action-013",
+      "name": "设备与实施方式",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-target-011",
+      "name": "2016年官方服务地图",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-technology-013",
+      "name": "17项物联网服务",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-action-014",
+      "name": "2017年现场追踪",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-outcome-001",
+      "name": "约9项服务仍在运行",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-technology-014",
+      "name": "北村多项物联网服务",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-outcome-002",
+      "name": "持续运行、调整、实验结束及停止服务",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-task-013",
+      "name": "物联网服务持续运行",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-context-009",
+      "name": "设备维护、数据通信、使用推广和管理协作条件",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-action-015",
+      "name": "真实社区使用检验",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-outcome-003",
+      "name": "技术方案与地方条件之间的差异",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C08",
+      "id": "C08-action-016",
+      "name": "后续服务保留、修改或终止",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-context-001",
+      "name": "长虹路社区的老旧小区条件",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-task-001",
+      "name": "出入秩序、安全防范与公共设施维护需求",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-target-001",
+      "name": "长虹路社区",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-context-002",
+      "name": "老旧国企宿舍较多、公共设施老化与专业物业管理缺位",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-actor-001",
+      "name": "赛虹桥街道",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-action-001",
+      "name": "老旧小区物业服务覆盖",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-technology-001",
+      "name": "门禁、车辆道闸、人脸识别和视频监控设施",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-technology-002",
+      "name": "数字安防设施",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-action-002",
+      "name": "物业及社区工作人员的出入管理和安全防范",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-technology-003",
+      "name": "早期单项数字设施",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-technology-004",
+      "name": "统一社区事件管理与跨部门协同平台",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-actor-002",
+      "name": "基层工作人员",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-task-002",
+      "name": "多渠道居民诉求与社区治理事项",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-context-003",
+      "name": "数据、资源与业务流程分散",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-task-003",
+      "name": "问题识别及跨部门协同处理",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-actor-003",
+      "name": "陈铭等政协委员",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-context-004",
+      "name": "基层信息与业务流程分散问题",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-actor-004",
+      "name": "相关政协委员",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-action-003",
+      "name": "数字赋能社区治理提案",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-outcome-001",
+      "name": "基层治理需求进入公共政策讨论",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-action-004",
+      "name": "长虹路社区数字平台试点",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-actor-005",
+      "name": "中邮建技术有限公司",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-action-005",
+      "name": "数字社区平台建设",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-task-004",
+      "name": "长虹路社区数字化建设重点",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-task-005",
+      "name": "已有信息与治理资源整合",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-technology-005",
+      "name": "“及时雨”数字社区平台",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 8
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-target-002",
+      "name": "3D实景地图、社区基础数据库与行政条口信息",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-technology-006",
+      "name": "视频监控与居民端",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-target-003",
+      "name": "16个社区网格及老人电子档案",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-capability-001",
+      "name": "按居民、区域和公共事务查看关联信息的能力",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-capability-002",
+      "name": "关联信息查看能力",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-task-006",
+      "name": "跨网格与跨部门的问题处理",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-technology-007",
+      "name": "3D实景地图",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-capability-003",
+      "name": "管理对象与事件的空间识别、定位能力",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-technology-008",
+      "name": "原有视频监控",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-target-004",
+      "name": "综合治理平台的感知信息来源",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-task-007",
+      "name": "社区事务处理",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-action-006",
+      "name": "将平台信息转化为基层可执行任务的工作流程",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-target-005",
+      "name": "社区事件工单",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-target-006",
+      "name": "事件工单",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-action-007",
+      "name": "相应人员核查和处理",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-actor-006",
+      "name": "楼栋长、党员及志愿服务团队",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-action-008",
+      "name": "事件协同与组织调度",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-capability-004",
+      "name": "异常信息汇集、事件形成与任务流转能力",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-technology-009",
+      "name": "相关感知设备",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-target-007",
+      "name": "倒树异常情况",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-target-008",
+      "name": "倒树事件工单",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-actor-007",
+      "name": "网格员",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-target-009",
+      "name": "倒树事件",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-actor-008",
+      "name": "城管、楼栋长和园林等主体",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-action-009",
+      "name": "倒树事件处置",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-action-010",
+      "name": "人员核查与协同处置",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-target-010",
+      "name": "长虹路社区重点区域",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-technology-010",
+      "name": "智能监控设备",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-technology-011",
+      "name": "AI视频识别",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-target-011",
+      "name": "人员跌倒、高空坠物及消防通道占用等异常情况",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-capability-005",
+      "name": "基于预设条件的异常事件判断能力",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-technology-012",
+      "name": "AI视频识别系统",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-action-011",
+      "name": "后续工单处理流程",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-capability-006",
+      "name": "智能设备感知",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-target-012",
+      "name": "主动触发的待处理事件信息",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-actor-009",
+      "name": "社区工作人员与网格员",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-target-013",
+      "name": "AI识别所涉及的具体事件",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-actor-010",
+      "name": "相应治理主体",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-action-012",
+      "name": "经核验事件的后续实际处置",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-context-005",
+      "name": "核验难、摸排难和填表难",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-context-006",
+      "name": "多平台、多系统及重复数据维护负担",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-task-008",
+      "name": "基层核验、摸排与填表工作负担",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-technology-013",
+      "name": "“及时雨”平台",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-technology-014",
+      "name": "南京市智慧社区综合信息平台",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-action-013",
+      "name": "平台融合调整",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-technology-015",
+      "name": "跨部门数据推送、统一人口管理与数据比对",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-task-009",
+      "name": "基层重复采集与维护信息工作",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-actor-011",
+      "name": "相关部门",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-technology-016",
+      "name": "“数表通”基层行政数据处理功能",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-technology-017",
+      "name": "“数表通”功能",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-capability-007",
+      "name": "跨系统行政数据整理与填报",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-task-010",
+      "name": "后续数字化调整重点",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-task-011",
+      "name": "跨部门数据协同与基层行政业务处理",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-outcome-002",
+      "name": "2.0版本阶段",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-action-014",
+      "name": "3.0版本升级",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-context-007",
+      "name": "雨花台区整体数字治理工作",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C09",
+      "id": "C09-task-012",
+      "name": "基础数据管理、多系统并行、业务转化、数据标准统一与运维问题",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-target-001",
+      "name": "Khrushchyovka住宅",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-context-001",
+      "name": "围护结构与设备系统热损失、建筑能效不足",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-context-002",
+      "name": "既有住宅热损失与能效不足",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-task-001",
+      "name": "建筑节能改造需求",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-task-002",
+      "name": "当地既有住宅更新",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-action-001",
+      "name": "逐栋节能改造",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-task-003",
+      "name": "SmartEnCity区域综合更新",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-target-002",
+      "name": "住宅节能改造、区域能源、数字基础设施、交通与居民行为",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-actor-001",
+      "name": "SmartEnCity项目",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-technology-001",
+      "name": "能源改造与数字技术",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-actor-002",
+      "name": "公寓业主协会",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-target-003",
+      "name": "各栋私人产权公寓楼",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-context-003",
+      "name": "私人产权及住房协会治理结构",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-action-002",
+      "name": "市政府单方面决定住宅改造",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-actor-003",
+      "name": "住房协会业主集体",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-task-004",
+      "name": "项目参与、补助、贷款及设计施工方案",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-context-004",
+      "name": "公共资金和融资安排",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-action-003",
+      "name": "既有住宅建筑改造",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-context-005",
+      "name": "技术方案、公共补助、住房协会决策与居民经济负担",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-context-006",
+      "name": "住房协会集体决策及实施条件",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-action-004",
+      "name": "单栋建筑进入实际施工",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-actor-004",
+      "name": "22个住房协会",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-action-005",
+      "name": "SmartEnCity项目设计阶段",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-technology-002",
+      "name": "热成像技术",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-target-004",
+      "name": "建筑围护结构热损失情况",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-action-006",
+      "name": "建筑技术诊断",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-task-005",
+      "name": "后续节能改造方案",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-action-007",
+      "name": "各栋住宅改造",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-action-008",
+      "name": "方案设计、专家审查、居民决议、融资及招标签约程序",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-context-007",
+      "name": "住房协会决策进度、建筑条件与融资差异",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-action-009",
+      "name": "单栋建筑分别推进改造",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-target-005",
+      "name": "Kalevi 10住宅",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-context-008",
+      "name": "施工补贴",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-action-010",
+      "name": "Kalevi 10住宅改造",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-action-011",
+      "name": "实际施工实施阶段",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-target-006",
+      "name": "2018年官方项目报道",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-outcome-001",
+      "name": "21栋建筑",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-outcome-002",
+      "name": "SmartEnCity实际实施范围",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-outcome-003",
+      "name": "17栋住宅",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-target-007",
+      "name": "部分已完成主体施工的住宅",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-technology-003",
+      "name": "smart-home系统",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-target-008",
+      "name": "17栋主体住宅",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-outcome-004",
+      "name": "实体节能改造",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-action-012",
+      "name": "Khrushchyovka住宅实体改造",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-outcome-005",
+      "name": "近零能耗smartovka住宅",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-technology-004",
+      "name": "部分已改造住宅的smart-home系统",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-outcome-006",
+      "name": "运行问题",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-actor-005",
+      "name": "SmartEnCity项目方",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-target-009",
+      "name": "智慧住宅使用手册",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-target-010",
+      "name": "设备维护、供暖、通风与智能系统使用信息",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-target-011",
+      "name": "Turu 17住宅",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-context-009",
+      "name": "最后一笔项目改造补贴",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-action-013",
+      "name": "Turu 17住宅改造",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-outcome-007",
+      "name": "相关住宅更新",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-outcome-008",
+      "name": "SmartEnCity最终示范建筑范围",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-outcome-009",
+      "name": "18栋住宅",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-technology-005",
+      "name": "CIOP平台",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 4
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-action-014",
+      "name": "项目干预措施监测",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-action-015",
+      "name": "部分关键绩效指标计算",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-task-006",
+      "name": "居民家庭设备运行与使用",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-technology-006",
+      "name": "传感器和API",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-target-012",
+      "name": "部分建筑及系统运行数据",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-target-013",
+      "name": "建筑及相关系统运行数据",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-actor-006",
+      "name": "项目工作人员",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-action-016",
+      "name": "CIOP监测数据的人工录入、补充、维护和检查",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C10",
+      "id": "C10-task-007",
+      "name": "项目级信息汇集、实施监测与指标计算",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-context-001",
+      "name": "Coronación既有城区",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-context-002",
+      "name": "建筑老化、低能效、无障碍不足与居民经济脆弱等问题",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-actor-001",
+      "name": "巴斯克政府",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-action-001",
+      "name": "建筑存量更新需求诊断",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-target-001",
+      "name": "Coronación",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-action-002",
+      "name": "2017年Coronación社会—城市研究",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-target-002",
+      "name": "2011年建筑存量更新需求诊断结果",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-context-003",
+      "name": "建筑条件、居民社会经济状况与地区空间问题",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-actor-002",
+      "name": "SmartEnCity项目",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 13
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-task-001",
+      "name": "建筑深度能源改造、区域供热与公共空间再生",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-context-004",
+      "name": "欧洲资金支持安排",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-task-002",
+      "name": "约750套住宅深度能源改造",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-task-003",
+      "name": "约1,313套住宅的深度改造范围",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-action-003",
+      "name": "既有住宅深度能源改造",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-technology-001",
+      "name": "外保温等节能措施",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-technology-002",
+      "name": "地下热力管网、锅炉设施和相关区域供热系统",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-technology-003",
+      "name": "区域供热系统",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-capability-001",
+      "name": "住宅采暖和生活热水供应能力",
+      "aliases": [],
+      "types": [
+        "capability"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-context-005",
+      "name": "高密度既有城区空间条件",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-action-004",
+      "name": "能源设施及地下工程布置",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-context-006",
+      "name": "PEOU-27特别规划",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-context-007",
+      "name": "原有规划条件",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-action-005",
+      "name": "建筑改造、区域供热及公共空间工程",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-action-006",
+      "name": "居民参与公共空间更新讨论",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-action-007",
+      "name": "临时交通实验",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-target-003",
+      "name": "Aldabe等街道空间调整方案",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-context-008",
+      "name": "既有住宅产权及共同设施条件",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-task-004",
+      "name": "相关业主共同体同意",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-actor-003",
+      "name": "3个业主共同体",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-actor-004",
+      "name": "居民",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-context-009",
+      "name": "改造费用、供热收费方式、产权决策、长期收益与风险",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-actor-005",
+      "name": "部分业主共同体",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-context-010",
+      "name": "原有区域供热收费制度",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-actor-006",
+      "name": "Errota Zaharra社区组织",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-target-004",
+      "name": "项目信息沟通和实施安排",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-task-005",
+      "name": "居民了解方案和作出决策的时间",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-target-005",
+      "name": "住宅独立计费或共同体统一计费方式",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-target-006",
+      "name": "业主共同体加入期限",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-target-007",
+      "name": "可参与改造的业主共同体与住宅范围",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-action-008",
+      "name": "业主会议、咨询及入户访问",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-target-008",
+      "name": "改造内容、收费安排和参与条件",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-context-011",
+      "name": "Guarantee Fund支持机制",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-context-012",
+      "name": "改造资金支持条件",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-action-009",
+      "name": "Guarantee Fund支持条件调整",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-task-006",
+      "name": "部分低收入家庭的改造费用负担",
+      "aliases": [],
+      "types": [
+        "task"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-target-009",
+      "name": "部分已加入项目的住宅",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-target-010",
+      "name": "项目实际参与住宅范围",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-outcome-001",
+      "name": "312套住宅",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-action-010",
+      "name": "区域供热工程首次招标",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-outcome-002",
+      "name": "工程授标",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-target-011",
+      "name": "唯一投标方案",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-context-013",
+      "name": "招标允许的公共空间范围",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-context-014",
+      "name": "能源设施空间需求与采购规则约束",
+      "aliases": [],
+      "types": [
+        "context"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-action-011",
+      "name": "区域供热工程招标与实施",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-target-012",
+      "name": "区域供热工程实施方案",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-action-012",
+      "name": "区域供热工程重新招标",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-outcome-003",
+      "name": "后续施工阶段",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-actor-007",
+      "name": "Coronación改造项目",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-outcome-004",
+      "name": "26个业主共同体、302套住宅的深度能源改造",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-technology-004",
+      "name": "Aldabe Civic Centre生物质区域供热系统",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-technology-005",
+      "name": "区域供热设施及相关管网",
+      "aliases": [],
+      "types": [
+        "technology"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-outcome-005",
+      "name": "部分住宅的供热方式",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-action-013",
+      "name": "能源使用和改造效果监测",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-target-013",
+      "name": "住宅及供热系统运行情况",
+      "aliases": [],
+      "types": [
+        "target"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-action-014",
+      "name": "完整项目监测",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 3
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-outcome-006",
+      "name": "改造建筑热能需求约下降50%",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-outcome-007",
+      "name": "项目总能源消费约下降36%",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-outcome-008",
+      "name": "二氧化碳排放约下降54%",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-action-015",
+      "name": "施工阶段部分住宅费用记录",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-outcome-009",
+      "name": "能源账单约下降15%—20%",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-actor-008",
+      "name": "SmartEnCity H2020项目",
+      "aliases": [],
+      "types": [
+        "actor"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-outcome-010",
+      "name": "H2020项目管理期",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-action-016",
+      "name": "Aldabe街、Aldabe广场和Ciudadela广场公共空间工程",
+      "aliases": [],
+      "types": [
+        "action"
+      ],
+      "mentions": 2
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-outcome-011",
+      "name": "最终施工阶段",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    },
+    {
+      "caseId": "C11",
+      "id": "C11-outcome-012",
+      "name": "公共空间再生工程成果",
+      "aliases": [],
+      "types": [
+        "outcome"
+      ],
+      "mentions": 1
+    }
+  ],
+  "exactMerges": [
+    {
+      "caseId": "C03",
+      "id": "C03-context-002",
+      "name": "Old Bank潜在墓葬问题",
+      "aliases": [],
+      "types": [
+        "context",
+        "target"
+      ],
+      "mentions": 2
+    }
+  ],
+  "typeConflicts": [
+    {
+      "caseId": "C03",
+      "id": "C03-context-002",
+      "name": "Old Bank潜在墓葬问题",
+      "types": [
+        "context",
+        "target"
+      ],
+      "decision": "同案精确同名、角色类型不同；保留一个实体并在 entity_roles 中记录多重角色，关系端保留原角色。"
+    }
+  ],
+  "nearNameCandidates": [
+    {
+      "caseId": "C07",
+      "a": "Carpenters Estate",
+      "b": "Carpenters Estate更新",
+      "score": 0.889,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C01",
+      "a": "Arabianranta地区建设",
+      "b": "Arabianranta地区",
+      "score": 0.875,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C10",
+      "a": "Kalevi 10住宅",
+      "b": "Kalevi 10住宅改造",
+      "score": 0.833,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C01",
+      "a": "赫尔辛基虚拟社区项目",
+      "b": "赫尔辛基虚拟社区",
+      "score": 0.8,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C01",
+      "a": "赫尔辛基虚拟社区",
+      "b": "赫尔辛基虚拟社区服务",
+      "score": 0.8,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C01",
+      "a": "虚拟社区门户更新",
+      "b": "虚拟社区门户更新项目",
+      "score": 0.8,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C08",
+      "a": "部分路侧停车设备安装",
+      "b": "部分路侧停车设备",
+      "score": 0.8,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C10",
+      "a": "Turu 17住宅",
+      "b": "Turu 17住宅改造",
+      "score": 0.8,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C10",
+      "a": "Khrushchyovka住宅",
+      "b": "Khrushchyovka住宅实体改造",
+      "score": 0.789,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C08",
+      "a": "垃圾桶装载状态",
+      "b": "垃圾桶装载状态信息",
+      "score": 0.778,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C02",
+      "a": "UrbanistAI",
+      "b": "UrbanistAI工作坊",
+      "score": 0.769,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C10",
+      "a": "SmartEnCity项目",
+      "b": "SmartEnCity项目设计阶段",
+      "score": 0.765,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C01",
+      "a": "虚拟社区平台开发",
+      "b": "虚拟社区平台",
+      "score": 0.75,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C01",
+      "a": "区域光纤网络",
+      "b": "区域光纤网络完成",
+      "score": 0.75,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C01",
+      "a": "虚拟社区门户",
+      "b": "虚拟社区门户更新",
+      "score": 0.75,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C04",
+      "a": "智慧社区平台建设",
+      "b": "智慧社区平台",
+      "score": 0.75,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C09",
+      "a": "AI视频识别",
+      "b": "AI视频识别系统",
+      "score": 0.75,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C11",
+      "a": "Coronación",
+      "b": "Coronación改造项目",
+      "score": 0.714,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C03",
+      "a": "Virtual Slaithwaite",
+      "b": "Virtual Slaithwaite持续用于施工协调",
+      "score": 0.692,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C05",
+      "a": "智能车棚",
+      "b": "智能车棚引入",
+      "score": 0.667,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C09",
+      "a": "倒树事件",
+      "b": "倒树事件处置",
+      "score": 0.667,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C06",
+      "a": "Frogbox",
+      "b": "Frogbox监测数据",
+      "score": 0.636,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C06",
+      "a": "Frogbox",
+      "b": "Frogbox家庭测试",
+      "score": 0.636,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C01",
+      "a": "虚拟社区平台上线延迟",
+      "b": "虚拟社区平台",
+      "score": 0.6,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C01",
+      "a": "虚拟社区门户",
+      "b": "虚拟社区门户重新开发",
+      "score": 0.6,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C01",
+      "a": "虚拟社区门户",
+      "b": "虚拟社区门户更新项目",
+      "score": 0.6,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C01",
+      "a": "本地区域运营商服务",
+      "b": "居民对本地区域运营商服务的选择",
+      "score": 0.6,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C11",
+      "a": "建筑存量更新需求诊断",
+      "b": "2011年建筑存量更新需求诊断结果",
+      "score": 0.588,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C02",
+      "a": "Koivukylä框架规划",
+      "b": "Koivukylä框架规划参与和评价方案OAS",
+      "score": 0.565,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C09",
+      "a": "长虹路社区",
+      "b": "长虹路社区重点区域",
+      "score": 0.556,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C07",
+      "a": "Carpenters Estate",
+      "b": "Carpenters Estate Masterplanning",
+      "score": 0.533,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C05",
+      "a": "智能车棚",
+      "b": "智能车棚使用方案",
+      "score": 0.5,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C05",
+      "a": "智能车棚",
+      "b": "智能车棚方案实施",
+      "score": 0.5,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C06",
+      "a": "社区居民意见收集",
+      "b": "社区居民",
+      "score": 0.5,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C11",
+      "a": "Coronación",
+      "b": "2017年Coronación社会—城市研究",
+      "score": 0.476,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C04",
+      "a": "田林十二村",
+      "b": "田林十二村智能安防建设",
+      "score": 0.455,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C04",
+      "a": "田林十二村",
+      "b": "田林十二村智能安防试点",
+      "score": 0.455,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C04",
+      "a": "田林十二村",
+      "b": "田林十二村数字治理实践",
+      "score": 0.455,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C09",
+      "a": "长虹路社区",
+      "b": "长虹路社区数字平台试点",
+      "score": 0.455,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C01",
+      "a": "Sonera",
+      "b": "Sonera前期网络运营合作",
+      "score": 0.429,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C05",
+      "a": "智能车棚",
+      "b": "智能车棚方案居民协商",
+      "score": 0.4,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C06",
+      "a": "Frogbox",
+      "b": "Frogbox测量与lily pad生活记录结合",
+      "score": 0.304,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C05",
+      "a": "智能车棚",
+      "b": "居民对智能车棚方案的同意情况",
+      "score": 0.286,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C06",
+      "a": "居民及跨专业人员共同讨论解决方案",
+      "b": "专业人员",
+      "score": 0.25,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C01",
+      "a": "ADC",
+      "b": "楼栋居民、物业管理人员、住宅公司与ADC之间的信息协调和沟通",
+      "score": 0.107,
+      "classification": "likely-distinct"
+    },
+    {
+      "caseId": "C10",
+      "a": "SmartEnCity项目",
+      "b": "SmartEnCity项目方",
+      "score": 0.929,
+      "classification": "review"
+    },
+    {
+      "caseId": "C02",
+      "a": "Havukoski Charrette规划工作坊",
+      "b": "Havukoski Charrette工作坊",
+      "score": 0.913,
+      "classification": "review"
+    },
+    {
+      "caseId": "C04",
+      "a": "居民委员会、业主委员会和物业服务企业",
+      "b": "居委会、业主委员会和物业服务企业",
+      "score": 0.882,
+      "classification": "review"
+    },
+    {
+      "caseId": "C01",
+      "a": "Arabian Palvelu Oy",
+      "b": "Arabian Palvelu股份",
+      "score": 0.875,
+      "classification": "review"
+    },
+    {
+      "caseId": "C02",
+      "a": "Koivukylä框架规划",
+      "b": "Koivukylä框架规划准备材料",
+      "score": 0.765,
+      "classification": "review"
+    },
+    {
+      "caseId": "C03",
+      "a": "Virtual Slaithwaite数字参与系统",
+      "b": "Virtual Slaithwaite",
+      "score": 0.75,
+      "classification": "review"
+    },
+    {
+      "caseId": "C06",
+      "a": "住房潮湿问题",
+      "b": "住房潮湿问题家庭",
+      "score": 0.75,
+      "classification": "review"
+    },
+    {
+      "caseId": "C04",
+      "a": "田林十二村",
+      "b": "田林十二村社区",
+      "score": 0.714,
+      "classification": "review"
+    },
+    {
+      "caseId": "C11",
+      "a": "Coronación既有城区",
+      "b": "Coronación",
+      "score": 0.714,
+      "classification": "review"
+    },
+    {
+      "caseId": "C07",
+      "a": "Neighbourhood Plan",
+      "b": "Draft Neighbourhood Plan的完善",
+      "score": 0.68,
+      "classification": "review"
+    },
+    {
+      "caseId": "C09",
+      "a": "社区事件工单",
+      "b": "事件工单",
+      "score": 0.667,
+      "classification": "review"
+    },
+    {
+      "caseId": "C09",
+      "a": "事件工单",
+      "b": "倒树事件工单",
+      "score": 0.667,
+      "classification": "review"
+    },
+    {
+      "caseId": "C09",
+      "a": "倒树事件工单",
+      "b": "倒树事件",
+      "score": 0.667,
+      "classification": "review"
+    },
+    {
+      "caseId": "C01",
+      "a": "赫尔辛基生活实验室项目",
+      "b": "生活实验室项目",
+      "score": 0.636,
+      "classification": "review"
+    },
+    {
+      "caseId": "C01",
+      "a": "赫尔辛基虚拟社区项目",
+      "b": "虚拟社区项目",
+      "score": 0.6,
+      "classification": "review"
+    },
+    {
+      "caseId": "C04",
+      "a": "田林街道智慧社区平台",
+      "b": "智慧社区平台",
+      "score": 0.6,
+      "classification": "review"
+    },
+    {
+      "caseId": "C04",
+      "a": "居委会及基层工作人员",
+      "b": "基层工作人员",
+      "score": 0.6,
+      "classification": "review"
+    },
+    {
+      "caseId": "C04",
+      "a": "视频人工智能分析技术",
+      "b": "视频人工智能",
+      "score": 0.6,
+      "classification": "review"
+    },
+    {
+      "caseId": "C10",
+      "a": "smart-home系统",
+      "b": "部分已改造住宅的smart-home系统",
+      "score": 0.579,
+      "classification": "review"
+    },
+    {
+      "caseId": "C07",
+      "a": "项目团队",
+      "b": "项目团队与居民",
+      "score": 0.571,
+      "classification": "review"
+    },
+    {
+      "caseId": "C04",
+      "a": "异常信息给基层工作人员",
+      "b": "基层工作人员",
+      "score": 0.545,
+      "classification": "review"
+    },
+    {
+      "caseId": "C07",
+      "a": "Newham Council",
+      "b": "TMO、Newham Council和Newham.net",
+      "score": 0.5,
+      "classification": "review"
+    },
+    {
+      "caseId": "C01",
+      "a": "Nordic LAN & WAN Communication Oy",
+      "b": "Nordic LAN & WAN",
+      "score": 0.464,
+      "classification": "review"
+    },
+    {
+      "caseId": "C04",
+      "a": "社区治理协作",
+      "b": "前期社区治理协作与设施改善",
+      "score": 0.462,
+      "classification": "review"
+    },
+    {
+      "caseId": "C07",
+      "a": "Newham Council",
+      "b": "Newham",
+      "score": 0.462,
+      "classification": "review"
+    },
+    {
+      "caseId": "C02",
+      "a": "Koivukylä框架规划参与和评价方案OAS",
+      "b": "参与和评价方案OAS",
+      "score": 0.435,
+      "classification": "review"
+    },
+    {
+      "caseId": "C01",
+      "a": "被调查家庭",
+      "b": "已有宽带连接的被调查家庭",
+      "score": 0.417,
+      "classification": "review"
+    },
+    {
+      "caseId": "C09",
+      "a": "长虹路社区的老旧小区条件",
+      "b": "长虹路社区",
+      "score": 0.417,
+      "classification": "review"
+    },
+    {
+      "caseId": "C09",
+      "a": "长虹路社区",
+      "b": "长虹路社区数字化建设重点",
+      "score": 0.417,
+      "classification": "review"
+    },
+    {
+      "caseId": "C04",
+      "a": "田林街道",
+      "b": "田林街道智慧社区平台",
+      "score": 0.4,
+      "classification": "review"
+    },
+    {
+      "caseId": "C02",
+      "a": "万塔市",
+      "b": "万塔市环境委员会",
+      "score": 0.375,
+      "classification": "review"
+    },
+    {
+      "caseId": "C07",
+      "a": "项目团队",
+      "b": "项目团队及独立居民顾问",
+      "score": 0.364,
+      "classification": "review"
+    },
+    {
+      "caseId": "C01",
+      "a": "宽带连接",
+      "b": "已有宽带连接的被调查家庭",
+      "score": 0.333,
+      "classification": "review"
+    },
+    {
+      "caseId": "C02",
+      "a": "万塔市",
+      "b": "万塔市与坦佩雷大学",
+      "score": 0.333,
+      "classification": "review"
+    },
+    {
+      "caseId": "C11",
+      "a": "地下热力管网、锅炉设施和相关区域供热系统",
+      "b": "区域供热系统",
+      "score": 0.316,
+      "classification": "review"
+    },
+    {
+      "caseId": "C09",
+      "a": "3D实景地图、社区基础数据库与行政条口信息",
+      "b": "3D实景地图",
+      "score": 0.3,
+      "classification": "review"
+    },
+    {
+      "caseId": "C09",
+      "a": "网格员",
+      "b": "社区工作人员与网格员",
+      "score": 0.3,
+      "classification": "review"
+    },
+    {
+      "caseId": "C07",
+      "a": "深度节能改造",
+      "b": "James Riley Point深度节能改造",
+      "score": 0.286,
+      "classification": "review"
+    },
+    {
+      "caseId": "C03",
+      "a": "Shaping Slaithwaite公众参与项目",
+      "b": "公众参与项目",
+      "score": 0.25,
+      "classification": "review"
+    },
+    {
+      "caseId": "C01",
+      "a": "Sonera、IBM、Symbian和Digia等企业",
+      "b": "Sonera",
+      "score": 0.24,
+      "classification": "review"
+    },
+    {
+      "caseId": "C07",
+      "a": "居民向规划团队与地方政府提问的渠道",
+      "b": "规划团队",
+      "score": 0.235,
+      "classification": "review"
+    },
+    {
+      "caseId": "C01",
+      "a": "ADC",
+      "b": "ADC与Stadia等主体",
+      "score": 0.231,
+      "classification": "review"
+    },
+    {
+      "caseId": "C07",
+      "a": "TMO、Newham Council和Newham.net",
+      "b": "Newham",
+      "score": 0.231,
+      "classification": "review"
+    },
+    {
+      "caseId": "C11",
+      "a": "区域供热系统",
+      "b": "Aldabe Civic Centre生物质区域供热系统",
+      "score": 0.231,
+      "classification": "review"
+    },
+    {
+      "caseId": "C01",
+      "a": "ADC",
+      "b": "ADC与Forum Virium Helsinki等主体",
+      "score": 0.115,
+      "classification": "review"
+    }
+  ],
+  "crossCaseCandidates": [
+    {
+      "key": "居民",
+      "name": "居民",
+      "variants": [
+        "居民"
+      ],
+      "cases": [
+        "C03",
+        "C06",
+        "C07",
+        "C11"
+      ],
+      "types": [
+        "actor"
+      ],
+      "classification": "generic-keep-local"
+    },
+    {
+      "key": "项目团队",
+      "name": "项目团队",
+      "variants": [
+        "项目团队"
+      ],
+      "cases": [
+        "C03",
+        "C06",
+        "C07"
+      ],
+      "types": [
+        "actor"
+      ],
+      "classification": "generic-keep-local"
+    },
+    {
+      "key": "基层工作人员",
+      "name": "基层工作人员",
+      "variants": [
+        "基层工作人员"
+      ],
+      "cases": [
+        "C04",
+        "C09"
+      ],
+      "types": [
+        "actor"
+      ],
+      "classification": "generic-keep-local"
+    },
+    {
+      "key": "社区居民",
+      "name": "社区居民",
+      "variants": [
+        "社区居民"
+      ],
+      "cases": [
+        "C05",
+        "C06"
+      ],
+      "types": [
+        "actor"
+      ],
+      "classification": "generic-keep-local"
+    },
+    {
+      "key": "smartencity项目",
+      "name": "SmartEnCity项目",
+      "variants": [
+        "SmartEnCity项目"
+      ],
+      "cases": [
+        "C10",
+        "C11"
+      ],
+      "types": [
+        "actor"
+      ],
+      "classification": "specific-review"
+    }
+  ],
+  "traceability": {
+    "relationsWithEvidence": 442,
+    "relationsWithProcess": 290,
+    "relationsWithoutProcess": 152,
+    "relationsWithVerbatimSentence": 290,
+    "reviewRelations": 176,
+    "qEvidence": 400,
+    "qExact": 300,
+    "qCandidate": 100,
+    "materialsWithoutUrl": 62,
+    "mappingStatus": {
+      "全部事实组证据句已在冻结文本逐字定位": 266,
+      "语义候选_尚未完成句级核验": 152,
+      "部分证据句已逐字定位": 24
+    },
+    "statusDistribution": {
+      "implemented": 376,
+      "planned": 32,
+      "disputed": 2,
+      "reported_or_opinion": 28,
+      "unconfirmed": 4
+    }
+  }
+}
