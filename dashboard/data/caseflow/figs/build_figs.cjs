@@ -365,3 +365,278 @@ const fig54 = `<!doctype html><html lang="zh"><head><meta charset="utf-8"/>
 
 fs.writeFileSync(path.join(OUT, "fig5-4.html"), fig54, "utf8");
 console.log("wrote fig5-4.html");
+
+/* ================= 图 5-5 ================= */
+const S5 = [
+  { x: 24, label: "技术方案" },
+  { x: 336, label: "业主决策" },
+  { x: 648, label: "融资安排" },
+  { x: 960, label: "工程实施" },
+  { x: 1272, label: "结果" }
+];
+
+function strip(cells, y) {
+  const out = [];
+  cells.forEach((c, i) => {
+    const x = S5[i].x;
+    out.push(
+      `<g><rect x="${x}" y="${y}" width="210" height="46" rx="5" fill="#fbfaf6" stroke="#e4ded0"/>
+<text x="${x + 105}" y="${y + 21}" text-anchor="middle" font-size="13" font-weight="600" fill="#3a3a34">${esc(c.n)}</text>
+<text x="${x + 105}" y="${y + 37}" text-anchor="middle" font-size="9" fill="#8b8477">${esc(c.t)}</text></g>`
+    );
+    if (i < cells.length - 1) {
+      out.push(`<path d="M ${x + 216} ${y + 23} L ${x + 232} ${y + 23}" stroke="#c9c2b2" stroke-width="1.2" marker-end="url(#ahs)"/>`);
+    }
+  });
+  return out.join("");
+}
+
+function stageBar(cfg, y) {
+  return S5.map(
+    (s, i) =>
+      `<g><rect x="${s.x}" y="${y}" width="210" height="24" rx="12" fill="#f4f2ec" stroke="#ded8c9"/>
+<text x="${s.x + 105}" y="${y + 16}" text-anchor="middle" font-size="11.5" fill="#6a6353" letter-spacing="1.2">${esc(s.label)}</text>
+<text x="${s.x + 11}" y="${y + 16}" font-size="9" fill="#b6ab92">${String(i + 1).padStart(2, "0")}</text></g>`
+  ).join("");
+}
+
+const C10 = {
+  nodes: [
+    { id: "diag", x: 24, y: 96, w: 210, h: 52, type: "action", label: "热成像诊断 22 栋", sub: "窗边/板缝/墙体热损失", ev: "C10-M05-E03" },
+    { id: "plan", x: 24, y: 172, w: 210, h: 52, type: "technology", label: "综合更新方案", sub: "能源 + 数字 + 行为", ev: "C10-G02-Q02" },
+    { id: "assoc", x: 336, y: 96, w: 210, h: 52, type: "actor", label: "业主协会大会", sub: "参与·贷款·设计·施工", ev: "C10-M16-E06" },
+    { id: "join", x: 336, y: 172, w: 210, h: 52, type: "outcome", label: "22 个协会加入", sub: "全部进入设计（2017）", ev: "C10-G06-Q01" },
+    { id: "proc", x: 336, y: 248, w: 210, h: 52, type: "task", label: "加入 ≠ 可施工", sub: "逐栋走完六道程序", ev: "C10-G08-Q02" },
+    { id: "fund", x: 648, y: 96, w: 210, h: 52, type: "context", label: "H2020 + KredEx", sub: "地方支持 + 业主融资", ev: "C10-M16-E05" },
+    { id: "sub", x: 648, y: 172, w: 210, h: 52, type: "outcome", label: "Turu 17 补助", sub: "320,851 欧元", ev: "C10-M08-E04" },
+    { id: "first", x: 960, y: 96, w: 210, h: 52, type: "action", label: "Kalevi 10 首栋", sub: "2018-05 获施工补贴", ev: "C10-G09-Q01" },
+    { id: "b17", x: 960, y: 172, w: 210, h: 52, type: "outcome", label: "17 栋 / 619 套", sub: "2020 夏主体完成", ev: "C10-G11-Q02" },
+    { id: "b18", x: 1272, y: 88, w: 210, h: 52, type: "outcome", label: "18 栋 / 664 套", sub: "终期示范范围", ev: "C10-G14-Q01" },
+    { id: "en", x: 1272, y: 160, w: 210, h: 52, type: "outcome", label: "能源使用 -37%", sub: "18 栋终期实测", ev: "C10-M25-E01" },
+    { id: "smart", x: 1272, y: 232, w: 210, h: 52, type: "outcome", label: "smart-home 调试", sub: "改造后仍在继续", ev: "C10-G11-Q01", pending: true }
+  ],
+  edges: [
+    { from: "diag", to: "plan", mode: "vert", pred: "诊断→方案", ev: "", lx: 52 },
+    { from: "plan", to: "assoc", pred: "提交业主决策", ev: "", pw: 74 },
+    { from: "assoc", to: "join", mode: "vert", pred: "多数表决", ev: "", lx: 40 },
+    { from: "join", to: "b17", fy: 0.5, ty: 0.5, pred: "进入施工", ev: "", ly: -16, lift: 30 },
+    { from: "b17", to: "b18", pred: "补入最后 1 栋", ev: "", ly: -14 },
+    { from: "b18", to: "en", mode: "vert", pred: "建成后监测", ev: "", lx: 46 },
+    { from: "b18", to: "smart", mode: "vert", pred: "设备调试未完", ev: "", lx: 52, pending: true }
+  ]
+};
+
+const C11 = {
+  nodes: [
+    { id: "deep", x: 24, y: 96, w: 210, h: 52, type: "technology", label: "深度能源改造", sub: "外保温 + 供热系统", ev: "C11-G04-Q01" },
+    { id: "dh", x: 24, y: 172, w: 210, h: 52, type: "target", label: "区域供热工程", sub: "地下管网 + 锅炉", ev: "C11-G04-Q01" },
+    { id: "c3", x: 336, y: 96, w: 210, h: 52, type: "outcome", label: "108 共同体 / 1,305 套", sub: "2017-09 仅 3 个加入", ev: "C11-G07-Q02" },
+    { id: "fee", x: 336, y: 172, w: 210, h: 52, type: "action", label: "收费改可选计费", sub: "并延长决策期限", ev: "C11-G10-Q01" },
+    { id: "c144", x: 336, y: 248, w: 210, h: 52, type: "outcome", label: "144 共同体 / 1,873 套", sub: "范围扩大（2017-12）", ev: "C11-G11-Q01" },
+    { id: "plan750", x: 648, y: 96, w: 210, h: 52, type: "context", label: "原计划 750 套", sub: "曾希望扩至 1,313 套", ev: "C11-G03-Q02" },
+    { id: "c312", x: 960, y: 96, w: 210, h: 52, type: "outcome", label: "退出至 312 套", sub: "2019 部分住宅退出", ev: "C11-G13-Q01" },
+    { id: "tender", x: 960, y: 172, w: 210, h: 52, type: "action", label: "供热首招失败", sub: "公共空间占用超限", ev: "C11-G14-Q01" },
+    { id: "ret", x: 960, y: 248, w: 210, h: 52, type: "action", label: "2020 重新授标", sub: "调整实施方案后", ev: "C11-G15-Q01" },
+    { id: "c302", x: 1272, y: 88, w: 210, h: 52, type: "outcome", label: "26 共同体 / 302 套", sub: "最终改造规模", ev: "C11-G16-Q01" },
+    { id: "en", x: 1272, y: 160, w: 210, h: 52, type: "outcome", label: "热能 -50% · 能耗 -36%", sub: "CO₂ -54% · 账单 -15~20%", ev: "C11-G18-Q01" },
+    { id: "dh435", x: 1272, y: 232, w: 210, h: 52, type: "outcome", label: "热网服务 435 套", sub: "含其他用户（2022-06）", ev: "C11-M20-E02" }
+  ],
+  edges: [
+    { from: "deep", to: "dh", mode: "vert", pred: "配套", ev: "", lx: 30 },
+    { from: "c3", to: "fee", mode: "vert", pred: "收费顾虑", ev: "", lx: 44 },
+    { from: "fee", to: "c144", mode: "vert", pred: "调整后加入", ev: "", lx: 48 },
+    { from: "c144", to: "c312", fy: 0.5, ty: 0.5, pred: "部分退出", ev: "", ly: 6, lift: -118 },
+    { from: "c312", to: "c302", pred: "完成改造", ev: "", ly: -12 },
+    { from: "tender", to: "ret", mode: "vert", pred: "重整后授标", ev: "", lx: 50 },
+    { from: "c302", to: "en", mode: "vert", pred: "监测", ev: "", lx: 32 },
+    { from: "c302", to: "dh435", mode: "vert", pred: "供热投运", ev: "", lx: 46 }
+  ]
+};
+
+function panel55(cfg, y0) {
+  const N = {};
+  cfg.nodes.forEach((n) => (N[n.id] = n));
+  const els = [];
+  for (const e of cfg.edges) {
+    const a = N[e.from];
+    const b = N[e.to];
+    let d;
+    if (e.mode === "vert") d = pathVert(a, b);
+    else d = pathFwd(a, b, e.lift);
+    const color = e.pending ? "#a8763f" : "#5a6673";
+    const dash = e.pending ? ' stroke-dasharray="6 5"' : "";
+    els.push(`<path d="${d}" fill="none" stroke="${color}" stroke-width="1.15"${dash} marker-end="url(#${e.pending ? "ahd" : "ahs"})"/>`);
+    if (e.pred) {
+      let lx, ly;
+      if (e.mode === "vert") {
+        lx = a.x + a.w / 2 + (e.lx || 44);
+        ly = (a.y + a.h + b.y) / 2;
+      } else {
+        lx = (a.x + a.w + b.x) / 2;
+        ly = (ry(a, a.fy) + ry(b, b.ty)) / 2 + (e.ly || 0);
+      }
+      els.push(label(lx, ly, e.pred, e.ev, e.pending));
+    }
+  }
+  cfg.nodes.forEach((n) => els.push(box5(n)));
+  return `<g transform="translate(0,${y0})">${els.join("")}</g>`;
+}
+
+function box5(n) {
+  const c = C[n.type] || C.target;
+  const lines = n.label.split("\n");
+  let y = n.y + 16;
+  const t = lines
+    .map((l) => {
+      const s = `<text x="${n.x + n.w / 2}" y="${y}" text-anchor="middle" font-size="12" fill="${c.text}">${esc(l)}</text>`;
+      y += 14;
+      return s;
+    })
+    .join("");
+  const dash = n.pending ? ' stroke-dasharray="5 3"' : "";
+  return `<g><rect x="${n.x}" y="${n.y}" width="${n.w}" height="${n.h}" rx="6" fill="${c.fill}" stroke="${c.stroke}" stroke-width="1.3"${dash}/>${t}
+<text x="${n.x + n.w / 2}" y="${n.y + 36}" text-anchor="middle" font-size="9" fill="${c.stroke}">${esc(n.sub)}</text>
+<text x="${n.x + n.w / 2}" y="${n.y + 47}" text-anchor="middle" font-size="8" fill="#a2988a" font-style="italic">${esc(n.ev)}</text></g>`;
+}
+
+function fig55() {
+  const p1 = 96 + 300;
+  const s1 = p1 + 10;
+  const note1 = s1 + 66;
+  const h2 = note1 + 46;
+  const s2 = h2 + 96 + 300 + 10;
+  const note2 = s2 + 66;
+  const H = note2 + 40;
+  return `<svg width="1520" height="${H}" viewBox="0 0 1520 ${H}" xmlns="http://www.w3.org/2000/svg" font-family="${FONT}">
+<defs><marker id="ahs" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#5a6673"/></marker>
+<marker id="ahd" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#a8763f"/></marker></defs>
+<text x="24" y="26" font-size="14.5" font-weight="600" fill="#2b2b2b">C10　Tartu SmartEnCity（2016–2022 · 私人产权 · 业主协会逐栋决策）</text>
+<g transform="translate(0,34)">${stageBar(C10, 6)}${panel55(C10, 34)}</g>
+${strip([{ n: "43 栋 / 1,779 套", t: "试点区总量" }, { n: "22 个协会", t: "正式加入（2017）" }, { n: "H2020 + KredEx", t: "地方支持 + 业主融资" }, { n: "17 栋", t: "2020 夏主体完成" }, { n: "18 栋 / 664 套", t: "终期示范范围" }], s1)}
+<text x="24" y="${note1}" font-size="9.5" fill="#8b8477">注：参与协会数与竣工栋数不是同一统计口径，不宜直接相除作为"实施转化率"；2018 年另有 21 栋口径。</text>
+<line x1="24" y1="${h2 - 12}" x2="1496" y2="${h2 - 12}" stroke="#e6e1d6"/>
+<text x="24" y="${h2 + 22}" font-size="14.5" font-weight="600" fill="#2b2b2b">C11　Coronación SmartEnCity（2015–2023 · 私人产权 · 业主共同体表决 + 收费规则调整）</text>
+<g transform="translate(0,${h2 + 30})">${stageBar(C11, 6)}${panel55(C11, 34)}</g>
+${strip([{ n: "108 共同体 / 1,305 套", t: "初始纳入范围" }, { n: "3 → 144 共同体", t: "首轮加入 → 扩围" }, { n: "750 → 1,313 套", t: "原计划 → 期望上限" }, { n: "312 套", t: "2019 退出后" }, { n: "26 共同体 / 302 套", t: "最终竣工规模" }], s2)}
+<text x="24" y="${note2}" font-size="9.5" fill="#8b8477">注："3 个共同体"为 2017-09 首轮口径；1,873 套为扩围后峰值；302 套为最终竣工。三个数字对应不同统计对象。</text>
+</svg>`;
+}
+
+const h55 = `<!doctype html><html lang="zh"><head><meta charset="utf-8"/><style>html,body{margin:0;padding:0;background:#fff;}#wrap{width:1520px;}
+.cap{font-family:${SERIF};font-size:12.5px;color:#333;padding:10px 26px 0 26px;line-height:1.7;}.cap b{font-family:${FONT};}</style></head>
+<body><div id="wrap">${fig55()}
+<div class="cap"><b>图 5-5</b>　Tartu 与 Coronación 住宅能源改造实施路径对照。五列为技术方案、业主决策、融资安排、工程实施与结果；节点为原生实体及其关键证据编号，底部色带为各阶段的实施规模。两案的差异集中在中段：<b>C10</b> 的约束是"加入 ≠ 可施工"，<b>C11</b> 的约束是收费规则与招标条件。虚线表示未完成或有争议的状态。</div>
+</div></body></html>`;
+
+fs.writeFileSync(path.join(OUT, "fig5-5.html"), h55, "utf8");
+console.log("wrote fig5-5.html");
+
+/* ================= 图 5-6 ================= */
+const T0 = 2000, T1 = 2024;
+const pct = (y) => ((y - T0) / (T1 - T0)) * 100;
+
+const KIND = {
+  build: { c: "#4f77a0", n: "建设 / 扩展" },
+  org: { c: "#b07b42", n: "运营主体变化" },
+  tech: { c: "#47875f", n: "技术调整" },
+  cond: { c: "#75758a", n: "维护条件" },
+  stat: { c: "#96606f", n: "可确认的服务状态" }
+};
+
+const ROWS_C12 = [
+  ["试点与门户上线", 2000.4, 2001.6, "build", "Eastserve1 · eastserve.com"],
+  ["分阶段入户 · 无线宽带", 2001.6, 2003.6, "build", ""],
+  ["服务扩展与成熟", 2003.6, 2006.6, "build", "5,500 台设备 · 1,500 付费用户"],
+  ["可持续性尝试", 2006.6, 2009.0, "cond", "治理转移"],
+  ["Symera Eastserve Ltd", 2009.1, 2010.9, "org", "2010-11 进入清算"],
+  ["CityServe (999) Ltd", 2010.8, 2013.7, "org", "2011-07 清算 · 2013-08 解散"],
+  ["ITS 收购 · 36Mbps", 2014.0, 2016.6, "tech", "业务被收购，门户仍运营"],
+  ["服务状态", 2017.0, 2023.6, "stat", "未确认", true]
+];
+
+const ROWS_C16 = [
+  ["建设与本地应用", 2011.6, 2013.0, "build", "首节点 · 工作坊 · Tidepools"],
+  ["Sandy 应急通信", 2012.78, 2012.96, "stat", "RHI 成为恢复据点"],
+  ["Digital Stewards", 2013.0, 2015.4, "tech", "本地青年维护"],
+  ["规模扩张", 2015.4, 2017.9, "build", "RISE:NYC · 峰值约 20 站点"],
+  ["关键人员离开", 2016.0, 2017.4, "cond", "Smith 2016 · Schloss 2017"],
+  ["移交 Sky Packets", 2019.0, 2019.9, "org", "月成本约 3,000 美元"],
+  ["收缩", 2020.0, 2023.4, "stat", "约 10 个活跃站点"]
+];
+
+function rowHtml(r) {
+  const [label, s, e, kind, note, dashed] = r;
+  const left = pct(s);
+  const w = Math.max(pct(e) - pct(s), 0.45);
+  const end = left + w;
+  const inside = end > 90;
+  const noteHtml = note
+    ? inside
+      ? `<span class="note in ${dashed ? "onlight" : ""}" style="right:calc(${100 - end}% + 8px)">${esc(note)}</span>`
+      : `<span class="note" style="left:calc(${end}% + 8px)">${esc(note)}</span>`
+    : "";
+  return `<div class="row"><div class="lab">${esc(label)}</div>
+  <div class="track"><span class="bar ${dashed ? "dash" : ""}" style="left:${left}%;width:${w}%;background:${KIND[kind].c}"></span>
+  ${noteHtml}</div></div>`;
+}
+
+function axis() {
+  let ticks = "";
+  for (let y = 2000; y <= 2024; y += 2) {
+    ticks += `<span class="tick" style="left:${pct(y)}%">${y}</span>`;
+  }
+  return `<div class="axis"><div class="lab"></div><div class="track">${ticks}</div></div>`;
+}
+
+function grid() {
+  let g = "";
+  for (let y = 2000; y <= 2024; y += 2) g += `<span class="gl" style="left:${pct(y)}%"></span>`;
+  return `<div class="grid">${g}</div>`;
+}
+
+const h56 = `<!doctype html><html lang="zh"><head><meta charset="utf-8"/><style>
+*{box-sizing:border-box;} html,body{margin:0;padding:0;background:#fff;font-family:${FONT};color:#23262b;}
+#wrap{width:1520px;padding:20px 26px 8px 26px;}
+.hd{display:flex;align-items:baseline;gap:12px;margin:4px 0 8px 0;}
+.hd b{font-size:14.5px;font-weight:600;}
+.hd span{font-size:10.5px;color:#8b8477;}
+.chart{position:relative;margin:0 0 6px 0;}
+.axis,.row{display:flex;align-items:center;height:34px;}
+.axis .lab{width:176px;}
+.track{position:relative;flex:1;height:100%;}
+.tick{position:absolute;top:6px;transform:translateX(-50%);font-size:9.5px;color:#9b9486;}
+.row{border-bottom:1px solid #f4f1e9;}
+.lab{width:176px;font-size:11px;color:#4a4d53;padding-right:10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.bar{position:absolute;top:9px;height:15px;border-radius:3px;opacity:.92;}
+.bar.dash{background:transparent !important;border:1.4px dashed #96606f;}
+.note{position:absolute;top:8px;font-size:9.5px;color:#7b7466;white-space:nowrap;}
+.note.in{color:#ffffff;opacity:.95;}
+.note.in.onlight{color:#96606f;opacity:1;}
+.grid{position:absolute;top:0;bottom:0;left:176px;right:0;pointer-events:none;}
+.gl{position:absolute;top:0;bottom:0;width:1px;background:#f0ece2;}
+.lg{display:flex;gap:16px;align-items:center;padding:12px 0 0 176px;}
+.lg i{width:14px;height:9px;border-radius:2px;display:inline-block;margin-right:5px;vertical-align:middle;}
+.lg span{font-size:10px;color:#6f6858;}
+.cap{font-family:${SERIF};font-size:12.5px;color:#333;padding:12px 0 0 0;line-height:1.7;}
+.cap b{font-family:${FONT};}
+.sep{height:1px;background:#e6e1d6;margin:14px 0 10px 0;}
+</style></head><body><div id="wrap">
+
+<div class="hd"><b>C12　Eastserve（东曼彻斯特，2000–2017）</b><span>社区宽带与数字接入服务 · 关键证据：M19-E01、M23-E01、M20-E01</span></div>
+<div class="chart">${axis()}${grid()}${ROWS_C12.map(rowHtml).join("")}</div>
+
+<div class="sep"></div>
+
+<div class="hd"><b>C16　Red Hook WiFi（布鲁克林红钩，2011–2023）</b><span>社区 mesh 网络与本地信息服务 · 关键证据：M15-E09、M15-E10、M15-E12</span></div>
+<div class="chart">${axis()}${grid()}${ROWS_C16.map(rowHtml).join("")}</div>
+
+<div class="lg">
+  ${Object.values(KIND).map((k) => `<span><i style="background:${k.c}"></i>${k.n}</span>`).join("")}
+  <span><i style="background:transparent;border:1.4px dashed #96606f"></i>未确认 / 待补证</span>
+</div>
+
+<div class="cap"><b>图 5-6</b>　Eastserve 与 Red Hook WiFi 运营主体变化和服务运行过程对照。横轴为时间，纵向按"建设—主体—技术—条件—状态"分层；色块长度表示该状态持续区间。<b>C12</b> 的壳公司清算与业务收购并存，服务是否延续无法从现有材料确认，故以虚线表示；<b>C16</b> 在移交后仍保有月成本、站点数与人员变动记录，收缩可量化。两案时间尺度不同，未做跨案对齐。</div>
+</div></body></html>`;
+
+fs.writeFileSync(path.join(OUT, "fig5-6.html"), h56, "utf8");
+console.log("wrote fig5-6.html");
