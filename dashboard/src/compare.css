@@ -52,8 +52,23 @@
   min-height: 0;
   display: grid;
   grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
-  grid-template-rows: minmax(0, 0.86fr) minmax(0, 1.14fr);
+  grid-template-rows: minmax(220px, 0.62fr) minmax(0, 1.38fr);
+  grid-template-areas:
+    "dist dist"
+    "matrix clusters";
   gap: 10px;
+}
+
+.compare-card--dist {
+  grid-area: dist;
+}
+
+.compare-card--matrix {
+  grid-area: matrix;
+}
+
+.compare-card--clusters {
+  grid-area: clusters;
 }
 
 .compare-card {
@@ -179,6 +194,34 @@
   color: var(--muted);
 }
 
+.compare-dist-empty {
+  flex: 1;
+  min-height: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  padding: 16px 18px;
+  border: 1px dashed var(--line-strong);
+  border-radius: 8px;
+  background: #fbf8f1;
+}
+
+.compare-dist-empty strong {
+  font-family: var(--serif);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.compare-dist-empty p {
+  max-width: 46ch;
+  margin: 0;
+  font-size: var(--text-sm);
+  line-height: 1.7;
+  color: var(--muted);
+}
+
 .compare-type-legend {
   flex: none;
   display: flex;
@@ -207,56 +250,6 @@
 .compare-type-legend em {
   font-style: normal;
   color: var(--ink-2);
-}
-
-/* Statistics */
-.compare-stat-grid {
-  flex: 1;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--line);
-  overflow: hidden;
-}
-
-.compare-stat-grid > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 2px;
-  padding: 9px 11px;
-  background: #fdfaf3;
-}
-
-.compare-stat-grid strong {
-  font-family: var(--serif);
-  font-size: var(--text-3xl);
-  font-weight: 600;
-  line-height: 1;
-}
-
-.compare-stat-grid span {
-  font-family: var(--mono);
-  font-size: var(--text-2xs);
-  color: var(--muted);
-  letter-spacing: 0.04em;
-}
-
-.compare-stat-foot {
-  flex: none;
-  display: flex;
-  justify-content: space-between;
-  gap: 8px;
-  margin-top: 10px;
-  font-family: var(--mono);
-  font-size: var(--text-xs);
-  color: var(--muted);
-}
-
-.compare-stat-foot strong {
-  color: var(--ink);
 }
 
 /* Jaccard matrix */
@@ -769,8 +762,11 @@
 @media (max-width: 900px) {
   .compare-grid {
     grid-template-columns: minmax(0, 1fr);
-    grid-template-rows: none;
-    grid-auto-rows: minmax(210px, auto);
+    grid-template-rows: minmax(260px, auto) minmax(230px, auto) minmax(230px, auto);
+    grid-template-areas:
+      "dist"
+      "matrix"
+      "clusters";
     overflow-y: auto;
   }
 }
@@ -796,10 +792,6 @@
 
   .compare-dist-row {
     grid-template-columns: 112px minmax(0, 1fr) 26px;
-  }
-
-  .compare-stat-grid strong {
-    font-size: var(--text-2xl);
   }
 
   .compare-matrix-wrap {

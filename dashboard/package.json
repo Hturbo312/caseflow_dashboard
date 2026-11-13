@@ -9,6 +9,8 @@
     "dev:api": "tsx watch server/index.ts",
     "dev:web": "vite",
     "seed": "tsx server/seed-cli.ts",
+    "parse:caseflow": "python scripts/parse_caseflow.py",
+    "import:caseflow": "tsx server/import-caseflow.ts",
     "build": "tsc --noEmit && vite build",
     "start": "tsx server/index.ts"
   },

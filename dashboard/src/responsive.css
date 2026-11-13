@@ -319,26 +319,8 @@
     font-size: var(--text-md);
   }
 
-  .version-detail-head .eyebrow,
-  .version-stats {
+  .version-detail-head .eyebrow {
     display: none;
-  }
-
-  .version-summary {
-    margin: 2px 0 3px;
-    font-size: var(--text-xs);
-    line-height: 1.4;
-  }
-
-  .change-row {
-    gap: 4px;
-    min-height: 14px;
-    font-size: var(--text-xs);
-  }
-
-  .change-badge {
-    padding: 0 3px;
-    font-size: var(--text-2xs);
   }
 
   .version-more {

@@ -1,0 +1,57 @@
+{
+  "packetId": "L2-C01-C11-shared-v0.2",
+  "status": "candidate_pending_researcher",
+  "sharedConcepts": [
+    {"id":"SC-C01-101","label":"建成环境老化与更新约束","definition":"既有建筑、公共空间、设施老化和环境质量不足构成本轮更新的物质条件。","entityType":"context","scope":"用于解释更新必要性的建成环境条件。","negativeExamples":["单纯的建设目标"],"matchTerms":["建筑老化","热损失","能效不足","公共设施老化","基础设施改善","围护结构","既有住区","环境问题"]},
+    {"id":"SC-C01-102","label":"规划制度与产权治理约束","definition":"规划程序、产权结构、业主决策和审批规则限制或塑造更新方案。","entityType":"context","scope":"规划、产权、审批与正式决策条件。","negativeExamples":["未进入正式程序的愿景"],"matchTerms":["规划制度","产权","业主共同体","审批","决策程序","原有规划条件","招标","正式决策"]},
+    {"id":"SC-C01-103","label":"社会经济差异与参与排斥","definition":"居民经济能力、数字接入、社会分异或信息差异影响参与和受益。","entityType":"context","scope":"社会经济与参与能力差异。","negativeExamples":["普通人口统计"],"matchTerms":["数字排斥","经济脆弱","低收入","社会分异","弱势居民","参与障碍","费用负担","家庭互联网"]},
+    {"id":"SC-C01-104","label":"资源成本与运维条件约束","definition":"资金、人员、通信、维护和推广成本限制更新方案及服务持续运行。","entityType":"context","scope":"项目资源和长期运维条件。","negativeExamples":["没有资源或运维证据的一般困难"],"matchTerms":["资源限制","成本","维护","通信费用","推广不足","资金","负担","运维","人员"]},
+
+    {"id":"SC-C01-111","label":"地方政府与规划治理主体","definition":"市政府、区级机构、委员会或规划部门承担组织、审批和制度供给。","entityType":"actor","scope":"公共部门及其正式治理角色。","negativeExamples":["居民个人"],"matchTerms":["市政府","区政府","街道","委员会","规划机构","政府","Council"]},
+    {"id":"SC-C01-112","label":"专业研究和服务机构","definition":"大学、研究团队、工程机构或技术服务方提供研究、设计与专业支持。","entityType":"actor","scope":"专业、研究和技术服务角色。","negativeExamples":["普通居民"],"matchTerms":["大学","研究","技术团队","专业机构","工程","咨询","技术服务","项目组织方"]},
+    {"id":"SC-C01-113","label":"社区居民与家庭","definition":"居民、家庭和参与者是社区问题的经历者和更新活动的参与者。","entityType":"actor","scope":"社区居民、家庭和活动参与者。","negativeExamples":["组织法人"],"matchTerms":["居民","家庭","社区居民","参与者","业主"]},
+    {"id":"SC-C01-114","label":"地方组织与运营主体","definition":"社区组织、企业、物业、协会或住房组织承担联络、运营和共同治理。","entityType":"actor","scope":"组织化的地方行动和运营主体。","negativeExamples":["未组织化的个体意见"],"matchTerms":["社区组织","地方组织","物业","企业","协会","股东","公司","协作网络","委员会"]},
+
+    {"id":"SC-C01-121","label":"社区问题与需求识别","definition":"识别居民生活、空间、服务和治理中的问题与需求。","entityType":"task","scope":"问题调查、需求识别和风险分析。","negativeExamples":["已经实施的处置结果"],"matchTerms":["问题","需求","诊断","风险","负担","核验","摸排","调研","识别"]},
+    {"id":"SC-C01-122","label":"规划设计与实施准备","definition":"形成规划方案、工程设计、审批材料和实施安排。","entityType":"task","scope":"规划、设计和项目准备。","negativeExamples":["已完成建设"],"matchTerms":["规划","方案","设计","审批","招标","立项","准备","可行性","决策"]},
+    {"id":"SC-C01-123","label":"数字平台与数据治理任务","definition":"建设和整合平台、数据、档案、系统及跨部门信息流程。","entityType":"task","scope":"数字治理和数据协同任务。","negativeExamples":["线下一般沟通"],"matchTerms":["数字","平台","数据","系统","信息整合","档案","跨部门","网格","行政数据"]},
+    {"id":"SC-C01-124","label":"安全身份与隐私管理","definition":"处理门禁、身份核验、安全监测、隐私保护和应急管理要求。","entityType":"task","scope":"安全、身份和隐私相关任务。","negativeExamples":["一般空间更新"],"matchTerms":["安全","身份","隐私","门禁","人脸识别","应急","监控","保护"]},
+    {"id":"SC-C01-125","label":"能源改造与业主协同准备","definition":"为建筑节能、区域供热和业主共同决策开展设计与融资准备。","entityType":"task","scope":"能源改造和产权协同任务。","negativeExamples":["普通室内装修"],"matchTerms":["能源","节能","供热","改造","业主","补助","贷款","费用","建筑围护"]},
+
+    {"id":"SC-C01-131","label":"数字参与与可视化工具","definition":"支持意见提交、空间表达、参与讨论和愿景可视化的数字或实体工具。","entityType":"technology","scope":"用于参与过程的工具与媒介。","negativeExamples":["仅用于内部管理"],"matchTerms":["参与","意见","愿景","GIS","模型","可视化","工作坊","门户","图像"]},
+    {"id":"SC-C01-132","label":"社区治理与行政平台","definition":"整合社区信息、任务、工单、视频和行政数据的综合平台。","entityType":"technology","scope":"社区治理和行政业务平台。","negativeExamples":["单一设备"],"matchTerms":["治理","平台","指挥中心","工单","行政","社区信息","数据管理","数表通"]},
+    {"id":"SC-C01-133","label":"传感监测与异常识别设备","definition":"利用传感器、摄像头、视频分析或物联网识别环境状态和异常事件。","entityType":"technology","scope":"感知、监测和异常识别技术。","negativeExamples":["无使用证据的设备设想"],"matchTerms":["传感","监控","摄像","视频","识别","监测","物联网","门禁","环境数据","温湿度"]},
+    {"id":"SC-C01-134","label":"通信与公共数字基础设施","definition":"提供宽带、光纤、公共网络、API 和基础数据接入能力。","entityType":"technology","scope":"共享通信和数字基础设施。","negativeExamples":["单个终端应用"],"matchTerms":["宽带","光纤","网络","Wi-Fi","通信","基础设施","API","机顶盒","公共数字"]},
+    {"id":"SC-C01-135","label":"住宅能源与智能系统","definition":"用于住宅能效、供热、智能设备和运行管理的技术系统。","entityType":"technology","scope":"建筑能源和智慧住宅系统。","negativeExamples":["普通软件工具"],"matchTerms":["能源","供热","smart-home","智慧住宅","保温","节能","智能系统","采暖"]},
+
+    {"id":"SC-C01-141","label":"参与表达与意见采集能力","definition":"让居民表达意见、提交空间信息、提问或参与愿景讨论的能力。","entityType":"capability","scope":"居民表达和意见采集能力。","negativeExamples":["单向公告"],"matchTerms":["意见","表达","输入","互动","参与","愿景","咨询","提问","空间意见"]},
+    {"id":"SC-C01-142","label":"数据监测与环境诊断能力","definition":"采集、查看和解释环境状态、设备数据或异常线索的能力。","entityType":"capability","scope":"监测、诊断和数据解释能力。","negativeExamples":["只有数据存储"],"matchTerms":["监测","识别","诊断","感知","分析","异常","数据查看","数据记录","温湿度"]},
+    {"id":"SC-C01-143","label":"信息服务与空间分析能力","definition":"提供信息查询、地图定位、空间分析、互联网和邮件等信息服务。","entityType":"capability","scope":"信息服务和空间分析能力。","negativeExamples":["人工口头通知"],"matchTerms":["信息","服务","地图","空间","定位","查询","门户","互联网","电子邮件","视频点播"]},
+    {"id":"SC-C01-144","label":"协同处置与任务流转能力","definition":"把事件、诉求或数据转化为跨主体任务并支持核查与处置。","entityType":"capability","scope":"协同、任务流转和事件处理能力。","negativeExamples":["单一人员手工记录"],"matchTerms":["协同","任务","工单","流转","整合","管理","处置","派单","跨部门"]},
+    {"id":"SC-C01-145","label":"能源与设施服务能力","definition":"提供供热、热水、网络或其他公共设施服务的能力。","entityType":"capability","scope":"住宅能源和公共设施服务能力。","negativeExamples":["设备采购清单"],"matchTerms":["采暖","热水","能源","设施服务","网络接入","运营商服务","光纤服务"]},
+
+    {"id":"SC-C01-151","label":"社区参与与意见收集","definition":"组织居民参与活动并收集其生活问题、空间意见和服务需求。","entityType":"action","scope":"参与活动和意见收集行动。","negativeExamples":["内部行政会议"],"matchTerms":["参与","意见","访谈","问卷","工作坊","交流","座谈","论坛","需求调查"]},
+    {"id":"SC-C01-152","label":"方案共制与居民协商决策","definition":"居民和利益相关者共同讨论、协商或决定更新方案及参与条件。","entityType":"action","scope":"方案共制和共同决策行动。","negativeExamples":["单向信息发布"],"matchTerms":["共设计","协商","共同","决策","投票","业主","讨论方案","方案选择"]},
+    {"id":"SC-C01-153","label":"数字平台开发与内容生产","definition":"开发平台、门户、系统或数字内容，并形成可使用的数字服务。","entityType":"action","scope":"数字产品开发和内容生产。","negativeExamples":["没有开发或生产证据"],"matchTerms":["平台开发","门户","内容生产","系统开发","数字","软件","重新开发","数字内容","平台建设"]},
+    {"id":"SC-C01-154","label":"数字服务运营与迭代","definition":"持续运营平台、服务或设备，并根据问题升级、维护和调整。","entityType":"action","scope":"上线后的运营、维护和迭代。","negativeExamples":["一次性部署"],"matchTerms":["服务运营","持续运营","维护","升级","版本","运行","迭代"]},
+    {"id":"SC-C01-155","label":"跨组织协作与信息协调","definition":"政府、组织、企业、专业人员和居民之间开展协作、会议和联络。","entityType":"action","scope":"跨组织协调和联络行动。","negativeExamples":["单一组织内部事务"],"matchTerms":["协作","协调","合作","会议","联络","联合","组织工作","沟通"]},
+    {"id":"SC-C01-156","label":"问题核查与闭环处置","definition":"对异常、诉求或事件进行核查、派单、整改、复查和结案。","entityType":"action","scope":"问题核查和闭环处理行动。","negativeExamples":["未经核实即结案"],"matchTerms":["核查","处置","整改","派单","工单","结案","调查","现场处理","核实"]},
+    {"id":"SC-C01-157","label":"空间设施施工与实体更新","definition":"实施建筑、道路、管线、公共空间、设备安装或环境修缮工程。","entityType":"action","scope":"实体空间和设施更新施工。","negativeExamples":["仅规划愿景"],"matchTerms":["改造","施工","修缮","建设","安装","部署","恢复","更新","工程","设备布设"]},
+    {"id":"SC-C01-158","label":"技术试验与能力建设","definition":"开展试点、测试、试验、培训或使用工具能力建设。","entityType":"action","scope":"技术试验和人员能力建设。","negativeExamples":["没有试点或培训证据"],"matchTerms":["试点","测试","试验","培训","能力建设","示范","手册","工作坊测试"]},
+    {"id":"SC-C01-159","label":"监测评估与反馈调整","definition":"监测运行效果，收集使用反馈并调整方案、服务或项目范围。","entityType":"action","scope":"监测、评价和反馈调整行动。","negativeExamples":["只有结果宣传"],"matchTerms":["监测","评估","绩效","反馈","调整","验证","跟踪","复查"]},
+
+    {"id":"SC-C01-161","label":"住区空间建筑与基础设施","definition":"住宅、街巷、公共空间、停车、道路、管线及围护结构等实体载体。","entityType":"target","scope":"实体空间和设施作用对象。","negativeExamples":["规划文本"],"matchTerms":["住宅","建筑","街巷","停车","公共空间","道路","管线","河道","围护","设施","水岸"]},
+    {"id":"SC-C01-162","label":"规划方案与项目文件","definition":"规划、方案、说明书、规则、审批材料及参与程序文件。","entityType":"target","scope":"规划和项目文件对象。","negativeExamples":["实体建筑"],"matchTerms":["规划","方案","计划","说明书","文件","材料","规则","程序","清单","方案信息"]},
+    {"id":"SC-C01-163","label":"居民意见与参与内容","definition":"居民提交的意见、建议、评论、期待和讨论内容。","entityType":"target","scope":"参与表达形成的语义对象。","negativeExamples":["设备数据"],"matchTerms":["意见","评论","想法","期待","建议","诉求","叙事","问卷","参与内容"]},
+    {"id":"SC-C01-164","label":"数据图像与运行记录","definition":"监测数据、图像、状态、工单、档案和运行记录。","entityType":"target","scope":"数据类和记录类作用对象。","negativeExamples":["规划愿景"],"matchTerms":["数据","图像","记录","状态","线索","工单","监控","档案","运行信息"]},
+    {"id":"SC-C01-165","label":"产权组织与参与范围","definition":"业主共同体、产权人、参与住宅范围和收费安排。","entityType":"target","scope":"产权和参与边界对象。","negativeExamples":["普通居民意见"],"matchTerms":["业主共同体","产权","共同","参与范围","住宅范围","收费标准","股东","土地承租人"]},
+    {"id":"SC-C01-166","label":"设备服务与异常事件对象","definition":"设备、系统、平台服务、异常事件及其处置状态。","entityType":"target","scope":"技术服务和事件对象。","negativeExamples":["规划文本"],"matchTerms":["设备","系统","平台","服务","异常","事件","传感器","门禁","智能回收","智能车棚"]},
+
+    {"id":"SC-C01-171","label":"实体环境与能源改造成效","definition":"空间、建筑、设施或能源系统完成更新并形成可观察状态变化。","entityType":"outcome","scope":"实体和能源结果。","negativeExamples":["只有施工计划"],"matchTerms":["空间更新","设施","建筑","改造","竣工","能耗","减排","账单","供热方式","工程成果"]},
+    {"id":"SC-C01-172","label":"数字服务与平台运行成果","definition":"数字平台、系统、工单或服务上线并进入实际运行。","entityType":"outcome","scope":"数字产品和服务运行结果。","negativeExamples":["仅有采购"],"matchTerms":["平台运行","上线","系统运行","服务运行","工单","版本","覆盖","数字服务","项目立项"]},
+    {"id":"SC-C01-173","label":"参与表达与规划共制成果","definition":"形成居民意见、建议方案、规划材料或参与活动产出。","entityType":"outcome","scope":"参与和规划成果。","negativeExamples":["未记录任何参与产出"],"matchTerms":["意见","建议方案","规划说明书","规划图","参与","回应","报名","路线图","社区规划"]},
+    {"id":"SC-C01-174","label":"治理决策与制度进展","definition":"形成正式决定、审批、授标、政策讨论或项目阶段进展。","entityType":"outcome","scope":"制度决策和程序进展。","negativeExamples":["普通活动记录"],"matchTerms":["决定","审批","授标","立项","纳入","政策","程序","阶段","项目管理期"]},
+    {"id":"SC-C01-175","label":"实施风险与负面结果","definition":"出现延迟、退回、退出、服务终止、运行问题或未实现预期。","entityType":"outcome","scope":"风险和负面实施结果。","negativeExamples":["成功结果"],"matchTerms":["延迟","退回","未能","限制","问题","负担","终止","退出","不足","争议","下降"]},
+    {"id":"SC-C01-176","label":"组织能力与可复制成果","definition":"形成组织基础、协作能力、开放资源、方法经验和可复制成果。","entityType":"outcome","scope":"组织能力和可复制产出。","negativeExamples":["单次活动"],"matchTerms":["基础","能力","开放资源","方法","复制","经验","协作网络","条件","渠道"]}
+  ]
+}

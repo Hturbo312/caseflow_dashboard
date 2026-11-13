@@ -49,6 +49,7 @@ export default function App() {
   const [selectedCaseIds, setSelectedCaseIds] = useState<string[]>([]);
   const [railCollapsed, setRailCollapsed] = useState(false);
   const [pathMode, setPathMode] = useState(false);
+  const [showCases, setShowCases] = useState(true);
   const [compareMode, setCompareMode] = useState(false);
   const [archiveOpen, setArchiveOpen] = useState(false);
   const [pathStart, setPathStart] = useState<string | null>(null);
@@ -60,7 +61,7 @@ export default function App() {
   );
   const [entityDetail, setEntityDetail] = useState<EntityDetail | null>(null);
   const [entityLoading, setEntityLoading] = useState(false);
-  const [selectedVersionId, setSelectedVersionId] = useState("v0.1");
+  const [selectedVersionId, setSelectedVersionId] = useState("v4");
   const [focusNodeId, setFocusNodeId] = useState<string | null>(null);
 
   const [drawerCaseId, setDrawerCaseId] = useState<string | null>(null);
@@ -120,8 +121,13 @@ export default function App() {
     }
     return {
       cases: graph.nodes.filter((node) => node.type === "case").length,
-      entities: graph.nodes.filter((node) => node.type !== "case").length,
-      relations: graph.links.filter((link) => link.type !== "涉及").length
+      entities: graph.nodes.filter(
+        (node) =>
+          node.type !== "case" && (node.layer ?? "entity") === "entity"
+      ).length,
+      relations: graph.links.filter(
+        (link) => (link.layer ?? "relation") === "relation"
+      ).length
     };
   }, [graph]);
 
@@ -268,6 +274,13 @@ export default function App() {
         openCase(node.caseIds[0]);
         return;
       }
+      if (node.layer === "shared_concept") {
+        setSelectedEntityId(node.id);
+        setEntityDetail(null);
+        setEntityLoading(false);
+        setFocusNodeId(node.id);
+        return;
+      }
       void selectEntity(node.id);
     },
     [pathMode, pathStart, path, graph, openCase, selectEntity]
@@ -364,9 +377,6 @@ export default function App() {
     );
   }
 
-  const selectedVersion =
-    bootstrap.ontology.find((item) => item.id === selectedVersionId) ??
-    bootstrap.ontology[bootstrap.ontology.length - 1];
   const pathNodes = path?.nodeIds ?? [];
 
   return (
@@ -433,7 +443,6 @@ export default function App() {
           {compareMode ? (
             <CompareView
               cases={caseNodes}
-              graph={graph ?? { nodes: [], links: [] }}
               comparison={bootstrap.comparison}
               onOpenCase={openCase}
               onOpenArchive={() => setArchiveOpen(true)}
@@ -443,6 +452,7 @@ export default function App() {
           <div className={`graph-stage${pathMode ? " is-path-mode" : ""}`}>
             <GraphView
               graph={graph ?? { nodes: [], links: [] }}
+              showCases={showCases}
               selectedEntityId={selectedEntityId}
               pathNodeIds={pathNodes}
               pathLinkIds={path?.linkIds ?? []}
@@ -462,7 +472,7 @@ export default function App() {
               <p>
                 {selectedCaseIds.length
                   ? `${selectedCaseIds.length} 个案例 · 实体与关系`
-                  : "全局视图 · 八类实体 / 原生概念 / 证据"}
+                  : "全局视图 · 八类实体 / 原生概念 / 共享概念"}
               </p>
             </div>
             {railCollapsed ? (
@@ -543,7 +553,7 @@ export default function App() {
             </div>
             <div className="graph-version-stamp">
               <SparkIcon size={11} />
-              索引 {selectedVersion?.version} · {bootstrap.meta.relationCount} 条关系
+              {bootstrap.meta.relationCount} 条关系 · C01–C11
             </div>
           </div>
 
@@ -555,6 +565,8 @@ export default function App() {
               ontology={bootstrap.ontology}
               selectedVersionId={selectedVersionId}
               graph={bootstrap.graph}
+              showCases={showCases}
+              onToggleCases={() => setShowCases((value) => !value)}
               onVersionChange={setSelectedVersionId}
               onClearEntity={clearEntity}
               onOpenCase={openCase}

@@ -146,7 +146,7 @@ export function SearchBox({
           onFocus={() => setOpen(true)}
           onKeyDown={onKeyDown}
           placeholder="检索案例、实体或证据"
-          aria-label="向量检索"
+          aria-label="本地特征向量检索"
           role="combobox"
           aria-expanded={showPanel}
           aria-controls="search-results"
@@ -174,19 +174,19 @@ export function SearchBox({
         <div className="search-panel" id="search-results">
           <div className="search-panel-head">
             <div>
-              <span className="eyebrow">混合检索</span>
-              <strong>{query ? "检索结果" : "语义检索"}</strong>
+              <span className="eyebrow">词面与局部特征检索</span>
+              <strong>{query ? "检索结果" : "本地特征检索"}</strong>
             </div>
             <span className="vector-badge">
               <SparkIcon size={11} />
-              本地向量检索
+              本地特征向量
             </span>
           </div>
 
           {!query && (
             <div className="search-suggest">
               <p>
-                在案例重建、实体定义、材料与证据中做向量检索。试试：
+                在案例重建、实体定义、材料与证据中做字符特征向量检索。试试：
               </p>
               <div className="suggestion-chips">
                 {SUGGESTIONS.map((suggestion) => (
@@ -204,7 +204,7 @@ export function SearchBox({
               </div>
               <div className="search-note">
                 <span className="status-dot" />
-                本地索引 · 不离开本机
+                本地 n-gram 索引 · 不离开本机
               </div>
             </div>
           )}

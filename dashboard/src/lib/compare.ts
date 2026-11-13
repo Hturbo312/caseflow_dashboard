@@ -1,6 +1,6 @@
 import type { CaseSummary, ComparisonData } from "../../shared/types";
 
-export type SimilarityBasis = "shared" | "none";
+export type SimilarityBasis = "confirmed" | "candidate" | "none";
 
 export interface CaseProfile {
   caseId: string;
@@ -25,26 +25,53 @@ export interface CaseCluster {
   mean: number | null;
 }
 
+const CONFIRMED_REVIEW_STATES = new Set([
+  "accepted",
+  "approved",
+  "confirmed",
+  "frozen",
+  "researcher_confirmed"
+]);
+
+function isConfirmed(value: string): boolean {
+  return CONFIRMED_REVIEW_STATES.has(
+    value.trim().toLowerCase().replace(/[\s-]+/g, "_")
+  );
+}
+
 export function buildProfiles(
   cases: CaseSummary[],
   data: ComparisonData
 ): CaseProfiles {
   const caseIds = new Set(cases.map((item) => item.id));
-  const shared = data.sharedConcepts.filter((item) =>
+  const sharedCandidates = data.sharedConcepts.filter((item) =>
     item.supportingCaseIds.some((id) => caseIds.has(id))
   );
-  const mappings = data.conceptMappings.filter(
+  const mappingCandidates = data.conceptMappings.filter(
     (item) => caseIds.has(item.caseId) && Boolean(item.sharedConceptId)
   );
+  const confirmedShared = sharedCandidates.filter((item) =>
+    isConfirmed(item.review)
+  );
+  const confirmedMappings = mappingCandidates.filter((item) =>
+    isConfirmed(item.decision)
+  );
   const basis: SimilarityBasis =
-    shared.length > 0 || mappings.length > 0 ? "shared" : "none";
+    confirmedShared.length > 0 || confirmedMappings.length > 0
+      ? "confirmed"
+      : sharedCandidates.length > 0 || mappingCandidates.length > 0
+        ? "candidate"
+        : "none";
+  const shared = basis === "confirmed" ? confirmedShared : sharedCandidates;
+  const mappings =
+    basis === "confirmed" ? confirmedMappings : mappingCandidates;
 
   const profiles = new Map<string, CaseProfile>();
   for (const item of cases) {
     profiles.set(item.id, { caseId: item.id, set: new Set() });
   }
 
-  if (basis === "shared") {
+  if (basis !== "none") {
     for (const concept of shared) {
       for (const caseId of concept.supportingCaseIds) {
         profiles.get(caseId)?.set.add(concept.id);
@@ -78,7 +105,8 @@ export function similarityMatrix(
     const rowCells: Array<number | null> = [];
     for (const column of cases) {
       if (row.id === column.id) {
-        rowCells.push(profiles.basis === "none" ? null : 1);
+        const size = profiles.profiles.get(row.id)?.set.size ?? 0;
+        rowCells.push(size > 0 ? 1 : null);
         continue;
       }
       const value = jaccard(

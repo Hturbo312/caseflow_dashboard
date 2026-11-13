@@ -2,25 +2,32 @@ import { useMemo, useState } from "react";
 import type {
   CaseSummary,
   ComparisonData,
-  GraphData
+  CoreEntityType
 } from "../../shared/types";
 import { ENTITY_TYPES, TYPE_META } from "../../shared/meta";
 import { shortCaseName } from "../lib/graph";
 import {
   buildProfiles,
   clusterCases,
-  entityDistributionByCase,
-  similarityMatrix,
-  totalsByType
+  similarityMatrix
 } from "../lib/compare";
 import { ArchiveIcon, ChevronRightIcon } from "./Icons";
 
 const THRESHOLDS = [0.15, 0.25, 0.35];
 
+type SharedBucket = CoreEntityType | "other";
+
+const SHARED_BUCKETS: SharedBucket[] = [...ENTITY_TYPES, "other"];
+
+const bucketMeta = (bucket: SharedBucket) =>
+  bucket === "other"
+    ? { label: "未分类", color: "#9a9384" }
+    : TYPE_META[bucket];
+
 const BASIS_LABEL = {
-  shared: "共享概念",
-  native: "原生概念",
-  none: "暂无概念"
+  confirmed: "已审核共享概念",
+  candidate: "共享概念候选",
+  none: "暂无共享概念候选"
 } as const;
 
 function cellTint(value: number | null, diagonal: boolean) {
@@ -35,13 +42,11 @@ function cellTint(value: number | null, diagonal: boolean) {
 
 export function CompareView({
   cases,
-  graph,
   comparison,
   onOpenCase,
   onOpenArchive
 }: {
   cases: CaseSummary[];
-  graph: GraphData;
   comparison: ComparisonData;
   onOpenCase: (caseId: string) => void;
   onOpenArchive: () => void;
@@ -60,31 +65,55 @@ export function CompareView({
     () => clusterCases(cases, matrix, threshold),
     [cases, matrix, threshold]
   );
-  const distribution = useMemo(
-    () => entityDistributionByCase(graph, cases),
-    [graph, cases]
+  const sharedConceptMap = useMemo(
+    () =>
+      new Map(
+        comparison.sharedConcepts.map((concept) => [concept.id, concept])
+      ),
+    [comparison.sharedConcepts]
   );
-  const totals = useMemo(() => totalsByType(distribution), [distribution]);
+  const sharedRows = useMemo(
+    () =>
+      cases.map((item) => {
+        const ids = [
+          ...(profiles.profiles.get(item.id)?.set ?? new Set<string>())
+        ];
+        const counts = new Map<SharedBucket, number>();
+        for (const id of ids) {
+          const concept = sharedConceptMap.get(id);
+          const bucket: SharedBucket = concept?.entityType ?? "other";
+          counts.set(bucket, (counts.get(bucket) ?? 0) + 1);
+        }
+        return {
+          item,
+          total: ids.length,
+          counts,
+          labels: ids.map((id) => sharedConceptMap.get(id)?.label ?? id)
+        };
+      }),
+    [cases, profiles, sharedConceptMap]
+  );
+  const sharedTotals = useMemo(() => {
+    const totals = new Map<SharedBucket, number>();
+    for (const row of sharedRows) {
+      for (const [bucket, count] of row.counts) {
+        totals.set(bucket, (totals.get(bucket) ?? 0) + count);
+      }
+    }
+    return totals;
+  }, [sharedRows]);
 
-  const caseIds = useMemo(() => new Set(cases.map((item) => item.id)), [cases]);
-  const nativeCount = comparison.nativeConcepts.filter((concept) =>
-    caseIds.has(concept.caseId)
-  ).length;
-  const sharedCount = comparison.sharedConcepts.filter((concept) =>
-    concept.supportingCaseIds.some((id) => caseIds.has(id))
-  ).length;
-  const entityTotal = ENTITY_TYPES.reduce((sum, type) => sum + totals[type], 0);
-  const evidenceTotal = cases.reduce(
-    (sum, item) => sum + (item.evidenceCount || 0),
+  const nativeCount = cases.reduce(
+    (total, item) => total + item.entityCount,
     0
   );
-  const materialTotal = cases.reduce(
-    (sum, item) => sum + (item.materialCount || 0),
-    0
-  );
-  const meanLabel =
-    matrix.mean === null ? "—" : matrix.mean.toFixed(2);
-
+  const sharedCount = useMemo(() => {
+    const ids = new Set<string>();
+    for (const profile of profiles.profiles.values()) {
+      for (const id of profile.set) ids.add(id);
+    }
+    return ids.size;
+  }, [profiles]);
   return (
     <section className="compare-stage" aria-label="比较辅助工作台">
       <header className="compare-head">
@@ -102,106 +131,90 @@ export function CompareView({
       <div className="compare-grid">
         <section className="compare-card compare-card--dist">
           <header className="compare-card-head">
-            <h3>概念分布</h3>
-            <span>每案例实体构成 · 原生 {nativeCount} / 共享 {sharedCount}</span>
+            <h3>
+              {matrix.basis === "confirmed"
+                ? "已审核共享概念分布"
+                : "共享概念候选分布"}
+            </h3>
+            <span>
+              共享概念 {sharedCount} · 原生实体 {nativeCount}
+            </span>
           </header>
           <div className="compare-dist-list">
-            {cases.map((item) => {
-              const counts = distribution.get(item.id);
-              const total = counts
-                ? ENTITY_TYPES.reduce((sum, type) => sum + counts[type], 0)
-                : 0;
-              return (
-                <div className="compare-dist-row" key={item.id}>
-                  <button
-                    type="button"
-                    className="compare-dist-case"
-                    onClick={() => onOpenCase(item.id)}
-                    title={item.name}
-                  >
-                    <span className="compare-case-code">
-                      {item.code.replace(/^C/, "")}
-                    </span>
-                    <span className="compare-case-name">
-                      {shortCaseName(item.name)}
-                    </span>
-                  </button>
-                  <div
-                    className={`compare-dist-bar${total === 0 ? " is-empty" : ""}`}
-                    role="img"
-                    aria-label={`${item.name} 实体构成，共 ${total} 个`}
-                  >
-                    {total > 0 &&
-                      ENTITY_TYPES.map((type) => {
-                        const count = counts?.[type] ?? 0;
-                        if (!count) return null;
-                        return (
-                          <i
-                            key={type}
-                            style={{
-                              flexGrow: count,
-                              background: TYPE_META[type].color
-                            }}
-                            title={`${TYPE_META[type].label} ${count}`}
-                          />
-                        );
-                      })}
-                  </div>
-                  <span className="compare-dist-total">{total}</span>
+            {sharedRows.map((row) => (
+              <div className="compare-dist-row" key={row.item.id}>
+                <button
+                  type="button"
+                  className="compare-dist-case"
+                  onClick={() => onOpenCase(row.item.id)}
+                  title={row.item.name}
+                >
+                  <span className="compare-case-code">
+                    {row.item.code.replace(/^C/, "")}
+                  </span>
+                  <span className="compare-case-name">
+                    {shortCaseName(row.item.name)}
+                  </span>
+                </button>
+                <div
+                  className={
+                    "compare-dist-bar" + (row.total === 0 ? " is-empty" : "")
+                  }
+                  role="img"
+                  aria-label={
+                    row.item.name +
+                    " 共享概念 " +
+                    row.total +
+                    " 个" +
+                    (row.labels.length
+                      ? "：" + row.labels.join("、")
+                      : "")
+                  }
+                >
+                  {row.total > 0 &&
+                    SHARED_BUCKETS.map((bucket) => {
+                      const count = row.counts.get(bucket) ?? 0;
+                      if (!count) return null;
+                      return (
+                        <i
+                          key={bucket}
+                          style={{
+                            flexGrow: count,
+                            background: bucketMeta(bucket).color
+                          }}
+                          title={
+                            bucketMeta(bucket).label + " " + count
+                          }
+                        />
+                      );
+                    })}
                 </div>
-              );
-            })}
-          </div>
-          <div className="compare-type-legend">
-            {ENTITY_TYPES.map((type) => (
-              <span key={type}>
-                <i style={{ background: TYPE_META[type].color }} />
-                {TYPE_META[type].label}
-                <em>{totals[type]}</em>
-              </span>
+                <span className="compare-dist-total">{row.total}</span>
+              </div>
             ))}
+            {sharedCount === 0 && (
+              <div className="compare-dist-empty">
+                <strong>尚无共享概念</strong>
+                <p>
+                  原生概念候选只在单一案例内成立，直接比较名称容易遇到术语歧义。
+                  完成研究者确认后，这里会显示正式共享概念覆盖。
+                </p>
+              </div>
+            )}
           </div>
-        </section>
-
-        <section className="compare-card compare-card--stats">
-          <header className="compare-card-head">
-            <h3>统计</h3>
-            <span>当前范围</span>
-          </header>
-          <div className="compare-stat-grid">
-            <div>
-              <strong>{cases.length}</strong>
-              <span>案例</span>
+          {sharedCount > 0 && (
+            <div className="compare-type-legend">
+              {SHARED_BUCKETS.filter(
+                (bucket) => (sharedTotals.get(bucket) ?? 0) > 0
+              ).map((bucket) => (
+                <span key={bucket}>
+                  <i style={{ background: bucketMeta(bucket).color }} />
+                  {bucketMeta(bucket).label}
+                  <em>{sharedTotals.get(bucket) ?? 0}</em>
+                </span>
+              ))}
             </div>
-            <div>
-              <strong>{entityTotal}</strong>
-              <span>实体</span>
-            </div>
-            <div>
-              <strong>{nativeCount}</strong>
-              <span>原生概念</span>
-            </div>
-            <div>
-              <strong>{sharedCount}</strong>
-              <span>共享概念</span>
-            </div>
-            <div>
-              <strong>{evidenceTotal}</strong>
-              <span>证据</span>
-            </div>
-            <div>
-              <strong>{materialTotal}</strong>
-              <span>材料</span>
-            </div>
-          </div>
-          <div className="compare-stat-foot">
-            <span>
-              可比案例对 <strong>{matrix.pairCount}</strong>
-            </span>
-            <span>
-              平均 Jaccard <strong>{meanLabel}</strong>
-            </span>
-          </div>
+          )}
         </section>
 
         <section className="compare-card compare-card--matrix">
@@ -243,7 +256,11 @@ export function CompareView({
                             diagonal
                               ? `${row.name}（自身）`
                               : `${row.name} × ${column.name}：${
-                                  value === null ? "无共同概念" : value.toFixed(2)
+                                  value === null
+                                    ? matrix.basis === "none"
+                  ? "尚无共享概念"
+                  : "无共享概念交集"
+                                    : value.toFixed(2)
                                 }`
                           }
                         >
@@ -256,14 +273,19 @@ export function CompareView({
               </tbody>
             </table>
           </div>
-          {cases.length < 2 && (
+          {matrix.basis === "none" && (
+            <p className="compare-inline-note">
+              尚无共享概念，Jaccard 暂不可计算。原生概念不参与跨案例相似度。
+            </p>
+          )}
+          {cases.length < 2 && matrix.basis !== "none" && (
             <p className="compare-inline-note">
               加入第二个案例后，这里才会形成可比较的相似度矩阵。
             </p>
           )}
-          {matrix.basis === "native" && cases.length > 1 && (
+          {matrix.basis === "candidate" && (
             <p className="compare-inline-note">
-              尚未建立共享概念映射，当前按原生概念标签计算。
+              当前使用待研究者审核的共享概念候选，相似度仅用于探索，不构成正式比较结论。
             </p>
           )}
         </section>
@@ -321,7 +343,15 @@ export function CompareView({
             ))}
           </div>
           <p className="compare-cluster-note">
-            阈值连通法：相似度 ≥ {threshold.toFixed(2)} 的案例并入同一簇。
+            {matrix.basis === "none"
+              ? "尚无共享概念，当前仅按案例独立性展示。"
+              : matrix.basis === "candidate"
+                ? "候选口径阈值连通法：相似度 ≥ " +
+                  threshold.toFixed(2) +
+                  " 的案例并入同一簇，需审核后复核。"
+                : "已审核口径阈值连通法：相似度 ≥ " +
+                  threshold.toFixed(2) +
+                  " 的案例并入同一簇。"}
           </p>
         </section>
       </div>

@@ -26,6 +26,8 @@ import type {
   SearchPayload,
   SharedConceptRecord
 } from "../shared/types";
+import { mediaForCase } from "../shared/case-media";
+import { techTagsForCase } from "../shared/case-tags";
 import {
   CORE_ENTITY_TYPES,
   FACT_STATUSES,
@@ -33,9 +35,11 @@ import {
   REVIEW_ACTIONS,
   isConfidence,
   isCoreEntityType,
-  isFactStatus
+  isFactStatus,
+  isReviewAction
 } from "../shared/ontology";
 import { STRENGTH_META, TYPE_META } from "../shared/meta";
+import { FRAMEWORK_VERSIONS } from "../shared/framework";
 import {
   cases as seedCases,
   entities as seedEntities,
@@ -43,7 +47,6 @@ import {
   facts as seedFacts,
   materialCount,
   nativeConcepts as seedNativeConcepts,
-  ontology as seedOntology,
   processes as seedProcesses,
   relations as seedRelations,
   SEED_VERSION,
@@ -55,6 +58,7 @@ import {
   type SeedRelation
 } from "./seed";
 import {
+  EMBEDDING_MODEL,
   embeddingBuffer,
   embedText,
   VECTOR_DIMENSIONS
@@ -62,6 +66,7 @@ import {
 
 const DATA_DIR = path.resolve(process.cwd(), "data");
 const DB_PATH = path.join(DATA_DIR, "community-renewal.db");
+const DATASET_ID = "caseflow-c01-c11";
 
 fs.mkdirSync(DATA_DIR, { recursive: true });
 
@@ -128,7 +133,11 @@ db.exec(`
     head_role TEXT,
     tail_role TEXT,
     review TEXT,
-    version TEXT NOT NULL DEFAULT 'v0.1'
+    version TEXT NOT NULL DEFAULT 'v0.1',
+    fact_group_id TEXT,
+    verified_evidence_ids TEXT NOT NULL DEFAULT '[]',
+    candidate_evidence_ids TEXT NOT NULL DEFAULT '[]',
+    trace_status TEXT
   );
 
   CREATE TABLE IF NOT EXISTS entity_roles (
@@ -306,14 +315,22 @@ db.exec(`
     decided_at TEXT NOT NULL
   );
 
-  CREATE TABLE IF NOT EXISTS ontology_versions (
-    id TEXT PRIMARY KEY,
-    version TEXT NOT NULL,
-    date TEXT NOT NULL,
-    title TEXT NOT NULL,
-    summary TEXT NOT NULL,
-    changes TEXT NOT NULL,
-    stats TEXT NOT NULL
+  CREATE TABLE IF NOT EXISTS relation_process_links (
+    relation_id TEXT NOT NULL,
+    case_id TEXT NOT NULL,
+    process_id TEXT NOT NULL,
+    fact_group_id TEXT,
+    verified_evidence_ids TEXT NOT NULL DEFAULT '[]',
+    candidate_evidence_ids TEXT NOT NULL DEFAULT '[]',
+    trace_status TEXT NOT NULL DEFAULT 'unconfirmed',
+    PRIMARY KEY (relation_id, process_id)
+  );
+
+  CREATE TABLE IF NOT EXISTS relation_evidence_links (
+    relation_id TEXT NOT NULL,
+    case_id TEXT NOT NULL,
+    evidence_id TEXT NOT NULL,
+    PRIMARY KEY (relation_id, evidence_id)
   );
 
   CREATE TABLE IF NOT EXISTS search_docs (
@@ -331,6 +348,28 @@ db.exec(`
   USING vec0(embedding float[${VECTOR_DIMENSIONS}] distance_metric=cosine);
 `);
 
+function ensureOntologyTable() {
+  const columns = db
+    .prepare("PRAGMA table_info(ontology_versions)")
+    .all() as { name: string }[];
+  if (columns.length && !columns.some((column) => column.name === "structure")) {
+    db.exec("DROP TABLE ontology_versions");
+  }
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS ontology_versions (
+      id TEXT PRIMARY KEY,
+      version TEXT NOT NULL,
+      title TEXT NOT NULL,
+      structure TEXT NOT NULL,
+      adjustment TEXT NOT NULL,
+      problem TEXT NOT NULL,
+      chapter TEXT NOT NULL
+    );
+  `);
+}
+
+ensureOntologyTable();
+
 function ensureColumn(table: string, column: string, definition: string) {
   const columns = db.prepare(`PRAGMA table_info(${table})`).all() as {
     name: string;
@@ -342,6 +381,18 @@ function ensureColumn(table: string, column: string, definition: string) {
 ensureColumn("relations", "case_id", "TEXT NOT NULL DEFAULT 'c06'");
 ensureColumn("relations", "review", "TEXT");
 ensureColumn("relations", "version", "TEXT NOT NULL DEFAULT 'v0.1'");
+ensureColumn("relations", "fact_group_id", "TEXT");
+ensureColumn(
+  "relations",
+  "verified_evidence_ids",
+  "TEXT NOT NULL DEFAULT '[]'"
+);
+ensureColumn(
+  "relations",
+  "candidate_evidence_ids",
+  "TEXT NOT NULL DEFAULT '[]'"
+);
+ensureColumn("relations", "trace_status", "TEXT");
 ensureColumn("materials", "notes", "TEXT");
 ensureColumn("evidence", "material_id", "TEXT");
 ensureColumn("processes", "actor_ids", "TEXT NOT NULL DEFAULT '[]'");
@@ -420,6 +471,10 @@ type DbRelation = {
   tail_role: string | null;
   review: string | null;
   version: string;
+  fact_group_id: string | null;
+  verified_evidence_ids: string;
+  candidate_evidence_ids: string;
+  trace_status: string | null;
 };
 
 type DbEvidence = {
@@ -752,8 +807,8 @@ function seedDatabase() {
       DELETE FROM shared_concepts;
       DELETE FROM causal_questions;
       DELETE FROM causal_claims;
-      DELETE FROM review_decisions;
-      DELETE FROM review_packets;
+      DELETE FROM relation_process_links;
+      DELETE FROM relation_evidence_links;
       DELETE FROM entity_roles;
       DELETE FROM case_entities;
       DELETE FROM relations;
@@ -823,13 +878,6 @@ function seedDatabase() {
        VALUES
         (@id, @caseId, @label, @entityType, @definition, @examples, @sourceRelationIds, @status)`
     );
-    const insertOntology = db.prepare(
-      `INSERT INTO ontology_versions
-        (id, version, date, title, summary, changes, stats)
-       VALUES
-        (@id, @version, @date, @title, @summary, @changes, @stats)`
-    );
-
     seedCases.forEach((item, index) => {
       insertCase.run({
         id: item.id,
@@ -946,18 +994,6 @@ function seedDatabase() {
       })
     );
 
-    seedOntology.forEach((version) => {
-      insertOntology.run({
-        id: version.id,
-        version: version.version,
-        date: version.date,
-        title: version.title,
-        summary: version.summary,
-        changes: JSON.stringify(version.changes),
-        stats: JSON.stringify(version.stats)
-      });
-    });
-
     for (const item of seedCases) {
       insertSearchDoc(
         "case",
@@ -1022,11 +1058,54 @@ function readMeta(key: string): string | null {
 }
 
 function ensureSeed() {
+  const dataset = readMeta("dataset");
   const current = readMeta("seed_version");
   const count = (
     db.prepare("SELECT COUNT(*) AS count FROM cases").get() as { count: number }
   ).count;
-  if (current === String(SEED_VERSION) && count > 0) return;
+
+  if (dataset === DATASET_ID) {
+    if (count > 0) return;
+    console.warn(
+      "[atlas] CaseFlow dataset marker present but no cases; run npm run import:caseflow"
+    );
+    return;
+  }
+
+  if (count > 0) {
+    if (current !== String(SEED_VERSION)) {
+      console.warn(
+        "[atlas] existing database left untouched despite a seed version change; explicit migration is required"
+      );
+    }
+    return;
+  }
+
+  const reviewCount = (
+    db.prepare("SELECT COUNT(*) AS count FROM review_decisions").get() as {
+      count: number;
+    }
+  ).count;
+  const comparisonCount = (
+    db.prepare("SELECT COUNT(*) AS count FROM comparisons").get() as {
+      count: number;
+    }
+  ).count;
+  if (reviewCount > 0 || comparisonCount > 0) {
+    console.warn(
+      "[atlas] protected review or comparison data exists; automatic demo seeding was skipped"
+    );
+    return;
+  }
+
+  const caseflowJson = path.join(DATA_DIR, "caseflow", "c01-c11.json");
+  if (fs.existsSync(caseflowJson)) {
+    console.warn(
+      "[atlas] CaseFlow dataset JSON is available; run npm run import:caseflow instead of seeding demo data"
+    );
+    return;
+  }
+
   seedDatabase();
   console.log(
     `[atlas] seeded ${seedCases.length} cases, ${seedEntities.length} entities, ${evidenceCount} evidence items`
@@ -1034,6 +1113,69 @@ function ensureSeed() {
 }
 
 ensureSeed();
+
+function syncRelationLinks() {
+  const rows = db
+    .prepare(
+      `SELECT id, case_id, process_ids, evidence_ids, fact_group_id,
+              verified_evidence_ids, candidate_evidence_ids, trace_status
+       FROM relations`
+    )
+    .all() as DbRelation[];
+  const insertProcess = db.prepare(
+    `INSERT INTO relation_process_links
+      (relation_id, case_id, process_id, fact_group_id,
+       verified_evidence_ids, candidate_evidence_ids, trace_status)
+     VALUES (?, ?, ?, ?, ?, ?, ?)`
+  );
+  const insertEvidence = db.prepare(
+    `INSERT INTO relation_evidence_links
+      (relation_id, case_id, evidence_id)
+     VALUES (?, ?, ?)`
+  );
+
+  db.transaction(() => {
+    db.exec(`
+      DELETE FROM relation_process_links;
+      DELETE FROM relation_evidence_links;
+    `);
+    for (const row of rows) {
+      const processIds = parseJson<string[]>(row.process_ids, []);
+      const evidenceIds = parseJson<string[]>(row.evidence_ids, []);
+      for (const processId of processIds) {
+        insertProcess.run(
+          row.id,
+          row.case_id,
+          processId,
+          row.fact_group_id ?? null,
+          row.verified_evidence_ids || "[]",
+          row.candidate_evidence_ids || "[]",
+          row.trace_status ?? "unconfirmed"
+        );
+      }
+      for (const evidenceId of evidenceIds) {
+        insertEvidence.run(row.id, row.case_id, evidenceId);
+      }
+    }
+  })();
+}
+
+syncRelationLinks();
+
+export function syncFrameworkVersions() {
+  const insert = db.prepare(
+    `INSERT INTO ontology_versions
+      (id, version, title, structure, adjustment, problem, chapter)
+     VALUES
+      (@id, @version, @title, @structure, @adjustment, @problem, @chapter)`
+  );
+  db.transaction(() => {
+    db.exec("DELETE FROM ontology_versions");
+    for (const version of FRAMEWORK_VERSIONS) insert.run(version);
+  })();
+}
+
+syncFrameworkVersions();
 
 function parseJson<T>(value: string, fallback: T): T {
   try {
@@ -1057,7 +1199,7 @@ function dbCaseToSummary(row: DbCase, materials: Material[], evidence: Evidence[
     period: row.period,
     accent: row.accent,
     cover: row.cover,
-    tags: parseJson<string[]>(row.tags, []),
+    tags: techTagsForCase(row.id, parseJson<string[]>(row.tags, [])),
     summary: row.summary,
     entityCount: (
       db
@@ -1074,6 +1216,7 @@ function dbCaseToSummary(row: DbCase, materials: Material[], evidence: Evidence[
     evidenceCutoff: row.evidence_cutoff ?? undefined,
     researchQuestion: row.research_question ?? undefined,
     status: row.status,
+    media: mediaForCase(row.id),
     preview: {
       rebuild: rebuild[0] ?? "",
       materials: materials.slice(0, 3),
@@ -1329,6 +1472,108 @@ export function getComparisonRecords(): ComparisonRecord[] {
   return rows.map(dbComparisonToRecord);
 }
 
+function dbReviewPacketToRecord(row: DbReviewPacket): ReviewPacketRecord {
+  return {
+    id: row.id,
+    skill: row.skill,
+    gate: row.gate,
+    caseId: row.case_id ?? undefined,
+    scope: row.scope ?? undefined,
+    payload: row.payload,
+    status: row.status,
+    createdAt: row.created_at
+  };
+}
+
+function dbReviewDecisionToRecord(
+  row: DbReviewDecision
+): ReviewDecisionRecord {
+  return {
+    id: row.id,
+    packetId: row.packet_id,
+    action: row.action as ReviewDecisionRecord["action"],
+    rationale: row.rationale ?? undefined,
+    modifiedContent: row.modified_content ?? undefined,
+    allowNextGate: Boolean(row.allow_next_gate),
+    decidedAt: row.decided_at
+  };
+}
+
+export function getReviewPackets(): ReviewPacketRecord[] {
+  const rows = db
+    .prepare("SELECT * FROM review_packets ORDER BY created_at DESC, id DESC")
+    .all() as DbReviewPacket[];
+  return rows.map(dbReviewPacketToRecord);
+}
+
+export function getReviewDecisions(): ReviewDecisionRecord[] {
+  const rows = db
+    .prepare("SELECT * FROM review_decisions ORDER BY decided_at DESC, id DESC")
+    .all() as DbReviewDecision[];
+  return rows.map(dbReviewDecisionToRecord);
+}
+
+export class ReviewWriteError extends Error {
+  constructor(
+    readonly code: "invalid_action" | "packet_not_found" | "duplicate_id",
+    message: string
+  ) {
+    super(message);
+    this.name = "ReviewWriteError";
+  }
+}
+
+export function createReviewDecision(input: {
+  id: string;
+  packetId: string;
+  action: string;
+  rationale?: string;
+  modifiedContent?: string;
+  allowNextGate: boolean;
+}): ReviewDecisionRecord {
+  if (!isReviewAction(input.action)) {
+    throw new ReviewWriteError("invalid_action", "Unsupported review action");
+  }
+  const packet = db
+    .prepare("SELECT id FROM review_packets WHERE id = ?")
+    .get(input.packetId) as { id: string } | undefined;
+  if (!packet) {
+    throw new ReviewWriteError("packet_not_found", "Review packet not found");
+  }
+  const existing = db
+    .prepare("SELECT id FROM review_decisions WHERE id = ?")
+    .get(input.id) as { id: string } | undefined;
+  if (existing) {
+    throw new ReviewWriteError("duplicate_id", "Review decision already exists");
+  }
+
+  const decidedAt = new Date().toISOString();
+  db.prepare(
+    `INSERT INTO review_decisions
+      (id, packet_id, action, rationale, modified_content,
+       allow_next_gate, decided_at)
+     VALUES (?, ?, ?, ?, ?, ?, ?)`
+  ).run(
+    input.id,
+    input.packetId,
+    input.action,
+    input.rationale ?? null,
+    input.modifiedContent ?? null,
+    input.allowNextGate ? 1 : 0,
+    decidedAt
+  );
+
+  return {
+    id: input.id,
+    packetId: input.packetId,
+    action: input.action,
+    rationale: input.rationale,
+    modifiedContent: input.modifiedContent,
+    allowNextGate: input.allowNextGate,
+    decidedAt
+  };
+}
+
 export function getComparisonData(): ComparisonData {
   return {
     nativeConcepts: (
@@ -1384,6 +1629,19 @@ export function getGraph(): { nodes: GraphNode[]; links: GraphLink[] } {
   const caseEntityRows = db
     .prepare("SELECT case_id, entity_id FROM case_entities")
     .all() as { case_id: string; entity_id: string }[];
+  const nativeConceptRows = db
+    .prepare("SELECT * FROM native_concepts ORDER BY id")
+    .all() as DbNativeConcept[];
+  const sharedConceptRows = db
+    .prepare("SELECT * FROM shared_concepts ORDER BY id")
+    .all() as DbSharedConcept[];
+  const conceptMappingRows = db
+    .prepare("SELECT * FROM concept_mappings ORDER BY id")
+    .all() as DbConceptMapping[];
+  const relationById = new Map(relationRows.map((row) => [row.id, row]));
+  const entityTypeById = new Map(
+    entityRows.map((row) => [row.id, row.type])
+  );
 
   const entityCaseIds = new Map<string, string[]>();
   for (const row of caseEntityRows) {
@@ -1403,7 +1661,18 @@ export function getGraph(): { nodes: GraphNode[]; links: GraphLink[] } {
     factStatus: row.fact_status as GraphLink["factStatus"],
     qualifiers: row.qualifiers ?? undefined,
     processIds: parseJson<string[]>(row.process_ids, []),
-    evidenceIds: parseJson<string[]>(row.evidence_ids, [])
+    evidenceIds: parseJson<string[]>(row.evidence_ids, []),
+    factGroupId: row.fact_group_id ?? undefined,
+    verifiedEvidenceIds: parseJson<string[]>(
+      row.verified_evidence_ids,
+      []
+    ),
+    candidateEvidenceIds: parseJson<string[]>(
+      row.candidate_evidence_ids,
+      []
+    ),
+    traceStatus: row.trace_status ?? undefined,
+    layer: "relation"
   }));
 
   for (const row of caseEntityRows) {
@@ -1413,7 +1682,76 @@ export function getGraph(): { nodes: GraphNode[]; links: GraphLink[] } {
       target: row.entity_id,
       type: "涉及",
       label: "涉及",
-      weight: 1.15
+      weight: 1.15,
+      layer: "case_membership"
+    });
+  }
+
+  for (const concept of sharedConceptRows) {
+    for (const caseId of parseJson<string[]>(
+      concept.supporting_case_ids,
+      []
+    )) {
+      links.push({
+        id: `concept-coverage:${concept.id}-${caseId}`,
+        caseId,
+        source: `shared:${concept.id}`,
+        target: `case:${caseId}`,
+        type: "概念覆盖",
+        label: "覆盖",
+        weight: 1.4,
+        layer: "concept_coverage"
+      });
+    }
+  }
+
+  const nativeConceptById = new Map(
+    nativeConceptRows.map((row) => [row.id, row])
+  );
+  const sharedEntityEdges = new Map<
+    string,
+    { sharedId: string; entityId: string; caseId: string; evidenceIds: Set<string> }
+  >();
+  for (const row of conceptMappingRows) {
+    if (!row.shared_concept_id) continue;
+    const native = nativeConceptById.get(row.native_concept_id);
+    if (!native) continue;
+    for (const relationId of parseJson<string[]>(
+      native.source_relation_ids,
+      []
+    )) {
+      const relation = relationById.get(relationId);
+      if (!relation) continue;
+      const entityIds = [
+        relation.source,
+        relation.target
+      ].filter((entityId) => entityTypeById.get(entityId) === native.entity_type);
+      for (const entityId of entityIds) {
+        const key = `${row.shared_concept_id}:${entityId}`;
+        const edge = sharedEntityEdges.get(key) ?? {
+          sharedId: row.shared_concept_id,
+          entityId,
+          caseId: row.case_id,
+          evidenceIds: new Set<string>()
+        };
+        for (const evidenceId of parseJson<string[]>(row.evidence_ids, [])) {
+          edge.evidenceIds.add(evidenceId);
+        }
+        sharedEntityEdges.set(key, edge);
+      }
+    }
+  }
+  for (const edge of sharedEntityEdges.values()) {
+    links.push({
+      id: `shared-entity:${edge.sharedId}-${edge.entityId}`,
+      caseId: edge.caseId,
+      source: `shared:${edge.sharedId}`,
+      target: edge.entityId,
+      type: "共享概念",
+      label: "共享概念",
+      weight: 1.55,
+      evidenceIds: [...edge.evidenceIds],
+      layer: "concept_mapping"
     });
   }
 
@@ -1431,7 +1769,8 @@ export function getGraph(): { nodes: GraphNode[]; links: GraphLink[] } {
     degree: degree.get(row.id) ?? 0,
     caseIds: entityCaseIds.get(row.id) ?? [],
     description: row.description,
-    definition: row.definition
+    definition: row.definition,
+    layer: "entity"
   }));
 
   for (const row of caseRows) {
@@ -1442,6 +1781,22 @@ export function getGraph(): { nodes: GraphNode[]; links: GraphLink[] } {
       type: "case",
       degree: degree.get(`case:${row.id}`) ?? 0,
       caseIds: [row.id]
+    });
+  }
+
+  for (const row of sharedConceptRows) {
+    if (!row.entity_type) continue;
+    nodes.push({
+      id: `shared:${row.id}`,
+      name: row.label,
+      nameEn: row.label,
+      type: row.entity_type as GraphNode["type"],
+      degree: degree.get(`shared:${row.id}`) ?? 0,
+      caseIds: parseJson<string[]>(row.supporting_case_ids, []),
+      description: row.scope ?? "",
+      definition: row.definition,
+      layer: "shared_concept",
+      status: row.review
     });
   }
 
@@ -1462,6 +1817,7 @@ export function getEntityDetail(entityId: string): EntityDetail | null {
 
   const neighbors: EntityNeighbor[] = [];
   for (const link of graph.links) {
+    if (link.layer !== "relation") continue;
     if (link.source === entityId) {
       const target = graph.nodes.find((item) => item.id === link.target);
       if (target) {
@@ -1509,30 +1865,17 @@ export function getEntityDetail(entityId: string): EntityDetail | null {
 
 export function getOntology() {
   const rows = db
-    .prepare("SELECT * FROM ontology_versions ORDER BY date")
+    .prepare("SELECT * FROM ontology_versions ORDER BY id")
     .all() as {
     id: string;
     version: string;
-    date: string;
     title: string;
-    summary: string;
-    changes: string;
-    stats: string;
+    structure: string;
+    adjustment: string;
+    problem: string;
+    chapter: string;
   }[];
-  return rows.map((row) => ({
-    id: row.id,
-    version: row.version,
-    date: row.date,
-    title: row.title,
-    summary: row.summary,
-    changes: parseJson(row.changes, [] as BootstrapPayload["ontology"][0]["changes"]),
-    stats: parseJson(row.stats, {
-      entities: 0,
-      relations: 0,
-      cases: 0,
-      evidence: 0
-    })
-  }));
+  return rows.map((row) => ({ ...row }));
 }
 
 export function getBootstrap(): BootstrapPayload {
@@ -1558,13 +1901,13 @@ export function getBootstrap(): BootstrapPayload {
       count: number;
     }
   ).count;
-  const nativeConceptTotal = (
-    db.prepare("SELECT COUNT(*) AS count FROM native_concepts").get() as {
+  const sharedConceptTotal = (
+    db.prepare("SELECT COUNT(*) AS count FROM shared_concepts").get() as {
       count: number;
     }
   ).count;
-  const sharedConceptTotal = (
-    db.prepare("SELECT COUNT(*) AS count FROM shared_concepts").get() as {
+  const reviewDecisionCount = (
+    db.prepare("SELECT COUNT(*) AS count FROM review_decisions").get() as {
       count: number;
     }
   ).count;
@@ -1574,13 +1917,15 @@ export function getBootstrap(): BootstrapPayload {
       caseCount: cases.length,
       entityCount,
       relationCount: relationTotal,
-      nativeConceptCount: nativeConceptTotal,
+      nativeConceptCount: entityCount,
       sharedConceptCount: sharedConceptTotal,
       evidenceCount: evidenceTotal,
       materialCount: materialTotal,
       seedVersion: SEED_VERSION,
       vecVersion,
       vectorDimensions: VECTOR_DIMENSIONS,
+      embeddingModel: EMBEDDING_MODEL,
+      reviewDecisionCount,
       dbPath: DB_PATH
     },
     cases,
@@ -1617,7 +1962,7 @@ export function searchAtlas(query: string): SearchPayload {
     return {
       query: trimmed,
       took: 0,
-      engine: `sqlite-vec ${vecVersion} · ${VECTOR_DIMENSIONS}d cosine`,
+      engine: `${EMBEDDING_MODEL} · sqlite-vec ${vecVersion} · ${VECTOR_DIMENSIONS}d cosine`,
       hits: []
     };
   }
@@ -1666,18 +2011,36 @@ export function searchAtlas(query: string): SearchPayload {
   return {
     query: trimmed,
     took: Date.now() - started,
-    engine: `sqlite-vec ${vecVersion} · ${VECTOR_DIMENSIONS}d cosine`,
+    engine: `${EMBEDDING_MODEL} · sqlite-vec ${vecVersion} · ${VECTOR_DIMENSIONS}d cosine`,
     hits: hits.slice(0, 12)
   };
 }
 
 export function getMeta() {
+  const materialTotal = (
+    db.prepare("SELECT COUNT(*) AS count FROM materials").get() as {
+      count: number;
+    }
+  ).count;
+  const evidenceTotal = (
+    db.prepare("SELECT COUNT(*) AS count FROM evidence").get() as {
+      count: number;
+    }
+  ).count;
+  const reviewDecisionCount = (
+    db.prepare("SELECT COUNT(*) AS count FROM review_decisions").get() as {
+      count: number;
+    }
+  ).count;
   return {
     seedVersion: SEED_VERSION,
+    dataset: readMeta("dataset") ?? "demo-seed",
     vecVersion,
     vectorDimensions: VECTOR_DIMENSIONS,
+    embeddingModel: EMBEDDING_MODEL,
+    reviewDecisionCount,
     dbPath: DB_PATH,
-    materialCount,
-    evidenceCount
+    materialCount: materialTotal,
+    evidenceCount: evidenceTotal
   };
 }

@@ -6,7 +6,7 @@
 
 | 目录 | 内容 |
 |---|---|
-| `dashboard/` | React + Express + SQLite 的可视化 dashboard：混合知识图谱、案例档案、本体框架、路径分析、案例比较与向量检索。 |
+| `dashboard/` | React + Express + SQLite 的可视化 dashboard：混合知识图谱、案例档案、本体框架、路径分析、案例比较与本地特征检索。 |
 | `skills/` | 三层案例知识 skill：单案例知识构建、跨案例共享概念框架、跨案例分析。 |
 
 两者共用同一套机器可读本体：`dashboard/shared/ontology.ts`。
@@ -23,7 +23,7 @@ npm run dev
 - API：http://127.0.0.1:8788
 - 生产模式：`npm run build` 后执行 `npm start`，访问 http://127.0.0.1:8788
 
-SQLite 数据库位于 `dashboard/data/community-renewal.db`，首次启动自动建表并写入种子案例。数据文件不纳入版本控制。
+SQLite 数据库位于 `dashboard/data/community-renewal.db`，首次启动自动建表；当前正式数据 C01–C11 通过 `cd dashboard; npm run import:caseflow` 导入。数据文件不纳入版本控制。
 
 详细说明见 `dashboard/README.md` 和 `dashboard/WEB_APP.md`。
 

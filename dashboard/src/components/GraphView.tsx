@@ -17,7 +17,7 @@ import {
   type SimulationLinkDatum,
   type SimulationNodeDatum
 } from "d3-force";
-import type { GraphData, GraphNode } from "../../shared/types";
+import type { GraphData, GraphLink, GraphNode } from "../../shared/types";
 import { TYPE_META } from "../../shared/meta";
 import {
   conceptCaseCount,
@@ -36,6 +36,7 @@ interface SimLink extends SimulationLinkDatum<SimNode> {
   type: string;
   label: string;
   weight: number;
+  layer?: GraphLink["layer"];
 }
 
 const typeCache = new Map<string, number>();
@@ -69,6 +70,7 @@ interface DragState {
 
 interface GraphViewProps {
   graph: GraphData;
+  showCases: boolean;
   selectedEntityId: string | null;
   pathNodeIds: string[];
   pathLinkIds: string[];
@@ -122,6 +124,7 @@ function roundRect(
 
 export function GraphView({
   graph,
+  showCases,
   selectedEntityId,
   pathNodeIds,
   pathLinkIds,
@@ -274,6 +277,14 @@ export function GraphView({
       const isPathEdge = pathLinks.has(link.id);
       const isFocusEdge =
         focusId !== null && (sourceId === focusId || targetId === focusId);
+      const baseAlpha =
+        link.layer === "concept_mapping"
+          ? 0.52
+          : link.layer === "concept_coverage"
+            ? 0.42
+            : link.layer === "case_membership"
+              ? 0.1
+              : 0.3;
       const alpha = hasPath
         ? isPathEdge
           ? 1
@@ -282,9 +293,7 @@ export function GraphView({
           ? isFocusEdge
             ? 0.95
             : 0.045
-          : link.type === "涉及"
-            ? 0.27
-            : 0.3;
+          : baseAlpha;
 
       ctx.save();
       ctx.globalAlpha = alpha;
@@ -299,17 +308,28 @@ export function GraphView({
       } else if (isFocusEdge) {
         ctx.strokeStyle = "#4b545e";
         ctx.lineWidth = 1.55;
+      } else if (link.layer === "concept_mapping") {
+        ctx.strokeStyle = "#b8442f";
+        ctx.lineWidth = 1.25;
+      } else if (link.layer === "concept_coverage") {
+        ctx.strokeStyle = "#8d7467";
+        ctx.lineWidth = 1.1;
       } else {
         ctx.strokeStyle = link.type === "涉及" ? "#6d7580" : "#67717c";
         ctx.lineWidth = 0.75 + link.weight * 0.13;
       }
-      if (link.type === "涉及") {
+      if (link.layer === "case_membership") {
         ctx.setLineDash([2, 4]);
+      } else if (link.layer === "concept_coverage") {
+        ctx.setLineDash([3, 3]);
       }
       ctx.stroke();
       ctx.restore();
 
-      if ((isPathEdge || isFocusEdge) && link.type !== "涉及") {
+      if (
+        (isPathEdge || isFocusEdge) &&
+        link.layer !== "case_membership"
+      ) {
         const angle = Math.atan2(target.y - cy, target.x - cx);
         const arrowX = target.x - Math.cos(angle) * (target.radius + 3);
         const arrowY = target.y - Math.sin(angle) * (target.radius + 3);
@@ -387,104 +407,34 @@ export function GraphView({
       const color = NODE_COLORS[node.type];
       const isCase = node.type === "case";
       const scope = conceptScope(node, visibleCases);
+      const visualAlpha =
+        isCase && !isHovered && !isSelected && !isOnPath
+          ? alpha * 0.34
+          : alpha;
 
       ctx.save();
-      ctx.globalAlpha = alpha;
+      ctx.globalAlpha = visualAlpha;
       if (isHovered || isSelected || isOnPath) {
         ctx.shadowColor = "rgba(25,30,36,.28)";
         ctx.shadowBlur = 14;
       }
 
       if (isCase) {
+        ctx.beginPath();
+        ctx.rect(x - radius, y - radius, radius * 2, radius * 2);
         ctx.fillStyle = "#20242a";
-        roundRect(ctx, x - radius, y - radius, radius * 2, radius * 2, 3.4);
         ctx.fill();
         ctx.strokeStyle = isOnPath ? "#b8442f" : "#f7f2e8";
         ctx.lineWidth = isOnPath ? 2.6 : 1.7;
         ctx.stroke();
-        ctx.fillStyle = "rgba(247,242,232,.9)";
-        ctx.beginPath();
-        ctx.arc(x, y, 1.7, 0, Math.PI * 2);
-        ctx.fill();
       } else {
+        ctx.beginPath();
+        ctx.arc(x, y, radius, 0, Math.PI * 2);
         ctx.fillStyle = color;
-        ctx.strokeStyle = "#f8f5ed";
-        ctx.lineWidth = 1.35;
-        if (node.type === "context") {
-          ctx.beginPath();
-          ctx.moveTo(x, y - radius);
-          ctx.lineTo(x + radius, y);
-          ctx.lineTo(x, y + radius);
-          ctx.lineTo(x - radius, y);
-          ctx.closePath();
-          ctx.fill();
-          ctx.stroke();
-        } else if (node.type === "actor") {
-          ctx.beginPath();
-          ctx.arc(x, y, radius, 0, Math.PI * 2);
-          ctx.fill();
-          ctx.stroke();
-        } else if (node.type === "task") {
-          roundRect(ctx, x - radius, y - radius * 0.78, radius * 2, radius * 1.56, radius * 0.38);
-          ctx.fill();
-          ctx.stroke();
-        } else if (node.type === "technology") {
-          ctx.beginPath();
-          for (let i = 0; i < 6; i += 1) {
-            const angle = (Math.PI / 3) * i - Math.PI / 2;
-            const px = x + Math.cos(angle) * radius;
-            const py = y + Math.sin(angle) * radius;
-            if (i === 0) ctx.moveTo(px, py);
-            else ctx.lineTo(px, py);
-          }
-          ctx.closePath();
-          ctx.fill();
-          ctx.stroke();
-        } else if (node.type === "capability") {
-          ctx.beginPath();
-          ctx.arc(x, y, radius, 0, Math.PI * 2);
-          ctx.lineWidth = Math.max(1.8, radius * 0.34);
-          ctx.strokeStyle = color;
-          ctx.stroke();
-          ctx.beginPath();
-          ctx.arc(x, y, Math.max(1.5, radius * 0.24), 0, Math.PI * 2);
-          ctx.fillStyle = color;
-          ctx.fill();
-        } else if (node.type === "action") {
-          ctx.beginPath();
-          ctx.moveTo(x, y - radius);
-          ctx.lineTo(x + radius, y + radius * 0.82);
-          ctx.lineTo(x - radius, y + radius * 0.82);
-          ctx.closePath();
-          ctx.fill();
-          ctx.stroke();
-        } else if (node.type === "target") {
-          roundRect(ctx, x - radius * 0.82, y - radius * 0.82, radius * 1.64, radius * 1.64, radius * 0.18);
-          ctx.lineWidth = 1.5;
-          ctx.strokeStyle = color;
-          ctx.stroke();
-          ctx.beginPath();
-          ctx.arc(x, y, Math.max(1.4, radius * 0.24), 0, Math.PI * 2);
-          ctx.fillStyle = color;
-          ctx.fill();
-        } else {
-          ctx.beginPath();
-          ctx.arc(x, y, radius, 0, Math.PI * 2);
-          ctx.fillStyle = "rgba(255,255,255,.9)";
-          ctx.fill();
-          ctx.strokeStyle = color;
-          ctx.lineWidth = 1.6;
-          ctx.stroke();
-          ctx.beginPath();
-          ctx.arc(x, y, radius * 0.58, 0, Math.PI * 2);
-          ctx.strokeStyle = color;
-          ctx.lineWidth = 1.2;
-          ctx.stroke();
-          ctx.beginPath();
-          ctx.arc(x, y, radius * 0.22, 0, Math.PI * 2);
-          ctx.fillStyle = color;
-          ctx.fill();
-        }
+        ctx.fill();
+        ctx.strokeStyle = isOnPath ? "#b8442f" : "#f8f5ed";
+        ctx.lineWidth = isOnPath ? 2.4 : 1.35;
+        ctx.stroke();
       }
 
       if (scope === "shared") {
@@ -539,8 +489,9 @@ export function GraphView({
         if (node.id === hovered?.id) return 0;
         if (node.id === selected) return 1;
         if (pathNodes.has(node.id)) return 2;
-        if (node.type === "case") return 3;
-        return 4 - node.degree;
+        if (node.layer === "shared_concept") return 3;
+        if (node.type === "case") return 4;
+        return 6 - node.degree;
       };
       return score(a) - score(b);
     });
@@ -559,21 +510,28 @@ export function GraphView({
       const isSelected = selected === node.id;
       const isOnPath = pathNodes.has(node.id);
       const isRelated = focusId ? related.has(node.id) : false;
+      const visualAlpha =
+        node.type === "case" && !isHovered && !isSelected && !isOnPath
+          ? alpha * 0.42
+          : alpha;
       const showLabel =
         isHovered ||
         isSelected ||
         isOnPath ||
         node.type === "case" ||
+        node.layer === "shared_concept" ||
         (focusId && isRelated) ||
         (k > 0.86 && node.degree >= (compactLabels ? 5 : 3)) ||
         (k > 0.62 && node.degree >= 6);
-      if (!showLabel || alpha < 0.35) continue;
+      if (!showLabel || visualAlpha < 0.18) continue;
       const label = node.type === "case" ? shortCaseName(node.name) : node.name;
       ctx.save();
       ctx.font =
         node.type === "case"
           ? `600 ${typePx("--text-sm", 12)}px "Segoe UI", "Microsoft YaHei", sans-serif`
-          : `500 ${typePx("--text-xs", 11)}px "Segoe UI", "Microsoft YaHei", sans-serif`;
+          : node.layer === "shared_concept"
+            ? `700 ${typePx("--text-sm", 12)}px "Segoe UI", "Microsoft YaHei", sans-serif`
+            : `500 ${typePx("--text-xs", 11)}px "Segoe UI", "Microsoft YaHei", sans-serif`;
       ctx.textAlign = "center";
       ctx.textBaseline = "top";
       const labelY =
@@ -595,7 +553,7 @@ export function GraphView({
       );
       if (!forceLabel && collides) continue;
       labelBoxes.push(labelBox);
-      ctx.globalAlpha = alpha;
+      ctx.globalAlpha = visualAlpha;
       ctx.lineWidth = 3.2;
       ctx.strokeStyle = "rgba(246,243,236,.94)";
       ctx.lineJoin = "round";
@@ -666,9 +624,14 @@ export function GraphView({
     const { width, height } = size;
     if (width === 0 || height === 0 || graph.nodes.length === 0) return;
 
-    const nodes: SimNode[] = graph.nodes.map((node, index) => {
+    const graphNodes = showCases
+      ? graph.nodes
+      : graph.nodes.filter((node) => node.type !== "case");
+    const visibleNodeIds = new Set(graphNodes.map((node) => node.id));
+
+    const nodes: SimNode[] = graphNodes.map((node, index) => {
       const cached = positionCache.current.get(node.id);
-      const angle = (index / graph.nodes.length) * Math.PI * 2;
+      const angle = (index / graphNodes.length) * Math.PI * 2;
       const ring =
         node.type === "case"
           ? Math.min(width, height) * 0.13
@@ -681,7 +644,9 @@ export function GraphView({
       };
     });
 
-    const links: SimLink[] = graph.links.map((link) => ({ ...link }));
+    const links: SimLink[] = graph.links
+      .filter((link) => visibleNodeIds.has(link.source) && visibleNodeIds.has(link.target))
+      .map((link) => ({ ...link }));
     nodesRef.current = nodes;
     linksRef.current = links;
 
@@ -691,18 +656,16 @@ export function GraphView({
         forceLink<SimNode, SimLink>(links)
           .id((node) => node.id)
           .distance((link) => {
-            const source = link.source as SimNode;
-            const target = link.target as SimNode;
-            const touchesCase =
-              source.type === "case" || target.type === "case";
-            return touchesCase ? 68 : 94;
+            if (link.layer === "concept_mapping") return 72;
+            if (link.layer === "concept_coverage") return 116;
+            if (link.layer === "case_membership") return 64;
+            return 94;
           })
           .strength((link) => {
-            const source = link.source as SimNode;
-            const target = link.target as SimNode;
-            return source.type === "case" || target.type === "case"
-              ? 0.72
-              : 0.4;
+            if (link.layer === "concept_mapping") return 0.8;
+            if (link.layer === "concept_coverage") return 0.46;
+            if (link.layer === "case_membership") return 0.55;
+            return 0.4;
           })
       )
       .force(
@@ -739,7 +702,7 @@ export function GraphView({
     return () => {
       simulation.stop();
     };
-  }, [graph, hasSize, fitView]);
+  }, [graph, hasSize, fitView, showCases]);
 
   useEffect(() => {
     const { width, height } = size;
@@ -964,16 +927,25 @@ export function GraphView({
               className="type-dot"
               style={{ background: TYPE_META[hover.node.type].color }}
             />
+            {hover.node.layer === "shared_concept"
+              ? "共享概念 · "
+              : ""}
             {TYPE_META[hover.node.type].label}
           </div>
           <div className="graph-tooltip-name">{hover.node.name}</div>
           <div className="graph-tooltip-meta">
             {hover.node.type === "case"
               ? `${hover.node.degree} 个关联实体`
-              : `${conceptCaseCount(hover.node, visibleCaseSet) >= 2 ? "跨案例实体" : "案例内实体"} · ${conceptCaseCount(hover.node, visibleCaseSet)} 个案例 · ${hover.node.degree} 条关系`}
+              : hover.node.layer === "shared_concept"
+                ? `覆盖 ${conceptCaseCount(hover.node, visibleCaseSet)} 个案例 · ${hover.node.degree} 条实体映射`
+                : `${conceptCaseCount(hover.node, visibleCaseSet) >= 2 ? "跨案例实体" : "案例内实体"} · ${conceptCaseCount(hover.node, visibleCaseSet)} 个案例 · ${hover.node.degree} 条关系`}
           </div>
           <div className="graph-tooltip-hint">
-            {pathMode ? "点击设为路径节点" : "点击查看知识框架详情"}
+            {pathMode
+              ? "点击设为路径节点"
+              : hover.node.layer === "shared_concept"
+                ? "点击聚焦共享概念"
+                : "点击查看知识框架详情"}
           </div>
         </div>
       )}

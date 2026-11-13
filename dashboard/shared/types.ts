@@ -20,6 +20,15 @@ export type {
 
 export type Strength = "high" | "medium" | "low";
 
+export interface CaseMedia {
+  caption: string;
+  type: string;
+  imageUrl: string | null;
+  sourceUrl: string;
+  credit: string;
+  status: string;
+}
+
 export interface Material {
   id: string;
   caseId: string;
@@ -191,6 +200,7 @@ export interface CaseSummary {
   evidenceCutoff?: string;
   researchQuestion?: string;
   status?: string;
+  media: CaseMedia[];
   preview: {
     rebuild: string;
     materials: Material[];
@@ -221,6 +231,8 @@ export interface GraphNode {
   caseIds: string[];
   description?: string;
   definition?: string;
+  layer?: "entity" | "shared_concept";
+  status?: string;
 }
 
 export interface GraphLink {
@@ -234,7 +246,16 @@ export interface GraphLink {
   qualifiers?: string;
   processIds?: string[];
   evidenceIds?: string[];
+  factGroupId?: string;
+  verifiedEvidenceIds?: string[];
+  candidateEvidenceIds?: string[];
+  traceStatus?: string;
   caseId?: string;
+  layer?:
+    | "relation"
+    | "case_membership"
+    | "concept_coverage"
+    | "concept_mapping";
 }
 
 export interface GraphData {
@@ -251,16 +272,11 @@ export interface OntologyChange {
 export interface OntologyVersion {
   id: string;
   version: string;
-  date: string;
   title: string;
-  summary: string;
-  changes: OntologyChange[];
-  stats: {
-    entities: number;
-    relations: number;
-    cases: number;
-    evidence: number;
-  };
+  structure: string;
+  adjustment: string;
+  problem: string;
+  chapter: string;
 }
 
 export interface AtlasMeta {
@@ -274,6 +290,8 @@ export interface AtlasMeta {
   seedVersion: number;
   vecVersion: string;
   vectorDimensions: number;
+  embeddingModel: string;
+  reviewDecisionCount: number;
   dbPath?: string;
 }
 

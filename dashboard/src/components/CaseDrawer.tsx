@@ -13,7 +13,6 @@ import {
   CloseIcon,
   FileIcon,
   QuoteIcon,
-  SparkIcon,
   TargetIcon
 } from "./Icons";
 import { TypeGlyph } from "./TypeGlyph";
@@ -183,10 +182,27 @@ export function CaseDrawer({
                     </p>
                   ))}
                 </div>
-                <div className="rebuild-note">
-                  <SparkIcon size={13} />
-                  重建说明：仅保留可交叉核验的判断；示例数据不等同于正式研究结论。
-                </div>
+                {detail.media[0] && (
+                  <figure className="rebuild-media">
+                    <img
+                      src={detail.media[0].imageUrl ?? undefined}
+                      alt={detail.media[0].caption}
+                      loading="lazy"
+                    />
+                    <figcaption>
+                      <span>
+                        {detail.media[0].caption} · {detail.media[0].credit}
+                      </span>
+                      <a
+                        href={detail.media[0].sourceUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        查看原始出处 ↗
+                      </a>
+                    </figcaption>
+                  </figure>
+                )}
               </section>
 
               <section className="drawer-section">
@@ -246,33 +262,6 @@ export function CaseDrawer({
               <section className="drawer-section">
                 <div className="section-heading">
                   <span className="section-number">03</span>
-                  <h2>原生概念</h2>
-                  <i />
-                </div>
-                <div className="native-concept-grid">
-                  {detail.nativeConcepts.map((concept) => (
-                    <article key={concept.id} className="native-concept-card">
-                      <div className="native-concept-head">
-                        <TypeGlyph type={concept.entityType} size={11} />
-                        <span>{TYPE_META[concept.entityType].label}</span>
-                        <em>{concept.id}</em>
-                      </div>
-                      <h3>{concept.label}</h3>
-                      <p>{concept.definition}</p>
-                      <div className="native-concept-meta">
-                        来源关系 {concept.sourceRelationIds.join(" · ") || "待补"}
-                      </div>
-                    </article>
-                  ))}
-                  {detail.nativeConcepts.length === 0 && (
-                    <p className="drawer-empty">暂无原生概念。</p>
-                  )}
-                </div>
-              </section>
-
-              <section className="drawer-section">
-                <div className="section-heading">
-                  <span className="section-number">04</span>
                   <h2>相关实体</h2>
                   <i />
                 </div>
@@ -308,7 +297,7 @@ export function CaseDrawer({
 
               <section className="drawer-section">
                 <div className="section-heading">
-                  <span className="section-number">05</span>
+                  <span className="section-number">04</span>
                   <h2>材料清单</h2>
                   <i />
                 </div>
@@ -336,7 +325,7 @@ export function CaseDrawer({
 
               <section className="drawer-section">
                 <div className="section-heading">
-                  <span className="section-number">06</span>
+                  <span className="section-number">05</span>
                   <h2>证据链</h2>
                   <i />
                 </div>

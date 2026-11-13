@@ -3,7 +3,6 @@ import type {
   Evidence,
   FactStatus,
   Material,
-  OntologyVersion,
   Strength
 } from "../shared/types";
 
@@ -621,27 +620,6 @@ export const nativeConcepts: SeedNativeConcept[] = [
     examples: ["使用 Frogbox 记录室内环境"],
     sourceRelationIds: ["R011"],
     status: "native"
-  }
-];
-
-export const ontology: OntologyVersion[] = [
-  {
-    id: "v0.1",
-    version: "v0.1",
-    date: "2026-11-13",
-    title: "社区更新本体 v0.1",
-    summary: "按附录 A 建立情境、主体、任务、技术、能力、行动、作用对象、结果八类核心实体。",
-    changes: [
-      { kind: "add", text: "建立八类核心实体", count: 8 },
-      { kind: "add", text: "建立 Damp Busters 原生知识节点", count: entities.length },
-      { kind: "link", text: "建立基础关系与证据关联", count: relations.length }
-    ],
-    stats: {
-      entities: entities.length,
-      relations: relations.length,
-      cases: cases.length,
-      evidence: cases.reduce((total, item) => total + item.evidence.length, 0)
-    }
   }
 ];
 

@@ -6,7 +6,6 @@ import type {
   OntologyVersion
 } from "../../shared/types";
 import {
-  CHANGE_META,
   TYPE_META,
   ENTITY_TYPES
 } from "../../shared/meta";
@@ -32,6 +31,8 @@ export function OntologyDock({
   ontology,
   selectedVersionId,
   graph,
+  showCases,
+  onToggleCases,
   onVersionChange,
   onClearEntity,
   onOpenCase,
@@ -43,6 +44,8 @@ export function OntologyDock({
   ontology: OntologyVersion[];
   selectedVersionId: string;
   graph: GraphData;
+  showCases: boolean;
+  onToggleCases: () => void;
   onVersionChange: (versionId: string) => void;
   onClearEntity: () => void;
   onOpenCase: (caseId: string) => void;
@@ -54,7 +57,10 @@ export function OntologyDock({
     ontology[ontology.length - 1];
   const counts = ENTITY_TYPES.map((type) => ({
     type,
-    count: graph.nodes.filter((node) => node.type === type).length
+    count: graph.nodes.filter(
+      (node) =>
+        node.type === type && (node.layer ?? "entity") === "entity"
+    ).length
   }));
   const visibleCases = visibleCaseIds(graph);
   const entityScope = entityDetail
@@ -72,8 +78,15 @@ export function OntologyDock({
           <span className="dock-title-cn">知识框架</span>
         </div>
         <span className="dock-collapsed-note">
-          {graph.nodes.filter((node) => node.type !== "case").length} 实体 ·{" "}
-          {graph.links.filter((link) => link.type !== "涉及").length} 关系
+          {graph.nodes.filter(
+            (node) =>
+              node.type !== "case" && (node.layer ?? "entity") === "entity"
+          ).length}{" "}
+          实体 ·{" "}
+          {graph.links.filter(
+            (link) => (link.layer ?? "relation") === "relation"
+          ).length}{" "}
+          关系
         </span>
         <div className="dock-head-spacer" />
         <button
@@ -85,7 +98,7 @@ export function OntologyDock({
         >
           <span className="eyebrow">版本历史</span>
           <span className="version-pill">{selectedVersion?.version}</span>
-          <span>{selectedVersion?.date}</span>
+          <span>{selectedVersion?.title}</span>
         </button>
       </div>
 
@@ -93,6 +106,17 @@ export function OntologyDock({
         <section className="framework-legend">
           <div className="framework-section-head">
             <h4>图谱图例</h4>
+            <button
+              type="button"
+              className={`legend-case-toggle${showCases ? " is-active" : ""}`}
+              aria-pressed={showCases}
+              aria-label={`${showCases ? "隐藏" : "显示"}案例节点`}
+              title={`${showCases ? "隐藏" : "显示"}案例节点`}
+              onClick={onToggleCases}
+            >
+              <span className="legend-case-square" aria-hidden="true" />
+              案例
+            </button>
             <span className="framework-count">{graph.nodes.length} 节点</span>
           </div>
           <div className="legend-types legend-types--inline">
@@ -108,13 +132,13 @@ export function OntologyDock({
             <span className="framework-scope-label">概念层</span>
             <span className="scope-item">
               <i className="scope-glyph" />
-              原生 <em>{meta.nativeConceptCount}</em>
+              原生实体 <em>{meta.nativeConceptCount}</em>
             </span>
             <span className="scope-item">
               <i className="scope-glyph is-shared" />
-              共享 <em>{meta.sharedConceptCount}</em>
+              共享概念 <em>{meta.sharedConceptCount}</em>
             </span>
-            <span className="framework-scope-note">概念与实体分层记录</span>
+            <span className="framework-scope-note">研究者已接受 v0.2</span>
           </div>
           <div className="framework-legend-foot">
             <div className="legend-lines">
@@ -127,6 +151,14 @@ export function OntologyDock({
                 案例涉及
               </div>
               <div>
+                <span className="line-sample line-concept" />
+                概念覆盖
+              </div>
+              <div>
+                <span className="line-sample line-mapping" />
+                共享映射
+              </div>
+              <div>
                 <span className="line-sample line-path" />
                 分析路径
               </div>
@@ -134,6 +166,9 @@ export function OntologyDock({
             <span className="framework-mini-note">
               <InfoIcon size={11} />
               节点大小 = 关系度数
+            </span>
+            <span className="framework-mini-note">
+              案例实体沿用八类颜色 · 菱形为共享概念
             </span>
             <span className="framework-mini-note">悬停聚焦 · 点击查看</span>
           </div>
@@ -247,7 +282,7 @@ export function OntologyDock({
           >
             <h4>版本历史</h4>
             <span className="framework-version-current">
-              {selectedVersion?.version} · {selectedVersion?.date}
+              {selectedVersion?.version} · {selectedVersion?.title}
             </span>
             <span className="framework-version-toggle-label">
               {versionOpen ? "收起" : "展开"}
@@ -271,7 +306,6 @@ export function OntologyDock({
                   >
                     <span className="version-card-top">
                       <strong>{version.version}</strong>
-                      <em>{version.date.slice(2).replace(/-/g, ".")}</em>
                     </span>
                     <span>{version.title}</span>
                   </button>
@@ -283,43 +317,24 @@ export function OntologyDock({
                     <span className="eyebrow">版本说明</span>
                     <h4>{selectedVersion.title}</h4>
                   </div>
-                  <div className="version-stats">
-                    <span>
-                      <strong>{selectedVersion.stats.entities}</strong> 实体
-                    </span>
-                    <span>
-                      <strong>{selectedVersion.stats.relations}</strong> 关系
-                    </span>
-                    <span>
-                      <strong>{selectedVersion.stats.cases}</strong> 案例
-                    </span>
+                  <span className="version-chapter">
+                    对应章节 {selectedVersion.chapter}
+                  </span>
+                </div>
+                <dl className="version-facts">
+                  <div>
+                    <dt>核心结构</dt>
+                    <dd>{selectedVersion.structure}</dd>
                   </div>
-                </div>
-                <p className="version-summary">{selectedVersion.summary}</p>
-                <div className="version-changes">
-                  {selectedVersion.changes.map((change, index) => {
-                    const meta = CHANGE_META[change.kind];
-                    return (
-                      <div
-                        key={`${change.text}-${index}`}
-                        className="change-row"
-                      >
-                        <span
-                          className="change-badge"
-                          style={{
-                            color: meta.color,
-                            borderColor: `${meta.color}55`,
-                            background: `${meta.color}10`
-                          }}
-                        >
-                          {meta.label}
-                        </span>
-                        <span>{change.text}</span>
-                        {change.count !== undefined && <em>{change.count}</em>}
-                      </div>
-                    );
-                  })}
-                </div>
+                  <div>
+                    <dt>主要调整</dt>
+                    <dd>{selectedVersion.adjustment}</dd>
+                  </div>
+                  <div>
+                    <dt>解决问题</dt>
+                    <dd>{selectedVersion.problem}</dd>
+                  </div>
+                </dl>
               </div>
             </div>
           )}

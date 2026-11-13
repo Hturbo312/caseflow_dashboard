@@ -1,4 +1,5 @@
 export const VECTOR_DIMENSIONS = 384;
+export const EMBEDDING_MODEL = "hashed-ngram-v1";
 
 const STOP_WORDS = new Set([
   "the",
