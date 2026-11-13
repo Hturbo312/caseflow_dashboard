@@ -640,3 +640,130 @@ const h56 = `<!doctype html><html lang="zh"><head><meta charset="utf-8"/><style>
 
 fs.writeFileSync(path.join(OUT, "fig5-6.html"), h56, "utf8");
 console.log("wrote fig5-6.html");
+
+/* ================= 图 5-7 ================= */
+const STEPS = [
+  {
+    no: "01",
+    name: "更新问题识别",
+    prob: "社区问题与空间状况\n难以识别",
+    tech: ["数据采集", "环境监测 · 空间分析"],
+    cond: "数据能否转化为\n具体更新任务",
+    cases: "C13 · C04 · C09"
+  },
+  {
+    no: "02",
+    name: "技术能力与任务匹配",
+    prob: "居民需求与空间设想\n难以充分表达",
+    tech: ["数字参与 · 交互可视化", "生成式 AI"],
+    cond: "意见如何进入规划方案\n与正式决策",
+    cases: "C19 · C20 · C02 · C03"
+  },
+  {
+    no: "03",
+    name: "实施条件判断",
+    prob: "技术方案难以\n进入实际实施",
+    tech: ["建筑诊断 · 设计辅助", "项目管理"],
+    cond: "产权决策 · 责任主体\n资金与施工条件",
+    cases: "C10 · C11 · C14"
+  },
+  {
+    no: "04",
+    name: "行动组织",
+    prob: "参与成果缺少\n可承接的行动安排",
+    tech: ["行动清单 · 工单流转", "多方协同"],
+    cond: "任务颗粒度 · 牵头主体\n程序衔接",
+    cases: "C19 · C15 · C04"
+  },
+  {
+    no: "05",
+    name: "持续评价",
+    prob: "数字服务能否持续\n效果如何评价",
+    tech: ["运行监测 · 数据记录", "指标分析"],
+    cond: "运营主体 · 维护资源\n评价对象与证据来源",
+    cases: "C12 · C16 · C17"
+  }
+];
+
+const CX = [24, 322, 620, 918, 1216];
+const CW = 246;
+
+function card(s, x, y) {
+  const h = 236;
+  const lines = (t, x0, y0, size, fill, lh) =>
+    t
+      .split("\n")
+      .map((l, i) => `<text x="${x0}" y="${y0 + i * lh}" font-size="${size}" fill="${fill}">${esc(l)}</text>`)
+      .join("");
+  return `<g>
+  <rect x="${x}" y="${y}" width="${CW}" height="${h}" rx="9" fill="#ffffff" stroke="#d9d3c4" stroke-width="1.3"/>
+  <path d="M ${x} ${y + 9} a 9 9 0 0 1 9 -9 h ${CW - 18} a 9 9 0 0 1 9 9 v 25 h -${CW} z" fill="#eef3f9"/>
+  <text x="${x + 13}" y="${y + 24}" font-size="10.5" font-weight="600" fill="#4f77a0">${s.no}</text>
+  <text x="${x + 38}" y="${y + 24}" font-size="13" font-weight="600" fill="#243447">${esc(s.name)}</text>
+
+  <text x="${x + 13}" y="${y + 52}" font-size="8.5" fill="#a2988a" letter-spacing="0.6">典型问题</text>
+  ${lines(s.prob, x + 13, y + 70, 11, "#3a3d42", 15)}
+
+  <rect x="${x + 13}" y="${y + 96}" width="${CW - 26}" height="52" rx="5" fill="#f0f7f2"/>
+  <text x="${x + 21}" y="${y + 111}" font-size="8.5" fill="#5d8a70" letter-spacing="0.6">技术可支持</text>
+  ${s.tech.map((t, i) => `<text x="${x + 21}" y="${y + 127 + i * 14}" font-size="10.5" fill="#2f5a41">${esc(t)}</text>`).join("")}
+
+  <rect x="${x + 13}" y="${y + 156}" width="${CW - 26}" height="52" rx="5" fill="#fdf5ea"/>
+  <text x="${x + 21}" y="${y + 171}" font-size="8.5" fill="#a8763f" letter-spacing="0.6">需进一步判断</text>
+  ${lines(s.cond, x + 21, y + 187, 10.5, "#6e4a1c", 14)}
+
+  <text x="${x + 13}" y="${y + 224}" font-size="8.5" fill="#b3a992">案例 ${esc(s.cases)}</text>
+  </g>`;
+}
+
+function fig57() {
+  const y0 = 76;
+  const ch = 236;
+  const lineY = y0 + ch + 30;
+  const bandY = lineY + 20;
+  const H = bandY + 90;
+  const arrows = CX.slice(0, -1)
+    .map(
+      (x, i) =>
+        `<path d="M ${x + CW + 8} ${y0 + 44} L ${CX[i + 1] - 8} ${y0 + 44}" stroke="#b9b1a0" stroke-width="1.4" marker-end="url(#ahs)"/>`
+    )
+    .join("");
+
+  const fbIn = `<path d="M ${CX[4] + CW / 2} ${y0 + ch + 4} L ${CX[4] + CW / 2} ${lineY}" stroke="#8b8477" stroke-width="1.3" stroke-dasharray="6 5"/>`;
+  const fbLine = `<path d="M ${CX[4] + CW / 2} ${lineY} L ${CX[0] + CW / 2} ${lineY}" stroke="#8b8477" stroke-width="1.3" stroke-dasharray="6 5"/>`;
+  const fbUp = `<path d="M ${CX[0] + CW / 2} ${lineY} L ${CX[0] + CW / 2} ${y0 + ch + 6}" stroke="#8b8477" stroke-width="1.3" stroke-dasharray="6 5" marker-end="url(#ahg)"/>`;
+  const fbBranch = `<path d="M ${CX[2] + CW / 2} ${lineY} L ${CX[2] + CW / 2} ${y0 + ch + 6}" stroke="#c3a06a" stroke-width="1.2" stroke-dasharray="4 4" marker-end="url(#ahd)"/>`;
+
+  return `<svg width="1520" height="${H}" viewBox="0 0 1520 ${H}" xmlns="http://www.w3.org/2000/svg" font-family="${FONT}">
+<defs>
+<marker id="ahs" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#b9b1a0"/></marker>
+<marker id="ahg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#8b8477"/></marker>
+<marker id="ahd" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#c3a06a"/></marker>
+</defs>
+
+<text x="24" y="30" font-size="13.5" font-weight="600" fill="#2b2b2b">面向社区更新任务的数智技术应用判断框架</text>
+<text x="24" y="52" font-size="10" fill="#8b8477">判断按更新任务与实施阶段推进；同一技术可服务多个环节，不是线性流程。</text>
+
+${STEPS.map((s, i) => card(s, CX[i], y0)).join("")}
+${arrows}
+
+<rect x="${CX[0]}" y="${bandY}" width="${CX[4] + CW - CX[0]}" height="54" rx="7" fill="#f7f5ef" stroke="#e2dccd"/>
+<text x="${CX[0] + 16}" y="${bandY + 22}" font-size="10.5" font-weight="600" fill="#6b6455">运行反馈</text>
+<text x="${CX[0] + 76}" y="${bandY + 22}" font-size="9.5" fill="#7b7466">服务覆盖 · 实际使用 · 运行变化 · 主体更替　→　修正任务识别与实施条件判断</text>
+<text x="${CX[0] + 16}" y="${bandY + 41}" font-size="9" fill="#a2988a">反馈不改变技术本身，改变的是"下一步判断什么"；未记录的服务状态本身也是需要回填的证据缺口。</text>
+${fbIn}${fbLine}${fbUp}${fbBranch}
+
+<text x="${CX[2] + CW / 2 + 9}" y="${lineY - 7}" font-size="8.5" fill="#b08a52">回写条件判断</text>
+<text x="${CX[0] + CW / 2 + 9}" y="${lineY - 7}" font-size="8.5" fill="#8b8477">回到任务识别</text>
+<text x="24" y="${H - 16}" font-size="9" fill="#a2988a">注：框架给出的是判断顺序而非技术选型清单；案例标签表示该环节的主要证据来源。</text>
+</svg>`;
+}
+
+const h57 = `<!doctype html><html lang="zh"><head><meta charset="utf-8"/><style>html,body{margin:0;padding:0;background:#fff;}#wrap{width:1520px;}
+.cap{font-family:${SERIF};font-size:12.5px;color:#333;padding:12px 26px 0 26px;line-height:1.7;}.cap b{font-family:${FONT};}</style></head>
+<body><div id="wrap">${fig57()}
+<div class="cap"><b>图 5-7</b>　面向社区更新的数智技术应用判断框架。五个环节依次为更新问题识别、技术能力与任务匹配、实施条件判断、行动组织与持续评价；每一环节标注典型问题、技术可提供的支持、仍需判断的实施条件，以及支撑该环节的主要案例。底部为运行反馈：服务覆盖、实际使用、运行变化与主体更替回流至任务识别，并对实施条件判断形成修正。</div>
+</div></body></html>`;
+
+fs.writeFileSync(path.join(OUT, "fig5-7.html"), h57, "utf8");
+console.log("wrote fig5-7.html");
