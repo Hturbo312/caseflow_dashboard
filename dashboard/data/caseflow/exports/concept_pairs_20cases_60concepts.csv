@@ -1,0 +1,271 @@
+﻿案例编号,概念ID,概念名称,实体类别,来源
+C01,SC-C01-111,地方政府与规划治理主体,actor,S+M
+C01,SC-C01-112,专业研究和服务机构,actor,S+M
+C01,SC-C01-113,社区居民与家庭,actor,S+M
+C01,SC-C01-114,地方组织与运营主体,actor,S+M
+C01,SC-C01-122,规划设计与实施准备,task,S+M
+C01,SC-C01-131,数字参与与可视化工具,technology,S+M
+C01,SC-C01-134,通信与公共数字基础设施,technology,S+M
+C01,SC-C01-141,参与表达与意见采集能力,capability,S+M
+C01,SC-C01-143,信息服务与空间分析能力,capability,S+M
+C01,SC-C01-145,能源与设施服务能力,capability,S+M
+C01,SC-C01-151,社区参与与意见收集,action,S+M
+C01,SC-C01-153,数字平台开发与内容生产,action,S+M
+C01,SC-C01-154,数字服务运营与迭代,action,S+M
+C01,SC-C01-155,跨组织协作与信息协调,action,S+M
+C01,SC-C01-165,产权组织与参与范围,target,S+M
+C01,SC-C01-175,实施风险与负面结果,outcome,S+M
+C01,SC-C12-102,社区门户与本地公共服务入口,technology,S 概念支持案例
+C02,SC-C01-102,规划制度与产权治理约束,context,S+M
+C02,SC-C01-111,地方政府与规划治理主体,actor,S+M
+C02,SC-C01-112,专业研究和服务机构,actor,S+M
+C02,SC-C01-113,社区居民与家庭,actor,S+M
+C02,SC-C01-121,社区问题与需求识别,task,S+M
+C02,SC-C01-122,规划设计与实施准备,task,S+M
+C02,SC-C01-131,数字参与与可视化工具,technology,S+M
+C02,SC-C01-141,参与表达与意见采集能力,capability,S+M
+C02,SC-C01-151,社区参与与意见收集,action,S+M
+C02,SC-C01-162,规划方案与项目文件,target,S+M
+C02,SC-C01-163,居民意见与参与内容,target,S+M
+C02,SC-C01-173,参与表达与规划共制成果,outcome,S+M
+C02,SC-C01-174,治理决策与制度进展,outcome,S+M
+C02,SC-C01-175,实施风险与负面结果,outcome,S+M
+C03,SC-C01-112,专业研究和服务机构,actor,S+M
+C03,SC-C01-113,社区居民与家庭,actor,S+M
+C03,SC-C01-131,数字参与与可视化工具,technology,S+M
+C03,SC-C01-141,参与表达与意见采集能力,capability,S+M
+C03,SC-C01-143,信息服务与空间分析能力,capability,S+M
+C03,SC-C01-151,社区参与与意见收集,action,S+M
+C03,SC-C01-155,跨组织协作与信息协调,action,S+M
+C03,SC-C01-157,空间设施施工与实体更新,action,S+M
+C03,SC-C01-162,规划方案与项目文件,target,S+M
+C03,SC-C01-163,居民意见与参与内容,target,S+M
+C03,SC-C01-171,实体环境与能源改造成效,outcome,S+M
+C03,SC-C01-173,参与表达与规划共制成果,outcome,S+M
+C04,SC-C01-101,建成环境老化与更新约束,context,S+M
+C04,SC-C01-111,地方政府与规划治理主体,actor,S+M
+C04,SC-C01-113,社区居民与家庭,actor,S+M
+C04,SC-C01-114,地方组织与运营主体,actor,S+M
+C04,SC-C01-121,社区问题与需求识别,task,S+M
+C04,SC-C01-123,数字平台与数据治理任务,task,S+M
+C04,SC-C01-124,安全身份与隐私管理,task,S+M
+C04,SC-C01-132,社区治理与行政平台,technology,S+M
+C04,SC-C01-133,传感监测与异常识别设备,technology,S+M
+C04,SC-C01-142,数据监测与环境诊断能力,capability,S+M
+C04,SC-C01-144,协同处置与任务流转能力,capability,S+M
+C04,SC-C01-152,方案共制与居民协商决策,action,S+M
+C04,SC-C01-153,数字平台开发与内容生产,action,S+M
+C04,SC-C01-156,问题核查与闭环处置,action,S+M
+C04,SC-C01-157,空间设施施工与实体更新,action,S+M
+C04,SC-C01-158,技术试验与能力建设,action,S+M
+C04,SC-C01-164,数据图像与运行记录,target,S+M
+C04,SC-C01-166,设备服务与异常事件对象,target,S+M
+C04,SC-C01-171,实体环境与能源改造成效,outcome,S+M
+C04,SC-C01-172,数字服务与平台运行成果,outcome,S+M
+C05,SC-C01-111,地方政府与规划治理主体,actor,S+M
+C05,SC-C01-113,社区居民与家庭,actor,S+M
+C05,SC-C01-114,地方组织与运营主体,actor,S+M
+C05,SC-C01-121,社区问题与需求识别,task,S+M
+C05,SC-C01-122,规划设计与实施准备,task,S+M
+C05,SC-C01-123,数字平台与数据治理任务,task,S+M
+C05,SC-C01-131,数字参与与可视化工具,technology,S+M
+C05,SC-C01-132,社区治理与行政平台,technology,S+M
+C05,SC-C01-133,传感监测与异常识别设备,technology,S+M
+C05,SC-C01-142,数据监测与环境诊断能力,capability,S+M
+C05,SC-C01-151,社区参与与意见收集,action,S+M
+C05,SC-C01-152,方案共制与居民协商决策,action,S+M
+C05,SC-C01-156,问题核查与闭环处置,action,S+M
+C05,SC-C01-157,空间设施施工与实体更新,action,S+M
+C05,SC-C01-159,监测评估与反馈调整,action,S+M
+C05,SC-C01-161,住区空间建筑与基础设施,target,S+M
+C05,SC-C01-162,规划方案与项目文件,target,S+M
+C05,SC-C01-164,数据图像与运行记录,target,S+M
+C05,SC-C01-166,设备服务与异常事件对象,target,S+M
+C05,SC-C01-172,数字服务与平台运行成果,outcome,S+M
+C05,SC-C01-175,实施风险与负面结果,outcome,S+M
+C06,SC-C01-104,资源成本与运维条件约束,context,S+M
+C06,SC-C01-111,地方政府与规划治理主体,actor,S+M
+C06,SC-C01-113,社区居民与家庭,actor,S+M
+C06,SC-C01-121,社区问题与需求识别,task,S+M
+C06,SC-C01-123,数字平台与数据治理任务,task,S+M
+C06,SC-C01-131,数字参与与可视化工具,technology,S+M
+C06,SC-C01-133,传感监测与异常识别设备,technology,S+M
+C06,SC-C01-142,数据监测与环境诊断能力,capability,S+M
+C06,SC-C01-151,社区参与与意见收集,action,S+M
+C06,SC-C01-152,方案共制与居民协商决策,action,S+M
+C06,SC-C01-158,技术试验与能力建设,action,S+M
+C06,SC-C01-161,住区空间建筑与基础设施,target,S+M
+C06,SC-C01-164,数据图像与运行记录,target,S+M
+C06,SC-C01-176,组织能力与可复制成果,outcome,S+M
+C07,SC-C01-102,规划制度与产权治理约束,context,S+M
+C07,SC-C01-104,资源成本与运维条件约束,context,S+M
+C07,SC-C01-111,地方政府与规划治理主体,actor,S+M
+C07,SC-C01-112,专业研究和服务机构,actor,S+M
+C07,SC-C01-113,社区居民与家庭,actor,S+M
+C07,SC-C01-114,地方组织与运营主体,actor,S+M
+C07,SC-C01-121,社区问题与需求识别,task,S+M
+C07,SC-C01-122,规划设计与实施准备,task,S+M
+C07,SC-C01-131,数字参与与可视化工具,technology,S+M
+C07,SC-C01-132,社区治理与行政平台,technology,S+M
+C07,SC-C01-133,传感监测与异常识别设备,technology,S+M
+C07,SC-C01-134,通信与公共数字基础设施,technology,S+M
+C07,SC-C01-141,参与表达与意见采集能力,capability,S+M
+C07,SC-C01-143,信息服务与空间分析能力,capability,S+M
+C07,SC-C01-151,社区参与与意见收集,action,S+M
+C07,SC-C01-153,数字平台开发与内容生产,action,S+M
+C07,SC-C01-155,跨组织协作与信息协调,action,S+M
+C07,SC-C01-157,空间设施施工与实体更新,action,S+M
+C07,SC-C01-161,住区空间建筑与基础设施,target,S+M
+C07,SC-C01-162,规划方案与项目文件,target,S+M
+C07,SC-C01-171,实体环境与能源改造成效,outcome,S+M
+C07,SC-C01-172,数字服务与平台运行成果,outcome,S+M
+C07,SC-C01-173,参与表达与规划共制成果,outcome,S+M
+C07,SC-C12-101,家庭数字终端部署与接入,action,S 概念支持案例
+C07,SC-C12-102,社区门户与本地公共服务入口,technology,S 概念支持案例
+C08,SC-C01-104,资源成本与运维条件约束,context,S+M
+C08,SC-C01-112,专业研究和服务机构,actor,S+M
+C08,SC-C01-114,地方组织与运营主体,actor,S+M
+C08,SC-C01-121,社区问题与需求识别,task,S+M
+C08,SC-C01-123,数字平台与数据治理任务,task,S+M
+C08,SC-C01-124,安全身份与隐私管理,task,S+M
+C08,SC-C01-133,传感监测与异常识别设备,technology,S+M
+C08,SC-C01-134,通信与公共数字基础设施,technology,S+M
+C08,SC-C01-142,数据监测与环境诊断能力,capability,S+M
+C08,SC-C01-143,信息服务与空间分析能力,capability,S+M
+C08,SC-C01-145,能源与设施服务能力,capability,S+M
+C08,SC-C01-151,社区参与与意见收集,action,S+M
+C08,SC-C01-154,数字服务运营与迭代,action,S+M
+C08,SC-C01-155,跨组织协作与信息协调,action,S+M
+C08,SC-C01-156,问题核查与闭环处置,action,S+M
+C08,SC-C01-157,空间设施施工与实体更新,action,S+M
+C08,SC-C01-159,监测评估与反馈调整,action,S+M
+C08,SC-C01-161,住区空间建筑与基础设施,target,S+M
+C08,SC-C01-164,数据图像与运行记录,target,S+M
+C08,SC-C01-166,设备服务与异常事件对象,target,S+M
+C08,SC-C01-176,组织能力与可复制成果,outcome,S+M
+C09,SC-C01-101,建成环境老化与更新约束,context,S+M
+C09,SC-C01-104,资源成本与运维条件约束,context,S+M
+C09,SC-C01-111,地方政府与规划治理主体,actor,S+M
+C09,SC-C01-113,社区居民与家庭,actor,S+M
+C09,SC-C01-114,地方组织与运营主体,actor,S+M
+C09,SC-C01-121,社区问题与需求识别,task,S+M
+C09,SC-C01-123,数字平台与数据治理任务,task,S+M
+C09,SC-C01-132,社区治理与行政平台,technology,S+M
+C09,SC-C01-133,传感监测与异常识别设备,technology,S+M
+C09,SC-C01-142,数据监测与环境诊断能力,capability,S+M
+C09,SC-C01-143,信息服务与空间分析能力,capability,S+M
+C09,SC-C01-144,协同处置与任务流转能力,capability,S+M
+C09,SC-C01-151,社区参与与意见收集,action,S+M
+C09,SC-C01-153,数字平台开发与内容生产,action,S+M
+C09,SC-C01-154,数字服务运营与迭代,action,S+M
+C09,SC-C01-156,问题核查与闭环处置,action,S+M
+C09,SC-C01-161,住区空间建筑与基础设施,target,S+M
+C09,SC-C01-164,数据图像与运行记录,target,S+M
+C09,SC-C01-166,设备服务与异常事件对象,target,S+M
+C09,SC-C01-172,数字服务与平台运行成果,outcome,S+M
+C09,SC-C01-174,治理决策与制度进展,outcome,S+M
+C10,SC-C01-101,建成环境老化与更新约束,context,S+M
+C10,SC-C01-102,规划制度与产权治理约束,context,S+M
+C10,SC-C01-104,资源成本与运维条件约束,context,S+M
+C10,SC-C01-113,社区居民与家庭,actor,S+M
+C10,SC-C01-114,地方组织与运营主体,actor,S+M
+C10,SC-C01-122,规划设计与实施准备,task,S+M
+C10,SC-C01-123,数字平台与数据治理任务,task,S+M
+C10,SC-C01-125,能源改造与业主协同准备,task,S+M
+C10,SC-C01-132,社区治理与行政平台,technology,S+M
+C10,SC-C01-133,传感监测与异常识别设备,technology,S+M
+C10,SC-C01-134,通信与公共数字基础设施,technology,S+M
+C10,SC-C01-135,住宅能源与智能系统,technology,S+M
+C10,SC-C01-152,方案共制与居民协商决策,action,S+M
+C10,SC-C01-154,数字服务运营与迭代,action,S+M
+C10,SC-C01-157,空间设施施工与实体更新,action,S+M
+C10,SC-C01-159,监测评估与反馈调整,action,S+M
+C10,SC-C01-161,住区空间建筑与基础设施,target,S+M
+C10,SC-C01-165,产权组织与参与范围,target,S+M
+C10,SC-C01-166,设备服务与异常事件对象,target,S+M
+C10,SC-C01-171,实体环境与能源改造成效,outcome,S+M
+C11,SC-C01-101,建成环境老化与更新约束,context,S+M
+C11,SC-C01-102,规划制度与产权治理约束,context,S+M
+C11,SC-C01-104,资源成本与运维条件约束,context,S+M
+C11,SC-C01-111,地方政府与规划治理主体,actor,S+M
+C11,SC-C01-112,专业研究和服务机构,actor,S+M
+C11,SC-C01-113,社区居民与家庭,actor,S+M
+C11,SC-C01-114,地方组织与运营主体,actor,S+M
+C11,SC-C01-122,规划设计与实施准备,task,S+M
+C11,SC-C01-125,能源改造与业主协同准备,task,S+M
+C11,SC-C01-135,住宅能源与智能系统,technology,S+M
+C11,SC-C01-145,能源与设施服务能力,capability,S+M
+C11,SC-C01-151,社区参与与意见收集,action,S+M
+C11,SC-C01-152,方案共制与居民协商决策,action,S+M
+C11,SC-C01-154,数字服务运营与迭代,action,S+M
+C11,SC-C01-157,空间设施施工与实体更新,action,S+M
+C11,SC-C01-158,技术试验与能力建设,action,S+M
+C11,SC-C01-161,住区空间建筑与基础设施,target,S+M
+C11,SC-C01-162,规划方案与项目文件,target,S+M
+C11,SC-C01-165,产权组织与参与范围,target,S+M
+C11,SC-C01-171,实体环境与能源改造成效,outcome,S+M
+C11,SC-C01-173,参与表达与规划共制成果,outcome,S+M
+C11,SC-C01-174,治理决策与制度进展,outcome,S+M
+C11,SC-C01-175,实施风险与负面结果,outcome,S+M
+C12,SC-C01-134,通信与公共数字基础设施,technology,M 已确认映射
+C12,SC-C01-151,社区参与与意见收集,action,M 已确认映射
+C12,SC-C01-158,技术试验与能力建设,action,M 已确认映射
+C12,SC-C12-101,家庭数字终端部署与接入,action,S+M
+C12,SC-C12-102,社区门户与本地公共服务入口,technology,S+M
+C13,SC-C01-143,信息服务与空间分析能力,capability,M 已确认映射
+C14,SC-C01-158,技术试验与能力建设,action,M 已确认映射
+C15,SC-C01-114,地方组织与运营主体,actor,M 已确认映射
+C15,SC-C01-131,数字参与与可视化工具,technology,M 已确认映射
+C15,SC-C01-132,社区治理与行政平台,technology,M 已确认映射
+C15,SC-C01-133,传感监测与异常识别设备,technology,M 已确认映射
+C15,SC-C01-152,方案共制与居民协商决策,action,M 已确认映射
+C15,SC-C01-156,问题核查与闭环处置,action,M 已确认映射
+C15,SC-C01-161,住区空间建筑与基础设施,target,M 已确认映射
+C16,SC-C01-114,地方组织与运营主体,actor,M 已确认映射
+C16,SC-C01-134,通信与公共数字基础设施,technology,M 已确认映射
+C16,SC-C01-175,实施风险与负面结果,outcome,M 已确认映射
+C16,SC-C16-201,本地数字维护者,actor,S 概念支持案例
+C17,SC-C01-151,社区参与与意见收集,action,M 已确认映射
+C17,SC-C01-158,技术试验与能力建设,action,M 已确认映射
+C17,SC-C01-176,组织能力与可复制成果,outcome,M 已确认映射
+C17,SC-C17-01,社区洪泛记忆的空间转译,capability,M 已确认映射
+C17,SC-C17-02,大学—社区联合外业制图,action,M 已确认映射
+C17,SC-C17-03,开放地理数据生产与发布,task,M 已确认映射
+C17,SC-C17-04,基础设施网络数据模型,technology,M 已确认映射
+C17,SC-C17-05,低成本移动采集工具组合,technology,M 已确认映射
+C17,SC-C17-06,模型验证与迭代,action,M 已确认映射
+C17,SC-C17-07,数据稀缺与基础地图缺失,context,M 已确认映射
+C18,SC-C01-132,社区治理与行政平台,technology,S+M
+C18,SC-C01-141,参与表达与意见采集能力,capability,S+M
+C18,SC-C01-143,信息服务与空间分析能力,capability,S+M
+C18,SC-C01-151,社区参与与意见收集,action,S+M
+C18,SC-C01-156,问题核查与闭环处置,action,S+M
+C18,SC-C01-158,技术试验与能力建设,action,S+M
+C18,SC-C18-01,LLM增强的社区信息服务平台,technology,M 已确认映射
+C18,SC-C18-03,设施信息检索与主动推送,capability,M 已确认映射
+C18,SC-C18-04,高密度社区网格化治理试点,action,M 已确认映射
+C18,SC-C18-05,校社联动小程序打卡,action,M 已确认映射
+C18,SC-C18-06,邻里UGC与在线社交能力,capability,M 已确认映射
+C18,SC-C18-07,社区资源供需评估与优化建议能力,capability,M 已确认映射
+C19,SC-C01-102,规划制度与产权治理约束,context,S 概念支持案例
+C19,SC-C01-111,地方政府与规划治理主体,actor,S 概念支持案例
+C19,SC-C01-112,专业研究和服务机构,actor,S 概念支持案例
+C19,SC-C01-114,地方组织与运营主体,actor,S 概念支持案例
+C19,SC-C01-122,规划设计与实施准备,task,S 概念支持案例
+C19,SC-C01-131,数字参与与可视化工具,technology,S+M
+C19,SC-C01-141,参与表达与意见采集能力,capability,S+M
+C19,SC-C01-151,社区参与与意见收集,action,S+M
+C19,SC-C01-152,方案共制与居民协商决策,action,S 概念支持案例
+C19,SC-C01-155,跨组织协作与信息协调,action,S 概念支持案例
+C19,SC-C01-161,住区空间建筑与基础设施,target,S+M
+C19,SC-C01-171,实体环境与能源改造成效,outcome,S 概念支持案例
+C19,SC-C01-173,参与表达与规划共制成果,outcome,S+M
+C19,SC-C16-201,本地数字维护者,actor,S 概念支持案例
+C19,SC-C19-102,生成式 AI 参与式可视化,technology,S 概念支持案例
+C20,SC-C01-121,社区问题与需求识别,task,S 概念支持案例
+C20,SC-C01-122,规划设计与实施准备,task,S 概念支持案例
+C20,SC-C01-131,数字参与与可视化工具,technology,S 概念支持案例
+C20,SC-C01-152,方案共制与居民协商决策,action,S+M
+C20,SC-C01-155,跨组织协作与信息协调,action,S+M
+C20,SC-C01-174,治理决策与制度进展,outcome,S 概念支持案例
+C20,SC-C19-102,生成式 AI 参与式可视化,technology,S 概念支持案例
