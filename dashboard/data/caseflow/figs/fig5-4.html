@@ -1,0 +1,123 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8"/>
+<style>
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:#fff;font-family:'Microsoft YaHei','PingFang SC','Source Han Sans SC','Noto Sans CJK SC',sans-serif;color:#23262b;}
+  #wrap{width:1520px;padding:22px 26px 10px 26px;}
+  .bar{display:flex;align-items:center;gap:18px;padding:0 2px 12px 2px;border-bottom:1px solid #e8e3d8;}
+  .brand{font-size:15px;font-weight:600;letter-spacing:.3px;}
+  .brand i{font-style:normal;color:#a8763f;}
+  .tabs{display:flex;gap:6px;margin-left:6px;}
+  .tab{font-size:11.5px;color:#7b7466;padding:5px 11px;border-radius:11px;}
+  .tab.on{background:#f1ede3;color:#4a4335;font-weight:600;}
+  .cases{margin-left:auto;font-size:11px;color:#8b8477;display:flex;gap:8px;align-items:center;}
+  .round{display:grid;grid-template-columns:1fr 486px;gap:22px;padding:20px 2px 18px 2px;border-bottom:1px dashed #e6e1d6;}
+  .round:last-of-type{border-bottom:none;}
+  .rlabel{display:flex;align-items:center;gap:9px;margin-bottom:9px;}
+  .rno{width:20px;height:20px;border-radius:50%;background:#4f77a0;color:#fff;font-size:11px;display:flex;align-items:center;justify-content:center;font-weight:600;}
+  .rtitle{font-size:12.5px;font-weight:600;color:#3c3a33;letter-spacing:.4px;}
+  .rsub{font-size:10.5px;color:#9b9486;}
+  .q{display:flex;gap:9px;margin-bottom:9px;}
+  .av{width:22px;height:22px;border-radius:6px;font-size:10.5px;display:flex;align-items:center;justify-content:center;flex:none;font-weight:600;}
+  .av.r{background:#eaf2fa;color:#2f5a80;border:1px solid #cbdcec;}
+  .av.a{background:#f7f1e6;color:#8a6224;border:1px solid #e6d7bd;}
+  .bub{font-size:12.5px;line-height:1.65;color:#23262b;padding-top:1px;}
+  .a ul{margin:2px 0 0 0;padding-left:0;list-style:none;}
+  .a li{font-size:12.3px;line-height:1.72;color:#33363b;padding-left:13px;position:relative;margin-bottom:2px;}
+  .a li:before{content:"";position:absolute;left:2px;top:9px;width:4px;height:4px;border-radius:50%;background:#b9b1a0;}
+  .chip{display:inline-block;font-size:9.5px;padding:1px 5px;border-radius:3px;background:#f2f0ea;color:#6f6858;border:1px solid #e2dccd;margin-left:3px;white-space:nowrap;font-style:normal;}
+  .chip.ok{background:#eef6f0;border-color:#cfe3d6;color:#3d6b4e;}
+  .chip.warn{background:#fdf3e7;border-color:#ecd9bd;color:#8a6224;}
+  .chip.no{background:#f8edf1;border-color:#e8ccd5;color:#8a4055;}
+  .side{background:#fbfaf7;border:1px solid #e8e3d8;border-radius:8px;padding:12px 14px;}
+  .side h4{margin:0 0 9px 0;font-size:10.5px;color:#8b8477;font-weight:600;letter-spacing:1px;}
+  .row{display:flex;align-items:baseline;gap:7px;font-size:11.2px;line-height:1.75;color:#3a3d42;}
+  .row b{font-weight:600;color:#2b2e33;font-size:11.2px;flex:none;}
+  .dot{width:5px;height:5px;border-radius:50%;flex:none;margin-top:6px;}
+  .e{font-size:10.4px;line-height:1.62;color:#5d5a50;background:#fff;border:1px solid #ece7db;border-left:3px solid #c9bfa8;border-radius:4px;padding:6px 8px;margin-bottom:6px;}
+  .e em{font-style:normal;color:#9b9486;}
+  .e b{font-weight:600;color:#4a4335;}
+  table.cmp{width:100%;border-collapse:collapse;font-size:10.5px;}
+  table.cmp th{text-align:left;font-weight:600;color:#7b7466;padding:3px 4px;border-bottom:1px solid #e8e3d8;}
+  table.cmp td{padding:4px;border-bottom:1px solid #f0ece2;color:#3a3d42;vertical-align:top;}
+  .ok{color:#3d6b4e;}
+  .warn{color:#8a6224;}
+  .miss{color:#8a4055;}
+  .note{font-family:'Source Han Serif SC','Songti SC','SimSun',serif;font-size:12px;color:#4a4a4a;line-height:1.7;padding:12px 2px 0 2px;}
+  .note b{font-family:'Microsoft YaHei','PingFang SC','Source Han Sans SC','Noto Sans CJK SC',sans-serif;}
+</style></head><body><div id="wrap">
+
+<div class="bar">
+  <div class="brand">CaseFlow <i>·</i> 跨案例比较</div>
+  <div class="tabs"><span class="tab">案例图谱</span><span class="tab">路径分析</span><span class="tab on">比较辅助</span></div>
+  <div class="cases">比较对象　<span class="chip ">C19 Connect East Cleveland</span><span class="chip ">C20 普里什蒂纳</span><span class="chip ok">Jaccard 0.270</span></div>
+</div>
+
+<div class="round">
+  <div>
+    <div class="rlabel"><span class="rno">1</span><span class="rtitle">识别差异</span><span class="rsub">共享概念定位 → 关系路径检索</span></div>
+    <div class="q"><span class="av r">研</span><div class="bub">两案都使用生成式 AI 支持空间共创，参与成果进入实施的过程有什么不同？</div></div>
+    <div class="q a"><span class="av a">AI</span><div class="bub"><ul>
+      <li>C19 把参与产出组织为 <b>30 项场所营造行动</b>，逐项列明位置、牵头机构与实施时限<span class="chip ok">R043–R047</span></li>
+      <li>C20 形成 <b>3 份设计方案</b>，其中 2 份有启动实施记录，另有许可与采购信息<span class="chip ok">R036–R039</span></li>
+      <li>两案的共同点止于技术与参与表达；差异出现在<b>成果的组织形式</b></li>
+    </ul></div></div>
+  </div>
+  <div class="side">
+    <h4>检索到的关系路径</h4>
+    <div class="row"><span class="dot" style="background:#4f77a0"></span><b>C19</b> 30 项行动 → 牵头机构 → 单笔资金 → 绿道／住宅</div>
+    <div class="row"><span class="dot" style="background:#96606f"></span><b>C20</b> 3 份方案 → 启动实施 → RFQ → <span class="miss">（无中标记录）</span></div>
+    <h4 style="margin-top:12px">证据片段</h4>
+    <div class="e"><b>C19-M01-E22</b>　行动表逐项列出拟建位置、牵头/协作方与时限；土地银行是多数行动的主要牵头方。<em>PDF p.34–36</em></div>
+    <div class="e"><b>C20-M04-E01</b>　RFQ 于 2023-09-27 发布，2023-10-24 截止；<span class="miss">公告未提供中标或合同信息</span>。<em>UNGM</em></div>
+  </div>
+</div>
+
+<div class="round">
+  <div>
+    <div class="rlabel"><span class="rno">2</span><span class="rtitle">提出解释</span><span class="rsub">解释候选生成 → 证据缺口标注</span></div>
+    <div class="q"><span class="av r">研</span><div class="bub">这些差异是否与行动任务的分解程度及责任主体有关？</div></div>
+    <div class="q a"><span class="av a">AI</span><div class="bub"><ul>
+      <li>候选解释：可实施性 ≈ <b>行动颗粒度 × 承接主体明确度</b>（H1）</li>
+      <li>支持：C19 每项行动有主体<span class="chip ok">R044–R046</span>，后续有可对应的单笔资金<span class="chip ">R096</span><span class="chip ok">R085–R086</span></li>
+      <li>缺口：C20 的"方案—承建主体—建设结果"三段对应不完整<span class="chip warn">待补证</span></li>
+      <li>该解释目前为 <b>hypothesis</b>，未达 conclusion</li>
+    </ul></div></div>
+  </div>
+  <div class="side">
+    <h4>三环节对照</h4>
+    <table class="cmp">
+      <tr><th>环节</th><th>C19</th><th>C20</th></tr>
+      <tr><td>成果形成</td><td class="ok">30 项行动 + 最终报告</td><td class="ok">3 份设计方案</td></tr>
+      <tr><td>行动安排</td><td class="ok">逐项主体 + 时限</td><td class="warn">启动实施 + RFQ</td></tr>
+      <tr><td>建设结果</td><td class="warn">部分建成（7 套 / 绿道）</td><td class="miss">对应关系未说明</td></tr>
+    </table>
+    <h4 style="margin-top:12px">证据片段</h4>
+    <div class="e"><b>C20-M03-E03</b>　"1 个公园因 Parks Foundation 平台完成更新"评为 Fully achieved；<span class="miss">未说明是哪一处公园，也未说明是否属于两份批准设计</span>。<em>M03 p.27</em></div>
+  </div>
+</div>
+
+<div class="round">
+  <div>
+    <div class="rlabel"><span class="rno">3</span><span class="rtitle">寻找替代解释</span><span class="rsub">竞争解释 → 反证与边界</span></div>
+    <div class="q"><span class="av r">研</span><div class="bub">能否由此认定行动分解使 C19 更容易实施？是否还有其他影响条件？</div></div>
+    <div class="q a"><span class="av a">AI</span><div class="bub"><ul>
+      <li>A1 资金规模：C19 依托 1.22 亿美元再开发计划；C20 为 97 万欧元项目 + 27 万欧元后续<span class="chip warn">待核</span></li>
+      <li>A2 观察时间：C19 记录至 2026；C20 的 UTI 仅 1 年<span class="chip warn">待核</span></li>
+      <li>A3 开发权：土地银行具备收储与开发权，市府无<span class="chip warn">待核</span></li>
+      <li>反证：C19 规划 33–34 套，实际建成或翻新 <b>7 套</b><span class="chip ">R082–R083</span>，且存在授权争议<span class="chip no">R079</span></li>
+      <li>裁定建议：维持 hypothesis，不得归因于行动分解</li>
+    </ul></div></div>
+  </div>
+  <div class="side">
+    <h4>竞争解释清单</h4>
+    <div class="row"><span class="dot" style="background:#b07b42"></span><b>A1</b> 资金规模　<span class="warn">→ 补两案单笔金额量级对比</span></div>
+    <div class="row"><span class="dot" style="background:#b07b42"></span><b>A2</b> 观察时间　<span class="warn">→ 补 2025 年后市政公开记录</span></div>
+    <div class="row"><span class="dot" style="background:#b07b42"></span><b>A3</b> 法定开发权　<span class="warn">→ 补承接主体权限对比</span></div>
+    <div class="row"><span class="dot" style="background:#96606f"></span><b>A4</b> 报道偏差　<span class="miss">→ 最危险：不需推翻任何证据即可令全链降级</span></div>
+    <h4 style="margin-top:12px">证据片段</h4>
+    <div class="e"><b>C19-M26-E01</b>　Phase 1 首期投资 460 万美元，<b>建成或翻新 7 套住宅</b>，18 户居民平均获 1.8 万美元修缮资助。<em>NEOtrans 2026-07</em></div>
+  </div>
+</div>
+
+<div class="note"><b>图 5-4</b>　CaseFlow 跨案例人机对谈界面及知识检索结果。三个回合依次为共同概念定位、关系路径检索与竞争解释追问，右侧关联对应的关系路径与证据片段。本图为依据现有探查内容整理的<b>示意稿</b>，正式图应替换为实际运行记录与截图。</div>
+</div></body></html>
